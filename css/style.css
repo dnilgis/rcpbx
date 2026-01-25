@@ -65,11 +65,12 @@ a{color:inherit;text-decoration:none}
 .breadcrumb span{margin:0 0.4rem;color:var(--text-dim)}
 
 /* Recipe Page */
-.recipe-header{max-width:var(--max-width);margin:0 auto;padding:0.5rem 1.5rem 1.5rem;border-bottom:1px solid var(--border)}
+.recipe-card{max-width:var(--max-width);margin:0 auto}
+.recipe-header{padding:0.5rem 1.5rem 1.5rem;border-bottom:1px solid var(--border)}
 .recipe-title{font-size:1.75rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:0.5rem}
 .recipe-source{display:inline-flex;align-items:center;gap:0.4rem;background:var(--accent-dim);color:var(--accent);padding:0.3rem 0.6rem;border-radius:4px;font-family:var(--font-mono);font-size:0.75rem;font-weight:500;margin-bottom:0.75rem}
 .recipe-source a{color:inherit;text-decoration:underline;text-underline-offset:2px}
-.recipe-meta{display:flex;gap:1.5rem;font-family:var(--font-mono);font-size:0.8rem;flex-wrap:wrap}
+.recipe-meta{display:flex;gap:1.5rem;font-family:var(--font-mono);font-size:0.8rem;flex-wrap:wrap;padding:0}
 .recipe-meta .item{display:flex;gap:0.4rem}
 .recipe-meta .label{color:var(--text-muted)}
 .recipe-meta .value{font-weight:500}
@@ -90,14 +91,14 @@ a{color:inherit;text-decoration:none}
 @media(max-width:768px){.recipe-body{grid-template-columns:1fr}}
 .ingredients{padding:1.5rem;border-right:1px solid var(--border)}
 @media(max-width:768px){.ingredients{position:static;border-right:none;border-bottom:1px solid var(--border);max-height:none}}
-.ingredients h2,.instructions h2,.recipe-notes h2{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:0.75rem;font-weight:600}
+.ingredients h2,.steps h2,.recipe-notes h2{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:0.75rem;font-weight:600}
 .ingredients-list{list-style:none}
 .ingredients-list li{font-family:var(--font-mono);font-size:0.85rem;padding:0.4rem 0;border-bottom:1px solid var(--border);cursor:pointer;transition:all 0.15s}
 .ingredients-list li:hover{background:var(--bg-alt);margin:0 -0.5rem;padding-left:0.5rem;padding-right:0.5rem}
 .ingredients-list li.checked{color:var(--text-dim);text-decoration:line-through}
 .ingredients-list .amount{color:var(--accent);font-weight:500}
-.instructions{padding:1.5rem 1.5rem 3rem}
-.instructions h2{margin-bottom:1rem}
+.steps{padding:1.5rem 1.5rem 3rem 2rem}
+.steps h2{margin-bottom:1rem}
 .steps-list{list-style:none;counter-reset:step}
 .steps-list li{position:relative;padding:0.75rem 0 0.75rem 2.5rem;border-bottom:1px solid var(--border);cursor:pointer;transition:all 0.15s;font-size:0.95rem}
 .steps-list li::before{counter-increment:step;content:counter(step);position:absolute;left:0;top:0.75rem;width:1.5rem;height:1.5rem;background:var(--bg-alt);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:0.7rem;font-weight:500;color:var(--text-muted)}
@@ -137,7 +138,7 @@ a{color:inherit;text-decoration:none}
   .recipe-title{font-size:1.5rem}
   .recipe-source{font-size:0.8rem;padding:0.4rem 0.7rem}
   .recipe-meta{font-size:0.85rem;gap:1rem}
-  .ingredients h2,.instructions h2,.recipe-notes h2{font-size:0.75rem}
+  .ingredients h2,.steps h2,.recipe-notes h2{font-size:0.75rem}
   .ingredients-list li{font-size:0.95rem}
   .steps-list li{font-size:1rem;line-height:1.5}
   .recipe-notes p{font-size:0.85rem}
@@ -178,7 +179,7 @@ a{color:inherit;text-decoration:none}
   .ingredients-list li{padding:0.875rem 0.5rem;margin:0 -0.5rem;border-radius:4px}
   .ingredients-list li:active{background:var(--accent-dim)}
   .ingredients-list li.checked{background:var(--bg-alt)}
-  .instructions{padding:1.25rem 1rem 6rem}
+  .steps{padding:1.25rem 1rem 6rem}
 }
 
 /* Wake lock toggle - prominent cooking mode */
@@ -195,7 +196,7 @@ a{color:inherit;text-decoration:none}
   .site-header,.site-footer,.recipe-controls,.breadcrumb,.wake-lock{display:none!important}
   .recipe-body{display:block;border:none;margin:0}
   .ingredients{position:static;border:none;border-bottom:1px solid #ccc;padding:0 0 1rem 0;margin-bottom:1rem}
-  .instructions{padding:0}
+  .steps{padding:0}
   .recipe-header{padding:0 0 1rem 0;border-bottom:1px solid #ccc;margin-bottom:1rem}
   .recipe-title{font-size:1.5rem}
   .recipe-source{background:#eee!important;color:#000!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
