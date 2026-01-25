@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rcpbx — the recipe box</title>
+  <meta name="description" content="111 reliable recipes. No life stories. No ads. Just recipes that work.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="./" class="logo">rcpbx</a>
+    </div>
+  </header>
+  <main>
+    <section class="home-hero">
+      <h1>111 recipes. No bullshit.</h1>
+      <p>Test kitchen validated. No life stories.</p>
+    </section>
+    <div class="search-container">
+      <div class="search-box">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" class="search-input" id="search" placeholder="Search recipes..." autocomplete="off" autofocus>
+        <div class="search-results" id="search-results"></div>
+      </div>
+    </div>
+    <div class="category-grid">
+      <a href="recipes/soups-stews/" class="category-link"><span class="name">Soups & Stews</span><span class="count">(12)</span></a>
+      <a href="recipes/pasta/" class="category-link"><span class="name">Pasta</span><span class="count">(12)</span></a>
+      <a href="recipes/chicken/" class="category-link"><span class="name">Chicken</span><span class="count">(12)</span></a>
+      <a href="recipes/beef/" class="category-link"><span class="name">Beef</span><span class="count">(12)</span></a>
+      <a href="recipes/pork/" class="category-link"><span class="name">Pork</span><span class="count">(8)</span></a>
+      <a href="recipes/seafood/" class="category-link"><span class="name">Seafood</span><span class="count">(8)</span></a>
+      <a href="recipes/breakfast/" class="category-link"><span class="name">Breakfast</span><span class="count">(12)</span></a>
+      <a href="recipes/sides/" class="category-link"><span class="name">Sides</span><span class="count">(12)</span></a>
+      <a href="recipes/baking-dessert/" class="category-link"><span class="name">Baking & Desserts</span><span class="count">(13)</span></a>
+      <a href="recipes/basics/" class="category-link"><span class="name">Basics</span><span class="count">(10)</span></a>
+    </div>
+    <div class="tips-card">
+      <div class="tips-card-inner">
+        <h2>Quick Tips</h2>
+        <ul class="tips-list">
+          <li>Salt pasta water like the sea</li>
+          <li>Rest meat 5-10 min before cutting</li>
+          <li>Cold butter = flaky crusts</li>
+          <li>Mise en place before you start</li>
+          <li>Pat proteins dry for better sear</li>
+          <li>Taste as you go, adjust at the end</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer"><p>rcpbx — recipes, no bullshit</p></footer>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>
