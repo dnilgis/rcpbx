@@ -88,7 +88,7 @@ a{color:inherit;text-decoration:none}
 /* Two-Column Layout */
 .recipe-body{max-width:var(--max-width);margin:0 auto;display:grid;grid-template-columns:280px 1fr}
 @media(max-width:768px){.recipe-body{grid-template-columns:1fr}}
-.ingredients{padding:1.5rem;border-right:1px solid var(--border);position:sticky;top:var(--header-height);height:fit-content;max-height:calc(100vh - var(--header-height));overflow-y:auto}
+.ingredients{padding:1.5rem;border-right:1px solid var(--border)}
 @media(max-width:768px){.ingredients{position:static;border-right:none;border-bottom:1px solid var(--border);max-height:none}}
 .ingredients h2,.instructions h2,.recipe-notes h2{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:0.75rem;font-weight:600}
 .ingredients-list{list-style:none}
@@ -222,3 +222,22 @@ a{color:inherit;text-decoration:none}
 
 /* Checked ingredient slide */
 .ingredients-list li.checked{transform:translateX(8px);opacity:0.5}
+
+/* Hide photo placeholder */
+.recipe-photo{display:none}
+
+/* Recipe footer (source attribution) */
+.recipe-footer{max-width:var(--max-width);margin:0 auto;padding:1rem 1.5rem;font-family:var(--font-mono);font-size:0.8rem;color:var(--text-muted);border-top:1px solid var(--border)}
+.recipe-footer span{display:inline-flex;align-items:center;gap:0.4rem}
+.recipe-footer span::before{content:'—';color:var(--text-dim)}
+
+/* Recipe tagline */
+.recipe-tagline{color:var(--text-muted);font-size:0.95rem;margin-bottom:1rem}
+
+/* Recipe meta styling */
+.meta-item{display:flex;flex-direction:column;gap:0.125rem}
+.meta-label{font-size:0.65rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted)}
+.meta-value{font-weight:600;font-family:var(--font-mono)}
+
+/* Section titles in recipe body */
+.section-title{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:0.75rem;font-weight:600}
