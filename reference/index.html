@@ -2,91 +2,181 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Kitchen Reference | rcpbx</title>
   <meta name="description" content="Essential kitchen reference - conversions, temps, times, substitutions. No BS.">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2VNWY2BFX"></script>
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-E2VNWY2BFX');
+    gtag('config', 'G-XXXXXXXXXX');
   </script>
-  <link rel="stylesheet" href="../css/style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    .ref-container{max-width:var(--max-width);margin:0 auto;padding:0 1.5rem 3rem}
-    .ref-header{text-align:center;padding:2rem 0 1.5rem;border-bottom:1px solid var(--border);margin-bottom:1.5rem}
-    .ref-header h1{font-size:1.75rem;font-weight:700;letter-spacing:-0.02em;margin:0 0 0.25rem}
-    .ref-header p{color:var(--text-muted);font-size:0.9rem;margin:0}
-    .ref-search{max-width:480px;margin:0 auto 1.5rem;position:relative}
-    .ref-search input{width:100%;padding:0.875rem 1rem;font-family:var(--font-mono);font-size:0.9rem;background:#fff;border:2px solid var(--border);color:var(--text);border-radius:6px}
-    .ref-search input:focus{outline:none;border-color:var(--accent)}
-    .ref-search input::placeholder{color:var(--text-dim)}
-    .ref-nav{display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:1px solid var(--border)}
-    .ref-nav a{font-family:var(--font-mono);font-size:0.7rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);text-decoration:none;padding:0.3rem 0.5rem;border:1px solid transparent;border-radius:4px;transition:all 0.15s}
-    .ref-nav a:hover{color:var(--accent);border-color:var(--accent)}
-    .ref-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1px;background:var(--border);border:1px solid var(--border)}
-    .ref-section{background:var(--bg);overflow:hidden}
-    .ref-section.hidden{display:none}
-    .ref-section-header{background:var(--bg-alt);padding:0.75rem 1rem;border-bottom:1px solid var(--border);cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;transition:background 0.15s}
-    .ref-section-header:hover{background:var(--bg)}
-    .ref-section-header h2{font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;margin:0;color:var(--text-muted)}
-    .ref-section-header h2::before{content:'>';color:var(--accent);margin-right:0.4rem;font-family:var(--font-mono)}
-    .ref-section-header .toggle{font-size:0.7rem;color:var(--text-dim);transition:transform 0.2s}
-    .ref-section.collapsed .toggle{transform:rotate(-90deg)}
-    .ref-section.collapsed .ref-section-content{display:none}
-    .ref-section-content{padding:0.75rem 1rem}
-    .ref-table{width:100%;font-family:var(--font-mono);font-size:0.8rem;border-collapse:collapse}
-    .ref-table tr{border-bottom:1px solid var(--border)}
-    .ref-table tr:last-child{border-bottom:none}
-    .ref-table td{padding:0.4rem 0;vertical-align:top}
-    .ref-table td:first-child{color:var(--text);padding-right:1rem}
-    .ref-table td:last-child{color:var(--text-muted);text-align:right}
-    .ref-list{list-style:none;padding:0;margin:0;font-family:var(--font-mono);font-size:0.8rem}
-    .ref-list li{padding:0.4rem 0;border-bottom:1px solid var(--border);color:var(--text-muted)}
-    .ref-list li:last-child{border-bottom:none}
-    .ref-list li::before{content:"—";color:var(--text-dim);margin-right:0.5rem}
-    .section-note{font-family:var(--font-mono);font-size:0.75rem;color:var(--text-dim);font-style:italic;padding-top:0.5rem;border-top:1px dashed var(--border);margin-top:0.5rem}
-    .print-btn{position:fixed;bottom:1rem;right:1rem;background:var(--bg);border:1px solid var(--border);color:var(--text-muted);padding:0.5rem 1rem;font-family:var(--font-mono);font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;cursor:pointer;border-radius:4px;z-index:100;transition:all 0.15s}
-    .print-btn:hover{border-color:var(--accent);color:var(--accent)}
-    .keyboard-hint{text-align:center;font-family:var(--font-mono);font-size:0.75rem;color:var(--text-dim);margin-bottom:1.5rem}
-    .keyboard-hint kbd{background:var(--bg-alt);border:1px solid var(--border);padding:0.15rem 0.4rem;border-radius:3px;font-size:0.7rem}
-    @media print{
-      @page{size:letter;margin:0.4in}
-      *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
-      body{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:8pt;line-height:1.3;background:white!important;color:#000!important}
-      .ref-nav,.ref-search,.print-btn,.keyboard-hint,.toggle,.site-header,.site-footer{display:none!important}
-      .ref-container{padding:0;max-width:none}
-      .ref-header{padding:0.2in 0;margin-bottom:0.15in;text-align:center;border-bottom:1pt solid #000}
-      .ref-header h1{font-size:16pt;margin:0 0 0.05in}
-      .ref-header p{font-size:8pt;color:#666;margin:0}
-      .ref-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0.1in;background:transparent;border:none}
-      .ref-section{break-inside:avoid;border:0.5pt solid #999;margin:0;page-break-inside:avoid}
-      .ref-section.collapsed .ref-section-content{display:block!important;max-height:none!important}
-      .ref-section-header{background:#f0f0f0!important;padding:0.08in;border-bottom:0.5pt solid #ccc}
-      .ref-section-header h2{font-size:7pt;margin:0;color:#333}
-      .ref-section-header h2::before{color:#16a34a}
-      .ref-section-content{padding:0.08in}
-      .ref-table{width:100%;font-size:6.5pt;border-collapse:collapse}
-      .ref-table td{padding:0.02in 0;border:none}
-      .ref-table td:first-child{font-weight:500}
-      .ref-table td:last-child{text-align:right;color:#444}
-      .ref-list{font-size:6.5pt;padding-left:0.12in;margin:0}
-      .ref-list li{padding:0.01in 0}
-      .section-note{font-size:5.5pt;color:#666;font-style:italic;margin-top:0.04in;padding-top:0.04in;border-top:0.25pt solid #ddd}
+    :root {
+      --bg: #faf9f6;
+      --bg-alt: #f0efeb;
+      --text: #222;
+      --text-muted: #666;
+      --text-dim: #999;
+      --border: #ddd;
+      --accent: #16a34a;
+      --accent-dim: rgba(22,163,74,0.1);
+      --font-sans: 'Inter', -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+      --max-width: 1100px;
+      --header-height: 56px;
     }
-    @media(max-width:768px){.ref-grid{grid-template-columns:1fr}.ref-nav{gap:0.3rem}.ref-nav a{font-size:0.65rem;padding:0.25rem 0.4rem}.ref-container{padding:0 1rem 3rem}}
-    @media(prefers-color-scheme:dark){.ref-search input{background:var(--bg-alt)}}
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111;
+        --bg-alt: #1a1a1a;
+        --text: #e5e5e5;
+        --text-muted: #999;
+        --text-dim: #666;
+        --border: #333;
+        --accent: #22c55e;
+        --accent-dim: rgba(34,197,94,0.15);
+      }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-family: var(--font-sans); background: var(--bg); color: var(--text); }
+    body { min-height: 100vh; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
+
+    /* Animated Logo */
+    .logo-container { position: relative; display: inline-block; cursor: pointer; text-decoration: none; }
+    .logo-text { font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600; letter-spacing: -0.02em; color: var(--text); display: flex; align-items: baseline; }
+    .logo-prefix { color: var(--accent); margin-right: 0.15em; }
+    .logo-char { display: inline-block; transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease; }
+    .logo-vowel { opacity: 0; transform: translateY(-20px); width: 0; overflow: hidden; transition: width 0.35s ease, opacity 0.4s ease, transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1); }
+    .logo-container:hover .logo-vowel, .logo-container:focus .logo-vowel, .logo-container.active .logo-vowel { opacity: 1; transform: translateY(0); }
+    .logo-container:hover .logo-vowel.v-e1, .logo-container.active .logo-vowel.v-e1 { width: 0.62em; transition-delay: 0s; }
+    .logo-container:hover .logo-vowel.v-i, .logo-container.active .logo-vowel.v-i { width: 0.5em; transition-delay: 0.06s; }
+    .logo-container:hover .logo-vowel.v-e2, .logo-container.active .logo-vowel.v-e2 { width: 0.62em; transition-delay: 0.12s; }
+    .logo-container:hover .logo-vowel.v-o, .logo-container.active .logo-vowel.v-o { width: 0.68em; transition-delay: 0.18s; }
+    .logo-container:not(:hover):not(.active) .logo-vowel { transform: translateY(30px); opacity: 0; }
+    .logo-container:not(:hover):not(.active) .logo-vowel.v-e1 { transition-delay: 0.18s; }
+    .logo-container:not(:hover):not(.active) .logo-vowel.v-i { transition-delay: 0.12s; }
+    .logo-container:not(:hover):not(.active) .logo-vowel.v-e2 { transition-delay: 0.06s; }
+    .logo-container:not(:hover):not(.active) .logo-vowel.v-o { transition-delay: 0s; }
+
+    /* Header */
+    .site-header { height: var(--header-height); border-bottom: 1px solid var(--border); display: flex; align-items: center; padding: 0 1.5rem; position: sticky; top: 0; background: var(--bg); z-index: 100; }
+    .site-header .container { max-width: var(--max-width); margin: 0 auto; width: 100%; display: flex; justify-content: space-between; align-items: center; }
+    .header-link { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); text-decoration: none; }
+    .header-link:hover { color: var(--accent); }
+
+    /* Reference container */
+    .ref-container { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem 3rem; }
+    .ref-header { text-align: center; padding: 2rem 0 1.5rem; border-bottom: 1px solid var(--border); margin-bottom: 1.5rem; }
+    .ref-header h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.02em; margin: 0 0 0.25rem; }
+    .ref-header p { color: var(--text-muted); font-size: 0.9rem; margin: 0; }
+
+    /* Search */
+    .ref-search { max-width: 480px; margin: 0 auto 1.5rem; position: relative; }
+    .ref-search input { width: 100%; padding: 0.875rem 1rem; font-family: var(--font-mono); font-size: 0.9rem; background: #fff; border: 2px solid var(--border); color: var(--text); border-radius: 6px; }
+    .ref-search input:focus { outline: none; border-color: var(--accent); }
+    .ref-search input::placeholder { color: var(--text-dim); }
+    @media (prefers-color-scheme: dark) { .ref-search input { background: var(--bg-alt); } }
+
+    .keyboard-hint { text-align: center; font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-dim); margin-bottom: 1.5rem; }
+    .keyboard-hint kbd { background: var(--bg-alt); border: 1px solid var(--border); padding: 0.15rem 0.4rem; border-radius: 3px; font-size: 0.7rem; }
+
+    /* Navigation */
+    .ref-nav { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border); }
+    .ref-nav a { font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); text-decoration: none; padding: 0.3rem 0.5rem; border: 1px solid transparent; border-radius: 4px; transition: all 0.15s; }
+    .ref-nav a:hover { color: var(--accent); border-color: var(--accent); }
+
+    /* Grid */
+    .ref-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+    .ref-section { background: var(--bg); overflow: hidden; }
+    .ref-section.hidden { display: none; }
+    .ref-section-header { background: var(--bg-alt); padding: 0.75rem 1rem; border-bottom: 1px solid var(--border); cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; transition: background 0.15s; }
+    .ref-section-header:hover { background: var(--bg); }
+    .ref-section-header h2 { font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; margin: 0; color: var(--text-muted); }
+    .ref-section-header h2::before { content: '>'; color: var(--accent); margin-right: 0.4rem; font-family: var(--font-mono); }
+    .ref-section-header .toggle { font-size: 0.7rem; color: var(--text-dim); transition: transform 0.2s; }
+    .ref-section.collapsed .toggle { transform: rotate(-90deg); }
+    .ref-section.collapsed .ref-section-content { display: none; }
+    .ref-section-content { padding: 0.75rem 1rem; }
+
+    /* Tables */
+    .ref-table { width: 100%; font-family: var(--font-mono); font-size: 0.8rem; border-collapse: collapse; }
+    .ref-table tr { border-bottom: 1px solid var(--border); }
+    .ref-table tr:last-child { border-bottom: none; }
+    .ref-table td { padding: 0.4rem 0; vertical-align: top; }
+    .ref-table td:first-child { color: var(--text); padding-right: 1rem; }
+    .ref-table td:last-child { color: var(--text-muted); text-align: right; }
+
+    /* Lists */
+    .ref-list { list-style: none; padding: 0; margin: 0; font-family: var(--font-mono); font-size: 0.8rem; }
+    .ref-list li { padding: 0.4rem 0; border-bottom: 1px solid var(--border); color: var(--text-muted); }
+    .ref-list li:last-child { border-bottom: none; }
+    .ref-list li::before { content: "—"; color: var(--text-dim); margin-right: 0.5rem; }
+    .section-note { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-dim); font-style: italic; padding-top: 0.5rem; border-top: 1px dashed var(--border); margin-top: 0.5rem; }
+
+    /* Print button */
+    .print-btn { position: fixed; bottom: 1rem; right: 1rem; background: var(--bg); border: 1px solid var(--border); color: var(--text-muted); padding: 0.5rem 1rem; font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; cursor: pointer; border-radius: 4px; z-index: 100; transition: all 0.15s; }
+    .print-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* Footer */
+    .site-footer { border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; }
+    .site-footer p { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-dim); }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .ref-grid { grid-template-columns: 1fr; }
+      .ref-nav { gap: 0.3rem; }
+      .ref-nav a { font-size: 0.65rem; padding: 0.25rem 0.4rem; }
+      .ref-container { padding: 0 1rem 3rem; }
+    }
+
+    /* ===== FULL PAGE PDF PRINT STYLES ===== */
+    @media print {
+      @page { size: letter; margin: 0.4in 0.35in; }
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+      html, body { font-size: 8pt !important; background: white !important; color: black !important; }
+      .site-header, .site-footer, .ref-nav, .ref-search, .print-btn, .keyboard-hint, .toggle { display: none !important; }
+      .ref-container { max-width: none !important; padding: 0 !important; margin: 0 !important; }
+      .ref-header { text-align: center; padding: 0 0 0.15in !important; margin-bottom: 0.15in !important; border-bottom: 1pt solid #999 !important; }
+      .ref-header h1 { font-size: 14pt !important; margin: 0 !important; }
+      .ref-header p { font-size: 9pt !important; color: #666 !important; margin: 0.05in 0 0 !important; }
+      .ref-grid { display: grid !important; grid-template-columns: repeat(3, 1fr) !important; gap: 0.08in !important; background: transparent !important; border: none !important; }
+      .ref-section { break-inside: avoid !important; page-break-inside: avoid !important; border: 0.5pt solid #ccc !important; background: white !important; margin: 0 !important; }
+      .ref-section.collapsed .ref-section-content, .ref-section.hidden { display: block !important; }
+      .ref-section-header { background: #f5f5f5 !important; padding: 0.06in 0.08in !important; border-bottom: 0.5pt solid #ddd !important; }
+      .ref-section-header h2 { font-size: 7pt !important; color: #333 !important; font-weight: 700 !important; }
+      .ref-section-header h2::before { color: #16a34a !important; }
+      .ref-section-content { padding: 0.06in 0.08in !important; }
+      .ref-table { font-size: 6.5pt !important; }
+      .ref-table td { padding: 0.02in 0 !important; }
+      .ref-table td:first-child { color: #222 !important; }
+      .ref-table td:last-child { color: #555 !important; }
+      .ref-table tr { border-bottom: 0.25pt solid #eee !important; }
+      .ref-list { font-size: 6.5pt !important; }
+      .ref-list li { padding: 0.02in 0 !important; color: #444 !important; border-bottom: 0.25pt solid #eee !important; }
+      .section-note { font-size: 6pt !important; color: #777 !important; padding-top: 0.03in !important; margin-top: 0.03in !important; border-top: 0.25pt dashed #ccc !important; }
+    }
   </style>
 </head>
 <body>
   <header class="site-header">
     <div class="container">
-      <a href="../" class="logo">rcpbx</a>
+      <a href="../" class="logo-container" tabindex="0">
+        <span class="logo-text">
+          <span class="logo-prefix">&gt;</span><span class="logo-char">r</span><span class="logo-vowel v-e1">e</span><span class="logo-char">c</span><span class="logo-vowel v-i">i</span><span class="logo-char">p</span><span class="logo-vowel v-e2">e</span><span class="logo-char">b</span><span class="logo-vowel v-o">o</span><span class="logo-char">x</span>
+        </span>
+      </a>
       <a href="../" class="header-link">← recipes</a>
     </div>
   </header>
+
   <main class="ref-container">
     <header class="ref-header">
       <h1>Kitchen Reference</h1>
@@ -98,15 +188,102 @@
     <p class="keyboard-hint">Press <kbd>/</kbd> to search · <kbd>Esc</kbd> to clear</p>
     <nav class="ref-nav" id="nav"></nav>
     <div class="ref-grid" id="grid"></div>
-    <button class="print-btn" onclick="window.print()">🧲 Print for Fridge</button>
+    <button class="print-btn" onclick="window.print()">Print / PDF</button>
   </main>
+
   <footer class="site-footer"><p>rcpbx — recipes, no bullshit</p></footer>
+
   <script>
-const data={volume:{title:"Volume",items:[["1 Tbsp","3 tsp"],["1 cup","16 Tbsp / 8 fl oz / 237ml"],["1 pint","2 cups / 473ml"],["1 quart","4 cups / 2 pints"],["1 gallon","4 quarts / 3.8L"],["1 liter","4.2 cups / 1000ml"],["1 fl oz","2 Tbsp / 30ml"]]},weight:{title:"Weight",items:[["1 oz","28g"],["1 lb","16 oz / 454g"],["1 kg","2.2 lb / 35 oz"],["Stick butter","113g / 4 oz / 8 Tbsp"]]},flour:{title:"Flour (1 cup)",items:[["All-purpose","125g"],["Bread flour","130g"],["Cake flour","115g"],["Whole wheat","130g"],["Almond flour","96g"],["Cornmeal","150g"],["Cornstarch","128g"]]},sugar:{title:"Sugar (1 cup)",items:[["Granulated","200g"],["Brown (packed)","220g"],["Powdered","120g"],["Honey / maple","340g"],["Corn syrup","340g"]]},otherWeights:{title:"Other Weights (1 cup)",items:[["Oats","90g"],["Breadcrumbs (dry)","110g"],["Cocoa powder","85g"],["Peanut butter","250g"],["Sour cream / yogurt","230g"],["Shredded cheese","115g"],["Chopped nuts","150g"],["Heavy cream","240g"],["Milk","245g"]]},salt:{title:"Salt (1 tsp)",items:[["Table salt","6g"],["Morton Kosher","5g"],["Diamond Crystal","3g (½ vol of table)"]]},eggs:{title:"Eggs",items:[["1 large egg","50g / 3 Tbsp"],["1 white","30g / 2 Tbsp"],["1 yolk","18g / 1 Tbsp"],["5 large eggs","1 cup"],["8 large whites","1 cup"],["Soft boil","6 min"],["Medium boil","10 min"],["Hard boil","12 min → ice bath"]]},ovenTemps:{title:"Oven Temps",items:[["Warm","200°F / 95°C"],["Low","250-300°F / 120-150°C"],["Moderate","350°F / 175°C"],["Hot","400°F / 205°C"],["Very hot","450°F / 230°C"],["Broil","500°F+"]],note:"C = (F - 32) × 5/9"},meatTemps:{title:"Meat Temps (Pull 5°F Early)",items:[["Beef rare","120°F"],["Beef medium-rare","130°F"],["Beef medium","140°F"],["Beef well done","155°F+"],["Pork chops","145°F"],["Pork shoulder (pull)","195-205°F"],["Chicken breast","160°F / 71°C"],["Chicken thigh","175°F"],["Ground meat","160°F"],["Fish","145°F"],["Salmon (med)","125°F"]],note:"Carryover adds 5-10°F"},grilling:{title:"Grilling (High Heat)",items:[["Burger (¾in)","4-5 min"],["Chicken breast","6-8 min"],["Chicken thigh","8-10 min"],["Pork chop (1in)","4-5 min"],["Steak (1in)","4-5 min"],["Shrimp (large)","2-3 min"],["Fish fillet","3-4 min"],["Hot dogs","5-7 min total"]],note:"450-650°F. Preheat 15 min. Flip once."},roasting:{title:"Roasting (Oven)",items:[["Whole chicken @425°F","20 min/lb"],["Chicken pieces @400°F","35-45 min"],["Turkey @325°F","13 min/lb"],["Prime rib","450°F then 325°F"],["Salmon @400°F","12-15 min"],["Pork shoulder @275°F","1.5 hrs/lb"],["Pork loin @375°F","25-30 min/lb"]]},restTimes:{title:"Rest Before Cutting",items:[["Steaks / chops","5-10 min"],["Whole chicken","10-15 min"],["Chicken pieces","5-10 min"],["Turkey","15-45 min"],["Large roasts","20-30 min"]]},oilSmoke:{title:"Oil Smoke Points",items:[["Extra virgin olive","325-375°F"],["Coconut (virgin)","350°F"],["Butter","350°F"],["Ghee/Clarified","450°F"],["Peanut","450°F"],["Vegetable/canola","400-450°F"],["Avocado (refined)","520°F"]],note:"High heat = use refined oils"},marinating:{title:"Marinating Times",items:[["Fish / shrimp","15-30 min max"],["Chicken pieces","2-4 hr"],["Pork chops","4 hr"],["Steak","2-4 hr"],["Large roasts","4-24 hr"],["Vegetables","30 min - 1 hr"],["Tofu","30 min - overnight"]],note:"Acid makes fish mushy. Marinate in fridge."},riceGrains:{title:"Rice & Grains",items:[["White rice","1:1.5 → 18 min"],["Basmati (rinse)","1:1.5 → 15 min"],["Jasmine","1:1.5 → 18 min"],["Brown rice","1:2 → 45 min"],["Quinoa (rinse)","1:1.25 → 15 min"],["Farro","1:2.5 → 25 min"],["Barley","1:3 → 45 min"],["Couscous","1:1 → 5 min"],["Steel-cut oats","1:3 → 20-30 min"],["Polenta","1:4 → 30-40 min"]],note:"Ratio = grain:water. Rest 5-10 min, fluff."},beans:{title:"Beans (Soak Overnight)",items:[["Black beans","60-90 min"],["Cannellini","60-90 min"],["Kidney / pinto","90 min"],["Chickpeas","90 min"],["Lima / butter","60-90 min"],["Lentils (no soak)","20-30 min"],["Split peas (no soak)","45-60 min"]],note:"1 dry ≈ 3× cooked. Salt after soft."},pasta:{title:"Pasta",items:[["Fresh pasta","2-4 min"],["Angel hair","4-6 min"],["Spaghetti","8-10 min"],["Penne / rigatoni","10-12 min"],["Egg noodles","6-8 min"]],note:"Salt like the sea. Save pasta water!"},vegetables:{title:"Roast Vegetables (450°F)",items:[["Potato cubes","30-45 min"],["Root veg","30-45 min"],["Broccoli / cauli","25-35 min"],["Brussels sprouts","25-35 min"],["Zucchini / squash","20-25 min"],["Asparagus","12-20 min"],["Green beans","20-25 min"],["Mushrooms","20-25 min"],["Butternut squash","35-45 min"]],note:"Toss in oil, spread out, flip halfway"},slowCooker:{title:"Slow Cooker",items:[["Chicken (whole)","Low 6-8hr / High 3-4hr"],["Pork shoulder","Low 8-10hr / High 4-6hr"],["Beef roast","Low 8-10hr / High 4-5hr"],["Ribs","Low 6-8hr / High 3-4hr"],["Stew","Low 7-8hr / High 4-5hr"],["Chili","Low 6-8hr / High 3-4hr"]],note:"Reduce liquid ⅓. Don't lift lid = +20 min"},instantPot:{title:"Instant Pot (High Pressure)",items:[["Chicken breast","8-10 min NPR"],["Chicken (whole)","6 min/lb NPR"],["Pork shoulder","15 min/lb NPR"],["Beef stew","35 min NPR"],["Rice","4 min + 10 min NPR"],["Beans (soaked)","8-10 min NPR"],["Potatoes (cubed)","5-8 min QR"],["Hard eggs","5-5-5 ice bath"]],note:"NPR = Natural release. QR = Quick."},dairySubs:{title:"Dairy Substitutions",items:[["Buttermilk (1c)","1c milk + 1T lemon, 5 min"],["Heavy cream (1c)","¾c milk + ⅓c butter"],["Half & half (1c)","½c cream + ½c milk"],["Whole milk (1c)","2% + 1T cream"],["Sour cream","Greek yogurt"],["Cream cheese","Strained yogurt"],["Ricotta","Cottage cheese (blend)"]]},flourSubs:{title:"Flour Substitutions",items:[["Cake flour (1c)","1c AP - 2T + 2T cornstarch"],["Self-rising (1c)","1c AP + 1.5t BP + ¼t salt"],["Bread flour","AP + 1T wheat gluten"]]},eggSubs:{title:"Egg Substitutions (Per Egg)",items:[["Flax egg","1T flax + 2.5T water"],["Chia egg","1T chia + 2.5T water"],["Binding","¼c applesauce"],["Leavening","¼c mashed banana"],["Richness","3T aquafaba (whip)"]]},otherSubs:{title:"Other Substitutions",items:[["Fresh herbs","⅓ amount dried"],["1 shallot","½ onion + pinch garlic"],["Wine (1c)","1c broth + 1T vinegar"],["Soy sauce (1T)","1T coconut aminos"],["Fish sauce","Soy + lime + pinch sugar"],["Miso (1T)","1T tahini + splash soy"],["Baking powder (1t)","¼t soda + ½t cream of tartar"],["Cornstarch (1T)","2T flour"],["Chocolate (1oz)","3T cocoa + 1T butter"]]},emergencyFixes:{title:"Emergency Fixes",items:[["Too salty","Add fat, potato, or water"],["Too acidic","Add fat, sugar, or salt"],["Too sweet","Add acid or salt"],["Too spicy","Add dairy, sugar, or acid"],["Too bland","Salt first, then acid"],["Sauce too thin","Simmer or add slurry"],["Broken emulsion","New yolk, drizzle in"],["Lumpy gravy","Strain or blend"],["Burnt garlic","Start over"]]},flavorBalance:{title:"Flavor Balance",items:[["Flat taste","Add salt"],["Needs brightness","Add acid (citrus, vinegar)"],["Lacks depth","Add umami (soy, parm)"],["Too harsh","Add fat or sweetness"],["One-note","Add contrast"]]},flavorBoosters:{title:"Flavor Boosters",items:[["Anchovy paste","Depth without fishiness"],["Fish sauce","Umami bomb"],["Miso","Depth, savoriness"],["Soy sauce","Salt + umami"],["Tomato paste","Concentrated umami"],["Parmesan rind","Savory in soups"],["MSG","Clean umami"],["Worcestershire","Complex umami"]]},herbPairings:{title:"Herb Pairings",items:[["Beef","Rosemary, thyme, parsley"],["Pork","Sage, rosemary, thyme"],["Chicken","Thyme, tarragon, rosemary"],["Lamb","Mint, rosemary, oregano"],["Fish","Dill, parsley, tarragon"],["Eggs","Chives, dill, tarragon"],["Tomatoes","Basil, oregano, thyme"],["Potatoes","Rosemary, chives, dill"]]},fridgeRaw:{title:"Fridge Life (Raw)",items:[["Ground meat","1-2 days"],["Steak / chops","3-5 days"],["Fish / shellfish","1-2 days"],["Eggs","3-5 weeks"],["Hard cheese","3-4 weeks"],["Soft cheese","1-2 weeks"],["Milk (opened)","5-7 days"]]},fridgeCooked:{title:"Fridge Life (Cooked)",items:[["Cooked meat","3-4 days"],["Rice / grains","4-6 days"],["Soups / stews","3-4 days"],["Opened cans","3-4 days"]]},freezer:{title:"Freezer Life",items:[["Ground meat","3-4 months"],["Steaks / chops","4-12 months"],["Chicken (whole)","12 months"],["Bread","3 months"],["Soups / stews","2-3 months"],["Butter","6-9 months"],["Cooked rice","6 months"]]},ratios:{title:"Ratios (By Weight)",items:[["Vinaigrette","3:1 oil:acid"],["Bread dough","5:3 flour:water"],["Biscuits","3:2:1 flour:fat:liquid"],["Pie crust","3:2:1 flour:fat:water"],["Muffins","2:1:1:1 flour:liquid:egg:fat"],["Simple syrup","1:1 sugar:water"],["Rich syrup","2:1 sugar:water"]]},aromatics:{title:"Classic Aromatics",items:[["Mirepoix (French)","2:1:1 onion:carrot:celery"],["Sofrito (Spanish)","Onion, garlic, tomato"],["Holy Trinity (Cajun)","Onion, celery, bell pepper"],["Indian base","Ginger, garlic, onion"]]},kitchenHacks:{title:"Kitchen Hacks",type:"list",items:["Pat proteins dry → better sear","Don't crowd pan - cook in batches","Room temp meat cooks evenly","Toast nuts and spices first","Acid before salt = brighter flavor","Deglaze pan for instant sauce","Garlic burns first - add late","Save starchy pasta water","Let dough rest = easier rolling","Mise en place everything first","Season as you go, not just at end","Taste constantly while cooking","Wet knife for sticky ingredients","Freeze ginger for easy grating"]},foodSafety:{title:"Food Safety",type:"list",items:["Danger zone: 40-140°F — max 2 hrs","Thaw in fridge, not counter","Separate cutting boards","Reheat to 165°F","When in doubt, throw it out"]},bakingTips:{title:"Baking Tips",type:"list",items:["Room temp butter for creaming","Weigh flour, don't scoop","Brown sugar: pack into cup","Sift dry ingredients","Don't overmix batter","Rotate pans halfway","Tent with foil if browning fast","Cool before slicing"]}};
-const nav=document.getElementById('nav'),grid=document.getElementById('grid'),searchInput=document.getElementById('search');
-Object.entries(data).forEach(([key,section])=>{const navLink=document.createElement('a');navLink.href=`#${key}`;navLink.textContent=section.title;nav.appendChild(navLink);const card=document.createElement('div');card.className='ref-section';card.id=key;card.dataset.title=section.title.toLowerCase();card.dataset.content=JSON.stringify(section.items).toLowerCase();let contentHtml='';if(section.type==='list'){contentHtml=`<ul class="ref-list">${section.items.map(item=>`<li>${item}</li>`).join('')}</ul>`;}else{contentHtml=`<table class="ref-table">${section.items.map(item=>`<tr><td>${item[0]}</td><td>${item[1]}</td></tr>`).join('')}</table>`;}if(section.note){contentHtml+=`<div class="section-note">${section.note}</div>`;}card.innerHTML=`<div class="ref-section-header" onclick="this.parentElement.classList.toggle('collapsed')"><h2>${section.title}</h2><span class="toggle">▼</span></div><div class="ref-section-content">${contentHtml}</div>`;grid.appendChild(card);});
-searchInput.addEventListener('input',(e)=>{const query=e.target.value.toLowerCase().trim();document.querySelectorAll('.ref-section').forEach(section=>{if(!query){section.classList.remove('hidden');section.classList.remove('collapsed');return;}const title=section.dataset.title;const content=section.dataset.content;if(title.includes(query)||content.includes(query)){section.classList.remove('hidden');section.classList.remove('collapsed');}else{section.classList.add('hidden');}});});
-document.addEventListener('keydown',(e)=>{if(e.key==='/'&&document.activeElement!==searchInput){e.preventDefault();searchInput.focus();}if(e.key==='Escape'){searchInput.value='';searchInput.dispatchEvent(new Event('input'));searchInput.blur();}});
+const data = {
+  volume: { title: "Volume", items: [["1 Tbsp", "3 tsp"], ["1 cup", "16 Tbsp / 8 fl oz / 237ml"], ["1 pint", "2 cups / 473ml"], ["1 quart", "4 cups / 2 pints"], ["1 gallon", "4 quarts / 3.8L"], ["1 liter", "4.2 cups / 1000ml"], ["1 fl oz", "2 Tbsp / 30ml"]] },
+  weight: { title: "Weight", items: [["1 oz", "28g"], ["1 lb", "16 oz / 454g"], ["1 kg", "2.2 lb / 35 oz"], ["Stick butter", "113g / 4 oz / 8 Tbsp"]] },
+  flour: { title: "Flour (1 cup)", items: [["All-purpose", "125g"], ["Bread flour", "130g"], ["Cake flour", "115g"], ["Whole wheat", "130g"], ["Almond flour", "96g"], ["Cornmeal", "150g"], ["Cornstarch", "128g"]] },
+  sugar: { title: "Sugar (1 cup)", items: [["Granulated", "200g"], ["Brown (packed)", "220g"], ["Powdered", "120g"], ["Honey / maple", "340g"], ["Corn syrup", "340g"]] },
+  otherWeights: { title: "Other Weights (1 cup)", items: [["Oats", "90g"], ["Breadcrumbs (dry)", "110g"], ["Cocoa powder", "85g"], ["Peanut butter", "250g"], ["Sour cream / yogurt", "230g"], ["Shredded cheese", "115g"], ["Chopped nuts", "150g"], ["Heavy cream", "240g"], ["Milk", "245g"]] },
+  salt: { title: "Salt (1 tsp)", items: [["Table salt", "6g"], ["Morton Kosher", "5g"], ["Diamond Crystal", "3g (½ vol)"]] },
+  eggs: { title: "Eggs", items: [["1 large egg", "50g / 3 Tbsp"], ["1 white", "30g / 2 Tbsp"], ["1 yolk", "18g / 1 Tbsp"], ["5 large eggs", "1 cup"], ["8 large whites", "1 cup"], ["Soft boil", "6 min"], ["Medium boil", "10 min"], ["Hard boil", "12 min → ice"]] },
+  ovenTemps: { title: "Oven Temps", items: [["Warm", "200°F / 95°C"], ["Low", "250-300°F / 120-150°C"], ["Moderate", "350°F / 175°C"], ["Hot", "400°F / 205°C"], ["Very hot", "450°F / 230°C"], ["Broil", "500°F+"]], note: "C = (F - 32) × 5/9" },
+  meatTemps: { title: "Meat Temps (Pull 5°F Early)", items: [["Beef rare", "120°F"], ["Beef med-rare", "130°F"], ["Beef medium", "140°F"], ["Beef well", "155°F+"], ["Pork chops", "145°F"], ["Pork shoulder", "195-205°F"], ["Chicken breast", "160°F"], ["Chicken thigh", "175°F"], ["Ground meat", "160°F"], ["Fish", "145°F"], ["Salmon (med)", "125°F"]], note: "Carryover adds 5-10°F" },
+  grilling: { title: "Grilling (High Heat)", items: [["Burger (¾in)", "4-5 min"], ["Chicken breast", "6-8 min"], ["Chicken thigh", "8-10 min"], ["Pork chop (1in)", "4-5 min"], ["Steak (1in)", "4-5 min"], ["Shrimp (large)", "2-3 min"], ["Fish fillet", "3-4 min"], ["Hot dogs", "5-7 min"]], note: "450-650°F. Preheat 15 min." },
+  roasting: { title: "Roasting (Oven)", items: [["Whole chicken @425°F", "20 min/lb"], ["Chicken pieces @400°F", "35-45 min"], ["Turkey @325°F", "13 min/lb"], ["Prime rib", "450°F→325°F"], ["Salmon @400°F", "12-15 min"], ["Pork shoulder @275°F", "1.5 hrs/lb"], ["Pork loin @375°F", "25-30 min/lb"]] },
+  restTimes: { title: "Rest Before Cutting", items: [["Steaks / chops", "5-10 min"], ["Whole chicken", "10-15 min"], ["Chicken pieces", "5-10 min"], ["Turkey", "15-45 min"], ["Large roasts", "20-30 min"]] },
+  oilSmoke: { title: "Oil Smoke Points", items: [["Extra virgin olive", "325-375°F"], ["Coconut (virgin)", "350°F"], ["Butter", "350°F"], ["Ghee/Clarified", "450°F"], ["Peanut", "450°F"], ["Vegetable/canola", "400-450°F"], ["Avocado (refined)", "520°F"]], note: "High heat = refined oils" },
+  marinating: { title: "Marinating Times", items: [["Fish / shrimp", "15-30 min max"], ["Chicken pieces", "2-4 hr"], ["Pork chops", "4 hr"], ["Steak", "2-4 hr"], ["Large roasts", "4-24 hr"], ["Vegetables", "30 min - 1 hr"], ["Tofu", "30 min - overnight"]], note: "Acid makes fish mushy." },
+  riceGrains: { title: "Rice & Grains", items: [["White rice", "1:1.5 → 18 min"], ["Basmati (rinse)", "1:1.5 → 15 min"], ["Jasmine", "1:1.5 → 18 min"], ["Brown rice", "1:2 → 45 min"], ["Quinoa (rinse)", "1:1.25 → 15 min"], ["Farro", "1:2.5 → 25 min"], ["Barley", "1:3 → 45 min"], ["Couscous", "1:1 → 5 min"], ["Steel-cut oats", "1:3 → 20-30 min"]], note: "Ratio = grain:water" },
+  beans: { title: "Beans (Soak Overnight)", items: [["Black beans", "60-90 min"], ["Cannellini", "60-90 min"], ["Kidney / pinto", "90 min"], ["Chickpeas", "90 min"], ["Lima / butter", "60-90 min"], ["Lentils (no soak)", "20-30 min"], ["Split peas", "45-60 min"]], note: "1 dry ≈ 3× cooked" },
+  pasta: { title: "Pasta", items: [["Fresh pasta", "2-4 min"], ["Angel hair", "4-6 min"], ["Spaghetti", "8-10 min"], ["Penne / rigatoni", "10-12 min"], ["Egg noodles", "6-8 min"]], note: "Salt like the sea!" },
+  vegetables: { title: "Roast Veg (450°F)", items: [["Potato cubes", "30-45 min"], ["Root veg", "30-45 min"], ["Broccoli / cauli", "25-35 min"], ["Brussels sprouts", "25-35 min"], ["Zucchini", "20-25 min"], ["Asparagus", "12-20 min"], ["Green beans", "20-25 min"], ["Mushrooms", "20-25 min"]], note: "Oil, spread out, flip halfway" },
+  slowCooker: { title: "Slow Cooker", items: [["Chicken (whole)", "Low 6-8hr / High 3-4hr"], ["Pork shoulder", "Low 8-10hr / High 4-6hr"], ["Beef roast", "Low 8-10hr / High 4-5hr"], ["Ribs", "Low 6-8hr / High 3-4hr"], ["Stew", "Low 7-8hr / High 4-5hr"], ["Chili", "Low 6-8hr / High 3-4hr"]], note: "Don't lift lid = +20 min" },
+  instantPot: { title: "Instant Pot (High)", items: [["Chicken breast", "8-10 min NPR"], ["Chicken (whole)", "6 min/lb NPR"], ["Pork shoulder", "15 min/lb NPR"], ["Beef stew", "35 min NPR"], ["Rice", "4 min + 10 NPR"], ["Beans (soaked)", "8-10 min NPR"], ["Hard eggs", "5-5-5 ice"]], note: "NPR=Natural, QR=Quick" },
+  dairySubs: { title: "Dairy Substitutions", items: [["Buttermilk (1c)", "1c milk + 1T lemon, 5 min"], ["Heavy cream (1c)", "¾c milk + ⅓c butter"], ["Half & half (1c)", "½c cream + ½c milk"], ["Whole milk (1c)", "2% + 1T cream"], ["Sour cream", "Greek yogurt"], ["Cream cheese", "Strained yogurt"], ["Ricotta", "Cottage cheese (blend)"]] },
+  flourSubs: { title: "Flour Substitutions", items: [["Cake flour (1c)", "1c AP - 2T + 2T cornstarch"], ["Self-rising (1c)", "1c AP + 1.5t BP + ¼t salt"], ["Bread flour", "AP + 1T wheat gluten"]] },
+  eggSubs: { title: "Egg Subs (Per Egg)", items: [["Flax egg", "1T flax + 2.5T water"], ["Chia egg", "1T chia + 2.5T water"], ["Binding", "¼c applesauce"], ["Leavening", "¼c mashed banana"], ["Richness", "3T aquafaba (whip)"]] },
+  otherSubs: { title: "Other Substitutions", items: [["Fresh herbs", "⅓ amount dried"], ["1 shallot", "½ onion + garlic"], ["Wine (1c)", "1c broth + 1T vinegar"], ["Soy sauce (1T)", "1T coconut aminos"], ["Fish sauce", "Soy + lime + sugar"], ["Miso (1T)", "Tahini + splash soy"], ["Baking powder", "¼t soda + ½t cream tartar"], ["Cornstarch (1T)", "2T flour"], ["Chocolate (1oz)", "3T cocoa + 1T butter"]] },
+  emergencyFixes: { title: "Emergency Fixes", items: [["Too salty", "Add fat, potato, water"], ["Too acidic", "Add fat, sugar, salt"], ["Too sweet", "Add acid or salt"], ["Too spicy", "Add dairy, sugar, acid"], ["Too bland", "Salt first, then acid"], ["Sauce thin", "Simmer or slurry"], ["Broken emulsion", "New yolk, drizzle in"], ["Lumpy gravy", "Strain or blend"], ["Burnt garlic", "Start over"]] },
+  flavorBalance: { title: "Flavor Balance", items: [["Flat taste", "Add salt"], ["Needs brightness", "Add acid"], ["Lacks depth", "Add umami"], ["Too harsh", "Add fat/sweet"], ["One-note", "Add contrast"]] },
+  flavorBoosters: { title: "Flavor Boosters", items: [["Anchovy paste", "Depth, no fish"], ["Fish sauce", "Umami bomb"], ["Miso", "Depth, savory"], ["Soy sauce", "Salt + umami"], ["Tomato paste", "Concentrated"], ["Parmesan rind", "Savory soups"], ["MSG", "Clean umami"], ["Worcestershire", "Complex"]] },
+  herbPairings: { title: "Herb Pairings", items: [["Beef", "Rosemary, thyme, parsley"], ["Pork", "Sage, rosemary, thyme"], ["Chicken", "Thyme, tarragon"], ["Lamb", "Mint, rosemary, oregano"], ["Fish", "Dill, parsley, tarragon"], ["Eggs", "Chives, dill, tarragon"], ["Tomatoes", "Basil, oregano, thyme"], ["Potatoes", "Rosemary, chives, dill"]] },
+  fridgeRaw: { title: "Fridge Life (Raw)", items: [["Ground meat", "1-2 days"], ["Steak / chops", "3-5 days"], ["Fish / shellfish", "1-2 days"], ["Eggs", "3-5 weeks"], ["Hard cheese", "3-4 weeks"], ["Soft cheese", "1-2 weeks"], ["Milk (opened)", "5-7 days"]] },
+  fridgeCooked: { title: "Fridge (Cooked)", items: [["Cooked meat", "3-4 days"], ["Rice / grains", "4-6 days"], ["Soups / stews", "3-4 days"], ["Opened cans", "3-4 days"]] },
+  freezer: { title: "Freezer Life", items: [["Ground meat", "3-4 months"], ["Steaks / chops", "4-12 months"], ["Chicken (whole)", "12 months"], ["Bread", "3 months"], ["Soups / stews", "2-3 months"], ["Butter", "6-9 months"], ["Cooked rice", "6 months"]] },
+  ratios: { title: "Ratios (By Weight)", items: [["Vinaigrette", "3:1 oil:acid"], ["Bread dough", "5:3 flour:water"], ["Biscuits", "3:2:1 flour:fat:liquid"], ["Pie crust", "3:2:1 flour:fat:water"], ["Muffins", "2:1:1:1"], ["Simple syrup", "1:1 sugar:water"], ["Rich syrup", "2:1 sugar:water"]] },
+  aromatics: { title: "Classic Aromatics", items: [["Mirepoix (French)", "2:1:1 onion:carrot:celery"], ["Sofrito (Spanish)", "Onion, garlic, tomato"], ["Holy Trinity", "Onion, celery, bell pepper"], ["Indian base", "Ginger, garlic, onion"]] },
+  kitchenHacks: { title: "Kitchen Hacks", type: "list", items: ["Pat proteins dry → better sear", "Don't crowd pan", "Room temp meat = even cook", "Toast spices first", "Acid before salt", "Deglaze for sauce", "Garlic burns first", "Save pasta water", "Rest dough", "Mise en place", "Season as you go", "Taste constantly"] },
+  foodSafety: { title: "Food Safety", type: "list", items: ["Danger zone: 40-140°F", "Max 2 hrs in zone", "Thaw in fridge", "Separate boards", "Reheat to 165°F", "When in doubt, toss"] },
+  bakingTips: { title: "Baking Tips", type: "list", items: ["Room temp butter", "Weigh flour", "Pack brown sugar", "Sift dry ingredients", "Don't overmix", "Rotate pans halfway", "Tent with foil", "Cool before slicing"] }
+};
+
+const nav = document.getElementById('nav');
+const grid = document.getElementById('grid');
+const searchInput = document.getElementById('search');
+
+Object.entries(data).forEach(([key, section]) => {
+  const navLink = document.createElement('a');
+  navLink.href = `#${key}`;
+  navLink.textContent = section.title;
+  nav.appendChild(navLink);
+
+  const card = document.createElement('div');
+  card.className = 'ref-section';
+  card.id = key;
+  card.dataset.title = section.title.toLowerCase();
+  card.dataset.content = JSON.stringify(section.items).toLowerCase();
+
+  let contentHtml = '';
+  if (section.type === 'list') {
+    contentHtml = `<ul class="ref-list">${section.items.map(item => `<li>${item}</li>`).join('')}</ul>`;
+  } else {
+    contentHtml = `<table class="ref-table">${section.items.map(item => `<tr><td>${item[0]}</td><td>${item[1]}</td></tr>`).join('')}</table>`;
+  }
+  if (section.note) {
+    contentHtml += `<div class="section-note">${section.note}</div>`;
+  }
+  card.innerHTML = `<div class="ref-section-header" onclick="this.parentElement.classList.toggle('collapsed')"><h2>${section.title}</h2><span class="toggle">▼</span></div><div class="ref-section-content">${contentHtml}</div>`;
+  grid.appendChild(card);
+});
+
+searchInput.addEventListener('input', (e) => {
+  const query = e.target.value.toLowerCase().trim();
+  document.querySelectorAll('.ref-section').forEach(section => {
+    if (!query) { section.classList.remove('hidden'); section.classList.remove('collapsed'); return; }
+    const title = section.dataset.title;
+    const content = section.dataset.content;
+    if (title.includes(query) || content.includes(query)) { section.classList.remove('hidden'); section.classList.remove('collapsed'); }
+    else { section.classList.add('hidden'); }
+  });
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === '/' && document.activeElement !== searchInput) { e.preventDefault(); searchInput.focus(); }
+  if (e.key === 'Escape') { searchInput.value = ''; searchInput.dispatchEvent(new Event('input')); searchInput.blur(); }
+});
+
+// Mobile logo
+const logo = document.querySelector('.logo-container');
+if (logo) {
+  logo.addEventListener('touchstart', () => logo.classList.add('active'));
+  logo.addEventListener('touchend', () => setTimeout(() => logo.classList.remove('active'), 1500));
+}
   </script>
 </body>
 </html>

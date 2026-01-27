@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Recipe Name | rcpbx</title>
+  <meta name="description" content="Recipe description here.">
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #faf9f6;
+      --bg-alt: #f0efeb;
+      --text: #222;
+      --text-muted: #666;
+      --text-dim: #999;
+      --border: #ddd;
+      --accent: #16a34a;
+      --accent-dim: rgba(22,163,74,0.1);
+      --font-sans: 'Inter', -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+      --max-width: 800px;
+      --header-height: 56px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111;
+        --bg-alt: #1a1a1a;
+        --text: #e5e5e5;
+        --text-muted: #999;
+        --text-dim: #666;
+        --border: #333;
+        --accent: #22c55e;
+        --accent-dim: rgba(34,197,94,0.15);
+      }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-family: var(--font-sans); background: var(--bg); color: var(--text); }
+    body { 
+      min-height: 100dvh; 
+      display: flex; 
+      flex-direction: column;
+      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    }
+
+    /* Animated Logo */
+    .logo-container { position: relative; display: inline-block; cursor: pointer; text-decoration: none; }
+    .logo-text { font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600; letter-spacing: -0.02em; color: var(--text); display: flex; align-items: baseline; }
+    .logo-prefix { color: var(--accent); margin-right: 0.15em; }
+    .logo-char { display: inline-block; transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease; }
+    .logo-vowel { opacity: 0; transform: translateY(-20px); width: 0; overflow: hidden; transition: width 0.35s ease, opacity 0.4s ease, transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1); }
+    .logo-container:hover .logo-vowel, .logo-container:focus .logo-vowel, .logo-container.active .logo-vowel { opacity: 1; transform: translateY(0); }
+    .logo-container:hover .logo-vowel.v-e1, .logo-container.active .logo-vowel.v-e1 { width: 0.62em; transition-delay: 0s; }
+    .logo-container:hover .logo-vowel.v-i, .logo-container.active .logo-vowel.v-i { width: 0.5em; transition-delay: 0.06s; }
+    .logo-container:hover .logo-vowel.v-e2, .logo-container.active .logo-vowel.v-e2 { width: 0.62em; transition-delay: 0.12s; }
+    .logo-container:hover .logo-vowel.v-o, .logo-container.active .logo-vowel.v-o { width: 0.68em; transition-delay: 0.18s; }
+    .logo-container:not(:hover):not(.active) .logo-vowel { transform: translateY(30px); opacity: 0; }
+    .logo-container:not(:hover):not(.active) .logo-vowel.v-e1 { transition-delay: 0.18s; }
+    .logo-container:not(:hover):not(.active) .logo-vowel.v-i { transition-delay: 0.12s; }
+    .logo-container:not(:hover):not(.active) .logo-vowel.v-e2 { transition-delay: 0.06s; }
+    .logo-container:not(:hover):not(.active) .logo-vowel.v-o { transition-delay: 0s; }
+
+    /* Header */
+    .site-header { height: var(--header-height); border-bottom: 1px solid var(--border); display: flex; align-items: center; padding: 0 1.5rem; position: sticky; top: 0; background: var(--bg); z-index: 100; }
+    .site-header .container { max-width: var(--max-width); margin: 0 auto; width: 100%; display: flex; justify-content: space-between; align-items: center; }
+    .header-link { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); text-decoration: none; }
+    .header-link:hover { color: var(--accent); }
+
+    /* Main */
+    main { flex: 1; max-width: var(--max-width); margin: 0 auto; padding: 2rem 1.5rem; width: 100%; }
+
+    /* Recipe Header */
+    .recipe-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
+    .recipe-header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    .recipe-desc { color: var(--text-muted); font-size: 1rem; margin-bottom: 1rem; }
+
+    /* Prep Data - MOBILE PADDING FIX */
+    .prep-data {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      padding: 1rem 1.25rem;  /* Added horizontal padding */
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      margin: 0 -0.25rem;  /* Slight negative margin to align with content */
+    }
+    .prep-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+    .prep-label {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-dim);
+    }
+    .prep-value {
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    /* Two column layout */
+    .recipe-content { display: grid; grid-template-columns: 1fr 1.5fr; gap: 2rem; }
+
+    /* Ingredients */
+    .ingredients h2, .instructions h2 {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .ingredients h2::before, .instructions h2::before {
+      content: ">";
+      color: var(--accent);
+      margin-right: 0.4rem;
+      font-family: var(--font-mono);
+    }
+    .ingredients-list {
+      list-style: none;
+    }
+    .ingredients-list li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+    }
+    .ingredients-list li:last-child { border-bottom: none; }
+    .ingredient-amount {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-right: 0.5rem;
+    }
+
+    /* Instructions */
+    .steps-list {
+      list-style: none;
+      counter-reset: step;
+    }
+    .steps-list li {
+      counter-increment: step;
+      padding: 0.75rem 0;
+      padding-left: 2.5rem;
+      position: relative;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+    .steps-list li:last-child { border-bottom: none; }
+    .steps-list li::before {
+      content: counter(step);
+      position: absolute;
+      left: 0;
+      top: 0.75rem;
+      width: 1.75rem;
+      height: 1.75rem;
+      background: var(--accent-dim);
+      color: var(--accent);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    /* Print button */
+    .print-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 0.5rem 1rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      border-radius: 4px;
+      margin-top: 2rem;
+      transition: all 0.15s;
+    }
+    .print-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* Notes */
+    .recipe-notes {
+      margin-top: 2rem;
+      padding: 1rem 1.25rem;
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+    }
+    .recipe-notes h3 {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+    .recipe-notes p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Footer */
+    footer { border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; margin-top: auto; }
+    footer p { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-dim); }
+
+    /* Mobile */
+    @media (max-width: 700px) {
+      main { padding: 1.5rem 1rem; }
+      .recipe-content { grid-template-columns: 1fr; }
+      .recipe-header h1 { font-size: 1.5rem; }
+      .prep-data { 
+        gap: 1rem; 
+        padding: 1rem;  /* Consistent padding on mobile */
+        margin: 0;  /* Remove negative margin on mobile */
+      }
+      .prep-item { flex: 1 1 calc(50% - 0.5rem); }
+    }
+
+    /* ===== 3x5 INDEX CARD PRINT ===== */
+    @media print {
+      @page {
+        size: 5in 3in;
+        margin: 0.15in;
+      }
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+      html, body {
+        font-size: 7pt !important;
+        background: white !important;
+        color: black !important;
+        width: 5in !important;
+        height: 3in !important;
+        overflow: hidden !important;
+      }
+      .site-header, footer, .print-btn, .recipe-notes { display: none !important; }
+      main {
+        padding: 0 !important;
+        margin: 0 !important;
+        max-width: none !important;
+      }
+      .recipe-header {
+        margin-bottom: 0.1in !important;
+        padding-bottom: 0.05in !important;
+        border-bottom: 0.5pt solid #ccc !important;
+      }
+      .recipe-header h1 {
+        font-size: 11pt !important;
+        margin-bottom: 0.03in !important;
+      }
+      .recipe-desc { display: none !important; }
+      .prep-data {
+        padding: 0.05in 0.08in !important;
+        margin: 0 0 0.08in 0 !important;
+        gap: 0.15in !important;
+        background: #f5f5f5 !important;
+        border: 0.5pt solid #ddd !important;
+      }
+      .prep-label { font-size: 5pt !important; }
+      .prep-value { font-size: 7pt !important; }
+      .recipe-content {
+        display: grid !important;
+        grid-template-columns: 1.2in 1fr !important;
+        gap: 0.1in !important;
+      }
+      .ingredients h2, .instructions h2 {
+        font-size: 6pt !important;
+        margin-bottom: 0.05in !important;
+        padding-bottom: 0.03in !important;
+      }
+      .ingredients-list li {
+        padding: 0.02in 0 !important;
+        font-size: 6.5pt !important;
+        border-bottom: none !important;
+      }
+      .ingredient-amount { font-size: 6pt !important; }
+      .steps-list li {
+        padding: 0.02in 0 0.02in 0.2in !important;
+        font-size: 6.5pt !important;
+        line-height: 1.3 !important;
+        border-bottom: none !important;
+      }
+      .steps-list li::before {
+        width: 0.14in !important;
+        height: 0.14in !important;
+        font-size: 5pt !important;
+        top: 0.02in !important;
+        background: #eee !important;
+        color: #333 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="../../" class="logo-container" tabindex="0">
+        <span class="logo-text">
+          <span class="logo-prefix">&gt;</span><span class="logo-char">r</span><span class="logo-vowel v-e1">e</span><span class="logo-char">c</span><span class="logo-vowel v-i">i</span><span class="logo-char">p</span><span class="logo-vowel v-e2">e</span><span class="logo-char">b</span><span class="logo-vowel v-o">o</span><span class="logo-char">x</span>
+        </span>
+      </a>
+      <a href="../" class="header-link">← back</a>
+    </div>
+  </header>
+
+  <main>
+    <header class="recipe-header">
+      <h1>Recipe Name Here</h1>
+      <p class="recipe-desc">A brief description of this delicious recipe.</p>
+      
+      <div class="prep-data">
+        <div class="prep-item">
+          <span class="prep-label">Prep</span>
+          <span class="prep-value">15 min</span>
+        </div>
+        <div class="prep-item">
+          <span class="prep-label">Cook</span>
+          <span class="prep-value">30 min</span>
+        </div>
+        <div class="prep-item">
+          <span class="prep-label">Total</span>
+          <span class="prep-value">45 min</span>
+        </div>
+        <div class="prep-item">
+          <span class="prep-label">Serves</span>
+          <span class="prep-value">4</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="recipe-content">
+      <section class="ingredients">
+        <h2>Ingredients</h2>
+        <ul class="ingredients-list">
+          <li><span class="ingredient-amount">2 lbs</span> ingredient one</li>
+          <li><span class="ingredient-amount">1 cup</span> ingredient two</li>
+          <li><span class="ingredient-amount">3 Tbsp</span> ingredient three</li>
+          <li><span class="ingredient-amount">1 tsp</span> ingredient four</li>
+          <li><span class="ingredient-amount">½ cup</span> ingredient five</li>
+          <li><span class="ingredient-amount">2</span> ingredient six</li>
+          <li>Salt and pepper to taste</li>
+        </ul>
+      </section>
+
+      <section class="instructions">
+        <h2>Instructions</h2>
+        <ol class="steps-list">
+          <li>First step of the recipe goes here. Be clear and concise.</li>
+          <li>Second step with more details about what to do.</li>
+          <li>Third step. Keep steps actionable and specific.</li>
+          <li>Fourth step. Include temps and times where relevant.</li>
+          <li>Final step. Rest, serve, enjoy.</li>
+        </ol>
+      </section>
+    </div>
+
+    <div class="recipe-notes">
+      <h3>Notes</h3>
+      <p>Tips, variations, or make-ahead instructions go here. Storage info too.</p>
+    </div>
+
+    <button class="print-btn" onclick="window.print()">🗎 Print 3×5 Card</button>
+  </main>
+
+  <footer>
+    <p>rcpbx — recipes, no bullshit</p>
+  </footer>
+
+  <script>
+    // Mobile logo
+    const logo = document.querySelector('.logo-container');
+    if (logo) {
+      logo.addEventListener('touchstart', () => logo.classList.add('active'));
+      logo.addEventListener('touchend', () => setTimeout(() => logo.classList.remove('active'), 1500));
+    }
+  </script>
+</body>
+</html>

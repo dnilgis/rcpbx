@@ -3,173 +3,608 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>rcpbx — the recipe box</title>
-  <meta name="description" content="111 reliable recipes. No life stories. No ads. Just recipes that work.">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2VNWY2BFX"></script>
+  <meta name="description" content="111 recipes. No bullshit. Test kitchen validated recipes without the life stories.">
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-E2VNWY2BFX');
+    gtag('config', 'G-XXXXXXXXXX');
   </script>
-  <link rel="stylesheet" href="css/style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    /* Homepage Layout - Mobile First */
-    .home-layout{display:flex;flex-direction:column;min-height:calc(100vh - var(--header-height));min-height:calc(100dvh - var(--header-height))}
-    .main-panel{background:var(--bg);padding:1.25rem 1rem;flex:1}
-    .side-panel{background:var(--bg-alt);padding:1.25rem 1rem;border-top:1px solid var(--border)}
-    .home-hero{padding:0 0 1.25rem;text-align:left;max-width:none;margin:0}
-    .home-hero h1{font-size:1.5rem;font-weight:700;letter-spacing:-0.03em;margin-bottom:0.25rem}
-    .home-hero .tagline{color:var(--text-muted);font-size:0.9rem;margin:0}
-    .search-container{margin:1rem 0 0;padding:0;max-width:100%}
-    .category-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--border);border:1px solid var(--border);margin:0;padding:0;max-width:none}
-    .category-link{background:var(--bg);padding:1rem;display:flex;flex-direction:column;gap:0.2rem;min-height:72px;-webkit-tap-highlight-color:transparent;transition:background 0.1s}
-    .category-link:active{background:var(--accent-dim)}
-    .category-link .name{font-weight:600;font-size:0.85rem}
-    .category-link .name::before{content:'>';color:var(--accent);margin-right:0.35rem;font-family:var(--font-mono)}
-    .category-link .count{font-family:var(--font-mono);font-size:1.1rem;font-weight:600;color:var(--text)}
-    .ref-sidebar h2{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin:0 0 0.6rem;font-weight:600}
-    .ref-sidebar h2::before{content:'>';color:var(--accent);font-family:var(--font-mono);margin-right:0.4rem}
-    .ref-section{margin-bottom:1.25rem}
-    .ref-section:last-of-type{margin-bottom:0.5rem}
-    .ref-list{list-style:none;padding:0;margin:0}
-    .ref-list li{font-family:var(--font-mono);font-size:0.8rem;padding:0.4rem 0;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;gap:0.75rem}
-    .ref-list li:last-child{border-bottom:none}
-    .ref-list .label{color:var(--text)}
-    .ref-list .value{color:var(--text-muted);text-align:right;flex-shrink:0}
-    .ref-link{display:inline-flex;align-items:center;font-family:var(--font-mono);font-size:0.8rem;color:var(--accent);padding:0.75rem 0;min-height:44px}
-    .tips-row{display:none}
-    .kbd-hint{display:none}
-    @media(min-width:600px){
-      .main-panel{padding:1.5rem}
-      .category-grid{grid-template-columns:repeat(3,1fr)}
-      .category-link{padding:1rem 1.25rem;min-height:80px}
-      .category-link .name{font-size:0.9rem}
-      .category-link .count{font-size:1.25rem}
-      .home-hero h1{font-size:1.75rem}
+    :root {
+      --bg: #faf9f6;
+      --bg-alt: #f0efeb;
+      --text: #222;
+      --text-muted: #666;
+      --text-dim: #999;
+      --border: #ddd;
+      --accent: #16a34a;
+      --accent-dim: rgba(22,163,74,0.1);
+      --font-sans: 'Inter', -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+      --max-width: 1100px;
+      --header-height: 56px;
     }
-    @media(min-width:900px){
-      .home-layout{display:grid;grid-template-columns:1fr 320px;gap:1px;background:var(--border);max-width:1200px;margin:0 auto;min-height:calc(100vh - var(--header-height) - 60px)}
-      .main-panel{padding:2rem;display:flex;flex-direction:column}
-      .side-panel{border-top:none;border-left:1px solid var(--border);padding:1.5rem}
-      .tips-row{display:block;margin-top:auto;padding-top:1.5rem}
-      .tips-row h2{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:0.5rem;font-weight:600}
-      .tips-inline{display:flex;flex-wrap:wrap;gap:0.5rem 1.5rem;font-family:var(--font-mono);font-size:0.75rem;color:var(--text-muted)}
-      .tips-inline span::before{content:'—';margin-right:0.4rem;color:var(--text-dim)}
-      .kbd-hint{display:flex;position:fixed;bottom:1rem;right:1rem;font-family:var(--font-mono);font-size:0.7rem;color:var(--text-dim);gap:1rem}
-      .kbd-hint kbd{background:var(--bg-alt);border:1px solid var(--border);padding:0.15rem 0.4rem;border-radius:3px;margin-right:0.25rem}
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111;
+        --bg-alt: #1a1a1a;
+        --text: #e5e5e5;
+        --text-muted: #999;
+        --text-dim: #666;
+        --border: #333;
+        --accent: #22c55e;
+        --accent-dim: rgba(34,197,94,0.15);
+      }
     }
-    /* Footer v2 */
-    .site-footer p{display:flex;flex-wrap:wrap;justify-content:center;gap:0.4rem}
-    .site-footer .sep{color:var(--border)}
-    .site-footer .never-acquired{color:var(--accent);position:relative;cursor:default}
-    .site-footer .counter-num{font-variant-numeric:tabular-nums}
-    @media(max-width:480px){.site-footer p{gap:0.3rem 0.5rem}}
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-family: var(--font-sans); background: var(--bg); color: var(--text); }
+    body { 
+      min-height: 100dvh; 
+      display: flex; 
+      flex-direction: column; 
+      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    }
+    
+    /* ===== ANIMATED LOGO ===== */
+    .logo-container {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .logo-text {
+      font-family: var(--font-mono);
+      font-size: 1.25rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--text);
+      display: flex;
+      align-items: baseline;
+    }
+    .logo-prefix {
+      color: var(--accent);
+      margin-right: 0.15em;
+    }
+    .logo-char {
+      display: inline-block;
+      transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease;
+    }
+    .logo-vowel {
+      opacity: 0;
+      transform: translateY(-20px);
+      width: 0;
+      overflow: hidden;
+      transition: width 0.35s ease, opacity 0.4s ease, transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    /* Hover - vowels appear */
+    .logo-container:hover .logo-vowel,
+    .logo-container:focus .logo-vowel,
+    .logo-container.active .logo-vowel {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .logo-container:hover .logo-vowel.v-e1,
+    .logo-container.active .logo-vowel.v-e1 { width: 0.62em; transition-delay: 0s; }
+    .logo-container:hover .logo-vowel.v-i,
+    .logo-container.active .logo-vowel.v-i { width: 0.5em; transition-delay: 0.06s; }
+    .logo-container:hover .logo-vowel.v-e2,
+    .logo-container.active .logo-vowel.v-e2 { width: 0.62em; transition-delay: 0.12s; }
+    .logo-container:hover .logo-vowel.v-o,
+    .logo-container.active .logo-vowel.v-o { width: 0.68em; transition-delay: 0.18s; }
+    /* Leave - vowels fall */
+    .logo-container:not(:hover):not(.active) .logo-vowel {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    .logo-container:not(:hover):not(.active) .logo-vowel.v-e1 { transition-delay: 0.18s; }
+    .logo-container:not(:hover):not(.active) .logo-vowel.v-i { transition-delay: 0.12s; }
+    .logo-container:not(:hover):not(.active) .logo-vowel.v-e2 { transition-delay: 0.06s; }
+    .logo-container:not(:hover):not(.active) .logo-vowel.v-o { transition-delay: 0s; }
+    
+    /* Header */
+    header {
+      height: var(--header-height);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      padding: 0 1.5rem;
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 100;
+    }
+    header .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header-link {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .header-link:hover { color: var(--accent); }
+    
+    /* Main layout */
+    .main-grid {
+      flex: 1;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 2rem;
+    }
+    
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 1.5rem 0 2rem;
+    }
+    .hero h1 {
+      font-size: clamp(1.75rem, 5vw, 2.25rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+    
+    /* Search */
+    .search-box {
+      max-width: 480px;
+      margin: 0 auto 1.5rem;
+      position: relative;
+    }
+    .search-box input {
+      width: 100%;
+      padding: 0.875rem 1rem 0.875rem 2.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      background: var(--bg);
+      border: 2px solid var(--border);
+      color: var(--text);
+      border-radius: 6px;
+    }
+    .search-box input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+    .search-box::before {
+      content: "⌕";
+      position: absolute;
+      left: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-dim);
+      font-size: 1.1rem;
+    }
+    .search-box input::placeholder { color: var(--text-dim); }
+    .kbd-hint {
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--text-dim);
+      margin-bottom: 1.5rem;
+    }
+    .kbd-hint kbd {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      padding: 0.1rem 0.35rem;
+      border-radius: 3px;
+    }
+    
+    /* Category grid */
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      margin-bottom: 1.5rem;
+    }
+    .category {
+      background: var(--bg);
+      padding: 1rem 0.875rem;
+      text-decoration: none;
+      color: var(--text);
+      transition: background 0.15s;
+    }
+    .category:hover { background: var(--bg-alt); }
+    .category-name { font-weight: 600; font-size: 0.9rem; }
+    .category-count {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--text-dim);
+    }
+    
+    /* Quick tips */
+    .quick-tips {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      padding: 1rem 1.25rem;
+      border-radius: 6px;
+    }
+    .quick-tips h2 {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+    .quick-tips h2::before {
+      content: ">";
+      color: var(--accent);
+      margin-right: 0.4rem;
+      font-family: var(--font-mono);
+    }
+    .tips-list {
+      list-style: none;
+    }
+    .tips-list li {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      padding: 0.3rem 0;
+      padding-left: 1rem;
+      position: relative;
+    }
+    .tips-list li::before {
+      content: "—";
+      position: absolute;
+      left: 0;
+      color: var(--text-dim);
+    }
+    
+    /* Sidebar */
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      height: fit-content;
+      position: sticky;
+      top: calc(var(--header-height) + 1rem);
+    }
+    .sidebar-section {
+      background: var(--bg);
+      padding: 0.875rem 1rem;
+    }
+    .sidebar-section h3 {
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+    .sidebar-section h3::before {
+      content: ">";
+      color: var(--accent);
+      margin-right: 0.3rem;
+      font-family: var(--font-mono);
+    }
+    .sidebar-table {
+      width: 100%;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      border-collapse: collapse;
+    }
+    .sidebar-table td {
+      padding: 0.2rem 0;
+    }
+    .sidebar-table td:last-child {
+      text-align: right;
+      color: var(--text-muted);
+    }
+    .sidebar-link {
+      display: block;
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--accent);
+      text-decoration: none;
+      padding: 0.75rem;
+      background: var(--bg);
+      border-top: 1px solid var(--border);
+    }
+    .sidebar-link:hover {
+      background: var(--accent-dim);
+    }
+    
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.25rem 1.5rem;
+      text-align: center;
+    }
+    .footer-content {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    footer p {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--text-dim);
+    }
+    .view-count {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      color: var(--text-dim);
+    }
+    
+    /* Mobile */
+    @media (max-width: 900px) {
+      .main-grid {
+        grid-template-columns: 1fr;
+        padding: 1.5rem 1rem;
+      }
+      .sidebar {
+        position: static;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .sidebar-link {
+        grid-column: 1 / -1;
+      }
+    }
+    @media (max-width: 500px) {
+      .categories { grid-template-columns: repeat(2, 1fr); }
+      .sidebar { grid-template-columns: 1fr; }
+      .footer-content { flex-direction: column; gap: 0.5rem; }
+    }
+    
+    /* Easter egg flash */
+    .flash { animation: flash 0.3s ease; }
+    @keyframes flash {
+      0%, 100% { background: var(--bg); }
+      50% { background: var(--accent-dim); }
+    }
+    
+    /* Search response toast */
+    .search-toast {
+      position: fixed;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: var(--text);
+      color: var(--bg);
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      opacity: 0;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+      z-index: 1000;
+    }
+    .search-toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
   </style>
 </head>
 <body>
-  <header class="site-header">
+  <header>
     <div class="container">
-      <a href="./" class="logo">rcpbx</a>
-      <a href="reference/" class="header-link">Reference</a>
+      <a href="./" class="logo-container" tabindex="0">
+        <span class="logo-text">
+          <span class="logo-prefix">&gt;</span><span class="logo-char">r</span><span class="logo-vowel v-e1">e</span><span class="logo-char">c</span><span class="logo-vowel v-i">i</span><span class="logo-char">p</span><span class="logo-vowel v-e2">e</span><span class="logo-char">b</span><span class="logo-vowel v-o">o</span><span class="logo-char">x</span>
+        </span>
+      </a>
+      <a href="reference/" class="header-link">kitchen ref →</a>
     </div>
   </header>
 
-  <main class="home-layout">
-    <div class="main-panel">
-      <section class="home-hero">
+  <div class="main-grid">
+    <main>
+      <section class="hero">
         <h1>111 recipes. No bullshit.</h1>
-        <p class="tagline">Test kitchen validated. No life stories.</p>
-        <div class="search-container">
-          <div class="search-box">
-            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-            <input type="text" class="search-input" id="search" placeholder="Search recipes..." autocomplete="off">
-            <div class="search-results" id="search-results"></div>
-          </div>
-        </div>
+        <p>Test kitchen validated. No life stories.</p>
       </section>
 
-      <div class="category-grid">
-        <a href="recipes/soups-stews/" class="category-link"><span class="name">Soups & Stews</span><span class="count">12</span></a>
-        <a href="recipes/pasta/" class="category-link"><span class="name">Pasta</span><span class="count">12</span></a>
-        <a href="recipes/chicken/" class="category-link"><span class="name">Chicken</span><span class="count">12</span></a>
-        <a href="recipes/beef/" class="category-link"><span class="name">Beef</span><span class="count">12</span></a>
-        <a href="recipes/pork/" class="category-link"><span class="name">Pork</span><span class="count">8</span></a>
-        <a href="recipes/seafood/" class="category-link"><span class="name">Seafood</span><span class="count">8</span></a>
-        <a href="recipes/breakfast/" class="category-link"><span class="name">Breakfast</span><span class="count">12</span></a>
-        <a href="recipes/sides/" class="category-link"><span class="name">Sides</span><span class="count">12</span></a>
-        <a href="recipes/baking-dessert/" class="category-link"><span class="name">Baking & Desserts</span><span class="count">13</span></a>
-        <a href="recipes/basics/" class="category-link"><span class="name">Basics</span><span class="count">10</span></a>
+      <div class="search-box">
+        <input type="text" id="search" placeholder="Search recipes..." autocomplete="off">
+      </div>
+      <p class="kbd-hint">Press <kbd>/</kbd> to search</p>
+
+      <div class="categories" id="categories">
+        <a href="recipes/soups-stews/" class="category">
+          <span class="category-name">Soups & Stews</span>
+          <span class="category-count">12 recipes</span>
+        </a>
+        <a href="recipes/pasta/" class="category">
+          <span class="category-name">Pasta</span>
+          <span class="category-count">12 recipes</span>
+        </a>
+        <a href="recipes/chicken/" class="category">
+          <span class="category-name">Chicken</span>
+          <span class="category-count">12 recipes</span>
+        </a>
+        <a href="recipes/beef/" class="category">
+          <span class="category-name">Beef</span>
+          <span class="category-count">12 recipes</span>
+        </a>
+        <a href="recipes/pork/" class="category">
+          <span class="category-name">Pork</span>
+          <span class="category-count">8 recipes</span>
+        </a>
+        <a href="recipes/seafood/" class="category">
+          <span class="category-name">Seafood</span>
+          <span class="category-count">8 recipes</span>
+        </a>
+        <a href="recipes/breakfast/" class="category">
+          <span class="category-name">Breakfast</span>
+          <span class="category-count">12 recipes</span>
+        </a>
+        <a href="recipes/sides/" class="category">
+          <span class="category-name">Sides</span>
+          <span class="category-count">12 recipes</span>
+        </a>
+        <a href="recipes/baking-dessert/" class="category">
+          <span class="category-name">Baking & Desserts</span>
+          <span class="category-count">13 recipes</span>
+        </a>
+        <a href="recipes/basics/" class="category">
+          <span class="category-name">Basics</span>
+          <span class="category-count">10 recipes</span>
+        </a>
       </div>
 
-      <div class="tips-row">
+      <div class="quick-tips">
         <h2>Quick Tips</h2>
-        <div class="tips-inline">
-          <span>Salt pasta water like the sea</span>
-          <span>Rest meat 5-10 min before cutting</span>
-          <span>Cold butter = flaky crusts</span>
-          <span>Pat proteins dry for better sear</span>
-          <span>Taste as you go</span>
-        </div>
-      </div>
-    </div>
-
-    <aside class="side-panel ref-sidebar">
-      <div class="ref-section">
-        <h2>Meat Temps</h2>
-        <ul class="ref-list">
-          <li><span class="label">Chicken breast</span><span class="value">160°F</span></li>
-          <li><span class="label">Chicken thigh</span><span class="value">175°F</span></li>
-          <li><span class="label">Pork chops</span><span class="value">145°F</span></li>
-          <li><span class="label">Beef med-rare</span><span class="value">130°F</span></li>
-          <li><span class="label">Salmon</span><span class="value">125°F</span></li>
+        <ul class="tips-list">
+          <li>Salt pasta water like the sea</li>
+          <li>Rest meat 5-10 min before cutting</li>
+          <li>Cold butter = flaky crusts</li>
+          <li>Mise en place before you start</li>
+          <li>Pat proteins dry for better sear</li>
+          <li>Taste as you go, adjust at the end</li>
         </ul>
       </div>
+    </main>
 
-      <div class="ref-section">
-        <h2>Quick Subs</h2>
-        <ul class="ref-list">
-          <li><span class="label">Buttermilk (1c)</span><span class="value">milk + 1T lemon</span></li>
-          <li><span class="label">Heavy cream</span><span class="value">¾c milk + ⅓c butter</span></li>
-          <li><span class="label">Sour cream</span><span class="value">Greek yogurt</span></li>
-        </ul>
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <h3>Meat Temps</h3>
+        <table class="sidebar-table">
+          <tr><td>Chicken</td><td>165°F</td></tr>
+          <tr><td>Beef med-rare</td><td>130°F</td></tr>
+          <tr><td>Pork</td><td>145°F</td></tr>
+          <tr><td>Fish</td><td>145°F</td></tr>
+        </table>
       </div>
-
-      <div class="ref-section">
-        <h2>Conversions</h2>
-        <ul class="ref-list">
-          <li><span class="label">1 stick butter</span><span class="value">8 Tbsp / 113g</span></li>
-          <li><span class="label">1 cup flour</span><span class="value">125g</span></li>
-          <li><span class="label">350°F</span><span class="value">175°C</span></li>
-        </ul>
+      <div class="sidebar-section">
+        <h3>Quick Subs</h3>
+        <table class="sidebar-table">
+          <tr><td>Buttermilk</td><td>milk + lemon</td></tr>
+          <tr><td>Cake flour</td><td>AP - 2T + cornstarch</td></tr>
+          <tr><td>Sour cream</td><td>Greek yogurt</td></tr>
+        </table>
       </div>
-
-      <a href="reference/" class="ref-link">Full reference →</a>
+      <div class="sidebar-section">
+        <h3>Ratios</h3>
+        <table class="sidebar-table">
+          <tr><td>Vinaigrette</td><td>3:1 oil:acid</td></tr>
+          <tr><td>Pie crust</td><td>3:2:1</td></tr>
+          <tr><td>Bread</td><td>5:3 flour:water</td></tr>
+        </table>
+      </div>
+      <div class="sidebar-section">
+        <h3>Conversions</h3>
+        <table class="sidebar-table">
+          <tr><td>1 cup</td><td>16 Tbsp / 237ml</td></tr>
+          <tr><td>1 lb</td><td>454g</td></tr>
+          <tr><td>1 stick butter</td><td>8 Tbsp / 113g</td></tr>
+        </table>
+      </div>
+      <a href="reference/" class="sidebar-link">Full reference →</a>
     </aside>
-  </main>
-
-  <footer class="site-footer">
-    <p>
-      rcpbx
-      <span class="sep">·</span>
-      <span class="view-counter"><span class="counter-num" id="view-counter">0</span> meals inspired</span>
-      <span class="sep">·</span>
-      $0 raised
-      <span class="sep">·</span>
-      <span class="never-acquired">never acquired</span>
-    </p>
-  </footer>
-
-  <div class="kbd-hint">
-    <span><kbd>/</kbd> search</span>
-    <span><kbd>esc</kbd> clear</span>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
-  <script src="js/search.js"></script>
-  <script src="js/easter-eggs.js"></script>
+  <footer>
+    <div class="footer-content">
+      <p>rcpbx — recipes, no bullshit</p>
+      <span class="view-count" id="viewCount"></span>
+    </div>
+  </footer>
+
+  <div class="search-toast" id="toast"></div>
+
+  <script>
+    // Search
+    const searchInput = document.getElementById('search');
+    const toast = document.getElementById('toast');
+    
+    document.addEventListener('keydown', (e) => {
+      if (e.key === '/' && document.activeElement !== searchInput) {
+        e.preventDefault();
+        searchInput.focus();
+      }
+      if (e.key === 'Escape') searchInput.blur();
+    });
+
+    // Easter egg search responses
+    const easterEggs = {
+      'hello': 'Hey there, chef! 👋',
+      'hi': 'Hello! Ready to cook something delicious?',
+      'help': 'Try searching for "chicken" or "pasta"',
+      'secret': '🤫 You found a secret!',
+      'bacon': 'Bacon makes everything better.',
+      'pizza': 'Pizza is always the answer.',
+      'coffee': '☕ First coffee, then cooking.',
+      'wine': '🍷 For the dish... and the chef.',
+      'butter': 'More butter. Always more butter.',
+      '42': 'The answer to life, the universe, and dinner.',
+      'ramsay': '🔥 IT\'S RAW!',
+      'gordon': '🔥 WHERE\'S THE LAMB SAUCE?!',
+      'mama': 'Just like mama used to make 💚',
+      'love': 'The secret ingredient is always love.',
+      'hungry': 'Let\'s fix that! Pick a category above.'
+    };
+
+    function showToast(msg) {
+      toast.textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2500);
+    }
+
+    searchInput.addEventListener('input', (e) => {
+      const val = e.target.value.toLowerCase().trim();
+      if (easterEggs[val]) {
+        showToast(easterEggs[val]);
+      }
+    });
+
+    // Konami code
+    const konamiCode = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
+    let konamiIndex = 0;
+    document.addEventListener('keydown', (e) => {
+      if (e.key === konamiCode[konamiIndex]) {
+        konamiIndex++;
+        if (konamiIndex === konamiCode.length) {
+          document.body.classList.add('flash');
+          showToast('🎮 +30 lives! (just kidding, but nice moves)');
+          setTimeout(() => document.body.classList.remove('flash'), 300);
+          konamiIndex = 0;
+        }
+      } else {
+        konamiIndex = 0;
+      }
+    });
+
+    // Mobile logo touch
+    const logo = document.querySelector('.logo-container');
+    logo.addEventListener('touchstart', () => logo.classList.add('active'));
+    logo.addEventListener('touchend', () => setTimeout(() => logo.classList.remove('active'), 1500));
+
+    // View counter
+    fetch('https://api.counterapi.dev/v1/rcpbx/visits/up')
+      .then(r => r.json())
+      .then(d => {
+        document.getElementById('viewCount').textContent = d.count.toLocaleString() + ' views';
+      })
+      .catch(() => {});
+  </script>
 </body>
 </html>
