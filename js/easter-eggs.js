@@ -28,6 +28,7 @@
     
     const original = 'rcpbx';
     const expanded = 'recipe box';
+    const vowels = ['e', 'i', 'o', 'a', 'u'];
     
     logo.innerHTML = `<span class="logo-text">${original}</span>`;
     const textEl = logo.querySelector('.logo-text');
@@ -46,13 +47,16 @@
       .logo-text { display: inline-block; transition: opacity 0.15s; }
       .logo-letter {
         display: inline-block;
-        transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
         opacity: 1;
         transform: translateY(0) rotate(0deg);
       }
+      .logo-letter.vowel {
+        transition: all 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      }
       .logo-letter.falling {
         opacity: 0;
-        transform: translateY(20px) rotate(15deg);
+        transform: translateY(30px) rotate(20deg);
       }
       .logo-letter.space { width: 0.25em; }
       .logo-tooltip {
@@ -95,19 +99,25 @@
     logo.appendChild(tooltip);
     
     logo.addEventListener('mouseenter', () => {
-      textEl.innerHTML = expanded.split('').map((char, i) => 
-        char === ' ' 
+      textEl.innerHTML = expanded.split('').map((char, i) => {
+        const isVowel = vowels.includes(char.toLowerCase());
+        const vowelClass = isVowel ? ' vowel' : '';
+        return char === ' ' 
           ? `<span class="logo-letter space"> </span>`
-          : `<span class="logo-letter" style="transition-delay: ${i * 0.02}s">${char}</span>`
-      ).join('');
+          : `<span class="logo-letter${vowelClass}" style="transition-delay: ${i * 0.02}s">${char}</span>`;
+      }).join('');
     });
     
     logo.addEventListener('mouseleave', () => {
       const letters = textEl.querySelectorAll('.logo-letter');
       letters.forEach((letter, i) => {
-        setTimeout(() => letter.classList.add('falling'), i * 30 + Math.random() * 50);
+        const isVowel = letter.classList.contains('vowel');
+        // Vowels fall slower with longer delays
+        const delay = isVowel ? (i * 80 + 200) : (i * 40);
+        setTimeout(() => letter.classList.add('falling'), delay);
       });
-      setTimeout(() => { textEl.innerHTML = original; }, 400);
+      // Wait longer before snapping back since vowels fall slower
+      setTimeout(() => { textEl.innerHTML = original; }, 1500);
     });
   }
 
@@ -434,70 +444,12 @@
   }
 
   // ============================================
-  // ACQUISITION STATUS EASTER EGG
+  // ACQUISITION STATUS - just the accent color, no tooltip
   // ============================================
   
   function initAcquisitionEasterEgg() {
-    const acquired = document.querySelector('.never-acquired');
-    if (!acquired) return;
-    
-    const tooltip = document.createElement('span');
-    tooltip.className = 'hover-text';
-    tooltip.textContent = 'and we\'d like to keep it that way';
-    acquired.style.position = 'relative';
-    acquired.appendChild(tooltip);
-    
-    const style = document.createElement('style');
-    style.textContent = `
-      .never-acquired .hover-text {
-        position: absolute;
-        bottom: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        background: var(--text);
-        color: var(--bg);
-        padding: 0.3rem 0.6rem;
-        border-radius: 4px;
-        font-size: 0.65rem;
-        white-space: nowrap;
-        opacity: 0;
-        pointer-events: none;
-        transition: all 0.2s;
-        margin-bottom: 0.4rem;
-        z-index: 100;
-      }
-      .never-acquired .hover-text::after {
-        content: '';
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        border: 4px solid transparent;
-        border-top-color: var(--text);
-      }
-      .never-acquired:hover .hover-text {
-        opacity: 1;
-      }
-    `;
-    document.head.appendChild(style);
-    
-    const messages = [
-      'and we\'d like to keep it that way',
-      'not for sale',
-      'priceless, actually',
-      'our exit strategy is dinner',
-    ];
-    let msgIndex = 0;
-    
-    acquired.addEventListener('click', (e) => {
-      e.stopPropagation();
-      msgIndex = (msgIndex + 1) % messages.length;
-      tooltip.style.opacity = '0';
-      setTimeout(() => {
-        tooltip.textContent = messages[msgIndex];
-        tooltip.style.opacity = '1';
-      }, 150);
-    });
+    // Intentionally empty - removed tooltip per request
+    // The "never acquired" text just shows in accent color
   }
 
   // ============================================

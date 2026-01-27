@@ -1,6 +1,6 @@
 # rcpbx v2 — Complete Package
 
-Mobile-first redesign, 3x5 print, easter eggs, indie footer with real counter.
+Mobile-first redesign, 3x5 print, fridge reference, easter eggs, real counter.
 
 ---
 
@@ -9,9 +9,10 @@ Mobile-first redesign, 3x5 print, easter eggs, indie footer with real counter.
 ```
 rcpbx-final/
 ├── index.html           ← New homepage
+├── recipe-template.html ← Recipe page with 3x5 print
 ├── css-additions.css    ← Add to your style.css
 ├── reference/
-│   └── index.html       ← Kitchen reference page
+│   └── index.html       ← Kitchen reference (fridge print)
 └── js/
     ├── easter-eggs.js   ← Easter eggs + real counter
     └── kitchen-hints.js ← Contextual hints (optional)
@@ -19,92 +20,52 @@ rcpbx-final/
 
 ---
 
-## The View Counter (REAL DATA)
+## Print Features
 
-Uses **counterapi.dev** — free, no signup, tracks actual visits.
+### Recipe → 3x5 Index Card
+- Click "🗃️ 3×5 Card" button on recipe page
+- Set printer to 3x5 or 4x6 index card size
+- Or "Save as PDF" to see the compact layout
+- Two-column: ingredients left, steps right
 
-### How it works:
-- First visit in a session → increments counter
-- Same session, different pages → just shows current count
-- Data persists on their servers forever
-- Shows "..." while loading, "—" if API fails
+### Reference → Fridge Sheet
+- Click "🧲 Print for Fridge" on reference page
+- Prints to letter size, 3-column compact grid
+- All sections visible
 
-### Setup:
+---
 
-1. Open `js/easter-eggs.js`
-2. Find the CONFIG at the top:
+## View Counter (Real)
 
+Uses counterapi.dev — free, no signup.
+
+Edit `js/easter-eggs.js` line 13:
 ```javascript
-const CONFIG = {
-  counterNamespace: 'rcpbx-com',  // ← YOUR unique name here
-  counterKey: 'visits',
-};
-```
-
-3. Change `counterNamespace` to something unique for your site
-
-That's it. Counter auto-creates on first visit. No signup, no API keys, no bullshit.
-
----
-
-## Deployment (GitHub Browser)
-
-### 1. Replace Homepage
-- Edit `index.html` → delete all → paste from this package
-- Commit: "Redesign homepage"
-
-### 2. Add CSS
-- Edit `css/style.css` → scroll to bottom → paste `css-additions.css`
-- Commit: "Add mobile + print styles"
-
-### 3. Upload Reference
-- Add file → Upload → drag `reference` folder
-- Commit: "Add kitchen reference"
-
-### 4. Upload JS
-- Go to `js` folder → Upload both JS files
-- Commit: "Add easter eggs"
-
-### 5. Add Print Button to Recipes
-In `.recipe-controls`:
-```html
-<button class="print-btn" onclick="window.print()">
-  <span>🗃️</span> 3×5
-</button>
+counterNamespace: 'rcpbx-com',  // ← your unique name
 ```
 
 ---
 
-## What You Get
+## Deployment
 
-### Footer
-```
-rcpbx · 1,247 meals inspired · $0 raised · never acquired
-        ↑ real number
-```
+1. Replace `index.html`
+2. Add `css-additions.css` to end of `css/style.css`
+3. Upload `reference/` folder
+4. Upload `js/` files
+5. Use `recipe-template.html` for recipe pages
 
-### Easter Eggs
+---
+
+## Easter Eggs
+
 | Trigger | Result |
 |---------|--------|
-| Hover logo | Expands to "recipe box" |
-| Search "life story" | 🙄 Not here. Just recipes. |
-| Search "ads" | 🚫 Nope. Never. |
+| Hover logo | Expands, vowels fall slowly |
+| Search "life story" | Snarky response |
 | ↑↑↓↓←→←→BA | Achievement Unlocked |
 | Check all ingredients | Confetti 🎉 |
-| Hover "never acquired" | Snarky tooltip |
 | Click footer | Escalating messages |
 
-### Mobile
-- 48px touch targets
-- iOS safe areas
-- Fixed thumb-zone controls
-
-### 3x5 Print
-- Fits index cards
-- Cute ♨ icon
-
 ---
-
-No build step. No dependencies. Real data.
 
 *Now go cook something.*
