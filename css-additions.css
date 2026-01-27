@@ -1,0 +1,241 @@
+/* ============================================
+   rcpbx CSS ADDITIONS
+   Add this to the END of your css/style.css
+   ============================================ */
+
+/* iOS safe areas */
+body {
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+/* Mobile touch targets */
+@media (max-width: 768px) {
+  .ingredients-list li {
+    padding: 0.75rem 0.5rem;
+    margin: 0 -0.5rem;
+    border-radius: 6px;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ingredients-list li:active {
+    background: var(--accent-dim);
+  }
+  
+  .steps-list li {
+    padding: 1rem 0 1rem 3rem;
+    min-height: 60px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .steps-list li::before {
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.8rem;
+  }
+  
+  .steps-list li:active {
+    background: var(--accent-dim);
+    margin: 0 -1rem;
+    padding-left: 4rem;
+    padding-right: 1rem;
+  }
+  
+  .recipe-controls {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: calc(0.75rem + env(safe-area-inset-bottom, 0));
+    z-index: 100;
+  }
+  
+  .steps {
+    padding-bottom: 100px;
+  }
+  
+  .scale-btn, .wake-lock, .print-btn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Print button */
+.print-btn {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--border);
+  background: var(--bg-alt);
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.print-btn:hover,
+.print-btn:active {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+@media (min-width: 768px) {
+  .print-btn {
+    margin-left: auto;
+  }
+}
+
+/* ============================================
+   3x5 INDEX CARD PRINT
+   ============================================ */
+@media print {
+  @page {
+    size: 5in 3in;
+    margin: 0.15in;
+  }
+  
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 7pt;
+    line-height: 1.25;
+    background: white !important;
+    color: #000 !important;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .site-header,
+  .site-footer,
+  .recipe-controls,
+  .breadcrumb,
+  .recipe-notes,
+  .recipe-photo {
+    display: none !important;
+  }
+  
+  .recipe-card {
+    max-width: none;
+    margin: 0;
+  }
+  
+  .recipe-body {
+    display: grid;
+    grid-template-columns: 1.4in 1fr;
+    gap: 0.1in;
+    border: none;
+    background: transparent;
+  }
+  
+  .recipe-header {
+    padding: 0 0 0.08in 0;
+    border-bottom: 0.5pt solid #999;
+    margin-bottom: 0.08in;
+  }
+  
+  .recipe-title {
+    font-size: 11pt;
+    font-weight: 700;
+    margin: 0 0 0.03in 0;
+    line-height: 1.1;
+  }
+  
+  .recipe-meta {
+    font-size: 6pt;
+    color: #666;
+    gap: 0.1in;
+  }
+  
+  .ingredients {
+    padding: 0;
+    background: transparent !important;
+    border-right: 0.5pt solid #ddd;
+    border-bottom: none;
+    padding-right: 0.08in;
+    overflow: hidden;
+    position: static;
+    max-height: none;
+  }
+  
+  .ingredients h2,
+  .steps h2 {
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #666;
+    margin: 0 0 0.04in 0;
+    padding-bottom: 0.02in;
+    border-bottom: 0.25pt solid #ddd;
+  }
+  
+  .ingredients-list li {
+    font-size: 6.5pt;
+    padding: 0.02in 0;
+    border-bottom: none;
+    min-height: 0;
+    line-height: 1.2;
+    background: transparent !important;
+  }
+  
+  .ingredients-list li.checked {
+    text-decoration: none;
+    color: #000;
+    opacity: 1;
+  }
+  
+  .ingredients-list .amount {
+    font-weight: 600;
+    color: #000;
+    min-width: 0.4in;
+  }
+  
+  .steps {
+    padding: 0 0 0 0.08in;
+    overflow: hidden;
+  }
+  
+  .steps-list li {
+    font-size: 6.5pt;
+    padding: 0.02in 0 0.02in 0.18in;
+    border-bottom: none;
+    min-height: 0;
+    line-height: 1.25;
+    page-break-inside: avoid;
+    background: transparent !important;
+    margin: 0 !important;
+    opacity: 1 !important;
+  }
+  
+  .steps-list li::before {
+    width: 0.12in;
+    height: 0.12in;
+    font-size: 5pt;
+    top: 0.025in;
+    background: #eee !important;
+    color: #333 !important;
+  }
+  
+  .steps-list li.active,
+  .steps-list li.dimmed {
+    padding-left: 0.18in !important;
+    padding-right: 0 !important;
+  }
+  
+  .recipe-card::after {
+    content: '♨';
+    position: fixed;
+    bottom: 0.08in;
+    right: 0.08in;
+    font-size: 8pt;
+    color: #ccc;
+  }
+}
