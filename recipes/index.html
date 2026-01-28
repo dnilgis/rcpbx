@@ -3,13 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loading... | rcpbx</title>
+  <title>Recipes | rcpbx</title>
   <meta name="description" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
-  <style>.loading{text-align:center;padding:4rem 1rem;color:var(--text-muted)}.loading::after{content:'';display:block;width:24px;height:24px;margin:1rem auto;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}.error{text-align:center;padding:4rem 1rem;color:#c00}</style>
+  <style>
+    .loading{text-align:center;padding:4rem 1rem;color:var(--text-muted)}
+    .loading::after{content:'';display:block;width:24px;height:24px;margin:1rem auto;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .error{text-align:center;padding:4rem 1rem;color:#c00}
+    
+    /* Category listing */
+    .category-header{padding:2rem 1.5rem 1rem;max-width:var(--max-width);margin:0 auto}
+    .category-header h1{font-size:1.75rem;font-weight:700;margin-bottom:0.25rem}
+    .category-header p{color:var(--text-muted);font-size:0.9rem}
+    .recipe-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;padding:0 1.5rem 2rem;max-width:var(--max-width);margin:0 auto}
+    .recipe-link{display:block;padding:1.25rem;background:var(--card);border:1px solid var(--border);border-radius:6px;text-decoration:none;transition:all 0.15s}
+    .recipe-link:hover{border-color:var(--accent);transform:translateY(-2px)}
+    .recipe-link h2{font-size:1rem;font-weight:600;color:var(--text);margin-bottom:0.25rem}
+    .recipe-link p{font-size:0.85rem;color:var(--text-muted);line-height:1.4}
+    .recipe-link .meta{font-family:var(--font-mono);font-size:0.7rem;color:var(--text-dim);margin-top:0.5rem}
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -21,19 +37,129 @@
     </div>
   </header>
   <main>
-    <div class="container"><p class="breadcrumb" style="padding-top:1.5rem" id="breadcrumb"><a href="../">Home</a> → Loading...</p></div>
-    <article class="recipe-card" id="recipe-container"><div class="loading">Loading recipe...</div></article>
+    <div id="content"><div class="loading">Loading...</div></div>
   </main>
   <footer class="site-footer"><p class="footer-line"><span style="color:var(--accent);font-weight:500">rcpbx.com</span><span class="sep">·</span><span>$0 VC</span><span class="sep">·</span><span class="never-acquired">never acquired</span></p></footer>
   <button class="print-btn" onclick="window.print()" style="display:none" id="print-btn">Print Card</button>
   <script>
 const params = new URLSearchParams(window.location.search);
 const recipeId = params.get('r') || window.location.hash.slice(1) || null;
-if (!recipeId) {
-  document.getElementById('recipe-container').innerHTML = '<div class="error">No recipe specified. <a href="../">Go home</a></div>';
-} else {
+const categorySlug = params.get('cat') || null;
+
+const categoryNames = {
+  'soups-stews': 'Soups & Stews',
+  'pasta': 'Pasta',
+  'chicken': 'Chicken',
+  'beef': 'Beef',
+  'pork': 'Pork',
+  'seafood': 'Seafood',
+  'breakfast': 'Breakfast',
+  'sides': 'Sides',
+  'baking-dessert': 'Baking & Desserts',
+  'basics': 'Basics'
+};
+
+if (recipeId) {
   loadRecipe(recipeId);
+} else if (categorySlug) {
+  loadCategory(categorySlug);
+} else {
+  document.getElementById('content').innerHTML = '<div class="error">No recipe or category specified. <a href="../">Go home</a></div>';
 }
+
+async function loadCategory(slug) {
+  const categoryName = categoryNames[slug] || slug;
+  document.title = `${categoryName} | rcpbx`;
+  
+  try {
+    // Fetch the recipe index
+    const response = await fetch('../data/index.json');
+    let recipes;
+    
+    if (response.ok) {
+      const index = await response.json();
+      recipes = index.filter(r => r.categorySlug === slug);
+    } else {
+      // Fallback: load all JSON files (slower)
+      recipes = await loadAllRecipes(slug);
+    }
+    
+    if (recipes.length === 0) {
+      document.getElementById('content').innerHTML = `<div class="error">No recipes found in ${categoryName}. <a href="../">Go home</a></div>`;
+      return;
+    }
+    
+    renderCategoryList(categoryName, recipes);
+  } catch (err) {
+    console.error(err);
+    document.getElementById('content').innerHTML = `<div class="error">Error loading recipes. <a href="../">Go home</a></div>`;
+  }
+}
+
+async function loadAllRecipes(filterSlug) {
+  // Known recipe IDs - we'll try to fetch each one
+  const recipeIds = [
+    'apple-pie','baby-back-ribs','baked-beans','baked-chicken-breast','baked-cod','baked-potato','baked-ziti',
+    'banana-bread','bbq-sauce','bechamel','beef-and-broccoli','beef-barley-soup','beef-fajitas','beef-stew',
+    'beef-stroganoff','beef-tacos','biscuits','biscuits-and-gravy','blueberry-muffins','bolognese','breakfast-burrito',
+    'breakfast-casserole','broccoli-cheddar-soup','brownies','buffalo-wings','cacio-e-pepe','carbonara','carnitas',
+    'carrot-cake','cheesecake','chicken-alfredo','chicken-fried-rice','chicken-marsala','chicken-noodle-soup',
+    'chicken-parmesan','chicken-pot-pie','chicken-salad','chicken-stir-fry','chicken-stock','chicken-tacos',
+    'chicken-tikka-masala','chicken-tortilla-soup','chili-by-george','chocolate-cake','chocolate-chip-cookies',
+    'cinnamon-rolls','coleslaw','cornbread','crab-cakes','dinner-rolls','eggs-benedict','fish-and-chips','fish-tacos',
+    'french-onion-soup','french-toast','fried-chicken','glazed-ham','gravy','green-bean-casserole','guacamole',
+    'hash-browns','homemade-bread','lasagna','mac-and-cheese','macaroni-salad','marinara-sauce','mashed-potatoes',
+    'meatloaf','minestrone','omelette','pan-seared-salmon','pan-seared-steak','pancakes','pasta-primavera',
+    'peach-cobbler','philly-cheesesteak','pie-crust','pizza-dough','pork-chops','pork-fried-rice','pork-tenderloin',
+    'pot-roast','potato-salad','potato-soup','pound-cake','pulled-pork','pumpkin-pie','quiche','rice-pilaf',
+    'roast-chicken','roasted-vegetables','salmon-patties','salsa','scrambled-eggs','shepherds-pie','shrimp-boil',
+    'shrimp-scampi','sloppy-joes','smash-burgers','spaghetti-and-meatballs','split-pea-soup','stuffed-shells',
+    'stuffing','sugar-cookies','swedish-meatballs','tomato-soup','tuna-noodle-casserole','tuna-salad','vinaigrette',
+    'waffles','white-chicken-chili'
+  ];
+  
+  const recipes = [];
+  for (const id of recipeIds) {
+    try {
+      const res = await fetch(`../data/${id}.json`);
+      if (res.ok) {
+        const recipe = await res.json();
+        if (recipe.categorySlug === filterSlug) {
+          recipes.push(recipe);
+        }
+      }
+    } catch (e) {}
+  }
+  return recipes;
+}
+
+function renderCategoryList(categoryName, recipes) {
+  let html = `
+    <div class="category-header">
+      <p style="font-family:var(--font-mono);font-size:0.75rem;color:var(--text-dim);margin-bottom:0.5rem"><a href="../" style="color:var(--text-muted);text-decoration:none">Home</a> → ${categoryName}</p>
+      <h1>${categoryName}</h1>
+      <p>${recipes.length} recipes</p>
+    </div>
+    <div class="recipe-grid">
+  `;
+  
+  recipes.sort((a, b) => a.title.localeCompare(b.title));
+  
+  for (const r of recipes) {
+    const time = r.time || (r.prep && r.cook ? `${r.prep} + ${r.cook}` : r.prep || r.cook || '');
+    html += `
+      <a href="?r=${r.id}" class="recipe-link">
+        <h2>${r.title}</h2>
+        <p>${r.tagline || r.description || ''}</p>
+        <div class="meta">${time}${r.serves ? ` · serves ${r.serves}` : ''}${r.makes ? ` · makes ${r.makes}` : ''}</div>
+      </a>
+    `;
+  }
+  
+  html += '</div>';
+  document.getElementById('content').innerHTML = html;
+}
+
 async function loadRecipe(id) {
   try {
     const response = await fetch(`../data/${id}.json`);
@@ -41,41 +167,54 @@ async function loadRecipe(id) {
     const recipe = await response.json();
     renderRecipe(recipe);
   } catch (err) {
-    document.getElementById('recipe-container').innerHTML = `<div class="error">Recipe not found: ${id}. <a href="../">Go home</a></div>`;
+    document.getElementById('content').innerHTML = `<div class="error">Recipe not found: ${id}. <a href="../">Go home</a></div>`;
   }
 }
+
 function renderRecipe(r) {
   document.title = `${r.title} | rcpbx`;
   document.querySelector('meta[name="description"]').content = r.description || r.tagline;
-  document.getElementById('breadcrumb').innerHTML = `<a href="../">Home</a> → ${r.category || 'Recipe'} → ${r.title}`;
+  
   let metaHtml = '';
   if (r.prep) metaHtml += `<div class="meta-item"><span class="meta-label">Prep</span><span class="meta-value">${r.prep}</span></div>`;
   if (r.cook) metaHtml += `<div class="meta-item"><span class="meta-label">Cook</span><span class="meta-value">${r.cook}</span></div>`;
   if (r.time && !r.prep && !r.cook) metaHtml += `<div class="meta-item"><span class="meta-label">Time</span><span class="meta-value">${r.time}</span></div>`;
   if (r.serves) metaHtml += `<div class="meta-item"><span class="meta-label">Serves</span><span class="meta-value">${r.serves}</span></div>`;
   if (r.makes) metaHtml += `<div class="meta-item"><span class="meta-label">Makes</span><span class="meta-value">${r.makes}</span></div>`;
+  
   const ingredientsHtml = r.ingredients.map(i => {
     if (typeof i === 'string') return `<li>${i}</li>`;
     if (i.amount) return `<li><span class="amount">${i.amount}</span> ${i.item}</li>`;
     return `<li>${i.item || i}</li>`;
   }).join('');
+  
   const stepsHtml = r.steps.map(s => `<li>${s}</li>`).join('');
   const notesHtml = r.notes ? r.notes.map(n => `<p>${n}</p>`).join('') : '';
+  
   let sourceHtml = '';
   if (r.source) {
     sourceHtml = `<span>${r.source}</span>`;
     if (r.sourceUrl) sourceHtml += ` <a href="${r.sourceUrl}" target="_blank" rel="noopener">View original →</a>`;
   }
-  document.getElementById('recipe-container').innerHTML = `
-    <header class="recipe-header"><h1 class="recipe-title">${r.title}</h1><p class="recipe-tagline">${r.tagline}</p></header>
-    <div class="recipe-meta">${metaHtml}</div>
-    <div class="recipe-body">
-      <section class="ingredients"><h2 class="section-title">Ingredients</h2><ul class="ingredients-list">${ingredientsHtml}</ul></section>
-      <section class="steps"><h2 class="section-title">Steps</h2><ol class="steps-list">${stepsHtml}</ol></section>
+  
+  const catLink = r.categorySlug ? `<a href="?cat=${r.categorySlug}" style="color:var(--text-muted);text-decoration:none">${r.category}</a>` : r.category;
+  
+  document.getElementById('content').innerHTML = `
+    <div class="container" style="padding-top:1.5rem">
+      <p class="breadcrumb"><a href="../">Home</a> → ${catLink} → ${r.title}</p>
     </div>
-    ${notesHtml ? `<div class="recipe-notes"><h2 class="section-title">Notes</h2>${notesHtml}</div>` : ''}
-    ${sourceHtml ? `<footer class="recipe-footer">${sourceHtml}</footer>` : ''}
+    <article class="recipe-card">
+      <header class="recipe-header"><h1 class="recipe-title">${r.title}</h1><p class="recipe-tagline">${r.tagline}</p></header>
+      <div class="recipe-meta">${metaHtml}</div>
+      <div class="recipe-body">
+        <section class="ingredients"><h2 class="section-title">Ingredients</h2><ul class="ingredients-list">${ingredientsHtml}</ul></section>
+        <section class="steps"><h2 class="section-title">Steps</h2><ol class="steps-list">${stepsHtml}</ol></section>
+      </div>
+      ${notesHtml ? `<div class="recipe-notes"><h2 class="section-title">Notes</h2>${notesHtml}</div>` : ''}
+      ${sourceHtml ? `<footer class="recipe-footer">${sourceHtml}</footer>` : ''}
+    </article>
   `;
+  
   document.getElementById('print-btn').style.display = 'block';
   document.querySelectorAll('.ingredients-list li').forEach(li => {
     li.addEventListener('click', () => li.classList.toggle('checked'));
