@@ -1,0 +1,39 @@
+{
+  "id": "pumpkin-pie",
+  "title": "Pumpkin Pie",
+  "tagline": "Spiced, custardy, Thanksgiving essential",
+  "description": "Pumpkin Pie - BraveTart tested",
+  "category": "Baking",
+  "categorySlug": "baking-dessert",
+  "time": "1½ hrs + chilling",
+  "serves": "8",
+  "ingredients": [
+    "1 (9-inch) pie crust, blind-baked",
+    "1 (15 oz) can pumpkin puree",
+    "¾ cup brown sugar",
+    "1 tsp cinnamon",
+    "½ tsp ginger",
+    "¼ tsp nutmeg",
+    "¼ tsp cloves",
+    "½ tsp salt",
+    "3 eggs",
+    "1 cup heavy cream",
+    "Whipped cream"
+  ],
+  "steps": [
+    "Preheat oven to 425°F.",
+    "Cook pumpkin in saucepan over medium, stirring, until thickened, 5-8 minutes.",
+    "Whisk in sugar, spices, salt. Cool slightly.",
+    "Whisk in eggs and cream.",
+    "Pour into crust. Bake 15 minutes.",
+    "Reduce to 350°F. Bake 40-50 more until center is just set.",
+    "Cool to room temperature. Chill.",
+    "Serve with whipped cream."
+  ],
+  "notes": [
+    "Cooking pumpkin first intensifies flavor.",
+    "Center should wobble when done."
+  ],
+  "source": "Serious Eats / Stella Parks (BraveTart tested)",
+  "sourceUrl": "https://www.seriouseats.com/pumpkin-pie-recipe"
+}

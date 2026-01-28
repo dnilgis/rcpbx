@@ -1,0 +1,36 @@
+{
+  "id": "quiche",
+  "title": "Quiche Lorraine",
+  "tagline": "Bacon, cheese, custardy filling",
+  "description": "Quiche Lorraine - ATK Lab-Tested",
+  "category": "Breakfast",
+  "categorySlug": "breakfast",
+  "time": "1½ hrs",
+  "serves": "6-8",
+  "ingredients": [
+    "1 (9-inch) pie crust, blind-baked",
+    "6 slices bacon, chopped",
+    "1 cup Gruyère, shredded",
+    "4 eggs",
+    "1 cup heavy cream",
+    "1 cup whole milk",
+    "¼ tsp nutmeg",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Preheat oven to 350°F.",
+    "Cook bacon until crisp. Drain.",
+    "Scatter bacon and cheese in pie crust.",
+    "Whisk eggs, cream, milk, nutmeg, ½ tsp salt, ¼ tsp pepper.",
+    "Pour custard into crust.",
+    "Bake until center is just set and jiggles slightly, 45-50 minutes.",
+    "Cool 15 minutes before slicing."
+  ],
+  "notes": [
+    "Blind-baking prevents soggy crust.",
+    "Custard should jiggle like jello when done.",
+    "Don't overbake."
+  ],
+  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "sourceUrl": "https://www.americastestkitchen.com/recipes/8083-quiche-lorraine"
+}

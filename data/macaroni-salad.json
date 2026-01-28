@@ -1,0 +1,35 @@
+{
+  "id": "macaroni-salad",
+  "title": "Macaroni Salad",
+  "tagline": "Creamy, tangy, picnic classic",
+  "description": "Macaroni Salad - Rigorously tested",
+  "category": "Sides",
+  "categorySlug": "sides",
+  "time": "30 min + chilling",
+  "serves": "8",
+  "ingredients": [
+    "1 lb elbow macaroni",
+    "¾ cup mayonnaise",
+    "2 tbsp apple cider vinegar",
+    "1 tbsp Dijon mustard",
+    "2 celery ribs, diced",
+    "¼ cup red onion, minced",
+    "¼ cup dill pickles, diced",
+    "2 tbsp parsley",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Cook pasta until tender. Rinse with cold water.",
+    "Whisk mayo, vinegar, mustard.",
+    "Add pasta, celery, onion, pickles, parsley. Toss.",
+    "Season generously.",
+    "Refrigerate at least 2 hours.",
+    "Before serving, stir and adjust. Add more mayo if dry."
+  ],
+  "notes": [
+    "Pasta absorbs dressing - make it wetter than you think.",
+    "Tastes better next day."
+  ],
+  "source": "Serious Eats (Rigorously tested)",
+  "sourceUrl": "https://www.seriouseats.com/macaroni-salad-recipe"
+}

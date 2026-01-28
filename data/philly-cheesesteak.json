@@ -1,0 +1,33 @@
+{
+  "id": "philly-cheesesteak",
+  "title": "Philly Cheesesteak",
+  "tagline": "Thinly sliced beef, gooey cheese, soft roll",
+  "description": "Philly Cheesesteak - Kenji López-Alt tested",
+  "category": "Beef",
+  "categorySlug": "beef",
+  "time": "30 min",
+  "serves": "4",
+  "ingredients": [
+    "1½ lbs ribeye steak",
+    "2 tbsp vegetable oil",
+    "1 large onion, sliced thin",
+    "8 slices American cheese (or Cheez Whiz)",
+    "4 hoagie rolls",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Freeze ribeye 30-60 minutes until firm. Slice as thin as possible against grain.",
+    "Cook onions in 1 tbsp oil until caramelized, 10-15 minutes. Season, transfer out.",
+    "Increase heat to high. Add remaining oil.",
+    "Spread steak thin, season. Sear 30 seconds, chop and stir. Cook until just done.",
+    "Pile into 4 portions. Top with cheese. Cover to melt.",
+    "Scoop into rolls with onions."
+  ],
+  "notes": [
+    "Freezing makes thin slicing possible.",
+    "American cheese melts perfectly.",
+    "Don't overcook - should be tender."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/philly-style-cheesesteaks-recipe"
+}

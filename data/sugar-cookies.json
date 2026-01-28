@@ -1,0 +1,38 @@
+{
+  "id": "sugar-cookies",
+  "title": "Sugar Cookies",
+  "tagline": "Crisp edges, soft center, perfect for decorating",
+  "description": "Sugar Cookies - King Arthur tested",
+  "category": "Baking",
+  "categorySlug": "baking-dessert",
+  "time": "2 hrs + chilling",
+  "makes": "24-36",
+  "ingredients": [
+    "1 cup butter softened",
+    "1 cup sugar",
+    "1 egg",
+    "2 tsp vanilla",
+    "½ tsp almond extract (optional)",
+    "3 cups flour",
+    "1½ tsp baking powder",
+    "½ tsp salt",
+    "Royal icing for decorating"
+  ],
+  "steps": [
+    "Beat butter and sugar until fluffy, 3 minutes.",
+    "Add egg and extracts.",
+    "Whisk flour, baking powder, salt. Add gradually.",
+    "Divide dough, flatten, wrap, chill 2 hours.",
+    "Roll to ¼-inch thick. Cut shapes.",
+    "Place on parchment sheets. Chill 15 minutes.",
+    "Bake at 350°F for 8-10 minutes until edges just start to color.",
+    "Cool completely before decorating."
+  ],
+  "notes": [
+    "Chilling prevents spreading.",
+    "Don't overbake - they firm as they cool.",
+    "Almond extract is the secret."
+  ],
+  "source": "King Arthur Baking (King Arthur tested)",
+  "sourceUrl": "https://www.kingarthurbaking.com/recipes/cutout-sugar-cookies-recipe"
+}

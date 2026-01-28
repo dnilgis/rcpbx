@@ -1,0 +1,37 @@
+{
+  "id": "split-pea-soup",
+  "title": "Split Pea Soup",
+  "tagline": "Thick, smoky, and deeply satisfying",
+  "description": "Split Pea Soup - ATK Lab-Tested",
+  "category": "Soups & Stews",
+  "categorySlug": "soups-stews",
+  "time": "1½ hrs",
+  "serves": "6-8",
+  "ingredients": [
+    "1 smoked ham hock",
+    "2 tbsp butter",
+    "2 onions, chopped",
+    "2 celery ribs, chopped",
+    "2 carrots, chopped",
+    "4 cloves garlic, minced",
+    "1 lb green split peas, rinsed",
+    "8 cups water",
+    "2 bay leaves",
+    "1 tsp fresh thyme",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Melt butter. Cook onions, celery, carrots until softened, 8-10 minutes.",
+    "Add garlic, cook 30 seconds.",
+    "Add peas, water, ham hock, bay leaves, thyme. Bring to boil.",
+    "Reduce heat, simmer partially covered until thick, about 1 hour.",
+    "Remove ham hock, shred meat, return to soup. Discard bone.",
+    "Remove bay leaves. Season with salt and pepper."
+  ],
+  "notes": [
+    "No need to soak split peas.",
+    "Soup thickens significantly as it cools - thin when reheating."
+  ],
+  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "sourceUrl": "https://www.americastestkitchen.com/recipes/1603-split-pea-and-ham-soup"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "roasted-vegetables",
+  "title": "Roasted Vegetables",
+  "tagline": "Caramelized, tender, versatile",
+  "description": "Roasted Vegetables - Kenji López-Alt tested",
+  "category": "Sides",
+  "categorySlug": "sides",
+  "time": "45 min",
+  "serves": "4-6",
+  "ingredients": [
+    "2 lbs mixed vegetables (carrots, broccoli, cauliflower, Brussels sprouts)",
+    "3 tbsp olive oil",
+    "4 cloves garlic, minced",
+    "1 tsp fresh thyme or rosemary",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Preheat oven to 425°F.",
+    "Cut vegetables into similar sizes.",
+    "Toss with oil, garlic, herbs, salt, pepper.",
+    "Spread in single layer on baking sheet. Don't crowd.",
+    "Roast 20 minutes. Stir.",
+    "Continue roasting until browned and tender, 15-25 more minutes."
+  ],
+  "notes": [
+    "Don't crowd the pan.",
+    "Use two pans if needed.",
+    "High heat creates caramelization."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/roasted-vegetables-recipe"
+}

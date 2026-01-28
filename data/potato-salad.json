@@ -1,0 +1,36 @@
+{
+  "id": "potato-salad",
+  "title": "Potato Salad",
+  "tagline": "Creamy, classic American style",
+  "description": "Potato Salad - Kenji López-Alt tested",
+  "category": "Sides",
+  "categorySlug": "sides",
+  "time": "45 min + chilling",
+  "serves": "8",
+  "ingredients": [
+    "3 lbs Yukon Gold potatoes",
+    "2 tbsp white vinegar",
+    "¾ cup mayonnaise",
+    "2 tbsp yellow mustard",
+    "3 celery ribs, diced",
+    "¼ cup red onion, minced",
+    "3 hard-boiled eggs, chopped",
+    "2 tbsp fresh dill or parsley",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Cover potatoes with salted water. Boil until fork-tender, 15-20 minutes.",
+    "Drain. When cool enough, cut into ¾-inch cubes.",
+    "Toss warm potatoes with vinegar and ½ tsp salt.",
+    "Let cool to room temperature.",
+    "Mix mayo and mustard. Add to potatoes with celery, onion, eggs, herbs.",
+    "Fold gently. Season.",
+    "Refrigerate at least 2 hours."
+  ],
+  "notes": [
+    "Dress potatoes while warm - absorbs more flavor.",
+    "Yukon Golds hold shape better."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/classic-american-potato-salad-recipe"
+}

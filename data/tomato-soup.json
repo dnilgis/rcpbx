@@ -1,0 +1,37 @@
+{
+  "id": "tomato-soup",
+  "title": "Tomato Soup",
+  "tagline": "Velvety smooth, deeply tomatoey. Grilled cheese's best friend.",
+  "description": "Velvety smooth, deeply tomatoey. Grilled cheese's best friend.",
+  "category": "Soups & Stews",
+  "categorySlug": "soups-stews",
+  "prep": "10 min",
+  "cook": "30 min",
+  "serves": "6",
+  "ingredients": [
+    "2 tbsp butter",
+    "1 onion, diced",
+    "3 cloves garlic, minced",
+    "2 cans 28oz whole peeled tomatoes",
+    "2 cups chicken or vegetable broth",
+    "1 tsp sugar",
+    "½ cup heavy cream",
+    "Salt and pepper to taste",
+    "Fresh basil for garnish"
+  ],
+  "steps": [
+    "Melt butter in large pot over medium heat.",
+    "Sauté onion until soft, about 5 minutes. Add garlic, cook 1 minute.",
+    "Add tomatoes with juices, broth, and sugar. Bring to simmer.",
+    "Cook 20 minutes, stirring occasionally.",
+    "Blend until smooth with immersion blender (or in batches in regular blender).",
+    "Stir in cream. Season with salt and pepper.",
+    "Serve hot, garnished with basil."
+  ],
+  "notes": [
+    "San Marzano tomatoes: Worth the splurge for best flavor.",
+    "Don't boil after adding cream: It can curdle.",
+    "Make it chunky: Blend only half for more texture."
+  ],
+  "source": "Adapted from America's Test Kitchen"
+}

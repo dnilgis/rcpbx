@@ -1,0 +1,34 @@
+{
+  "id": "pound-cake",
+  "title": "Pound Cake",
+  "tagline": "Dense, buttery, versatile",
+  "description": "Pound Cake - King Arthur tested",
+  "category": "Baking",
+  "categorySlug": "baking-dessert",
+  "time": "1½ hrs",
+  "serves": "12",
+  "ingredients": [
+    "1 cup butter, softened",
+    "3 cups sugar",
+    "6 eggs",
+    "3 cups flour",
+    "1 cup sour cream",
+    "1 tsp vanilla",
+    "¼ tsp salt"
+  ],
+  "steps": [
+    "Preheat oven to 325°F. Grease and flour bundt pan.",
+    "Beat butter and sugar until very light and fluffy, 5 minutes.",
+    "Add eggs one at a time, beating after each.",
+    "Combine flour and salt. Add alternately with sour cream, starting and ending with flour.",
+    "Stir in vanilla.",
+    "Pour into pan. Bake 60-75 minutes until toothpick comes out clean.",
+    "Cool in pan 15 minutes, then turn out."
+  ],
+  "notes": [
+    "Creaming butter and sugar is the key to texture.",
+    "Don't open oven door for first 45 minutes."
+  ],
+  "source": "King Arthur Baking (King Arthur tested)",
+  "sourceUrl": "https://www.kingarthurbaking.com/recipes/pound-cake-recipe"
+}

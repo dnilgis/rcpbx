@@ -1,0 +1,36 @@
+{
+  "id": "stuffed-shells",
+  "title": "Stuffed Shells",
+  "tagline": "Ricotta-filled pasta in marinara",
+  "description": "Stuffed Shells - 2,700+ five-star reviews",
+  "category": "Pasta",
+  "categorySlug": "pasta",
+  "time": "1¼ hrs",
+  "serves": "8",
+  "ingredients": [
+    "1 (12 oz) box jumbo shells",
+    "1 lb ground beef",
+    "1 onion, chopped",
+    "1 (24 oz) jar marinara",
+    "32 oz ricotta",
+    "2 cups mozzarella, shredded",
+    "½ cup Parmesan",
+    "2 eggs",
+    "¼ cup parsley",
+    "1 tsp Italian seasoning"
+  ],
+  "steps": [
+    "Cook shells until just al dente. Cool.",
+    "Brown beef with onion. Stir in half the marinara.",
+    "Mix ricotta, 1 cup mozzarella, Parmesan, eggs, parsley, Italian seasoning.",
+    "Spread remaining marinara in 9x13 dish.",
+    "Fill shells with ricotta, place in dish. Top with meat sauce and remaining mozzarella.",
+    "Cover, bake at 350°F for 40 minutes. Uncover, bake 10 more minutes."
+  ],
+  "notes": [
+    "Undercook shells so they don't tear.",
+    "Piping bag makes filling faster."
+  ],
+  "source": "AllRecipes (2,700+ five-star reviews)",
+  "sourceUrl": "https://www.allrecipes.com/recipe/22904/stuffed-shells/"
+}

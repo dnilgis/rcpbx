@@ -1,0 +1,33 @@
+{
+  "id": "homemade-bread",
+  "title": "Homemade Bread",
+  "tagline": "Crusty outside, soft inside",
+  "description": "Homemade Bread - King Arthur tested",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "time": "2 hrs + overnight",
+  "makes": "1 loaf",
+  "ingredients": [
+    "3 cups all-purpose flour",
+    "1½ tsp salt",
+    "½ tsp instant yeast",
+    "1½ cups warm water"
+  ],
+  "steps": [
+    "Mix flour, salt, yeast. Add water, stir until shaggy dough forms.",
+    "Cover, let rise at room temp 12-18 hours.",
+    "Turn dough onto floured surface. Fold edges to center, flip seam-side down.",
+    "Place on parchment-lined baking sheet. Cover, let rise 1-2 hours.",
+    "Preheat oven to 450°F with Dutch oven inside.",
+    "Carefully transfer dough to hot Dutch oven. Cover.",
+    "Bake covered 30 minutes. Uncover, bake 15-20 more until deep golden.",
+    "Cool completely before slicing."
+  ],
+  "notes": [
+    "Long rise develops complex flavor.",
+    "Dutch oven creates steam for crusty crust.",
+    "Cool completely or crumb will be gummy."
+  ],
+  "source": "King Arthur Baking (King Arthur tested)",
+  "sourceUrl": "https://www.kingarthurbaking.com/recipes/no-knead-crusty-white-bread-recipe"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "shrimp-boil",
+  "title": "Shrimp Boil",
+  "tagline": "One-pot feast, dump on newspaper",
+  "description": "Shrimp Boil - Rigorously tested",
+  "category": "Seafood",
+  "categorySlug": "seafood",
+  "time": "45 min",
+  "serves": "6-8",
+  "ingredients": [
+    "3 lbs shell-on large shrimp",
+    "2 lbs small red potatoes",
+    "4 ears corn, halved",
+    "1 lb andouille sausage, sliced",
+    "½ cup Old Bay",
+    "4 cloves garlic",
+    "2 lemons, halved",
+    "1 stick butter, melted",
+    "Hot sauce"
+  ],
+  "steps": [
+    "Fill large pot with 4 gallons water. Add Old Bay, garlic, lemons, 2 tbsp salt. Boil.",
+    "Add potatoes. Cook 10 minutes.",
+    "Add sausage and corn. Cook 8 minutes.",
+    "Add shrimp. Cook 3 minutes until just pink.",
+    "Drain immediately.",
+    "Dump onto newspaper-covered table.",
+    "Serve with melted butter and hot sauce."
+  ],
+  "notes": [
+    "Add items in order of cook time.",
+    "Drain immediately when shrimp turn pink.",
+    "Old Bay is non-negotiable."
+  ],
+  "source": "Serious Eats (Rigorously tested)",
+  "sourceUrl": "https://www.seriouseats.com/shrimp-boil-recipe"
+}

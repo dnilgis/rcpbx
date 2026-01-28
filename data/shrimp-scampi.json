@@ -1,0 +1,39 @@
+{
+  "id": "shrimp-scampi",
+  "title": "Shrimp Scampi",
+  "tagline": "Garlicky, buttery, perfectly cooked shrimp",
+  "description": "Shrimp Scampi - ATK's #1 most popular recipe",
+  "category": "Pasta",
+  "categorySlug": "pasta",
+  "time": "45 min",
+  "serves": "4",
+  "ingredients": [
+    "1½ lbs shell-on jumbo shrimp",
+    "3 tbsp salt + 2 tbsp sugar (for brine)",
+    "2 tbsp olive oil",
+    "1 cup dry white wine",
+    "4 sprigs fresh thyme",
+    "3 tbsp lemon juice",
+    "1 tsp cornstarch",
+    "8 cloves garlic, sliced thin",
+    "½ tsp red pepper flakes",
+    "4 tbsp butter",
+    "2 tbsp parsley"
+  ],
+  "steps": [
+    "Peel shrimp, reserve shells. Brine shrimp in salt, sugar, 1 quart water for 15 minutes.",
+    "Cook shells in 1 tbsp oil until spotty brown. Add wine and thyme, simmer 5 minutes. Strain, reserve liquid.",
+    "Mix lemon juice and cornstarch.",
+    "Cook garlic and pepper flakes in oil over medium-low until golden, 3-5 minutes.",
+    "Add wine mixture, simmer. Add shrimp, cover, cook 5-7 minutes.",
+    "Transfer shrimp. Add lemon-cornstarch mixture, cook until thickened.",
+    "Off heat, whisk in butter and parsley. Return shrimp, toss."
+  ],
+  "notes": [
+    "Brining keeps shrimp juicy.",
+    "Making stock from shells adds depth.",
+    "Poaching in wine cooks shrimp more evenly."
+  ],
+  "source": "America's Test Kitchen (ATK's #1 most popular recipe)",
+  "sourceUrl": "https://www.americastestkitchen.com/recipes/8641-shrimp-scampi"
+}

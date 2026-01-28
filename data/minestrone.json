@@ -1,0 +1,41 @@
+{
+  "id": "minestrone",
+  "title": "Minestrone",
+  "tagline": "Hearty Italian vegetable soup",
+  "description": "Minestrone - ATK Lab-Tested",
+  "category": "Soups & Stews",
+  "categorySlug": "soups-stews",
+  "time": "1¼ hrs",
+  "serves": "8-10",
+  "ingredients": [
+    "2 tbsp olive oil",
+    "2 oz pancetta, diced",
+    "2 onions, diced",
+    "2 celery ribs, diced",
+    "1 carrot, diced",
+    "4 cloves garlic, minced",
+    "2 zucchini, diced",
+    "1 (14.5 oz) can diced tomatoes",
+    "8 cups chicken broth",
+    "1 Parmesan rind (optional)",
+    "1 (15 oz) can cannellini beans",
+    "1 cup small pasta (ditalini)",
+    "2 cups chopped kale",
+    "¼ cup fresh basil"
+  ],
+  "steps": [
+    "Cook pancetta in oil until rendered, 3-4 minutes.",
+    "Add onions, celery, carrot. Cook 8 minutes until softened.",
+    "Add garlic, cook 30 seconds. Add zucchini, cook 2 minutes.",
+    "Add tomatoes, broth, Parmesan rind. Simmer 30 minutes.",
+    "Add beans and pasta. Cook until pasta is al dente, 10 minutes.",
+    "Add kale, cook 2 minutes. Remove rind, stir in basil. Season to taste."
+  ],
+  "notes": [
+    "Parmesan rind adds incredible umami depth.",
+    "Add pasta near end so it doesn't get mushy.",
+    "Even better the next day."
+  ],
+  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "sourceUrl": "https://www.americastestkitchen.com/recipes/1574-hearty-minestrone"
+}

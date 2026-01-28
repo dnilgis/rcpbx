@@ -1,0 +1,31 @@
+{
+  "id": "hash-browns",
+  "title": "Hash Browns",
+  "tagline": "Shredded, golden, shatteringly crispy",
+  "description": "Hash Browns - Kenji López-Alt tested",
+  "category": "Breakfast",
+  "categorySlug": "breakfast",
+  "time": "35 min",
+  "serves": "4",
+  "ingredients": [
+    "1½ lbs russet potatoes",
+    "3 tbsp butter or bacon fat",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Peel potatoes. Shred on box grater.",
+    "Rinse until water runs clear. Drain well.",
+    "Wrap in towel and squeeze out all moisture.",
+    "Heat butter in cast iron over medium.",
+    "Add potatoes in even layer. Season. Press flat.",
+    "Cook without stirring until bottom is golden and crispy, 8-10 minutes.",
+    "Flip in sections. Cook until second side is crispy, 8-10 minutes."
+  ],
+  "notes": [
+    "Rinsing removes starch for crispiness.",
+    "Dry, dry, dry.",
+    "Don't touch them while cooking."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/crispy-shredded-hash-browns-recipe"
+}

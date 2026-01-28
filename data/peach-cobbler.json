@@ -1,0 +1,29 @@
+{
+  "id": "peach-cobbler",
+  "title": "Peach Cobbler",
+  "tagline": "Juicy fruit, biscuit topping",
+  "description": "Peach Cobbler - Stella Parks tested",
+  "category": "Baking",
+  "categorySlug": "baking-dessert",
+  "time": "1 hr",
+  "serves": "8",
+  "ingredients": [
+    "Filling: 3 lbs ripe peaches sliced, ½ cup sugar, 1 tbsp cornstarch, 1 tsp vanilla, ¼ tsp almond extract",
+    "Topping: 1½ cups flour, ⅓ cup sugar + extra, 1½ tsp baking powder, ¼ tsp salt, 6 tbsp cold butter cubed, ½ cup heavy cream"
+  ],
+  "steps": [
+    "Preheat oven to 375°F.",
+    "Toss peaches with sugar, cornstarch, extracts. Pour into 9x13 dish.",
+    "Whisk flour, sugar, baking powder, salt. Cut in butter until pea-sized.",
+    "Add cream, stir until just combined.",
+    "Drop biscuit dough over filling in mounds. Sprinkle with sugar.",
+    "Bake until golden and bubbling, 45-55 minutes.",
+    "Serve warm with vanilla ice cream."
+  ],
+  "notes": [
+    "Ripe peaches are essential.",
+    "Don't spread dough - leave it chunky."
+  ],
+  "source": "Serious Eats (Stella Parks tested)",
+  "sourceUrl": "https://www.seriouseats.com/peach-cobbler-recipe"
+}

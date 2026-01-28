@@ -1,0 +1,33 @@
+{
+  "id": "salsa",
+  "title": "Fresh Salsa",
+  "tagline": "Bright, chunky, restaurant style",
+  "description": "Fresh Salsa - Rigorously tested",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "time": "15 min",
+  "makes": "2 cups",
+  "ingredients": [
+    "1 lb ripe tomatoes, diced",
+    "¼ cup white onion, minced",
+    "1-2 jalapeños, seeded and minced",
+    "¼ cup cilantro, chopped",
+    "1 clove garlic, minced",
+    "Juice of 1 lime",
+    "Salt to taste"
+  ],
+  "steps": [
+    "Combine tomatoes, onion, jalapeño, cilantro, garlic in bowl.",
+    "Add lime juice and salt. Toss gently.",
+    "Let sit 15 minutes for flavors to meld.",
+    "Taste and adjust seasoning.",
+    "Best served within a few hours."
+  ],
+  "notes": [
+    "Ripe tomatoes make all the difference.",
+    "Seed jalapeños for less heat.",
+    "Salt draws out tomato juices."
+  ],
+  "source": "Serious Eats (Rigorously tested)",
+  "sourceUrl": "https://www.seriouseats.com/classic-pico-de-gallo-recipe"
+}

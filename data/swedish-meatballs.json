@@ -1,0 +1,43 @@
+{
+  "id": "swedish-meatballs",
+  "title": "Swedish Meatballs",
+  "tagline": "Tender meatballs in creamy gravy. Better than IKEA.",
+  "description": "Tender meatballs in creamy gravy. Better than IKEA.",
+  "category": "Beef",
+  "categorySlug": "beef",
+  "prep": "25 min",
+  "cook": "25 min",
+  "serves": "6",
+  "ingredients": [
+    "1 lb ground beef",
+    "½ lb ground pork",
+    "1 egg",
+    "¼ cup breadcrumbs",
+    "¼ cup milk",
+    "1 tsp salt",
+    "¼ tsp allspice",
+    "¼ tsp nutmeg",
+    "3 tbsp butter",
+    "3 tbsp flour",
+    "2 cups beef broth",
+    "1 cup heavy cream",
+    "1 tbsp Worcestershire sauce"
+  ],
+  "steps": [
+    "Soak breadcrumbs in milk for 5 minutes.",
+    "Mix beef, pork, egg, soaked breadcrumbs, salt, allspice, and nutmeg. Don't overmix.",
+    "Roll into 1-inch balls. You should get about 30.",
+    "Brown meatballs in batches in butter over medium heat. Set aside.",
+    "In same pan, whisk flour into drippings. Cook 1 minute.",
+    "Slowly whisk in beef broth, then cream. Simmer until thickened, about 5 minutes.",
+    "Add Worcestershire. Return meatballs to sauce.",
+    "Simmer 10 minutes until meatballs are cooked through.",
+    "Serve over egg noodles or mashed potatoes."
+  ],
+  "notes": [
+    "Allspice is key: It's the signature Swedish flavor.",
+    "Don't skip the pork: It keeps meatballs tender.",
+    "Make ahead: Meatballs freeze well in sauce."
+  ],
+  "source": "Adapted from Serious Eats"
+}

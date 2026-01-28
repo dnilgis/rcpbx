@@ -1,0 +1,36 @@
+{
+  "id": "mashed-potatoes",
+  "title": "Mashed Potatoes",
+  "tagline": "Creamy, buttery, never gluey. One crucial tip makes the difference.",
+  "description": "Creamy, buttery, never gluey. The ATK method with one crucial tip. Serves 8.",
+  "category": "Sides",
+  "categorySlug": "sides",
+  "prep": "10 min",
+  "cook": "25 min",
+  "serves": "8",
+  "ingredients": [
+    "4 lbs Yukon Gold potatoes, peeled and cut into 1\" chunks",
+    "1½ sticks butter (12 tbsp)",
+    "1½ cups half-and-half (or 1 cup milk + ½ cup cream)",
+    "2 tsp salt, plus more for cooking water",
+    "Black pepper to taste"
+  ],
+  "steps": [
+    "Place potatoes in large pot. Cover with cold water by 1 inch. Add 1 tablespoon salt.",
+    "Bring to boil over high heat. Reduce to medium, simmer until fork-tender, 20-25 minutes.",
+    "While potatoes cook, warm butter and half-and-half in small saucepan until butter melts. Keep warm.",
+    "Drain potatoes. Return to pot over low heat for 1 minute to dry out any excess moisture.",
+    "For smooth: Pass through ricer or food mill into large bowl. For chunky: Mash with potato masher.",
+    "Add BUTTER FIRST. Fold in until absorbed. This coats the starch and prevents glueyness.",
+    "Then fold in warm half-and-half gradually until desired consistency.",
+    "Season with salt and pepper. Serve immediately."
+  ],
+  "notes": [
+    "BUTTER FIRST: This is the secret. Fat coats starch granules, preventing gluey texture. Don't add milk first.",
+    "Yukon Gold: Naturally buttery flavor and creamy texture. Russets work but are starchier.",
+    "Use a ricer: Creates smooth potatoes without overworking. Mashing can make them gluey.",
+    "Warm the dairy: Cold liquid cools potatoes and makes them gummy. Always warm first.",
+    "Make ahead: Hold in slow cooker on warm up to 2 hours. Add splash of cream when serving."
+  ],
+  "source": "Adapted from America's Test Kitchen"
+}

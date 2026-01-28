@@ -1,0 +1,34 @@
+{
+  "id": "marinara-sauce",
+  "title": "Marinara Sauce",
+  "tagline": "Marcella Hazan's legendary 3-ingredient sauce. Simplicity perfected.",
+  "description": "Marcella Hazan's legendary 3-ingredient sauce. Tomatoes, butter, onion. That's it. Serves 4.",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "prep": "5 min",
+  "cook": "45 min",
+  "serves": "4",
+  "ingredients": [
+    "28 oz whole San Marzano tomatoes",
+    "5 tbsp butter",
+    "1 medium onion, peeled and halved",
+    "Salt to taste"
+  ],
+  "steps": [
+    "Put tomatoes (with their juice), butter, and onion halves in a saucepan.",
+    "Add a pinch of salt.",
+    "Bring to a simmer over medium heat. Reduce heat to maintain a gentle, steady simmer.",
+    "Cook uncovered for 45 minutes, stirring occasionally and crushing tomatoes with a wooden spoon.",
+    "Remove and discard the onion.",
+    "Taste and add more salt if needed.",
+    "Toss with hot pasta. Serve with fresh parmesan."
+  ],
+  "notes": [
+    "BUTTER not olive oil: This is the whole point. Butter makes it silky and rich. Trust Marcella.",
+    "Onion stays whole: It flavors the sauce subtly without overpowering. Discard at the end.",
+    "Don't add garlic: Sounds wrong, but this sauce doesn't need it. The simplicity IS the flavor.",
+    "San Marzano tomatoes: Worth the extra dollar. Sweeter, less acidic.",
+    "Storage: Keeps 1 week refrigerated, freezes well for 3 months."
+  ],
+  "source": "Marcella Hazan from Essentials of Classic Italian Cooking"
+}

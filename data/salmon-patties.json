@@ -1,0 +1,34 @@
+{
+  "id": "salmon-patties",
+  "title": "Salmon Patties",
+  "tagline": "Old-fashioned comfort, crispy outside",
+  "description": "Salmon Patties - 2,000+ reviews",
+  "category": "Seafood",
+  "categorySlug": "seafood",
+  "time": "25 min",
+  "serves": "4",
+  "ingredients": [
+    "1 (14.75 oz) can salmon, drained",
+    "¼ cup onion, minced",
+    "¼ cup cornmeal",
+    "1 egg, beaten",
+    "3 tbsp flour",
+    "Vegetable oil for frying",
+    "Lemon and tartar sauce"
+  ],
+  "steps": [
+    "Drain salmon, flake into bowl, remove bones and skin.",
+    "Add onion, cornmeal, egg, flour. Mix well.",
+    "Season with salt and pepper.",
+    "Form into 4-6 patties.",
+    "Heat ¼ inch oil in skillet over medium.",
+    "Fry until golden, 3-4 minutes per side.",
+    "Drain. Serve with lemon and tartar sauce."
+  ],
+  "notes": [
+    "Canned salmon works perfectly.",
+    "Cornmeal gives authentic Southern texture."
+  ],
+  "source": "AllRecipes (2,000+ reviews)",
+  "sourceUrl": "https://www.allrecipes.com/recipe/17062/old-fashioned-salmon-patties/"
+}

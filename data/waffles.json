@@ -1,0 +1,38 @@
+{
+  "id": "waffles",
+  "title": "Crispy Waffles",
+  "tagline": "Crispy outside, fluffy inside. The cornstarch is the secret.",
+  "description": "Crispy outside, fluffy inside. The cornstarch is the secret.",
+  "category": "Breakfast",
+  "categorySlug": "breakfast",
+  "prep": "10 min",
+  "cook": "20 min",
+  "serves": "6",
+  "ingredients": [
+    "2 cups all-purpose flour",
+    "¼ cup cornstarch",
+    "1 tbsp baking powder",
+    "½ tsp salt",
+    "2 tbsp sugar",
+    "2 eggs, separated",
+    "2 cups milk",
+    "½ cup vegetable oil",
+    "1 tsp vanilla"
+  ],
+  "steps": [
+    "Preheat waffle iron.",
+    "Whisk flour, cornstarch, baking powder, salt, and sugar.",
+    "In another bowl, whisk egg yolks, milk, oil, and vanilla.",
+    "Beat egg whites to stiff peaks.",
+    "Pour wet into dry, stir until just combined.",
+    "Fold in egg whites gently—lumps are okay.",
+    "Cook according to your waffle iron instructions.",
+    "Serve immediately for maximum crispness."
+  ],
+  "notes": [
+    "Cornstarch = crispy: It's the secret to that crunch.",
+    "Whipped whites = fluffy: Don't skip this step.",
+    "Don't stack: Keep waffles on a wire rack in warm oven to stay crispy."
+  ],
+  "source": "Adapted from King Arthur Baking"
+}

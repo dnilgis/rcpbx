@@ -1,0 +1,34 @@
+{
+  "id": "lasagna",
+  "title": "Lasagna",
+  "tagline": "The crowd-pleaser. Beef and sausage, three cheeses, feeds an army.",
+  "description": "World's Best Lasagna. Beef and sausage meat sauce, ricotta, three cheeses. Serves 12.",
+  "category": "Pasta",
+  "categorySlug": "pasta",
+  "prep": "45 min",
+  "cook": "2½ hrs",
+  "serves": "12",
+  "ingredients": [
+    "Meat Sauce: 1 lb ground beef, 1 lb Italian sausage, 1 onion diced, 4 garlic cloves minced, 28 oz crushed tomatoes, 12 oz tomato paste, 15 oz tomato sauce, ½ cup water, 2 tbsp sugar, 1 tsp fennel seeds, 1 tsp Italian seasoning, 1 tbsp fresh basil chopped, salt and pepper",
+    "Ricotta Mixture: 30 oz ricotta cheese, 1 egg, ½ cup fresh parsley chopped, ½ tsp salt",
+    "Assembly: 12 lasagna noodles, 1 lb mozzarella sliced (not shredded), 1 cup parmesan grated"
+  ],
+  "steps": [
+    "Brown beef and sausage in a Dutch oven over medium heat. Drain fat. Add onion, cook 5 min. Add garlic, cook 1 min.",
+    "Stir in crushed tomatoes, tomato paste, tomato sauce, water, sugar, fennel, Italian seasoning, and basil. Simmer uncovered 1½ hours, stirring occasionally.",
+    "Meanwhile, cook noodles according to package. Drain and lay flat on oiled sheet to prevent sticking.",
+    "Mix ricotta with egg, parsley, and salt in a bowl.",
+    "Preheat oven to 375°F.",
+    "Layer in 9x13 pan: 1½ cups sauce, 4 noodles, ⅓ ricotta mixture, ⅓ mozzarella slices. Repeat 2 more times. Top with remaining sauce and parmesan.",
+    "Cover with foil. Bake 25 min. Remove foil, bake 25 min more until bubbly.",
+    "Rest 15 minutes before cutting (this is crucial for clean slices)."
+  ],
+  "notes": [
+    "Why 1½ hours for sauce? The long simmer mellows acidity and develops deep flavor. Don't skip it.",
+    "Sliced vs shredded mozzarella: Sliced melts in distinct creamy layers. Shredded clumps.",
+    "Make ahead: Assemble, cover, refrigerate overnight. Add 15 min to bake time if cold.",
+    "Storage: Keeps 5 days refrigerated. Freezes beautifully for 3 months."
+  ],
+  "source": "Adapted from AllRecipes \"World's Best Lasagna\" (9.5/10 in taste tests)",
+  "sourceUrl": "https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/"
+}

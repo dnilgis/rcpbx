@@ -1,0 +1,33 @@
+{
+  "id": "spaghetti-and-meatballs",
+  "title": "Spaghetti & Meatballs",
+  "tagline": "Tender meatballs, quick marinara. Weeknight-friendly.",
+  "description": "Tender baked meatballs, quick marinara. Weeknight-friendly classic. Serves 6.",
+  "category": "Pasta",
+  "categorySlug": "pasta",
+  "prep": "20 min",
+  "cook": "45 min",
+  "serves": "6",
+  "ingredients": [
+    "Meatballs: 1 lb ground beef (80/20), ½ lb ground pork, ½ cup panko breadcrumbs, ¼ cup milk, 1 egg, ¼ cup parmesan grated, 3 garlic cloves minced, 2 tbsp fresh parsley chopped, 1 tsp salt, ½ tsp black pepper",
+    "Sauce & Pasta: 28 oz crushed tomatoes, 3 garlic cloves minced, 2 tbsp olive oil, 1 tsp Italian seasoning, 1 lb spaghetti, fresh basil for serving"
+  ],
+  "steps": [
+    "Preheat oven to 400°F. Line baking sheet with parchment.",
+    "Make the panade: Mix panko and milk in large bowl. Let sit 5 minutes until absorbed.",
+    "Add beef, pork, egg, parmesan, garlic, parsley, salt, and pepper to bowl. Mix gently with hands until just combined. Don't overwork.",
+    "Roll into golf ball-sized meatballs (about 20). Place on baking sheet. Bake 15-20 minutes until browned.",
+    "While meatballs bake, make sauce: Heat oil in large pan over medium. Add garlic, cook 30 seconds. Add tomatoes and Italian seasoning. Simmer 10 minutes.",
+    "Add baked meatballs to sauce. Simmer together 15-20 minutes.",
+    "Cook spaghetti according to package. Drain, reserving 1 cup pasta water.",
+    "Toss pasta with sauce, adding pasta water if needed. Serve meatballs on top with fresh basil."
+  ],
+  "notes": [
+    "The panade secret: Soaking breadcrumbs in milk keeps meatballs tender and moist. Don't skip this.",
+    "Why oven-bake? Less messy than pan-frying, cooks evenly, still gets nice browning.",
+    "All beef works: Use 1½ lbs ground beef if you don't have pork.",
+    "Storage: Meatballs keep 4 days refrigerated, freeze beautifully for 3 months."
+  ],
+  "source": "Adapted from Once Upon a Chef",
+  "sourceUrl": "https://www.onceuponachef.com/recipes/spaghetti-and-meatballs.html"
+}

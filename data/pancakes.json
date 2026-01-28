@@ -1,0 +1,41 @@
+{
+  "id": "pancakes",
+  "title": "Buttermilk Pancakes",
+  "tagline": "Light, fluffy, tangy. Rest the batter—trust the process.",
+  "description": "Light, fluffy, tangy buttermilk pancakes. The secret is resting the batter. Makes 12.",
+  "category": "Breakfast",
+  "categorySlug": "breakfast",
+  "prep": "10 min",
+  "rest": "10 min",
+  "makes": "12",
+  "ingredients": [
+    "2 cups all-purpose flour",
+    "2 tbsp sugar",
+    "1 tsp baking powder",
+    "1 tsp baking soda",
+    "½ tsp salt",
+    "2 cups buttermilk",
+    "¼ cup sour cream",
+    "2 eggs",
+    "3 tbsp butter, melted",
+    "1 tsp vanilla extract"
+  ],
+  "steps": [
+    "Whisk flour, sugar, baking powder, baking soda, and salt in a large bowl.",
+    "In another bowl, whisk buttermilk, sour cream, eggs, melted butter, and vanilla.",
+    "Pour wet ingredients into dry. Stir until JUST combined. Lumps are okay—don't overmix or you'll get tough pancakes.",
+    "Let batter rest 10 minutes. This allows gluten to relax and leavening to activate.",
+    "Heat griddle or nonstick pan over medium-low heat. Lightly butter the surface.",
+    "Pour ¼ cup batter per pancake. Cook until bubbles form on surface AND edges look set, about 2-3 minutes.",
+    "Flip when holes form in the bubbles (not just bubbles appearing). Cook 1-2 minutes more until golden.",
+    "Serve immediately with butter and maple syrup."
+  ],
+  "notes": [
+    "REAL buttermilk matters: The acid reacts with baking soda for lift. Homemade substitute works but won't be as fluffy.",
+    "DON'T overmix: Lumpy batter = fluffy pancakes. Smooth batter = tough pancakes.",
+    "REST the batter: 10 minutes lets the flour hydrate and gluten relax.",
+    "When to flip: Not just when bubbles appear—wait until holes form and edges are set.",
+    "Keep warm: Hold cooked pancakes on wire rack in 200°F oven while cooking the rest."
+  ],
+  "source": "Adapted from Serious Eats"
+}

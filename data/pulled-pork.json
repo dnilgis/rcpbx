@@ -1,0 +1,38 @@
+{
+  "id": "pulled-pork",
+  "title": "Pulled Pork",
+  "tagline": "Fall-apart tender, smoky, saucy",
+  "description": "Pulled Pork - Kenji López-Alt tested",
+  "category": "Pork",
+  "categorySlug": "pork",
+  "time": "8-10 hrs",
+  "serves": "10-12",
+  "ingredients": [
+    "1 bone-in pork shoulder (6-8 lbs)",
+    "2 tbsp brown sugar",
+    "2 tbsp paprika",
+    "1 tbsp chili powder",
+    "1 tbsp cumin",
+    "1 tbsp garlic powder",
+    "1 tbsp onion powder",
+    "2 tsp black pepper",
+    "1 tbsp salt",
+    "1 cup apple cider vinegar",
+    "BBQ sauce"
+  ],
+  "steps": [
+    "Mix all spices for dry rub. Apply generously all over pork.",
+    "Place fat-side up in roasting pan. Pour vinegar in bottom.",
+    "Cover tightly with foil. Roast at 300°F for 8-10 hours, until 195-205°F and meat shreds easily.",
+    "Rest 30 minutes.",
+    "Shred meat, discarding fat and bone. Toss with pan juices and BBQ sauce.",
+    "Serve on soft buns with coleslaw."
+  ],
+  "notes": [
+    "Bone-in shoulder has best flavor.",
+    "Low and slow breaks down collagen.",
+    "Mix crispy bark into pulled meat."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/easy-oven-pulled-pork-recipe"
+}
