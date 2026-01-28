@@ -1,0 +1,40 @@
+{
+  "id": "white-chicken-chili",
+  "title": "White Chicken Chili",
+  "tagline": "Creamy, warming, and lighter than red chili.",
+  "description": "Creamy, warming, and lighter than red chili.",
+  "category": "Soups & Stews",
+  "categorySlug": "soups-stews",
+  "prep": "15 min",
+  "cook": "30 min",
+  "serves": "8",
+  "ingredients": [
+    "1 lb chicken breast",
+    "2 tbsp olive oil",
+    "1 onion, diced",
+    "4 cloves garlic, minced",
+    "2 cans 15oz white beans, drained",
+    "4 cups chicken broth",
+    "2 cans 4oz green chiles",
+    "1 tsp cumin",
+    "½ tsp oregano",
+    "¼ tsp cayenne",
+    "4 oz cream cheese",
+    "Sour cream, cilantro, lime for serving"
+  ],
+  "steps": [
+    "Season chicken with salt and pepper. Sear in oil until cooked through. Remove and shred.",
+    "Sauté onion until soft. Add garlic, cook 1 minute.",
+    "Add beans, broth, chiles, cumin, oregano, cayenne. Bring to simmer.",
+    "Cook 15 minutes. Mash some beans against the pot to thicken.",
+    "Stir in cream cheese until melted. Add shredded chicken.",
+    "Simmer 5 more minutes.",
+    "Serve topped with sour cream, cilantro, and lime."
+  ],
+  "notes": [
+    "Rotisserie chicken: Great shortcut—use 3 cups shredded.",
+    "More heat: Add diced jalapeño with the onion.",
+    "Even better next day: Flavors meld overnight."
+  ],
+  "source": "Adapted from AllRecipes"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "french-toast",
+  "title": "French Toast",
+  "tagline": "Custardy center, golden exterior",
+  "description": "French Toast - Kenji López-Alt tested",
+  "category": "Breakfast",
+  "categorySlug": "breakfast",
+  "time": "25 min",
+  "serves": "4",
+  "ingredients": [
+    "8 slices thick brioche or challah",
+    "4 eggs",
+    "1 cup whole milk",
+    "2 tbsp sugar",
+    "1 tsp vanilla",
+    "½ tsp cinnamon",
+    "Pinch salt",
+    "2 tbsp butter",
+    "Maple syrup and powdered sugar"
+  ],
+  "steps": [
+    "Whisk eggs, milk, sugar, vanilla, cinnamon, salt.",
+    "Heat griddle over medium. Add butter.",
+    "Dip bread in custard, 20-30 seconds per side.",
+    "Cook until golden, 3-4 minutes per side.",
+    "Add more butter between batches.",
+    "Keep warm in 200°F oven.",
+    "Serve with maple syrup and powdered sugar."
+  ],
+  "notes": [
+    "Thick bread works best.",
+    "Day-old bread absorbs better.",
+    "Don't over-soak."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/perfect-french-toast-recipe"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "crab-cakes",
+  "title": "Crab Cakes",
+  "tagline": "Minimal filler, maximum crab",
+  "description": "Crab Cakes - ATK Lab-Tested",
+  "category": "Seafood",
+  "categorySlug": "seafood",
+  "time": "45 min",
+  "serves": "4",
+  "ingredients": [
+    "1 lb lump crabmeat",
+    "¼ cup mayonnaise",
+    "1 egg yolk",
+    "1 tbsp Dijon mustard",
+    "1 tbsp Worcestershire",
+    "1 tbsp Old Bay",
+    "2 tbsp parsley",
+    "½ cup panko",
+    "2 tbsp butter",
+    "Lemon and tartar sauce"
+  ],
+  "steps": [
+    "Pick through crabmeat for shells, keeping lumps intact.",
+    "Whisk mayo, egg yolk, mustard, Worcestershire, Old Bay, parsley.",
+    "Gently fold in crabmeat and ¼ cup panko. Don't break up lumps.",
+    "Form into 4 patties. Coat with remaining panko.",
+    "Refrigerate 30 minutes.",
+    "Cook in butter over medium until golden, 3-4 minutes per side.",
+    "Serve with lemon and tartar sauce."
+  ],
+  "notes": [
+    "Best crabmeat = best cakes.",
+    "Handle gently to preserve lumps.",
+    "Chilling firms them up."
+  ],
+  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "sourceUrl": "https://www.americastestkitchen.com/recipes/8476-maryland-crab-cakes"
+}

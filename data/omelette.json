@@ -1,0 +1,33 @@
+{
+  "id": "omelette",
+  "title": "French Omelette",
+  "tagline": "Silky eggs, pale yellow, classic technique",
+  "description": "French Omelette - Jacques Pépin classic",
+  "category": "Breakfast",
+  "categorySlug": "breakfast",
+  "time": "10 min",
+  "serves": "1",
+  "ingredients": [
+    "3 large eggs",
+    "1 tbsp butter",
+    "Salt and pepper",
+    "Optional: cheese, herbs, ham"
+  ],
+  "steps": [
+    "Beat eggs with fork until just combined. Season.",
+    "Heat 8-inch nonstick skillet over medium-high. Add butter.",
+    "When foam subsides, add eggs.",
+    "Stir eggs with fork while shaking pan. Small curds form.",
+    "When mostly set but still wet on top, stop stirring.",
+    "Add fillings if using.",
+    "Tilt pan and roll omelette onto plate.",
+    "Should be pale yellow outside, creamy inside."
+  ],
+  "notes": [
+    "Practice makes perfect.",
+    "Don't let it brown.",
+    "Entire process takes under 2 minutes."
+  ],
+  "source": "Jacques Pépin / Serious Eats (Jacques Pépin classic)",
+  "sourceUrl": "https://www.seriouseats.com/french-omelette-recipe"
+}

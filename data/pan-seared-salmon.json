@@ -1,0 +1,35 @@
+{
+  "id": "pan-seared-salmon",
+  "title": "Pan-Seared Salmon",
+  "tagline": "Crispy skin, perfectly cooked center",
+  "description": "Pan-Seared Salmon - Kenji López-Alt tested",
+  "category": "Seafood",
+  "categorySlug": "seafood",
+  "time": "20 min",
+  "serves": "4",
+  "ingredients": [
+    "4 salmon fillets (6 oz each, skin-on)",
+    "2 tbsp vegetable oil",
+    "2 tbsp butter",
+    "2 cloves garlic, minced",
+    "1 lemon, juiced",
+    "2 tbsp fresh dill or parsley",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Pat salmon very dry. Season flesh side with salt and pepper.",
+    "Heat oil in nonstick skillet over medium-high until shimmering.",
+    "Place salmon skin-side down. Press firmly 10 seconds.",
+    "Cook without moving until skin is crispy and salmon is cooked ⅔ up, 5-6 minutes.",
+    "Flip. Add butter and garlic. Cook 1-2 minutes, basting.",
+    "Remove. Drizzle with lemon juice and herbs.",
+    "Serve skin-side up to keep skin crispy."
+  ],
+  "notes": [
+    "Dry skin = crispy skin.",
+    "Don't move the fish.",
+    "Medium-rare center (125°F) is ideal."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/crispy-pan-seared-salmon-recipe"
+}

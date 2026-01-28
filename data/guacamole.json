@@ -1,0 +1,35 @@
+{
+  "id": "guacamole",
+  "title": "Guacamole",
+  "tagline": "Chunky, fresh, perfect every time",
+  "description": "Guacamole - Kenji López-Alt tested",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "time": "10 min",
+  "makes": "2 cups",
+  "ingredients": [
+    "3 ripe avocados",
+    "1 lime, juiced",
+    "½ tsp salt",
+    "½ cup cilantro, chopped",
+    "¼ cup white onion, minced",
+    "1 jalapeño, seeded and minced",
+    "1 clove garlic, minced",
+    "1 tomato, diced (optional)"
+  ],
+  "steps": [
+    "Halve avocados, remove pit. Scoop into bowl.",
+    "Add lime juice and salt. Mash to desired consistency.",
+    "Fold in cilantro, onion, jalapeño, garlic.",
+    "Add tomato if using.",
+    "Taste and adjust lime and salt.",
+    "Press plastic wrap directly on surface. Serve within a few hours."
+  ],
+  "notes": [
+    "Ripe avocados are essential.",
+    "Lime juice prevents browning.",
+    "Salt brings out flavor - don't skimp."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/guacamole-recipe"
+}

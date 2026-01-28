@@ -1,0 +1,37 @@
+{
+  "id": "fish-tacos",
+  "title": "Fish Tacos",
+  "tagline": "Spiced fish, tangy crema, fresh slaw",
+  "description": "Fish Tacos - Kenji López-Alt tested",
+  "category": "Seafood",
+  "categorySlug": "seafood",
+  "time": "45 min",
+  "serves": "4-6",
+  "ingredients": [
+    "1½ lbs firm white fish (mahi, cod, tilapia)",
+    "2 tbsp vegetable oil",
+    "1 tbsp chili powder",
+    "1 tsp cumin",
+    "1 tsp garlic powder",
+    "½ cup mayonnaise",
+    "2 tbsp lime juice",
+    "1 tsp hot sauce",
+    "2 cups shredded cabbage",
+    "Corn tortillas",
+    "Cilantro, lime, salsa"
+  ],
+  "steps": [
+    "Mix mayo, lime juice, hot sauce for crema.",
+    "Mix chili powder, cumin, garlic powder, 1 tsp salt.",
+    "Pat fish dry. Cut into strips. Toss with oil and spices.",
+    "Cook fish over high heat 2-3 minutes per side until just cooked.",
+    "Warm tortillas.",
+    "Serve fish in tortillas with cabbage, crema, cilantro, lime."
+  ],
+  "notes": [
+    "Mahi or cod hold up best.",
+    "Don't overcook - fish should just flake."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/fish-tacos-recipe"
+}

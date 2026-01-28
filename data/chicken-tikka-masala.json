@@ -1,0 +1,39 @@
+{
+  "id": "chicken-tikka-masala",
+  "title": "Chicken Tikka Masala",
+  "tagline": "Charred chicken in creamy tomato sauce",
+  "description": "Chicken Tikka Masala - Kenji López-Alt tested",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "time": "1 hr + marinating",
+  "serves": "4-6",
+  "ingredients": [
+    "2 lbs chicken thighs",
+    "1 cup yogurt",
+    "2 tbsp lemon juice",
+    "2 tbsp garam masala, divided",
+    "1 tbsp cumin",
+    "1 tbsp paprika",
+    "2 tbsp oil",
+    "1 large onion, diced",
+    "4 cloves garlic, minced",
+    "2 tbsp ginger, minced",
+    "1 (14 oz) can crushed tomatoes",
+    "1 cup heavy cream",
+    "Cilantro"
+  ],
+  "steps": [
+    "Mix yogurt, lemon juice, 1 tbsp garam masala, cumin, paprika. Marinate chicken 1-4 hours.",
+    "Broil chicken until charred, 4-5 minutes per side.",
+    "Cook onion in oil 8 minutes. Add garlic, ginger, remaining garam masala. Cook 1 minute.",
+    "Add tomatoes, simmer 15 minutes. Stir in cream.",
+    "Add chicken and juices. Simmer 10 minutes. Garnish with cilantro.",
+    "Serve with basmati rice and naan."
+  ],
+  "notes": [
+    "Yogurt marinade tenderizes.",
+    "Charring under broiler adds authentic flavor."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/chicken-tikka-masala-recipe"
+}

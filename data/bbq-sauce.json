@@ -1,0 +1,36 @@
+{
+  "id": "bbq-sauce",
+  "title": "BBQ Sauce",
+  "tagline": "Sweet, tangy, smoky",
+  "description": "BBQ Sauce - Rigorously tested",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "time": "30 min",
+  "makes": "2 cups",
+  "ingredients": [
+    "1 cup ketchup",
+    "½ cup apple cider vinegar",
+    "¼ cup brown sugar",
+    "2 tbsp molasses",
+    "2 tbsp Worcestershire",
+    "1 tbsp yellow mustard",
+    "1 tsp smoked paprika",
+    "½ tsp garlic powder",
+    "½ tsp onion powder",
+    "Salt and cayenne to taste"
+  ],
+  "steps": [
+    "Combine all ingredients in saucepan.",
+    "Bring to simmer over medium heat.",
+    "Reduce heat to low. Simmer 20 minutes, stirring occasionally.",
+    "Taste and adjust sugar, vinegar, and heat.",
+    "Use immediately or refrigerate up to 1 month."
+  ],
+  "notes": [
+    "Balance sweet, tangy, and smoky to your taste.",
+    "Thickens as it cools.",
+    "Add chipotle for smoky heat."
+  ],
+  "source": "Serious Eats (Rigorously tested)",
+  "sourceUrl": "https://www.seriouseats.com/best-bbq-sauce-recipe"
+}

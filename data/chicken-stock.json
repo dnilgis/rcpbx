@@ -1,0 +1,36 @@
+{
+  "id": "chicken-stock",
+  "title": "Chicken Stock",
+  "tagline": "Rich, golden, foundation of flavor",
+  "description": "Chicken Stock - Kenji López-Alt tested",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "time": "4-6 hrs",
+  "makes": "3-4 quarts",
+  "ingredients": [
+    "4-5 lbs chicken backs, wings, or carcasses",
+    "1 large onion, quartered",
+    "2 carrots, chunked",
+    "2 celery ribs, chunked",
+    "1 head garlic, halved",
+    "2 bay leaves",
+    "1 tsp black peppercorns",
+    "Fresh thyme and parsley stems"
+  ],
+  "steps": [
+    "Place chicken parts in large stockpot. Cover with cold water by 2 inches.",
+    "Bring to boil, reduce to bare simmer. Skim any foam.",
+    "Add vegetables, garlic, and aromatics.",
+    "Simmer uncovered 4-6 hours, adding water as needed.",
+    "Strain through fine-mesh strainer. Discard solids.",
+    "Cool uncovered. Refrigerate.",
+    "Skim solidified fat before using."
+  ],
+  "notes": [
+    "Never boil - causes cloudy stock.",
+    "More gelatin = richer body.",
+    "Freezes for 6 months."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/best-rich-easy-white-chicken-stock-recipe"
+}

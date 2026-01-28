@@ -1,0 +1,40 @@
+{
+  "id": "pasta-primavera",
+  "title": "Pasta Primavera",
+  "tagline": "Fresh vegetables in light cream sauce",
+  "description": "Pasta Primavera - Rigorously tested",
+  "category": "Pasta",
+  "categorySlug": "pasta",
+  "time": "35 min",
+  "serves": "4",
+  "ingredients": [
+    "1 lb penne",
+    "2 tbsp olive oil",
+    "2 tbsp butter",
+    "1 zucchini, sliced",
+    "1 yellow squash, sliced",
+    "1 cup cherry tomatoes, halved",
+    "1 cup asparagus, cut up",
+    "1 cup frozen peas",
+    "4 cloves garlic, minced",
+    "½ cup white wine",
+    "½ cup heavy cream",
+    "1 cup Parmesan",
+    "¼ cup basil, torn"
+  ],
+  "steps": [
+    "Cook pasta. Reserve 1 cup pasta water.",
+    "Sauté zucchini and squash in oil until browned, 3-4 minutes. Set aside.",
+    "Add butter, sauté asparagus 2 minutes. Add garlic, cook 30 seconds.",
+    "Add wine, reduce by half. Add cream and tomatoes.",
+    "Return vegetables with peas. Simmer 2 minutes.",
+    "Add pasta and Parmesan. Toss, adding pasta water for consistency.",
+    "Stir in basil, season to taste."
+  ],
+  "notes": [
+    "Cook each vegetable separately for best doneness.",
+    "Use whatever vegetables are in season."
+  ],
+  "source": "Serious Eats (Rigorously tested)",
+  "sourceUrl": "https://www.seriouseats.com/pasta-primavera-recipe"
+}

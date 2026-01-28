@@ -1,0 +1,40 @@
+{
+  "id": "brownies",
+  "title": "Fudgy Brownies",
+  "tagline": "Shiny crackly top, fudgy center, chewy edges.",
+  "description": "Shiny crackly top, fudgy center. The Alice Medrich method. Makes 16.",
+  "category": "Baking",
+  "categorySlug": "baking-dessert",
+  "prep": "15 min",
+  "cook": "25 min",
+  "makes": "16",
+  "ingredients": [
+    "10 tbsp butter (1¼ sticks)",
+    "1¼ cups sugar",
+    "¾ cup unsweetened cocoa powder",
+    "¼ tsp salt",
+    "½ tsp vanilla extract",
+    "2 eggs, cold",
+    "½ cup all-purpose flour",
+    "⅔ cup chocolate chips (optional)"
+  ],
+  "steps": [
+    "Preheat oven to 325°F. Line 8x8 pan with parchment, leaving overhang for easy removal.",
+    "Melt butter in medium saucepan over medium heat.",
+    "Remove from heat. Add sugar, cocoa, and salt. Stir until combined—mixture will be grainy and thick.",
+    "Let cool 5 minutes (not too long—should still be warm).",
+    "Add vanilla. Add eggs one at a time, stirring vigorously after each until smooth and glossy.",
+    "Add flour. Stir until just combined. Fold in chocolate chips if using.",
+    "Pour into prepared pan. Spread evenly.",
+    "Bake 20-25 minutes. Toothpick should come out with moist crumbs, not wet batter.",
+    "Cool in pan 15 minutes. Lift out using parchment. Cool completely before cutting."
+  ],
+  "notes": [
+    "Hot butter + sugar + cocoa: This is the secret to the shiny crackly top. Don't skip mixing them while butter is hot.",
+    "NO baking powder: This makes them fudgy, not cakey. Don't add it.",
+    "Minimal flour: Less flour = fudgier. Don't be tempted to add more.",
+    "Don't overbake: They should look slightly underdone. They firm up as they cool.",
+    "Storage: Keep in airtight container 5 days. Actually better day 2."
+  ],
+  "source": "Adapted from Alice Medrich via Inspired Taste"
+}

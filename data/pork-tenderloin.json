@@ -1,0 +1,33 @@
+{
+  "id": "pork-tenderloin",
+  "title": "Roasted Pork Tenderloin",
+  "tagline": "Quick-roasting, herb-crusted, juicy",
+  "description": "Roasted Pork Tenderloin - ATK Lab-Tested",
+  "category": "Pork",
+  "categorySlug": "pork",
+  "time": "45 min",
+  "serves": "4-6",
+  "ingredients": [
+    "2 pork tenderloins (about 2 lbs)",
+    "2 tbsp olive oil",
+    "2 tsp sugar",
+    "1 tbsp fresh rosemary, minced",
+    "4 cloves garlic, minced",
+    "½ tsp red pepper flakes",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Pat tenderloins dry.",
+    "Mix sugar, rosemary, garlic, pepper flakes, 1 tsp salt, ½ tsp pepper.",
+    "Rub with oil, then coat with spice mixture.",
+    "Sear in oven-safe skillet over medium-high on all sides, 8 minutes.",
+    "Transfer to 400°F oven. Roast until 140-145°F, 15-20 minutes.",
+    "Rest 10 minutes. Slice into medallions."
+  ],
+  "notes": [
+    "Tenderloins are lean - don't overcook.",
+    "Sugar helps browning."
+  ],
+  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "sourceUrl": "https://www.americastestkitchen.com/recipes/8053-roasted-pork-tenderloin"
+}

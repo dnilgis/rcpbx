@@ -1,0 +1,36 @@
+{
+  "id": "biscuits",
+  "title": "Buttermilk Biscuits",
+  "tagline": "Tall, flaky, butter-brushed",
+  "description": "Buttermilk Biscuits - BraveTart tested",
+  "category": "Breakfast",
+  "categorySlug": "breakfast",
+  "time": "30 min",
+  "serves": "8-10",
+  "ingredients": [
+    "2 cups flour",
+    "1 tbsp baking powder",
+    "¼ tsp baking soda",
+    "1 tbsp sugar",
+    "1 tsp salt",
+    "6 tbsp cold butter, cubed",
+    "¾ cup cold buttermilk"
+  ],
+  "steps": [
+    "Preheat oven to 425°F.",
+    "Whisk flour, baking powder, baking soda, sugar, salt.",
+    "Cut in cold butter until pea-sized pieces remain.",
+    "Add buttermilk. Stir until just combined.",
+    "Pat to 1-inch thick. Fold in half. Repeat twice.",
+    "Pat to 1-inch thick. Cut with 2.5-inch cutter. Don't twist.",
+    "Place on sheet, sides touching.",
+    "Bake until golden, 15-18 minutes."
+  ],
+  "notes": [
+    "Cold butter is essential.",
+    "Don't twist cutter - seals edges.",
+    "Biscuits touching rise higher."
+  ],
+  "source": "Serious Eats / Stella Parks (BraveTart tested)",
+  "sourceUrl": "https://www.seriouseats.com/the-best-buttermilk-biscuits-recipe"
+}

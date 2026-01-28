@@ -1,0 +1,34 @@
+{
+  "id": "chicken-salad",
+  "title": "Chicken Salad",
+  "tagline": "Classic, creamy, perfect for sandwiches",
+  "description": "Chicken Salad - ATK Lab-Tested",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "time": "30 min",
+  "serves": "4-6",
+  "ingredients": [
+    "1½ lbs chicken breasts",
+    "½ cup mayonnaise",
+    "2 tbsp lemon juice",
+    "1 tsp Dijon mustard",
+    "2 celery ribs, chopped fine",
+    "2 tbsp fresh parsley",
+    "1 shallot, minced",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Cover chicken with salted water. Bring to boil, reduce to simmer. Cook until 160°F, 15-20 minutes.",
+    "Cool 10 minutes, then shred or chop.",
+    "Whisk mayo, lemon juice, mustard.",
+    "Add chicken, celery, parsley, shallot. Toss.",
+    "Season with salt and pepper. Chill 30 minutes.",
+    "Serve on bread, in lettuce cups, or with crackers."
+  ],
+  "notes": [
+    "Poaching keeps chicken moist.",
+    "Shredded has better texture than cubed."
+  ],
+  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "sourceUrl": "https://www.americastestkitchen.com/recipes/8063-classic-chicken-salad"
+}

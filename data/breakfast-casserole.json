@@ -1,0 +1,33 @@
+{
+  "id": "breakfast-casserole",
+  "title": "Breakfast Casserole",
+  "tagline": "Make-ahead, feeds a crowd",
+  "description": "Breakfast Casserole - 1,500+ reviews",
+  "category": "Breakfast",
+  "categorySlug": "breakfast",
+  "time": "1 hr + overnight",
+  "serves": "8-10",
+  "ingredients": [
+    "1 lb breakfast sausage",
+    "6 slices bread, cubed",
+    "2 cups cheddar, shredded",
+    "6 eggs",
+    "2 cups milk",
+    "1 tsp dry mustard",
+    "½ tsp salt"
+  ],
+  "steps": [
+    "Brown sausage, breaking into crumbles. Drain.",
+    "Layer bread, sausage, cheese in greased 9x13 dish.",
+    "Whisk eggs, milk, mustard, salt. Pour over casserole.",
+    "Cover, refrigerate overnight.",
+    "Bake uncovered at 350°F for 45-50 minutes until set and golden.",
+    "Rest 10 minutes."
+  ],
+  "notes": [
+    "Overnight rest lets bread absorb custard.",
+    "Great for holiday mornings."
+  ],
+  "source": "AllRecipes (1,500+ reviews)",
+  "sourceUrl": "https://www.allrecipes.com/recipe/229509/easy-sausage-breakfast-casserole/"
+}

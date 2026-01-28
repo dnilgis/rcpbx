@@ -1,0 +1,40 @@
+{
+  "id": "chicken-stir-fry",
+  "title": "Chicken Stir Fry",
+  "tagline": "Tender chicken, crisp vegetables, savory sauce",
+  "description": "Chicken Stir Fry - Kenji López-Alt tested",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "time": "30 min",
+  "serves": "4",
+  "ingredients": [
+    "1½ lbs chicken breast, sliced thin",
+    "2 tbsp soy sauce",
+    "1 tbsp cornstarch",
+    "1 tbsp Shaoxing wine",
+    "3 tbsp vegetable oil",
+    "3 cloves garlic, minced",
+    "1 tbsp ginger, minced",
+    "1 bell pepper, sliced",
+    "1 cup broccoli",
+    "½ cup chicken broth",
+    "2 tbsp oyster sauce",
+    "1 tsp sesame oil"
+  ],
+  "steps": [
+    "Toss chicken with 1 tbsp soy sauce, cornstarch, wine. Marinate 15 minutes.",
+    "Mix broth, remaining soy sauce, oyster sauce.",
+    "Heat wok over high until smoking. Add oil.",
+    "Sear chicken without stirring 1 minute, then stir-fry until just cooked. Transfer out.",
+    "Stir-fry garlic and ginger 30 seconds. Add vegetables, stir-fry 2 minutes.",
+    "Return chicken, add sauce. Cook until thickened.",
+    "Drizzle with sesame oil. Serve over rice."
+  ],
+  "notes": [
+    "Velveting (cornstarch marinade) keeps chicken tender.",
+    "Wok must be ripping hot.",
+    "Cook in batches to avoid steaming."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/easy-stir-fried-chicken-breast-recipe"
+}

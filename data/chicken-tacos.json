@@ -1,0 +1,35 @@
+{
+  "id": "chicken-tacos",
+  "title": "Chicken Tacos",
+  "tagline": "Simple spiced chicken, classic toppings",
+  "description": "Chicken Tacos - Kenji López-Alt tested",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "time": "45 min",
+  "serves": "4-6",
+  "ingredients": [
+    "2 lbs boneless skinless chicken thighs",
+    "2 tbsp vegetable oil",
+    "1 tbsp chili powder",
+    "1 tsp cumin",
+    "1 tsp garlic powder",
+    "½ tsp oregano",
+    "Juice of 2 limes",
+    "Corn tortillas",
+    "Diced onion, cilantro, salsa"
+  ],
+  "steps": [
+    "Mix oil with chili powder, cumin, garlic powder, oregano, 1 tsp salt.",
+    "Toss chicken with spice mixture. Arrange on baking sheet.",
+    "Roast at 425°F until cooked and slightly charred, 20-25 minutes.",
+    "Rest 5 minutes, chop or shred. Toss with lime juice.",
+    "Warm tortillas. Serve in tortillas with onion, cilantro, salsa."
+  ],
+  "notes": [
+    "Thighs stay moister than breasts.",
+    "Char adds taqueria flavor.",
+    "Double-stack corn tortillas."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/easy-oven-roasted-chicken-tacos"
+}

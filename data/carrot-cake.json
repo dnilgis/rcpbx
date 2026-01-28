@@ -1,0 +1,31 @@
+{
+  "id": "carrot-cake",
+  "title": "Carrot Cake",
+  "tagline": "Moist, spiced, cream cheese frosted",
+  "description": "Carrot Cake - Stella Parks tested",
+  "category": "Baking",
+  "categorySlug": "baking-dessert",
+  "time": "1½ hrs",
+  "serves": "12",
+  "ingredients": [
+    "Cake: 2 cups flour, 2 tsp baking soda, 2 tsp cinnamon, 1 tsp salt, 1½ cups vegetable oil, 1½ cups sugar, 4 eggs, 3 cups finely grated carrots, 1 cup walnuts",
+    "Frosting: 16 oz cream cheese, ½ cup butter, 4 cups powdered sugar, 2 tsp vanilla"
+  ],
+  "steps": [
+    "Preheat oven to 350°F. Grease two 9-inch pans.",
+    "Whisk flour, baking soda, cinnamon, salt.",
+    "Beat oil, sugar, eggs. Stir in dry ingredients.",
+    "Fold in carrots and walnuts.",
+    "Divide between pans. Bake 30-35 minutes.",
+    "Cool 10 minutes, turn out onto racks.",
+    "Frosting: Beat cream cheese and butter. Add sugar and vanilla.",
+    "Frost cooled layers."
+  ],
+  "notes": [
+    "Finely grated carrots distribute better.",
+    "Oil keeps cake moist.",
+    "Toast walnuts for better flavor."
+  ],
+  "source": "Serious Eats (Stella Parks tested)",
+  "sourceUrl": "https://www.seriouseats.com/carrot-cake-recipe"
+}

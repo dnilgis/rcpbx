@@ -1,0 +1,38 @@
+{
+  "id": "baby-back-ribs",
+  "title": "Baby Back Ribs",
+  "tagline": "Fall-off-the-bone tender, caramelized glaze",
+  "description": "Baby Back Ribs - Kenji López-Alt tested",
+  "category": "Pork",
+  "categorySlug": "pork",
+  "time": "4 hrs",
+  "serves": "4",
+  "ingredients": [
+    "2 racks baby back ribs (about 4 lbs)",
+    "3 tbsp brown sugar",
+    "2 tbsp paprika",
+    "1 tbsp chili powder",
+    "1 tbsp garlic powder",
+    "1 tbsp onion powder",
+    "1 tsp cumin",
+    "1 tsp black pepper",
+    "1 tbsp salt",
+    "1 cup BBQ sauce"
+  ],
+  "steps": [
+    "Remove membrane from back of ribs (slide knife under, grab with paper towel, pull off).",
+    "Mix spices for rub. Apply generously to both sides.",
+    "Wrap each rack tightly in foil. Place on baking sheet.",
+    "Bake at 275°F for 2.5-3 hours until tender and meat pulls back from bones.",
+    "Unwrap. Brush with BBQ sauce.",
+    "Broil 5-10 minutes until sauce caramelizes.",
+    "Rest 5 minutes. Cut between bones."
+  ],
+  "notes": [
+    "Removing membrane is essential.",
+    "Foil wrap keeps them moist.",
+    "Broiling gives caramelized finish."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/oven-baked-bbq-ribs-recipe"
+}

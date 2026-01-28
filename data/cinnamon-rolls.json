@@ -1,0 +1,32 @@
+{
+  "id": "cinnamon-rolls",
+  "title": "Cinnamon Rolls",
+  "tagline": "Soft, gooey, cream cheese frosted",
+  "description": "Cinnamon Rolls - King Arthur tested",
+  "category": "Breakfast",
+  "categorySlug": "breakfast",
+  "time": "3 hrs",
+  "serves": "12",
+  "ingredients": [
+    "Dough: 1 cup warm milk, 2¼ tsp yeast, ¼ cup sugar, ⅓ cup butter softened, 1 egg, 3½ cups flour, 1 tsp salt",
+    "Filling: ⅓ cup butter softened, ¾ cup brown sugar, 2 tbsp cinnamon",
+    "Glaze: 4 oz cream cheese, ¼ cup butter, 1 cup powdered sugar, ½ tsp vanilla"
+  ],
+  "steps": [
+    "Dissolve yeast in warm milk with pinch sugar. Let sit 5 minutes.",
+    "Mix in sugar, butter, egg. Add flour and salt. Knead until smooth, 8 minutes.",
+    "Let rise until doubled, 1 hour.",
+    "Roll to 16x12 rectangle. Spread with butter. Mix brown sugar and cinnamon, sprinkle over.",
+    "Roll up tightly from long side. Cut into 12 pieces.",
+    "Place in greased 9x13 pan. Let rise 30 minutes.",
+    "Bake at 350°F for 25-30 minutes.",
+    "Beat glaze ingredients. Spread on warm rolls."
+  ],
+  "notes": [
+    "Warm (not hot) milk activates yeast.",
+    "Use dental floss to cut dough.",
+    "Don't overbake."
+  ],
+  "source": "King Arthur Baking (King Arthur tested)",
+  "sourceUrl": "https://www.kingarthurbaking.com/recipes/cinnamon-rolls-recipe"
+}

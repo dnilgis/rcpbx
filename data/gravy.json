@@ -1,0 +1,34 @@
+{
+  "id": "gravy",
+  "title": "Gravy",
+  "tagline": "Silky, savory, essential for meat",
+  "description": "Gravy - Kenji López-Alt tested",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "time": "30 min",
+  "makes": "3 cups",
+  "ingredients": [
+    "4 tbsp butter (or pan drippings)",
+    "¼ cup flour",
+    "3 cups chicken or turkey stock",
+    "Pan drippings (optional)",
+    "Fresh thyme",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Melt butter in saucepan over medium heat.",
+    "Whisk in flour. Cook, whisking constantly, until light brown, 2-3 minutes.",
+    "Gradually whisk in stock, scraping up any browned bits.",
+    "Add thyme. Simmer, whisking occasionally, until thickened, 10-15 minutes.",
+    "Season with salt and pepper.",
+    "Strain if desired.",
+    "Add any pan drippings from roasted meat."
+  ],
+  "notes": [
+    "Cooking flour removes raw taste.",
+    "Gradual addition prevents lumps.",
+    "Strain for silky texture."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/make-ahead-turkey-gravy-recipe"
+}

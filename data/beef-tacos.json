@@ -1,0 +1,37 @@
+{
+  "id": "beef-tacos",
+  "title": "Ground Beef Tacos",
+  "tagline": "Well-seasoned, classic weeknight dinner",
+  "description": "Ground Beef Tacos - Kenji López-Alt tested",
+  "category": "Beef",
+  "categorySlug": "beef",
+  "time": "25 min",
+  "serves": "4-6",
+  "ingredients": [
+    "1½ lbs ground beef (80/20)",
+    "1 tbsp oil",
+    "1 small onion, minced",
+    "3 cloves garlic, minced",
+    "2 tbsp chili powder",
+    "1 tsp cumin",
+    "½ tsp oregano",
+    "½ cup chicken broth",
+    "1 tbsp cider vinegar",
+    "Corn tortillas",
+    "Onion, cilantro, salsa, lime"
+  ],
+  "steps": [
+    "Cook onion in oil 3 minutes. Add beef, break into pieces. Brown 5-7 minutes.",
+    "Add garlic, chili powder, cumin, oregano. Cook 1 minute.",
+    "Add broth and vinegar. Simmer until mostly absorbed, 5 minutes.",
+    "Season with salt.",
+    "Warm tortillas. Serve with onion, cilantro, salsa, lime."
+  ],
+  "notes": [
+    "80/20 has enough fat for juicy tacos.",
+    "Browning before spices develops flavor.",
+    "Vinegar adds brightness."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/really-good-beef-taco-recipe"
+}

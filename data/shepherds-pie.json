@@ -1,0 +1,40 @@
+{
+  "id": "shepherds-pie",
+  "title": "Shepherd's Pie",
+  "tagline": "Savory meat filling topped with mashed potatoes",
+  "description": "Shepherd's Pie - Rigorously tested",
+  "category": "Beef",
+  "categorySlug": "beef",
+  "time": "1½ hrs",
+  "serves": "6-8",
+  "ingredients": [
+    "2 lbs russet potatoes, cubed",
+    "6 tbsp butter, divided",
+    "½ cup heavy cream",
+    "1½ lbs ground beef",
+    "1 onion, diced",
+    "2 carrots, diced",
+    "2 celery ribs, diced",
+    "3 cloves garlic, minced",
+    "2 tbsp tomato paste",
+    "1 cup beef broth",
+    "1 cup frozen peas",
+    "1 tbsp Worcestershire",
+    "1 tsp thyme"
+  ],
+  "steps": [
+    "Boil potatoes until tender. Mash with 4 tbsp butter and cream. Season.",
+    "Brown beef, breaking into pieces. Drain, transfer out.",
+    "Cook vegetables in remaining butter until soft, 8 minutes.",
+    "Add garlic and tomato paste, cook 1 minute.",
+    "Return beef. Add broth, peas, Worcestershire, thyme. Simmer 10 minutes. Season.",
+    "Spread mashed potatoes over filling. Rough up surface with fork.",
+    "Broil until golden, 5-10 minutes."
+  ],
+  "notes": [
+    "'Shepherd's pie' uses lamb; 'cottage pie' uses beef.",
+    "Roughing up potatoes creates crispy peaks."
+  ],
+  "source": "Serious Eats (Rigorously tested)",
+  "sourceUrl": "https://www.seriouseats.com/shepherds-pie-beef-recipe"
+}

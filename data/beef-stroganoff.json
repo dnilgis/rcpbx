@@ -1,0 +1,39 @@
+{
+  "id": "beef-stroganoff",
+  "title": "Beef Stroganoff",
+  "tagline": "Seared beef in creamy mushroom sauce",
+  "description": "Beef Stroganoff - Rigorously tested",
+  "category": "Beef",
+  "categorySlug": "beef",
+  "time": "45 min",
+  "serves": "4",
+  "ingredients": [
+    "1½ lbs beef tenderloin or sirloin, sliced thin",
+    "3 tbsp butter",
+    "1 tbsp oil",
+    "1 lb mushrooms, sliced",
+    "1 large onion, sliced",
+    "2 cloves garlic, minced",
+    "¼ cup brandy",
+    "1 cup beef broth",
+    "1 cup sour cream",
+    "1 tbsp Dijon mustard",
+    "Egg noodles",
+    "Parsley"
+  ],
+  "steps": [
+    "Season beef. Sear in oil and 1 tbsp butter over high until browned but still pink, 1-2 minutes per side. Transfer out.",
+    "Add remaining butter and mushrooms. Brown 8 minutes. Add onion, cook 5 minutes.",
+    "Add garlic, 30 seconds. Add brandy, scrape up bits.",
+    "Add broth, reduce by half, about 5 minutes.",
+    "Reduce heat. Stir in sour cream and mustard.",
+    "Return beef and juices. Heat through.",
+    "Serve over egg noodles with parsley."
+  ],
+  "notes": [
+    "Don't overcook beef - should be medium rare.",
+    "Add sour cream off heat to prevent curdling."
+  ],
+  "source": "Serious Eats (Rigorously tested)",
+  "sourceUrl": "https://www.seriouseats.com/beef-stroganoff-recipe"
+}

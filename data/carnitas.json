@@ -1,0 +1,37 @@
+{
+  "id": "carnitas",
+  "title": "Carnitas",
+  "tagline": "Crispy-edged, tender braised pork",
+  "description": "Carnitas - Kenji López-Alt tested",
+  "category": "Pork",
+  "categorySlug": "pork",
+  "time": "3-4 hrs",
+  "serves": "8-10",
+  "ingredients": [
+    "4 lbs boneless pork shoulder, cubed",
+    "1 cup water",
+    "½ cup vegetable oil",
+    "2 tsp salt",
+    "1 orange, juiced",
+    "1 lime, juiced",
+    "6 cloves garlic, smashed",
+    "2 bay leaves",
+    "1 cinnamon stick",
+    "Corn tortillas, onion, cilantro, salsa"
+  ],
+  "steps": [
+    "Combine pork, water, oil, salt, juices, garlic, bay leaves, cinnamon in Dutch oven.",
+    "Bring to boil, reduce to bare simmer. Cover, cook 2 hours, flipping halfway.",
+    "Uncover, continue cooking until liquid evaporates and pork fries in rendered fat, about 1 hour.",
+    "Once frying, stir occasionally until all sides crispy.",
+    "Shred meat, mixing crispy bits throughout.",
+    "Serve in warm tortillas with onion, cilantro, salsa."
+  ],
+  "notes": [
+    "Braise-then-fry is the authentic method.",
+    "Orange juice adds subtle sweetness.",
+    "Mix crispy bits with tender meat."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/no-waste-tacos-de-carnitas-recipe"
+}

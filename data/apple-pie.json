@@ -1,0 +1,32 @@
+{
+  "id": "apple-pie",
+  "title": "Apple Pie",
+  "tagline": "Flaky crust, spiced fruit filling",
+  "description": "Apple Pie - BraveTart tested",
+  "category": "Baking",
+  "categorySlug": "baking-dessert",
+  "time": "2 hrs + chilling",
+  "serves": "8",
+  "ingredients": [
+    "Crust: 2½ cups flour, 1 tbsp sugar, 1 tsp salt, 1 cup cold butter cubed, ½ cup ice water",
+    "Filling: 3 lbs mixed apples, ¾ cup sugar, 2 tbsp flour, 1 tsp cinnamon, ¼ tsp nutmeg, 2 tbsp butter",
+    "1 egg + 1 tbsp water for egg wash"
+  ],
+  "steps": [
+    "Crust: Pulse flour, sugar, salt. Add butter, pulse to pea-sized. Drizzle ice water, pulse until dough forms. Divide, flatten, chill 1 hour.",
+    "Peel, core, slice apples. Toss with sugar, flour, spices.",
+    "Roll one disk to 12 inches. Fit into pie plate.",
+    "Add filling. Dot with butter.",
+    "Roll second disk. Place over filling. Trim, crimp edges. Cut vents.",
+    "Brush with egg wash. Chill 30 minutes.",
+    "Bake at 425°F for 20 minutes. Reduce to 375°F, bake 40-50 more until golden and bubbling.",
+    "Cool 2 hours before slicing."
+  ],
+  "notes": [
+    "Mix apple varieties for balance.",
+    "Cold butter = flaky crust.",
+    "Must cool or filling will run."
+  ],
+  "source": "Serious Eats / Stella Parks (BraveTart tested)",
+  "sourceUrl": "https://www.seriouseats.com/bravetart-apple-pie-recipe"
+}

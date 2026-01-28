@@ -1,0 +1,35 @@
+{
+  "id": "beef-fajitas",
+  "title": "Beef Fajitas",
+  "tagline": "Sizzling steak with charred peppers and onions",
+  "description": "Beef Fajitas - Kenji López-Alt tested",
+  "category": "Beef",
+  "categorySlug": "beef",
+  "time": "30 min + marinating",
+  "serves": "4-6",
+  "ingredients": [
+    "1½ lbs skirt steak",
+    "3 tbsp vegetable oil, divided",
+    "3 tbsp lime juice",
+    "2 cloves garlic, minced",
+    "1 tsp cumin",
+    "2 bell peppers, sliced",
+    "1 large onion, sliced",
+    "Flour tortillas",
+    "Sour cream, guacamole, salsa"
+  ],
+  "steps": [
+    "Mix 2 tbsp oil, lime juice, garlic, cumin, salt, pepper. Marinate steak 30 min to 2 hours.",
+    "Cook peppers and onions in remaining oil over high until charred, 8-10 minutes. Transfer out.",
+    "Add steak to screaming hot pan. Sear 3-4 minutes per side for medium-rare.",
+    "Rest 5 minutes. Slice thin against grain.",
+    "Warm tortillas. Serve steak with peppers and onions."
+  ],
+  "notes": [
+    "Skirt steak is traditional.",
+    "Cast iron gets hot enough for proper char.",
+    "Don't marinate more than 2 hours."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/the-best-beef-fajitas-recipe"
+}

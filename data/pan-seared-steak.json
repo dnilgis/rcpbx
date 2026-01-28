@@ -1,0 +1,34 @@
+{
+  "id": "pan-seared-steak",
+  "title": "Pan-Seared Steak",
+  "tagline": "Restaurant-quality crust, butter-basted",
+  "description": "Pan-Seared Steak - Kenji López-Alt tested",
+  "category": "Beef",
+  "categorySlug": "beef",
+  "time": "20 min + resting",
+  "serves": "2",
+  "ingredients": [
+    "2 ribeye or NY strip steaks (1-1.5 inches)",
+    "2 tbsp vegetable oil",
+    "3 tbsp butter",
+    "4 cloves garlic, smashed",
+    "4 sprigs thyme",
+    "Flaky salt and coarse pepper"
+  ],
+  "steps": [
+    "Remove steaks from fridge 30-60 minutes before. Pat very dry. Season generously.",
+    "Heat oil in cast iron over high until smoking.",
+    "Lay steaks in pan. Sear 3-4 minutes until deep crust forms.",
+    "Flip. Add butter, garlic, herbs. Tilt pan and baste continuously 2-3 minutes.",
+    "Check temp: 120°F rare, 130°F medium-rare, 140°F medium.",
+    "Rest 5-10 minutes. Slice against grain."
+  ],
+  "notes": [
+    "Room temp steak cooks evenly.",
+    "Dry surface = better crust.",
+    "Don't touch while searing.",
+    "Resting redistributes juices."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/perfect-pan-seared-steak-recipe"
+}

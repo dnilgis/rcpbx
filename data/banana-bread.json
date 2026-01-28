@@ -1,0 +1,43 @@
+{
+  "id": "banana-bread",
+  "title": "Banana Bread",
+  "tagline": "Moist, tender, loaded with banana flavor. Use those overripe bananas.",
+  "description": "Moist, tender, full pound of bananas. King Arthur's Recipe of the Year. Makes 1 loaf.",
+  "category": "Baking",
+  "categorySlug": "baking-dessert",
+  "prep": "15 min",
+  "cook": "1 hr",
+  "makes": "1 loaf",
+  "ingredients": [
+    "1 cup mashed very ripe bananas (about 3 medium)",
+    "¾ cup brown sugar, packed",
+    "⅓ cup vegetable oil",
+    "2 eggs",
+    "1 tsp vanilla extract",
+    "1 cup all-purpose flour",
+    "1 cup whole wheat flour (or all AP)",
+    "1 tsp baking soda",
+    "½ tsp salt",
+    "½ tsp cinnamon (optional)",
+    "¾ cup walnuts, chopped (optional)"
+  ],
+  "steps": [
+    "Preheat oven to 350°F. Grease a 9x5 loaf pan.",
+    "Mash bananas in large bowl until mostly smooth (some lumps okay).",
+    "Add brown sugar, oil, eggs, and vanilla. Whisk until combined.",
+    "In another bowl, whisk flours, baking soda, salt, and cinnamon.",
+    "Add dry ingredients to wet. Stir until just combined. Don't overmix.",
+    "Fold in walnuts if using.",
+    "Pour into prepared pan. Spread evenly.",
+    "Bake 60-70 minutes until toothpick comes out clean and internal temp reaches 200°F.",
+    "Cool in pan 15 minutes. Remove and cool on rack."
+  ],
+  "notes": [
+    "VERY ripe bananas: Dark spots = more sugar = better flavor. If they're not ripe enough, it won't taste like much.",
+    "Oil keeps it moist: Butter tastes great but oil stays softer when cool. Your call.",
+    "Brown sugar: Adds caramel notes that complement banana. Don't substitute white.",
+    "Freeze ripe bananas: Peel, freeze in bags. Thaw before using—they get extra soft and sweet.",
+    "Storage: Keeps 4 days wrapped at room temp. Freezes well for 3 months."
+  ],
+  "source": "Adapted from King Arthur Flour (Recipe of the Year)"
+}

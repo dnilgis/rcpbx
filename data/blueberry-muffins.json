@@ -1,0 +1,38 @@
+{
+  "id": "blueberry-muffins",
+  "title": "Blueberry Muffins",
+  "tagline": "Tender, bursting with berries",
+  "description": "Blueberry Muffins - King Arthur tested",
+  "category": "Baking",
+  "categorySlug": "baking-dessert",
+  "time": "40 min",
+  "makes": "12",
+  "ingredients": [
+    "2 cups flour",
+    "¾ cup sugar",
+    "2 tsp baking powder",
+    "½ tsp salt",
+    "⅓ cup vegetable oil",
+    "1 egg",
+    "1 cup milk",
+    "1 tsp vanilla",
+    "1½ cups blueberries",
+    "Coarse sugar for topping"
+  ],
+  "steps": [
+    "Preheat oven to 400°F. Line 12-cup muffin tin.",
+    "Whisk flour, sugar, baking powder, salt.",
+    "Whisk oil, egg, milk, vanilla.",
+    "Pour wet into dry. Stir until just combined.",
+    "Fold in blueberries.",
+    "Divide among cups. Sprinkle with coarse sugar.",
+    "Bake 20-25 minutes until golden."
+  ],
+  "notes": [
+    "Don't overmix - lumps are fine.",
+    "Frozen blueberries work great.",
+    "Fill cups nearly full for big tops."
+  ],
+  "source": "King Arthur Baking (King Arthur tested)",
+  "sourceUrl": "https://www.kingarthurbaking.com/recipes/blueberry-muffins-recipe"
+}

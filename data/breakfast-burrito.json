@@ -1,0 +1,37 @@
+{
+  "id": "breakfast-burrito",
+  "title": "Breakfast Burrito",
+  "tagline": "Eggs, meat, cheese, portable perfection",
+  "description": "Breakfast Burrito - Rigorously tested",
+  "category": "Breakfast",
+  "categorySlug": "breakfast",
+  "time": "25 min",
+  "serves": "4",
+  "ingredients": [
+    "8 eggs",
+    "4 large flour tortillas",
+    "6 slices bacon or ½ lb chorizo",
+    "1 cup cheddar, shredded",
+    "1 avocado, sliced",
+    "Salsa",
+    "2 tbsp butter",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Cook bacon until crisp (or brown chorizo). Chop or crumble.",
+    "Beat eggs with salt and pepper.",
+    "Melt butter in nonstick skillet over medium-low.",
+    "Add eggs. Stir constantly making soft curds. Remove slightly underdone.",
+    "Warm tortillas in dry skillet.",
+    "Layer eggs, meat, cheese, avocado, salsa on each tortilla.",
+    "Fold sides in, roll tightly.",
+    "Optional: grill seam-side down for crispy outside."
+  ],
+  "notes": [
+    "Soft scrambled eggs are key.",
+    "Warm tortillas are more pliable.",
+    "Don't overfill."
+  ],
+  "source": "Serious Eats (Rigorously tested)",
+  "sourceUrl": "https://www.seriouseats.com/breakfast-burrito-recipe"
+}

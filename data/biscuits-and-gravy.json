@@ -1,0 +1,34 @@
+{
+  "id": "biscuits-and-gravy",
+  "title": "Biscuits and Gravy",
+  "tagline": "Creamy sausage gravy over warm biscuits",
+  "description": "Biscuits and Gravy - Rigorously tested",
+  "category": "Pork",
+  "categorySlug": "pork",
+  "time": "30 min",
+  "serves": "4-6",
+  "ingredients": [
+    "1 lb breakfast sausage",
+    "3 tbsp flour",
+    "2½ cups whole milk",
+    "½ tsp black pepper",
+    "Pinch cayenne",
+    "Salt",
+    "4-6 fresh biscuits"
+  ],
+  "steps": [
+    "Cook sausage over medium, breaking into small pieces, until browned, 8-10 minutes.",
+    "Sprinkle flour over sausage. Stir, cook 1 minute.",
+    "Gradually whisk in milk, scraping up browned bits.",
+    "Simmer, stirring, until thickened, 5-7 minutes.",
+    "Season with pepper, cayenne, salt to taste.",
+    "Split warm biscuits. Ladle gravy over top."
+  ],
+  "notes": [
+    "Don't drain sausage fat - it flavors gravy.",
+    "Gravy thickens as it cools.",
+    "Black pepper is essential."
+  ],
+  "source": "Serious Eats (Rigorously tested)",
+  "sourceUrl": "https://www.seriouseats.com/sausage-gravy-recipe"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "chicken-tortilla-soup",
+  "title": "Chicken Tortilla Soup",
+  "tagline": "Smoky, spicy, with crispy tortilla strips",
+  "description": "Chicken Tortilla Soup - ATK Lab-Tested",
+  "category": "Soups & Stews",
+  "categorySlug": "soups-stews",
+  "time": "1 hr",
+  "serves": "6",
+  "ingredients": [
+    "8 corn tortillas, cut into strips",
+    "Vegetable oil for frying",
+    "1 onion, chopped",
+    "4 cloves garlic, minced",
+    "2 jalapeños, minced",
+    "1 tbsp tomato paste",
+    "1 (14.5 oz) can diced tomatoes",
+    "8 cups chicken broth",
+    "1 lb chicken breasts",
+    "¼ cup cilantro",
+    "Juice of 2 limes",
+    "Avocado, sour cream, cheese"
+  ],
+  "steps": [
+    "Fry half the tortilla strips until crisp. Drain, season with salt.",
+    "Sauté onion 5 minutes. Add remaining tortilla strips, garlic, jalapeños, tomato paste. Cook 2 minutes.",
+    "Add tomatoes and broth. Simmer.",
+    "Add chicken breasts, simmer until cooked, 15-20 minutes.",
+    "Remove chicken, shred, return to pot.",
+    "Stir in cilantro and lime juice.",
+    "Serve topped with fried tortillas, avocado, sour cream, cheese."
+  ],
+  "notes": [
+    "Cooking tortillas in soup adds body and flavor.",
+    "Crispy strips must be added right before serving."
+  ],
+  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "sourceUrl": "https://www.americastestkitchen.com/recipes/1484-chicken-tortilla-soup"
+}

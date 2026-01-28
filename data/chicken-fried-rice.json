@@ -1,0 +1,37 @@
+{
+  "id": "chicken-fried-rice",
+  "title": "Chicken Fried Rice",
+  "tagline": "Day-old rice, crispy edges, wok hei",
+  "description": "Chicken Fried Rice - Kenji López-Alt tested",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "time": "30 min",
+  "serves": "4",
+  "ingredients": [
+    "4 cups day-old white rice, cold",
+    "1 lb chicken breast, diced",
+    "3 tbsp vegetable oil",
+    "3 eggs, beaten",
+    "1 cup frozen peas and carrots",
+    "4 scallions, sliced",
+    "3 cloves garlic, minced",
+    "3 tbsp soy sauce",
+    "1 tbsp sesame oil",
+    "White pepper"
+  ],
+  "steps": [
+    "Heat wok until smoking. Add 1 tbsp oil. Stir-fry seasoned chicken until cooked. Transfer out.",
+    "Add 1 tbsp oil. Scramble eggs, break into pieces. Transfer out.",
+    "Add remaining oil. Stir-fry garlic 30 seconds.",
+    "Add rice, press flat. Let sit 30 seconds, then stir. Repeat until hot and slightly crispy.",
+    "Add peas/carrots, cook 1 minute. Return chicken and eggs. Add soy sauce, toss.",
+    "Drizzle with sesame oil, add scallions and white pepper."
+  ],
+  "notes": [
+    "Day-old rice is essential.",
+    "High heat creates wok hei.",
+    "Don't stir constantly - let rice crisp."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/easy-vegetable-fried-rice-recipe"
+}

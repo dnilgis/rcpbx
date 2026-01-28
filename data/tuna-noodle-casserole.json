@@ -1,0 +1,40 @@
+{
+  "id": "tuna-noodle-casserole",
+  "title": "Tuna Noodle Casserole",
+  "tagline": "Creamy, comforting, budget-friendly classic.",
+  "description": "Creamy, comforting, budget-friendly classic.",
+  "category": "Pasta",
+  "categorySlug": "pasta",
+  "prep": "15 min",
+  "cook": "30 min",
+  "serves": "6",
+  "ingredients": [
+    "12 oz egg noodles",
+    "4 tbsp butter",
+    "1 onion, diced",
+    "2 stalks celery, diced",
+    "¼ cup flour",
+    "2 cups milk",
+    "1 cup chicken broth",
+    "2 cans 5oz tuna, drained",
+    "1 cup frozen peas",
+    "1 cup shredded cheddar",
+    "½ cup breadcrumbs",
+    "Salt and pepper to taste"
+  ],
+  "steps": [
+    "Preheat oven to 375°F. Cook noodles according to package, drain.",
+    "Melt butter in large oven-safe skillet. Sauté onion and celery until soft.",
+    "Whisk in flour, cook 1 minute.",
+    "Gradually whisk in milk and broth. Simmer until thickened.",
+    "Remove from heat. Stir in tuna, peas, half the cheese, noodles. Season.",
+    "Top with remaining cheese and breadcrumbs.",
+    "Bake 20-25 minutes until bubbly and golden."
+  ],
+  "notes": [
+    "Upgrade the tuna: Oil-packed has better flavor than water-packed.",
+    "Add mushrooms: Sauté with the onion for extra depth.",
+    "Crispy top: Broil last 2 minutes for extra crunch."
+  ],
+  "source": "Adapted from AllRecipes"
+}

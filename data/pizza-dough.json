@@ -1,0 +1,34 @@
+{
+  "id": "pizza-dough",
+  "title": "Pizza Dough",
+  "tagline": "Chewy, crispy, restaurant quality",
+  "description": "Pizza Dough - Kenji López-Alt tested",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "time": "15 min + rising",
+  "makes": "2 pizzas",
+  "ingredients": [
+    "3 cups bread flour",
+    "1 tbsp sugar",
+    "2¼ tsp instant yeast",
+    "1 tsp salt",
+    "1 cup warm water",
+    "2 tbsp olive oil"
+  ],
+  "steps": [
+    "Mix flour, sugar, yeast, salt.",
+    "Add water and oil. Mix until dough forms.",
+    "Knead until smooth and elastic, 8-10 minutes.",
+    "Place in oiled bowl. Cover, let rise until doubled, 1-2 hours.",
+    "Punch down. Divide in half.",
+    "Use immediately or refrigerate up to 3 days.",
+    "Let cold dough come to room temp before shaping."
+  ],
+  "notes": [
+    "Bread flour has more gluten for chewy texture.",
+    "Cold rise develops more flavor.",
+    "High heat is essential for crispy crust."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/basic-new-york-style-pizza-dough"
+}

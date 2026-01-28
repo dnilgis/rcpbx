@@ -1,0 +1,40 @@
+{
+  "id": "cornbread",
+  "title": "Southern Cornbread",
+  "tagline": "Cast iron, crispy edges, no sugar. The way it should be.",
+  "description": "Cast iron, crispy edges, no sugar. The real Southern way. Serves 8.",
+  "category": "Sides",
+  "categorySlug": "sides",
+  "prep": "10 min",
+  "cook": "25 min",
+  "serves": "8",
+  "ingredients": [
+    "1½ cups cornmeal (stone-ground if you can find it)",
+    "½ cup all-purpose flour",
+    "1 tbsp baking powder",
+    "½ tsp baking soda",
+    "1 tsp salt",
+    "1½ cups buttermilk",
+    "1 egg",
+    "10 tbsp butter, divided"
+  ],
+  "steps": [
+    "Preheat oven to 425°F. Place 10-inch cast iron skillet in oven while it heats.",
+    "Whisk cornmeal, flour, baking powder, baking soda, and salt in large bowl.",
+    "Melt 6 tablespoons butter. Whisk with buttermilk and egg in another bowl.",
+    "Pour wet ingredients into dry. Stir until just combined. Don't overmix.",
+    "Carefully remove hot skillet from oven. Add remaining 4 tablespoons butter, swirl to coat.",
+    "Immediately pour batter into sizzling butter. It should sizzle loudly.",
+    "Bake 20-25 minutes until golden brown and toothpick comes out clean.",
+    "Brush top with more butter if desired. Let cool 5 minutes before slicing."
+  ],
+  "notes": [
+    "HOT skillet + butter = crispy crust: This is non-negotiable. The sizzle when batter hits the pan creates the crust.",
+    "No sugar: Southern cornbread is savory. If you want sweet, that's Northern-style (and that's fine, just different).",
+    "Cast iron matters: Retains heat, creates crispy edges. A regular pan won't give the same results.",
+    "Bacon grease: For extra flavor, replace some butter with bacon drippings.",
+    "Serve with: Chili, beans, collard greens, or crumbled into buttermilk (yes, really)."
+  ],
+  "source": "Adapted from The Kitchn",
+  "sourceUrl": "https://www.thekitchn.com/southern-cornbread-recipe-23749368"
+}

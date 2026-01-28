@@ -1,0 +1,32 @@
+{
+  "id": "eggs-benedict",
+  "title": "Eggs Benedict",
+  "tagline": "Poached eggs, Canadian bacon, hollandaise",
+  "description": "Eggs Benedict - Kenji López-Alt tested",
+  "category": "Breakfast",
+  "categorySlug": "breakfast",
+  "time": "45 min",
+  "serves": "4",
+  "ingredients": [
+    "4 English muffins, split and toasted",
+    "8 slices Canadian bacon",
+    "8 eggs",
+    "2 tbsp white vinegar",
+    "Hollandaise: 3 egg yolks, 1 tbsp lemon juice, 1 cup (2 sticks) butter, melted, pinch cayenne"
+  ],
+  "steps": [
+    "Make hollandaise: Blend yolks and lemon juice 5 seconds. With blender running, slowly drizzle in hot butter until thick. Season with salt and cayenne. Keep warm.",
+    "Heat Canadian bacon in skillet until browned.",
+    "Bring water to bare simmer. Add vinegar.",
+    "Crack eggs into small bowls. Swirl water, slip eggs in. Poach 3-4 minutes.",
+    "Remove eggs with slotted spoon, drain.",
+    "Assemble: muffin, bacon, egg, hollandaise."
+  ],
+  "notes": [
+    "Blender hollandaise is foolproof.",
+    "Fresh eggs poach better.",
+    "Hollandaise breaks if too hot."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/the-best-eggs-benedict-recipe"
+}

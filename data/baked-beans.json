@@ -1,0 +1,36 @@
+{
+  "id": "baked-beans",
+  "title": "Baked Beans",
+  "tagline": "Slow-cooked, smoky, sweet",
+  "description": "Baked Beans - ATK Lab-Tested",
+  "category": "Sides",
+  "categorySlug": "sides",
+  "time": "5-6 hrs",
+  "serves": "8-10",
+  "ingredients": [
+    "1 lb dried navy beans, soaked overnight",
+    "8 oz salt pork or bacon, diced",
+    "1 onion, diced",
+    "½ cup molasses",
+    "¼ cup brown sugar",
+    "2 tbsp Dijon mustard",
+    "1 tbsp cider vinegar",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Drain soaked beans. Cover with fresh water by 2 inches.",
+    "Simmer until just tender, 45 min to 1 hour. Drain, reserve 2 cups liquid.",
+    "Preheat oven to 300°F.",
+    "Cook salt pork until fat renders. Add onion, cook until soft.",
+    "Stir in molasses, sugar, mustard, vinegar, reserved liquid.",
+    "Add beans, season. Stir.",
+    "Cover, bake 3-4 hours, stirring occasionally.",
+    "Uncover last 30 minutes to thicken."
+  ],
+  "notes": [
+    "Soaking ensures even cooking.",
+    "Low and slow is essential."
+  ],
+  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "sourceUrl": "https://www.americastestkitchen.com/recipes/1569-boston-baked-beans"
+}

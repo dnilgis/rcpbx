@@ -1,0 +1,44 @@
+{
+  "id": "chicken-parmesan",
+  "title": "Chicken Parmesan",
+  "tagline": "Crispy cutlets, bubbling mozzarella. The key: don't bake it in sauce.",
+  "description": "Crispy breaded cutlets, melted mozzarella, marinara. Not soggy. Serves 4.",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "prep": "20 min",
+  "cook": "25 min",
+  "serves": "4",
+  "ingredients": [
+    "4 boneless skinless chicken breasts",
+    "1 cup all-purpose flour",
+    "2 eggs, beaten",
+    "1½ cups panko breadcrumbs",
+    "½ cup parmesan, grated",
+    "1 tsp Italian seasoning",
+    "½ tsp garlic powder",
+    "½ tsp salt",
+    "¼ cup olive oil",
+    "2 cups marinara sauce",
+    "8 oz fresh mozzarella, sliced",
+    "Fresh basil for serving"
+  ],
+  "steps": [
+    "Preheat oven to broil. Line a baking sheet with foil.",
+    "Pound chicken to ¼\" even thickness between plastic wrap. This ensures even cooking.",
+    "Set up breading station: flour in one dish, beaten eggs in second, panko mixed with parmesan, Italian seasoning, garlic powder, and salt in third.",
+    "Dredge each cutlet: flour → egg → panko mixture. Press panko firmly to adhere.",
+    "Heat oil in large skillet over medium-high. Fry cutlets 3-4 minutes per side until golden brown and cooked through (165°F). Work in batches.",
+    "Transfer cutlets to baking sheet. Spoon marinara around (not over) chicken—keep the breading exposed.",
+    "Top each cutlet with mozzarella slices.",
+    "Broil 2-3 minutes until cheese is melted and bubbly. Watch carefully.",
+    "Serve topped with fresh basil and extra sauce on the side."
+  ],
+  "notes": [
+    "The soggy mistake: Most recipes bake chicken IN the sauce. This makes breading soggy. Sauce goes around, not on top.",
+    "Pound it thin: ¼\" thickness cooks evenly and stays tender. Thick pieces overcook on outside.",
+    "Fresh mozzarella: Melts better than shredded, creates better texture.",
+    "Make it a sub: Slice and pile on hoagie roll with extra sauce and cheese.",
+    "Storage: Best fresh. Reheat on wire rack in 375°F oven to restore crispness."
+  ],
+  "source": "Adapted from Natasha's Kitchen"
+}

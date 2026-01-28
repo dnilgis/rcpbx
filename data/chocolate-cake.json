@@ -1,0 +1,30 @@
+{
+  "id": "chocolate-cake",
+  "title": "Chocolate Cake",
+  "tagline": "Rich, moist, deeply chocolatey",
+  "description": "Chocolate Cake - BraveTart tested",
+  "category": "Baking",
+  "categorySlug": "baking-dessert",
+  "time": "1½ hrs",
+  "serves": "12",
+  "ingredients": [
+    "Cake: 2 cups flour, 2 cups sugar, ¾ cup cocoa powder, 2 tsp baking soda, 1 tsp salt, 1 cup vegetable oil, 1 cup buttermilk, 2 eggs, 1 cup hot coffee",
+    "Frosting: 1 cup butter, 4 cups powdered sugar, ½ cup cocoa, ¼ cup heavy cream, 2 tsp vanilla"
+  ],
+  "steps": [
+    "Preheat oven to 350°F. Grease two 9-inch pans.",
+    "Whisk flour, sugar, cocoa, baking soda, salt.",
+    "Add oil, buttermilk, eggs. Beat 2 minutes.",
+    "Stir in hot coffee (batter will be thin).",
+    "Divide between pans. Bake 30-35 minutes.",
+    "Cool 10 minutes, turn out onto racks.",
+    "Frosting: Beat butter until fluffy. Add sugar, cocoa, cream, vanilla.",
+    "Frost cooled layers."
+  ],
+  "notes": [
+    "Hot coffee intensifies chocolate flavor.",
+    "Batter is very thin - that's correct."
+  ],
+  "source": "Serious Eats (BraveTart tested)",
+  "sourceUrl": "https://www.seriouseats.com/chocolate-cake-recipe"
+}

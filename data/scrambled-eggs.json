@@ -1,0 +1,36 @@
+{
+  "id": "scrambled-eggs",
+  "title": "Scrambled Eggs",
+  "tagline": "Gordon Ramsay's method. Creamy, silky, life-changing.",
+  "description": "Gordon Ramsay's method. Creamy, custardy, life-changing. 4 minutes.",
+  "category": "Breakfast",
+  "categorySlug": "breakfast",
+  "prep": "1 min",
+  "cook": "4 min",
+  "serves": "2",
+  "ingredients": [
+    "6 eggs",
+    "3 tbsp butter, cubed",
+    "1 tbsp crème fraîche (or sour cream)",
+    "Salt and pepper",
+    "Fresh chives, chopped (optional)"
+  ],
+  "steps": [
+    "Crack eggs directly into a COLD nonstick saucepan. Add butter. Don't whisk yet.",
+    "Place pan over medium heat. Start stirring continuously with a rubber spatula, breaking up the yolks and combining with whites.",
+    "As eggs start to thicken, pull pan OFF the heat. Keep stirring for 20 seconds.",
+    "Return to heat. Stir constantly. When eggs start to form curds again, pull OFF heat again. Keep stirring.",
+    "Repeat this on/off process 3-4 times over about 3 minutes. The eggs should be soft and slightly underdone.",
+    "When almost done but still slightly wet, remove from heat completely. Stir in crème fraîche—this stops the cooking.",
+    "Season with salt and pepper NOW (not before—early salt makes eggs watery).",
+    "Serve immediately topped with chives. Don't let them sit."
+  ],
+  "notes": [
+    "COLD pan start: This lets eggs cook slowly and evenly from the beginning.",
+    "ON/OFF the heat: This prevents overcooking. The pan stays hot even off the burner.",
+    "Remove while still wet: Carryover heat finishes them. If they look done in the pan, they're overdone on the plate.",
+    "Season LAST: Salt draws moisture from eggs. Season after cooking for best texture.",
+    "Crème fraîche: Adds creaminess AND stops cooking. Sour cream works too."
+  ],
+  "source": "Gordon Ramsay's method"
+}

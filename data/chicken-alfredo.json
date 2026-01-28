@@ -1,0 +1,36 @@
+{
+  "id": "chicken-alfredo",
+  "title": "Chicken Alfredo",
+  "tagline": "Creamy, garlicky, comfort food perfection",
+  "description": "Chicken Alfredo - Kenji López-Alt tested",
+  "category": "Pasta",
+  "categorySlug": "pasta",
+  "time": "30 min",
+  "serves": "4",
+  "ingredients": [
+    "1 lb fettuccine",
+    "1 lb chicken breasts",
+    "2 tbsp olive oil",
+    "6 tbsp butter",
+    "2 cups heavy cream",
+    "2 cups freshly grated Parmesan",
+    "2 cloves garlic, minced",
+    "¼ tsp nutmeg",
+    "Salt and pepper",
+    "Fresh parsley"
+  ],
+  "steps": [
+    "Season and cook chicken in oil until golden, 6-7 minutes per side. Rest, then slice.",
+    "Cook pasta until al dente. Reserve 1 cup pasta water.",
+    "Melt butter, add garlic, cook 30 seconds. Add cream, simmer 2-3 minutes.",
+    "Off heat, gradually stir in Parmesan until melted.",
+    "Add pasta, toss. Add pasta water for silky consistency.",
+    "Season with nutmeg, salt, pepper. Top with chicken and parsley."
+  ],
+  "notes": [
+    "Real Alfredo is just butter, Parmesan, pasta water - cream is American addition.",
+    "Take pot off heat before adding cheese to prevent clumping."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/the-best-fettuccine-alfredo-recipe"
+}

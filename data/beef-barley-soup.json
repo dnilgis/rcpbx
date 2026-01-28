@@ -1,0 +1,39 @@
+{
+  "id": "beef-barley-soup",
+  "title": "Beef Barley Soup",
+  "tagline": "Hearty, beefy, cold-weather comfort",
+  "description": "Beef Barley Soup - ATK Lab-Tested",
+  "category": "Soups & Stews",
+  "categorySlug": "soups-stews",
+  "time": "2 hrs",
+  "serves": "6-8",
+  "ingredients": [
+    "1½ lbs beef chuck, cubed",
+    "2 tbsp vegetable oil",
+    "1 large onion, chopped",
+    "2 carrots, chopped",
+    "2 celery ribs, chopped",
+    "4 cloves garlic, minced",
+    "1 tbsp tomato paste",
+    "8 cups beef broth",
+    "2 cups water",
+    "¾ cup pearl barley",
+    "2 bay leaves",
+    "1 tsp thyme",
+    "2 tbsp parsley"
+  ],
+  "steps": [
+    "Brown beef in batches in oil, about 5 minutes per batch.",
+    "Cook onion, carrots, celery until softened, 8 minutes.",
+    "Add garlic and tomato paste, cook 1 minute.",
+    "Add broth, water, barley, bay leaves, thyme. Return beef.",
+    "Simmer covered until beef and barley are tender, 1¼ hours.",
+    "Remove bay leaves, stir in parsley. Season to taste."
+  ],
+  "notes": [
+    "Don't skip browning the beef - builds the flavor base.",
+    "Add more broth when reheating - barley absorbs liquid."
+  ],
+  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "sourceUrl": "https://www.americastestkitchen.com/recipes/1592-beef-barley-soup"
+}

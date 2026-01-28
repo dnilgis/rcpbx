@@ -1,0 +1,35 @@
+{
+  "id": "carbonara",
+  "title": "Spaghetti Carbonara",
+  "tagline": "Silky egg sauce, crispy pork, no cream",
+  "description": "Spaghetti Carbonara - Kenji López-Alt tested",
+  "category": "Pasta",
+  "categorySlug": "pasta",
+  "time": "25 min",
+  "serves": "4",
+  "ingredients": [
+    "1 lb spaghetti",
+    "8 oz guanciale or pancetta, diced",
+    "4 egg yolks",
+    "2 whole eggs",
+    "1½ cups Pecorino Romano, grated",
+    "Freshly ground black pepper",
+    "Salt"
+  ],
+  "steps": [
+    "Cook pasta in well-salted water. Reserve 1½ cups pasta water.",
+    "Cook guanciale in cold skillet over medium until crispy, 8-10 minutes. Remove from heat.",
+    "Whisk yolks, eggs, most Pecorino, and plenty of black pepper.",
+    "Drain pasta, add to skillet with guanciale (off heat).",
+    "Pour egg mixture over pasta, toss vigorously. Residual heat cooks eggs.",
+    "Add pasta water until sauce is silky.",
+    "Serve with remaining Pecorino and pepper."
+  ],
+  "notes": [
+    "Key: take pan OFF heat before adding eggs.",
+    "Work fast - pasta must be hot.",
+    "No cream in real carbonara - ever."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/spaghetti-carbonara-recipe"
+}

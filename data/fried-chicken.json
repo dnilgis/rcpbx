@@ -1,0 +1,32 @@
+{
+  "id": "fried-chicken",
+  "title": "Southern Fried Chicken",
+  "tagline": "Buttermilk-brined, shatteringly crispy. Worth every step.",
+  "description": "Buttermilk-brined, extra crispy coating. Worth the effort. Serves 4.",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "prep": "30 min",
+  "brine": "6+ hrs",
+  "serves": "4",
+  "ingredients": [
+    "Buttermilk Brine: 3-4 lbs chicken pieces (thighs, drumsticks, breasts), 2 cups buttermilk, 2 tbsp kosher salt, 1 tbsp paprika, 1 tsp garlic powder, 1 tsp cayenne",
+    "Dredge: 2 cups all-purpose flour, ½ cup cornstarch, 1 tbsp paprika, 1 tbsp garlic powder, 1 tsp cayenne, 1 tsp salt, 1 tsp black pepper",
+    "For Frying: Vegetable oil or peanut oil (enough for 1\" depth in pan)"
+  ],
+  "steps": [
+    "Brine: Whisk buttermilk, salt, paprika, garlic powder, and cayenne. Submerge chicken pieces. Refrigerate at least 6 hours, preferably overnight.",
+    "Mix dredge: Combine flour, cornstarch, paprika, garlic powder, cayenne, salt, and pepper in a wide bowl.",
+    "Double dredge: Remove chicken from buttermilk (don't shake off excess). Coat in flour mixture. Dip back in buttermilk. Coat in flour again. Let sit on rack 10 minutes.",
+    "Heat oil to 350°F in Dutch oven or deep skillet. Use a thermometer.",
+    "Fry in batches (don't crowd): Dark meat 13-15 minutes, breasts 15-18 minutes. Flip halfway. Internal temp should reach 165°F.",
+    "Drain on wire rack (not paper towels—they make it soggy). Season with pinch of salt immediately."
+  ],
+  "notes": [
+    "Cornstarch = extra crispy: It creates a shatteringly crunchy coating. Don't skip it.",
+    "Double dredge: The second coating is what gives you that craggy, crispy exterior.",
+    "Don't crowd: Too much chicken drops oil temp = greasy, soggy coating.",
+    "Wire rack: Draining on paper towels traps steam and makes bottom soggy.",
+    "Storage: Best fresh. Reheat in 400°F oven on wire rack to re-crisp."
+  ],
+  "source": "Adapted from Serious Eats Food Lab"
+}

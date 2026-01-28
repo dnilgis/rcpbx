@@ -1,0 +1,33 @@
+{
+  "id": "rice-pilaf",
+  "title": "Rice Pilaf",
+  "tagline": "Buttery, toasted, fluffy",
+  "description": "Rice Pilaf - ATK Lab-Tested",
+  "category": "Sides",
+  "categorySlug": "sides",
+  "time": "35 min",
+  "serves": "4-6",
+  "ingredients": [
+    "1½ cups long-grain white rice",
+    "2¼ cups chicken broth",
+    "2 tbsp butter",
+    "1 small onion, minced",
+    "½ tsp salt"
+  ],
+  "steps": [
+    "Rinse rice until water runs clear. Drain.",
+    "Melt butter over medium. Cook onion 3 minutes.",
+    "Add rice. Stir to coat. Toast until edges turn translucent, 2-3 minutes.",
+    "Add broth and salt. Bring to boil.",
+    "Cover, reduce to low. Simmer 18 minutes.",
+    "Remove from heat. Let sit 5 minutes covered.",
+    "Fluff with fork."
+  ],
+  "notes": [
+    "Rinsing removes starch for fluffy rice.",
+    "Toasting adds nutty flavor.",
+    "Don't lift lid while cooking."
+  ],
+  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "sourceUrl": "https://www.americastestkitchen.com/recipes/1564-rice-pilaf"
+}

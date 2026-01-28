@@ -1,0 +1,32 @@
+{
+  "id": "bechamel",
+  "title": "Béchamel",
+  "tagline": "Creamy white sauce, building block",
+  "description": "Béchamel - Rigorously tested",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "time": "15 min",
+  "makes": "2 cups",
+  "ingredients": [
+    "2 tbsp butter",
+    "2 tbsp flour",
+    "2 cups whole milk, warmed",
+    "¼ tsp nutmeg",
+    "Salt and white pepper"
+  ],
+  "steps": [
+    "Melt butter in saucepan over medium heat.",
+    "Whisk in flour. Cook 1 minute without browning.",
+    "Gradually whisk in warm milk.",
+    "Simmer, whisking frequently, until thick enough to coat a spoon, 5-7 minutes.",
+    "Season with nutmeg, salt, and white pepper.",
+    "Use immediately or press plastic wrap directly on surface to prevent skin."
+  ],
+  "notes": [
+    "Warm milk prevents lumps.",
+    "Don't brown the flour - should stay white.",
+    "Base for cheese sauce, gratins, lasagna."
+  ],
+  "source": "Serious Eats (Rigorously tested)",
+  "sourceUrl": "https://www.seriouseats.com/how-to-make-bechamel-white-sauce-recipe"
+}

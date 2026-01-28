@@ -1,0 +1,33 @@
+{
+  "id": "glazed-ham",
+  "title": "Glazed Ham",
+  "tagline": "Holiday centerpiece, sweet and sticky",
+  "description": "Glazed Ham - ATK Lab-Tested",
+  "category": "Pork",
+  "categorySlug": "pork",
+  "time": "2½-3 hrs",
+  "serves": "12-15",
+  "ingredients": [
+    "1 bone-in spiral-sliced ham (8-10 lbs)",
+    "1 cup brown sugar",
+    "¼ cup honey",
+    "2 tbsp Dijon mustard",
+    "¼ tsp cloves",
+    "¼ tsp cinnamon"
+  ],
+  "steps": [
+    "Place ham cut-side down in roasting pan.",
+    "Cover tightly with foil. Bake at 250°F until 100°F internal, about 1.5-2 hours.",
+    "Mix glaze ingredients.",
+    "Remove foil. Increase oven to 350°F.",
+    "Brush with half the glaze. Bake 15 minutes.",
+    "Brush with remaining glaze. Bake until 120°F and caramelized, 15-20 minutes.",
+    "Rest 15 minutes."
+  ],
+  "notes": [
+    "Spiral ham is already cooked - just heating and glazing.",
+    "Cut-side down keeps meat moist."
+  ],
+  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "sourceUrl": "https://www.americastestkitchen.com/recipes/6352-glazed-spiral-ham"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "baked-ziti",
+  "title": "Baked Ziti",
+  "tagline": "Saucy, cheesy, crowd-pleasing pasta bake",
+  "description": "Baked Ziti - Kenji López-Alt tested",
+  "category": "Pasta",
+  "categorySlug": "pasta",
+  "time": "1¼ hrs",
+  "serves": "8-10",
+  "ingredients": [
+    "1 lb ziti",
+    "1 lb Italian sausage",
+    "4 cloves garlic, minced",
+    "1 (28 oz) can crushed tomatoes",
+    "1 tsp oregano",
+    "15 oz ricotta",
+    "1 egg",
+    "¼ cup basil, chopped",
+    "1 lb mozzarella, shredded",
+    "½ cup Parmesan"
+  ],
+  "steps": [
+    "Cook pasta until just shy of al dente. Drain.",
+    "Brown sausage, breaking into pieces. Add garlic, tomatoes, oregano. Simmer 15 minutes.",
+    "Mix ricotta, egg, basil, and half the mozzarella.",
+    "Add pasta and sausage to sauce. Transfer half to 9x13 dish.",
+    "Dollop ricotta mixture, add remaining pasta.",
+    "Top with remaining mozzarella and Parmesan.",
+    "Bake at 400°F for 25-30 minutes until bubbly."
+  ],
+  "notes": [
+    "Undercook pasta - it finishes in oven.",
+    "Dollop ricotta for pockets of creaminess."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/baked-ziti-recipe"
+}

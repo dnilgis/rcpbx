@@ -1,0 +1,36 @@
+{
+  "id": "chicken-marsala",
+  "title": "Chicken Marsala",
+  "tagline": "Pan-seared chicken in mushroom wine sauce",
+  "description": "Chicken Marsala - Rigorously tested",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "time": "40 min",
+  "serves": "4",
+  "ingredients": [
+    "4 chicken breasts",
+    "½ cup flour",
+    "4 tbsp butter",
+    "2 tbsp olive oil",
+    "8 oz cremini mushrooms, sliced",
+    "3 cloves garlic, minced",
+    "1 cup dry Marsala wine",
+    "1 cup chicken broth",
+    "½ cup heavy cream",
+    "2 tbsp parsley"
+  ],
+  "steps": [
+    "Pound chicken to ½-inch. Season, dredge in flour.",
+    "Cook chicken in 2 tbsp butter and oil until golden, 3-4 minutes per side. Transfer out.",
+    "Add remaining butter and mushrooms. Brown 5 minutes. Add garlic, cook 30 seconds.",
+    "Add Marsala, scrape up browned bits. Reduce by half.",
+    "Add broth, simmer 5 minutes. Stir in cream.",
+    "Return chicken, simmer until cooked through, 3-5 minutes. Add parsley."
+  ],
+  "notes": [
+    "Use dry Marsala, not sweet cooking Marsala.",
+    "Pounding chicken ensures even cooking."
+  ],
+  "source": "Serious Eats (Rigorously tested)",
+  "sourceUrl": "https://www.seriouseats.com/chicken-marsala-mushroom-recipe"
+}

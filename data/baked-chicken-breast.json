@@ -1,0 +1,33 @@
+{
+  "id": "baked-chicken-breast",
+  "title": "Baked Chicken Breast",
+  "tagline": "Juicy, golden, foolproof",
+  "description": "Baked Chicken Breast - Kenji López-Alt tested",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "time": "30 min",
+  "serves": "4",
+  "ingredients": [
+    "4 boneless skinless chicken breasts",
+    "1 tbsp olive oil",
+    "2 tbsp butter",
+    "4 cloves garlic, smashed",
+    "4 sprigs fresh thyme",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Pat chicken very dry. Season generously.",
+    "Heat oil in oven-safe skillet over medium-high until smoking.",
+    "Add chicken, sear without moving until golden, 4-5 minutes.",
+    "Flip. Add butter, garlic, thyme.",
+    "Transfer to 425°F oven. Roast until 160°F internal, 10-15 minutes.",
+    "Rest 5 minutes. Spoon pan juices over chicken."
+  ],
+  "notes": [
+    "Dry chicken = better browning.",
+    "Use thermometer - overcooked breast is dry.",
+    "Resting is crucial."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/quick-and-easy-pan-roasted-chicken-breasts"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "baked-cod",
+  "title": "Baked Cod",
+  "tagline": "Lemon herb butter, panko topping",
+  "description": "Baked Cod - ATK Lab-Tested",
+  "category": "Seafood",
+  "categorySlug": "seafood",
+  "time": "25 min",
+  "serves": "4",
+  "ingredients": [
+    "4 cod fillets (6 oz each)",
+    "3 tbsp olive oil",
+    "3 tbsp butter, melted",
+    "2 cloves garlic, minced",
+    "1 lemon, zested and juiced",
+    "2 tbsp parsley",
+    "1 tbsp dill",
+    "¼ cup panko",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "Preheat oven to 425°F. Pat cod dry, season.",
+    "Mix butter, 2 tbsp oil, garlic, lemon zest, herbs.",
+    "Place cod in baking dish. Spoon herb butter over.",
+    "Mix panko with remaining oil. Sprinkle over fish.",
+    "Bake until fish flakes and topping is golden, 15-18 minutes.",
+    "Squeeze lemon juice over. Serve."
+  ],
+  "notes": [
+    "Cod's mild flavor pairs with bold toppings.",
+    "Don't overcook - should just flake."
+  ],
+  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "sourceUrl": "https://www.americastestkitchen.com/recipes/8553-baked-cod-with-lemon-and-herbs"
+}

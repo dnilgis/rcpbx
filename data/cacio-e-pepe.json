@@ -1,0 +1,31 @@
+{
+  "id": "cacio-e-pepe",
+  "title": "Cacio e Pepe",
+  "tagline": "Three ingredients. Infinite technique.",
+  "description": "Cacio e Pepe - Kenji López-Alt tested",
+  "category": "Pasta",
+  "categorySlug": "pasta",
+  "time": "20 min",
+  "serves": "4",
+  "ingredients": [
+    "1 lb spaghetti or tonnarelli",
+    "6 oz Pecorino Romano, finely grated",
+    "2 tbsp freshly cracked black pepper",
+    "Salt"
+  ],
+  "steps": [
+    "Toast pepper in dry skillet until fragrant, 1 minute.",
+    "Cook pasta in less water than usual (3 quarts) to concentrate starch. Reserve 2 cups pasta water.",
+    "Add 1½ cups pasta water to bowl with Pecorino. Whisk to form paste.",
+    "Drain pasta when very al dente. Add to cheese mixture with pepper.",
+    "Toss vigorously, adding pasta water until creamy.",
+    "Serve immediately with more Pecorino and pepper."
+  ],
+  "notes": [
+    "Less cooking water = starchier = better sauce.",
+    "Pecorino is essential - don't substitute Parmesan.",
+    "Work fast and off heat to prevent clumping."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/cacio-e-pepe-recipe"
+}

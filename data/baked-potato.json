@@ -1,0 +1,32 @@
+{
+  "id": "baked-potato",
+  "title": "Baked Potato",
+  "tagline": "Crispy skin, fluffy interior",
+  "description": "Baked Potato - Kenji López-Alt tested",
+  "category": "Sides",
+  "categorySlug": "sides",
+  "time": "1¼ hrs",
+  "serves": "4",
+  "ingredients": [
+    "4 large russet potatoes",
+    "2 tbsp vegetable oil",
+    "Kosher salt",
+    "Butter, sour cream, chives, bacon"
+  ],
+  "steps": [
+    "Preheat oven to 450°F.",
+    "Scrub potatoes. Poke several times with fork.",
+    "Rub with oil and coat generously with salt.",
+    "Place directly on oven rack (sheet below to catch drips).",
+    "Bake until skin is crispy and interior fluffy, 50-60 minutes.",
+    "Cut X in top, squeeze sides to open.",
+    "Top with butter, sour cream, chives, bacon."
+  ],
+  "notes": [
+    "Russets have best fluffy texture.",
+    "Oil and salt = crispy skin.",
+    "No foil - steams instead of bakes."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/perfect-baked-potato-recipe"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "smash-burgers",
+  "title": "Smash Burgers",
+  "tagline": "Crispy lacy edges, diner-style perfection. Fast and simple.",
+  "description": "Crispy-edged, diner-style smash burgers. 2-oz patties, scorching hot pan. Serves 4.",
+  "category": "Beef",
+  "categorySlug": "beef",
+  "prep": "5 min",
+  "cook": "10 min",
+  "serves": "4",
+  "ingredients": [
+    "1 lb ground beef chuck (80/20)",
+    "8 slices American cheese",
+    "4 burger buns (potato buns work great)",
+    "Kosher salt",
+    "Black pepper",
+    "2 tbsp butter for buns",
+    "Suggested Toppings: Pickle slices, thinly sliced onion, ketchup, mustard, mayo, shredded lettuce"
+  ],
+  "steps": [
+    "Divide beef into 8 equal balls (2 oz each). Don't pack them tight—keep them loose.",
+    "Heat cast iron skillet or griddle over HIGH heat until smoking hot. This is crucial.",
+    "Place 2-4 balls on the hot surface (don't crowd). Immediately smash flat with a sturdy spatula. Press HARD for 10 seconds. Should be very thin.",
+    "Season the top with salt and pepper AFTER smashing (not before).",
+    "Cook 2 minutes until edges are brown and crispy. Flip.",
+    "Immediately add cheese slice. Cook 1 more minute.",
+    "Stack 2 patties per burger.",
+    "Toast buns in the beef fat on the same pan. Assemble and serve immediately."
+  ],
+  "notes": [
+    "Why season AFTER smashing: Salt draws moisture from raw meat. Salting after = better crust.",
+    "American cheese: Melts better than anything else. This is not the time for fancy cheese.",
+    "The smash: Press as thin as possible. The goal is maximum surface contact = maximum crust.",
+    "Why 2 thin patties: More crust per burger. That crust is the whole point.",
+    "Ventilation: This creates smoke. Open windows or turn on the fan."
+  ],
+  "source": "Adapted from Serious Eats / Kenji López-Alt"
+}

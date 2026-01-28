@@ -1,0 +1,36 @@
+{
+  "id": "fish-and-chips",
+  "title": "Fish and Chips",
+  "tagline": "Crispy beer batter, double-fried chips",
+  "description": "Fish and Chips - Kenji López-Alt tested",
+  "category": "Seafood",
+  "categorySlug": "seafood",
+  "time": "1 hr",
+  "serves": "4",
+  "ingredients": [
+    "1½ lbs cod or haddock",
+    "1½ cups flour, divided",
+    "½ cup cornstarch",
+    "1 tsp baking powder",
+    "1 cup cold beer",
+    "2 lbs russet potatoes",
+    "Vegetable oil for frying",
+    "Malt vinegar and tartar sauce"
+  ],
+  "steps": [
+    "Cut potatoes into ½-inch fries. Soak in cold water 1 hour.",
+    "Heat oil to 325°F. Drain and dry potatoes. Fry 5 minutes until pale. Drain.",
+    "Increase oil to 375°F. Fry potatoes again until golden, 3-5 minutes. Season.",
+    "Whisk 1 cup flour, cornstarch, baking powder, 1 tsp salt. Whisk in beer.",
+    "Cut fish into strips. Dredge in remaining flour.",
+    "Dip in batter. Fry until golden, 4-5 minutes. Drain, season.",
+    "Serve with malt vinegar and tartar sauce."
+  ],
+  "notes": [
+    "Double-frying = crispy chips.",
+    "Cold beer keeps batter light.",
+    "Soaking removes starch."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/fish-and-chips-recipe"
+}

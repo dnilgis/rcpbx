@@ -1,0 +1,35 @@
+{
+  "id": "buffalo-wings",
+  "title": "Buffalo Wings",
+  "tagline": "Crispy oven-baked, classic hot sauce",
+  "description": "Buffalo Wings - Kenji López-Alt tested",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "time": "1 hr + overnight",
+  "serves": "4",
+  "ingredients": [
+    "3 lbs chicken wings, split",
+    "1 tbsp baking powder",
+    "1 tsp salt",
+    "4 tbsp butter",
+    "½ cup Frank's RedHot",
+    "1 tbsp white vinegar",
+    "¼ tsp Worcestershire",
+    "Blue cheese dressing and celery"
+  ],
+  "steps": [
+    "Pat wings dry. Toss with baking powder and salt.",
+    "Arrange on wire rack over sheet. Refrigerate uncovered overnight.",
+    "Bake at 450°F for 20 minutes. Flip, bake 20-30 more until crispy.",
+    "Melt butter, whisk in hot sauce, vinegar, Worcestershire.",
+    "Toss hot wings in sauce.",
+    "Serve with blue cheese and celery."
+  ],
+  "notes": [
+    "Baking powder + overnight = crispy without frying.",
+    "Don't skip overnight rest.",
+    "Frank's is classic; adjust heat with more/less sauce."
+  ],
+  "source": "Serious Eats (Kenji López-Alt tested)",
+  "sourceUrl": "https://www.seriouseats.com/the-best-buffalo-wings-oven-fried-recipe"
+}

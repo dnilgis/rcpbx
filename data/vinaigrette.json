@@ -1,0 +1,31 @@
+{
+  "id": "vinaigrette",
+  "title": "Basic Vinaigrette",
+  "tagline": "Master this ratio and never buy bottled dressing again.",
+  "description": "Master this ratio and never buy bottled dressing again.",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "prep": "5 min",
+  "cook": "0 min",
+  "serves": "8",
+  "ingredients": [
+    "3 tbsp red wine vinegar",
+    "1 tsp Dijon mustard",
+    "1 clove garlic, minced",
+    "½ cup extra virgin olive oil",
+    "Salt and pepper to taste",
+    "Optional: honey, shallot, herbs"
+  ],
+  "steps": [
+    "Whisk vinegar, mustard, garlic, salt, and pepper in a bowl.",
+    "Slowly drizzle in olive oil while whisking constantly.",
+    "Taste and adjust seasoning.",
+    "Use immediately or store refrigerated up to 1 week."
+  ],
+  "notes": [
+    "The ratio: 3 parts oil to 1 part acid. Adjust to taste.",
+    "Mustard is the emulsifier: It helps oil and vinegar stay mixed.",
+    "Variations: Swap vinegar for lemon juice. Add honey for sweetness. Use shallot instead of garlic."
+  ],
+  "source": "Adapted from Serious Eats"
+}

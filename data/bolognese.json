@@ -1,0 +1,40 @@
+{
+  "id": "bolognese",
+  "title": "Bolognese Sauce",
+  "tagline": "Rich, meaty, slow-simmered perfection",
+  "description": "Bolognese Sauce - Marcella Hazan classic + Kenji tested",
+  "category": "Pasta",
+  "categorySlug": "pasta",
+  "time": "3-4 hrs",
+  "serves": "8",
+  "ingredients": [
+    "2 tbsp butter",
+    "2 tbsp olive oil",
+    "1 onion, finely diced",
+    "2 carrots, finely diced",
+    "2 celery stalks, finely diced",
+    "1 lb ground beef",
+    "½ lb ground pork",
+    "1 cup whole milk",
+    "1 cup dry white wine",
+    "1 (28 oz) can whole tomatoes, crushed",
+    "¼ tsp nutmeg",
+    "Fresh tagliatelle"
+  ],
+  "steps": [
+    "Cook onion, carrot, celery in butter and oil until softened, 10 minutes.",
+    "Add beef and pork, cook until no longer pink.",
+    "Add milk. Simmer until completely absorbed.",
+    "Add wine. Simmer until absorbed.",
+    "Add tomatoes and nutmeg. Season.",
+    "Simmer on lowest heat 3-4 hours, stirring occasionally.",
+    "Toss with fresh pasta and Parmesan."
+  ],
+  "notes": [
+    "The milk before tomatoes is Hazan's secret - tenderizes meat.",
+    "True Bolognese is barely red - it's a meat sauce.",
+    "Traditionally served with tagliatelle, not spaghetti."
+  ],
+  "source": "Marcella Hazan / Serious Eats (Marcella Hazan classic + Kenji tested)",
+  "sourceUrl": "https://www.seriouseats.com/the-best-slow-cooked-bolognese-sauce-recipe"
+}

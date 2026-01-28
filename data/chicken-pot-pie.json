@@ -1,0 +1,38 @@
+{
+  "id": "chicken-pot-pie",
+  "title": "Chicken Pot Pie",
+  "tagline": "Creamy filling under flaky pastry",
+  "description": "Chicken Pot Pie - ATK Lab-Tested",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "time": "1½ hrs",
+  "serves": "6",
+  "ingredients": [
+    "1½ lbs boneless skinless chicken thighs",
+    "4 tbsp butter",
+    "1 onion, chopped",
+    "2 carrots, sliced",
+    "2 celery ribs, sliced",
+    "⅓ cup flour",
+    "2 cups chicken broth",
+    "1 cup heavy cream",
+    "1 cup frozen peas",
+    "2 tbsp fresh thyme",
+    "1 sheet puff pastry",
+    "1 egg, beaten"
+  ],
+  "steps": [
+    "Poach chicken in simmering water until cooked, 15-20 minutes. Shred.",
+    "Melt butter, cook onion, carrots, celery until soft, 8 minutes.",
+    "Add flour, cook 1 minute. Whisk in broth and cream.",
+    "Simmer until thickened. Add chicken, peas, thyme. Season well.",
+    "Transfer to 9x13 dish. Top with puff pastry, cut vents. Brush with egg.",
+    "Bake at 400°F until golden and bubbling, 25-30 minutes."
+  ],
+  "notes": [
+    "Thighs have more flavor than breasts.",
+    "Puff pastry is easier than pie dough."
+  ],
+  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "sourceUrl": "https://www.americastestkitchen.com/recipes/8521-chicken-pot-pie"
+}
