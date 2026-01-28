@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recipes | rcpbx</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
   <meta name="description" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,6 +31,12 @@
     .chef-quote{padding:1rem 1.5rem;border-top:1px solid var(--border);font-style:italic;font-size:0.85rem;color:var(--text-dim);text-align:center}
     .chef-quote .chef-name{font-style:normal;color:var(--text-muted)}
     
+    /* Wake lock */
+    .wake-lock{position:fixed;bottom:1rem;left:1rem;font-family:var(--font-mono);font-size:0.7rem;color:var(--text-dim);background:var(--bg);border:1px solid var(--border);padding:0.4rem 0.75rem;border-radius:4px;cursor:pointer;display:flex;align-items:center;gap:0.4rem;z-index:100}
+    .wake-lock:hover{border-color:var(--accent);color:var(--text-muted)}
+    .wake-lock input{accent-color:var(--accent)}
+    .print-date{display:none}
+    
     /* Print quote */
     @media print {
       .chef-quote{display:block !important;position:absolute;bottom:0.1in;right:0.15in;left:auto;padding:0 !important;border:none !important;font-size:5pt !important;text-align:right !important;max-width:1.8in}
@@ -50,6 +57,7 @@
   </main>
   <footer class="site-footer"><p class="footer-line"><span style="color:var(--accent);font-weight:500">rcpbx.com</span><span class="sep">·</span><span>$0 VC</span><span class="sep">·</span><span class="never-acquired">never acquired</span></p></footer>
   <button class="print-btn" onclick="window.print()" style="display:none" id="print-btn">Print Card</button>
+  <label class="wake-lock" id="wake-lock" style="display:none"><input type="checkbox" id="wake-lock-toggle"> Keep screen on</label>
   <script>
 const chefQuotes = [
   {q: "People who love to eat are always the best people.", c: "Julia Child"},
@@ -244,10 +252,12 @@ function renderRecipe(r) {
       ${notesHtml ? `<div class="recipe-notes"><h2 class="section-title">Notes</h2>${notesHtml}</div>` : ''}
       ${sourceHtml ? `<footer class="recipe-footer">${sourceHtml}</footer>` : ''}
       <div class="chef-quote">"${randomQuote.q}" <span class="chef-name">—${randomQuote.c}</span></div>
+      <div class="print-date">printed ${new Date().toLocaleDateString('en-US', {month: 'short', year: 'numeric'})}</div>
     </article>
   `;
   
   document.getElementById('print-btn').style.display = 'block';
+  document.getElementById('wake-lock').style.display = 'flex';
   document.querySelectorAll('.ingredients-list li').forEach(li => {
     li.addEventListener('click', () => li.classList.toggle('checked'));
   });
@@ -255,6 +265,25 @@ function renderRecipe(r) {
     li.addEventListener('click', () => li.classList.toggle('done'));
   });
 }
+
+// Wake lock
+let wakeLock = null;
+const wakeLockToggle = document.getElementById('wake-lock-toggle');
+wakeLockToggle?.addEventListener('change', async () => {
+  if (wakeLockToggle.checked) {
+    try {
+      wakeLock = await navigator.wakeLock.request('screen');
+      wakeLock.addEventListener('release', () => {
+        wakeLockToggle.checked = false;
+      });
+    } catch (e) {
+      wakeLockToggle.checked = false;
+    }
+  } else if (wakeLock) {
+    wakeLock.release();
+    wakeLock = null;
+  }
+});
   </script>
 </body>
 </html>

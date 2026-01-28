@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>rcpbx — the recipe box</title>
-  <meta name="description" content="111 recipes. No bullshit. Test kitchen validated recipes without the life stories.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
+  <meta name="description" content="Recipes that work. No life stories. No ads. Just cook.">
   
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
@@ -275,6 +276,19 @@
       border: 1px solid var(--border);
       margin-bottom: 1.5rem;
     }
+    .categories-label {
+      grid-column: 1 / -1;
+      background: var(--bg);
+      padding: 0.5rem 0.875rem;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--text-dim);
+      border-bottom: 1px solid var(--border);
+    }
+    .categories-label span {
+      color: var(--accent);
+      font-weight: 500;
+    }
     .category {
       background: var(--bg);
       padding: 1rem 0.875rem;
@@ -473,8 +487,8 @@
   <div class="main-grid">
     <main>
       <section class="hero">
-        <h1>111 recipes. No bullshit.</h1>
-        <p>Test kitchen validated. No life stories.</p>
+        <h1>Recipes that work.</h1>
+        <p>No life stories. No ads. Just cook.</p>
       </section>
 
       <div class="search-box">
@@ -484,6 +498,7 @@
       <div class="search-results" id="searchResults"></div>
 
       <div class="categories" id="categories">
+        <div class="categories-label"><span id="recipeCount">111</span> recipes across 10 categories</div>
         <a href="recipes/?cat=soups-stews" class="category">
           <span class="category-name">Soups & Stews</span>
           <span class="category-count">12 recipes</span>
@@ -603,7 +618,18 @@
         e.preventDefault();
         searchInput.focus();
       }
-      if (e.key === 'Escape') searchInput.blur();
+      if (e.key === 'Escape') {
+        searchInput.value = '';
+        searchResults.innerHTML = '';
+        searchResults.classList.remove('active');
+        searchInput.blur();
+      }
+      if (e.key === 'Enter' && document.activeElement === searchInput) {
+        const firstResult = searchResults.querySelector('a');
+        if (firstResult) {
+          window.location.href = firstResult.href;
+        }
+      }
     });
 
     // Easter egg search responses
