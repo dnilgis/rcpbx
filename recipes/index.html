@@ -36,10 +36,29 @@
     .wake-lock:hover{border-color:var(--accent);color:var(--text-muted)}
     .wake-lock input{accent-color:var(--accent)}
     .print-date{display:none}
+    .print-qr{display:none}
     
-    /* Print quote */
+    /* Unit toggle */
+    .amount[data-metric]{cursor:pointer;border-bottom:1px dashed var(--accent);transition:all 0.15s}
+    .amount[data-metric]:hover{color:var(--accent)}
+    
+    /* Timers */
+    .step-timer{display:inline-block;background:var(--accent-dim);color:var(--accent);padding:0.15rem 0.4rem;border-radius:3px;font-family:var(--font-mono);font-size:0.8rem;cursor:pointer;margin-left:0.25rem;transition:all 0.15s}
+    .step-timer:hover{background:var(--accent);color:white}
+    .timer-popup{position:fixed;bottom:5rem;right:1rem;background:var(--card);border:2px solid var(--accent);border-radius:8px;padding:1rem 1.25rem;font-family:var(--font-mono);z-index:200;box-shadow:0 4px 20px rgba(0,0,0,0.15);min-width:160px;text-align:center}
+    .timer-popup.hidden{display:none}
+    .timer-display{font-size:2rem;font-weight:700;color:var(--text);margin:0.5rem 0}
+    .timer-label{font-size:0.75rem;color:var(--text-muted);margin-bottom:0.5rem}
+    .timer-btn{background:var(--bg);border:1px solid var(--border);color:var(--text-muted);padding:0.3rem 0.6rem;border-radius:4px;font-family:var(--font-mono);font-size:0.7rem;cursor:pointer;margin:0.25rem}
+    .timer-btn:hover{border-color:var(--accent);color:var(--accent)}
+    .timer-btn.stop{border-color:#e55;color:#e55}
+    
+    /* Print */
     @media print {
       .chef-quote{display:block !important;position:absolute;bottom:0.1in;right:0.15in;left:auto;padding:0 !important;border:none !important;font-size:5pt !important;text-align:right !important;max-width:1.8in}
+      .print-qr{display:flex !important;position:fixed;top:0.08in;right:0.08in;flex-direction:column;align-items:center;gap:0.02in}
+      .print-qr img{width:0.45in !important;height:0.45in !important}
+      .print-qr span{font-family:var(--font-mono);font-size:4pt;color:#999}
     }
   </style>
 </head>
@@ -199,6 +218,84 @@ function renderCategoryList(categoryName, recipes) {
   document.getElementById('content').innerHTML = html;
 }
 
+// Unit conversions
+const conversions = {
+  'cup': {metric: 'ml', factor: 237, round: 0},
+  'cups': {metric: 'ml', factor: 237, round: 0},
+  'tbsp': {metric: 'ml', factor: 15, round: 0},
+  'tablespoon': {metric: 'ml', factor: 15, round: 0},
+  'tablespoons': {metric: 'ml', factor: 15, round: 0},
+  'tsp': {metric: 'ml', factor: 5, round: 1},
+  'teaspoon': {metric: 'ml', factor: 5, round: 1},
+  'teaspoons': {metric: 'ml', factor: 5, round: 1},
+  'oz': {metric: 'g', factor: 28, round: 0},
+  'ounce': {metric: 'g', factor: 28, round: 0},
+  'ounces': {metric: 'g', factor: 28, round: 0},
+  'lb': {metric: 'g', factor: 454, round: 0},
+  'lbs': {metric: 'g', factor: 454, round: 0},
+  'pound': {metric: 'g', factor: 454, round: 0},
+  'pounds': {metric: 'g', factor: 454, round: 0},
+  'fl oz': {metric: 'ml', factor: 30, round: 0},
+  'quart': {metric: 'L', factor: 0.95, round: 2},
+  'quarts': {metric: 'L', factor: 0.95, round: 2},
+  'pint': {metric: 'ml', factor: 473, round: 0},
+  'pints': {metric: 'ml', factor: 473, round: 0},
+  'gallon': {metric: 'L', factor: 3.8, round: 1},
+  'gallons': {metric: 'L', factor: 3.8, round: 1}
+};
+
+function parseAmount(amount) {
+  const regex = /^([\d\/\.\s½¼¾⅓⅔⅛]+)\s*(cup|cups|tbsp|tablespoons?|tsp|teaspoons?|oz|ounces?|lbs?|pounds?|fl oz|quarts?|pints?|gallons?)\b/i;
+  const match = amount.match(regex);
+  if (match) {
+    const num = parseFraction(match[1]);
+    const unit = match[2].toLowerCase();
+    const conv = conversions[unit];
+    if (conv && num) {
+      const metric = (num * conv.factor).toFixed(conv.round).replace(/\.0+$/, '');
+      return `<span class="amount" data-imperial="${amount}" data-metric="${metric}${conv.metric}" data-showing="imperial">${amount}</span>`;
+    }
+  }
+  return `<span class="amount">${amount}</span>`;
+}
+
+function parseIngredient(str) {
+  const regex = /^([\d\/\.\s½¼¾⅓⅔⅛]+)\s*(cup|cups|tbsp|tablespoons?|tsp|teaspoons?|oz|ounces?|lbs?|pounds?|fl oz|quarts?|pints?|gallons?)\b/i;
+  const match = str.match(regex);
+  if (match) {
+    const parsed = parseAmount(match[0]);
+    return parsed + str.slice(match[0].length);
+  }
+  return str;
+}
+
+function parseFraction(str) {
+  const fractions = {'½': 0.5, '¼': 0.25, '¾': 0.75, '⅓': 0.333, '⅔': 0.667, '⅛': 0.125};
+  let total = 0;
+  const parts = str.trim().split(/\s+/);
+  for (const p of parts) {
+    if (fractions[p]) total += fractions[p];
+    else if (p.includes('/')) {
+      const [n, d] = p.split('/');
+      total += parseFloat(n) / parseFloat(d);
+    } else {
+      total += parseFloat(p) || 0;
+    }
+  }
+  return total;
+}
+
+function parseTimers(text) {
+  const regex = /(\d+)[\s-]*(minutes?|mins?|hours?|hrs?|seconds?|secs?)/gi;
+  return text.replace(regex, (match, num, unit) => {
+    const u = unit.toLowerCase();
+    let seconds = parseInt(num);
+    if (u.startsWith('h')) seconds *= 3600;
+    else if (u.startsWith('m')) seconds *= 60;
+    return `${match}<button class="step-timer" data-seconds="${seconds}" onclick="startTimer(${seconds}, '${match}')">⏱</button>`;
+  });
+}
+
 async function loadRecipe(id) {
   try {
     const response = await fetch(`../data/${id}.json`);
@@ -222,12 +319,12 @@ function renderRecipe(r) {
   if (r.makes) metaHtml += `<div class="meta-item"><span class="meta-label">Makes</span><span class="meta-value">${r.makes}</span></div>`;
   
   const ingredientsHtml = r.ingredients.map(i => {
-    if (typeof i === 'string') return `<li>${i}</li>`;
-    if (i.amount) return `<li><span class="amount">${i.amount}</span> ${i.item}</li>`;
+    if (typeof i === 'string') return `<li>${parseIngredient(i)}</li>`;
+    if (i.amount) return `<li>${parseAmount(i.amount)} ${i.item}</li>`;
     return `<li>${i.item || i}</li>`;
   }).join('');
   
-  const stepsHtml = r.steps.map(s => `<li>${s}</li>`).join('');
+  const stepsHtml = r.steps.map(s => `<li>${parseTimers(s)}</li>`).join('');
   const notesHtml = r.notes ? r.notes.map(n => `<p>${n}</p>`).join('') : '';
   
   let sourceHtml = '';
@@ -253,6 +350,7 @@ function renderRecipe(r) {
       ${sourceHtml ? `<footer class="recipe-footer">${sourceHtml}</footer>` : ''}
       <div class="chef-quote">"${randomQuote.q}" <span class="chef-name">—${randomQuote.c}</span></div>
       <div class="print-date">printed ${new Date().toLocaleDateString('en-US', {month: 'short', year: 'numeric'})}</div>
+      <div class="print-qr"><img src="https://api.qrserver.com/v1/create-qr-code/?size=60x60&data=${encodeURIComponent(window.location.href)}" alt="QR"><span>rcpbx.com</span></div>
     </article>
   `;
   
@@ -284,6 +382,91 @@ wakeLockToggle?.addEventListener('change', async () => {
     wakeLock = null;
   }
 });
+
+// Unit toggle
+document.addEventListener('click', (e) => {
+  if (e.target.classList.contains('amount') && e.target.dataset.metric) {
+    const showing = e.target.dataset.showing;
+    if (showing === 'imperial') {
+      e.target.textContent = e.target.dataset.metric;
+      e.target.dataset.showing = 'metric';
+    } else {
+      e.target.textContent = e.target.dataset.imperial;
+      e.target.dataset.showing = 'imperial';
+    }
+  }
+});
+
+// Timer
+let timerInterval = null;
+let timerRemaining = 0;
+
+function startTimer(seconds, label) {
+  if (timerInterval) clearInterval(timerInterval);
+  timerRemaining = seconds;
+  
+  const popup = document.getElementById('timer-popup');
+  const display = document.getElementById('timer-display');
+  const timerLabel = document.getElementById('timer-label');
+  
+  timerLabel.textContent = label;
+  popup.classList.remove('hidden');
+  updateTimerDisplay();
+  
+  timerInterval = setInterval(() => {
+    timerRemaining--;
+    updateTimerDisplay();
+    if (timerRemaining <= 0) {
+      clearInterval(timerInterval);
+      timerInterval = null;
+      timerDone();
+    }
+  }, 1000);
+}
+
+function updateTimerDisplay() {
+  const display = document.getElementById('timer-display');
+  const mins = Math.floor(timerRemaining / 60);
+  const secs = timerRemaining % 60;
+  display.textContent = `${mins}:${secs.toString().padStart(2, '0')}`;
+}
+
+function timerDone() {
+  const display = document.getElementById('timer-display');
+  display.textContent = "Done!";
+  if ('vibrate' in navigator) navigator.vibrate([200, 100, 200, 100, 200]);
+  try { new Audio('data:audio/wav;base64,UklGRl9vT19XQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YU'+Array(300).join('9')).play(); } catch(e) {}
+}
+
+function pauseTimer() {
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  } else if (timerRemaining > 0) {
+    timerInterval = setInterval(() => {
+      timerRemaining--;
+      updateTimerDisplay();
+      if (timerRemaining <= 0) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+        timerDone();
+      }
+    }, 1000);
+  }
+}
+
+function stopTimer() {
+  if (timerInterval) clearInterval(timerInterval);
+  timerInterval = null;
+  timerRemaining = 0;
+  document.getElementById('timer-popup').classList.add('hidden');
+}
   </script>
+  <div id="timer-popup" class="timer-popup hidden">
+    <div id="timer-label" class="timer-label"></div>
+    <div id="timer-display" class="timer-display">0:00</div>
+    <button class="timer-btn" onclick="pauseTimer()">Pause</button>
+    <button class="timer-btn stop" onclick="stopTimer()">Stop</button>
+  </div>
 </body>
 </html>
