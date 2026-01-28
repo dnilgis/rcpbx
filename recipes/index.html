@@ -5,6 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recipes | rcpbx</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
+  <link rel="canonical" href="https://rcpbx.com/recipes/">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Dynamic meta (updated by JS) -->
+  <meta name="description" content="Tested recipes with no life stories. Just cook.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://rcpbx.com/recipes/">
+  <meta property="og:title" content="Recipes | rcpbx">
+  <meta property="og:description" content="Tested recipes with no life stories. Just cook.">
+  <meta property="og:site_name" content="rcpbx">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Recipes | rcpbx">
+  <meta name="twitter:description" content="Tested recipes with no life stories. Just cook.">
+  
+  <!-- JSON-LD placeholder (updated by JS for recipes) -->
+  <script type="application/ld+json" id="schema-recipe"></script>
+  
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2VNWY2BFX"></script>
   <script>
@@ -13,7 +30,6 @@
     gtag('js', new Date());
     gtag('config', 'G-E2VNWY2BFX');
   </script>
-  <meta name="description" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -304,6 +320,16 @@ function parseTimers(text) {
   });
 }
 
+function parseDuration(str) {
+  // Convert "25 min" or "1 hour" to ISO 8601 duration (PT25M, PT1H)
+  const match = str.match(/(\d+)\s*(min|hour|hr|h|m)/i);
+  if (!match) return null;
+  const num = parseInt(match[1]);
+  const unit = match[2].toLowerCase();
+  if (unit.startsWith('h')) return `PT${num}H`;
+  return `PT${num}M`;
+}
+
 async function loadRecipe(id) {
   try {
     const response = await fetch(`../data/${id}.json`);
@@ -318,6 +344,35 @@ async function loadRecipe(id) {
 function renderRecipe(r) {
   document.title = `${r.title} | rcpbx`;
   document.querySelector('meta[name="description"]').content = r.description || r.tagline;
+  
+  // Update Open Graph meta
+  document.querySelector('meta[property="og:title"]').content = `${r.title} | rcpbx`;
+  document.querySelector('meta[property="og:description"]').content = r.description || r.tagline;
+  document.querySelector('meta[property="og:url"]').content = window.location.href;
+  document.querySelector('meta[name="twitter:title"]').content = `${r.title} | rcpbx`;
+  document.querySelector('meta[name="twitter:description"]').content = r.description || r.tagline;
+  document.querySelector('link[rel="canonical"]').href = window.location.href;
+  
+  // Generate JSON-LD Recipe Schema
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": r.title,
+    "description": r.description || r.tagline,
+    "author": {"@type": "Organization", "name": "rcpbx"},
+    "datePublished": "2025-01-01",
+    "recipeCategory": r.category,
+    "recipeIngredient": r.ingredients.map(i => typeof i === 'string' ? i : (i.amount ? `${i.amount} ${i.item}` : i.item)),
+    "recipeInstructions": r.steps.map((s, i) => ({"@type": "HowToStep", "position": i + 1, "text": s})),
+    "url": window.location.href
+  };
+  if (r.prep) schema.prepTime = parseDuration(r.prep);
+  if (r.cook) schema.cookTime = parseDuration(r.cook);
+  if (r.time) schema.totalTime = parseDuration(r.time);
+  if (r.serves) schema.recipeYield = r.serves;
+  if (r.makes) schema.recipeYield = r.makes;
+  
+  document.getElementById('schema-recipe').textContent = JSON.stringify(schema);
   
   let metaHtml = '';
   if (r.prep) metaHtml += `<div class="meta-item"><span class="meta-label">Prep</span><span class="meta-value">${r.prep}</span></div>`;
