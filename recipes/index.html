@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading... | rcpbx</title>
+  <meta name="description" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>.loading{text-align:center;padding:4rem 1rem;color:var(--text-muted)}.loading::after{content:'';display:block;width:24px;height:24px;margin:1rem auto;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}.error{text-align:center;padding:4rem 1rem;color:#c00}</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="../" class="logo-container" tabindex="0">
+        <span class="logo-text"><span class="logo-prefix">&gt;</span><span class="logo-char">r</span><span class="logo-vowel v-e1">e</span><span class="logo-char">c</span><span class="logo-vowel v-i">i</span><span class="logo-char">p</span><span class="logo-vowel v-e2">e</span><span class="logo-char">b</span><span class="logo-vowel v-o">o</span><span class="logo-char">x</span></span>
+      </a>
+      <a href="../reference/" class="header-link">kitchen ref →</a>
+    </div>
+  </header>
+  <main>
+    <div class="container"><p class="breadcrumb" style="padding-top:1.5rem" id="breadcrumb"><a href="../">Home</a> → Loading...</p></div>
+    <article class="recipe-card" id="recipe-container"><div class="loading">Loading recipe...</div></article>
+  </main>
+  <footer class="site-footer"><p class="footer-line"><span style="color:var(--accent);font-weight:500">rcpbx.com</span><span class="sep">·</span><span>$0 VC</span><span class="sep">·</span><span class="never-acquired">never acquired</span></p></footer>
+  <button class="print-btn" onclick="window.print()" style="display:none" id="print-btn">Print Card</button>
+  <script>
+const params = new URLSearchParams(window.location.search);
+const recipeId = params.get('r') || window.location.hash.slice(1) || null;
+if (!recipeId) {
+  document.getElementById('recipe-container').innerHTML = '<div class="error">No recipe specified. <a href="../">Go home</a></div>';
+} else {
+  loadRecipe(recipeId);
+}
+async function loadRecipe(id) {
+  try {
+    const response = await fetch(`../data/${id}.json`);
+    if (!response.ok) throw new Error('Recipe not found');
+    const recipe = await response.json();
+    renderRecipe(recipe);
+  } catch (err) {
+    document.getElementById('recipe-container').innerHTML = `<div class="error">Recipe not found: ${id}. <a href="../">Go home</a></div>`;
+  }
+}
+function renderRecipe(r) {
+  document.title = `${r.title} | rcpbx`;
+  document.querySelector('meta[name="description"]').content = r.description || r.tagline;
+  document.getElementById('breadcrumb').innerHTML = `<a href="../">Home</a> → ${r.category || 'Recipe'} → ${r.title}`;
+  let metaHtml = '';
+  if (r.prep) metaHtml += `<div class="meta-item"><span class="meta-label">Prep</span><span class="meta-value">${r.prep}</span></div>`;
+  if (r.cook) metaHtml += `<div class="meta-item"><span class="meta-label">Cook</span><span class="meta-value">${r.cook}</span></div>`;
+  if (r.time && !r.prep && !r.cook) metaHtml += `<div class="meta-item"><span class="meta-label">Time</span><span class="meta-value">${r.time}</span></div>`;
+  if (r.serves) metaHtml += `<div class="meta-item"><span class="meta-label">Serves</span><span class="meta-value">${r.serves}</span></div>`;
+  if (r.makes) metaHtml += `<div class="meta-item"><span class="meta-label">Makes</span><span class="meta-value">${r.makes}</span></div>`;
+  const ingredientsHtml = r.ingredients.map(i => {
+    if (typeof i === 'string') return `<li>${i}</li>`;
+    if (i.amount) return `<li><span class="amount">${i.amount}</span> ${i.item}</li>`;
+    return `<li>${i.item || i}</li>`;
+  }).join('');
+  const stepsHtml = r.steps.map(s => `<li>${s}</li>`).join('');
+  const notesHtml = r.notes ? r.notes.map(n => `<p>${n}</p>`).join('') : '';
+  let sourceHtml = '';
+  if (r.source) {
+    sourceHtml = `<span>${r.source}</span>`;
+    if (r.sourceUrl) sourceHtml += ` <a href="${r.sourceUrl}" target="_blank" rel="noopener">View original →</a>`;
+  }
+  document.getElementById('recipe-container').innerHTML = `
+    <header class="recipe-header"><h1 class="recipe-title">${r.title}</h1><p class="recipe-tagline">${r.tagline}</p></header>
+    <div class="recipe-meta">${metaHtml}</div>
+    <div class="recipe-body">
+      <section class="ingredients"><h2 class="section-title">Ingredients</h2><ul class="ingredients-list">${ingredientsHtml}</ul></section>
+      <section class="steps"><h2 class="section-title">Steps</h2><ol class="steps-list">${stepsHtml}</ol></section>
+    </div>
+    ${notesHtml ? `<div class="recipe-notes"><h2 class="section-title">Notes</h2>${notesHtml}</div>` : ''}
+    ${sourceHtml ? `<footer class="recipe-footer">${sourceHtml}</footer>` : ''}
+  `;
+  document.getElementById('print-btn').style.display = 'block';
+  document.querySelectorAll('.ingredients-list li').forEach(li => {
+    li.addEventListener('click', () => li.classList.toggle('checked'));
+  });
+}
+  </script>
+</body>
+</html>
