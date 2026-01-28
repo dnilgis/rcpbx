@@ -212,6 +212,46 @@
       padding: 0.1rem 0.35rem;
       border-radius: 3px;
     }
+    /* Search results */
+    .search-results {
+      max-width: 500px;
+      margin: 0 auto 1.5rem;
+      display: none;
+    }
+    .search-results.active {
+      display: block;
+    }
+    .search-results a {
+      display: block;
+      padding: 0.75rem 1rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      margin-bottom: 0.5rem;
+      text-decoration: none;
+      transition: all 0.15s;
+    }
+    .search-results a:hover {
+      border-color: var(--accent);
+      transform: translateX(4px);
+    }
+    .search-results .result-title {
+      font-weight: 600;
+      color: var(--text);
+      font-size: 0.95rem;
+    }
+    .search-results .result-tagline {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.15rem;
+    }
+    .search-results .no-results {
+      text-align: center;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+      padding: 1rem;
+    }
+    
     .chef-quote {
       text-align: center;
       font-style: italic;
@@ -440,8 +480,8 @@
       <div class="search-box">
         <input type="text" id="search" placeholder="Search recipes..." autocomplete="off">
       </div>
-      <p class="kbd-hint">Press <kbd>/</kbd> to search</p>
       <p class="chef-quote" id="chefQuote"></p>
+      <div class="search-results" id="searchResults"></div>
 
       <div class="categories" id="categories">
         <a href="recipes/?cat=soups-stews" class="category">
@@ -548,7 +588,15 @@
   <script>
     // Search
     const searchInput = document.getElementById('search');
+    const searchResults = document.getElementById('searchResults');
     const toast = document.getElementById('toast');
+    
+    // Load recipe index for search
+    let recipeIndex = [];
+    fetch('data/index.json')
+      .then(r => r.json())
+      .then(data => { recipeIndex = data; })
+      .catch(() => {});
     
     document.addEventListener('keydown', (e) => {
       if (e.key === '/' && document.activeElement !== searchInput) {
@@ -585,8 +633,48 @@
 
     searchInput.addEventListener('input', (e) => {
       const val = e.target.value.toLowerCase().trim();
+      
+      // Easter eggs
       if (easterEggs[val]) {
         showToast(easterEggs[val]);
+      }
+      
+      // Recipe search
+      if (val.length < 2) {
+        searchResults.innerHTML = '';
+        searchResults.classList.remove('active');
+        return;
+      }
+      
+      const matches = recipeIndex.filter(r => 
+        r.title.toLowerCase().includes(val) || 
+        (r.tagline && r.tagline.toLowerCase().includes(val)) ||
+        (r.category && r.category.toLowerCase().includes(val))
+      ).slice(0, 6);
+      
+      if (matches.length === 0) {
+        searchResults.innerHTML = '<div class="no-results">No recipes found</div>';
+      } else {
+        searchResults.innerHTML = matches.map(r => `
+          <a href="recipes/?r=${r.id}">
+            <div class="result-title">${r.title}</div>
+            <div class="result-tagline">${r.tagline || r.category || ''}</div>
+          </a>
+        `).join('');
+      }
+      searchResults.classList.add('active');
+    });
+    
+    // Hide results on blur (with delay for click)
+    searchInput.addEventListener('blur', () => {
+      setTimeout(() => {
+        searchResults.classList.remove('active');
+      }, 200);
+    });
+    
+    searchInput.addEventListener('focus', () => {
+      if (searchInput.value.length >= 2) {
+        searchResults.classList.add('active');
       }
     });
 
