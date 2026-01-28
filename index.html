@@ -212,6 +212,19 @@
       padding: 0.1rem 0.35rem;
       border-radius: 3px;
     }
+    .chef-quote {
+      text-align: center;
+      font-style: italic;
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      max-width: 500px;
+      margin: 0 auto 1.5rem;
+      line-height: 1.4;
+    }
+    .chef-quote .chef-name {
+      font-style: normal;
+      color: var(--text-muted);
+    }
     
     /* Category grid */
     .categories {
@@ -428,6 +441,7 @@
         <input type="text" id="search" placeholder="Search recipes..." autocomplete="off">
       </div>
       <p class="kbd-hint">Press <kbd>/</kbd> to search</p>
+      <p class="chef-quote" id="chefQuote"></p>
 
       <div class="categories" id="categories">
         <a href="recipes/?cat=soups-stews" class="category">
@@ -605,6 +619,37 @@
         document.getElementById('viewCount').textContent = d.count.toLocaleString() + ' views';
       })
       .catch(() => {});
+
+    // Chef quotes
+    const chefQuotes = [
+      {q: "People who love to eat are always the best people.", c: "Julia Child"},
+      {q: "A recipe has no soul. You, as the cook, must bring soul to the recipe.", c: "Thomas Keller"},
+      {q: "Good food is very often, even most often, simple food.", c: "Anthony Bourdain"},
+      {q: "Fat gives things flavor.", c: "Julia Child"},
+      {q: "In cooking, as in all the arts, simplicity is the sign of perfection.", c: "Curnonsky"},
+      {q: "One cannot think well, love well, sleep well, if one has not dined well.", c: "Virginia Woolf"},
+      {q: "Tell me what you eat, and I will tell you who you are.", c: "Brillat-Savarin"},
+      {q: "First we eat, then we do everything else.", c: "M.F.K. Fisher"},
+      {q: "If you are afraid of butter, use cream.", c: "Julia Child"},
+      {q: "Cooking is one failure after another, and that's how you finally learn.", c: "Julia Child"},
+      {q: "No one is born a great cook, one learns by doing.", c: "Julia Child"},
+      {q: "Once you understand the foundations of cooking, you become free.", c: "Thomas Keller"},
+      {q: "After a good dinner one can forgive anybody, even one's own relations.", c: "Oscar Wilde"},
+      {q: "Store-bought is fine.", c: "Ina Garten"},
+      {q: "How easy is that?", c: "Ina Garten"},
+      {q: "Don't be a recipe slave.", c: "Alton Brown"},
+      {q: "Organization will set you free.", c: "Alton Brown"},
+      {q: "Season as you go.", c: "Jacques Pépin"},
+      {q: "Great cooking favors the prepared hands.", c: "Jacques Pépin"},
+      {q: "Recipes tell you nothing. Learning techniques is the key.", c: "Tom Colicchio"},
+      {q: "Fat is flavor.", c: "Samin Nosrat"},
+      {q: "I cook with wine, sometimes I even add it to the food.", c: "W.C. Fields"},
+      {q: "Never trust a skinny cook.", c: "Italian Proverb"},
+      {q: "Mise en place.", c: "Every Chef Ever"},
+      {q: "Heard!", c: "Every Line Cook Ever"}
+    ];
+    const quote = chefQuotes[Math.floor(Math.random() * chefQuotes.length)];
+    document.getElementById('chefQuote').innerHTML = `"${quote.q}" <span class="chef-name">—${quote.c}</span>`;
   </script>
 </body>
 </html>

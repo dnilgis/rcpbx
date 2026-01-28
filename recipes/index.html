@@ -25,6 +25,15 @@
     .recipe-link h2{font-size:1rem;font-weight:600;color:var(--text);margin-bottom:0.25rem}
     .recipe-link p{font-size:0.85rem;color:var(--text-muted);line-height:1.4}
     .recipe-link .meta{font-family:var(--font-mono);font-size:0.7rem;color:var(--text-dim);margin-top:0.5rem}
+    
+    /* Chef quote */
+    .chef-quote{padding:1rem 1.5rem;border-top:1px solid var(--border);font-style:italic;font-size:0.85rem;color:var(--text-dim);text-align:center}
+    .chef-quote .chef-name{font-style:normal;color:var(--text-muted)}
+    
+    /* Print quote */
+    @media print {
+      .chef-quote{display:block !important;position:absolute;bottom:0.1in;right:0.15in;left:auto;padding:0 !important;border:none !important;font-size:5pt !important;text-align:right !important;max-width:1.8in}
+    }
   </style>
 </head>
 <body>
@@ -42,6 +51,28 @@
   <footer class="site-footer"><p class="footer-line"><span style="color:var(--accent);font-weight:500">rcpbx.com</span><span class="sep">·</span><span>$0 VC</span><span class="sep">·</span><span class="never-acquired">never acquired</span></p></footer>
   <button class="print-btn" onclick="window.print()" style="display:none" id="print-btn">Print Card</button>
   <script>
+const chefQuotes = [
+  {q: "People who love to eat are always the best people.", c: "Julia Child"},
+  {q: "A recipe has no soul. You, as the cook, must bring soul to the recipe.", c: "Thomas Keller"},
+  {q: "Good food is very often, even most often, simple food.", c: "Anthony Bourdain"},
+  {q: "Fat gives things flavor.", c: "Julia Child"},
+  {q: "One cannot think well, love well, sleep well, if one has not dined well.", c: "Virginia Woolf"},
+  {q: "Tell me what you eat, and I will tell you who you are.", c: "Brillat-Savarin"},
+  {q: "First we eat, then we do everything else.", c: "M.F.K. Fisher"},
+  {q: "If you are afraid of butter, use cream.", c: "Julia Child"},
+  {q: "Cooking is one failure after another, and that's how you finally learn.", c: "Julia Child"},
+  {q: "No one is born a great cook, one learns by doing.", c: "Julia Child"},
+  {q: "Once you understand the foundations of cooking, you become free.", c: "Thomas Keller"},
+  {q: "Store-bought is fine.", c: "Ina Garten"},
+  {q: "Don't be a recipe slave.", c: "Alton Brown"},
+  {q: "Season as you go.", c: "Jacques Pépin"},
+  {q: "Great cooking favors the prepared hands.", c: "Jacques Pépin"},
+  {q: "Fat is flavor.", c: "Samin Nosrat"},
+  {q: "Never trust a skinny cook.", c: "Italian Proverb"},
+  {q: "Mise en place.", c: "Every Chef Ever"}
+];
+const randomQuote = chefQuotes[Math.floor(Math.random() * chefQuotes.length)];
+
 const params = new URLSearchParams(window.location.search);
 const recipeId = params.get('r') || window.location.hash.slice(1) || null;
 const categorySlug = params.get('cat') || null;
@@ -212,12 +243,16 @@ function renderRecipe(r) {
       </div>
       ${notesHtml ? `<div class="recipe-notes"><h2 class="section-title">Notes</h2>${notesHtml}</div>` : ''}
       ${sourceHtml ? `<footer class="recipe-footer">${sourceHtml}</footer>` : ''}
+      <div class="chef-quote">"${randomQuote.q}" <span class="chef-name">—${randomQuote.c}</span></div>
     </article>
   `;
   
   document.getElementById('print-btn').style.display = 'block';
   document.querySelectorAll('.ingredients-list li').forEach(li => {
     li.addEventListener('click', () => li.classList.toggle('checked'));
+  });
+  document.querySelectorAll('.steps-list li').forEach(li => {
+    li.addEventListener('click', () => li.classList.toggle('done'));
   });
 }
   </script>

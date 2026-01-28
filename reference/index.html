@@ -139,29 +139,32 @@
 
     /* ===== FULL PAGE PDF PRINT STYLES ===== */
     @media print {
-      @page { size: letter; margin: 0.4in 0.35in; }
+      @page { size: letter; margin: 0.25in; }
       * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
-      html, body { font-size: 8pt !important; background: white !important; color: black !important; }
+      html, body { font-size: 6pt !important; background: white !important; color: black !important; line-height: 1.2 !important; }
       .site-header, .site-footer, .ref-nav, .ref-search, .print-btn, .keyboard-hint, .toggle { display: none !important; }
       .ref-container { max-width: none !important; padding: 0 !important; margin: 0 !important; }
-      .ref-header { text-align: center; padding: 0 0 0.15in !important; margin-bottom: 0.15in !important; border-bottom: 1pt solid #999 !important; }
-      .ref-header h1 { font-size: 14pt !important; margin: 0 !important; }
-      .ref-header p { font-size: 9pt !important; color: #666 !important; margin: 0.05in 0 0 !important; }
-      .ref-grid { display: grid !important; grid-template-columns: repeat(3, 1fr) !important; gap: 0.08in !important; background: transparent !important; border: none !important; }
-      .ref-section { break-inside: avoid !important; page-break-inside: avoid !important; border: 0.5pt solid #ccc !important; background: white !important; margin: 0 !important; }
+      .ref-header { text-align: center; padding: 0 0 0.08in !important; margin-bottom: 0.08in !important; border-bottom: 0.5pt solid #999 !important; }
+      .ref-header h1 { font-size: 11pt !important; margin: 0 !important; }
+      .ref-header p { display: none !important; }
+      .ref-grid { display: grid !important; grid-template-columns: repeat(4, 1fr) !important; gap: 0.04in !important; background: transparent !important; border: none !important; }
+      .ref-section { break-inside: avoid !important; page-break-inside: avoid !important; border: 0.4pt solid #ccc !important; background: white !important; margin: 0 !important; }
       .ref-section.collapsed .ref-section-content, .ref-section.hidden { display: block !important; }
-      .ref-section-header { background: #f5f5f5 !important; padding: 0.06in 0.08in !important; border-bottom: 0.5pt solid #ddd !important; }
-      .ref-section-header h2 { font-size: 7pt !important; color: #333 !important; font-weight: 700 !important; }
-      .ref-section-header h2::before { color: #16a34a !important; }
-      .ref-section-content { padding: 0.06in 0.08in !important; }
-      .ref-table { font-size: 6.5pt !important; }
-      .ref-table td { padding: 0.02in 0 !important; }
-      .ref-table td:first-child { color: #222 !important; }
-      .ref-table td:last-child { color: #555 !important; }
-      .ref-table tr { border-bottom: 0.25pt solid #eee !important; }
-      .ref-list { font-size: 6.5pt !important; }
-      .ref-list li { padding: 0.02in 0 !important; color: #444 !important; border-bottom: 0.25pt solid #eee !important; }
-      .section-note { font-size: 6pt !important; color: #777 !important; padding-top: 0.03in !important; margin-top: 0.03in !important; border-top: 0.25pt dashed #ccc !important; }
+      .ref-section-header { background: #f0f0f0 !important; padding: 0.03in 0.05in !important; border-bottom: 0.4pt solid #ddd !important; }
+      .ref-section-header h2 { font-size: 5.5pt !important; color: #222 !important; font-weight: 700 !important; }
+      .ref-section-header h2::before { color: #16a34a !important; font-size: 5pt !important; }
+      .ref-section-content { padding: 0.03in 0.05in !important; }
+      .ref-table { font-size: 5pt !important; }
+      .ref-table td { padding: 0.01in 0 !important; line-height: 1.15 !important; }
+      .ref-table td:first-child { color: #111 !important; }
+      .ref-table td:last-child { color: #444 !important; }
+      .ref-table tr { border-bottom: none !important; }
+      .ref-list { font-size: 5pt !important; }
+      .ref-list li { padding: 0.01in 0 !important; color: #333 !important; border-bottom: none !important; line-height: 1.15 !important; }
+      .section-note { font-size: 4.5pt !important; color: #666 !important; padding-top: 0.02in !important; margin-top: 0.02in !important; border-top: 0.25pt dashed #bbb !important; }
+    }
+    @media print {
+      body::after { content: "rcpbx.com"; position: fixed; bottom: 0.15in; right: 0.25in; font-family: var(--font-mono); font-size: 6pt; color: #999; }
     }
   </style>
 </head>
