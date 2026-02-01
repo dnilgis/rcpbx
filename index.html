@@ -187,6 +187,11 @@
       justify-content: space-between;
       align-items: center;
     }
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
     .header-link {
       font-family: var(--font-mono);
       font-size: 0.75rem;
@@ -196,6 +201,13 @@
       letter-spacing: 0.05em;
     }
     .header-link:hover { color: var(--accent); }
+    .header-link.submit {
+      color: var(--accent);
+      font-weight: 500;
+    }
+    .header-link.submit:hover {
+      color: var(--text);
+    }
     
     /* Main layout */
     .main-grid {
@@ -359,6 +371,49 @@
       color: var(--text-dim);
     }
     
+    /* Contribute box */
+    .contribute-box {
+      background: var(--accent-dim);
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .contribute-box p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .contribute-box p strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+    .contribute-btn {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--bg);
+      background: var(--accent);
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: opacity 0.15s;
+    }
+    .contribute-btn:hover {
+      opacity: 0.9;
+    }
+    @media (max-width: 500px) {
+      .contribute-box {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+    
     /* Quick tips */
     .quick-tips {
       background: var(--bg-alt);
@@ -496,6 +551,8 @@
       .categories { grid-template-columns: repeat(2, 1fr); }
       .sidebar { grid-template-columns: 1fr; }
       .footer-content { flex-direction: column; gap: 0.5rem; }
+      .header-nav { gap: 1rem; }
+      .header-link { font-size: 0.65rem; }
     }
     
     /* Easter egg flash */
@@ -535,7 +592,10 @@
           <span class="logo-prefix">&gt;</span><span class="logo-char">r</span><span class="logo-vowel v-e1">e</span><span class="logo-char">c</span><span class="logo-vowel v-i">i</span><span class="logo-char">p</span><span class="logo-vowel v-e2">e</span><span class="logo-char">b</span><span class="logo-vowel v-o">o</span><span class="logo-char">x</span>
         </span>
       </a>
-      <a href="reference/" class="header-link">kitchen ref →</a>
+      <nav class="header-nav">
+        <a href="add/" class="header-link submit">+ add recipe</a>
+        <a href="reference/" class="header-link">kitchen ref →</a>
+      </nav>
     </div>
   </header>
 
@@ -594,6 +654,11 @@
           <span class="category-name">Basics</span>
           <span class="category-count">10 recipes</span>
         </a>
+      </div>
+
+      <div class="contribute-box">
+        <p><strong>Got a recipe that works?</strong> Share it with the box.</p>
+        <a href="add/" class="contribute-btn">Submit Recipe</a>
       </div>
 
       <div class="quick-tips">
@@ -776,10 +841,15 @@
       }
     });
 
-    // Mobile logo touch
+    // Mobile logo touch - tap to toggle
     const logo = document.querySelector('.logo-container');
-    logo.addEventListener('touchstart', () => logo.classList.add('active'));
-    logo.addEventListener('touchend', () => setTimeout(() => logo.classList.remove('active'), 1500));
+    let logoTimeout = null;
+    logo.addEventListener('touchend', (e) => {
+      e.preventDefault();
+      if (logoTimeout) clearTimeout(logoTimeout);
+      logo.classList.add('active');
+      logoTimeout = setTimeout(() => logo.classList.remove('active'), 2500);
+    });
 
     // View counter
     fetch('https://api.counterapi.dev/v1/rcpbx/visits/up')
