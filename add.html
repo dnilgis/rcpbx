@@ -454,7 +454,7 @@ Mash bananas and add to mixture"></textarea>
       const { data, error } = await supabaseClient.auth.signInWithOAuth({
         provider: 'google',
         options: {
-          redirectTo: window.location.origin + window.location.pathname
+          redirectTo: 'https://rcpbx.com/add.html'
         }
       });
       if (error) {
