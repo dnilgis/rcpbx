@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Recipe | rcpbx</title>
+  <meta name="description" content="Can't decide what to cook? Let fate decide.">
+  <meta name="robots" content="noindex">
+  <style>
+    :root { --bg: #faf9f6; --text: #222; --accent: #16a34a; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #111; --text: #e5e5e5; --accent: #22c55e; } }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: -apple-system, sans-serif; 
+      background: var(--bg); 
+      color: var(--text); 
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .container { max-width: 400px; }
+    h1 { font-size: 4rem; margin-bottom: 1rem; }
+    p { color: #666; margin-bottom: 2rem; }
+    .spin { 
+      font-size: 1.2rem; 
+      padding: 1rem 2rem; 
+      background: var(--accent); 
+      color: white; 
+      border: none; 
+      border-radius: 8px; 
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .spin:hover { opacity: 0.9; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎲</h1>
+    <p>Can't decide what to cook?</p>
+    <button class="spin" onclick="goRandom()">Surprise me</button>
+  </div>
+  <script>
+    fetch('/data/index.json')
+      .then(r => r.json())
+      .then(recipes => {
+        window.allRecipes = recipes.map(r => r.id);
+      });
+    function goRandom() {
+      if (window.allRecipes) {
+        const recipe = window.allRecipes[Math.floor(Math.random() * window.allRecipes.length)];
+        window.location.href = '/recipes/' + recipe + '/';
+      }
+    }
+  </script>
+</body>
+</html>
