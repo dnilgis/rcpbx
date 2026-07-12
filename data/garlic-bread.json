@@ -1,0 +1,38 @@
+{
+  "id": "garlic-bread",
+  "title": "Garlic Bread",
+  "tagline": "Buttery, garlicky, and crispy on the outside. The perfect side for pasta night.",
+  "description": "Crusty bread slathered with garlic butter and toasted until golden. Simple, essential, and impossible to stop eating.",
+  "category": "Sides",
+  "categorySlug": "sides",
+  "prep": "10 min",
+  "cook": "12 min",
+  "serves": "8",
+  "ingredients": [
+    "1 loaf French or Italian bread",
+    "1/2 cup (1 stick) butter, softened",
+    "4 cloves garlic, minced",
+    "2 Tbsp fresh parsley, minced",
+    "1/4 tsp salt",
+    "1/4 cup parmesan cheese, grated (optional)"
+  ],
+  "steps": [
+    "Preheat oven to 400°F.",
+    "Slice bread in half lengthwise.",
+    "Mix softened butter with garlic, parsley, salt, and parmesan if using.",
+    "Spread garlic butter generously on cut sides of bread.",
+    "Place bread cut-side up on a baking sheet.",
+    "Bake 10-12 minutes until edges are golden and butter is bubbling.",
+    "For extra crispy, broil 1-2 minutes. Watch carefully.",
+    "Slice and serve immediately."
+  ],
+  "notes": [
+    "The bread: French baguette, Italian loaf, or ciabatta all work. Use day-old bread for extra crunch.",
+    "Garlic options: Roasted garlic for a milder, sweeter flavor. Raw for more punch.",
+    "Cheesy version: Add mozzarella on top for the last 3 minutes of baking.",
+    "Make ahead: Prepare garlic butter up to 1 week ahead. Refrigerate.",
+    "Freezer friendly: Spread butter on bread and freeze. Bake from frozen, adding a few minutes."
+  ],
+  "source": "Adapted from RecipeTin Eats",
+  "sourceUrl": "https://www.recipetineats.com/garlic-bread/"
+}

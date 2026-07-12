@@ -1,0 +1,41 @@
+{
+  "id": "penne-alla-vodka",
+  "title": "Penne alla Vodka",
+  "tagline": "Creamy tomato sauce with a kick. The vodka cooks off but the magic stays.",
+  "description": "Penne in a silky pink sauce of tomatoes, cream, and vodka with parmesan and fresh basil. Restaurant-quality, home-cooked.",
+  "category": "Pasta",
+  "categorySlug": "pasta",
+  "prep": "10 min",
+  "cook": "25 min",
+  "serves": "4",
+  "ingredients": [
+    "1 lb penne pasta",
+    "2 Tbsp olive oil",
+    "4 cloves garlic, minced",
+    "1/4 tsp red pepper flakes",
+    "1 can (28 oz) crushed San Marzano tomatoes",
+    "1/2 cup vodka",
+    "1 tsp salt",
+    "1 cup heavy cream",
+    "1/2 cup parmesan cheese, grated",
+    "Fresh basil for serving"
+  ],
+  "steps": [
+    "Cook penne in salted water until just shy of al dente. Reserve 1 cup pasta water before draining.",
+    "In a large skillet, heat olive oil over medium heat. Add garlic and red pepper flakes. Sauté 1 minute until fragrant.",
+    "Add crushed tomatoes and salt. Simmer 10 minutes, stirring occasionally.",
+    "Remove pan from heat. Add vodka, then return to heat. Simmer 7-8 minutes until sauce reduces and vodka smell dissipates.",
+    "Reduce heat to low. Stir in heavy cream and simmer 2-3 minutes until sauce turns pink and thickens slightly.",
+    "Add drained pasta and parmesan. Toss to coat, adding pasta water as needed for consistency.",
+    "Serve topped with fresh basil and extra parmesan."
+  ],
+  "notes": [
+    "Why vodka: It releases flavor compounds in the tomatoes that aren't alcohol or water soluble. The alcohol cooks off.",
+    "Flambé warning: Add vodka off heat to prevent flare-ups, then return to the burner.",
+    "San Marzano: These tomatoes are sweeter and less acidic. Worth seeking out.",
+    "Make it richer: Add 2 Tbsp butter at the end for extra silkiness.",
+    "Add protein: Grilled chicken, Italian sausage, or pancetta all work beautifully."
+  ],
+  "source": "Adapted from NYT Cooking",
+  "sourceUrl": "https://cooking.nytimes.com/recipes/1015178-penne-alla-vodka"
+}

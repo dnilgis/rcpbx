@@ -1,0 +1,36 @@
+{
+  "id": "peanut-butter-cookies",
+  "title": "Peanut Butter Cookies",
+  "tagline": "Three ingredients. No flour. Impossibly good.",
+  "description": "The famous 3-ingredient peanut butter cookies—just peanut butter, sugar, and egg. Naturally gluten-free with intense peanut butter flavor.",
+  "category": "Baking & Desserts",
+  "categorySlug": "baking-dessert",
+  "prep": "10 min",
+  "cook": "10 min",
+  "makes": "24 cookies",
+  "ingredients": [
+    "1 cup peanut butter (creamy or crunchy)",
+    "1 cup sugar",
+    "1 large egg",
+    "1/2 tsp vanilla extract (optional)",
+    "1/2 tsp baking soda (optional, for puffier cookies)"
+  ],
+  "steps": [
+    "Preheat oven to 350°F. Line baking sheets with parchment.",
+    "Mix peanut butter, sugar, and egg until smooth and well combined.",
+    "Add vanilla and baking soda if using.",
+    "Roll dough into 1-inch balls. Place on baking sheets.",
+    "Press each ball with a fork in a crosshatch pattern, flattening slightly.",
+    "Bake 8-10 minutes until edges are just set. Centers will look underdone.",
+    "Cool on pan 5 minutes—they firm up as they cool. Transfer to wire rack."
+  ],
+  "notes": [
+    "Peanut butter: Use regular peanut butter, not natural. Natural separates and changes the texture.",
+    "The fork marks: Traditional and functional—they help cookies bake evenly.",
+    "Don't overbake: Pull them when they look slightly underdone. They continue cooking on the pan.",
+    "Gluten-free: These are naturally gluten-free as written.",
+    "Add-ins: Press a Hershey's Kiss into each cookie right after baking for peanut butter blossoms."
+  ],
+  "source": "Adapted from Allrecipes",
+  "sourceUrl": "https://www.allrecipes.com/recipe/10275/3-ingredient-peanut-butter-cookies/"
+}

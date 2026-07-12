@@ -1,0 +1,44 @@
+{
+  "id": "shakshuka",
+  "title": "Shakshuka",
+  "tagline": "Eggs poached in spiced tomato sauce. One skillet, all the flavor.",
+  "description": "A North African and Middle Eastern classic—eggs cooked in a rich, spiced tomato and pepper sauce. Served with crusty bread for dipping.",
+  "category": "Breakfast",
+  "categorySlug": "breakfast",
+  "prep": "10 min",
+  "cook": "25 min",
+  "serves": "4",
+  "ingredients": [
+    "2 Tbsp olive oil",
+    "1 medium onion, diced",
+    "1 red bell pepper, diced",
+    "4 cloves garlic, minced",
+    "1 tsp cumin",
+    "1 tsp paprika",
+    "1/2 tsp cayenne (optional)",
+    "1 can (28 oz) crushed tomatoes",
+    "1 tsp salt",
+    "1/2 tsp black pepper",
+    "6 large eggs",
+    "1/4 cup feta cheese, crumbled",
+    "Fresh cilantro or parsley for serving",
+    "Crusty bread for serving"
+  ],
+  "steps": [
+    "Heat olive oil in a large skillet over medium heat. Add onion and bell pepper. Sauté 5-7 minutes until softened.",
+    "Add garlic, cumin, paprika, and cayenne. Cook 1 minute until fragrant.",
+    "Pour in crushed tomatoes, salt, and pepper. Simmer 10 minutes until slightly thickened.",
+    "Make 6 wells in the sauce. Crack an egg into each well.",
+    "Cover and cook 5-8 minutes until egg whites are set but yolks are still runny.",
+    "Top with feta and fresh herbs. Serve immediately from the skillet with crusty bread."
+  ],
+  "notes": [
+    "Yolk doneness: 5-6 minutes for runny, 8-10 for set. Cover traps steam and cooks tops of eggs.",
+    "Spice level: Cayenne is optional. Harissa paste is a more authentic addition.",
+    "Add-ins: Chorizo, merguez, or crispy chickpeas for protein.",
+    "Feta: Not traditional but common. Goat cheese works too.",
+    "The bread: Non-negotiable. You need something to soak up the sauce."
+  ],
+  "source": "Adapted from NYT Cooking",
+  "sourceUrl": "https://cooking.nytimes.com/recipes/1014721-shakshuka-with-feta"
+}

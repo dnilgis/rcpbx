@@ -1,0 +1,44 @@
+{
+  "id": "marry-me-chicken",
+  "title": "Marry Me Chicken",
+  "tagline": "Creamy sun-dried tomato sauce so good it allegedly inspires proposals.",
+  "description": "Skillet chicken breasts in a creamy parmesan sauce with sun-dried tomatoes, garlic, and fresh basil. The viral recipe that took over 2024-2025.",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "prep": "10 min",
+  "cook": "30 min",
+  "serves": "4",
+  "ingredients": [
+    "4 boneless skinless chicken breasts",
+    "1 tsp salt",
+    "1/2 tsp black pepper",
+    "1 tsp Italian seasoning",
+    "1/2 tsp paprika",
+    "3 Tbsp olive oil, divided",
+    "3 cloves garlic, minced",
+    "1/2 cup sun-dried tomatoes, drained and chopped",
+    "1 cup chicken broth",
+    "1/2 cup heavy cream",
+    "1/2 cup parmesan cheese, grated",
+    "1/4 cup fresh basil, chopped",
+    "1 tsp red pepper flakes (optional)"
+  ],
+  "steps": [
+    "Pound chicken breasts to even thickness (about 3/4 inch). Season both sides with salt, pepper, Italian seasoning, and paprika.",
+    "Heat 2 Tbsp olive oil in a large skillet over medium-high heat. Sear chicken 5-6 minutes per side until golden and cooked through (165°F). Remove and set aside.",
+    "Reduce heat to medium. Add remaining olive oil, garlic, and sun-dried tomatoes. Sauté 1-2 minutes until fragrant.",
+    "Pour in chicken broth, scraping up any browned bits from the bottom. Let simmer 2 minutes.",
+    "Stir in heavy cream and parmesan. Simmer 3-4 minutes until sauce thickens slightly.",
+    "Return chicken to the skillet. Spoon sauce over chicken and simmer 2-3 minutes to let flavors meld.",
+    "Top with fresh basil and red pepper flakes if using. Serve immediately."
+  ],
+  "notes": [
+    "The sauce: Don't skip scraping the browned bits—that's where the flavor lives.",
+    "Sun-dried tomatoes: Use oil-packed for more flavor. Drain well before chopping.",
+    "Serve with: Pasta, crusty bread, rice, or mashed potatoes to soak up the sauce.",
+    "Make it lighter: Use half-and-half instead of heavy cream.",
+    "Storage: Refrigerate up to 3 days. Reheat gently to avoid breaking the sauce."
+  ],
+  "source": "Adapted from RecipeTin Eats",
+  "sourceUrl": "https://www.recipetineats.com/marry-me-chicken/"
+}

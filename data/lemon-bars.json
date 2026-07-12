@@ -1,0 +1,43 @@
+{
+  "id": "lemon-bars",
+  "title": "Lemon Bars",
+  "tagline": "Buttery shortbread crust, tangy lemon filling, powdered sugar snow. Perfect.",
+  "description": "Classic lemon bars with a crisp shortbread base and silky, tart lemon curd topping. The ideal balance of sweet and sour.",
+  "category": "Baking & Desserts",
+  "categorySlug": "baking-dessert",
+  "prep": "20 min",
+  "cook": "45 min",
+  "makes": "16 bars",
+  "ingredients": [
+    "For the crust:",
+    "1 cup (2 sticks) butter, softened",
+    "1/2 cup powdered sugar",
+    "2 cups all-purpose flour",
+    "1/4 tsp salt",
+    "For the filling:",
+    "4 large eggs",
+    "1 1/2 cups granulated sugar",
+    "1/4 cup all-purpose flour",
+    "2/3 cup fresh lemon juice (about 4 lemons)",
+    "Zest of 2 lemons",
+    "Powdered sugar for dusting"
+  ],
+  "steps": [
+    "Preheat oven to 350°F. Line a 9x13 inch pan with parchment, leaving overhang for easy removal.",
+    "Make the crust: Beat butter and powdered sugar until fluffy. Add flour and salt, mix until crumbly. Press evenly into pan.",
+    "Bake crust 18-20 minutes until edges are light golden. Don't overbake—it continues cooking with the filling.",
+    "Make the filling: Whisk eggs and sugar until smooth. Add flour, lemon juice, and zest. Whisk until combined.",
+    "Pour filling over hot crust. Return to oven and bake 22-25 minutes until filling is set and no longer jiggles.",
+    "Cool completely in pan. Refrigerate at least 2 hours.",
+    "Lift out using parchment. Dust generously with powdered sugar. Cut into bars."
+  ],
+  "notes": [
+    "Fresh lemons only: Bottled juice doesn't compare. You need that bright, fresh flavor.",
+    "Hot crust: Pour filling onto hot crust to help it set properly.",
+    "Clean cuts: Wipe knife between cuts. Use a thin, sharp blade.",
+    "Storage: Refrigerate up to 5 days. Dust with powdered sugar just before serving.",
+    "Room temp: Let sit 10 minutes before serving for best texture."
+  ],
+  "source": "Adapted from Sally's Baking Addiction",
+  "sourceUrl": "https://sallysbakingaddiction.com/lemon-bars-recipe/"
+}

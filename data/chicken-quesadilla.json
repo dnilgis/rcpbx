@@ -1,0 +1,42 @@
+{
+  "id": "chicken-quesadilla",
+  "title": "Chicken Quesadilla",
+  "tagline": "Crispy tortilla, melty cheese, seasoned chicken. Ready in 15 minutes.",
+  "description": "Flour tortillas stuffed with seasoned chicken, cheese, and peppers, cooked until golden and crispy. Serve with salsa, sour cream, and guacamole.",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "prep": "10 min",
+  "cook": "10 min",
+  "serves": "4",
+  "ingredients": [
+    "2 cups cooked chicken, shredded",
+    "1 tsp chili powder",
+    "1/2 tsp cumin",
+    "1/2 tsp garlic powder",
+    "1/4 tsp salt",
+    "4 large flour tortillas",
+    "2 cups shredded Mexican cheese blend",
+    "1/2 cup bell peppers, diced",
+    "1/4 cup red onion, diced",
+    "2 Tbsp butter or oil",
+    "Sour cream, salsa, guacamole for serving"
+  ],
+  "steps": [
+    "Toss shredded chicken with chili powder, cumin, garlic powder, and salt.",
+    "Heat a large skillet over medium heat. Add 1/2 Tbsp butter.",
+    "Place a tortilla in the skillet. Add 1/2 cup cheese to half the tortilla.",
+    "Top cheese with 1/4 of the chicken, peppers, and onion. Add more cheese on top.",
+    "Fold tortilla in half. Cook 2-3 minutes until bottom is golden.",
+    "Flip carefully and cook 2-3 minutes more until both sides are crispy and cheese is melted.",
+    "Repeat with remaining ingredients. Cut into triangles and serve with toppings."
+  ],
+  "notes": [
+    "Crispy secret: Butter in the pan creates the best golden crust.",
+    "Cheese placement: Cheese on both sides of the filling helps everything stick together.",
+    "Rotisserie shortcut: Use store-bought rotisserie chicken for speed.",
+    "Make it veggie: Swap chicken for black beans and corn.",
+    "Keep warm: Place finished quesadillas on a baking sheet in a 200°F oven while making the rest."
+  ],
+  "source": "Adapted from Gimme Some Oven",
+  "sourceUrl": "https://www.gimmesomeoven.com/chicken-quesadillas/"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "buttercream-frosting",
+  "title": "Buttercream Frosting",
+  "tagline": "The only frosting recipe you need. Smooth, pipeable, and customizable.",
+  "description": "Classic American buttercream—butter, powdered sugar, vanilla, and cream. Perfect for cakes, cupcakes, and cookies.",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "prep": "10 min",
+  "cook": "0 min",
+  "makes": "3 cups (enough for 24 cupcakes or one 2-layer cake)",
+  "ingredients": [
+    "1 cup (2 sticks) butter, softened to room temperature",
+    "4 cups powdered sugar, sifted",
+    "2 Tbsp heavy cream or milk",
+    "2 tsp vanilla extract",
+    "Pinch of salt"
+  ],
+  "steps": [
+    "Beat softened butter with an electric mixer on medium speed for 2-3 minutes until pale and fluffy.",
+    "Add half the powdered sugar. Beat on low until combined, then increase to medium.",
+    "Add remaining powdered sugar, cream, vanilla, and salt. Beat on low to combine.",
+    "Increase speed to medium-high. Beat 3-4 minutes until light and fluffy.",
+    "Add more cream for thinner consistency, more powdered sugar for thicker."
+  ],
+  "notes": [
+    "Room temp butter: This is crucial. Too cold = lumpy. Too soft = runny. Should dent when pressed but hold its shape.",
+    "Sift the sugar: Sifting prevents lumps and makes smoother frosting.",
+    "Chocolate version: Add 1/2 cup unsweetened cocoa powder with the powdered sugar.",
+    "Cream cheese version: Replace half the butter with room temperature cream cheese.",
+    "Storage: Room temperature 2-3 days, refrigerated up to 1 week. Bring to room temp and re-whip before using."
+  ],
+  "source": "Adapted from Sally's Baking Addiction",
+  "sourceUrl": "https://sallysbakingaddiction.com/vanilla-buttercream/"
+}
