@@ -1,0 +1,37 @@
+{
+  "id": "bruschetta",
+  "title": "Bruschetta",
+  "tagline": "Grilled bread. Fresh tomatoes. Peak summer on toast.",
+  "description": "Toasted bread rubbed with garlic and topped with marinated tomatoes, basil, and olive oil. The Italian appetizer everyone loves.",
+  "category": "Sides",
+  "categorySlug": "sides",
+  "prep": "15 min",
+  "cook": "5 min",
+  "serves": "6",
+  "ingredients": [
+    "1 lb ripe tomatoes, diced",
+    "1/4 cup fresh basil, chiffonade",
+    "2 cloves garlic, minced (plus 1 whole clove for rubbing)",
+    "3 Tbsp extra virgin olive oil, plus more for drizzling",
+    "1 Tbsp balsamic vinegar",
+    "1/2 tsp salt",
+    "1/4 tsp black pepper",
+    "1 baguette, sliced 1/2 inch thick"
+  ],
+  "steps": [
+    "Combine tomatoes, basil, minced garlic, olive oil, balsamic, salt, and pepper. Let marinate 15-30 minutes.",
+    "Toast or grill baguette slices until golden on both sides.",
+    "Rub one side of each warm toast with the whole garlic clove.",
+    "Drizzle toasts with olive oil.",
+    "Spoon tomato mixture onto toasts just before serving."
+  ],
+  "notes": [
+    "Pronunciation: broo-SKET-ta (not broo-SHET-ta). The 'ch' makes a 'k' sound in Italian.",
+    "Ripe tomatoes: This only works with great tomatoes. Off-season, don't bother.",
+    "Salt the tomatoes: Salt draws out moisture and intensifies flavor. Do this first.",
+    "Top just before serving: Topping too early = soggy bread.",
+    "Variations: Add fresh mozzarella, prosciutto, or a drizzle of balsamic glaze."
+  ],
+  "source": "Adapted from Bon Appétit",
+  "sourceUrl": "https://www.bonappetit.com/recipe/classic-bruschetta"
+}

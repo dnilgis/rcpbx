@@ -1,0 +1,40 @@
+{
+  "id": "garlic-butter-shrimp",
+  "title": "Garlic Butter Shrimp",
+  "tagline": "15-minute dinner. Butter, garlic, shrimp. That's it. That's the recipe.",
+  "description": "Juicy shrimp sautéed in garlicky butter sauce with lemon and parsley. Serve over pasta, rice, or with crusty bread.",
+  "category": "Seafood",
+  "categorySlug": "seafood",
+  "prep": "10 min",
+  "cook": "8 min",
+  "serves": "4",
+  "ingredients": [
+    "1.5 lbs large shrimp, peeled and deveined",
+    "4 Tbsp butter",
+    "6 cloves garlic, minced",
+    "1/4 cup dry white wine (or chicken broth)",
+    "Juice of 1 lemon",
+    "1/4 tsp red pepper flakes",
+    "1/2 tsp salt",
+    "1/4 tsp black pepper",
+    "2 Tbsp fresh parsley, chopped"
+  ],
+  "steps": [
+    "Pat shrimp dry with paper towels. Season with salt and pepper.",
+    "Melt 2 Tbsp butter in a large skillet over medium-high heat.",
+    "Add shrimp in a single layer. Cook 1-2 minutes per side until pink. Remove to a plate.",
+    "Reduce heat to medium. Add remaining butter and garlic. Sauté 30 seconds until fragrant.",
+    "Pour in wine and lemon juice. Let bubble 1-2 minutes, scraping up any browned bits.",
+    "Return shrimp to the pan. Toss to coat in the sauce. Add red pepper flakes.",
+    "Remove from heat. Sprinkle with parsley and serve immediately."
+  ],
+  "notes": [
+    "Don't overcook: Shrimp go from perfect to rubbery in seconds. Pull them when just pink.",
+    "Size matters: Large or jumbo shrimp work best. Small shrimp overcook too easily.",
+    "Dry the shrimp: Wet shrimp steam instead of sear. Pat them very dry.",
+    "Serve with: Angel hair pasta, rice, crusty bread, or over zucchini noodles.",
+    "No wine: Substitute chicken broth with a splash of extra lemon juice."
+  ],
+  "source": "Adapted from Cafe Delites",
+  "sourceUrl": "https://cafedelites.com/garlic-butter-shrimp/"
+}

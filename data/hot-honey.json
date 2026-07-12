@@ -1,0 +1,34 @@
+{
+  "id": "hot-honey",
+  "title": "Hot Honey",
+  "tagline": "Sweet heat that goes on everything. The condiment that defined 2025.",
+  "description": "Honey infused with chili peppers for the perfect balance of sweet and spicy. Drizzle on pizza, fried chicken, biscuits, or cheese.",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "prep": "5 min",
+  "cook": "10 min",
+  "makes": "1 cup",
+  "ingredients": [
+    "1 cup honey",
+    "2-4 Tbsp hot sauce (like Frank's or Cholula)",
+    "1/2 tsp crushed red pepper flakes",
+    "1/4 tsp cayenne pepper (optional, for extra heat)",
+    "1 Tbsp apple cider vinegar"
+  ],
+  "steps": [
+    "Combine honey, hot sauce, red pepper flakes, and cayenne (if using) in a small saucepan.",
+    "Heat over low heat for 5-7 minutes, stirring occasionally. Don't let it boil.",
+    "Remove from heat and stir in apple cider vinegar.",
+    "Let cool slightly, then taste and adjust heat level.",
+    "Transfer to a jar. Store at room temperature up to 1 month."
+  ],
+  "notes": [
+    "Heat levels: Start with 2 Tbsp hot sauce and add more to taste. You can always add heat, can't take it away.",
+    "Fresno or serrano: For a fresher kick, slice 1-2 fresh chilis and simmer them in the honey instead of hot sauce.",
+    "Best on: Pizza (especially pepperoni), fried chicken, biscuits, bacon, cheese boards, vanilla ice cream.",
+    "Vinegar: Adds depth and cuts the sweetness. Don't skip it.",
+    "No-cook version: Just whisk ingredients together without heating. Flavor won't meld as well but works in a pinch."
+  ],
+  "source": "Adapted from Serious Eats",
+  "sourceUrl": "https://www.seriouseats.com/hot-honey-recipe"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "lemon-chicken",
+  "title": "Lemon Chicken",
+  "tagline": "Bright, zesty, and weeknight easy. The pan sauce is the star.",
+  "description": "Seared chicken cutlets in a glossy lemon butter sauce with capers and fresh herbs. Restaurant quality, home kitchen simple.",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "prep": "10 min",
+  "cook": "20 min",
+  "serves": "4",
+  "ingredients": [
+    "4 boneless skinless chicken breasts, pounded to 1/2 inch thick",
+    "1/2 tsp salt",
+    "1/4 tsp black pepper",
+    "1/4 cup flour",
+    "3 Tbsp olive oil",
+    "3 Tbsp butter, divided",
+    "3 cloves garlic, minced",
+    "1/2 cup chicken broth",
+    "1/4 cup fresh lemon juice",
+    "Zest of 1 lemon",
+    "2 Tbsp capers, drained",
+    "2 Tbsp fresh parsley, chopped"
+  ],
+  "steps": [
+    "Season chicken with salt and pepper. Dredge in flour, shaking off excess.",
+    "Heat olive oil and 1 Tbsp butter in a large skillet over medium-high heat.",
+    "Cook chicken 4-5 minutes per side until golden and cooked through. Remove to a plate.",
+    "Reduce heat to medium. Add garlic and cook 30 seconds.",
+    "Pour in chicken broth and lemon juice. Scrape up browned bits. Simmer 2 minutes.",
+    "Stir in remaining butter, lemon zest, and capers. Swirl until butter melts and sauce thickens slightly.",
+    "Return chicken to pan. Spoon sauce over and cook 1 minute.",
+    "Top with parsley and serve immediately."
+  ],
+  "notes": [
+    "Pound the chicken: Even thickness = even cooking. Use a meat mallet or rolling pin.",
+    "Hot pan: Get the pan hot before adding chicken for proper browning.",
+    "The sauce: Work quickly once you start—it comes together in minutes.",
+    "Serve with: Rice, orzo, roasted potatoes, or crusty bread to soak up the sauce.",
+    "Make it piccata: This is essentially chicken piccata. Add more capers if you love them."
+  ],
+  "source": "Adapted from RecipeTin Eats",
+  "sourceUrl": "https://www.recipetineats.com/lemon-chicken/"
+}
