@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thanksgiving Recipes | rcpbx</title>
+  <meta name="description" content="Every Thanksgiving recipe you need. Turkey, stuffing, mashed potatoes, gravy, pumpkin pie. No life stories, just the recipes.">
+  <link rel="canonical" href="https://rcpbx.com/thanksgiving/">
+  <meta property="og:title" content="Thanksgiving Recipes | rcpbx">
+  <meta property="og:description" content="Every Thanksgiving recipe you need. Turkey, stuffing, sides, desserts. Just the recipes.">
+  <meta property="og:image" content="https://rcpbx.com/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Thanksgiving Recipes",
+    "description": "Complete Thanksgiving dinner recipes",
+    "url": "https://rcpbx.com/thanksgiving/"
+  }
+  </script>
+  <style>
+    :root { --bg: #faf9f6; --text: #222; --text-muted: #666; --border: #ddd; --accent: #16a34a; --font-sans: 'Inter', -apple-system, sans-serif; --font-mono: 'JetBrains Mono', monospace; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #111; --text: #e5e5e5; --text-muted: #999; --border: #333; --accent: #22c55e; } }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--font-sans); background: var(--bg); color: var(--text); min-height: 100vh; padding: 2rem; }
+    .container { max-width: 800px; margin: 0 auto; }
+    h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    h1 span { color: var(--accent); }
+    .subtitle { color: var(--text-muted); margin-bottom: 2rem; font-size: 1.1rem; }
+    .section { margin-bottom: 2rem; }
+    .section h2 { font-size: 1rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 1rem; }
+    .recipes { display: grid; gap: 0.75rem; }
+    .recipe-link { display: block; padding: 1rem; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; text-decoration: none; color: var(--text); transition: border-color 0.15s; }
+    .recipe-link:hover { border-color: var(--accent); }
+    .recipe-link strong { display: block; margin-bottom: 0.25rem; }
+    .recipe-link span { font-size: 0.9rem; color: var(--text-muted); }
+    .back { display: inline-block; margin-bottom: 2rem; color: var(--text-muted); text-decoration: none; font-size: 0.9rem; }
+    .back:hover { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back">← all recipes</a>
+    <h1>🦃 <span>Thanksgiving</span></h1>
+    <p class="subtitle">Everything you need. Nothing you don't.</p>
+    
+    <div class="section">
+      <h2>The Bird</h2>
+      <div class="recipes">
+        <a href="/recipes/roast-chicken/" class="recipe-link"><strong>Roast Chicken</strong><span>Same technique works for turkey</span></a>
+        <a href="/recipes/gravy/" class="recipe-link"><strong>Gravy</strong><span>Pan drippings method</span></a>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>Sides</h2>
+      <div class="recipes">
+        <a href="/recipes/mashed-potatoes/" class="recipe-link"><strong>Mashed Potatoes</strong><span>Creamy, buttery, perfect</span></a>
+        <a href="/recipes/stuffing/" class="recipe-link"><strong>Stuffing</strong><span>Classic bread stuffing</span></a>
+        <a href="/recipes/green-bean-casserole/" class="recipe-link"><strong>Green Bean Casserole</strong><span>The crispy onion one</span></a>
+        <a href="/recipes/sweet-potato-casserole/" class="recipe-link"><strong>Sweet Potato Casserole</strong><span>With pecan streusel</span></a>
+        <a href="/recipes/cranberry-sauce/" class="recipe-link"><strong>Dinner Rolls</strong><span>Soft, buttery rolls</span></a>
+        <a href="/recipes/roasted-vegetables/" class="recipe-link"><strong>Roasted Vegetables</strong><span>Brussels, carrots, whatever</span></a>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>Dessert</h2>
+      <div class="recipes">
+        <a href="/recipes/pumpkin-pie/" class="recipe-link"><strong>Pumpkin Pie</strong><span>The essential</span></a>
+        <a href="/recipes/apple-pie/" class="recipe-link"><strong>Apple Pie</strong><span>Classic double-crust</span></a>
+        <a href="/recipes/peach-cobbler/" class="recipe-link"><strong>Peach Cobbler</strong><span>Warm with ice cream</span></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

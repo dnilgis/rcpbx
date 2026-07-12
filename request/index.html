@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request a Recipe | rcpbx</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
+  <meta name="description" content="Request a recipe to be added to rcpbx. We'll test it and add it if it's good.">
+  <meta name="robots" content="noindex">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg: #faf9f6;
+      --text: #222;
+      --text-muted: #666;
+      --border: #ddd;
+      --accent: #16a34a;
+      --accent-light: #dcfce7;
+      --accent-hover: #15803d;
+      --error: #dc2626;
+      --font-sans: 'Inter', -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111;
+        --text: #e5e5e5;
+        --text-muted: #999;
+        --border: #333;
+        --accent: #22c55e;
+        --accent-light: #14532d;
+        --accent-hover: #16a34a;
+      }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-family: var(--font-sans); background: var(--bg); color: var(--text); }
+    body { min-height: 100vh; display: flex; flex-direction: column; }
+    
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 1.5rem;
+    }
+    .header-inner {
+      max-width: 500px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-family: var(--font-mono);
+      font-size: 1.25rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .logo-prefix { color: var(--accent); }
+    .back-link {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+    .back-link:hover { color: var(--accent); }
+    
+    main {
+      flex: 1;
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+      width: 100%;
+    }
+    
+    h1 {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+    .subtitle {
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      line-height: 1.5;
+    }
+    
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    label {
+      display: block;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+    }
+    .label-hint {
+      font-weight: 400;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    textarea {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      font-family: var(--font-sans);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg);
+      color: var(--text);
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    input:focus, textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-light);
+    }
+    textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+    
+    /* Captcha Section */
+    .captcha-section {
+      background: var(--accent-light);
+      border: 2px solid var(--accent);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    .captcha-title {
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+      color: var(--accent);
+    }
+    .captcha-subtitle {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 1.25rem;
+    }
+    
+    /* The cooking game */
+    .cooking-game {
+      position: relative;
+      height: 200px;
+      background: linear-gradient(to bottom, transparent 60%, #f5f5dc 60%);
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 1rem;
+      border: 1px solid var(--border);
+    }
+    @media (prefers-color-scheme: dark) {
+      .cooking-game {
+        background: linear-gradient(to bottom, transparent 60%, #2a2a20 60%);
+      }
+    }
+    
+    .pot {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 60px;
+      background: #444;
+      border-radius: 0 0 40px 40px;
+      border: 4px solid #333;
+      border-top: none;
+    }
+    .pot::before {
+      content: '';
+      position: absolute;
+      top: -8px;
+      left: -15px;
+      right: -15px;
+      height: 12px;
+      background: #555;
+      border-radius: 4px;
+    }
+    .pot-inside {
+      position: absolute;
+      top: 5px;
+      left: 8px;
+      right: 8px;
+      bottom: 8px;
+      background: #222;
+      border-radius: 0 0 30px 30px;
+      overflow: hidden;
+    }
+    .pot-water {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 0%;
+      background: linear-gradient(to bottom, #7dd3fc, #38bdf8);
+      transition: height 0.3s ease;
+    }
+    
+    .ingredient {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      cursor: grab;
+      user-select: none;
+      font-size: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.1s;
+      filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.2));
+    }
+    .ingredient:hover {
+      transform: scale(1.1);
+    }
+    .ingredient.dragging {
+      cursor: grabbing;
+      transform: scale(1.2);
+      z-index: 100;
+    }
+    .ingredient.dropped {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s;
+    }
+    
+    .captcha-status {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      min-height: 1.5em;
+    }
+    .captcha-status.success {
+      color: var(--accent);
+      font-weight: 500;
+    }
+    .captcha-status.error {
+      color: var(--error);
+    }
+    
+    .ingredient-tray {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-top: 0.75rem;
+    }
+    .tray-item {
+      width: 44px;
+      height: 44px;
+      background: var(--bg);
+      border: 2px dashed var(--border);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      opacity: 0.4;
+    }
+    .tray-item.filled {
+      opacity: 1;
+      border-style: solid;
+      border-color: var(--accent);
+    }
+    
+    /* Submit */
+    button[type="submit"] {
+      width: 100%;
+      padding: 1rem;
+      font-size: 1rem;
+      font-weight: 600;
+      font-family: var(--font-sans);
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.15s, transform 0.1s;
+    }
+    button[type="submit"]:hover:not(:disabled) {
+      background: var(--accent-hover);
+    }
+    button[type="submit"]:active:not(:disabled) {
+      transform: scale(0.98);
+    }
+    button[type="submit"]:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    
+    .success-message {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    .success-icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+    .success-message h2 {
+      margin-bottom: 0.5rem;
+    }
+    .success-message p {
+      color: var(--text-muted);
+    }
+    
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .footer-text {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="/" class="logo"><span class="logo-prefix">></span>rcpbx</a>
+      <a href="/" class="back-link">← back to recipes</a>
+    </div>
+  </header>
+  
+  <main>
+    <div id="form-container">
+      <h1>Request a Recipe</h1>
+      <p class="subtitle">Know a recipe that should be here? Tell us about it. If it's good, we'll test it and add it.</p>
+      
+      <form id="request-form">
+        <div class="form-group">
+          <label for="recipe-name">Recipe Name <span class="label-hint">*</span></label>
+          <input type="text" id="recipe-name" name="recipe" required placeholder="e.g., Birria Tacos">
+        </div>
+        
+        <div class="form-group">
+          <label for="source-url">Source URL <span class="label-hint">(optional)</span></label>
+          <input type="url" id="source-url" name="source" placeholder="https://...">
+        </div>
+        
+        <div class="form-group">
+          <label for="notes">Notes <span class="label-hint">(optional)</span></label>
+          <textarea id="notes" name="notes" placeholder="Why this recipe? Any tips?"></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Your Email <span class="label-hint">(optional, for updates)</span></label>
+          <input type="email" id="email" name="email" placeholder="you@example.com">
+        </div>
+        
+        <!-- Fun Captcha -->
+        <div class="captcha-section">
+          <div class="captcha-title">🍳 Quick cooking test</div>
+          <div class="captcha-subtitle">Drag all 3 ingredients into the pot</div>
+          
+          <div class="cooking-game" id="cooking-game">
+            <div class="pot">
+              <div class="pot-inside">
+                <div class="pot-water" id="pot-water"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="ingredient-tray" id="ingredient-tray"></div>
+          <div class="captcha-status" id="captcha-status">0 of 3 ingredients added</div>
+        </div>
+        
+        <button type="submit" id="submit-btn" disabled>Add all ingredients first</button>
+      </form>
+    </div>
+    
+    <div id="success-container" style="display: none;">
+      <div class="success-message">
+        <div class="success-icon">🍲</div>
+        <h2>Request Submitted!</h2>
+        <p>We'll review it and let you know if we add it.</p>
+        <p style="margin-top: 1.5rem;"><a href="/">← Back to recipes</a></p>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <p class="footer-text"><span style="color: var(--accent);">rcpbx.com</span> · no bots allowed</p>
+  </footer>
+
+  <script>
+    // Cooking Captcha Game
+    const ingredients = ['🥕', '🧅', '🥔', '🍅', '🧄', '🥬', '🌶️', '🥩', '🍗', '🥚'];
+    const game = document.getElementById('cooking-game');
+    const tray = document.getElementById('ingredient-tray');
+    const water = document.getElementById('pot-water');
+    const status = document.getElementById('captcha-status');
+    const submitBtn = document.getElementById('submit-btn');
+    
+    let selectedIngredients = [];
+    let droppedCount = 0;
+    const requiredCount = 3;
+    
+    // Pick 3 random ingredients
+    function shuffle(arr) {
+      return arr.sort(() => Math.random() - 0.5);
+    }
+    selectedIngredients = shuffle([...ingredients]).slice(0, requiredCount);
+    
+    // Create tray indicators
+    selectedIngredients.forEach((ing, i) => {
+      const div = document.createElement('div');
+      div.className = 'tray-item';
+      div.dataset.index = i;
+      div.textContent = ing;
+      tray.appendChild(div);
+    });
+    
+    // Place ingredients randomly
+    selectedIngredients.forEach((ing, i) => {
+      const el = document.createElement('div');
+      el.className = 'ingredient';
+      el.textContent = ing;
+      el.dataset.index = i;
+      
+      // Random position in top 50% of game area
+      const x = 20 + Math.random() * (game.offsetWidth - 80);
+      const y = 10 + Math.random() * 60;
+      el.style.left = x + 'px';
+      el.style.top = y + 'px';
+      
+      // Drag handling
+      let isDragging = false;
+      let startX, startY, origX, origY;
+      
+      const onStart = (e) => {
+        isDragging = true;
+        el.classList.add('dragging');
+        const touch = e.touches ? e.touches[0] : e;
+        startX = touch.clientX;
+        startY = touch.clientY;
+        origX = el.offsetLeft;
+        origY = el.offsetTop;
+        e.preventDefault();
+      };
+      
+      const onMove = (e) => {
+        if (!isDragging) return;
+        const touch = e.touches ? e.touches[0] : e;
+        const dx = touch.clientX - startX;
+        const dy = touch.clientY - startY;
+        el.style.left = (origX + dx) + 'px';
+        el.style.top = (origY + dy) + 'px';
+        e.preventDefault();
+      };
+      
+      const onEnd = (e) => {
+        if (!isDragging) return;
+        isDragging = false;
+        el.classList.remove('dragging');
+        
+        // Check if over pot
+        const rect = el.getBoundingClientRect();
+        const potRect = document.querySelector('.pot').getBoundingClientRect();
+        
+        const centerX = rect.left + rect.width / 2;
+        const centerY = rect.top + rect.height / 2;
+        
+        if (centerX > potRect.left && centerX < potRect.right &&
+            centerY > potRect.top && centerY < potRect.bottom) {
+          // Dropped in pot!
+          el.classList.add('dropped');
+          droppedCount++;
+          
+          // Update tray
+          tray.children[el.dataset.index].classList.add('filled');
+          
+          // Update water level
+          water.style.height = (droppedCount / requiredCount * 80) + '%';
+          
+          // Update status
+          if (droppedCount === requiredCount) {
+            status.textContent = '✓ All ingredients added!';
+            status.className = 'captcha-status success';
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Submit Request';
+          } else {
+            status.textContent = `${droppedCount} of ${requiredCount} ingredients added`;
+          }
+        }
+      };
+      
+      el.addEventListener('mousedown', onStart);
+      el.addEventListener('touchstart', onStart, { passive: false });
+      document.addEventListener('mousemove', onMove);
+      document.addEventListener('touchmove', onMove, { passive: false });
+      document.addEventListener('mouseup', onEnd);
+      document.addEventListener('touchend', onEnd);
+      
+      game.appendChild(el);
+    });
+    
+    // Form submission
+    document.getElementById('request-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      if (droppedCount < requiredCount) return;
+      
+      const formData = new FormData(e.target);
+      const data = Object.fromEntries(formData);
+      data.captcha_passed = true;
+      data.timestamp = new Date().toISOString();
+      
+      // For now, log to console. Replace with your endpoint.
+      console.log('Recipe request:', data);
+      
+      // You can send to:
+      // - Supabase: await supabase.from('requests').insert(data)
+      // - Email service: await fetch('https://formspree.io/f/xxxxx', {...})
+      // - Google Form: redirect to prefilled URL
+      
+      // Show success
+      document.getElementById('form-container').style.display = 'none';
+      document.getElementById('success-container').style.display = 'block';
+      
+      // Store locally as backup
+      const requests = JSON.parse(localStorage.getItem('rcpbx_requests') || '[]');
+      requests.push(data);
+      localStorage.setItem('rcpbx_requests', JSON.stringify(requests));
+    });
+  </script>
+</body>
+</html>
