@@ -1,0 +1,36 @@
+{
+  "id": "grilled-chicken",
+  "title": "Grilled Chicken Breast",
+  "tagline": "Juicy, not dry. Finally.",
+  "description": "The secret to juicy grilled chicken: even thickness, proper temp, and knowing when to stop. No more sawdust chicken.",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "prep": "10 min",
+  "cook": "12 min",
+  "serves": "4",
+  "ingredients": [
+    "4 boneless skinless chicken breasts",
+    "2 Tbsp olive oil",
+    "1 tsp salt",
+    "1/2 tsp black pepper",
+    "1 tsp garlic powder",
+    "1/2 tsp paprika",
+    "1/2 tsp dried oregano"
+  ],
+  "steps": [
+    "Pound chicken to even 3/4-inch thickness. This is the most important step for even cooking.",
+    "Mix salt, pepper, garlic powder, paprika, and oregano. Coat chicken with oil, then season both sides.",
+    "Let chicken sit at room temperature 15-20 minutes while grill heats.",
+    "Preheat grill to medium-high (400-450°F). Clean and oil grates.",
+    "Grill chicken 5-6 minutes per side. Don't move it - let it develop grill marks.",
+    "Check internal temp - pull at 160°F (carryover will bring it to 165°F).",
+    "Rest 5 minutes before slicing. This redistributes the juices."
+  ],
+  "notes": [
+    "Pounding to even thickness is non-negotiable. Thick parts overcook while thin parts dry out.",
+    "Use an instant-read thermometer. Guessing = dry chicken.",
+    "Resting is not optional. Cut too early and all the juice runs out."
+  ],
+  "source": "rcpbx original",
+  "sourceUrl": ""
+}

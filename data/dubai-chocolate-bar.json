@@ -1,0 +1,37 @@
+{
+  "id": "dubai-chocolate-bar",
+  "title": "Dubai Chocolate Bar",
+  "tagline": "The viral pistachio-kunafa chocolate that broke the internet.",
+  "description": "Homemade version of the Fix Dessert Chocolatier chocolate bar that went viral in 2024. Layers of crunchy kunafa (kataifi), tahini-pistachio filling, and dark chocolate.",
+  "category": "Baking & Desserts",
+  "categorySlug": "baking-dessert",
+  "prep": "30 min",
+  "cook": "15 min",
+  "makes": "8 bars",
+  "ingredients": [
+    "200g dark chocolate (70%)",
+    "100g kataifi pastry (shredded phyllo)",
+    "3 Tbsp butter, melted",
+    "1 cup pistachios, finely chopped",
+    "1/2 cup tahini",
+    "1/4 cup honey",
+    "1/4 tsp salt",
+    "1 Tbsp rose water (optional)"
+  ],
+  "steps": [
+    "Preheat oven to 350°F (175°C). Toss kataifi with melted butter, spread on baking sheet. Bake 10-12 min until golden and crispy. Let cool, then crumble into small pieces.",
+    "Mix tahini, honey, salt, and rose water in a bowl. Fold in chopped pistachios and half the crispy kataifi. The mixture should be thick but spreadable.",
+    "Melt chocolate in a double boiler or microwave (30-second intervals, stirring between).",
+    "Line a 9x5 loaf pan with parchment. Pour half the chocolate into the pan, spread evenly. Refrigerate 5 min until just set.",
+    "Spread the pistachio-tahini mixture evenly over the chocolate layer. Press remaining kataifi crumbles on top.",
+    "Pour remaining melted chocolate over the top, spreading to cover completely. Tap pan to release air bubbles.",
+    "Refrigerate at least 2 hours until fully set. Slice into bars with a sharp knife dipped in hot water."
+  ],
+  "notes": [
+    "Kataifi pastry is found in Middle Eastern grocery stores or the freezer section. Shredded phyllo works too.",
+    "For extra crunch, toast the pistachios lightly before chopping.",
+    "Bars keep refrigerated for 2 weeks. Let sit 5 min at room temp before eating for best texture."
+  ],
+  "source": "Inspired by Fix Dessert Chocolatier",
+  "sourceUrl": ""
+}

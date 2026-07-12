@@ -1,0 +1,34 @@
+{
+  "id": "protein-ice-cream",
+  "title": "Protein Ice Cream",
+  "tagline": "High protein, low calorie, actually tastes good.",
+  "description": "Creamy protein ice cream using frozen bananas and protein powder. The fitness influencer secret that actually works. 25g protein per serving.",
+  "category": "Baking & Desserts",
+  "categorySlug": "baking-dessert",
+  "prep": "5 min",
+  "cook": "0 min",
+  "serves": "2",
+  "ingredients": [
+    "2 frozen bananas, sliced",
+    "1 scoop vanilla or chocolate protein powder",
+    "2-3 Tbsp milk of choice",
+    "1 Tbsp peanut butter (optional)",
+    "1/4 cup frozen berries (optional)",
+    "Pinch of salt"
+  ],
+  "steps": [
+    "Freeze ripe bananas (the riper, the sweeter). Slice before freezing for easier blending.",
+    "Add frozen banana slices to a food processor or high-powered blender.",
+    "Add protein powder and a splash of milk. Pulse several times to break up bananas.",
+    "Blend until smooth and creamy, scraping down sides as needed. Add more milk 1 Tbsp at a time if too thick.",
+    "Add peanut butter or frozen berries if using. Pulse to combine.",
+    "Serve immediately for soft-serve texture, or freeze 30 min for firmer scoop."
+  ],
+  "notes": [
+    "Use overripe bananas for best sweetness - the brown spots are your friend.",
+    "A food processor works better than most blenders for this texture.",
+    "Add cocoa powder for chocolate version without chocolate protein powder."
+  ],
+  "source": "Fitness community",
+  "sourceUrl": ""
+}

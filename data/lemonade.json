@@ -1,0 +1,35 @@
+{
+  "id": "lemonade",
+  "title": "Fresh Lemonade",
+  "tagline": "The real thing. No powder, no shortcuts.",
+  "description": "Simple syrup-based lemonade that's perfectly balanced between sweet and tart. The only lemonade recipe you need.",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "prep": "15 min",
+  "cook": "5 min",
+  "makes": "8 cups",
+  "ingredients": [
+    "1 cup fresh lemon juice (about 6 lemons)",
+    "1 cup sugar",
+    "1 cup water (for simple syrup)",
+    "6 cups cold water",
+    "Ice",
+    "Lemon slices for garnish",
+    "Fresh mint (optional)"
+  ],
+  "steps": [
+    "Make simple syrup: Heat 1 cup water and sugar in a saucepan, stirring until sugar dissolves. Let cool.",
+    "Juice the lemons. Strain out seeds and pulp (or leave some pulp for texture).",
+    "Combine simple syrup, lemon juice, and 6 cups cold water in a large pitcher.",
+    "Taste and adjust: add more water if too sweet, more syrup if too tart.",
+    "Refrigerate until cold, or serve immediately over lots of ice.",
+    "Garnish with lemon slices and mint."
+  ],
+  "notes": [
+    "Room temperature lemons yield more juice. Roll them on the counter before cutting.",
+    "Simple syrup dissolves better than granulated sugar in cold liquid.",
+    "For pink lemonade: add a splash of cranberry juice or muddle in raspberries."
+  ],
+  "source": "Classic",
+  "sourceUrl": ""
+}

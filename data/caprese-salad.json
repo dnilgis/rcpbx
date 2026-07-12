@@ -1,0 +1,36 @@
+{
+  "id": "caprese-salad",
+  "title": "Caprese Salad",
+  "tagline": "Tomato, mozzarella, basil. The holy trinity.",
+  "description": "The simplest Italian salad - ripe tomatoes, fresh mozzarella, basil, olive oil, and nothing else. Quality ingredients are everything here.",
+  "category": "Sides",
+  "categorySlug": "sides",
+  "prep": "10 min",
+  "cook": "0 min",
+  "serves": "4",
+  "ingredients": [
+    "3 large ripe tomatoes",
+    "1 lb fresh mozzarella (not the shredded kind)",
+    "1 bunch fresh basil",
+    "3 Tbsp extra virgin olive oil",
+    "Flaky sea salt",
+    "Fresh cracked black pepper",
+    "Balsamic glaze (optional)"
+  ],
+  "steps": [
+    "Slice tomatoes and mozzarella into 1/4-inch thick rounds.",
+    "Arrange alternating slices of tomato and mozzarella on a platter, slightly overlapping.",
+    "Tuck fresh basil leaves between the slices.",
+    "Drizzle generously with olive oil.",
+    "Season with flaky salt and cracked pepper.",
+    "If using, drizzle balsamic glaze in a zigzag pattern.",
+    "Serve immediately at room temperature."
+  ],
+  "notes": [
+    "Use room temperature tomatoes - cold kills the flavor.",
+    "Fresh mozzarella (the soft kind in water) is non-negotiable.",
+    "This is a summer dish. Don't bother with winter tomatoes."
+  ],
+  "source": "Traditional Italian",
+  "sourceUrl": ""
+}

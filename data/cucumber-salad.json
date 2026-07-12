@@ -1,0 +1,38 @@
+{
+  "id": "cucumber-salad",
+  "title": "Smashed Cucumber Salad",
+  "tagline": "The viral crunchy, garlicky, spicy cucumber situation.",
+  "description": "Chinese-style smashed cucumbers (pai huang gua) with garlic, chili oil, and rice vinegar. Smashing creates jagged edges that hold more sauce. Dangerously addictive.",
+  "category": "Sides",
+  "categorySlug": "sides",
+  "prep": "15 min",
+  "cook": "0 min",
+  "serves": "4",
+  "ingredients": [
+    "4 Persian cucumbers (or 2 English cucumbers)",
+    "1 tsp salt",
+    "4 cloves garlic, minced",
+    "2 Tbsp soy sauce",
+    "1 Tbsp rice vinegar",
+    "1 Tbsp sesame oil",
+    "1-2 Tbsp chili crisp or chili oil",
+    "1 tsp sugar",
+    "Sesame seeds for garnish",
+    "Fresh cilantro (optional)"
+  ],
+  "steps": [
+    "Place cucumbers on cutting board. Using the flat side of a knife or cleaver, smash each cucumber firmly until it cracks and splits. Cut into rough 1-inch pieces.",
+    "Toss cucumber pieces with salt in a colander. Let drain 10-15 minutes to draw out excess water. This keeps the salad from getting soggy.",
+    "While cucumbers drain, whisk together garlic, soy sauce, rice vinegar, sesame oil, chili crisp, and sugar.",
+    "Pat cucumbers dry with paper towels. Transfer to serving bowl.",
+    "Pour dressing over cucumbers and toss well, making sure sauce gets into all the cracks and crevices.",
+    "Garnish with sesame seeds and cilantro. Serve immediately for maximum crunch."
+  ],
+  "notes": [
+    "Smashing is better than cutting - the rough edges absorb more sauce.",
+    "Salting and draining is crucial. Skip this and you get a watery salad.",
+    "Best eaten within 30 minutes. The cucumbers will continue to release water."
+  ],
+  "source": "Chinese pai huang gua",
+  "sourceUrl": ""
+}

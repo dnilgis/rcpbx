@@ -1,0 +1,44 @@
+{
+  "id": "salmon-rice-bowl",
+  "title": "Salmon Rice Bowl",
+  "tagline": "The TikTok-viral crispy rice bowl with everything sauce.",
+  "description": "Crispy-skinned salmon over rice with kimchi, avocado, and the famous 'everything' sauce (mayo, soy, sriracha). The viral recipe that started it all.",
+  "category": "Seafood",
+  "categorySlug": "seafood",
+  "prep": "10 min",
+  "cook": "15 min",
+  "serves": "2",
+  "ingredients": [
+    "2 salmon fillets (6 oz each), skin-on",
+    "2 cups cooked sushi rice, warm",
+    "1/2 cup kimchi, chopped",
+    "1 avocado, sliced",
+    "2 sheets nori, cut into strips",
+    "2 green onions, sliced",
+    "Sesame seeds",
+    "1 Tbsp vegetable oil",
+    "Salt and pepper",
+    "For the sauce:",
+    "3 Tbsp Kewpie mayo",
+    "1 Tbsp soy sauce",
+    "1 tsp sriracha",
+    "1 tsp sesame oil",
+    "1/2 tsp sugar"
+  ],
+  "steps": [
+    "Mix all sauce ingredients in a small bowl. Set aside.",
+    "Pat salmon dry with paper towels. Season skin side with salt. Season flesh side with salt and pepper.",
+    "Heat oil in a non-stick skillet over medium-high heat. Place salmon skin-side down. Press gently with spatula for first 30 seconds to prevent curling.",
+    "Cook 4-5 minutes until skin is very crispy. Flip and cook 2-3 more minutes for medium (or longer if you prefer well-done).",
+    "Divide rice between two bowls. Top with kimchi, avocado slices, and nori strips.",
+    "Place salmon on top (skin-side up for maximum crunch). Drizzle generously with sauce.",
+    "Garnish with green onions and sesame seeds. Serve immediately."
+  ],
+  "notes": [
+    "The crispy skin is essential. Make sure salmon is very dry and pan is hot.",
+    "Kewpie mayo is creamier than regular mayo - find it in the Asian section.",
+    "Add a jammy egg (6-min boil) for extra protein."
+  ],
+  "source": "Emily Mariko / TikTok",
+  "sourceUrl": ""
+}

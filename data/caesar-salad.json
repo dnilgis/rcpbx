@@ -1,0 +1,41 @@
+{
+  "id": "caesar-salad",
+  "title": "Caesar Salad",
+  "tagline": "Homemade dressing, real anchovies, no compromises.",
+  "description": "The real Caesar with from-scratch dressing, crispy croutons, and plenty of parmesan. Yes, it has anchovies. No, you won't taste fish.",
+  "category": "Sides",
+  "categorySlug": "sides",
+  "prep": "20 min",
+  "cook": "10 min",
+  "serves": "4",
+  "ingredients": [
+    "2 heads romaine lettuce, chopped",
+    "1 cup parmesan, shaved",
+    "2 cups croutons",
+    "For the dressing:",
+    "2 anchovy fillets (or 1 tsp anchovy paste)",
+    "2 cloves garlic",
+    "2 egg yolks",
+    "2 Tbsp lemon juice",
+    "1 tsp Dijon mustard",
+    "1/2 cup olive oil",
+    "1/4 cup parmesan, grated",
+    "Salt and pepper"
+  ],
+  "steps": [
+    "For dressing: Mash anchovies and garlic into a paste with the side of your knife (or use a mortar and pestle).",
+    "Whisk egg yolks, lemon juice, and mustard in a bowl. Add anchovy-garlic paste.",
+    "Slowly drizzle in olive oil while whisking constantly until emulsified and creamy.",
+    "Stir in grated parmesan. Season with salt and pepper.",
+    "Wash and dry romaine thoroughly. Chop into bite-sized pieces.",
+    "Toss romaine with dressing (start with half, add more as needed).",
+    "Top with croutons and shaved parmesan. Serve immediately."
+  ],
+  "notes": [
+    "The anchovies dissolve into the dressing - no fishy chunks, just umami depth.",
+    "For food safety, use pasteurized eggs or skip the yolks and add more mustard.",
+    "Make croutons: cube bread, toss with olive oil, bake 400°F 10 min."
+  ],
+  "source": "Traditional",
+  "sourceUrl": ""
+}

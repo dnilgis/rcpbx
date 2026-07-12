@@ -1,0 +1,37 @@
+{
+  "id": "air-fryer-chicken-thighs",
+  "title": "Air Fryer Chicken Thighs",
+  "tagline": "Crispy skin, juicy meat, 25 minutes.",
+  "description": "Bone-in, skin-on chicken thighs with impossibly crispy skin and juicy meat. The air fryer does what ovens can't - fast, even crisping without drying out the meat.",
+  "category": "Chicken",
+  "categorySlug": "chicken",
+  "prep": "5 min",
+  "cook": "25 min",
+  "serves": "4",
+  "ingredients": [
+    "4 bone-in, skin-on chicken thighs",
+    "1 Tbsp olive oil",
+    "1 tsp garlic powder",
+    "1 tsp paprika",
+    "1/2 tsp onion powder",
+    "1/2 tsp dried thyme",
+    "1 tsp salt",
+    "1/2 tsp black pepper"
+  ],
+  "steps": [
+    "Pat chicken thighs completely dry with paper towels. This is crucial for crispy skin.",
+    "Mix garlic powder, paprika, onion powder, thyme, salt, and pepper in a small bowl.",
+    "Rub chicken with olive oil, then coat generously with spice mixture on all sides.",
+    "Place chicken skin-side down in air fryer basket. Don't overcrowd - cook in batches if needed.",
+    "Air fry at 380°F (190°C) for 10 minutes.",
+    "Flip chicken skin-side up. Increase to 400°F (200°C) and cook 12-15 more minutes until skin is golden and crispy, and internal temp reaches 165°F.",
+    "Let rest 5 minutes before serving."
+  ],
+  "notes": [
+    "Starting skin-side down renders the fat, then flipping crisps it up.",
+    "Don't skip the drying step - wet skin = soggy skin.",
+    "Thighs are forgiving - they stay juicy even if slightly overcooked."
+  ],
+  "source": "rcpbx original",
+  "sourceUrl": ""
+}
