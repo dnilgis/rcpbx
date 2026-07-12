@@ -1,617 +1,932 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.w3.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rcpbx.com/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://rcpbx.com/about/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://rcpbx.com/reference/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?cat=soups-stews</loc>
+    <loc>https://rcpbx.com/?category=soups-stews</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?cat=pasta</loc>
+    <loc>https://rcpbx.com/?category=pasta</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?cat=chicken</loc>
+    <loc>https://rcpbx.com/?category=chicken</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?cat=beef</loc>
+    <loc>https://rcpbx.com/?category=beef</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?cat=pork</loc>
+    <loc>https://rcpbx.com/?category=pork</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?cat=seafood</loc>
+    <loc>https://rcpbx.com/?category=seafood</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?cat=breakfast</loc>
+    <loc>https://rcpbx.com/?category=breakfast</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?cat=sides</loc>
+    <loc>https://rcpbx.com/?category=sides</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?cat=baking-dessert</loc>
+    <loc>https://rcpbx.com/?category=baking-dessert</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?cat=basics</loc>
+    <loc>https://rcpbx.com/?category=basics</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=apple-pie</loc>
+    <loc>https://rcpbx.com/recipes/aglio-e-olio/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=baby-back-ribs</loc>
+    <loc>https://rcpbx.com/recipes/apple-pie/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=baked-beans</loc>
+    <loc>https://rcpbx.com/recipes/baby-back-ribs/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=baked-chicken-breast</loc>
+    <loc>https://rcpbx.com/recipes/baked-beans/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=baked-cod</loc>
+    <loc>https://rcpbx.com/recipes/baked-chicken-breast/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=baked-potato</loc>
+    <loc>https://rcpbx.com/recipes/baked-cod/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=baked-ziti</loc>
+    <loc>https://rcpbx.com/recipes/baked-feta-pasta/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=banana-bread</loc>
+    <loc>https://rcpbx.com/recipes/baked-potato/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=bbq-sauce</loc>
+    <loc>https://rcpbx.com/recipes/baked-ziti/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=bechamel</loc>
+    <loc>https://rcpbx.com/recipes/banana-bread/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=beef-and-broccoli</loc>
+    <loc>https://rcpbx.com/recipes/bang-bang-shrimp/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=beef-barley-soup</loc>
+    <loc>https://rcpbx.com/recipes/bbq-sauce/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=beef-fajitas</loc>
+    <loc>https://rcpbx.com/recipes/bechamel/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=beef-stew</loc>
+    <loc>https://rcpbx.com/recipes/beef-and-broccoli/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=beef-stroganoff</loc>
+    <loc>https://rcpbx.com/recipes/beef-barley-soup/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=beef-tacos</loc>
+    <loc>https://rcpbx.com/recipes/beef-fajitas/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=biscuits-and-gravy</loc>
+    <loc>https://rcpbx.com/recipes/beef-stew/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=biscuits</loc>
+    <loc>https://rcpbx.com/recipes/beef-stroganoff/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=blueberry-muffins</loc>
+    <loc>https://rcpbx.com/recipes/beef-tacos/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=bolognese</loc>
+    <loc>https://rcpbx.com/recipes/birria-tacos/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=breakfast-burrito</loc>
+    <loc>https://rcpbx.com/recipes/biscuits-and-gravy/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=breakfast-casserole</loc>
+    <loc>https://rcpbx.com/recipes/biscuits/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=broccoli-cheddar-soup</loc>
+    <loc>https://rcpbx.com/recipes/blueberry-muffins/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=brownies</loc>
+    <loc>https://rcpbx.com/recipes/bolognese/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=buffalo-wings</loc>
+    <loc>https://rcpbx.com/recipes/breakfast-burrito/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=cacio-e-pepe</loc>
+    <loc>https://rcpbx.com/recipes/breakfast-casserole/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=carbonara</loc>
+    <loc>https://rcpbx.com/recipes/broccoli-cheddar-soup/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=carnitas</loc>
+    <loc>https://rcpbx.com/recipes/brownies/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=carrot-cake</loc>
+    <loc>https://rcpbx.com/recipes/bruschetta/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=cheesecake</loc>
+    <loc>https://rcpbx.com/recipes/buffalo-wings/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chicken-alfredo</loc>
+    <loc>https://rcpbx.com/recipes/buttercream-frosting/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chicken-fried-rice</loc>
+    <loc>https://rcpbx.com/recipes/cacio-e-pepe/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chicken-marsala</loc>
+    <loc>https://rcpbx.com/recipes/carbonara/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chicken-noodle-soup</loc>
+    <loc>https://rcpbx.com/recipes/carnitas/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chicken-parmesan</loc>
+    <loc>https://rcpbx.com/recipes/carrot-cake/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chicken-pot-pie</loc>
+    <loc>https://rcpbx.com/recipes/cheesecake/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chicken-salad</loc>
+    <loc>https://rcpbx.com/recipes/chicken-alfredo/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chicken-stir-fry</loc>
+    <loc>https://rcpbx.com/recipes/chicken-fried-rice/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chicken-stock</loc>
+    <loc>https://rcpbx.com/recipes/chicken-marsala/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chicken-tacos</loc>
+    <loc>https://rcpbx.com/recipes/chicken-noodle-soup/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chicken-tikka-masala</loc>
+    <loc>https://rcpbx.com/recipes/chicken-parmesan/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chicken-tortilla-soup</loc>
+    <loc>https://rcpbx.com/recipes/chicken-pot-pie/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chili-by-george</loc>
+    <loc>https://rcpbx.com/recipes/chicken-quesadilla/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chocolate-cake</loc>
+    <loc>https://rcpbx.com/recipes/chicken-salad/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=chocolate-chip-cookies</loc>
+    <loc>https://rcpbx.com/recipes/chicken-stir-fry/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=cinnamon-rolls</loc>
+    <loc>https://rcpbx.com/recipes/chicken-stock/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=coleslaw</loc>
+    <loc>https://rcpbx.com/recipes/chicken-tacos/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=cornbread</loc>
+    <loc>https://rcpbx.com/recipes/chicken-tikka-masala/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=crab-cakes</loc>
+    <loc>https://rcpbx.com/recipes/chicken-tortilla-soup/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=dinner-rolls</loc>
+    <loc>https://rcpbx.com/recipes/chili-by-george/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=eggs-benedict</loc>
+    <loc>https://rcpbx.com/recipes/chimichurri/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=fish-and-chips</loc>
+    <loc>https://rcpbx.com/recipes/chocolate-cake/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=fish-tacos</loc>
+    <loc>https://rcpbx.com/recipes/chocolate-chip-cookies/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=french-onion-soup</loc>
+    <loc>https://rcpbx.com/recipes/cinnamon-rolls/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=french-toast</loc>
+    <loc>https://rcpbx.com/recipes/clam-chowder/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=fried-chicken</loc>
+    <loc>https://rcpbx.com/recipes/coleslaw/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=glazed-ham</loc>
+    <loc>https://rcpbx.com/recipes/corn-on-the-cob/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=gravy</loc>
+    <loc>https://rcpbx.com/recipes/cornbread/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=green-bean-casserole</loc>
+    <loc>https://rcpbx.com/recipes/crab-cakes/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=guacamole</loc>
+    <loc>https://rcpbx.com/recipes/deviled-eggs/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=hash-browns</loc>
+    <loc>https://rcpbx.com/recipes/dinner-rolls/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=homemade-bread</loc>
+    <loc>https://rcpbx.com/recipes/eggs-benedict/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=lasagna</loc>
+    <loc>https://rcpbx.com/recipes/fish-and-chips/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=mac-and-cheese</loc>
+    <loc>https://rcpbx.com/recipes/fish-tacos/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=macaroni-salad</loc>
+    <loc>https://rcpbx.com/recipes/french-onion-soup/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=marinara-sauce</loc>
+    <loc>https://rcpbx.com/recipes/french-toast/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=mashed-potatoes</loc>
+    <loc>https://rcpbx.com/recipes/fried-chicken/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=meatloaf</loc>
+    <loc>https://rcpbx.com/recipes/garlic-bread/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=minestrone</loc>
+    <loc>https://rcpbx.com/recipes/garlic-butter-shrimp/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=omelette</loc>
+    <loc>https://rcpbx.com/recipes/glazed-ham/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=pan-seared-salmon</loc>
+    <loc>https://rcpbx.com/recipes/gravy/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=pan-seared-steak</loc>
+    <loc>https://rcpbx.com/recipes/green-bean-casserole/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=pancakes</loc>
+    <loc>https://rcpbx.com/recipes/guacamole/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=pasta-primavera</loc>
+    <loc>https://rcpbx.com/recipes/hash-browns/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=peach-cobbler</loc>
+    <loc>https://rcpbx.com/recipes/hollandaise/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=philly-cheesesteak</loc>
+    <loc>https://rcpbx.com/recipes/homemade-bread/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=pie-crust</loc>
+    <loc>https://rcpbx.com/recipes/honey-garlic-chicken/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=pizza-dough</loc>
+    <loc>https://rcpbx.com/recipes/hot-honey/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=pork-chops</loc>
+    <loc>https://rcpbx.com/recipes/lasagna/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=pork-fried-rice</loc>
+    <loc>https://rcpbx.com/recipes/lemon-bars/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=pork-tenderloin</loc>
+    <loc>https://rcpbx.com/recipes/lemon-chicken/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=pot-roast</loc>
+    <loc>https://rcpbx.com/recipes/mac-and-cheese/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=potato-salad</loc>
+    <loc>https://rcpbx.com/recipes/macaroni-salad/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=potato-soup</loc>
+    <loc>https://rcpbx.com/recipes/marinara-sauce/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=pound-cake</loc>
+    <loc>https://rcpbx.com/recipes/marry-me-chicken/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=pulled-pork</loc>
+    <loc>https://rcpbx.com/recipes/mashed-potatoes/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=pumpkin-pie</loc>
+    <loc>https://rcpbx.com/recipes/meatloaf/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=quiche</loc>
+    <loc>https://rcpbx.com/recipes/minestrone/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=rice-pilaf</loc>
+    <loc>https://rcpbx.com/recipes/omelette/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=roast-chicken</loc>
+    <loc>https://rcpbx.com/recipes/overnight-oats/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=roasted-vegetables</loc>
+    <loc>https://rcpbx.com/recipes/pan-seared-salmon/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=salmon-patties</loc>
+    <loc>https://rcpbx.com/recipes/pan-seared-steak/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=salsa</loc>
+    <loc>https://rcpbx.com/recipes/pancakes/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=scrambled-eggs</loc>
+    <loc>https://rcpbx.com/recipes/pasta-primavera/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=shepherds-pie</loc>
+    <loc>https://rcpbx.com/recipes/pasta-salad/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=shrimp-boil</loc>
+    <loc>https://rcpbx.com/recipes/peach-cobbler/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=shrimp-scampi</loc>
+    <loc>https://rcpbx.com/recipes/peanut-butter-cookies/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=sloppy-joes</loc>
+    <loc>https://rcpbx.com/recipes/penne-alla-vodka/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=smash-burgers</loc>
+    <loc>https://rcpbx.com/recipes/pesto/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=spaghetti-and-meatballs</loc>
+    <loc>https://rcpbx.com/recipes/philly-cheesesteak/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=split-pea-soup</loc>
+    <loc>https://rcpbx.com/recipes/pie-crust/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=stuffed-shells</loc>
+    <loc>https://rcpbx.com/recipes/pizza-dough/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=stuffing</loc>
+    <loc>https://rcpbx.com/recipes/pork-chops/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=sugar-cookies</loc>
+    <loc>https://rcpbx.com/recipes/pork-fried-rice/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=swedish-meatballs</loc>
+    <loc>https://rcpbx.com/recipes/pork-tenderloin/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=tomato-soup</loc>
+    <loc>https://rcpbx.com/recipes/pot-roast/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=tuna-noodle-casserole</loc>
+    <loc>https://rcpbx.com/recipes/potato-salad/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=tuna-salad</loc>
+    <loc>https://rcpbx.com/recipes/potato-soup/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=vinaigrette</loc>
+    <loc>https://rcpbx.com/recipes/pound-cake/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=waffles</loc>
+    <loc>https://rcpbx.com/recipes/pulled-pork/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://rcpbx.com/recipes/?r=white-chicken-chili</loc>
+    <loc>https://rcpbx.com/recipes/pumpkin-pie/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/quiche/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/ranch-dressing/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/rice-krispie-treats/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/rice-pilaf/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/roast-chicken/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/roasted-vegetables/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/salmon-patties/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/salsa/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/scrambled-eggs/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/shakshuka/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/shepherds-pie/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/shrimp-boil/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/shrimp-scampi/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/sloppy-joes/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/smash-burgers/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/snickerdoodles/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/spaghetti-and-meatballs/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/split-pea-soup/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/stuffed-shells/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/stuffing/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/sugar-cookies/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/swedish-meatballs/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/sweet-potato-casserole/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/teriyaki-chicken/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/tomato-soup/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/tuna-noodle-casserole/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/tuna-salad/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/vinaigrette/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/waffles/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/white-chicken-chili/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rcpbx.com/recipes/zucchini-bread/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

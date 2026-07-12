@@ -3,4 +3,6 @@ Allow: /
 
 Sitemap: https://rcpbx.com/sitemap.xml
 
-# Crawl-delay: 1
+# Clean recipe URLs
+# /recipes/chicken-parmesan/ (preferred)
+# /recipes/?r=chicken-parmesan (legacy, still works)
