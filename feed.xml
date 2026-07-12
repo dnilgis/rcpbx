@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/1998/Atom">
+  <channel>
+    <title>rcpbx - New Recipes</title>
+    <link>https://rcpbx.com</link>
+    <description>Recipes that work. No life stories. No ads.</description>
+    <language>en-us</language>
+    <atom:link href="https://rcpbx.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Sat, 12 Jul 2026 00:00:00 GMT</lastBuildDate>
+  </channel>
+</rss>
