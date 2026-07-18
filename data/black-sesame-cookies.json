@@ -1,0 +1,51 @@
+{
+  "id": "black-sesame-cookies",
+  "title": "Black Sesame Cookies",
+  "tagline": "Chewy sugar cookies with the flavor of the year.",
+  "description": "Crackly-edged, chewy-centered sugar cookies loaded with toasted black sesame - nutty, faintly bitter, halfway between tahini and dark chocolate. Black sesame is having its all-time-high moment; this is the easiest way in.",
+  "category": "Baking & Desserts",
+  "categorySlug": "baking-dessert",
+  "prep": "15 min",
+  "cook": "12 min",
+  "makes": "16 cookies",
+  "ingredients": [
+    "115g (1 stick) unsalted butter, softened",
+    "100g (1/2 cup) granulated sugar, plus more for rolling",
+    "50g (1/4 cup packed) brown sugar",
+    "1 large egg",
+    "50g (3 Tbsp) black sesame paste (or make your own - see notes)",
+    "1/2 tsp vanilla extract",
+    "160g (1 1/4 cups) all-purpose flour",
+    "1/2 tsp baking soda",
+    "1/2 tsp Diamond Crystal kosher salt",
+    "2 Tbsp black sesame seeds, for rolling"
+  ],
+  "steps": [
+    "Preheat oven to 350°F (175°C). Line two sheet pans with parchment.",
+    "Beat butter and both sugars until light and fluffy, 2-3 minutes.",
+    "Beat in the egg, then the black sesame paste and vanilla, until evenly slate-gray.",
+    "Whisk flour, baking soda, and salt; mix into the wet ingredients just until no dry streaks remain.",
+    "Roll 2-Tbsp balls, then roll each in a mix of granulated sugar and black sesame seeds.",
+    "Bake 11-12 minutes until the edges are set and the centers still look slightly underdone. They crackle as they cool.",
+    "Cool on the pan 5 minutes - they finish setting there - then move to a rack."
+  ],
+  "notes": [
+    "DIY paste: toast 70g black sesame seeds in a dry skillet 2-3 minutes until fragrant, then blend with 1 Tbsp neutral oil and 1 Tbsp honey until smooth-ish.",
+    "Black sesame paste (often labeled 'kuro neri goma') is at Japanese and Korean groceries - unsweetened is what you want here.",
+    "Underbaking is the chew. If they look done in the oven, they're overdone on the counter."
+  ],
+  "tested": "2026-07",
+  "testedNote": "Weighed, not scooped - this dough punishes extra flour with cakey cookies.",
+  "verdict": {
+    "status": "WORTH IT",
+    "note": "Tastes sophisticated, bakes like a snickerdoodle - the highest flavor-to-effort ratio on this site."
+  },
+  "troubleshooting": [
+    "Cakey, puffy cookies → too much flour or overmixed; weigh the flour, stop at no-streaks.",
+    "Spread into puddles → butter too soft or pans hot; chill dough 15 minutes between batches.",
+    "Bitter edge → seeds over-toasted; black sesame goes from fragrant to acrid fast.",
+    "Dry, crumbly dough → paste was stiff old-jar sludge; stir the jar's oil back in first."
+  ],
+  "source": "rcpbx original",
+  "sourceUrl": ""
+}

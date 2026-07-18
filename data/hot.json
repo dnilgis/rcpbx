@@ -1,0 +1,37 @@
+[
+  {
+    "id": "cottage-cheese-tacos",
+    "title": "Cottage Cheese Taco Shells",
+    "dateTested": "2026-07-18",
+    "verdict": "WORTH IT",
+    "note": "the protein taco shell, rack-crisped"
+  },
+  {
+    "id": "yogurt-tiramisu",
+    "title": "Yogurt Tiramisu",
+    "dateTested": "2026-07-18",
+    "verdict": "WORTH IT",
+    "note": "4 ingredients, better than the video"
+  },
+  {
+    "id": "buldak-carbonara",
+    "title": "Buldak Carbonara",
+    "dateTested": "2026-07-18",
+    "verdict": "WORTH IT",
+    "note": "fire noodles, carbonara logic"
+  },
+  {
+    "id": "frozen-yogurt-clusters",
+    "title": "Frozen Yogurt Clusters",
+    "dateTested": "2026-07-18",
+    "verdict": "WORTH IT",
+    "note": "snappy shell, freezer stash"
+  },
+  {
+    "id": "dubai-chocolate-bar",
+    "title": "Dubai Chocolate Bar",
+    "dateTested": "2026-07-18",
+    "verdict": "WORTH IT",
+    "note": "rebuilt with real pistachio cream"
+  }
+]

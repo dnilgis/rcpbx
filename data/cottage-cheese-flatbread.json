@@ -1,33 +1,44 @@
 {
   "id": "cottage-cheese-flatbread",
   "title": "Cottage Cheese Flatbread",
-  "tagline": "2-ingredient high-protein flatbread. TikTok's healthiest obsession.",
-  "description": "Crispy, chewy flatbread made with just cottage cheese and flour. 15g protein per flatbread. Works as pizza crust, wrap, or naan substitute.",
+  "tagline": "The viral flourless version: cottage cheese, eggs, an oven.",
+  "description": "The flatbread that took over TikTok is flourless - blended cottage cheese and eggs baked into a flexible, golden sheet you use as a high-protein wrap. About 20g protein in a half. Let's be honest about what it is: closer to a sturdy baked omelet than bread, and useful anyway.",
   "category": "Basics",
   "categorySlug": "basics",
   "prep": "5 min",
-  "cook": "10 min",
-  "makes": "2 flatbreads",
+  "cook": "35 min",
+  "makes": "1 large flatbread (2 servings)",
   "ingredients": [
-    "1 cup cottage cheese",
-    "1/2 cup all-purpose flour (or oat flour)",
-    "1/4 tsp salt",
+    "1 cup (225g) full-fat cottage cheese",
+    "2 large eggs",
+    "1/4 tsp Diamond Crystal kosher salt (a pinch of table salt)",
     "1/2 tsp garlic powder (optional)",
-    "Italian herbs (optional)",
-    "Olive oil for cooking"
+    "1/2 tsp Italian herbs or everything bagel seasoning (optional)"
   ],
   "steps": [
-    "Blend cottage cheese in a blender or food processor until completely smooth, about 30 seconds.",
-    "Add flour, salt, and any seasonings. Blend until a sticky dough forms.",
-    "Divide dough in half. On a floured surface, roll each piece into a thin round (about 8 inches).",
-    "Heat a non-stick skillet over medium-high heat. Brush lightly with olive oil.",
-    "Cook flatbread 2-3 minutes per side until golden brown spots appear and it's cooked through.",
-    "Serve warm as-is, or top with your favorite toppings for a quick pizza."
+    "Preheat oven to 350°F (175°C). Line a sheet pan with parchment and mist the parchment lightly with oil - this thing loves to stick.",
+    "Blend cottage cheese, eggs, salt, and seasonings until completely smooth, about 30 seconds. Lumps bake into rubbery pockets.",
+    "Pour onto the parchment and spread into a thin rectangle, roughly 8x11 inches and 1/4 inch thick. Thinner at the edges = burnt lace; keep it even.",
+    "Bake 30-40 minutes until golden brown across the surface and fully set in the center - the eggs should be completely cooked with no wet sheen (an instant-read in the middle will read 160°F+).",
+    "Cool 5 minutes, then peel off the parchment. Warm, it's flexible enough to fold and roll.",
+    "Use as a wrap, or top like a pizza and broil 2-3 minutes until the cheese melts."
   ],
   "notes": [
-    "Must blend the cottage cheese smooth - lumps = weird texture.",
-    "Dough is sticky - use plenty of flour when rolling.",
-    "For pizza: top with sauce and cheese, broil 2-3 min until melted."
+    "Full-fat cottage cheese only. Nonfat weeps water and bakes up rubbery.",
+    "This is not bread and won't fool anyone who's had bread. It IS a genuinely useful low-carb, high-protein wrap that holds fillings without cracking.",
+    "Want an actual chewy flatbread instead? The pre-viral 2-ingredient dough version: blend 1 cup (225g) cottage cheese smooth, mix with 1/2 cup (60g) all-purpose flour and 1/4 tsp salt into a sticky dough, roll thin with plenty of flour, and cook in an oiled skillet 2-3 minutes per side. More carbs, more bread."
+  ],
+  "tested": "2026-07",
+  "testedNote": "Made the flourless viral version (cottage cheese + eggs, baked) the primary recipe; the old skillet flour-dough version moved to a note.",
+  "verdict": {
+    "status": "OVERHYPED",
+    "note": "A solid high-protein wrap, but anyone calling this 'bread' is lying to you - it's a flat baked omelet."
+  },
+  "troubleshooting": [
+    "Stuck to the parchment → you skipped oiling it, or peeled while piping hot; grease the paper and give it 5 minutes.",
+    "Wet, eggy middle → underbaked or spread too thick; it needs to be golden and set edge to edge.",
+    "Rubbery texture → nonfat cottage cheese or unblended lumps; use full-fat and blend fully smooth.",
+    "Cracks when rolled → overbaked or rolled cold; wrap while still warm."
   ],
   "source": "TikTok viral recipe",
   "sourceUrl": ""

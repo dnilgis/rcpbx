@@ -2,324 +2,112 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Baked Recipes | rcpbx</title>
-  <meta name="description" content="Into the oven, hands off.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
+  <meta name="description" content="Oven-driven recipes with real temperatures and doneness cues.">
+  <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://rcpbx.com/baked/">
-  <meta property="og:title" content="Baked Recipes | rcpbx">
-  <meta property="og:description" content="Into the oven, hands off.">
+  <meta property="og:type" content="website">
   <meta property="og:url" content="https://rcpbx.com/baked/">
+  <meta property="og:title" content="Baked Recipes | rcpbx">
+  <meta property="og:description" content="Oven-driven recipes with real temperatures and doneness cues.">
+  <meta property="og:site_name" content="rcpbx">
+  <meta property="og:image" content="https://rcpbx.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://rcpbx.com/og-image.png">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"CollectionPage","name":"Baked Recipes","description":"Into the oven, hands off.","url":"https://rcpbx.com/baked/"}
+{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Baked Recipes", "description": "Oven-driven recipes with real temperatures and doneness cues.", "url": "https://rcpbx.com/baked/", "mainEntity": {"@type": "ItemList", "numberOfItems": 3, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Black Sesame Cookies", "url": "https://rcpbx.com/recipes/black-sesame-cookies/"}, {"@type": "ListItem", "position": 2, "name": "Cottage Cheese Flatbread", "url": "https://rcpbx.com/recipes/cottage-cheese-flatbread/"}, {"@type": "ListItem", "position": 3, "name": "Cottage Cheese Taco Shells", "url": "https://rcpbx.com/recipes/cottage-cheese-tacos/"}]}}
   </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2VNWY2BFX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E2VNWY2BFX');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    :root { --bg: #faf9f6; --text: #222; --text-muted: #666; --border: #ddd; --accent: #16a34a; }
-    @media (prefers-color-scheme: dark) { :root { --bg: #111; --text: #e5e5e5; --text-muted: #999; --border: #333; --accent: #22c55e; } }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding: 2rem; }
-    .container { max-width: 800px; margin: 0 auto; }
-    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-    .subtitle { color: var(--text-muted); margin-bottom: 2rem; font-size: 1.1rem; }
-    .count { color: var(--accent); font-weight: 600; }
-    .recipes { display: grid; gap: 0.75rem; }
-    .recipe-card { display: flex; flex-direction: column; gap: 0.25rem; padding: 1rem; border: 1px solid var(--border); border-radius: 8px; text-decoration: none; color: var(--text); transition: border-color 0.15s; }
-    .recipe-card:hover { border-color: var(--accent); }
-    .recipe-title { font-weight: 600; }
-    .recipe-meta { font-size: 0.85rem; color: var(--text-muted); }
-    .back { display: inline-block; margin-bottom: 2rem; color: var(--text-muted); text-decoration: none; font-size: 0.9rem; }
-    .back:hover { color: var(--accent); }
-    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); text-align: center; font-size: 0.8rem; color: var(--text-muted); }
-    footer a { color: var(--accent); text-decoration: none; }
+    :root {
+      --bg: #faf9f6; --bg-alt: #f0efeb; --text: #222; --text-muted: #666; --text-dim: #999;
+      --border: #ddd; --accent: #16a34a; --accent-dim: rgba(22,163,74,0.1);
+      --font-sans: 'Inter', -apple-system, sans-serif; --font-mono: 'JetBrains Mono', monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111; --bg-alt: #1a1a1a; --text: #e5e5e5; --text-muted: #999; --text-dim: #666;
+        --border: #333; --accent: #22c55e; --accent-dim: rgba(34,197,94,0.15); }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-family: var(--font-sans); background: var(--bg); color: var(--text); line-height: 1.6; }
+    header { border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; }
+    .header-inner { max-width: 800px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600; text-decoration: none; color: var(--text); }
+    .logo-prefix { color: var(--accent); }
+    .header-link { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); text-decoration: none; text-transform: uppercase; letter-spacing: 0.05em; }
+    .header-link:hover { color: var(--accent); }
+    main { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+    .breadcrumb { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 1rem; font-family: var(--font-mono); }
+    .breadcrumb a { color: var(--text-muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--accent); }
+    h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    .intro { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.75rem; max-width: 62ch; }
+    .count-line { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-dim); margin-bottom: 1rem; }
+    .count-line span { color: var(--accent); }
+    .recipe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.75rem; }
+    .recipe-card { display: block; padding: 0.85rem 1rem; border: 1px solid var(--border); border-radius: 6px;
+      text-decoration: none; transition: border-color 0.15s, transform 0.15s; }
+    .recipe-card:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .recipe-title { display: block; font-weight: 600; font-size: 0.95rem; color: var(--text); }
+    .card-verdict { font-family: var(--font-mono); font-size: 0.6rem; color: var(--accent); font-weight: 500; }
+    .recipe-tagline { display: block; font-size: 0.78rem; color: var(--text-muted); margin-top: 0.15rem; }
+    .recipe-meta { display: block; font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-dim); margin-top: 0.3rem; }
+    .also { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1.25rem;
+      font-family: var(--font-mono); font-size: 0.75rem; line-height: 2.1; color: var(--text-dim); }
+    .also a { color: var(--text-muted); text-decoration: none; }
+    .also a:hover { color: var(--accent); }
+    .also .lbl { color: var(--accent); margin-right: 0.4rem; }
+    footer { border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; margin-top: 3rem; }
+    .footer-text { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); }
+    .footer-text a { color: var(--accent); text-decoration: none; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <a href="/" class="back">← all recipes</a>
+  <header>
+    <div class="header-inner">
+      <a href="/" class="logo"><span class="logo-prefix">&gt;</span>rcpbx</a>
+      <a href="/" class="header-link">← all recipes</a>
+    </div>
+  </header>
+  <main>
+    <nav class="breadcrumb"><a href="/">home</a> / baked recipes</nav>
     <h1>Baked Recipes</h1>
-    <p class="subtitle">Into the oven, hands off. <span class="count">70 recipes</span></p>
-    <div class="recipes">
-        <a href="/recipes/apple-pie/" class="recipe-card">
-          <span class="recipe-title">Apple Pie</span>
-          <span class="recipe-meta"> +  · 8</span>
-        </a>
-        <a href="/recipes/baby-back-ribs/" class="recipe-card">
-          <span class="recipe-title">Baby Back Ribs</span>
-          <span class="recipe-meta"> +  · 4</span>
-        </a>
-        <a href="/recipes/baked-beans/" class="recipe-card">
-          <span class="recipe-title">Baked Beans</span>
-          <span class="recipe-meta"> +  · 8-10</span>
-        </a>
-        <a href="/recipes/baked-chicken-breast/" class="recipe-card">
-          <span class="recipe-title">Baked Chicken Breast</span>
-          <span class="recipe-meta"> +  · 4</span>
-        </a>
-        <a href="/recipes/baked-cod/" class="recipe-card">
-          <span class="recipe-title">Baked Cod</span>
-          <span class="recipe-meta"> +  · 4</span>
-        </a>
-        <a href="/recipes/baked-feta-pasta/" class="recipe-card">
-          <span class="recipe-title">Baked Feta Pasta</span>
-          <span class="recipe-meta">10 min + 35 min · 4</span>
-        </a>
-        <a href="/recipes/baked-potato/" class="recipe-card">
-          <span class="recipe-title">Baked Potato</span>
-          <span class="recipe-meta"> +  · 4</span>
-        </a>
-        <a href="/recipes/baked-ziti/" class="recipe-card">
-          <span class="recipe-title">Baked Ziti</span>
-          <span class="recipe-meta"> +  · 8-10</span>
-        </a>
-        <a href="/recipes/banana-bread/" class="recipe-card">
-          <span class="recipe-title">Banana Bread</span>
-          <span class="recipe-meta">15 min + 1 hr · 1 loaf</span>
-        </a>
-        <a href="/recipes/beef-stew/" class="recipe-card">
-          <span class="recipe-title">Beef Stew</span>
-          <span class="recipe-meta">30 min + 2½ hrs · 6</span>
-        </a>
-        <a href="/recipes/birria-tacos/" class="recipe-card">
-          <span class="recipe-title">Birria Tacos</span>
-          <span class="recipe-meta">30 min + 3 hours · 8</span>
-        </a>
-        <a href="/recipes/biscuits/" class="recipe-card">
-          <span class="recipe-title">Buttermilk Biscuits</span>
-          <span class="recipe-meta"> +  · 8-10</span>
-        </a>
-        <a href="/recipes/blueberry-muffins/" class="recipe-card">
-          <span class="recipe-title">Blueberry Muffins</span>
-          <span class="recipe-meta"> +  · 12</span>
-        </a>
-        <a href="/recipes/breakfast-casserole/" class="recipe-card">
-          <span class="recipe-title">Breakfast Casserole</span>
-          <span class="recipe-meta"> +  · 8-10</span>
-        </a>
-        <a href="/recipes/broccoli-cheddar-soup/" class="recipe-card">
-          <span class="recipe-title">Broccoli Cheddar Soup</span>
-          <span class="recipe-meta"> +  · 6-8</span>
-        </a>
-        <a href="/recipes/brownies/" class="recipe-card">
-          <span class="recipe-title">Fudgy Brownies</span>
-          <span class="recipe-meta">15 min + 25 min · 16</span>
-        </a>
-        <a href="/recipes/buffalo-wings/" class="recipe-card">
-          <span class="recipe-title">Buffalo Wings</span>
-          <span class="recipe-meta"> +  · 4</span>
-        </a>
-        <a href="/recipes/caesar-salad/" class="recipe-card">
-          <span class="recipe-title">Caesar Salad</span>
-          <span class="recipe-meta">20 min + 10 min · 4</span>
-        </a>
-        <a href="/recipes/carnitas/" class="recipe-card">
-          <span class="recipe-title">Carnitas</span>
-          <span class="recipe-meta"> +  · 8-10</span>
-        </a>
-        <a href="/recipes/carrot-cake/" class="recipe-card">
-          <span class="recipe-title">Carrot Cake</span>
-          <span class="recipe-meta"> +  · 12</span>
-        </a>
-        <a href="/recipes/cheesecake/" class="recipe-card">
-          <span class="recipe-title">New York Cheesecake</span>
-          <span class="recipe-meta"> +  · 12</span>
-        </a>
-        <a href="/recipes/chicken-parmesan/" class="recipe-card">
-          <span class="recipe-title">Chicken Parmesan</span>
-          <span class="recipe-meta">20 min + 25 min · 4</span>
-        </a>
-        <a href="/recipes/chicken-pot-pie/" class="recipe-card">
-          <span class="recipe-title">Chicken Pot Pie</span>
-          <span class="recipe-meta"> +  · 6</span>
-        </a>
-        <a href="/recipes/chicken-quesadilla/" class="recipe-card">
-          <span class="recipe-title">Chicken Quesadilla</span>
-          <span class="recipe-meta">10 min + 10 min · 4</span>
-        </a>
-        <a href="/recipes/chicken-tacos/" class="recipe-card">
-          <span class="recipe-title">Chicken Tacos</span>
-          <span class="recipe-meta"> +  · 4-6</span>
-        </a>
-        <a href="/recipes/chimichurri/" class="recipe-card">
-          <span class="recipe-title">Chimichurri</span>
-          <span class="recipe-meta">10 min + 0 min · 1 cup</span>
-        </a>
-        <a href="/recipes/chocolate-cake/" class="recipe-card">
-          <span class="recipe-title">Chocolate Cake</span>
-          <span class="recipe-meta"> +  · 12</span>
-        </a>
-        <a href="/recipes/chocolate-chip-cookies/" class="recipe-card">
-          <span class="recipe-title">Chocolate Chip Cookies</span>
-          <span class="recipe-meta">20 min + 12 min · 16</span>
-        </a>
-        <a href="/recipes/cinnamon-rolls/" class="recipe-card">
-          <span class="recipe-title">Cinnamon Rolls</span>
-          <span class="recipe-meta"> +  · 12</span>
-        </a>
-        <a href="/recipes/clam-chowder/" class="recipe-card">
-          <span class="recipe-title">New England Clam Chowder</span>
-          <span class="recipe-meta">20 min + 35 min · 6</span>
-        </a>
-        <a href="/recipes/corn-on-the-cob/" class="recipe-card">
-          <span class="recipe-title">Corn on the Cob</span>
-          <span class="recipe-meta">5 min + 10 min · 6</span>
-        </a>
-        <a href="/recipes/cornbread/" class="recipe-card">
-          <span class="recipe-title">Southern Cornbread</span>
-          <span class="recipe-meta">10 min + 25 min · 8</span>
-        </a>
-        <a href="/recipes/dinner-rolls/" class="recipe-card">
-          <span class="recipe-title">Dinner Rolls</span>
-          <span class="recipe-meta"> +  · 16</span>
-        </a>
-        <a href="/recipes/dubai-chocolate-bar/" class="recipe-card">
-          <span class="recipe-title">Dubai Chocolate Bar</span>
-          <span class="recipe-meta">30 min + 15 min · 8 bars</span>
-        </a>
-        <a href="/recipes/french-onion-soup/" class="recipe-card">
-          <span class="recipe-title">French Onion Soup</span>
-          <span class="recipe-meta"> +  · 6</span>
-        </a>
-        <a href="/recipes/french-toast/" class="recipe-card">
-          <span class="recipe-title">French Toast</span>
-          <span class="recipe-meta"> +  · 4</span>
-        </a>
-        <a href="/recipes/fried-chicken/" class="recipe-card">
-          <span class="recipe-title">Southern Fried Chicken</span>
-          <span class="recipe-meta">30 min +  · 4</span>
-        </a>
-        <a href="/recipes/garlic-bread/" class="recipe-card">
-          <span class="recipe-title">Garlic Bread</span>
-          <span class="recipe-meta">10 min + 12 min · 8</span>
-        </a>
-        <a href="/recipes/glazed-ham/" class="recipe-card">
-          <span class="recipe-title">Glazed Ham</span>
-          <span class="recipe-meta"> +  · 12-15</span>
-        </a>
-        <a href="/recipes/gravy/" class="recipe-card">
-          <span class="recipe-title">Gravy</span>
-          <span class="recipe-meta"> +  · 3 cups</span>
-        </a>
-        <a href="/recipes/green-bean-casserole/" class="recipe-card">
-          <span class="recipe-title">Green Bean Casserole</span>
-          <span class="recipe-meta"> +  · 8-10</span>
-        </a>
-        <a href="/recipes/homemade-bread/" class="recipe-card">
-          <span class="recipe-title">Homemade Bread</span>
-          <span class="recipe-meta"> +  · 1 loaf</span>
-        </a>
-        <a href="/recipes/honey-garlic-chicken/" class="recipe-card">
-          <span class="recipe-title">Honey Garlic Chicken</span>
-          <span class="recipe-meta">10 min + 25 min · 4</span>
-        </a>
-        <a href="/recipes/lasagna/" class="recipe-card">
-          <span class="recipe-title">Lasagna</span>
-          <span class="recipe-meta">45 min + 2½ hrs · 12</span>
-        </a>
-        <a href="/recipes/lemon-bars/" class="recipe-card">
-          <span class="recipe-title">Lemon Bars</span>
-          <span class="recipe-meta">20 min + 45 min · 16 bars</span>
-        </a>
-        <a href="/recipes/lemon-chicken/" class="recipe-card">
-          <span class="recipe-title">Lemon Chicken</span>
-          <span class="recipe-meta">10 min + 20 min · 4</span>
-        </a>
-        <a href="/recipes/mac-and-cheese/" class="recipe-card">
-          <span class="recipe-title">Baked Mac & Cheese</span>
-          <span class="recipe-meta">20 min + 35 min · 8</span>
-        </a>
-        <a href="/recipes/meatloaf/" class="recipe-card">
-          <span class="recipe-title">Meatloaf</span>
-          <span class="recipe-meta">15 min + 1 hr · 8</span>
-        </a>
-        <a href="/recipes/pancakes/" class="recipe-card">
-          <span class="recipe-title">Buttermilk Pancakes</span>
-          <span class="recipe-meta">10 min +  · 12</span>
-        </a>
-        <a href="/recipes/pasta-salad/" class="recipe-card">
-          <span class="recipe-title">Italian Pasta Salad</span>
-          <span class="recipe-meta">20 min + 10 min · 12</span>
-        </a>
-        <a href="/recipes/peach-cobbler/" class="recipe-card">
-          <span class="recipe-title">Peach Cobbler</span>
-          <span class="recipe-meta"> +  · 8</span>
-        </a>
-        <a href="/recipes/peanut-butter-cookies/" class="recipe-card">
-          <span class="recipe-title">Peanut Butter Cookies</span>
-          <span class="recipe-meta">10 min + 10 min · 24 cookies</span>
-        </a>
-        <a href="/recipes/pork-tenderloin/" class="recipe-card">
-          <span class="recipe-title">Roasted Pork Tenderloin</span>
-          <span class="recipe-meta"> +  · 4-6</span>
-        </a>
-        <a href="/recipes/pot-roast/" class="recipe-card">
-          <span class="recipe-title">Pot Roast</span>
-          <span class="recipe-meta"> +  · 6-8</span>
-        </a>
-        <a href="/recipes/potato-soup/" class="recipe-card">
-          <span class="recipe-title">Loaded Baked Potato Soup</span>
-          <span class="recipe-meta"> +  · 6-8</span>
-        </a>
-        <a href="/recipes/pound-cake/" class="recipe-card">
-          <span class="recipe-title">Pound Cake</span>
-          <span class="recipe-meta"> +  · 12</span>
-        </a>
-        <a href="/recipes/pulled-pork/" class="recipe-card">
-          <span class="recipe-title">Pulled Pork</span>
-          <span class="recipe-meta"> +  · 10-12</span>
-        </a>
-        <a href="/recipes/pumpkin-pie/" class="recipe-card">
-          <span class="recipe-title">Pumpkin Pie</span>
-          <span class="recipe-meta"> +  · 8</span>
-        </a>
-        <a href="/recipes/quiche/" class="recipe-card">
-          <span class="recipe-title">Quiche Lorraine</span>
-          <span class="recipe-meta"> +  · 6-8</span>
-        </a>
-        <a href="/recipes/roast-chicken/" class="recipe-card">
-          <span class="recipe-title">Roast Chicken</span>
-          <span class="recipe-meta">5 min + 1 hr · 4</span>
-        </a>
-        <a href="/recipes/roasted-vegetables/" class="recipe-card">
-          <span class="recipe-title">Roasted Vegetables</span>
-          <span class="recipe-meta"> +  · 4-6</span>
-        </a>
-        <a href="/recipes/snickerdoodles/" class="recipe-card">
-          <span class="recipe-title">Snickerdoodles</span>
-          <span class="recipe-meta">15 min + 10 min · 24 cookies</span>
-        </a>
-        <a href="/recipes/spaghetti-and-meatballs/" class="recipe-card">
-          <span class="recipe-title">Spaghetti & Meatballs</span>
-          <span class="recipe-meta">20 min + 45 min · 6</span>
-        </a>
-        <a href="/recipes/stuffed-shells/" class="recipe-card">
-          <span class="recipe-title">Stuffed Shells</span>
-          <span class="recipe-meta"> +  · 8</span>
-        </a>
-        <a href="/recipes/stuffing/" class="recipe-card">
-          <span class="recipe-title">Stuffing</span>
-          <span class="recipe-meta"> +  · 10-12</span>
-        </a>
-        <a href="/recipes/sugar-cookies/" class="recipe-card">
-          <span class="recipe-title">Sugar Cookies</span>
-          <span class="recipe-meta"> +  · 24-36</span>
-        </a>
-        <a href="/recipes/sweet-potato-casserole/" class="recipe-card">
-          <span class="recipe-title">Sweet Potato Casserole</span>
-          <span class="recipe-meta">20 min + 45 min · 10</span>
-        </a>
-        <a href="/recipes/tuna-noodle-casserole/" class="recipe-card">
-          <span class="recipe-title">Tuna Noodle Casserole</span>
-          <span class="recipe-meta">15 min + 30 min · 6</span>
-        </a>
-        <a href="/recipes/waffles/" class="recipe-card">
-          <span class="recipe-title">Crispy Waffles</span>
-          <span class="recipe-meta">10 min + 20 min · 6</span>
-        </a>
-        <a href="/recipes/zucchini-bread/" class="recipe-card">
-          <span class="recipe-title">Zucchini Bread</span>
-          <span class="recipe-meta">15 min + 55 min · 1 loaf (10 slices)</span>
+    <p class="intro">Oven-driven recipes with real temperatures and doneness cues.</p>
+    <p class="count-line"><span>3</span> recipes · every one opens to ingredients and steps, nothing else</p>
+    <div class="recipe-grid">
+        <a href="/recipes/black-sesame-cookies/" class="recipe-card">
+          <span class="recipe-title">Black Sesame Cookies <span class="card-verdict">[WORTH IT]</span></span>
+          <span class="recipe-tagline">Chewy sugar cookies with the flavor of the year.</span>
+          <span class="recipe-meta">27 min · makes 16 cookies</span>
+        </a>
+        <a href="/recipes/cottage-cheese-flatbread/" class="recipe-card">
+          <span class="recipe-title">Cottage Cheese Flatbread <span class="card-verdict">[OVERHYPED]</span></span>
+          <span class="recipe-tagline">The viral flourless version: cottage cheese, eggs, an oven.</span>
+          <span class="recipe-meta">40 min · makes 1 large flatbread (2 servings)</span>
+        </a>
+        <a href="/recipes/cottage-cheese-tacos/" class="recipe-card">
+          <span class="recipe-title">Cottage Cheese Taco Shells <span class="card-verdict">[WORTH IT]</span></span>
+          <span class="recipe-tagline">The protein taco shell that ate TikTok this summer.</span>
+          <span class="recipe-meta">45 min · serves 3 (6 tacos)</span>
         </a>
     </div>
-    <footer><a href="/">rcpbx.com</a> · no life stories · no ads</footer>
-  </div>
+    <div class="also"><span class="lbl">&gt; also:</span><a href="/15-minute-meals/">15-minute meals</a> · <a href="/30-minute-meals/">30-minute meals</a> · <a href="/weeknight/">weeknight dinners</a> · <a href="/no-cook/">no-cook</a> · <a href="/easy-recipes/">easy</a> · <a href="/chicken-recipes/">chicken</a> · <a href="/pasta-recipes/">pasta</a> · <a href="/dessert-recipes/">desserts</a></div>
+  </main>
+  <footer>
+    <p class="footer-text"><a href="/">rcpbx.com</a> · no life stories · no ads · <a href="/random/">random recipe</a></p>
+  </footer>
 </body>
 </html>

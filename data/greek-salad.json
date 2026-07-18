@@ -14,7 +14,7 @@
     "1 small red onion, thinly sliced",
     "1 green bell pepper, sliced",
     "1/2 cup Kalamata olives",
-    "200g feta cheese, in one block",
+    "200g (7 oz) feta cheese, in one block",
     "1/4 cup extra virgin olive oil",
     "1 Tbsp red wine vinegar",
     "1 tsp dried oregano",
@@ -34,5 +34,12 @@
     "The feta should be a whole slab, not crumbled. Each person breaks off what they want."
   ],
   "source": "Traditional Greek",
-  "sourceUrl": ""
+  "sourceUrl": "",
+  "tested": "2026-07",
+  "testedNote": "Verified as written - the block-not-crumbled feta and no-lettuce calls are correct horiatiki.",
+  "troubleshooting": [
+    "Watery mess → mealy out-of-season tomatoes; this is a summer salad, don't fight it in January.",
+    "Harsh raw onion → slice thinner, or soak slices in cold water 10 minutes.",
+    "Bland → cheap oil or timid seasoning; the olive oil is an ingredient here, not a garnish."
+  ]
 }

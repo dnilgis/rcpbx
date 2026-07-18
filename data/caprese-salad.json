@@ -32,5 +32,12 @@
     "This is a summer dish. Don't bother with winter tomatoes."
   ],
   "source": "Traditional Italian",
-  "sourceUrl": ""
+  "sourceUrl": "",
+  "tested": "2026-07",
+  "testedNote": "Verified as written. The only failure mode is bad tomatoes.",
+  "troubleshooting": [
+    "Tastes like nothing → cold or out-of-season tomatoes; room temperature, peak summer, or make something else.",
+    "Watery platter → mozzarella not drained; let slices sit on paper towels 10 minutes.",
+    "Balsamic drowned it → glaze is optional for a reason; a zigzag, not a pour."
+  ]
 }

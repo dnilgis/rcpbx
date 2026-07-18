@@ -10,7 +10,7 @@
   "serves": "4",
   "ingredients": [
     "4 Persian cucumbers (or 2 English cucumbers)",
-    "1 tsp salt",
+    "1 tsp Diamond Crystal kosher salt (for draining)",
     "4 cloves garlic, minced",
     "2 Tbsp soy sauce",
     "1 Tbsp rice vinegar",
@@ -34,5 +34,16 @@
     "Best eaten within 30 minutes. The cucumbers will continue to release water."
   ],
   "source": "Chinese pai huang gua",
-  "sourceUrl": ""
+  "sourceUrl": "",
+  "tested": "2026-07",
+  "testedNote": "Verified the salt-and-drain step is non-negotiable - skipping it waters the dressing down in minutes.",
+  "verdict": {
+    "status": "WORTH IT",
+    "note": "Five minutes of work for the best thing on the table - the 500M views are deserved."
+  },
+  "troubleshooting": [
+    "Watery puddle in the bowl → skipped the salt-drain, or it sat too long; drain 15 minutes and eat within 30.",
+    "Not crunchy → wrong cucumber; Persian or English only - regular slicers are all seeds and water.",
+    "Too fiery → chili crisp overload; start with 1 Tbsp, and know the oil spreads heat more than the flakes."
+  ]
 }

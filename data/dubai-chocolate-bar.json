@@ -1,36 +1,47 @@
 {
   "id": "dubai-chocolate-bar",
   "title": "Dubai Chocolate Bar",
-  "tagline": "The viral pistachio-kunafa chocolate that broke the internet.",
-  "description": "Homemade version of the Fix Dessert Chocolatier chocolate bar that went viral in 2024. Layers of crunchy kunafa (kataifi), tahini-pistachio filling, and dark chocolate.",
+  "tagline": "The viral pistachio-kunafa chocolate, made with the right filling.",
+  "description": "Homemade version of the Fix Dessert Chocolatier 'Can't Get Knafeh of It' bar: a chocolate shell around crispy toasted kataifi bound in pistachio cream. The pistachio cream is the whole point - substitutes miss the mark.",
   "category": "Baking & Desserts",
   "categorySlug": "baking-dessert",
   "prep": "30 min",
-  "cook": "15 min",
+  "cook": "10 min",
   "makes": "8 bars",
   "ingredients": [
-    "200g dark chocolate (70%)",
-    "100g kataifi pastry (shredded phyllo)",
-    "3 Tbsp butter, melted",
-    "1 cup pistachios, finely chopped",
-    "1/2 cup tahini",
-    "1/4 cup honey",
-    "1/4 tsp salt",
-    "1 Tbsp rose water (optional)"
+    "300g (10.5 oz) milk chocolate, chopped (dark works, but the original is milk)",
+    "For the filling:",
+    "100g kataifi pastry (shredded phyllo), roughly chopped",
+    "45g (3 Tbsp) unsalted butter",
+    "250g (about 3/4 cup) pistachio cream (sweetened 'crema di pistacchio' spread - not unsweetened pistachio butter)",
+    "1 Tbsp tahini (optional - loosens the filling and cuts the sweetness)",
+    "1/4 tsp fine salt"
   ],
   "steps": [
-    "Preheat oven to 350°F (175°C). Toss kataifi with melted butter, spread on baking sheet. Bake 10-12 min until golden and crispy. Let cool, then crumble into small pieces.",
-    "Mix tahini, honey, salt, and rose water in a bowl. Fold in chopped pistachios and half the crispy kataifi. The mixture should be thick but spreadable.",
-    "Melt chocolate in a double boiler or microwave (30-second intervals, stirring between).",
-    "Line a 9x5 loaf pan with parchment. Pour half the chocolate into the pan, spread evenly. Refrigerate 5 min until just set.",
-    "Spread the pistachio-tahini mixture evenly over the chocolate layer. Press remaining kataifi crumbles on top.",
-    "Pour remaining melted chocolate over the top, spreading to cover completely. Tap pan to release air bubbles.",
-    "Refrigerate at least 2 hours until fully set. Slice into bars with a sharp knife dipped in hot water."
+    "Toast the kataifi: melt butter in a wide skillet over medium heat, add chopped kataifi, and stir constantly 5-8 minutes until deep golden brown and crisp everywhere. Pale kataifi = soggy filling. Cool completely.",
+    "Stir pistachio cream, tahini, and salt together, then fold in the cooled kataifi. It should look like green granola bound in cream, still crunchy.",
+    "Decide on your chocolate path. Option A, temper (bars snap and survive room temp): melt two-thirds of the chocolate to 113°F (45°C), pull off heat, stir in the remaining third until it cools to 84°F (29°C), then rewarm briefly to 86°F (30°C). Option B, just melt it in 30-second microwave bursts - but then the bars must live in the fridge.",
+    "Line a 9x5 loaf pan with parchment (or use a chocolate bar mold). Pour in half the chocolate and spread up the sides a little. Chill 5-10 minutes until just set.",
+    "Pack the pistachio-kataifi filling evenly over the chocolate, leaving a small border. Press it flat.",
+    "Pour remaining chocolate over the top and spread to seal the edges completely. Tap the pan to release air bubbles.",
+    "Set: tempered bars set at cool room temperature in about an hour; untempered, refrigerate at least 2 hours. Slice with a sharp knife dipped in hot water and wiped dry."
   ],
   "notes": [
-    "Kataifi pastry is found in Middle Eastern grocery stores or the freezer section. Shredded phyllo works too.",
-    "For extra crunch, toast the pistachios lightly before chopping.",
-    "Bars keep refrigerated for 2 weeks. Let sit 5 min at room temp before eating for best texture."
+    "No pistachio cream? Make it: blend 150g shelled roasted unsalted pistachios with 3 Tbsp neutral oil, 50g (1/2 cup) powdered sugar, and a pinch of salt until as smooth as your machine allows. It'll be coarser than the jarred stuff but tastes right. Do not substitute tahini and honey - that's a sesame bar.",
+    "The temper-or-refrigerate tradeoff: untempered chocolate blooms (dull gray streaks) within a day or two at room temperature. Bloom is ugly but harmless. Temper if you're gifting; refrigerate if you're eating.",
+    "Kataifi is in the freezer case at Middle Eastern groceries. Bars keep 2 weeks refrigerated; the kataifi slowly softens after the first few days."
+  ],
+  "tested": "2026-07",
+  "testedNote": "Replaced the old tahini-honey filling with actual pistachio cream (plus a DIY blend), switched kataifi to skillet-toasting in butter, and added a real temper option.",
+  "verdict": {
+    "status": "WORTH IT",
+    "note": "The crunchy pistachio filling deserves the hype - just know the jar of pistachio cream costs more than the chocolate."
+  },
+  "troubleshooting": [
+    "Filling turned soggy by day two → kataifi was undertoasted; it needs to be deep golden and fully crisp before mixing.",
+    "Gray streaks on the chocolate → bloom from untempered chocolate stored at room temp; refrigerate untempered bars or temper next time.",
+    "Filling oozes when sliced → too warm or too much tahini; chill 20 minutes and cut with a hot dry knife.",
+    "Top shell separated from the filling → filling was mounded unevenly or chocolate too cool when poured; press the filling flat and pour promptly."
   ],
   "source": "Inspired by Fix Dessert Chocolatier",
   "sourceUrl": ""

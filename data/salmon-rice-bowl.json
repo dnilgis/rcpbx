@@ -1,8 +1,8 @@
 {
   "id": "salmon-rice-bowl",
   "title": "Salmon Rice Bowl",
-  "tagline": "The TikTok-viral crispy rice bowl with everything sauce.",
-  "description": "Crispy-skinned salmon over rice with kimchi, avocado, and the famous 'everything' sauce (mayo, soy, sriracha). The viral recipe that started it all.",
+  "tagline": "The viral salmon bowl, seared fresh instead of microwaved.",
+  "description": "Crispy-skinned seared salmon over warm rice with kimchi, avocado, and the 'everything' sauce (Kewpie mayo, soy, sriracha). Inspired by Emily Mariko's viral leftover-salmon bowl - hers flakes microwaved leftovers with an ice cube; this is the from-scratch version with skin worth eating.",
   "category": "Seafood",
   "categorySlug": "seafood",
   "prep": "10 min",
@@ -17,7 +17,7 @@
     "2 green onions, sliced",
     "Sesame seeds",
     "1 Tbsp vegetable oil",
-    "Salt and pepper",
+    "Diamond Crystal kosher salt and black pepper",
     "For the sauce:",
     "3 Tbsp Kewpie mayo",
     "1 Tbsp soy sauce",
@@ -28,17 +28,29 @@
   "steps": [
     "Mix all sauce ingredients in a small bowl. Set aside.",
     "Pat salmon dry with paper towels. Season skin side with salt. Season flesh side with salt and pepper.",
-    "Heat oil in a non-stick skillet over medium-high heat. Place salmon skin-side down. Press gently with spatula for first 30 seconds to prevent curling.",
-    "Cook 4-5 minutes until skin is very crispy. Flip and cook 2-3 more minutes for medium (or longer if you prefer well-done).",
+    "Heat oil in a non-stick skillet over medium-high heat. Place salmon skin-side down. Press gently with a spatula for the first 30 seconds to prevent curling.",
+    "Cook 4-5 minutes until skin is deeply crispy and releases easily. Flip and cook 2-3 more minutes - pull at 125°F internal for medium (or 145°F if you want USDA-done).",
     "Divide rice between two bowls. Top with kimchi, avocado slices, and nori strips.",
-    "Place salmon on top (skin-side up for maximum crunch). Drizzle generously with sauce.",
+    "Place salmon on top, skin-side up so it stays crunchy. Drizzle generously with sauce.",
     "Garnish with green onions and sesame seeds. Serve immediately."
   ],
   "notes": [
-    "The crispy skin is essential. Make sure salmon is very dry and pan is hot.",
-    "Kewpie mayo is creamier than regular mayo - find it in the Asian section.",
-    "Add a jammy egg (6-min boil) for extra protein."
+    "The crispy skin is the point. Bone-dry salmon, hot pan, don't rush the skin side.",
+    "Kewpie mayo is richer than regular mayo (extra yolk, MSG) - Asian grocery or the international aisle.",
+    "Add a jammy egg (6½-min boil) for extra protein.",
+    "The original: Mariko flakes leftover salmon into rice, microwaves it with an ice cube on top for steam, then adds the same sauce. Works great with leftovers - this recipe is for when you're starting fresh."
   ],
-  "source": "Emily Mariko / TikTok",
+  "tested": "2026-07",
+  "testedNote": "Dropped the false 'crispy rice' claim (nothing crisped the rice), added a salmon pull temp, and credited Mariko's actual method.",
+  "verdict": {
+    "status": "WORTH IT",
+    "note": "The sauce carries it - make double and put it on everything."
+  },
+  "troubleshooting": [
+    "Skin stuck to the pan → fish was wet or pan wasn't hot; dry hard, heat until the oil shimmers, and don't move it early.",
+    "Skin crisp then turned soggy → sat skin-side down in the bowl; always plate skin-up.",
+    "Sauce tastes flat → regular mayo missing the Kewpie richness; add a pinch of sugar and a drop of sesame oil."
+  ],
+  "source": "Inspired by Emily Mariko / TikTok",
   "sourceUrl": ""
 }

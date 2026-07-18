@@ -15,7 +15,7 @@
     "1 tsp paprika",
     "1/2 tsp onion powder",
     "1/2 tsp dried thyme",
-    "1 tsp salt",
+    "1 tsp Diamond Crystal kosher salt (halve for table salt)",
     "1/2 tsp black pepper"
   ],
   "steps": [
@@ -24,13 +24,21 @@
     "Rub chicken with olive oil, then coat generously with spice mixture on all sides.",
     "Place chicken skin-side down in air fryer basket. Don't overcrowd - cook in batches if needed.",
     "Air fry at 380°F (190°C) for 10 minutes.",
-    "Flip chicken skin-side up. Increase to 400°F (200°C) and cook 12-15 more minutes until skin is golden and crispy, and internal temp reaches 165°F.",
+    "Flip chicken skin-side up. Increase to 400°F (200°C) and cook 12-15 more minutes until skin is golden and crispy. Pull when internal temp reads 175-185°F at the thickest part, probe not touching bone.",
     "Let rest 5 minutes before serving."
   ],
   "notes": [
+    "Why 175-185°F, not 165°F? 165°F is only the safety floor. Thighs are loaded with collagen and connective tissue that doesn't melt into gelatin until well past that - pull at 165°F and they're safe but chewy. 175-185°F is where thighs actually get tender.",
     "Starting skin-side down renders the fat, then flipping crisps it up.",
-    "Don't skip the drying step - wet skin = soggy skin.",
-    "Thighs are forgiving - they stay juicy even if slightly overcooked."
+    "Don't skip the drying step - wet skin = soggy skin."
+  ],
+  "tested": "2026-07",
+  "testedNote": "Fixed the doneness target from 165°F (a breast temp) to 175-185°F, where thigh connective tissue actually breaks down.",
+  "troubleshooting": [
+    "Soggy skin → chicken wasn't dried or thighs were crowded and steamed each other; pat bone-dry and cook in batches.",
+    "Chewy meat at 165°F → underdone for a thigh, not overdone; keep cooking to 175-185°F so the collagen melts.",
+    "Thermometer reads high but meat feels tough → probe was touching bone; re-check in the thickest pocket of meat.",
+    "Smoking air fryer → rendered fat pooling below; add 1-2 Tbsp water to the drawer under the basket."
   ],
   "source": "rcpbx original",
   "sourceUrl": ""

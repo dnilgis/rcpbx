@@ -31,5 +31,12 @@
     "For pink lemonade: add a splash of cranberry juice or muddle in raspberries."
   ],
   "source": "Classic",
-  "sourceUrl": ""
+  "sourceUrl": "",
+  "tested": "2026-07",
+  "testedNote": "Verified the 1:1:7 juice-sugar-water ratio lands balanced; bottled juice tastes flat, don't.",
+  "troubleshooting": [
+    "Too sour or too sweet → lemons vary wildly; adjust with water or syrup at the end, by taste.",
+    "Gritty sugar at the bottom → skipped the simple syrup; granulated sugar won't dissolve in cold water.",
+    "Bitter aftertaste → juiced too aggressively and got pith oil; squeeze, don't grind."
+  ]
 }

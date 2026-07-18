@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Your Box | rcpbx</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
+  <meta name="description" content="Your saved recipes and one combined grocery list. Stored on your device — no account, no cloud, no tracking.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://rcpbx.com/box/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #faf9f6; --bg-alt: #f0efeb; --text: #222; --text-muted: #666; --text-dim: #999;
+      --border: #ddd; --accent: #16a34a; --accent-dim: rgba(22,163,74,0.1);
+      --font-sans: 'Inter', -apple-system, sans-serif; --font-mono: 'JetBrains Mono', monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111; --bg-alt: #1a1a1a; --text: #e5e5e5; --text-muted: #999; --text-dim: #666;
+        --border: #333; --accent: #22c55e; --accent-dim: rgba(34,197,94,0.15); }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-family: var(--font-sans); background: var(--bg); color: var(--text); line-height: 1.6; }
+    header { border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; }
+    .header-inner { max-width: 800px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600; text-decoration: none; color: var(--text); }
+    .logo-prefix { color: var(--accent); }
+    .header-link { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); text-decoration: none; text-transform: uppercase; letter-spacing: 0.05em; }
+    .header-link:hover { color: var(--accent); }
+    main { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+    h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: -0.02em; }
+    .sub { color: var(--text-muted); font-size: 0.9rem; margin: 0.35rem 0 2rem; }
+    h2 { font-size: 0.75rem; font-family: var(--font-mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin: 2rem 0 0.75rem; }
+    h2::before { content: ">"; color: var(--accent); margin-right: 0.4rem; }
+    .saved-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.75rem; }
+    .saved-card { border: 1px solid var(--border); border-radius: 6px; padding: 0.8rem 0.95rem; position: relative; }
+    .saved-card:hover { border-color: var(--accent); }
+    .saved-card a { text-decoration: none; }
+    .saved-title { font-weight: 600; font-size: 0.92rem; color: var(--text); display: block; }
+    .saved-meta { font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-dim); margin-top: 0.2rem; display: block; }
+    .rm { position: absolute; top: 0.4rem; right: 0.5rem; background: none; border: none; color: var(--text-dim);
+      font-family: var(--font-mono); cursor: pointer; font-size: 0.8rem; padding: 0.2rem; }
+    .rm:hover { color: #dc2626; }
+    .empty { border: 1px dashed var(--border); border-radius: 6px; padding: 2rem; text-align: center;
+      color: var(--text-muted); font-size: 0.9rem; }
+    .empty a { color: var(--accent); text-decoration: none; }
+    .empty code { font-family: var(--font-mono); font-size: 0.8rem; background: var(--bg-alt); padding: 0.1rem 0.4rem; border-radius: 3px; }
+    .grocery { border: 1px solid var(--border); border-radius: 6px; background: var(--bg-alt); padding: 1rem 1.25rem; }
+    .g-cat { font-family: var(--font-mono); font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); padding: 0.6rem 0 0.2rem; }
+    .g-item { display: flex; align-items: baseline; gap: 0.6rem; padding: 0.32rem 0; cursor: pointer; font-size: 0.92rem;
+      border-bottom: 1px solid var(--border); -webkit-tap-highlight-color: transparent; }
+    .g-item:last-child { border-bottom: none; }
+    .g-item::before { content: ""; flex: none; width: 0.85rem; height: 0.85rem; border: 1.5px solid var(--border); border-radius: 3px; transform: translateY(0.1rem); }
+    .g-item.done::before { background: var(--accent); border-color: var(--accent); }
+    .g-item.done span { color: var(--text-dim); text-decoration: line-through; }
+    .g-src { font-family: var(--font-mono); font-size: 0.6rem; color: var(--text-dim); margin-left: auto; flex: none; }
+    .toolbar { display: flex; gap: 0.5rem; margin: 0.75rem 0 0; flex-wrap: wrap; }
+    .tbtn { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); background: none;
+      border: 1px solid var(--border); border-radius: 4px; padding: 0.35rem 0.7rem; cursor: pointer; }
+    .tbtn:hover { border-color: var(--accent); color: var(--accent); }
+    footer { border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; margin-top: 3rem; }
+    .footer-text { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); }
+    .footer-text a { color: var(--accent); text-decoration: none; }
+    .privacy { font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-dim); margin-top: 2rem; }
+    @media print { header, footer, .toolbar, .rm, .privacy, .saved-grid, h1, .sub { display: none !important; }
+      .grocery { border: none; background: none; padding: 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="/" class="logo"><span class="logo-prefix">&gt;</span>rcpbx</a>
+      <a href="/" class="header-link">← all recipes</a>
+    </div>
+  </header>
+  <main>
+    <h1>Your box</h1>
+    <p class="sub">Saved recipes and one combined grocery list. Lives in this browser — no account, no cloud.</p>
+
+    <h2>Saved recipes</h2>
+    <div id="saved"></div>
+
+    <h2>Grocery list</h2>
+    <div id="grocery"></div>
+    <div class="toolbar" id="toolbar" style="display:none">
+      <button class="tbtn" id="copyList">copy list</button>
+      <button class="tbtn" onclick="window.print()">print</button>
+      <button class="tbtn" id="clearChecks">uncheck all</button>
+    </div>
+
+    <p class="privacy">&gt; stored in localStorage only · clear your browser data and it's gone · that's the deal</p>
+  </main>
+  <footer>
+    <p class="footer-text"><a href="/">rcpbx.com</a> · no life stories · no ads</p>
+  </footer>
+
+  <script>
+  (function(){
+    function box(){ try { return JSON.parse(localStorage.getItem('rcpbx-box')) || []; } catch(e){ return []; } }
+    function setBox(b){ try { localStorage.setItem('rcpbx-box', JSON.stringify(b)); } catch(e){} }
+    function checks(){ try { return JSON.parse(localStorage.getItem('rcpbx-grocery')) || {}; } catch(e){ return {}; } }
+    function setChecks(c){ try { localStorage.setItem('rcpbx-grocery', JSON.stringify(c)); } catch(e){} }
+
+    var savedEl = document.getElementById('saved'), gEl = document.getElementById('grocery');
+    var ids = box();
+
+    if (!ids.length) {
+      savedEl.innerHTML = '<div class="empty">Nothing in the box yet.<br>Open any recipe and hit <code>+ box</code> — then come back here for the combined grocery list.<br><br><a href="/">browse recipes →</a></div>';
+      gEl.innerHTML = '<div class="empty">Your grocery list builds itself from saved recipes.</div>';
+      return;
+    }
+
+    Promise.all(ids.map(function(id){
+      return fetch('/data/' + id + '.json').then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; });
+    })).then(function(recipes){
+      recipes = recipes.filter(Boolean);
+      // saved cards
+      savedEl.innerHTML = '<div class="saved-grid">' + recipes.map(function(r){
+        var meta = [r.prep ? 'prep ' + r.prep : '', r.cook ? 'cook ' + r.cook : '', (r.serves || r.makes) ? 'serves ' + (r.serves || r.makes) : ''].filter(Boolean).join(' · ');
+        return '<div class="saved-card"><a href="/recipes/' + r.id + '/"><span class="saved-title">' + r.title + '</span>' +
+               (meta ? '<span class="saved-meta">' + meta + '</span>' : '') + '</a>' +
+               '<button class="rm" data-id="' + r.id + '" title="remove">×</button></div>';
+      }).join('') + '</div>';
+
+      savedEl.querySelectorAll('.rm').forEach(function(b){
+        b.addEventListener('click', function(){
+          var bx = box(), i = bx.indexOf(b.dataset.id);
+          if (i > -1) { bx.splice(i, 1); setBox(bx); location.reload(); }
+        });
+      });
+
+      // grocery: merge identical lines, keep source labels
+      var merged = {}; // key -> {line, srcs, count}
+      recipes.forEach(function(r){
+        (r.ingredients || []).forEach(function(line){
+          if (/:\s*$/.test(line)) return; // skip group headers
+          var key = line.toLowerCase().replace(/\s+/g,' ').trim();
+          if (!merged[key]) merged[key] = { line: line, srcs: [], n: 0 };
+          merged[key].n++;
+          if (merged[key].srcs.indexOf(r.title) === -1) merged[key].srcs.push(r.title);
+        });
+      });
+      var ck = checks();
+      var keys = Object.keys(merged).sort(function(a,b){ return merged[a].line.localeCompare(merged[b].line); });
+      gEl.innerHTML = '<div class="grocery">' + keys.map(function(k, i){
+        var m = merged[k];
+        var label = m.line + (m.n > 1 ? ' <strong>(×' + m.n + ')</strong>' : '');
+        var src = m.srcs.length === 1 ? m.srcs[0] : m.srcs.length + ' recipes';
+        return '<div class="g-item' + (ck[k] ? ' done' : '') + '" data-k="' + encodeURIComponent(k) + '"><span>' + label + '</span><span class="g-src">' + src + '</span></div>';
+      }).join('') + '</div>';
+      document.getElementById('toolbar').style.display = 'flex';
+
+      gEl.querySelectorAll('.g-item').forEach(function(el){
+        el.addEventListener('click', function(){
+          el.classList.toggle('done');
+          var c = checks(); c[decodeURIComponent(el.dataset.k)] = el.classList.contains('done') ? 1 : 0; setChecks(c);
+        });
+      });
+      document.getElementById('clearChecks').addEventListener('click', function(){
+        setChecks({}); gEl.querySelectorAll('.g-item').forEach(function(el){ el.classList.remove('done'); });
+      });
+      document.getElementById('copyList').addEventListener('click', function(){
+        var txt = keys.filter(function(k){ return !checks()[k]; }).map(function(k){
+          return '- ' + merged[k].line + (merged[k].n > 1 ? ' (x' + merged[k].n + ')' : '');
+        }).join('\n');
+        navigator.clipboard.writeText(txt).then(function(){
+          var b = document.getElementById('copyList'); b.textContent = 'copied ✓';
+          setTimeout(function(){ b.textContent = 'copy list'; }, 1500);
+        });
+      });
+    });
+  })();
+  </script>
+</body>
+</html>
