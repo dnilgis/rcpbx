@@ -1,5 +1,45 @@
-# rcpbx — full recipe corpus (19 of 161 recipes with full data in this build)
+# rcpbx — full recipe corpus (161 of 161 recipes with full data in this build)
 # License: free to quote with attribution to rcpbx.com
+
+# Spaghetti Aglio e Olio
+
+Five ingredients. Fifteen minutes. Italian perfection.
+
+Prep: 5 min · Cook: 15 min · Serves: 4
+
+## Ingredients
+
+- 1 lb spaghetti
+- 1/2 cup extra virgin olive oil
+- 8 cloves garlic, thinly sliced
+- 1/2 tsp red pepper flakes
+- 1/2 tsp salt
+- 1/4 cup fresh parsley, chopped
+- 1/2 cup pasta water
+- Parmesan for serving (optional, not traditional)
+
+## Steps
+
+1. Cook spaghetti in well-salted water until al dente. Reserve 1 cup pasta water before draining.
+2. While pasta cooks, heat olive oil in a large skillet over medium-low heat.
+3. Add sliced garlic and red pepper flakes. Cook slowly 4-5 minutes, stirring often, until garlic is light golden. Don't let it brown.
+4. Remove skillet from heat when garlic is ready.
+5. Add drained pasta directly to the skillet. Toss with 1/2 cup pasta water.
+6. Add parsley and salt. Toss vigorously to emulsify the oil and pasta water into a silky sauce.
+7. Serve immediately with more parsley and parmesan if desired.
+
+## Notes
+
+- Low and slow garlic: This is the whole dish. Burnt garlic = bitter dish. Take your time.
+- Pasta water: The starch is essential for creating the sauce. Don't skip it.
+- Good olive oil: You'll taste it. Use the best you have.
+- Add protein: Anchovies, shrimp, or breadcrumbs are traditional additions.
+- Technique: The tossing action emulsifies the oil and water. Keep the pasta moving.
+
+Source: Adapted from Bon Appétit
+Canonical: https://rcpbx.com/recipes/aglio-e-olio/
+
+---
 
 # Air Fryer Chicken Thighs
 
@@ -95,6 +135,831 @@ Canonical: https://rcpbx.com/recipes/air-fryer-smashed-potatoes/
 
 ---
 
+# Apple Pie
+
+Flaky crust, spiced fruit filling
+
+Serves: 8
+
+## Ingredients
+
+- Crust: 2½ cups flour, 1 tbsp sugar, 1 tsp salt, 1 cup cold butter cubed, ½ cup ice water
+- Filling: 3 lbs mixed apples, ¾ cup sugar, 2 tbsp flour, 1 tsp cinnamon, ¼ tsp nutmeg, 2 tbsp butter
+- 1 egg + 1 tbsp water for egg wash
+
+## Steps
+
+1. Crust: Pulse flour, sugar, salt. Add butter, pulse to pea-sized. Drizzle ice water, pulse until dough forms. Divide, flatten, chill 1 hour.
+2. Peel, core, slice apples. Toss with sugar, flour, spices.
+3. Roll one disk to 12 inches. Fit into pie plate.
+4. Add filling. Dot with butter.
+5. Roll second disk. Place over filling. Trim, crimp edges. Cut vents.
+6. Brush with egg wash. Chill 30 minutes.
+7. Bake at 425°F for 20 minutes. Reduce to 375°F, bake 40-50 more until golden and bubbling.
+8. Cool 2 hours before slicing.
+
+## Notes
+
+- Mix apple varieties for balance.
+- Cold butter = flaky crust.
+- Must cool or filling will run.
+
+Source: Serious Eats / Stella Parks (BraveTart tested)
+Canonical: https://rcpbx.com/recipes/apple-pie/
+
+---
+
+# Baby Back Ribs
+
+Fall-off-the-bone tender, caramelized glaze
+
+Serves: 4
+
+## Ingredients
+
+- 2 racks baby back ribs (about 4 lbs)
+- 3 tbsp brown sugar
+- 2 tbsp paprika
+- 1 tbsp chili powder
+- 1 tbsp garlic powder
+- 1 tbsp onion powder
+- 1 tsp cumin
+- 1 tsp black pepper
+- 1 tbsp salt
+- 1 cup BBQ sauce
+
+## Steps
+
+1. Remove membrane from back of ribs (slide knife under, grab with paper towel, pull off).
+2. Mix spices for rub. Apply generously to both sides.
+3. Wrap each rack tightly in foil. Place on baking sheet.
+4. Bake at 275°F for 2.5-3 hours until tender and meat pulls back from bones.
+5. Unwrap. Brush with BBQ sauce.
+6. Broil 5-10 minutes until sauce caramelizes.
+7. Rest 5 minutes. Cut between bones.
+
+## Notes
+
+- Removing membrane is essential.
+- Foil wrap keeps them moist.
+- Broiling gives caramelized finish.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/baby-back-ribs/
+
+---
+
+# Baked Beans
+
+Slow-cooked, smoky, sweet
+
+Serves: 8-10
+
+## Ingredients
+
+- 1 lb dried navy beans, soaked overnight
+- 8 oz salt pork or bacon, diced
+- 1 onion, diced
+- ½ cup molasses
+- ¼ cup brown sugar
+- 2 tbsp Dijon mustard
+- 1 tbsp cider vinegar
+- Salt and pepper
+
+## Steps
+
+1. Drain soaked beans. Cover with fresh water by 2 inches.
+2. Simmer until just tender, 45 min to 1 hour. Drain, reserve 2 cups liquid.
+3. Preheat oven to 300°F.
+4. Cook salt pork until fat renders. Add onion, cook until soft.
+5. Stir in molasses, sugar, mustard, vinegar, reserved liquid.
+6. Add beans, season. Stir.
+7. Cover, bake 3-4 hours, stirring occasionally.
+8. Uncover last 30 minutes to thicken.
+
+## Notes
+
+- Soaking ensures even cooking.
+- Low and slow is essential.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/baked-beans/
+
+---
+
+# Baked Chicken Breast
+
+Juicy, golden, foolproof
+
+Serves: 4
+
+## Ingredients
+
+- 4 boneless skinless chicken breasts
+- 1 tbsp olive oil
+- 2 tbsp butter
+- 4 cloves garlic, smashed
+- 4 sprigs fresh thyme
+- Salt and pepper
+
+## Steps
+
+1. Pat chicken very dry. Season generously.
+2. Heat oil in oven-safe skillet over medium-high until smoking.
+3. Add chicken, sear without moving until golden, 4-5 minutes.
+4. Flip. Add butter, garlic, thyme.
+5. Transfer to 425°F oven. Roast until 160°F internal, 10-15 minutes.
+6. Rest 5 minutes. Spoon pan juices over chicken.
+
+## Notes
+
+- Dry chicken = better browning.
+- Use thermometer - overcooked breast is dry.
+- Resting is crucial.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/baked-chicken-breast/
+
+---
+
+# Baked Cod
+
+Lemon herb butter, panko topping
+
+Serves: 4
+
+## Ingredients
+
+- 4 cod fillets (6 oz each)
+- 3 tbsp olive oil
+- 3 tbsp butter, melted
+- 2 cloves garlic, minced
+- 1 lemon, zested and juiced
+- 2 tbsp parsley
+- 1 tbsp dill
+- ¼ cup panko
+- Salt and pepper
+
+## Steps
+
+1. Preheat oven to 425°F. Pat cod dry, season.
+2. Mix butter, 2 tbsp oil, garlic, lemon zest, herbs.
+3. Place cod in baking dish. Spoon herb butter over.
+4. Mix panko with remaining oil. Sprinkle over fish.
+5. Bake until fish flakes and topping is golden, 15-18 minutes.
+6. Squeeze lemon juice over. Serve.
+
+## Notes
+
+- Cod's mild flavor pairs with bold toppings.
+- Don't overcook - should just flake.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/baked-cod/
+
+---
+
+# Baked Feta Pasta
+
+The TikTok recipe that crashed grocery store feta supplies. It's that good.
+
+Prep: 10 min · Cook: 35 min · Serves: 4
+
+## Ingredients
+
+- 2 pints cherry or grape tomatoes
+- 1 block (8 oz) feta cheese
+- 1/3 cup extra virgin olive oil
+- 4 cloves garlic, smashed
+- 1/2 tsp salt
+- 1/4 tsp black pepper
+- 1/4 tsp red pepper flakes
+- 1 lb pasta (orecchiette, penne, or rigatoni)
+- 1/4 cup fresh basil, torn
+- Pasta water as needed
+
+## Steps
+
+1. Preheat oven to 400°F.
+2. Place tomatoes in a baking dish. Nestle feta block in the center. Add garlic around the tomatoes.
+3. Drizzle everything generously with olive oil. Season tomatoes with salt, pepper, and red pepper flakes. (Don't season the feta—it's salty enough.)
+4. Bake 35-40 minutes until tomatoes are bursting and feta is golden on top.
+5. Meanwhile, cook pasta in salted water until al dente. Reserve 1 cup pasta water before draining.
+6. Remove dish from oven. Mash the feta into the tomatoes with a fork, mixing into a creamy sauce.
+7. Add hot pasta directly to the dish. Toss to coat, adding pasta water as needed for consistency.
+8. Top with fresh basil and serve immediately from the baking dish.
+
+## Notes
+
+- The feta: Use a good quality block, not pre-crumbled. Greek feta has the creamiest texture.
+- Tomatoes: Cherry tomatoes are sweeter and better than grape tomatoes, but either works.
+- Make it a meal: Add cooked chicken, shrimp, or white beans for protein.
+- Pasta water: The starchy water helps create a silky sauce that clings to the pasta.
+- Variations: Add olives, artichokes, or roasted red peppers before baking.
+
+Source: Adapted from Feel Good Foodie
+Canonical: https://rcpbx.com/recipes/baked-feta-pasta/
+
+---
+
+# Baked Potato
+
+Crispy skin, fluffy interior
+
+Serves: 4
+
+## Ingredients
+
+- 4 large russet potatoes
+- 2 tbsp vegetable oil
+- Kosher salt
+- Butter, sour cream, chives, bacon
+
+## Steps
+
+1. Preheat oven to 450°F.
+2. Scrub potatoes. Poke several times with fork.
+3. Rub with oil and coat generously with salt.
+4. Place directly on oven rack (sheet below to catch drips).
+5. Bake until skin is crispy and interior fluffy, 50-60 minutes.
+6. Cut X in top, squeeze sides to open.
+7. Top with butter, sour cream, chives, bacon.
+
+## Notes
+
+- Russets have best fluffy texture.
+- Oil and salt = crispy skin.
+- No foil - steams instead of bakes.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/baked-potato/
+
+---
+
+# Baked Ziti
+
+Saucy, cheesy, crowd-pleasing pasta bake
+
+Serves: 8-10
+
+## Ingredients
+
+- 1 lb ziti
+- 1 lb Italian sausage
+- 4 cloves garlic, minced
+- 1 (28 oz) can crushed tomatoes
+- 1 tsp oregano
+- 15 oz ricotta
+- 1 egg
+- ¼ cup basil, chopped
+- 1 lb mozzarella, shredded
+- ½ cup Parmesan
+
+## Steps
+
+1. Cook pasta until just shy of al dente. Drain.
+2. Brown sausage, breaking into pieces. Add garlic, tomatoes, oregano. Simmer 15 minutes.
+3. Mix ricotta, egg, basil, and half the mozzarella.
+4. Add pasta and sausage to sauce. Transfer half to 9x13 dish.
+5. Dollop ricotta mixture, add remaining pasta.
+6. Top with remaining mozzarella and Parmesan.
+7. Bake at 400°F for 25-30 minutes until bubbly.
+
+## Notes
+
+- Undercook pasta - it finishes in oven.
+- Dollop ricotta for pockets of creaminess.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/baked-ziti/
+
+---
+
+# Banana Bread
+
+Moist, tender, loaded with banana flavor. Use those overripe bananas.
+
+Prep: 15 min · Cook: 1 hr · Makes: 1 loaf
+
+## Ingredients
+
+- 1 cup mashed very ripe bananas (about 3 medium)
+- ¾ cup brown sugar, packed
+- ⅓ cup vegetable oil
+- 2 eggs
+- 1 tsp vanilla extract
+- 1 cup all-purpose flour
+- 1 cup whole wheat flour (or all AP)
+- 1 tsp baking soda
+- ½ tsp salt
+- ½ tsp cinnamon (optional)
+- ¾ cup walnuts, chopped (optional)
+
+## Steps
+
+1. Preheat oven to 350°F. Grease a 9x5 loaf pan.
+2. Mash bananas in large bowl until mostly smooth (some lumps okay).
+3. Add brown sugar, oil, eggs, and vanilla. Whisk until combined.
+4. In another bowl, whisk flours, baking soda, salt, and cinnamon.
+5. Add dry ingredients to wet. Stir until just combined. Don't overmix.
+6. Fold in walnuts if using.
+7. Pour into prepared pan. Spread evenly.
+8. Bake 60-70 minutes until toothpick comes out clean and internal temp reaches 200°F.
+9. Cool in pan 15 minutes. Remove and cool on rack.
+
+## Notes
+
+- VERY ripe bananas: Dark spots = more sugar = better flavor. If they're not ripe enough, it won't taste like much.
+- Oil keeps it moist: Butter tastes great but oil stays softer when cool. Your call.
+- Brown sugar: Adds caramel notes that complement banana. Don't substitute white.
+- Freeze ripe bananas: Peel, freeze in bags. Thaw before using—they get extra soft and sweet.
+- Storage: Keeps 4 days wrapped at room temp. Freezes well for 3 months.
+
+Source: Adapted from King Arthur Flour (Recipe of the Year)
+Canonical: https://rcpbx.com/recipes/banana-bread/
+
+---
+
+# Bang Bang Shrimp
+
+Crispy fried shrimp in creamy, spicy sauce. The Bonefish Grill copycat everyone wants.
+
+Prep: 15 min · Cook: 10 min · Serves: 4
+
+## Ingredients
+
+- 1 lb large shrimp, peeled and deveined
+- 1/2 cup cornstarch
+- Oil for frying
+**For the sauce:**
+- 1/3 cup mayonnaise
+- 2 Tbsp sweet chili sauce
+- 1 Tbsp sriracha
+- 1 tsp rice vinegar
+- Sliced green onions for garnish
+
+## Steps
+
+1. Pat shrimp dry. Toss in cornstarch until evenly coated.
+2. Heat 2 inches of oil in a deep pan to 375°F.
+3. Mix mayo, sweet chili sauce, sriracha, and rice vinegar in a large bowl.
+4. Fry shrimp in batches 2-3 minutes until golden and crispy. Don't crowd the pan.
+5. Drain on paper towels for 30 seconds.
+6. While still hot, toss shrimp in the sauce until coated.
+7. Serve immediately, garnished with green onions.
+
+## Notes
+
+- Crispy coating: Cornstarch makes it crispier than flour. Make sure shrimp are dry.
+- Oil temp: Too cool = greasy shrimp. Use a thermometer.
+- Air fryer: Spray with oil, air fry at 400°F for 8-10 minutes, shaking halfway.
+- Sauce heat: Adjust sriracha to taste. Start with less, add more.
+- Serve on: Lettuce cups, rice, or as an appetizer with toothpicks.
+
+Source: Adapted from Damn Delicious
+Canonical: https://rcpbx.com/recipes/bang-bang-shrimp/
+
+---
+
+# BBQ Sauce
+
+Sweet, tangy, smoky
+
+Makes: 2 cups
+
+## Ingredients
+
+- 1 cup ketchup
+- ½ cup apple cider vinegar
+- ¼ cup brown sugar
+- 2 tbsp molasses
+- 2 tbsp Worcestershire
+- 1 tbsp yellow mustard
+- 1 tsp smoked paprika
+- ½ tsp garlic powder
+- ½ tsp onion powder
+- Salt and cayenne to taste
+
+## Steps
+
+1. Combine all ingredients in saucepan.
+2. Bring to simmer over medium heat.
+3. Reduce heat to low. Simmer 20 minutes, stirring occasionally.
+4. Taste and adjust sugar, vinegar, and heat.
+5. Use immediately or refrigerate up to 1 month.
+
+## Notes
+
+- Balance sweet, tangy, and smoky to your taste.
+- Thickens as it cools.
+- Add chipotle for smoky heat.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/bbq-sauce/
+
+---
+
+# Béchamel
+
+Creamy white sauce, building block
+
+Makes: 2 cups
+
+## Ingredients
+
+- 2 tbsp butter
+- 2 tbsp flour
+- 2 cups whole milk, warmed
+- ¼ tsp nutmeg
+- Salt and white pepper
+
+## Steps
+
+1. Melt butter in saucepan over medium heat.
+2. Whisk in flour. Cook 1 minute without browning.
+3. Gradually whisk in warm milk.
+4. Simmer, whisking frequently, until thick enough to coat a spoon, 5-7 minutes.
+5. Season with nutmeg, salt, and white pepper.
+6. Use immediately or press plastic wrap directly on surface to prevent skin.
+
+## Notes
+
+- Warm milk prevents lumps.
+- Don't brown the flour - should stay white.
+- Base for cheese sauce, gratins, lasagna.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/bechamel/
+
+---
+
+# Beef and Broccoli
+
+Chinese takeout classic, better at home
+
+Serves: 4
+
+## Ingredients
+
+- 1 lb flank steak, sliced thin against grain
+- 2 tbsp soy sauce, divided
+- 1 tbsp cornstarch
+- 1 tbsp Shaoxing wine
+- 3 tbsp vegetable oil
+- 1 lb broccoli florets
+- 3 cloves garlic, minced
+- 1 tbsp ginger, minced
+- ½ cup beef broth
+- 2 tbsp oyster sauce
+- 1 tsp sesame oil
+
+## Steps
+
+1. Toss beef with 1 tbsp soy sauce, cornstarch, wine. Marinate 15 minutes.
+2. Mix broth, remaining soy sauce, oyster sauce.
+3. Heat wok until smoking. Add 2 tbsp oil. Sear beef 1 minute, stir-fry 1-2 minutes. Transfer out.
+4. Add remaining oil. Stir-fry broccoli 2 minutes. Add 2 tbsp water, cover, steam 1 minute.
+5. Add garlic and ginger, 30 seconds. Add sauce and beef. Toss until thickened.
+6. Drizzle with sesame oil. Serve over rice.
+
+## Notes
+
+- Velveting keeps beef tender.
+- Slice against grain for tender pieces.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/beef-and-broccoli/
+
+---
+
+# Beef Barley Soup
+
+Hearty, beefy, cold-weather comfort
+
+Serves: 6-8
+
+## Ingredients
+
+- 1½ lbs beef chuck, cubed
+- 2 tbsp vegetable oil
+- 1 large onion, chopped
+- 2 carrots, chopped
+- 2 celery ribs, chopped
+- 4 cloves garlic, minced
+- 1 tbsp tomato paste
+- 8 cups beef broth
+- 2 cups water
+- ¾ cup pearl barley
+- 2 bay leaves
+- 1 tsp thyme
+- 2 tbsp parsley
+
+## Steps
+
+1. Brown beef in batches in oil, about 5 minutes per batch.
+2. Cook onion, carrots, celery until softened, 8 minutes.
+3. Add garlic and tomato paste, cook 1 minute.
+4. Add broth, water, barley, bay leaves, thyme. Return beef.
+5. Simmer covered until beef and barley are tender, 1¼ hours.
+6. Remove bay leaves, stir in parsley. Season to taste.
+
+## Notes
+
+- Don't skip browning the beef - builds the flavor base.
+- Add more broth when reheating - barley absorbs liquid.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/beef-barley-soup/
+
+---
+
+# Beef Fajitas
+
+Sizzling steak with charred peppers and onions
+
+Serves: 4-6
+
+## Ingredients
+
+- 1½ lbs skirt steak
+- 3 tbsp vegetable oil, divided
+- 3 tbsp lime juice
+- 2 cloves garlic, minced
+- 1 tsp cumin
+- 2 bell peppers, sliced
+- 1 large onion, sliced
+- Flour tortillas
+- Sour cream, guacamole, salsa
+
+## Steps
+
+1. Mix 2 tbsp oil, lime juice, garlic, cumin, salt, pepper. Marinate steak 30 min to 2 hours.
+2. Cook peppers and onions in remaining oil over high until charred, 8-10 minutes. Transfer out.
+3. Add steak to screaming hot pan. Sear 3-4 minutes per side for medium-rare.
+4. Rest 5 minutes. Slice thin against grain.
+5. Warm tortillas. Serve steak with peppers and onions.
+
+## Notes
+
+- Skirt steak is traditional.
+- Cast iron gets hot enough for proper char.
+- Don't marinate more than 2 hours.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/beef-fajitas/
+
+---
+
+# Beef Stew
+
+Rich French-style stew. Fork-tender meat, hearty vegetables.
+
+Prep: 30 min · Cook: 2½ hrs · Serves: 6
+
+## Ingredients
+
+- 3 lbs beef chuck roast, cut into 1½" cubes
+- ¼ cup flour, for dredging
+- 3 tbsp olive oil
+- 1 large onion, chopped
+- 4 garlic cloves, minced
+- 2 tbsp tomato paste
+- 1 cup dry red wine
+- 3 cups beef broth
+- 1 tbsp balsamic vinegar
+- 1 tsp fresh thyme (or ½ tsp dried)
+- 2 bay leaves
+- 1 lb Yukon Gold potatoes, cubed
+- 4 carrots, cut into 1" pieces
+- 1 cup frozen peas
+- Salt and pepper
+
+## Steps
+
+1. Pat beef dry with paper towels. Season generously with salt and pepper, then toss with flour to coat lightly.
+2. Heat oil in a Dutch oven over medium-high heat. Brown beef in batches (don't crowd the pan). Remove to a plate. Takes about 10 minutes total.
+3. Add onion to pot. Cook until softened, 5 minutes. Add garlic and tomato paste, cook 1 minute until fragrant.
+4. Pour in wine, scraping up browned bits from bottom. Simmer 2 minutes.
+5. Return beef and any juices to pot. Add broth, balsamic, thyme, and bay leaves. Bring to boil, then reduce heat to low. Cover and simmer 1½ hours.
+6. Add potatoes and carrots. Cover and cook 45 more minutes until vegetables and beef are tender.
+7. Stir in peas, cook 5 minutes. Remove bay leaves. Taste and adjust seasoning.
+
+## Notes
+
+- The key: Brown meat in batches. Crowding = steaming = no flavor.
+- Chuck roast vs stew meat: Buy a chuck roast and cut it yourself. Pre-cut "stew meat" is often random scraps.
+- Oven method: After step 5, cover and bake at 325°F for the remaining time.
+- Storage: Even better the next day. Keeps 4 days refrigerated, 3 months frozen.
+
+Source: Adapted from Once Upon a Chef
+Canonical: https://rcpbx.com/recipes/beef-stew/
+
+---
+
+# Beef Stroganoff
+
+Seared beef in creamy mushroom sauce
+
+Serves: 4
+
+## Ingredients
+
+- 1½ lbs beef tenderloin or sirloin, sliced thin
+- 3 tbsp butter
+- 1 tbsp oil
+- 1 lb mushrooms, sliced
+- 1 large onion, sliced
+- 2 cloves garlic, minced
+- ¼ cup brandy
+- 1 cup beef broth
+- 1 cup sour cream
+- 1 tbsp Dijon mustard
+- Egg noodles
+- Parsley
+
+## Steps
+
+1. Season beef. Sear in oil and 1 tbsp butter over high until browned but still pink, 1-2 minutes per side. Transfer out.
+2. Add remaining butter and mushrooms. Brown 8 minutes. Add onion, cook 5 minutes.
+3. Add garlic, 30 seconds. Add brandy, scrape up bits.
+4. Add broth, reduce by half, about 5 minutes.
+5. Reduce heat. Stir in sour cream and mustard.
+6. Return beef and juices. Heat through.
+7. Serve over egg noodles with parsley.
+
+## Notes
+
+- Don't overcook beef - should be medium rare.
+- Add sour cream off heat to prevent curdling.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/beef-stroganoff/
+
+---
+
+# Ground Beef Tacos
+
+Well-seasoned, classic weeknight dinner
+
+Serves: 4-6
+
+## Ingredients
+
+- 1½ lbs ground beef (80/20)
+- 1 tbsp oil
+- 1 small onion, minced
+- 3 cloves garlic, minced
+- 2 tbsp chili powder
+- 1 tsp cumin
+- ½ tsp oregano
+- ½ cup chicken broth
+- 1 tbsp cider vinegar
+- Corn tortillas
+- Onion, cilantro, salsa, lime
+
+## Steps
+
+1. Cook onion in oil 3 minutes. Add beef, break into pieces. Brown 5-7 minutes.
+2. Add garlic, chili powder, cumin, oregano. Cook 1 minute.
+3. Add broth and vinegar. Simmer until mostly absorbed, 5 minutes.
+4. Season with salt.
+5. Warm tortillas. Serve with onion, cilantro, salsa, lime.
+
+## Notes
+
+- 80/20 has enough fat for juicy tacos.
+- Browning before spices develops flavor.
+- Vinegar adds brightness.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/beef-tacos/
+
+---
+
+# Birria Tacos
+
+Crispy cheese-crusted tacos dipped in rich consommé. The viral taco that broke the internet.
+
+Prep: 30 min · Cook: 3 hours · Serves: 8
+
+## Ingredients
+
+- 3 lbs beef chuck roast, cut into 3-inch chunks
+- 4 dried guajillo chiles, stemmed and seeded
+- 2 dried ancho chiles, stemmed and seeded
+- 2 dried chiles de arbol (for heat)
+- 4 cups beef broth
+- 1 can (14 oz) fire-roasted diced tomatoes
+- 1 medium white onion, quartered
+- 6 cloves garlic
+- 2 tsp cumin
+- 1 tsp dried oregano
+- 1/2 tsp ground cloves
+- 1 tsp salt
+- 2 Tbsp apple cider vinegar
+- 2 bay leaves
+- 16 corn tortillas
+- 2 cups shredded Oaxaca or mozzarella cheese
+- Fresh cilantro, diced onion, lime wedges for serving
+
+## Steps
+
+1. Toast dried chiles in a dry skillet over medium heat for 1-2 minutes until fragrant. Don't burn. Place in a bowl and cover with 2 cups hot water. Soak 20 minutes.
+2. Blend soaked chiles with their soaking liquid, tomatoes, half the onion, garlic, cumin, oregano, cloves, salt, and vinegar until smooth.
+3. Season beef generously with salt. In a Dutch oven, sear beef in batches until browned on all sides. Remove and set aside.
+4. Pour chile sauce into the pot, scraping up browned bits. Add beef broth, bay leaves, remaining onion, and seared beef.
+5. Bring to a boil, then reduce heat to low. Cover and braise 2.5-3 hours until beef is fall-apart tender.
+6. Remove beef and shred with two forks. Strain braising liquid—this is your consommé. Skim fat from top (save some for the tortillas).
+7. To make tacos: Dip tortillas in the consommé, then cook in a skillet with a little of the reserved fat. Add cheese and shredded beef. Fold and cook until tortilla is crispy and cheese is melted.
+8. Serve tacos with warm consommé for dipping, topped with cilantro, onion, and lime.
+
+## Notes
+
+- The consommé: This is essential. Dipping the crispy taco into the rich broth is the whole point.
+- Chiles: Guajillo and ancho are mild and fruity. Arbol adds heat. Adjust to taste.
+- Shortcut: Use 3 Tbsp chili powder + 1 Tbsp adobo sauce if you can't find dried chiles.
+- Cheese: Oaxaca melts best. Mozzarella or Monterey Jack work too.
+- Make ahead: Braise beef a day ahead. Refrigerate in the consommé. Fat rises and is easy to skim. Reheat to serve.
+
+Source: Adapted from Isabel Eats
+Canonical: https://rcpbx.com/recipes/birria-tacos/
+
+---
+
+# Buttermilk Biscuits
+
+Tall, flaky, butter-brushed
+
+Serves: 8-10
+
+## Ingredients
+
+- 2 cups flour
+- 1 tbsp baking powder
+- ¼ tsp baking soda
+- 1 tbsp sugar
+- 1 tsp salt
+- 6 tbsp cold butter, cubed
+- ¾ cup cold buttermilk
+
+## Steps
+
+1. Preheat oven to 425°F.
+2. Whisk flour, baking powder, baking soda, sugar, salt.
+3. Cut in cold butter until pea-sized pieces remain.
+4. Add buttermilk. Stir until just combined.
+5. Pat to 1-inch thick. Fold in half. Repeat twice.
+6. Pat to 1-inch thick. Cut with 2.5-inch cutter. Don't twist.
+7. Place on sheet, sides touching.
+8. Bake until golden, 15-18 minutes.
+
+## Notes
+
+- Cold butter is essential.
+- Don't twist cutter - seals edges.
+- Biscuits touching rise higher.
+
+Source: Serious Eats / Stella Parks (BraveTart tested)
+Canonical: https://rcpbx.com/recipes/biscuits/
+
+---
+
+# Biscuits and Gravy
+
+Creamy sausage gravy over warm biscuits
+
+Serves: 4-6
+
+## Ingredients
+
+- 1 lb breakfast sausage
+- 3 tbsp flour
+- 2½ cups whole milk
+- ½ tsp black pepper
+- Pinch cayenne
+- Salt
+- 4-6 fresh biscuits
+
+## Steps
+
+1. Cook sausage over medium, breaking into small pieces, until browned, 8-10 minutes.
+2. Sprinkle flour over sausage. Stir, cook 1 minute.
+3. Gradually whisk in milk, scraping up browned bits.
+4. Simmer, stirring, until thickened, 5-7 minutes.
+5. Season with pepper, cayenne, salt to taste.
+6. Split warm biscuits. Ladle gravy over top.
+
+## Notes
+
+- Don't drain sausage fat - it flavors gravy.
+- Gravy thickens as it cools.
+- Black pepper is essential.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/biscuits-and-gravy/
+
+---
+
 # Black Sesame Cookies
 
 Chewy sugar cookies with the flavor of the year.
@@ -146,6 +1011,320 @@ Canonical: https://rcpbx.com/recipes/black-sesame-cookies/
 
 ---
 
+# Blueberry Muffins
+
+Tender, bursting with berries
+
+Makes: 12
+
+## Ingredients
+
+- 2 cups flour
+- ¾ cup sugar
+- 2 tsp baking powder
+- ½ tsp salt
+- ⅓ cup vegetable oil
+- 1 egg
+- 1 cup milk
+- 1 tsp vanilla
+- 1½ cups blueberries
+- Coarse sugar for topping
+
+## Steps
+
+1. Preheat oven to 400°F. Line 12-cup muffin tin.
+2. Whisk flour, sugar, baking powder, salt.
+3. Whisk oil, egg, milk, vanilla.
+4. Pour wet into dry. Stir until just combined.
+5. Fold in blueberries.
+6. Divide among cups. Sprinkle with coarse sugar.
+7. Bake 20-25 minutes until golden.
+
+## Notes
+
+- Don't overmix - lumps are fine.
+- Frozen blueberries work great.
+- Fill cups nearly full for big tops.
+
+Source: King Arthur Baking (King Arthur tested)
+Canonical: https://rcpbx.com/recipes/blueberry-muffins/
+
+---
+
+# Bolognese Sauce
+
+Rich, meaty, slow-simmered perfection
+
+Serves: 8
+
+## Ingredients
+
+- 2 tbsp butter
+- 2 tbsp olive oil
+- 1 onion, finely diced
+- 2 carrots, finely diced
+- 2 celery stalks, finely diced
+- 1 lb ground beef
+- ½ lb ground pork
+- 1 cup whole milk
+- 1 cup dry white wine
+- 1 (28 oz) can whole tomatoes, crushed
+- ¼ tsp nutmeg
+- Fresh tagliatelle
+
+## Steps
+
+1. Cook onion, carrot, celery in butter and oil until softened, 10 minutes.
+2. Add beef and pork, cook until no longer pink.
+3. Add milk. Simmer until completely absorbed.
+4. Add wine. Simmer until absorbed.
+5. Add tomatoes and nutmeg. Season.
+6. Simmer on lowest heat 3-4 hours, stirring occasionally.
+7. Toss with fresh pasta and Parmesan.
+
+## Notes
+
+- The milk before tomatoes is Hazan's secret - tenderizes meat.
+- True Bolognese is barely red - it's a meat sauce.
+- Traditionally served with tagliatelle, not spaghetti.
+
+Source: Marcella Hazan / Serious Eats (Marcella Hazan classic + Kenji tested)
+Canonical: https://rcpbx.com/recipes/bolognese/
+
+---
+
+# Breakfast Burrito
+
+Eggs, meat, cheese, portable perfection
+
+Serves: 4
+
+## Ingredients
+
+- 8 eggs
+- 4 large flour tortillas
+- 6 slices bacon or ½ lb chorizo
+- 1 cup cheddar, shredded
+- 1 avocado, sliced
+- Salsa
+- 2 tbsp butter
+- Salt and pepper
+
+## Steps
+
+1. Cook bacon until crisp (or brown chorizo). Chop or crumble.
+2. Beat eggs with salt and pepper.
+3. Melt butter in nonstick skillet over medium-low.
+4. Add eggs. Stir constantly making soft curds. Remove slightly underdone.
+5. Warm tortillas in dry skillet.
+6. Layer eggs, meat, cheese, avocado, salsa on each tortilla.
+7. Fold sides in, roll tightly.
+8. Optional: grill seam-side down for crispy outside.
+
+## Notes
+
+- Soft scrambled eggs are key.
+- Warm tortillas are more pliable.
+- Don't overfill.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/breakfast-burrito/
+
+---
+
+# Breakfast Casserole
+
+Make-ahead, feeds a crowd
+
+Serves: 8-10
+
+## Ingredients
+
+- 1 lb breakfast sausage
+- 6 slices bread, cubed
+- 2 cups cheddar, shredded
+- 6 eggs
+- 2 cups milk
+- 1 tsp dry mustard
+- ½ tsp salt
+
+## Steps
+
+1. Brown sausage, breaking into crumbles. Drain.
+2. Layer bread, sausage, cheese in greased 9x13 dish.
+3. Whisk eggs, milk, mustard, salt. Pour over casserole.
+4. Cover, refrigerate overnight.
+5. Bake uncovered at 350°F for 45-50 minutes until set and golden.
+6. Rest 10 minutes.
+
+## Notes
+
+- Overnight rest lets bread absorb custard.
+- Great for holiday mornings.
+
+Source: AllRecipes (1,500+ reviews)
+Canonical: https://rcpbx.com/recipes/breakfast-casserole/
+
+---
+
+# Broccoli Cheddar Soup
+
+Silky, cheesy, actually tastes like broccoli
+
+Serves: 6-8
+
+## Ingredients
+
+- 2 tbsp unsalted butter
+- 2 lbs broccoli, florets chopped, stems sliced thin
+- 1 medium onion, chopped
+- 2 cloves garlic, minced
+- 1½ tsp dry mustard
+- Pinch cayenne
+- 1 tsp salt
+- ¼ tsp baking soda
+- 2 cups chicken broth
+- 3-4 cups water
+- 2 oz baby spinach
+- 3 oz sharp cheddar, shredded
+- 1½ oz Parmesan, grated
+
+## Steps
+
+1. Melt butter in Dutch oven over medium-high. Add broccoli, onion, garlic, mustard, cayenne, and salt. Cook 6 minutes.
+2. Add 1 cup water and baking soda. Cover, simmer 20 minutes until broccoli is very soft.
+3. Add broth and 2 cups water. When simmering, add spinach, cook 1 minute.
+4. Blend in batches with cheeses until smooth.
+5. Return to pot, simmer. Adjust consistency with water. Season to taste.
+
+## Notes
+
+- Baking soda speeds breakdown for sweeter flavor.
+- Overcooking broccoli is actually the key here.
+- Don't boil after adding cheese or it separates.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/broccoli-cheddar-soup/
+
+---
+
+# Fudgy Brownies
+
+Shiny crackly top, fudgy center, chewy edges.
+
+Prep: 15 min · Cook: 25 min · Makes: 16
+
+## Ingredients
+
+- 10 tbsp butter (1¼ sticks)
+- 1¼ cups sugar
+- ¾ cup unsweetened cocoa powder
+- ¼ tsp salt
+- ½ tsp vanilla extract
+- 2 eggs, cold
+- ½ cup all-purpose flour
+- ⅔ cup chocolate chips (optional)
+
+## Steps
+
+1. Preheat oven to 325°F. Line 8x8 pan with parchment, leaving overhang for easy removal.
+2. Melt butter in medium saucepan over medium heat.
+3. Remove from heat. Add sugar, cocoa, and salt. Stir until combined—mixture will be grainy and thick.
+4. Let cool 5 minutes (not too long—should still be warm).
+5. Add vanilla. Add eggs one at a time, stirring vigorously after each until smooth and glossy.
+6. Add flour. Stir until just combined. Fold in chocolate chips if using.
+7. Pour into prepared pan. Spread evenly.
+8. Bake 20-25 minutes. Toothpick should come out with moist crumbs, not wet batter.
+9. Cool in pan 15 minutes. Lift out using parchment. Cool completely before cutting.
+
+## Notes
+
+- Hot butter + sugar + cocoa: This is the secret to the shiny crackly top. Don't skip mixing them while butter is hot.
+- NO baking powder: This makes them fudgy, not cakey. Don't add it.
+- Minimal flour: Less flour = fudgier. Don't be tempted to add more.
+- Don't overbake: They should look slightly underdone. They firm up as they cool.
+- Storage: Keep in airtight container 5 days. Actually better day 2.
+
+Source: Adapted from Alice Medrich via Inspired Taste
+Canonical: https://rcpbx.com/recipes/brownies/
+
+---
+
+# Bruschetta
+
+Grilled bread. Fresh tomatoes. Peak summer on toast.
+
+Prep: 15 min · Cook: 5 min · Serves: 6
+
+## Ingredients
+
+- 1 lb ripe tomatoes, diced
+- 1/4 cup fresh basil, chiffonade
+- 2 cloves garlic, minced (plus 1 whole clove for rubbing)
+- 3 Tbsp extra virgin olive oil, plus more for drizzling
+- 1 Tbsp balsamic vinegar
+- 1/2 tsp salt
+- 1/4 tsp black pepper
+- 1 baguette, sliced 1/2 inch thick
+
+## Steps
+
+1. Combine tomatoes, basil, minced garlic, olive oil, balsamic, salt, and pepper. Let marinate 15-30 minutes.
+2. Toast or grill baguette slices until golden on both sides.
+3. Rub one side of each warm toast with the whole garlic clove.
+4. Drizzle toasts with olive oil.
+5. Spoon tomato mixture onto toasts just before serving.
+
+## Notes
+
+- Pronunciation: broo-SKET-ta (not broo-SHET-ta). The 'ch' makes a 'k' sound in Italian.
+- Ripe tomatoes: This only works with great tomatoes. Off-season, don't bother.
+- Salt the tomatoes: Salt draws out moisture and intensifies flavor. Do this first.
+- Top just before serving: Topping too early = soggy bread.
+- Variations: Add fresh mozzarella, prosciutto, or a drizzle of balsamic glaze.
+
+Source: Adapted from Bon Appétit
+Canonical: https://rcpbx.com/recipes/bruschetta/
+
+---
+
+# Buffalo Wings
+
+Crispy oven-baked, classic hot sauce
+
+Serves: 4
+
+## Ingredients
+
+- 3 lbs chicken wings, split
+- 1 tbsp baking powder
+- 1 tsp salt
+- 4 tbsp butter
+- ½ cup Frank's RedHot
+- 1 tbsp white vinegar
+- ¼ tsp Worcestershire
+- Blue cheese dressing and celery
+
+## Steps
+
+1. Pat wings dry. Toss with baking powder and salt.
+2. Arrange on wire rack over sheet. Refrigerate uncovered overnight.
+3. Bake at 450°F for 20 minutes. Flip, bake 20-30 more until crispy.
+4. Melt butter, whisk in hot sauce, vinegar, Worcestershire.
+5. Toss hot wings in sauce.
+6. Serve with blue cheese and celery.
+
+## Notes
+
+- Baking powder + overnight = crispy without frying.
+- Don't skip overnight rest.
+- Frank's is classic; adjust heat with more/less sauce.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/buffalo-wings/
+
+---
+
 # Buldak Carbonara
 
 Korean fire noodles, tamed with yolk and parmesan.
@@ -192,6 +1371,74 @@ _Tested 2026-07. One sauce packet plus the dairy is the correct default; the ful
 
 Source: Samyang buldak hack, TikTok
 Canonical: https://rcpbx.com/recipes/buldak-carbonara/
+
+---
+
+# Buttercream Frosting
+
+The only frosting recipe you need. Smooth, pipeable, and customizable.
+
+Prep: 10 min · Cook: 0 min · Makes: 3 cups (enough for 24 cupcakes or one 2-layer cake)
+
+## Ingredients
+
+- 1 cup (2 sticks) butter, softened to room temperature
+- 4 cups powdered sugar, sifted
+- 2 Tbsp heavy cream or milk
+- 2 tsp vanilla extract
+- Pinch of salt
+
+## Steps
+
+1. Beat softened butter with an electric mixer on medium speed for 2-3 minutes until pale and fluffy.
+2. Add half the powdered sugar. Beat on low until combined, then increase to medium.
+3. Add remaining powdered sugar, cream, vanilla, and salt. Beat on low to combine.
+4. Increase speed to medium-high. Beat 3-4 minutes until light and fluffy.
+5. Add more cream for thinner consistency, more powdered sugar for thicker.
+
+## Notes
+
+- Room temp butter: This is crucial. Too cold = lumpy. Too soft = runny. Should dent when pressed but hold its shape.
+- Sift the sugar: Sifting prevents lumps and makes smoother frosting.
+- Chocolate version: Add 1/2 cup unsweetened cocoa powder with the powdered sugar.
+- Cream cheese version: Replace half the butter with room temperature cream cheese.
+- Storage: Room temperature 2-3 days, refrigerated up to 1 week. Bring to room temp and re-whip before using.
+
+Source: Adapted from Sally's Baking Addiction
+Canonical: https://rcpbx.com/recipes/buttercream-frosting/
+
+---
+
+# Cacio e Pepe
+
+Three ingredients. Infinite technique.
+
+Serves: 4
+
+## Ingredients
+
+- 1 lb spaghetti or tonnarelli
+- 6 oz Pecorino Romano, finely grated
+- 2 tbsp freshly cracked black pepper
+- Salt
+
+## Steps
+
+1. Toast pepper in dry skillet until fragrant, 1 minute.
+2. Cook pasta in less water than usual (3 quarts) to concentrate starch. Reserve 2 cups pasta water.
+3. Add 1½ cups pasta water to bowl with Pecorino. Whisk to form paste.
+4. Drain pasta when very al dente. Add to cheese mixture with pepper.
+5. Toss vigorously, adding pasta water until creamy.
+6. Serve immediately with more Pecorino and pepper.
+
+## Notes
+
+- Less cooking water = starchier = better sauce.
+- Pecorino is essential - don't substitute Parmesan.
+- Work fast and off heat to prevent clumping.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/cacio-e-pepe/
 
 ---
 
@@ -292,6 +1539,671 @@ Canonical: https://rcpbx.com/recipes/caprese-salad/
 
 ---
 
+# Spaghetti Carbonara
+
+Silky egg sauce, crispy pork, no cream
+
+Serves: 4
+
+## Ingredients
+
+- 1 lb spaghetti
+- 8 oz guanciale or pancetta, diced
+- 4 egg yolks
+- 2 whole eggs
+- 1½ cups Pecorino Romano, grated
+- Freshly ground black pepper
+- Salt
+
+## Steps
+
+1. Cook pasta in well-salted water. Reserve 1½ cups pasta water.
+2. Cook guanciale in cold skillet over medium until crispy, 8-10 minutes. Remove from heat.
+3. Whisk yolks, eggs, most Pecorino, and plenty of black pepper.
+4. Drain pasta, add to skillet with guanciale (off heat).
+5. Pour egg mixture over pasta, toss vigorously. Residual heat cooks eggs.
+6. Add pasta water until sauce is silky.
+7. Serve with remaining Pecorino and pepper.
+
+## Notes
+
+- Key: take pan OFF heat before adding eggs.
+- Work fast - pasta must be hot.
+- No cream in real carbonara - ever.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/carbonara/
+
+---
+
+# Carnitas
+
+Crispy-edged, tender braised pork
+
+Serves: 8-10
+
+## Ingredients
+
+- 4 lbs boneless pork shoulder, cubed
+- 1 cup water
+- ½ cup vegetable oil
+- 2 tsp salt
+- 1 orange, juiced
+- 1 lime, juiced
+- 6 cloves garlic, smashed
+- 2 bay leaves
+- 1 cinnamon stick
+- Corn tortillas, onion, cilantro, salsa
+
+## Steps
+
+1. Combine pork, water, oil, salt, juices, garlic, bay leaves, cinnamon in Dutch oven.
+2. Bring to boil, reduce to bare simmer. Cover, cook 2 hours, flipping halfway.
+3. Uncover, continue cooking until liquid evaporates and pork fries in rendered fat, about 1 hour.
+4. Once frying, stir occasionally until all sides crispy.
+5. Shred meat, mixing crispy bits throughout.
+6. Serve in warm tortillas with onion, cilantro, salsa.
+
+## Notes
+
+- Braise-then-fry is the authentic method.
+- Orange juice adds subtle sweetness.
+- Mix crispy bits with tender meat.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/carnitas/
+
+---
+
+# Carrot Cake
+
+Moist, spiced, cream cheese frosted
+
+Serves: 12
+
+## Ingredients
+
+- Cake: 2 cups flour, 2 tsp baking soda, 2 tsp cinnamon, 1 tsp salt, 1½ cups vegetable oil, 1½ cups sugar, 4 eggs, 3 cups finely grated carrots, 1 cup walnuts
+- Frosting: 16 oz cream cheese, ½ cup butter, 4 cups powdered sugar, 2 tsp vanilla
+
+## Steps
+
+1. Preheat oven to 350°F. Grease two 9-inch pans.
+2. Whisk flour, baking soda, cinnamon, salt.
+3. Beat oil, sugar, eggs. Stir in dry ingredients.
+4. Fold in carrots and walnuts.
+5. Divide between pans. Bake 30-35 minutes.
+6. Cool 10 minutes, turn out onto racks.
+7. Frosting: Beat cream cheese and butter. Add sugar and vanilla.
+8. Frost cooled layers.
+
+## Notes
+
+- Finely grated carrots distribute better.
+- Oil keeps cake moist.
+- Toast walnuts for better flavor.
+
+Source: Serious Eats (Stella Parks tested)
+Canonical: https://rcpbx.com/recipes/carrot-cake/
+
+---
+
+# New York Cheesecake
+
+Dense, creamy, classic
+
+Serves: 12
+
+## Ingredients
+
+- Crust: 2 cups graham cracker crumbs, 6 tbsp butter melted, 2 tbsp sugar
+- Filling: 32 oz cream cheese softened, 1 cup sugar, 1 tbsp vanilla, ¼ tsp salt, 4 eggs, ⅔ cup sour cream
+
+## Steps
+
+1. Preheat oven to 325°F. Wrap springform pan with foil.
+2. Mix crust ingredients. Press into pan bottom and 1 inch up sides.
+3. Bake crust 10 minutes. Cool.
+4. Beat cream cheese and sugar until smooth. Add vanilla and salt.
+5. Add eggs one at a time. Stir in sour cream.
+6. Pour into crust. Place in roasting pan, add hot water halfway up sides.
+7. Bake until edges set and center jiggles slightly, 60-70 minutes.
+8. Turn off oven, crack door, cool 1 hour in oven.
+9. Refrigerate overnight.
+
+## Notes
+
+- Room temp cream cheese prevents lumps.
+- Water bath prevents cracking.
+- Must chill overnight.
+
+Source: Serious Eats / Stella Parks (BraveTart tested)
+Canonical: https://rcpbx.com/recipes/cheesecake/
+
+---
+
+# Chicken Alfredo
+
+Creamy, garlicky, comfort food perfection
+
+Serves: 4
+
+## Ingredients
+
+- 1 lb fettuccine
+- 1 lb chicken breasts
+- 2 tbsp olive oil
+- 6 tbsp butter
+- 2 cups heavy cream
+- 2 cups freshly grated Parmesan
+- 2 cloves garlic, minced
+- ¼ tsp nutmeg
+- Salt and pepper
+- Fresh parsley
+
+## Steps
+
+1. Season and cook chicken in oil until golden, 6-7 minutes per side. Rest, then slice.
+2. Cook pasta until al dente. Reserve 1 cup pasta water.
+3. Melt butter, add garlic, cook 30 seconds. Add cream, simmer 2-3 minutes.
+4. Off heat, gradually stir in Parmesan until melted.
+5. Add pasta, toss. Add pasta water for silky consistency.
+6. Season with nutmeg, salt, pepper. Top with chicken and parsley.
+
+## Notes
+
+- Real Alfredo is just butter, Parmesan, pasta water - cream is American addition.
+- Take pot off heat before adding cheese to prevent clumping.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/chicken-alfredo/
+
+---
+
+# Chicken Fried Rice
+
+Day-old rice, crispy edges, wok hei
+
+Serves: 4
+
+## Ingredients
+
+- 4 cups day-old white rice, cold
+- 1 lb chicken breast, diced
+- 3 tbsp vegetable oil
+- 3 eggs, beaten
+- 1 cup frozen peas and carrots
+- 4 scallions, sliced
+- 3 cloves garlic, minced
+- 3 tbsp soy sauce
+- 1 tbsp sesame oil
+- White pepper
+
+## Steps
+
+1. Heat wok until smoking. Add 1 tbsp oil. Stir-fry seasoned chicken until cooked. Transfer out.
+2. Add 1 tbsp oil. Scramble eggs, break into pieces. Transfer out.
+3. Add remaining oil. Stir-fry garlic 30 seconds.
+4. Add rice, press flat. Let sit 30 seconds, then stir. Repeat until hot and slightly crispy.
+5. Add peas/carrots, cook 1 minute. Return chicken and eggs. Add soy sauce, toss.
+6. Drizzle with sesame oil, add scallions and white pepper.
+
+## Notes
+
+- Day-old rice is essential.
+- High heat creates wok hei.
+- Don't stir constantly - let rice crisp.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/chicken-fried-rice/
+
+---
+
+# Chicken Marsala
+
+Pan-seared chicken in mushroom wine sauce
+
+Serves: 4
+
+## Ingredients
+
+- 4 chicken breasts
+- ½ cup flour
+- 4 tbsp butter
+- 2 tbsp olive oil
+- 8 oz cremini mushrooms, sliced
+- 3 cloves garlic, minced
+- 1 cup dry Marsala wine
+- 1 cup chicken broth
+- ½ cup heavy cream
+- 2 tbsp parsley
+
+## Steps
+
+1. Pound chicken to ½-inch. Season, dredge in flour.
+2. Cook chicken in 2 tbsp butter and oil until golden, 3-4 minutes per side. Transfer out.
+3. Add remaining butter and mushrooms. Brown 5 minutes. Add garlic, cook 30 seconds.
+4. Add Marsala, scrape up browned bits. Reduce by half.
+5. Add broth, simmer 5 minutes. Stir in cream.
+6. Return chicken, simmer until cooked through, 3-5 minutes. Add parsley.
+
+## Notes
+
+- Use dry Marsala, not sweet cooking Marsala.
+- Pounding chicken ensures even cooking.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/chicken-marsala/
+
+---
+
+# Chicken Noodle Soup
+
+Classic comfort. 30 minutes with rotisserie chicken.
+
+Prep: 10 min · Cook: 20 min · Serves: 6
+
+## Ingredients
+
+- 2 tbsp butter
+- 1 medium onion, diced
+- 3 carrots, sliced into half-moons
+- 3 celery stalks, sliced
+- 3 garlic cloves, minced
+- 8 cups chicken broth (good quality)
+- 1 tbsp tomato paste
+- 1 tsp fresh thyme (or ½ tsp dried)
+- 1 bay leaf
+- 8 oz egg noodles
+- 3 cups shredded rotisserie chicken
+- 2 tbsp fresh dill or parsley, chopped
+- Salt and pepper to taste
+
+## Steps
+
+1. Melt butter in a large pot over medium heat. Add onion, carrots, and celery. Cook until softened, about 5 minutes.
+2. Add garlic and tomato paste. Cook 1 minute until fragrant.
+3. Pour in broth. Add thyme and bay leaf. Bring to a boil.
+4. Add noodles. Cook according to package directions (usually 8-10 minutes) until tender.
+5. Stir in shredded chicken. Heat through, about 2 minutes.
+6. Remove bay leaf. Stir in fresh dill. Season with salt and pepper to taste.
+
+## Notes
+
+- Broth matters: Use the best quality broth you can find. It's the backbone of the soup.
+- From scratch: For richer broth, simmer chicken wings with the vegetables for 1 hour before adding noodles.
+- Noodle tip: If making ahead, store noodles separately. They'll absorb liquid and get mushy.
+- Storage: Keeps 4 days refrigerated. Freeze broth and chicken without noodles.
+
+Source: Adapted from Once Upon a Chef
+Canonical: https://rcpbx.com/recipes/chicken-noodle-soup/
+
+---
+
+# Chicken Parmesan
+
+Crispy cutlets, bubbling mozzarella. The key: don't bake it in sauce.
+
+Prep: 20 min · Cook: 25 min · Serves: 4
+
+## Ingredients
+
+- 4 boneless skinless chicken breasts
+- 1 cup all-purpose flour
+- 2 eggs, beaten
+- 1½ cups panko breadcrumbs
+- ½ cup parmesan, grated
+- 1 tsp Italian seasoning
+- ½ tsp garlic powder
+- ½ tsp salt
+- ¼ cup olive oil
+- 2 cups marinara sauce
+- 8 oz fresh mozzarella, sliced
+- Fresh basil for serving
+
+## Steps
+
+1. Preheat oven to broil. Line a baking sheet with foil.
+2. Pound chicken to ¼" even thickness between plastic wrap. This ensures even cooking.
+3. Set up breading station: flour in one dish, beaten eggs in second, panko mixed with parmesan, Italian seasoning, garlic powder, and salt in third.
+4. Dredge each cutlet: flour → egg → panko mixture. Press panko firmly to adhere.
+5. Heat oil in large skillet over medium-high. Fry cutlets 3-4 minutes per side until golden brown and cooked through (165°F). Work in batches.
+6. Transfer cutlets to baking sheet. Spoon marinara around (not over) chicken—keep the breading exposed.
+7. Top each cutlet with mozzarella slices.
+8. Broil 2-3 minutes until cheese is melted and bubbly. Watch carefully.
+9. Serve topped with fresh basil and extra sauce on the side.
+
+## Notes
+
+- The soggy mistake: Most recipes bake chicken IN the sauce. This makes breading soggy. Sauce goes around, not on top.
+- Pound it thin: ¼" thickness cooks evenly and stays tender. Thick pieces overcook on outside.
+- Fresh mozzarella: Melts better than shredded, creates better texture.
+- Make it a sub: Slice and pile on hoagie roll with extra sauce and cheese.
+- Storage: Best fresh. Reheat on wire rack in 375°F oven to restore crispness.
+
+Source: Adapted from Natasha's Kitchen
+Canonical: https://rcpbx.com/recipes/chicken-parmesan/
+
+---
+
+# Chicken Pot Pie
+
+Creamy filling under flaky pastry
+
+Serves: 6
+
+## Ingredients
+
+- 1½ lbs boneless skinless chicken thighs
+- 4 tbsp butter
+- 1 onion, chopped
+- 2 carrots, sliced
+- 2 celery ribs, sliced
+- ⅓ cup flour
+- 2 cups chicken broth
+- 1 cup heavy cream
+- 1 cup frozen peas
+- 2 tbsp fresh thyme
+- 1 sheet puff pastry
+- 1 egg, beaten
+
+## Steps
+
+1. Poach chicken in simmering water until cooked, 15-20 minutes. Shred.
+2. Melt butter, cook onion, carrots, celery until soft, 8 minutes.
+3. Add flour, cook 1 minute. Whisk in broth and cream.
+4. Simmer until thickened. Add chicken, peas, thyme. Season well.
+5. Transfer to 9x13 dish. Top with puff pastry, cut vents. Brush with egg.
+6. Bake at 400°F until golden and bubbling, 25-30 minutes.
+
+## Notes
+
+- Thighs have more flavor than breasts.
+- Puff pastry is easier than pie dough.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/chicken-pot-pie/
+
+---
+
+# Chicken Quesadilla
+
+Crispy tortilla, melty cheese, seasoned chicken. Ready in 15 minutes.
+
+Prep: 10 min · Cook: 10 min · Serves: 4
+
+## Ingredients
+
+- 2 cups cooked chicken, shredded
+- 1 tsp chili powder
+- 1/2 tsp cumin
+- 1/2 tsp garlic powder
+- 1/4 tsp salt
+- 4 large flour tortillas
+- 2 cups shredded Mexican cheese blend
+- 1/2 cup bell peppers, diced
+- 1/4 cup red onion, diced
+- 2 Tbsp butter or oil
+- Sour cream, salsa, guacamole for serving
+
+## Steps
+
+1. Toss shredded chicken with chili powder, cumin, garlic powder, and salt.
+2. Heat a large skillet over medium heat. Add 1/2 Tbsp butter.
+3. Place a tortilla in the skillet. Add 1/2 cup cheese to half the tortilla.
+4. Top cheese with 1/4 of the chicken, peppers, and onion. Add more cheese on top.
+5. Fold tortilla in half. Cook 2-3 minutes until bottom is golden.
+6. Flip carefully and cook 2-3 minutes more until both sides are crispy and cheese is melted.
+7. Repeat with remaining ingredients. Cut into triangles and serve with toppings.
+
+## Notes
+
+- Crispy secret: Butter in the pan creates the best golden crust.
+- Cheese placement: Cheese on both sides of the filling helps everything stick together.
+- Rotisserie shortcut: Use store-bought rotisserie chicken for speed.
+- Make it veggie: Swap chicken for black beans and corn.
+- Keep warm: Place finished quesadillas on a baking sheet in a 200°F oven while making the rest.
+
+Source: Adapted from Gimme Some Oven
+Canonical: https://rcpbx.com/recipes/chicken-quesadilla/
+
+---
+
+# Chicken Salad
+
+Classic, creamy, perfect for sandwiches
+
+Serves: 4-6
+
+## Ingredients
+
+- 1½ lbs chicken breasts
+- ½ cup mayonnaise
+- 2 tbsp lemon juice
+- 1 tsp Dijon mustard
+- 2 celery ribs, chopped fine
+- 2 tbsp fresh parsley
+- 1 shallot, minced
+- Salt and pepper
+
+## Steps
+
+1. Cover chicken with salted water. Bring to boil, reduce to simmer. Cook until 160°F, 15-20 minutes.
+2. Cool 10 minutes, then shred or chop.
+3. Whisk mayo, lemon juice, mustard.
+4. Add chicken, celery, parsley, shallot. Toss.
+5. Season with salt and pepper. Chill 30 minutes.
+6. Serve on bread, in lettuce cups, or with crackers.
+
+## Notes
+
+- Poaching keeps chicken moist.
+- Shredded has better texture than cubed.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/chicken-salad/
+
+---
+
+# Chicken Stir Fry
+
+Tender chicken, crisp vegetables, savory sauce
+
+Serves: 4
+
+## Ingredients
+
+- 1½ lbs chicken breast, sliced thin
+- 2 tbsp soy sauce
+- 1 tbsp cornstarch
+- 1 tbsp Shaoxing wine
+- 3 tbsp vegetable oil
+- 3 cloves garlic, minced
+- 1 tbsp ginger, minced
+- 1 bell pepper, sliced
+- 1 cup broccoli
+- ½ cup chicken broth
+- 2 tbsp oyster sauce
+- 1 tsp sesame oil
+
+## Steps
+
+1. Toss chicken with 1 tbsp soy sauce, cornstarch, wine. Marinate 15 minutes.
+2. Mix broth, remaining soy sauce, oyster sauce.
+3. Heat wok over high until smoking. Add oil.
+4. Sear chicken without stirring 1 minute, then stir-fry until just cooked. Transfer out.
+5. Stir-fry garlic and ginger 30 seconds. Add vegetables, stir-fry 2 minutes.
+6. Return chicken, add sauce. Cook until thickened.
+7. Drizzle with sesame oil. Serve over rice.
+
+## Notes
+
+- Velveting (cornstarch marinade) keeps chicken tender.
+- Wok must be ripping hot.
+- Cook in batches to avoid steaming.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/chicken-stir-fry/
+
+---
+
+# Chicken Stock
+
+Rich, golden, foundation of flavor
+
+Makes: 3-4 quarts
+
+## Ingredients
+
+- 4-5 lbs chicken backs, wings, or carcasses
+- 1 large onion, quartered
+- 2 carrots, chunked
+- 2 celery ribs, chunked
+- 1 head garlic, halved
+- 2 bay leaves
+- 1 tsp black peppercorns
+- Fresh thyme and parsley stems
+
+## Steps
+
+1. Place chicken parts in large stockpot. Cover with cold water by 2 inches.
+2. Bring to boil, reduce to bare simmer. Skim any foam.
+3. Add vegetables, garlic, and aromatics.
+4. Simmer uncovered 4-6 hours, adding water as needed.
+5. Strain through fine-mesh strainer. Discard solids.
+6. Cool uncovered. Refrigerate.
+7. Skim solidified fat before using.
+
+## Notes
+
+- Never boil - causes cloudy stock.
+- More gelatin = richer body.
+- Freezes for 6 months.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/chicken-stock/
+
+---
+
+# Chicken Tacos
+
+Simple spiced chicken, classic toppings
+
+Serves: 4-6
+
+## Ingredients
+
+- 2 lbs boneless skinless chicken thighs
+- 2 tbsp vegetable oil
+- 1 tbsp chili powder
+- 1 tsp cumin
+- 1 tsp garlic powder
+- ½ tsp oregano
+- Juice of 2 limes
+- Corn tortillas
+- Diced onion, cilantro, salsa
+
+## Steps
+
+1. Mix oil with chili powder, cumin, garlic powder, oregano, 1 tsp salt.
+2. Toss chicken with spice mixture. Arrange on baking sheet.
+3. Roast at 425°F until cooked and slightly charred, 20-25 minutes.
+4. Rest 5 minutes, chop or shred. Toss with lime juice.
+5. Warm tortillas. Serve in tortillas with onion, cilantro, salsa.
+
+## Notes
+
+- Thighs stay moister than breasts.
+- Char adds taqueria flavor.
+- Double-stack corn tortillas.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/chicken-tacos/
+
+---
+
+# Chicken Tikka Masala
+
+Charred chicken in creamy tomato sauce
+
+Serves: 4-6
+
+## Ingredients
+
+- 2 lbs chicken thighs
+- 1 cup yogurt
+- 2 tbsp lemon juice
+- 2 tbsp garam masala, divided
+- 1 tbsp cumin
+- 1 tbsp paprika
+- 2 tbsp oil
+- 1 large onion, diced
+- 4 cloves garlic, minced
+- 2 tbsp ginger, minced
+- 1 (14 oz) can crushed tomatoes
+- 1 cup heavy cream
+- Cilantro
+
+## Steps
+
+1. Mix yogurt, lemon juice, 1 tbsp garam masala, cumin, paprika. Marinate chicken 1-4 hours.
+2. Broil chicken until charred, 4-5 minutes per side.
+3. Cook onion in oil 8 minutes. Add garlic, ginger, remaining garam masala. Cook 1 minute.
+4. Add tomatoes, simmer 15 minutes. Stir in cream.
+5. Add chicken and juices. Simmer 10 minutes. Garnish with cilantro.
+6. Serve with basmati rice and naan.
+
+## Notes
+
+- Yogurt marinade tenderizes.
+- Charring under broiler adds authentic flavor.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/chicken-tikka-masala/
+
+---
+
+# Chicken Tortilla Soup
+
+Smoky, spicy, with crispy tortilla strips
+
+Serves: 6
+
+## Ingredients
+
+- 8 corn tortillas, cut into strips
+- Vegetable oil for frying
+- 1 onion, chopped
+- 4 cloves garlic, minced
+- 2 jalapeños, minced
+- 1 tbsp tomato paste
+- 1 (14.5 oz) can diced tomatoes
+- 8 cups chicken broth
+- 1 lb chicken breasts
+- ¼ cup cilantro
+- Juice of 2 limes
+- Avocado, sour cream, cheese
+
+## Steps
+
+1. Fry half the tortilla strips until crisp. Drain, season with salt.
+2. Sauté onion 5 minutes. Add remaining tortilla strips, garlic, jalapeños, tomato paste. Cook 2 minutes.
+3. Add tomatoes and broth. Simmer.
+4. Add chicken breasts, simmer until cooked, 15-20 minutes.
+5. Remove chicken, shred, return to pot.
+6. Stir in cilantro and lime juice.
+7. Serve topped with fried tortillas, avocado, sour cream, cheese.
+
+## Notes
+
+- Cooking tortillas in soup adds body and flavor.
+- Crispy strips must be added right before serving.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/chicken-tortilla-soup/
+
+---
+
 # Chickpea Cookie Dough
 
 Edible cookie dough with 6g of fiber hiding in it.
@@ -336,6 +2248,350 @@ _Tested 2026-07. Three full minutes in the processor and a hard chill are what s
 
 Source: Fibermaxxing trend, 2026
 Canonical: https://rcpbx.com/recipes/chickpea-cookie-dough/
+
+---
+
+# Chili by George
+
+Reliable weeknight chili. Stovetop or slow cooker.
+
+Prep: 15 min · Cook: 1½ hrs · Serves: 10
+
+## Ingredients
+
+- 2 lbs ground beef
+- 46 oz tomato juice
+- 29 oz tomato sauce
+- 15 oz kidney beans, drained
+- 15 oz pinto beans, drained
+- 1½ cups onion, chopped
+- ¼ cup bell pepper, chopped
+- ¼ cup chili powder
+- 1½ tsp cumin
+- 1 tsp salt
+- ½ tsp oregano
+- ½ tsp black pepper
+- ½ tsp sugar
+- ⅛ tsp cayenne
+
+## Steps
+
+1. Brown ground beef in a large skillet over medium-high heat until no pink remains, about 8 minutes. Drain the fat.
+2. Transfer beef to a large pot. Add tomato juice, tomato sauce, both beans, onion, bell pepper, and all spices. Stir to combine.
+3. Bring to a boil over high heat. Reduce to low and simmer uncovered for 1½ hours, stirring occasionally, until thickened.
+4. Taste and adjust salt. Serve with your preferred toppings.
+
+## Notes
+
+- Slow cooker: Brown beef first, then combine everything on low for 8–10 hours.
+- Too thin? Swap tomato juice for crushed tomatoes, or simmer uncovered longer.
+- Storage: Keeps 5 days refrigerated. Freezes well for 3 months.
+
+Source: Adapted from AllRecipes (3,200+ ratings)
+Canonical: https://rcpbx.com/recipes/chili-by-george/
+
+---
+
+# Chimichurri
+
+Argentina's iconic herb sauce. Bright, garlicky, and perfect on grilled meat.
+
+Prep: 10 min · Cook: 0 min · Makes: 1 cup
+
+## Ingredients
+
+- 1 cup fresh parsley, packed (flat-leaf preferred)
+- 4 cloves garlic
+- 2 Tbsp fresh oregano (or 2 tsp dried)
+- 1/3 cup red wine vinegar
+- 1/2 tsp salt
+- 1/4 tsp black pepper
+- 1/2 tsp red pepper flakes
+- 3/4 cup extra virgin olive oil
+
+## Steps
+
+1. Finely chop parsley, garlic, and oregano by hand or pulse in a food processor. Don't puree—you want texture.
+2. Transfer to a bowl. Add red wine vinegar, salt, pepper, and red pepper flakes. Stir to combine.
+3. Pour in olive oil and mix well.
+4. Let sit at least 10 minutes before serving to let flavors meld. Tastes even better after an hour.
+
+## Notes
+
+- Hand chop vs processor: Hand chopping gives better texture. If using a processor, pulse briefly.
+- The vinegar: Red wine vinegar is traditional. Sherry vinegar or lemon juice also work.
+- Best on: Grilled steak, chicken, fish, roasted vegetables, crusty bread, eggs.
+- Storage: Refrigerate up to 1 week. Bring to room temperature before serving—the oil solidifies when cold.
+- Make it ahead: Flavors improve overnight.
+
+Source: Adapted from Downshiftology
+Canonical: https://rcpbx.com/recipes/chimichurri/
+
+---
+
+# Chocolate Cake
+
+Rich, moist, deeply chocolatey
+
+Serves: 12
+
+## Ingredients
+
+- Cake: 2 cups flour, 2 cups sugar, ¾ cup cocoa powder, 2 tsp baking soda, 1 tsp salt, 1 cup vegetable oil, 1 cup buttermilk, 2 eggs, 1 cup hot coffee
+- Frosting: 1 cup butter, 4 cups powdered sugar, ½ cup cocoa, ¼ cup heavy cream, 2 tsp vanilla
+
+## Steps
+
+1. Preheat oven to 350°F. Grease two 9-inch pans.
+2. Whisk flour, sugar, cocoa, baking soda, salt.
+3. Add oil, buttermilk, eggs. Beat 2 minutes.
+4. Stir in hot coffee (batter will be thin).
+5. Divide between pans. Bake 30-35 minutes.
+6. Cool 10 minutes, turn out onto racks.
+7. Frosting: Beat butter until fluffy. Add sugar, cocoa, cream, vanilla.
+8. Frost cooled layers.
+
+## Notes
+
+- Hot coffee intensifies chocolate flavor.
+- Batter is very thin - that's correct.
+
+Source: Serious Eats (BraveTart tested)
+Canonical: https://rcpbx.com/recipes/chocolate-cake/
+
+---
+
+# Chocolate Chip Cookies
+
+Brown butter, toffee notes, crispy edges, chewy center.
+
+Prep: 20 min · Cook: 12 min · Makes: 16
+
+## Ingredients
+
+- 1¾ cups all-purpose flour
+- ½ tsp baking soda
+- 14 tbsp butter (1¾ sticks)
+- ½ cup granulated sugar
+- ¾ cup dark brown sugar, packed
+- 1 tsp salt
+- 2 tsp vanilla extract
+- 1 whole egg + 1 egg yolk
+- 1¼ cups chocolate chips or chunks
+
+## Steps
+
+1. Whisk flour and baking soda in bowl. Set aside.
+2. Brown the butter: Melt 10 tbsp butter in skillet over medium-high heat, swirling constantly. Cook until milk solids turn dark golden brown and smell nutty, about 3 minutes. Transfer to large bowl.
+3. Add remaining 4 tbsp butter to hot browned butter. Stir until melted.
+4. Add both sugars, salt, and vanilla. Whisk until combined.
+5. Add egg and yolk. Whisk vigorously for 30 seconds. Let rest 3 minutes. Whisk 30 seconds. Rest 3 minutes. Whisk 30 seconds. (This develops structure.)
+6. Fold in flour mixture until just combined. Fold in chocolate chips.
+7. Roll dough into 16 balls (about 3 tablespoons each). Place on parchment-lined baking sheets, 2 inches apart.
+8. Bake at 375°F for 10-14 minutes until golden brown on edges but still soft in center.
+9. Cool on pan 5 minutes, then transfer to rack.
+
+## Notes
+
+- BROWN THE BUTTER: This is the secret. Creates toffee/nutty flavor that's unmistakable.
+- Dark brown sugar: More molasses = chewier cookie. Don't substitute light.
+- The whisking/resting: Sounds fussy but it dissolves sugar and creates a glossy, crackly top.
+- 1 egg + 1 yolk: Extra yolk = chewier texture. Whole eggs make cakier cookies.
+- Underbake slightly: They firm up as they cool. Golden edges, soft center = perfect.
+
+Source: Adapted from America's Test Kitchen
+Canonical: https://rcpbx.com/recipes/chocolate-chip-cookies/
+
+---
+
+# Cinnamon Rolls
+
+Soft, gooey, cream cheese frosted
+
+Serves: 12
+
+## Ingredients
+
+- Dough: 1 cup warm milk, 2¼ tsp yeast, ¼ cup sugar, ⅓ cup butter softened, 1 egg, 3½ cups flour, 1 tsp salt
+- Filling: ⅓ cup butter softened, ¾ cup brown sugar, 2 tbsp cinnamon
+- Glaze: 4 oz cream cheese, ¼ cup butter, 1 cup powdered sugar, ½ tsp vanilla
+
+## Steps
+
+1. Dissolve yeast in warm milk with pinch sugar. Let sit 5 minutes.
+2. Mix in sugar, butter, egg. Add flour and salt. Knead until smooth, 8 minutes.
+3. Let rise until doubled, 1 hour.
+4. Roll to 16x12 rectangle. Spread with butter. Mix brown sugar and cinnamon, sprinkle over.
+5. Roll up tightly from long side. Cut into 12 pieces.
+6. Place in greased 9x13 pan. Let rise 30 minutes.
+7. Bake at 350°F for 25-30 minutes.
+8. Beat glaze ingredients. Spread on warm rolls.
+
+## Notes
+
+- Warm (not hot) milk activates yeast.
+- Use dental floss to cut dough.
+- Don't overbake.
+
+Source: King Arthur Baking (King Arthur tested)
+Canonical: https://rcpbx.com/recipes/cinnamon-rolls/
+
+---
+
+# New England Clam Chowder
+
+Creamy, briny, and loaded with clams and potatoes. The real deal.
+
+Prep: 20 min · Cook: 35 min · Serves: 6
+
+## Ingredients
+
+- 4 slices thick-cut bacon, diced
+- 2 Tbsp butter
+- 1 medium onion, diced
+- 2 stalks celery, diced
+- 3 Tbsp all-purpose flour
+- 2 cups clam juice (from cans + bottled)
+- 2 cups whole milk
+- 1 cup heavy cream
+- 1.5 lbs Yukon gold potatoes, diced 1/2 inch
+- 2 cans (6.5 oz each) chopped clams, drained (reserve juice)
+- 2 bay leaves
+- 1 tsp fresh thyme
+- Salt and white pepper to taste
+- Fresh chives for garnish
+
+## Steps
+
+1. Cook bacon in a large Dutch oven over medium heat until crispy. Remove to a paper towel, leaving fat in pot.
+2. Add butter to bacon fat. Sauté onion and celery 5 minutes until softened.
+3. Sprinkle flour over vegetables. Stir and cook 2 minutes.
+4. Slowly whisk in clam juice, then milk. Add bay leaves and thyme.
+5. Add potatoes. Bring to a simmer and cook 15-20 minutes until potatoes are tender.
+6. Stir in heavy cream and clams. Heat through 5 minutes—don't boil or clams get rubbery.
+7. Remove bay leaves. Season with salt and white pepper.
+8. Serve topped with reserved bacon and fresh chives.
+
+## Notes
+
+- Clam juice: Use the liquid from the canned clams plus bottled clam juice to reach 2 cups.
+- Fresh clams: Steam 3 lbs littlenecks. Chop meat, strain and use the cooking liquid.
+- Potatoes: Yukon Golds hold their shape. Russets make it creamier but can get mushy.
+- White pepper: Traditional for chowder. Black pepper works but adds visible specks.
+- Make ahead: Flavors improve overnight. Reheat gently.
+
+Source: Adapted from Serious Eats
+Canonical: https://rcpbx.com/recipes/clam-chowder/
+
+---
+
+# Coleslaw
+
+Creamy, tangy, classic BBQ side
+
+Serves: 8
+
+## Ingredients
+
+- 1 head green cabbage, shredded (8 cups)
+- 2 carrots, shredded
+- ¾ cup mayonnaise
+- 2 tbsp sugar
+- 2 tbsp apple cider vinegar
+- 1 tbsp Dijon mustard
+- ½ tsp celery seed
+- Salt and pepper
+
+## Steps
+
+1. Toss cabbage and carrots.
+2. Whisk mayo, sugar, vinegar, mustard, celery seed.
+3. Pour over cabbage. Toss to coat.
+4. Season with salt and pepper.
+5. Refrigerate at least 1 hour.
+6. Toss again before serving.
+
+## Notes
+
+- Salting cabbage first draws out moisture.
+- Letting it sit melds flavors.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/coleslaw/
+
+---
+
+# Corn on the Cob
+
+Summer in a bite. Three ways: boiled, grilled, or roasted.
+
+Prep: 5 min · Cook: 10 min · Serves: 6
+
+## Ingredients
+
+- 6 ears fresh corn, husked
+- 4 Tbsp butter
+- Salt and pepper to taste
+- Optional: chili powder, lime, parmesan, fresh herbs
+
+## Steps
+
+1. BOILED: Bring a large pot of water to boil. Don't add salt—it toughens the corn. Add corn and cook 4-6 minutes until tender. Drain.
+2. GRILLED: Preheat grill to medium-high. Brush corn with oil. Grill 10-12 minutes, turning every few minutes, until charred in spots.
+3. ROASTED: Preheat oven to 400°F. Place corn directly on oven rack. Roast 20-25 minutes until tender.
+4. Serve immediately with butter, salt, and pepper.
+
+## Notes
+
+- Freshness: Fresh corn is best eaten within 1-2 days. The sugar converts to starch over time.
+- No salt in water: Salt toughens corn. Season after cooking.
+- Test for doneness: Pierce a kernel with your fingernail—it should be tender and release milky juice.
+- Mexican street corn (elote): Coat grilled corn with mayo, cotija cheese, chili powder, and lime.
+- Cut off the cob: Stand ear upright in a bowl and slice down with a sharp knife.
+
+Source: Adapted from Simply Recipes
+Canonical: https://rcpbx.com/recipes/corn-on-the-cob/
+
+---
+
+# Southern Cornbread
+
+Cast iron, crispy edges, no sugar. The way it should be.
+
+Prep: 10 min · Cook: 25 min · Serves: 8
+
+## Ingredients
+
+- 1½ cups cornmeal (stone-ground if you can find it)
+- ½ cup all-purpose flour
+- 1 tbsp baking powder
+- ½ tsp baking soda
+- 1 tsp salt
+- 1½ cups buttermilk
+- 1 egg
+- 10 tbsp butter, divided
+
+## Steps
+
+1. Preheat oven to 425°F. Place 10-inch cast iron skillet in oven while it heats.
+2. Whisk cornmeal, flour, baking powder, baking soda, and salt in large bowl.
+3. Melt 6 tablespoons butter. Whisk with buttermilk and egg in another bowl.
+4. Pour wet ingredients into dry. Stir until just combined. Don't overmix.
+5. Carefully remove hot skillet from oven. Add remaining 4 tablespoons butter, swirl to coat.
+6. Immediately pour batter into sizzling butter. It should sizzle loudly.
+7. Bake 20-25 minutes until golden brown and toothpick comes out clean.
+8. Brush top with more butter if desired. Let cool 5 minutes before slicing.
+
+## Notes
+
+- HOT skillet + butter = crispy crust: This is non-negotiable. The sizzle when batter hits the pan creates the crust.
+- No sugar: Southern cornbread is savory. If you want sweet, that's Northern-style (and that's fine, just different).
+- Cast iron matters: Retains heat, creates crispy edges. A regular pan won't give the same results.
+- Bacon grease: For extra flavor, replace some butter with bacon drippings.
+- Serve with: Chili, beans, collard greens, or crumbled into buttermilk (yes, really).
+
+Source: Adapted from The Kitchn
+Canonical: https://rcpbx.com/recipes/cornbread/
 
 ---
 
@@ -441,6 +2697,46 @@ Canonical: https://rcpbx.com/recipes/cottage-cheese-tacos/
 
 ---
 
+# Crab Cakes
+
+Minimal filler, maximum crab
+
+Serves: 4
+
+## Ingredients
+
+- 1 lb lump crabmeat
+- ¼ cup mayonnaise
+- 1 egg yolk
+- 1 tbsp Dijon mustard
+- 1 tbsp Worcestershire
+- 1 tbsp Old Bay
+- 2 tbsp parsley
+- ½ cup panko
+- 2 tbsp butter
+- Lemon and tartar sauce
+
+## Steps
+
+1. Pick through crabmeat for shells, keeping lumps intact.
+2. Whisk mayo, egg yolk, mustard, Worcestershire, Old Bay, parsley.
+3. Gently fold in crabmeat and ¼ cup panko. Don't break up lumps.
+4. Form into 4 patties. Coat with remaining panko.
+5. Refrigerate 30 minutes.
+6. Cook in butter over medium until golden, 3-4 minutes per side.
+7. Serve with lemon and tartar sauce.
+
+## Notes
+
+- Best crabmeat = best cakes.
+- Handle gently to preserve lumps.
+- Chilling firms them up.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/crab-cakes/
+
+---
+
 # Smashed Cucumber Salad
 
 The viral crunchy, garlicky, spicy cucumber situation.
@@ -490,6 +2786,85 @@ Canonical: https://rcpbx.com/recipes/cucumber-salad/
 
 ---
 
+# Deviled Eggs
+
+The party appetizer that disappears first. Every. Single. Time.
+
+Prep: 20 min · Cook: 12 min · Makes: 24 halves
+
+## Ingredients
+
+- 12 large eggs
+- 1/3 cup mayonnaise
+- 1 Tbsp Dijon mustard
+- 1 Tbsp yellow mustard
+- 1 Tbsp white vinegar or pickle juice
+- 1/4 tsp salt
+- 1/8 tsp black pepper
+- Paprika for garnish
+- Fresh chives for garnish
+
+## Steps
+
+1. Place eggs in a single layer in a saucepan. Cover with cold water by 1 inch.
+2. Bring to a rolling boil over high heat. Remove from heat, cover, and let sit 12 minutes.
+3. Transfer eggs to an ice bath for 5 minutes. Peel under cool running water.
+4. Slice eggs in half lengthwise. Gently remove yolks to a bowl.
+5. Mash yolks with a fork. Add mayo, both mustards, vinegar, salt, and pepper. Mix until smooth.
+6. Pipe or spoon filling into egg white halves.
+7. Sprinkle with paprika and chives. Refrigerate until serving.
+
+## Notes
+
+- Easy peel: Older eggs (1-2 weeks old) peel much easier than fresh eggs.
+- Steam method: Steam eggs 12 minutes instead of boiling for easier peeling.
+- Pipe it: Use a zip-lock bag with the corner cut off for a cleaner look.
+- Make ahead: Fill eggs up to 24 hours ahead. Cover tightly with plastic wrap.
+- Variations: Add crumbled bacon, relish, hot sauce, or everything bagel seasoning.
+
+Source: Adapted from The Kitchn
+Canonical: https://rcpbx.com/recipes/deviled-eggs/
+
+---
+
+# Dinner Rolls
+
+Soft, buttery, pull-apart
+
+Serves: 16
+
+## Ingredients
+
+- 1 cup warm milk
+- 2¼ tsp active dry yeast
+- ⅓ cup sugar
+- ⅓ cup butter, softened
+- 2 eggs
+- 4 cups flour
+- 1 tsp salt
+- 2 tbsp butter, melted (for brushing)
+
+## Steps
+
+1. Dissolve yeast in warm milk with pinch sugar. Let sit 5 minutes.
+2. Add sugar, butter, eggs. Mix well.
+3. Add flour and salt. Knead until smooth and elastic, 8-10 minutes.
+4. Place in greased bowl. Cover, let rise until doubled, 1 hour.
+5. Punch down. Divide into 16 pieces. Roll into balls.
+6. Place in greased 9x13 pan. Cover, let rise 30 minutes.
+7. Bake at 375°F until golden, 20-25 minutes.
+8. Brush with melted butter immediately.
+
+## Notes
+
+- Dough should be slightly tacky.
+- Butter while hot so it soaks in.
+
+Source: King Arthur Baking (King Arthur tested)
+Canonical: https://rcpbx.com/recipes/dinner-rolls/
+
+---
+
 # Dubai Chocolate Bar
 
 The viral pistachio-kunafa chocolate, made with the right filling.
@@ -535,6 +2910,231 @@ _Tested 2026-07. Replaced the old tahini-honey filling with actual pistachio cre
 
 Source: Inspired by Fix Dessert Chocolatier
 Canonical: https://rcpbx.com/recipes/dubai-chocolate-bar/
+
+---
+
+# Eggs Benedict
+
+Poached eggs, Canadian bacon, hollandaise
+
+Serves: 4
+
+## Ingredients
+
+- 4 English muffins, split and toasted
+- 8 slices Canadian bacon
+- 8 eggs
+- 2 tbsp white vinegar
+- Hollandaise: 3 egg yolks, 1 tbsp lemon juice, 1 cup (2 sticks) butter, melted, pinch cayenne
+
+## Steps
+
+1. Make hollandaise: Blend yolks and lemon juice 5 seconds. With blender running, slowly drizzle in hot butter until thick. Season with salt and cayenne. Keep warm.
+2. Heat Canadian bacon in skillet until browned.
+3. Bring water to bare simmer. Add vinegar.
+4. Crack eggs into small bowls. Swirl water, slip eggs in. Poach 3-4 minutes.
+5. Remove eggs with slotted spoon, drain.
+6. Assemble: muffin, bacon, egg, hollandaise.
+
+## Notes
+
+- Blender hollandaise is foolproof.
+- Fresh eggs poach better.
+- Hollandaise breaks if too hot.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/eggs-benedict/
+
+---
+
+# Fish and Chips
+
+Crispy beer batter, double-fried chips
+
+Serves: 4
+
+## Ingredients
+
+- 1½ lbs cod or haddock
+- 1½ cups flour, divided
+- ½ cup cornstarch
+- 1 tsp baking powder
+- 1 cup cold beer
+- 2 lbs russet potatoes
+- Vegetable oil for frying
+- Malt vinegar and tartar sauce
+
+## Steps
+
+1. Cut potatoes into ½-inch fries. Soak in cold water 1 hour.
+2. Heat oil to 325°F. Drain and dry potatoes. Fry 5 minutes until pale. Drain.
+3. Increase oil to 375°F. Fry potatoes again until golden, 3-5 minutes. Season.
+4. Whisk 1 cup flour, cornstarch, baking powder, 1 tsp salt. Whisk in beer.
+5. Cut fish into strips. Dredge in remaining flour.
+6. Dip in batter. Fry until golden, 4-5 minutes. Drain, season.
+7. Serve with malt vinegar and tartar sauce.
+
+## Notes
+
+- Double-frying = crispy chips.
+- Cold beer keeps batter light.
+- Soaking removes starch.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/fish-and-chips/
+
+---
+
+# Fish Tacos
+
+Spiced fish, tangy crema, fresh slaw
+
+Serves: 4-6
+
+## Ingredients
+
+- 1½ lbs firm white fish (mahi, cod, tilapia)
+- 2 tbsp vegetable oil
+- 1 tbsp chili powder
+- 1 tsp cumin
+- 1 tsp garlic powder
+- ½ cup mayonnaise
+- 2 tbsp lime juice
+- 1 tsp hot sauce
+- 2 cups shredded cabbage
+- Corn tortillas
+- Cilantro, lime, salsa
+
+## Steps
+
+1. Mix mayo, lime juice, hot sauce for crema.
+2. Mix chili powder, cumin, garlic powder, 1 tsp salt.
+3. Pat fish dry. Cut into strips. Toss with oil and spices.
+4. Cook fish over high heat 2-3 minutes per side until just cooked.
+5. Warm tortillas.
+6. Serve fish in tortillas with cabbage, crema, cilantro, lime.
+
+## Notes
+
+- Mahi or cod hold up best.
+- Don't overcook - fish should just flake.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/fish-tacos/
+
+---
+
+# French Onion Soup
+
+Rich caramelized onions, beefy broth, bubbly Gruyère
+
+Serves: 6
+
+## Ingredients
+
+- 4 tbsp unsalted butter
+- 4 large yellow onions, thinly sliced
+- 4 cloves garlic, smashed
+- 2 bay leaves
+- 4 sprigs fresh thyme
+- ½ bottle dry red wine
+- 2 tbsp all-purpose flour
+- 8 cups low-sodium beef broth
+- 1 baguette, sliced 1-inch thick
+- 1 lb Gruyère cheese, grated
+- Kosher salt and black pepper
+
+## Steps
+
+1. Melt butter in Dutch oven over medium heat. Add onions and garlic, cook 25 minutes until caramelized, stirring occasionally.
+2. Add bay leaves, thyme, and wine. Simmer until wine evaporates, about 5 minutes.
+3. Dust with flour, stir to coat. Cook 2 minutes on medium-low.
+4. Add broth, bring to simmer. Season with salt and pepper. Simmer 20-30 minutes.
+5. Toast baguette slices under broiler until golden.
+6. Ladle soup into oven-safe bowls. Top with bread and generous Gruyère.
+7. Broil until cheese is bubbly and golden, 2-3 minutes.
+
+## Notes
+
+- Don't rush caramelization - low and slow builds depth.
+- Mix Swiss and Gruyère if budget is tight.
+- Red wine gives deeper color; white works too.
+
+Source: Tyler Florence / Food Network (1,000+ five-star reviews)
+Canonical: https://rcpbx.com/recipes/french-onion-soup/
+
+---
+
+# French Toast
+
+Custardy center, golden exterior
+
+Serves: 4
+
+## Ingredients
+
+- 8 slices thick brioche or challah
+- 4 eggs
+- 1 cup whole milk
+- 2 tbsp sugar
+- 1 tsp vanilla
+- ½ tsp cinnamon
+- Pinch salt
+- 2 tbsp butter
+- Maple syrup and powdered sugar
+
+## Steps
+
+1. Whisk eggs, milk, sugar, vanilla, cinnamon, salt.
+2. Heat griddle over medium. Add butter.
+3. Dip bread in custard, 20-30 seconds per side.
+4. Cook until golden, 3-4 minutes per side.
+5. Add more butter between batches.
+6. Keep warm in 200°F oven.
+7. Serve with maple syrup and powdered sugar.
+
+## Notes
+
+- Thick bread works best.
+- Day-old bread absorbs better.
+- Don't over-soak.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/french-toast/
+
+---
+
+# Southern Fried Chicken
+
+Buttermilk-brined, shatteringly crispy. Worth every step.
+
+Prep: 30 min · Serves: 4
+
+## Ingredients
+
+- Buttermilk Brine: 3-4 lbs chicken pieces (thighs, drumsticks, breasts), 2 cups buttermilk, 2 tbsp kosher salt, 1 tbsp paprika, 1 tsp garlic powder, 1 tsp cayenne
+- Dredge: 2 cups all-purpose flour, ½ cup cornstarch, 1 tbsp paprika, 1 tbsp garlic powder, 1 tsp cayenne, 1 tsp salt, 1 tsp black pepper
+- For Frying: Vegetable oil or peanut oil (enough for 1" depth in pan)
+
+## Steps
+
+1. Brine: Whisk buttermilk, salt, paprika, garlic powder, and cayenne. Submerge chicken pieces. Refrigerate at least 6 hours, preferably overnight.
+2. Mix dredge: Combine flour, cornstarch, paprika, garlic powder, cayenne, salt, and pepper in a wide bowl.
+3. Double dredge: Remove chicken from buttermilk (don't shake off excess). Coat in flour mixture. Dip back in buttermilk. Coat in flour again. Let sit on rack 10 minutes.
+4. Heat oil to 350°F in Dutch oven or deep skillet. Use a thermometer.
+5. Fry in batches (don't crowd): Dark meat 13-15 minutes, breasts 15-18 minutes. Flip halfway. Internal temp should reach 165°F.
+6. Drain on wire rack (not paper towels—they make it soggy). Season with pinch of salt immediately.
+
+## Notes
+
+- Cornstarch = extra crispy: It creates a shatteringly crunchy coating. Don't skip it.
+- Double dredge: The second coating is what gives you that craggy, crispy exterior.
+- Don't crowd: Too much chicken drops oil temp = greasy, soggy coating.
+- Wire rack: Draining on paper towels traps steam and makes bottom soggy.
+- Storage: Best fresh. Reheat in 400°F oven on wire rack to re-crisp.
+
+Source: Adapted from Serious Eats Food Lab
+Canonical: https://rcpbx.com/recipes/fried-chicken/
 
 ---
 
@@ -587,6 +3187,157 @@ Canonical: https://rcpbx.com/recipes/frozen-yogurt-clusters/
 
 ---
 
+# Garlic Bread
+
+Buttery, garlicky, and crispy on the outside. The perfect side for pasta night.
+
+Prep: 10 min · Cook: 12 min · Serves: 8
+
+## Ingredients
+
+- 1 loaf French or Italian bread
+- 1/2 cup (1 stick) butter, softened
+- 4 cloves garlic, minced
+- 2 Tbsp fresh parsley, minced
+- 1/4 tsp salt
+- 1/4 cup parmesan cheese, grated (optional)
+
+## Steps
+
+1. Preheat oven to 400°F.
+2. Slice bread in half lengthwise.
+3. Mix softened butter with garlic, parsley, salt, and parmesan if using.
+4. Spread garlic butter generously on cut sides of bread.
+5. Place bread cut-side up on a baking sheet.
+6. Bake 10-12 minutes until edges are golden and butter is bubbling.
+7. For extra crispy, broil 1-2 minutes. Watch carefully.
+8. Slice and serve immediately.
+
+## Notes
+
+- The bread: French baguette, Italian loaf, or ciabatta all work. Use day-old bread for extra crunch.
+- Garlic options: Roasted garlic for a milder, sweeter flavor. Raw for more punch.
+- Cheesy version: Add mozzarella on top for the last 3 minutes of baking.
+- Make ahead: Prepare garlic butter up to 1 week ahead. Refrigerate.
+- Freezer friendly: Spread butter on bread and freeze. Bake from frozen, adding a few minutes.
+
+Source: Adapted from RecipeTin Eats
+Canonical: https://rcpbx.com/recipes/garlic-bread/
+
+---
+
+# Garlic Butter Shrimp
+
+15-minute dinner. Butter, garlic, shrimp. That's it. That's the recipe.
+
+Prep: 10 min · Cook: 8 min · Serves: 4
+
+## Ingredients
+
+- 1.5 lbs large shrimp, peeled and deveined
+- 4 Tbsp butter
+- 6 cloves garlic, minced
+- 1/4 cup dry white wine (or chicken broth)
+- Juice of 1 lemon
+- 1/4 tsp red pepper flakes
+- 1/2 tsp salt
+- 1/4 tsp black pepper
+- 2 Tbsp fresh parsley, chopped
+
+## Steps
+
+1. Pat shrimp dry with paper towels. Season with salt and pepper.
+2. Melt 2 Tbsp butter in a large skillet over medium-high heat.
+3. Add shrimp in a single layer. Cook 1-2 minutes per side until pink. Remove to a plate.
+4. Reduce heat to medium. Add remaining butter and garlic. Sauté 30 seconds until fragrant.
+5. Pour in wine and lemon juice. Let bubble 1-2 minutes, scraping up any browned bits.
+6. Return shrimp to the pan. Toss to coat in the sauce. Add red pepper flakes.
+7. Remove from heat. Sprinkle with parsley and serve immediately.
+
+## Notes
+
+- Don't overcook: Shrimp go from perfect to rubbery in seconds. Pull them when just pink.
+- Size matters: Large or jumbo shrimp work best. Small shrimp overcook too easily.
+- Dry the shrimp: Wet shrimp steam instead of sear. Pat them very dry.
+- Serve with: Angel hair pasta, rice, crusty bread, or over zucchini noodles.
+- No wine: Substitute chicken broth with a splash of extra lemon juice.
+
+Source: Adapted from Cafe Delites
+Canonical: https://rcpbx.com/recipes/garlic-butter-shrimp/
+
+---
+
+# Glazed Ham
+
+Holiday centerpiece, sweet and sticky
+
+Serves: 12-15
+
+## Ingredients
+
+- 1 bone-in spiral-sliced ham (8-10 lbs)
+- 1 cup brown sugar
+- ¼ cup honey
+- 2 tbsp Dijon mustard
+- ¼ tsp cloves
+- ¼ tsp cinnamon
+
+## Steps
+
+1. Place ham cut-side down in roasting pan.
+2. Cover tightly with foil. Bake at 250°F until 100°F internal, about 1.5-2 hours.
+3. Mix glaze ingredients.
+4. Remove foil. Increase oven to 350°F.
+5. Brush with half the glaze. Bake 15 minutes.
+6. Brush with remaining glaze. Bake until 120°F and caramelized, 15-20 minutes.
+7. Rest 15 minutes.
+
+## Notes
+
+- Spiral ham is already cooked - just heating and glazing.
+- Cut-side down keeps meat moist.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/glazed-ham/
+
+---
+
+# Gravy
+
+Silky, savory, essential for meat
+
+Makes: 3 cups
+
+## Ingredients
+
+- 4 tbsp butter (or pan drippings)
+- ¼ cup flour
+- 3 cups chicken or turkey stock
+- Pan drippings (optional)
+- Fresh thyme
+- Salt and pepper
+
+## Steps
+
+1. Melt butter in saucepan over medium heat.
+2. Whisk in flour. Cook, whisking constantly, until light brown, 2-3 minutes.
+3. Gradually whisk in stock, scraping up any browned bits.
+4. Add thyme. Simmer, whisking occasionally, until thickened, 10-15 minutes.
+5. Season with salt and pepper.
+6. Strain if desired.
+7. Add any pan drippings from roasted meat.
+
+## Notes
+
+- Cooking flour removes raw taste.
+- Gradual addition prevents lumps.
+- Strain for silky texture.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/gravy/
+
+---
+
 # Greek Salad
 
 Horiatiki - the real deal, no lettuce required.
@@ -631,6 +3382,44 @@ _Tested 2026-07. Verified as written - the block-not-crumbled feta and no-lettuc
 
 Source: Traditional Greek
 Canonical: https://rcpbx.com/recipes/greek-salad/
+
+---
+
+# Green Bean Casserole
+
+Creamy, crunchy, holiday favorite
+
+Serves: 8-10
+
+## Ingredients
+
+- 2 lbs fresh green beans, trimmed
+- 8 oz cremini mushrooms, sliced
+- 3 tbsp butter
+- 3 tbsp flour
+- 2 cups chicken broth
+- 1 cup heavy cream
+- 1 tsp soy sauce
+- 1½ cups fried onions (French's)
+- Salt and pepper
+
+## Steps
+
+1. Blanch green beans in salted water 4 minutes. Ice bath. Drain well.
+2. Melt butter. Cook mushrooms until browned, 8 minutes. Season.
+3. Add flour, cook 1 minute. Whisk in broth and cream.
+4. Simmer until thickened, 5 minutes. Add soy sauce.
+5. Combine beans and sauce in 9x13 dish.
+6. Top with 1 cup fried onions.
+7. Bake at 375°F for 25 minutes. Add remaining onions. Bake 5 more minutes.
+
+## Notes
+
+- Fresh beans are so much better than canned.
+- Adding onions at end keeps them crispy.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/green-bean-casserole/
 
 ---
 
@@ -679,6 +3468,351 @@ Canonical: https://rcpbx.com/recipes/grilled-chicken/
 
 ---
 
+# Guacamole
+
+Chunky, fresh, perfect every time
+
+Makes: 2 cups
+
+## Ingredients
+
+- 3 ripe avocados
+- 1 lime, juiced
+- ½ tsp salt
+- ½ cup cilantro, chopped
+- ¼ cup white onion, minced
+- 1 jalapeño, seeded and minced
+- 1 clove garlic, minced
+- 1 tomato, diced (optional)
+
+## Steps
+
+1. Halve avocados, remove pit. Scoop into bowl.
+2. Add lime juice and salt. Mash to desired consistency.
+3. Fold in cilantro, onion, jalapeño, garlic.
+4. Add tomato if using.
+5. Taste and adjust lime and salt.
+6. Press plastic wrap directly on surface. Serve within a few hours.
+
+## Notes
+
+- Ripe avocados are essential.
+- Lime juice prevents browning.
+- Salt brings out flavor - don't skimp.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/guacamole/
+
+---
+
+# Hash Browns
+
+Shredded, golden, shatteringly crispy
+
+Serves: 4
+
+## Ingredients
+
+- 1½ lbs russet potatoes
+- 3 tbsp butter or bacon fat
+- Salt and pepper
+
+## Steps
+
+1. Peel potatoes. Shred on box grater.
+2. Rinse until water runs clear. Drain well.
+3. Wrap in towel and squeeze out all moisture.
+4. Heat butter in cast iron over medium.
+5. Add potatoes in even layer. Season. Press flat.
+6. Cook without stirring until bottom is golden and crispy, 8-10 minutes.
+7. Flip in sections. Cook until second side is crispy, 8-10 minutes.
+
+## Notes
+
+- Rinsing removes starch for crispiness.
+- Dry, dry, dry.
+- Don't touch them while cooking.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/hash-browns/
+
+---
+
+# Hollandaise Sauce
+
+The silky, lemony butter sauce that makes eggs Benedict legendary.
+
+Prep: 5 min · Cook: 10 min · Makes: 1 cup
+
+## Ingredients
+
+- 3 large egg yolks
+- 1 Tbsp lemon juice
+- 1/2 cup (1 stick) butter, melted and hot
+- Pinch of cayenne pepper
+- 1/4 tsp salt
+- 1 Tbsp warm water (if needed)
+
+## Steps
+
+1. Whisk egg yolks and lemon juice in a heatproof bowl until slightly thickened.
+2. Set bowl over a pot of barely simmering water (don't let bowl touch water).
+3. Whisk constantly until yolks are warm and slightly thickened, about 2 minutes.
+4. Remove from heat. Very slowly drizzle in hot melted butter, whisking constantly.
+5. Add butter drop by drop at first, then in a thin stream as sauce emulsifies.
+6. Whisk in cayenne and salt. Add warm water if too thick.
+7. Serve immediately or keep warm over barely simmering water up to 30 minutes.
+
+## Notes
+
+- Temperature is everything: Too hot = scrambled eggs. Too cool = won't emulsify. Keep it gentle.
+- Slow with the butter: Add it drop by drop at first. Rushing causes breaking.
+- Broken sauce fix: Whisk a fresh yolk in a clean bowl, slowly whisk in the broken sauce.
+- Blender method: Blend yolks and lemon juice, then slowly stream in hot butter with blender running.
+- Don't hold too long: Best served immediately. It doesn't reheat well.
+
+Source: Adapted from Serious Eats
+Canonical: https://rcpbx.com/recipes/hollandaise/
+
+---
+
+# Homemade Bread
+
+Crusty outside, soft inside
+
+Makes: 1 loaf
+
+## Ingredients
+
+- 3 cups all-purpose flour
+- 1½ tsp salt
+- ½ tsp instant yeast
+- 1½ cups warm water
+
+## Steps
+
+1. Mix flour, salt, yeast. Add water, stir until shaggy dough forms.
+2. Cover, let rise at room temp 12-18 hours.
+3. Turn dough onto floured surface. Fold edges to center, flip seam-side down.
+4. Place on parchment-lined baking sheet. Cover, let rise 1-2 hours.
+5. Preheat oven to 450°F with Dutch oven inside.
+6. Carefully transfer dough to hot Dutch oven. Cover.
+7. Bake covered 30 minutes. Uncover, bake 15-20 more until deep golden.
+8. Cool completely before slicing.
+
+## Notes
+
+- Long rise develops complex flavor.
+- Dutch oven creates steam for crusty crust.
+- Cool completely or crumb will be gummy.
+
+Source: King Arthur Baking (King Arthur tested)
+Canonical: https://rcpbx.com/recipes/homemade-bread/
+
+---
+
+# Honey Garlic Chicken
+
+Sticky, sweet, savory. The sauce caramelizes into something magical.
+
+Prep: 10 min · Cook: 25 min · Serves: 4
+
+## Ingredients
+
+- 8 bone-in, skin-on chicken thighs
+- 1 tsp salt
+- 1/2 tsp black pepper
+- 1 Tbsp olive oil
+- 8 cloves garlic, minced
+- 1/2 cup honey
+- 1/4 cup soy sauce (or coconut aminos)
+- 2 Tbsp rice vinegar
+- 1 Tbsp sriracha (optional)
+- Sesame seeds and green onions for garnish
+
+## Steps
+
+1. Preheat oven to 400°F.
+2. Season chicken thighs with salt and pepper.
+3. Heat olive oil in a large oven-safe skillet over medium-high heat. Place chicken skin-side down. Cook 5-6 minutes until skin is golden and crispy. Flip and cook 2 minutes more. Remove to a plate.
+4. Reduce heat to medium. Add garlic and cook 30 seconds until fragrant.
+5. Whisk in honey, soy sauce, rice vinegar, and sriracha (if using). Bring to a simmer.
+6. Return chicken to the skillet, skin-side up. Spoon sauce over the chicken.
+7. Transfer to oven. Bake 15-18 minutes until chicken reaches 165°F, basting with sauce halfway through.
+8. Let rest 5 minutes. Garnish with sesame seeds and green onions. Serve with rice.
+
+## Notes
+
+- Crispy skin: Don't move the chicken while it's searing. Let it sit undisturbed to crisp.
+- Boneless option: Use boneless thighs and reduce oven time to 10-12 minutes.
+- The sauce: It thickens as it cools. Add a splash of water when reheating leftovers.
+- Make it hotter: Add more sriracha or a few dashes of red pepper flakes.
+- Meal prep friendly: Stores well for 4 days. Reheat in the oven to keep skin crispy.
+
+Source: Adapted from Damn Delicious
+Canonical: https://rcpbx.com/recipes/honey-garlic-chicken/
+
+---
+
+# Hot Honey
+
+Sweet heat that goes on everything. The condiment that defined 2025.
+
+Prep: 5 min · Cook: 10 min · Makes: 1 cup
+
+## Ingredients
+
+- 1 cup honey
+- 2-4 Tbsp hot sauce (like Frank's or Cholula)
+- 1/2 tsp crushed red pepper flakes
+- 1/4 tsp cayenne pepper (optional, for extra heat)
+- 1 Tbsp apple cider vinegar
+
+## Steps
+
+1. Combine honey, hot sauce, red pepper flakes, and cayenne (if using) in a small saucepan.
+2. Heat over low heat for 5-7 minutes, stirring occasionally. Don't let it boil.
+3. Remove from heat and stir in apple cider vinegar.
+4. Let cool slightly, then taste and adjust heat level.
+5. Transfer to a jar. Store at room temperature up to 1 month.
+
+## Notes
+
+- Heat levels: Start with 2 Tbsp hot sauce and add more to taste. You can always add heat, can't take it away.
+- Fresno or serrano: For a fresher kick, slice 1-2 fresh chilis and simmer them in the honey instead of hot sauce.
+- Best on: Pizza (especially pepperoni), fried chicken, biscuits, bacon, cheese boards, vanilla ice cream.
+- Vinegar: Adds depth and cuts the sweetness. Don't skip it.
+- No-cook version: Just whisk ingredients together without heating. Flavor won't meld as well but works in a pinch.
+
+Source: Adapted from Serious Eats
+Canonical: https://rcpbx.com/recipes/hot-honey/
+
+---
+
+# Lasagna
+
+The crowd-pleaser. Beef and sausage, three cheeses, feeds an army.
+
+Prep: 45 min · Cook: 2½ hrs · Serves: 12
+
+## Ingredients
+
+- Meat Sauce: 1 lb ground beef, 1 lb Italian sausage, 1 onion diced, 4 garlic cloves minced, 28 oz crushed tomatoes, 12 oz tomato paste, 15 oz tomato sauce, ½ cup water, 2 tbsp sugar, 1 tsp fennel seeds, 1 tsp Italian seasoning, 1 tbsp fresh basil chopped, salt and pepper
+- Ricotta Mixture: 30 oz ricotta cheese, 1 egg, ½ cup fresh parsley chopped, ½ tsp salt
+- Assembly: 12 lasagna noodles, 1 lb mozzarella sliced (not shredded), 1 cup parmesan grated
+
+## Steps
+
+1. Brown beef and sausage in a Dutch oven over medium heat. Drain fat. Add onion, cook 5 min. Add garlic, cook 1 min.
+2. Stir in crushed tomatoes, tomato paste, tomato sauce, water, sugar, fennel, Italian seasoning, and basil. Simmer uncovered 1½ hours, stirring occasionally.
+3. Meanwhile, cook noodles according to package. Drain and lay flat on oiled sheet to prevent sticking.
+4. Mix ricotta with egg, parsley, and salt in a bowl.
+5. Preheat oven to 375°F.
+6. Layer in 9x13 pan: 1½ cups sauce, 4 noodles, ⅓ ricotta mixture, ⅓ mozzarella slices. Repeat 2 more times. Top with remaining sauce and parmesan.
+7. Cover with foil. Bake 25 min. Remove foil, bake 25 min more until bubbly.
+8. Rest 15 minutes before cutting (this is crucial for clean slices).
+
+## Notes
+
+- Why 1½ hours for sauce? The long simmer mellows acidity and develops deep flavor. Don't skip it.
+- Sliced vs shredded mozzarella: Sliced melts in distinct creamy layers. Shredded clumps.
+- Make ahead: Assemble, cover, refrigerate overnight. Add 15 min to bake time if cold.
+- Storage: Keeps 5 days refrigerated. Freezes beautifully for 3 months.
+
+Source: Adapted from AllRecipes "World's Best Lasagna" (9.5/10 in taste tests)
+Canonical: https://rcpbx.com/recipes/lasagna/
+
+---
+
+# Lemon Bars
+
+Buttery shortbread crust, tangy lemon filling, powdered sugar snow. Perfect.
+
+Prep: 20 min · Cook: 45 min · Makes: 16 bars
+
+## Ingredients
+
+**For the crust:**
+- 1 cup (2 sticks) butter, softened
+- 1/2 cup powdered sugar
+- 2 cups all-purpose flour
+- 1/4 tsp salt
+**For the filling:**
+- 4 large eggs
+- 1 1/2 cups granulated sugar
+- 1/4 cup all-purpose flour
+- 2/3 cup fresh lemon juice (about 4 lemons)
+- Zest of 2 lemons
+- Powdered sugar for dusting
+
+## Steps
+
+1. Preheat oven to 350°F. Line a 9x13 inch pan with parchment, leaving overhang for easy removal.
+2. Make the crust: Beat butter and powdered sugar until fluffy. Add flour and salt, mix until crumbly. Press evenly into pan.
+3. Bake crust 18-20 minutes until edges are light golden. Don't overbake—it continues cooking with the filling.
+4. Make the filling: Whisk eggs and sugar until smooth. Add flour, lemon juice, and zest. Whisk until combined.
+5. Pour filling over hot crust. Return to oven and bake 22-25 minutes until filling is set and no longer jiggles.
+6. Cool completely in pan. Refrigerate at least 2 hours.
+7. Lift out using parchment. Dust generously with powdered sugar. Cut into bars.
+
+## Notes
+
+- Fresh lemons only: Bottled juice doesn't compare. You need that bright, fresh flavor.
+- Hot crust: Pour filling onto hot crust to help it set properly.
+- Clean cuts: Wipe knife between cuts. Use a thin, sharp blade.
+- Storage: Refrigerate up to 5 days. Dust with powdered sugar just before serving.
+- Room temp: Let sit 10 minutes before serving for best texture.
+
+Source: Adapted from Sally's Baking Addiction
+Canonical: https://rcpbx.com/recipes/lemon-bars/
+
+---
+
+# Lemon Chicken
+
+Bright, zesty, and weeknight easy. The pan sauce is the star.
+
+Prep: 10 min · Cook: 20 min · Serves: 4
+
+## Ingredients
+
+- 4 boneless skinless chicken breasts, pounded to 1/2 inch thick
+- 1/2 tsp salt
+- 1/4 tsp black pepper
+- 1/4 cup flour
+- 3 Tbsp olive oil
+- 3 Tbsp butter, divided
+- 3 cloves garlic, minced
+- 1/2 cup chicken broth
+- 1/4 cup fresh lemon juice
+- Zest of 1 lemon
+- 2 Tbsp capers, drained
+- 2 Tbsp fresh parsley, chopped
+
+## Steps
+
+1. Season chicken with salt and pepper. Dredge in flour, shaking off excess.
+2. Heat olive oil and 1 Tbsp butter in a large skillet over medium-high heat.
+3. Cook chicken 4-5 minutes per side until golden and cooked through. Remove to a plate.
+4. Reduce heat to medium. Add garlic and cook 30 seconds.
+5. Pour in chicken broth and lemon juice. Scrape up browned bits. Simmer 2 minutes.
+6. Stir in remaining butter, lemon zest, and capers. Swirl until butter melts and sauce thickens slightly.
+7. Return chicken to pan. Spoon sauce over and cook 1 minute.
+8. Top with parsley and serve immediately.
+
+## Notes
+
+- Pound the chicken: Even thickness = even cooking. Use a meat mallet or rolling pin.
+- Hot pan: Get the pan hot before adding chicken for proper browning.
+- The sauce: Work quickly once you start—it comes together in minutes.
+- Serve with: Rice, orzo, roasted potatoes, or crusty bread to soak up the sauce.
+- Make it piccata: This is essentially chicken piccata. Add more capers if you love them.
+
+Source: Adapted from RecipeTin Eats
+Canonical: https://rcpbx.com/recipes/lemon-chicken/
+
+---
+
 # Fresh Lemonade
 
 The real thing. No powder, no shortcuts.
@@ -720,6 +3854,1078 @@ _Tested 2026-07. Verified the 1:1:7 juice-sugar-water ratio lands balanced; bott
 
 Source: Classic
 Canonical: https://rcpbx.com/recipes/lemonade/
+
+---
+
+# Baked Mac & Cheese
+
+Creamy, cheesy, golden-crusted perfection.
+
+Prep: 20 min · Cook: 35 min · Serves: 8
+
+## Ingredients
+
+- 1 lb elbow macaroni
+- 4 tbsp butter
+- ¼ cup all-purpose flour
+- 3 cups whole milk
+- 1 tsp Dijon mustard
+- ¼ tsp cayenne (optional)
+- 3 cups sharp cheddar, shredded (12 oz)
+- 1 cup Gruyere, shredded (4 oz)
+- 1 tsp salt
+- ½ tsp black pepper
+- Topping: 1 cup panko breadcrumbs, 2 tbsp butter melted, ¼ cup parmesan grated
+
+## Steps
+
+1. Preheat oven to 375°F. Butter a 9x13 baking dish.
+2. Cook pasta 2 minutes less than package directions (it'll finish in oven). Drain.
+3. Melt butter in large pot over medium heat. Whisk in flour, cook 1 minute (this is the roux).
+4. Slowly whisk in milk. Cook, whisking constantly, until thickened, about 5 minutes.
+5. Remove from heat. Stir in mustard, cayenne, cheddar, and Gruyere until melted. Season with salt and pepper.
+6. Fold in pasta. Transfer to prepared dish.
+7. Mix panko with melted butter and parmesan. Sprinkle over top.
+8. Bake 25-30 minutes until bubbly. Broil 2 minutes for extra-crispy top (watch carefully).
+
+## Notes
+
+- SHRED YOUR OWN CHEESE. Pre-shredded has anti-caking agents that prevent smooth melting. This is the #1 tip.
+- All cheddar works: Skip Gruyere if needed. Use 4 cups sharp cheddar total.
+- Stovetop version: Skip baking. Just serve the cheese sauce with pasta directly.
+- Storage: Keeps 4 days refrigerated. Reheat with splash of milk to restore creaminess.
+
+Source: Adapted from RecipeTin Eats
+Canonical: https://rcpbx.com/recipes/mac-and-cheese/
+
+---
+
+# Macaroni Salad
+
+Creamy, tangy, picnic classic
+
+Serves: 8
+
+## Ingredients
+
+- 1 lb elbow macaroni
+- ¾ cup mayonnaise
+- 2 tbsp apple cider vinegar
+- 1 tbsp Dijon mustard
+- 2 celery ribs, diced
+- ¼ cup red onion, minced
+- ¼ cup dill pickles, diced
+- 2 tbsp parsley
+- Salt and pepper
+
+## Steps
+
+1. Cook pasta until tender. Rinse with cold water.
+2. Whisk mayo, vinegar, mustard.
+3. Add pasta, celery, onion, pickles, parsley. Toss.
+4. Season generously.
+5. Refrigerate at least 2 hours.
+6. Before serving, stir and adjust. Add more mayo if dry.
+
+## Notes
+
+- Pasta absorbs dressing - make it wetter than you think.
+- Tastes better next day.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/macaroni-salad/
+
+---
+
+# Marinara Sauce
+
+Marcella Hazan's legendary 3-ingredient sauce. Simplicity perfected.
+
+Prep: 5 min · Cook: 45 min · Serves: 4
+
+## Ingredients
+
+- 28 oz whole San Marzano tomatoes
+- 5 tbsp butter
+- 1 medium onion, peeled and halved
+- Salt to taste
+
+## Steps
+
+1. Put tomatoes (with their juice), butter, and onion halves in a saucepan.
+2. Add a pinch of salt.
+3. Bring to a simmer over medium heat. Reduce heat to maintain a gentle, steady simmer.
+4. Cook uncovered for 45 minutes, stirring occasionally and crushing tomatoes with a wooden spoon.
+5. Remove and discard the onion.
+6. Taste and add more salt if needed.
+7. Toss with hot pasta. Serve with fresh parmesan.
+
+## Notes
+
+- BUTTER not olive oil: This is the whole point. Butter makes it silky and rich. Trust Marcella.
+- Onion stays whole: It flavors the sauce subtly without overpowering. Discard at the end.
+- Don't add garlic: Sounds wrong, but this sauce doesn't need it. The simplicity IS the flavor.
+- San Marzano tomatoes: Worth the extra dollar. Sweeter, less acidic.
+- Storage: Keeps 1 week refrigerated, freezes well for 3 months.
+
+Source: Marcella Hazan from Essentials of Classic Italian Cooking
+Canonical: https://rcpbx.com/recipes/marinara-sauce/
+
+---
+
+# Marry Me Chicken
+
+Creamy sun-dried tomato sauce so good it allegedly inspires proposals.
+
+Prep: 10 min · Cook: 30 min · Serves: 4
+
+## Ingredients
+
+- 4 boneless skinless chicken breasts
+- 1 tsp salt
+- 1/2 tsp black pepper
+- 1 tsp Italian seasoning
+- 1/2 tsp paprika
+- 3 Tbsp olive oil, divided
+- 3 cloves garlic, minced
+- 1/2 cup sun-dried tomatoes, drained and chopped
+- 1 cup chicken broth
+- 1/2 cup heavy cream
+- 1/2 cup parmesan cheese, grated
+- 1/4 cup fresh basil, chopped
+- 1 tsp red pepper flakes (optional)
+
+## Steps
+
+1. Pound chicken breasts to even thickness (about 3/4 inch). Season both sides with salt, pepper, Italian seasoning, and paprika.
+2. Heat 2 Tbsp olive oil in a large skillet over medium-high heat. Sear chicken 5-6 minutes per side until golden and cooked through (165°F). Remove and set aside.
+3. Reduce heat to medium. Add remaining olive oil, garlic, and sun-dried tomatoes. Sauté 1-2 minutes until fragrant.
+4. Pour in chicken broth, scraping up any browned bits from the bottom. Let simmer 2 minutes.
+5. Stir in heavy cream and parmesan. Simmer 3-4 minutes until sauce thickens slightly.
+6. Return chicken to the skillet. Spoon sauce over chicken and simmer 2-3 minutes to let flavors meld.
+7. Top with fresh basil and red pepper flakes if using. Serve immediately.
+
+## Notes
+
+- The sauce: Don't skip scraping the browned bits—that's where the flavor lives.
+- Sun-dried tomatoes: Use oil-packed for more flavor. Drain well before chopping.
+- Serve with: Pasta, crusty bread, rice, or mashed potatoes to soak up the sauce.
+- Make it lighter: Use half-and-half instead of heavy cream.
+- Storage: Refrigerate up to 3 days. Reheat gently to avoid breaking the sauce.
+
+Source: Adapted from RecipeTin Eats
+Canonical: https://rcpbx.com/recipes/marry-me-chicken/
+
+---
+
+# Mashed Potatoes
+
+Creamy, buttery, never gluey. One crucial tip makes the difference.
+
+Prep: 10 min · Cook: 25 min · Serves: 8
+
+## Ingredients
+
+- 4 lbs Yukon Gold potatoes, peeled and cut into 1" chunks
+- 1½ sticks butter (12 tbsp)
+- 1½ cups half-and-half (or 1 cup milk + ½ cup cream)
+- 2 tsp salt, plus more for cooking water
+- Black pepper to taste
+
+## Steps
+
+1. Place potatoes in large pot. Cover with cold water by 1 inch. Add 1 tablespoon salt.
+2. Bring to boil over high heat. Reduce to medium, simmer until fork-tender, 20-25 minutes.
+3. While potatoes cook, warm butter and half-and-half in small saucepan until butter melts. Keep warm.
+4. Drain potatoes. Return to pot over low heat for 1 minute to dry out any excess moisture.
+5. For smooth: Pass through ricer or food mill into large bowl. For chunky: Mash with potato masher.
+6. Add BUTTER FIRST. Fold in until absorbed. This coats the starch and prevents glueyness.
+7. Then fold in warm half-and-half gradually until desired consistency.
+8. Season with salt and pepper. Serve immediately.
+
+## Notes
+
+- BUTTER FIRST: This is the secret. Fat coats starch granules, preventing gluey texture. Don't add milk first.
+- Yukon Gold: Naturally buttery flavor and creamy texture. Russets work but are starchier.
+- Use a ricer: Creates smooth potatoes without overworking. Mashing can make them gluey.
+- Warm the dairy: Cold liquid cools potatoes and makes them gummy. Always warm first.
+- Make ahead: Hold in slow cooker on warm up to 2 hours. Add splash of cream when serving.
+
+Source: Adapted from America's Test Kitchen
+Canonical: https://rcpbx.com/recipes/mashed-potatoes/
+
+---
+
+# Meatloaf
+
+Moist inside, caramelized outside. The sheet pan method.
+
+Prep: 15 min · Cook: 1 hr · Serves: 8
+
+## Ingredients
+
+- Meatloaf: 2 lbs ground beef (80/20), 1 small onion grated (not diced), 3 garlic cloves minced, ¾ cup panko breadcrumbs, ½ cup milk, 2 eggs, 2 tbsp Worcestershire sauce, 1 tsp salt, ½ tsp black pepper, 1 tsp Italian seasoning
+- Glaze: ½ cup ketchup, 2 tbsp brown sugar, 1 tbsp Worcestershire sauce
+
+## Steps
+
+1. Preheat oven to 350°F. Line a rimmed baking sheet with foil and set a wire rack on top (or just use foil).
+2. Mix panko and milk in large bowl. Let sit 5 minutes (this is the panade).
+3. Add beef, grated onion, garlic, eggs, Worcestershire, salt, pepper, and Italian seasoning. Mix gently with hands until just combined. Don't overwork.
+4. Shape into a free-form loaf on prepared pan, about 9x5 inches.
+5. Bake 40 minutes.
+6. While baking, mix glaze ingredients.
+7. Remove from oven, brush with half the glaze. Increase oven to 400°F.
+8. Bake 15-20 more minutes until internal temp reaches 160°F. Brush with remaining glaze halfway through.
+9. Rest 10 minutes before slicing.
+
+## Notes
+
+- GRATE the onion: Releases moisture without chunks. Keeps meatloaf incredibly moist.
+- Free-form on sheet pan: Fat drains away, all sides get browned. Loaf pans trap grease and steam the meat.
+- The panade: Milk-soaked breadcrumbs keep it tender. Same technique as meatballs.
+- Italian sausage variation: Use 1 lb beef + 1 lb Italian sausage for more flavor.
+- Storage: Keeps 4 days refrigerated. Makes excellent sandwiches cold.
+
+Source: Adapted from RecipeTin Eats
+Canonical: https://rcpbx.com/recipes/meatloaf/
+
+---
+
+# Minestrone
+
+Hearty Italian vegetable soup
+
+Serves: 8-10
+
+## Ingredients
+
+- 2 tbsp olive oil
+- 2 oz pancetta, diced
+- 2 onions, diced
+- 2 celery ribs, diced
+- 1 carrot, diced
+- 4 cloves garlic, minced
+- 2 zucchini, diced
+- 1 (14.5 oz) can diced tomatoes
+- 8 cups chicken broth
+- 1 Parmesan rind (optional)
+- 1 (15 oz) can cannellini beans
+- 1 cup small pasta (ditalini)
+- 2 cups chopped kale
+- ¼ cup fresh basil
+
+## Steps
+
+1. Cook pancetta in oil until rendered, 3-4 minutes.
+2. Add onions, celery, carrot. Cook 8 minutes until softened.
+3. Add garlic, cook 30 seconds. Add zucchini, cook 2 minutes.
+4. Add tomatoes, broth, Parmesan rind. Simmer 30 minutes.
+5. Add beans and pasta. Cook until pasta is al dente, 10 minutes.
+6. Add kale, cook 2 minutes. Remove rind, stir in basil. Season to taste.
+
+## Notes
+
+- Parmesan rind adds incredible umami depth.
+- Add pasta near end so it doesn't get mushy.
+- Even better the next day.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/minestrone/
+
+---
+
+# French Omelette
+
+Silky eggs, pale yellow, classic technique
+
+Serves: 1
+
+## Ingredients
+
+- 3 large eggs
+- 1 tbsp butter
+- Salt and pepper
+- Optional: cheese, herbs, ham
+
+## Steps
+
+1. Beat eggs with fork until just combined. Season.
+2. Heat 8-inch nonstick skillet over medium-high. Add butter.
+3. When foam subsides, add eggs.
+4. Stir eggs with fork while shaking pan. Small curds form.
+5. When mostly set but still wet on top, stop stirring.
+6. Add fillings if using.
+7. Tilt pan and roll omelette onto plate.
+8. Should be pale yellow outside, creamy inside.
+
+## Notes
+
+- Practice makes perfect.
+- Don't let it brown.
+- Entire process takes under 2 minutes.
+
+Source: Jacques Pépin / Serious Eats (Jacques Pépin classic)
+Canonical: https://rcpbx.com/recipes/omelette/
+
+---
+
+# Overnight Oats
+
+Prep tonight, grab and go tomorrow. Breakfast that makes itself.
+
+Prep: 5 min · Cook: 0 min (8 hours soak) · Serves: 1
+
+## Ingredients
+
+- 1/2 cup old-fashioned rolled oats
+- 1/2 cup milk (any kind)
+- 1/4 cup Greek yogurt
+- 1 Tbsp chia seeds (optional)
+- 1 Tbsp maple syrup or honey
+- 1/4 tsp vanilla extract
+- Pinch of salt
+- Toppings: fresh fruit, nuts, nut butter, granola
+
+## Steps
+
+1. Combine oats, milk, yogurt, chia seeds, maple syrup, vanilla, and salt in a jar or container.
+2. Stir well to combine. Make sure all oats are submerged.
+3. Cover and refrigerate at least 4 hours or overnight.
+4. In the morning, stir. Add more milk if too thick.
+5. Top with fresh fruit, nuts, or other toppings and eat cold, or microwave 1-2 minutes if you prefer it warm.
+
+## Notes
+
+- Oat type: Use old-fashioned rolled oats. Quick oats get too mushy. Steel cut won't soften enough.
+- Ratio: The 1:1 ratio of oats to liquid is key. Adjust to your preferred thickness.
+- Chia seeds: Not essential but add protein and help thicken. Flax works too.
+- Meal prep: Make 5 jars on Sunday. They last up to 5 days in the fridge.
+- Flavor combos: PB&J (peanut butter + jam), Banana Nut (banana + walnuts + cinnamon), Berry Blast (mixed berries + honey), Apple Pie (diced apple + cinnamon + pecans).
+
+Source: Adapted from Cookie and Kate
+Canonical: https://rcpbx.com/recipes/overnight-oats/
+
+---
+
+# Pan-Seared Salmon
+
+Crispy skin, perfectly cooked center
+
+Serves: 4
+
+## Ingredients
+
+- 4 salmon fillets (6 oz each, skin-on)
+- 2 tbsp vegetable oil
+- 2 tbsp butter
+- 2 cloves garlic, minced
+- 1 lemon, juiced
+- 2 tbsp fresh dill or parsley
+- Salt and pepper
+
+## Steps
+
+1. Pat salmon very dry. Season flesh side with salt and pepper.
+2. Heat oil in nonstick skillet over medium-high until shimmering.
+3. Place salmon skin-side down. Press firmly 10 seconds.
+4. Cook without moving until skin is crispy and salmon is cooked ⅔ up, 5-6 minutes.
+5. Flip. Add butter and garlic. Cook 1-2 minutes, basting.
+6. Remove. Drizzle with lemon juice and herbs.
+7. Serve skin-side up to keep skin crispy.
+
+## Notes
+
+- Dry skin = crispy skin.
+- Don't move the fish.
+- Medium-rare center (125°F) is ideal.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/pan-seared-salmon/
+
+---
+
+# Pan-Seared Steak
+
+Restaurant-quality crust, butter-basted
+
+Serves: 2
+
+## Ingredients
+
+- 2 ribeye or NY strip steaks (1-1.5 inches)
+- 2 tbsp vegetable oil
+- 3 tbsp butter
+- 4 cloves garlic, smashed
+- 4 sprigs thyme
+- Flaky salt and coarse pepper
+
+## Steps
+
+1. Remove steaks from fridge 30-60 minutes before. Pat very dry. Season generously.
+2. Heat oil in cast iron over high until smoking.
+3. Lay steaks in pan. Sear 3-4 minutes until deep crust forms.
+4. Flip. Add butter, garlic, herbs. Tilt pan and baste continuously 2-3 minutes.
+5. Check temp: 120°F rare, 130°F medium-rare, 140°F medium.
+6. Rest 5-10 minutes. Slice against grain.
+
+## Notes
+
+- Room temp steak cooks evenly.
+- Dry surface = better crust.
+- Don't touch while searing.
+- Resting redistributes juices.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/pan-seared-steak/
+
+---
+
+# Buttermilk Pancakes
+
+Light, fluffy, tangy. Rest the batter—trust the process.
+
+Prep: 10 min · Makes: 12
+
+## Ingredients
+
+- 2 cups all-purpose flour
+- 2 tbsp sugar
+- 1 tsp baking powder
+- 1 tsp baking soda
+- ½ tsp salt
+- 2 cups buttermilk
+- ¼ cup sour cream
+- 2 eggs
+- 3 tbsp butter, melted
+- 1 tsp vanilla extract
+
+## Steps
+
+1. Whisk flour, sugar, baking powder, baking soda, and salt in a large bowl.
+2. In another bowl, whisk buttermilk, sour cream, eggs, melted butter, and vanilla.
+3. Pour wet ingredients into dry. Stir until JUST combined. Lumps are okay—don't overmix or you'll get tough pancakes.
+4. Let batter rest 10 minutes. This allows gluten to relax and leavening to activate.
+5. Heat griddle or nonstick pan over medium-low heat. Lightly butter the surface.
+6. Pour ¼ cup batter per pancake. Cook until bubbles form on surface AND edges look set, about 2-3 minutes.
+7. Flip when holes form in the bubbles (not just bubbles appearing). Cook 1-2 minutes more until golden.
+8. Serve immediately with butter and maple syrup.
+
+## Notes
+
+- REAL buttermilk matters: The acid reacts with baking soda for lift. Homemade substitute works but won't be as fluffy.
+- DON'T overmix: Lumpy batter = fluffy pancakes. Smooth batter = tough pancakes.
+- REST the batter: 10 minutes lets the flour hydrate and gluten relax.
+- When to flip: Not just when bubbles appear—wait until holes form and edges are set.
+- Keep warm: Hold cooked pancakes on wire rack in 200°F oven while cooking the rest.
+
+Source: Adapted from Serious Eats
+Canonical: https://rcpbx.com/recipes/pancakes/
+
+---
+
+# Pasta Primavera
+
+Fresh vegetables in light cream sauce
+
+Serves: 4
+
+## Ingredients
+
+- 1 lb penne
+- 2 tbsp olive oil
+- 2 tbsp butter
+- 1 zucchini, sliced
+- 1 yellow squash, sliced
+- 1 cup cherry tomatoes, halved
+- 1 cup asparagus, cut up
+- 1 cup frozen peas
+- 4 cloves garlic, minced
+- ½ cup white wine
+- ½ cup heavy cream
+- 1 cup Parmesan
+- ¼ cup basil, torn
+
+## Steps
+
+1. Cook pasta. Reserve 1 cup pasta water.
+2. Sauté zucchini and squash in oil until browned, 3-4 minutes. Set aside.
+3. Add butter, sauté asparagus 2 minutes. Add garlic, cook 30 seconds.
+4. Add wine, reduce by half. Add cream and tomatoes.
+5. Return vegetables with peas. Simmer 2 minutes.
+6. Add pasta and Parmesan. Toss, adding pasta water for consistency.
+7. Stir in basil, season to taste.
+
+## Notes
+
+- Cook each vegetable separately for best doneness.
+- Use whatever vegetables are in season.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/pasta-primavera/
+
+---
+
+# Italian Pasta Salad
+
+The potluck MVP. Better the next day.
+
+Prep: 20 min · Cook: 10 min · Serves: 12
+
+## Ingredients
+
+- 1 lb rotini or fusilli pasta
+- 1 cup Italian dressing
+- 4 oz salami, diced
+- 4 oz pepperoni, halved
+- 1 cup cherry tomatoes, halved
+- 1 cup black olives, sliced
+- 1 cup mozzarella pearls (or diced mozzarella)
+- 1/2 red onion, thinly sliced
+- 1/2 cup pepperoncini, sliced
+- 1/4 cup fresh parsley, chopped
+- 1/2 cup parmesan, shaved
+- Salt and pepper to taste
+
+## Steps
+
+1. Cook pasta until al dente. Drain and rinse with cold water to stop cooking.
+2. Toss pasta with half the Italian dressing while still slightly warm.
+3. Add salami, pepperoni, tomatoes, olives, mozzarella, red onion, and pepperoncini.
+4. Pour remaining dressing over salad. Toss to combine.
+5. Add parsley and parmesan. Season with salt and pepper.
+6. Refrigerate at least 1 hour before serving. Toss again and add more dressing if needed.
+
+## Notes
+
+- Rinse the pasta: Cold water stops cooking and removes excess starch so it doesn't clump.
+- Dress while warm: Pasta absorbs dressing better when slightly warm.
+- Homemade dressing: Whisk 1/2 cup olive oil, 1/4 cup red wine vinegar, 1 tsp Italian seasoning, 1 clove minced garlic, salt and pepper.
+- Make ahead: Keeps 5 days refrigerated. Add more dressing before serving—pasta absorbs it.
+- Vegetarian: Skip the meat, add artichoke hearts and roasted red peppers.
+
+Source: Adapted from Natasha's Kitchen
+Canonical: https://rcpbx.com/recipes/pasta-salad/
+
+---
+
+# Peach Cobbler
+
+Juicy fruit, biscuit topping
+
+Serves: 8
+
+## Ingredients
+
+- Filling: 3 lbs ripe peaches sliced, ½ cup sugar, 1 tbsp cornstarch, 1 tsp vanilla, ¼ tsp almond extract
+- Topping: 1½ cups flour, ⅓ cup sugar + extra, 1½ tsp baking powder, ¼ tsp salt, 6 tbsp cold butter cubed, ½ cup heavy cream
+
+## Steps
+
+1. Preheat oven to 375°F.
+2. Toss peaches with sugar, cornstarch, extracts. Pour into 9x13 dish.
+3. Whisk flour, sugar, baking powder, salt. Cut in butter until pea-sized.
+4. Add cream, stir until just combined.
+5. Drop biscuit dough over filling in mounds. Sprinkle with sugar.
+6. Bake until golden and bubbling, 45-55 minutes.
+7. Serve warm with vanilla ice cream.
+
+## Notes
+
+- Ripe peaches are essential.
+- Don't spread dough - leave it chunky.
+
+Source: Serious Eats (Stella Parks tested)
+Canonical: https://rcpbx.com/recipes/peach-cobbler/
+
+---
+
+# Peanut Butter Cookies
+
+Three ingredients. No flour. Impossibly good.
+
+Prep: 10 min · Cook: 10 min · Makes: 24 cookies
+
+## Ingredients
+
+- 1 cup peanut butter (creamy or crunchy)
+- 1 cup sugar
+- 1 large egg
+- 1/2 tsp vanilla extract (optional)
+- 1/2 tsp baking soda (optional, for puffier cookies)
+
+## Steps
+
+1. Preheat oven to 350°F. Line baking sheets with parchment.
+2. Mix peanut butter, sugar, and egg until smooth and well combined.
+3. Add vanilla and baking soda if using.
+4. Roll dough into 1-inch balls. Place on baking sheets.
+5. Press each ball with a fork in a crosshatch pattern, flattening slightly.
+6. Bake 8-10 minutes until edges are just set. Centers will look underdone.
+7. Cool on pan 5 minutes—they firm up as they cool. Transfer to wire rack.
+
+## Notes
+
+- Peanut butter: Use regular peanut butter, not natural. Natural separates and changes the texture.
+- The fork marks: Traditional and functional—they help cookies bake evenly.
+- Don't overbake: Pull them when they look slightly underdone. They continue cooking on the pan.
+- Gluten-free: These are naturally gluten-free as written.
+- Add-ins: Press a Hershey's Kiss into each cookie right after baking for peanut butter blossoms.
+
+Source: Adapted from Allrecipes
+Canonical: https://rcpbx.com/recipes/peanut-butter-cookies/
+
+---
+
+# Penne alla Vodka
+
+Creamy tomato sauce with a kick. The vodka cooks off but the magic stays.
+
+Prep: 10 min · Cook: 25 min · Serves: 4
+
+## Ingredients
+
+- 1 lb penne pasta
+- 2 Tbsp olive oil
+- 4 cloves garlic, minced
+- 1/4 tsp red pepper flakes
+- 1 can (28 oz) crushed San Marzano tomatoes
+- 1/2 cup vodka
+- 1 tsp salt
+- 1 cup heavy cream
+- 1/2 cup parmesan cheese, grated
+- Fresh basil for serving
+
+## Steps
+
+1. Cook penne in salted water until just shy of al dente. Reserve 1 cup pasta water before draining.
+2. In a large skillet, heat olive oil over medium heat. Add garlic and red pepper flakes. Sauté 1 minute until fragrant.
+3. Add crushed tomatoes and salt. Simmer 10 minutes, stirring occasionally.
+4. Remove pan from heat. Add vodka, then return to heat. Simmer 7-8 minutes until sauce reduces and vodka smell dissipates.
+5. Reduce heat to low. Stir in heavy cream and simmer 2-3 minutes until sauce turns pink and thickens slightly.
+6. Add drained pasta and parmesan. Toss to coat, adding pasta water as needed for consistency.
+7. Serve topped with fresh basil and extra parmesan.
+
+## Notes
+
+- Why vodka: It releases flavor compounds in the tomatoes that aren't alcohol or water soluble. The alcohol cooks off.
+- Flambé warning: Add vodka off heat to prevent flare-ups, then return to the burner.
+- San Marzano: These tomatoes are sweeter and less acidic. Worth seeking out.
+- Make it richer: Add 2 Tbsp butter at the end for extra silkiness.
+- Add protein: Grilled chicken, Italian sausage, or pancetta all work beautifully.
+
+Source: Adapted from NYT Cooking
+Canonical: https://rcpbx.com/recipes/penne-alla-vodka/
+
+---
+
+# Basil Pesto
+
+Fresh, bright, and takes 5 minutes. Once you make it yourself, you won't go back.
+
+Prep: 10 min · Cook: 0 min · Makes: 1 cup
+
+## Ingredients
+
+- 2 cups fresh basil leaves, packed
+- 1/3 cup pine nuts (or walnuts)
+- 3 cloves garlic
+- 1/2 cup parmesan cheese, grated
+- 1/2 cup extra virgin olive oil
+- 1/2 tsp salt
+- 1/4 tsp black pepper
+- 1 Tbsp lemon juice (optional, keeps it green)
+
+## Steps
+
+1. Toast pine nuts in a dry skillet over medium heat 2-3 minutes until golden. Watch carefully—they burn fast.
+2. Combine basil, toasted pine nuts, and garlic in a food processor. Pulse until coarsely chopped.
+3. Add parmesan, salt, and pepper. Pulse to combine.
+4. With the processor running, slowly drizzle in olive oil until smooth.
+5. Taste and adjust seasoning. Add lemon juice if using.
+6. Use immediately or store with a thin layer of olive oil on top to prevent browning.
+
+## Notes
+
+- Pine nut swap: Walnuts, almonds, or cashews work. Pine nuts are traditional but expensive.
+- Keeping it green: A squeeze of lemon and blanching the basil (10 seconds in boiling water, then ice bath) help prevent browning.
+- Storage: Refrigerate up to 1 week with oil on top. Freeze in ice cube trays up to 3 months.
+- Pasta ratio: Use about 1/4 cup pesto per serving of pasta, loosened with pasta water.
+- Beyond pasta: Spread on sandwiches, mix into mayo, drizzle on pizza, stir into soups, or use as a marinade.
+
+Source: Adapted from Bon Appétit
+Canonical: https://rcpbx.com/recipes/pesto/
+
+---
+
+# Philly Cheesesteak
+
+Thinly sliced beef, gooey cheese, soft roll
+
+Serves: 4
+
+## Ingredients
+
+- 1½ lbs ribeye steak
+- 2 tbsp vegetable oil
+- 1 large onion, sliced thin
+- 8 slices American cheese (or Cheez Whiz)
+- 4 hoagie rolls
+- Salt and pepper
+
+## Steps
+
+1. Freeze ribeye 30-60 minutes until firm. Slice as thin as possible against grain.
+2. Cook onions in 1 tbsp oil until caramelized, 10-15 minutes. Season, transfer out.
+3. Increase heat to high. Add remaining oil.
+4. Spread steak thin, season. Sear 30 seconds, chop and stir. Cook until just done.
+5. Pile into 4 portions. Top with cheese. Cover to melt.
+6. Scoop into rolls with onions.
+
+## Notes
+
+- Freezing makes thin slicing possible.
+- American cheese melts perfectly.
+- Don't overcook - should be tender.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/philly-cheesesteak/
+
+---
+
+# Pie Crust
+
+Flaky, buttery, foolproof
+
+Makes: 2 crusts
+
+## Ingredients
+
+- 2½ cups flour
+- 1 tbsp sugar
+- 1 tsp salt
+- 1 cup (2 sticks) cold butter, cubed
+- ½ cup ice water
+
+## Steps
+
+1. Pulse flour, sugar, salt in food processor.
+2. Add butter, pulse until pea-sized pieces remain.
+3. Drizzle in ice water, pulse until dough just comes together.
+4. Divide in half, flatten into disks.
+5. Wrap in plastic, refrigerate at least 1 hour.
+6. Roll on floured surface to 12-inch circle.
+7. Fit into pie plate, trim, crimp edges.
+8. Chill before filling.
+
+## Notes
+
+- Keep everything cold.
+- Don't overwork the dough.
+- Visible butter pieces = flaky crust.
+
+Source: Serious Eats / Stella Parks (BraveTart tested)
+Canonical: https://rcpbx.com/recipes/pie-crust/
+
+---
+
+# Pizza Dough
+
+Chewy, crispy, restaurant quality
+
+Makes: 2 pizzas
+
+## Ingredients
+
+- 3 cups bread flour
+- 1 tbsp sugar
+- 2¼ tsp instant yeast
+- 1 tsp salt
+- 1 cup warm water
+- 2 tbsp olive oil
+
+## Steps
+
+1. Mix flour, sugar, yeast, salt.
+2. Add water and oil. Mix until dough forms.
+3. Knead until smooth and elastic, 8-10 minutes.
+4. Place in oiled bowl. Cover, let rise until doubled, 1-2 hours.
+5. Punch down. Divide in half.
+6. Use immediately or refrigerate up to 3 days.
+7. Let cold dough come to room temp before shaping.
+
+## Notes
+
+- Bread flour has more gluten for chewy texture.
+- Cold rise develops more flavor.
+- High heat is essential for crispy crust.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/pizza-dough/
+
+---
+
+# Pan-Seared Pork Chops
+
+Golden crust, juicy center, butter-basted
+
+Serves: 4
+
+## Ingredients
+
+- 4 bone-in pork chops (1-inch thick)
+- 2 tbsp vegetable oil
+- 3 tbsp butter
+- 4 cloves garlic, smashed
+- 4 sprigs fresh thyme
+- Salt and pepper
+
+## Steps
+
+1. Remove chops from fridge 30 minutes before. Pat very dry.
+2. Season generously with salt and pepper.
+3. Heat oil in cast iron over medium-high until smoking.
+4. Sear without moving 4 minutes until deep golden.
+5. Flip. Add butter, garlic, thyme.
+6. Tilt pan and baste 3-4 minutes.
+7. Check temp: 140°F for slightly pink, 145°F for medium.
+8. Rest 5 minutes.
+
+## Notes
+
+- Thick-cut bone-in stays juicier.
+- Pork is safe at 145°F.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/pork-chops/
+
+---
+
+# Pork Fried Rice
+
+Classic Chinese takeout, homemade
+
+Serves: 4
+
+## Ingredients
+
+- 4 cups day-old white rice, cold
+- ½ lb pork tenderloin or char siu, diced
+- 3 tbsp vegetable oil
+- 3 eggs, beaten
+- 1 cup frozen peas
+- 4 scallions, sliced
+- 3 cloves garlic, minced
+- 3 tbsp soy sauce
+- 1 tbsp sesame oil
+- White pepper
+
+## Steps
+
+1. Heat wok until smoking. Add 1 tbsp oil. Stir-fry pork until cooked, 2-3 minutes. Transfer out.
+2. Add 1 tbsp oil. Scramble eggs, break into pieces. Transfer out.
+3. Add remaining oil. Stir-fry garlic 30 seconds.
+4. Add rice, press flat. Let sit 30 seconds, then stir. Repeat until hot and crispy.
+5. Add peas, cook 1 minute. Return pork and eggs. Add soy sauce, toss.
+6. Drizzle with sesame oil, add scallions and white pepper.
+
+## Notes
+
+- Char siu is traditional.
+- Day-old rice is essential.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/pork-fried-rice/
+
+---
+
+# Roasted Pork Tenderloin
+
+Quick-roasting, herb-crusted, juicy
+
+Serves: 4-6
+
+## Ingredients
+
+- 2 pork tenderloins (about 2 lbs)
+- 2 tbsp olive oil
+- 2 tsp sugar
+- 1 tbsp fresh rosemary, minced
+- 4 cloves garlic, minced
+- ½ tsp red pepper flakes
+- Salt and pepper
+
+## Steps
+
+1. Pat tenderloins dry.
+2. Mix sugar, rosemary, garlic, pepper flakes, 1 tsp salt, ½ tsp pepper.
+3. Rub with oil, then coat with spice mixture.
+4. Sear in oven-safe skillet over medium-high on all sides, 8 minutes.
+5. Transfer to 400°F oven. Roast until 140-145°F, 15-20 minutes.
+6. Rest 10 minutes. Slice into medallions.
+
+## Notes
+
+- Tenderloins are lean - don't overcook.
+- Sugar helps browning.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/pork-tenderloin/
+
+---
+
+# Pot Roast
+
+Fork-tender beef, rich gravy
+
+Serves: 6-8
+
+## Ingredients
+
+- 1 boneless beef chuck roast (3-4 lbs)
+- 2 tbsp vegetable oil
+- 1 large onion, sliced
+- 2 carrots, chunked
+- 2 celery ribs, chunked
+- 4 cloves garlic, minced
+- 1 cup red wine
+- 2 cups beef broth
+- 1 (14 oz) can diced tomatoes
+- 2 bay leaves
+- 2 sprigs thyme
+
+## Steps
+
+1. Season roast generously. Brown in oil on all sides, 10-12 minutes. Transfer out.
+2. Cook onion, carrots, celery until soft, 8 minutes. Add garlic, 30 seconds.
+3. Add wine, scrape up bits. Reduce by half.
+4. Add broth, tomatoes, bay leaves, thyme. Return roast.
+5. Cover, braise at 300°F until fork-tender, 3-3.5 hours.
+6. Slice against grain. Serve with strained sauce and vegetables.
+
+## Notes
+
+- Chuck has best fat marbling.
+- Low and slow is essential.
+- Let meat rest before slicing.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/pot-roast/
+
+---
+
+# Potato Salad
+
+Creamy, classic American style
+
+Serves: 8
+
+## Ingredients
+
+- 3 lbs Yukon Gold potatoes
+- 2 tbsp white vinegar
+- ¾ cup mayonnaise
+- 2 tbsp yellow mustard
+- 3 celery ribs, diced
+- ¼ cup red onion, minced
+- 3 hard-boiled eggs, chopped
+- 2 tbsp fresh dill or parsley
+- Salt and pepper
+
+## Steps
+
+1. Cover potatoes with salted water. Boil until fork-tender, 15-20 minutes.
+2. Drain. When cool enough, cut into ¾-inch cubes.
+3. Toss warm potatoes with vinegar and ½ tsp salt.
+4. Let cool to room temperature.
+5. Mix mayo and mustard. Add to potatoes with celery, onion, eggs, herbs.
+6. Fold gently. Season.
+7. Refrigerate at least 2 hours.
+
+## Notes
+
+- Dress potatoes while warm - absorbs more flavor.
+- Yukon Golds hold shape better.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/potato-salad/
+
+---
+
+# Loaded Baked Potato Soup
+
+All the toppings, in soup form
+
+Serves: 6-8
+
+## Ingredients
+
+- 8 slices bacon, chopped
+- 2½ lbs russet potatoes
+- 1 medium onion, chopped
+- 3 cloves garlic, minced
+- 3 tbsp flour
+- 5 cups chicken broth
+- 1 cup heavy cream
+- 1 sprig thyme
+- 4 oz sharp cheddar, shredded
+- ½ cup sour cream
+- 4 scallions, sliced
+- Salt and pepper
+
+## Steps
+
+1. Cook bacon until crisp. Reserve for garnish. Peel potatoes, save peels, cube potatoes.
+2. Fry potato skins in bacon fat until crisp, about 8 minutes. Reserve.
+3. Cook onion in fat until golden, 6 minutes. Add garlic and flour, cook 1 minute.
+4. Whisk in broth and cream. Add thyme and potatoes. Simmer until tender, 20 minutes.
+5. Remove 2 cups potatoes. Purée rest until smooth.
+6. Off heat, stir in cheese until melted, then sour cream. Return potato chunks.
+7. Top with bacon, fried skins, scallions, extra cheese and sour cream.
+
+## Notes
+
+- Don't skip frying potato skins - incredible texture.
+- Add sour cream off heat to prevent curdling.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/potato-soup/
+
+---
+
+# Pound Cake
+
+Dense, buttery, versatile
+
+Serves: 12
+
+## Ingredients
+
+- 1 cup butter, softened
+- 3 cups sugar
+- 6 eggs
+- 3 cups flour
+- 1 cup sour cream
+- 1 tsp vanilla
+- ¼ tsp salt
+
+## Steps
+
+1. Preheat oven to 325°F. Grease and flour bundt pan.
+2. Beat butter and sugar until very light and fluffy, 5 minutes.
+3. Add eggs one at a time, beating after each.
+4. Combine flour and salt. Add alternately with sour cream, starting and ending with flour.
+5. Stir in vanilla.
+6. Pour into pan. Bake 60-75 minutes until toothpick comes out clean.
+7. Cool in pan 15 minutes, then turn out.
+
+## Notes
+
+- Creaming butter and sugar is the key to texture.
+- Don't open oven door for first 45 minutes.
+
+Source: King Arthur Baking (King Arthur tested)
+Canonical: https://rcpbx.com/recipes/pound-cake/
 
 ---
 
@@ -766,6 +4972,341 @@ _Tested 2026-07. Old version claimed 25g protein per serving from one scoop spli
 
 Source: Fitness community / Ninja Creami method
 Canonical: https://rcpbx.com/recipes/protein-ice-cream/
+
+---
+
+# Pulled Pork
+
+Fall-apart tender, smoky, saucy
+
+Serves: 10-12
+
+## Ingredients
+
+- 1 bone-in pork shoulder (6-8 lbs)
+- 2 tbsp brown sugar
+- 2 tbsp paprika
+- 1 tbsp chili powder
+- 1 tbsp cumin
+- 1 tbsp garlic powder
+- 1 tbsp onion powder
+- 2 tsp black pepper
+- 1 tbsp salt
+- 1 cup apple cider vinegar
+- BBQ sauce
+
+## Steps
+
+1. Mix all spices for dry rub. Apply generously all over pork.
+2. Place fat-side up in roasting pan. Pour vinegar in bottom.
+3. Cover tightly with foil. Roast at 300°F for 8-10 hours, until 195-205°F and meat shreds easily.
+4. Rest 30 minutes.
+5. Shred meat, discarding fat and bone. Toss with pan juices and BBQ sauce.
+6. Serve on soft buns with coleslaw.
+
+## Notes
+
+- Bone-in shoulder has best flavor.
+- Low and slow breaks down collagen.
+- Mix crispy bark into pulled meat.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/pulled-pork/
+
+---
+
+# Pumpkin Pie
+
+Spiced, custardy, Thanksgiving essential
+
+Serves: 8
+
+## Ingredients
+
+- 1 (9-inch) pie crust, blind-baked
+- 1 (15 oz) can pumpkin puree
+- ¾ cup brown sugar
+- 1 tsp cinnamon
+- ½ tsp ginger
+- ¼ tsp nutmeg
+- ¼ tsp cloves
+- ½ tsp salt
+- 3 eggs
+- 1 cup heavy cream
+- Whipped cream
+
+## Steps
+
+1. Preheat oven to 425°F.
+2. Cook pumpkin in saucepan over medium, stirring, until thickened, 5-8 minutes.
+3. Whisk in sugar, spices, salt. Cool slightly.
+4. Whisk in eggs and cream.
+5. Pour into crust. Bake 15 minutes.
+6. Reduce to 350°F. Bake 40-50 more until center is just set.
+7. Cool to room temperature. Chill.
+8. Serve with whipped cream.
+
+## Notes
+
+- Cooking pumpkin first intensifies flavor.
+- Center should wobble when done.
+
+Source: Serious Eats / Stella Parks (BraveTart tested)
+Canonical: https://rcpbx.com/recipes/pumpkin-pie/
+
+---
+
+# Quiche Lorraine
+
+Bacon, cheese, custardy filling
+
+Serves: 6-8
+
+## Ingredients
+
+- 1 (9-inch) pie crust, blind-baked
+- 6 slices bacon, chopped
+- 1 cup Gruyère, shredded
+- 4 eggs
+- 1 cup heavy cream
+- 1 cup whole milk
+- ¼ tsp nutmeg
+- Salt and pepper
+
+## Steps
+
+1. Preheat oven to 350°F.
+2. Cook bacon until crisp. Drain.
+3. Scatter bacon and cheese in pie crust.
+4. Whisk eggs, cream, milk, nutmeg, ½ tsp salt, ¼ tsp pepper.
+5. Pour custard into crust.
+6. Bake until center is just set and jiggles slightly, 45-50 minutes.
+7. Cool 15 minutes before slicing.
+
+## Notes
+
+- Blind-baking prevents soggy crust.
+- Custard should jiggle like jello when done.
+- Don't overbake.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/quiche/
+
+---
+
+# Ranch Dressing
+
+Homemade ranch destroys bottled. Creamy, herby, and ready in 5 minutes.
+
+Prep: 10 min · Cook: 0 min · Makes: 1.5 cups
+
+## Ingredients
+
+- 1/2 cup mayonnaise
+- 1/2 cup sour cream
+- 1/2 cup buttermilk
+- 1 Tbsp fresh chives, minced
+- 1 Tbsp fresh dill, minced (or 1 tsp dried)
+- 1 Tbsp fresh parsley, minced
+- 1 clove garlic, minced
+- 1/2 tsp onion powder
+- 1/4 tsp salt
+- 1/4 tsp black pepper
+- 1 tsp lemon juice
+
+## Steps
+
+1. Whisk together mayonnaise, sour cream, and buttermilk until smooth.
+2. Add chives, dill, parsley, garlic, onion powder, salt, pepper, and lemon juice.
+3. Whisk until combined. Taste and adjust seasoning.
+4. Refrigerate at least 30 minutes before serving to let flavors meld.
+5. Thin with more buttermilk if needed for dressing consistency. Keep thicker for dipping.
+
+## Notes
+
+- No buttermilk: Mix 1/2 cup milk with 1/2 Tbsp lemon juice. Let sit 5 minutes.
+- Dried herbs: Use 1 tsp each dried chives, dill, and parsley if fresh aren't available.
+- Make it a dip: Use less buttermilk for thicker consistency.
+- Storage: Refrigerate up to 1 week.
+- Greek yogurt: Substitute for sour cream for a lighter version.
+
+Source: Adapted from The Pioneer Woman
+Canonical: https://rcpbx.com/recipes/ranch-dressing/
+
+---
+
+# Rice Krispie Treats
+
+Three ingredients. Ten minutes. Pure nostalgic bliss.
+
+Prep: 5 min · Cook: 5 min · Makes: 12 squares
+
+## Ingredients
+
+- 3 Tbsp butter
+- 1 package (10 oz) marshmallows (about 40 regular)
+- 6 cups Rice Krispies cereal
+
+## Steps
+
+1. Grease a 9x13 inch pan with butter or cooking spray.
+2. Melt butter in a large pot over low heat.
+3. Add marshmallows and stir constantly until completely melted and smooth.
+4. Remove from heat. Immediately add Rice Krispies and stir until well coated.
+5. Press mixture into prepared pan using a greased spatula or wax paper.
+6. Let cool completely before cutting into squares.
+
+## Notes
+
+- Low heat: High heat makes marshmallows tough. Keep it low and stir constantly.
+- Fresh marshmallows: Stale marshmallows don't melt smoothly.
+- Don't press too hard: Light pressing keeps them chewy. Compacted treats are dense.
+- Variations: Add 1/2 cup chocolate chips, sprinkles, or peanut butter to the marshmallow mixture.
+- Storage: Cover tightly at room temperature up to 2 days. Don't refrigerate—they get hard.
+
+Source: Adapted from Kellogg's
+Canonical: https://rcpbx.com/recipes/rice-krispie-treats/
+
+---
+
+# Rice Pilaf
+
+Buttery, toasted, fluffy
+
+Serves: 4-6
+
+## Ingredients
+
+- 1½ cups long-grain white rice
+- 2¼ cups chicken broth
+- 2 tbsp butter
+- 1 small onion, minced
+- ½ tsp salt
+
+## Steps
+
+1. Rinse rice until water runs clear. Drain.
+2. Melt butter over medium. Cook onion 3 minutes.
+3. Add rice. Stir to coat. Toast until edges turn translucent, 2-3 minutes.
+4. Add broth and salt. Bring to boil.
+5. Cover, reduce to low. Simmer 18 minutes.
+6. Remove from heat. Let sit 5 minutes covered.
+7. Fluff with fork.
+
+## Notes
+
+- Rinsing removes starch for fluffy rice.
+- Toasting adds nutty flavor.
+- Don't lift lid while cooking.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/rice-pilaf/
+
+---
+
+# Roast Chicken
+
+The Thomas Keller method. Three ingredients. Perfect every time.
+
+Prep: 5 min · Cook: 1 hr · Serves: 4
+
+## Ingredients
+
+- 1 whole chicken (3-4 lbs)
+- Kosher salt
+- Black pepper
+
+## Steps
+
+1. Preheat oven to 450°F. Let chicken sit at room temperature 30 minutes while oven heats.
+2. Remove chicken from packaging. Remove giblets from cavity. Pat VERY dry inside and out with paper towels. This is crucial for crispy skin.
+3. Truss the legs: tie them together with kitchen twine. Tuck wing tips under the body.
+4. Season generously with salt and pepper from about 1 foot above the bird (for even coverage). Season inside the cavity too.
+5. Place chicken breast-side up in cast iron skillet or roasting pan. No rack needed.
+6. Roast 50-60 minutes. DO NOT BASTE. Do not open the oven door. Basting creates steam and prevents crispy skin.
+7. Chicken is done when thigh reaches 165°F (or when juices run clear when thigh is pierced).
+8. Rest 15 minutes before carving. The juices need to redistribute.
+
+## Notes
+
+- DRY = CRISPY: The #1 secret. Wet skin steams instead of crisping. Pat it bone dry.
+- No basting: Sounds wrong, but every time you open the oven you lose heat and add moisture. Trust the method.
+- High heat the whole time: This is what makes the skin shatteringly crispy.
+- Use the drippings: Spoon them over carved meat, or make a quick pan sauce.
+- Storage: Keeps 4 days refrigerated. Shred leftover meat for sandwiches, soup, or tacos.
+
+Source: Thomas Keller's method from Bouchon
+Canonical: https://rcpbx.com/recipes/roast-chicken/
+
+---
+
+# Roasted Vegetables
+
+Caramelized, tender, versatile
+
+Serves: 4-6
+
+## Ingredients
+
+- 2 lbs mixed vegetables (carrots, broccoli, cauliflower, Brussels sprouts)
+- 3 tbsp olive oil
+- 4 cloves garlic, minced
+- 1 tsp fresh thyme or rosemary
+- Salt and pepper
+
+## Steps
+
+1. Preheat oven to 425°F.
+2. Cut vegetables into similar sizes.
+3. Toss with oil, garlic, herbs, salt, pepper.
+4. Spread in single layer on baking sheet. Don't crowd.
+5. Roast 20 minutes. Stir.
+6. Continue roasting until browned and tender, 15-25 more minutes.
+
+## Notes
+
+- Don't crowd the pan.
+- Use two pans if needed.
+- High heat creates caramelization.
+
+Source: Serious Eats (Kenji López-Alt tested)
+Canonical: https://rcpbx.com/recipes/roasted-vegetables/
+
+---
+
+# Salmon Patties
+
+Old-fashioned comfort, crispy outside
+
+Serves: 4
+
+## Ingredients
+
+- 1 (14.75 oz) can salmon, drained
+- ¼ cup onion, minced
+- ¼ cup cornmeal
+- 1 egg, beaten
+- 3 tbsp flour
+- Vegetable oil for frying
+- Lemon and tartar sauce
+
+## Steps
+
+1. Drain salmon, flake into bowl, remove bones and skin.
+2. Add onion, cornmeal, egg, flour. Mix well.
+3. Season with salt and pepper.
+4. Form into 4-6 patties.
+5. Heat ¼ inch oil in skillet over medium.
+6. Fry until golden, 3-4 minutes per side.
+7. Drain. Serve with lemon and tartar sauce.
+
+## Notes
+
+- Canned salmon works perfectly.
+- Cornmeal gives authentic Southern texture.
+
+Source: AllRecipes (2,000+ reviews)
+Canonical: https://rcpbx.com/recipes/salmon-patties/
 
 ---
 
@@ -825,6 +5366,885 @@ Canonical: https://rcpbx.com/recipes/salmon-rice-bowl/
 
 ---
 
+# Fresh Salsa
+
+Bright, chunky, restaurant style
+
+Makes: 2 cups
+
+## Ingredients
+
+- 1 lb ripe tomatoes, diced
+- ¼ cup white onion, minced
+- 1-2 jalapeños, seeded and minced
+- ¼ cup cilantro, chopped
+- 1 clove garlic, minced
+- Juice of 1 lime
+- Salt to taste
+
+## Steps
+
+1. Combine tomatoes, onion, jalapeño, cilantro, garlic in bowl.
+2. Add lime juice and salt. Toss gently.
+3. Let sit 15 minutes for flavors to meld.
+4. Taste and adjust seasoning.
+5. Best served within a few hours.
+
+## Notes
+
+- Ripe tomatoes make all the difference.
+- Seed jalapeños for less heat.
+- Salt draws out tomato juices.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/salsa/
+
+---
+
+# Scrambled Eggs
+
+Gordon Ramsay's method. Creamy, silky, life-changing.
+
+Prep: 1 min · Cook: 4 min · Serves: 2
+
+## Ingredients
+
+- 6 eggs
+- 3 tbsp butter, cubed
+- 1 tbsp crème fraîche (or sour cream)
+- Salt and pepper
+- Fresh chives, chopped (optional)
+
+## Steps
+
+1. Crack eggs directly into a COLD nonstick saucepan. Add butter. Don't whisk yet.
+2. Place pan over medium heat. Start stirring continuously with a rubber spatula, breaking up the yolks and combining with whites.
+3. As eggs start to thicken, pull pan OFF the heat. Keep stirring for 20 seconds.
+4. Return to heat. Stir constantly. When eggs start to form curds again, pull OFF heat again. Keep stirring.
+5. Repeat this on/off process 3-4 times over about 3 minutes. The eggs should be soft and slightly underdone.
+6. When almost done but still slightly wet, remove from heat completely. Stir in crème fraîche—this stops the cooking.
+7. Season with salt and pepper NOW (not before—early salt makes eggs watery).
+8. Serve immediately topped with chives. Don't let them sit.
+
+## Notes
+
+- COLD pan start: This lets eggs cook slowly and evenly from the beginning.
+- ON/OFF the heat: This prevents overcooking. The pan stays hot even off the burner.
+- Remove while still wet: Carryover heat finishes them. If they look done in the pan, they're overdone on the plate.
+- Season LAST: Salt draws moisture from eggs. Season after cooking for best texture.
+- Crème fraîche: Adds creaminess AND stops cooking. Sour cream works too.
+
+Source: Gordon Ramsay's method
+Canonical: https://rcpbx.com/recipes/scrambled-eggs/
+
+---
+
+# Shakshuka
+
+Eggs poached in spiced tomato sauce. One skillet, all the flavor.
+
+Prep: 10 min · Cook: 25 min · Serves: 4
+
+## Ingredients
+
+- 2 Tbsp olive oil
+- 1 medium onion, diced
+- 1 red bell pepper, diced
+- 4 cloves garlic, minced
+- 1 tsp cumin
+- 1 tsp paprika
+- 1/2 tsp cayenne (optional)
+- 1 can (28 oz) crushed tomatoes
+- 1 tsp salt
+- 1/2 tsp black pepper
+- 6 large eggs
+- 1/4 cup feta cheese, crumbled
+- Fresh cilantro or parsley for serving
+- Crusty bread for serving
+
+## Steps
+
+1. Heat olive oil in a large skillet over medium heat. Add onion and bell pepper. Sauté 5-7 minutes until softened.
+2. Add garlic, cumin, paprika, and cayenne. Cook 1 minute until fragrant.
+3. Pour in crushed tomatoes, salt, and pepper. Simmer 10 minutes until slightly thickened.
+4. Make 6 wells in the sauce. Crack an egg into each well.
+5. Cover and cook 5-8 minutes until egg whites are set but yolks are still runny.
+6. Top with feta and fresh herbs. Serve immediately from the skillet with crusty bread.
+
+## Notes
+
+- Yolk doneness: 5-6 minutes for runny, 8-10 for set. Cover traps steam and cooks tops of eggs.
+- Spice level: Cayenne is optional. Harissa paste is a more authentic addition.
+- Add-ins: Chorizo, merguez, or crispy chickpeas for protein.
+- Feta: Not traditional but common. Goat cheese works too.
+- The bread: Non-negotiable. You need something to soak up the sauce.
+
+Source: Adapted from NYT Cooking
+Canonical: https://rcpbx.com/recipes/shakshuka/
+
+---
+
+# Shepherd's Pie
+
+Savory meat filling topped with mashed potatoes
+
+Serves: 6-8
+
+## Ingredients
+
+- 2 lbs russet potatoes, cubed
+- 6 tbsp butter, divided
+- ½ cup heavy cream
+- 1½ lbs ground beef
+- 1 onion, diced
+- 2 carrots, diced
+- 2 celery ribs, diced
+- 3 cloves garlic, minced
+- 2 tbsp tomato paste
+- 1 cup beef broth
+- 1 cup frozen peas
+- 1 tbsp Worcestershire
+- 1 tsp thyme
+
+## Steps
+
+1. Boil potatoes until tender. Mash with 4 tbsp butter and cream. Season.
+2. Brown beef, breaking into pieces. Drain, transfer out.
+3. Cook vegetables in remaining butter until soft, 8 minutes.
+4. Add garlic and tomato paste, cook 1 minute.
+5. Return beef. Add broth, peas, Worcestershire, thyme. Simmer 10 minutes. Season.
+6. Spread mashed potatoes over filling. Rough up surface with fork.
+7. Broil until golden, 5-10 minutes.
+
+## Notes
+
+- 'Shepherd's pie' uses lamb; 'cottage pie' uses beef.
+- Roughing up potatoes creates crispy peaks.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/shepherds-pie/
+
+---
+
+# Shrimp Boil
+
+One-pot feast, dump on newspaper
+
+Serves: 6-8
+
+## Ingredients
+
+- 3 lbs shell-on large shrimp
+- 2 lbs small red potatoes
+- 4 ears corn, halved
+- 1 lb andouille sausage, sliced
+- ½ cup Old Bay
+- 4 cloves garlic
+- 2 lemons, halved
+- 1 stick butter, melted
+- Hot sauce
+
+## Steps
+
+1. Fill large pot with 4 gallons water. Add Old Bay, garlic, lemons, 2 tbsp salt. Boil.
+2. Add potatoes. Cook 10 minutes.
+3. Add sausage and corn. Cook 8 minutes.
+4. Add shrimp. Cook 3 minutes until just pink.
+5. Drain immediately.
+6. Dump onto newspaper-covered table.
+7. Serve with melted butter and hot sauce.
+
+## Notes
+
+- Add items in order of cook time.
+- Drain immediately when shrimp turn pink.
+- Old Bay is non-negotiable.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/shrimp-boil/
+
+---
+
+# Shrimp Scampi
+
+Garlicky, buttery, perfectly cooked shrimp
+
+Serves: 4
+
+## Ingredients
+
+- 1½ lbs shell-on jumbo shrimp
+- 3 tbsp salt + 2 tbsp sugar (for brine)
+- 2 tbsp olive oil
+- 1 cup dry white wine
+- 4 sprigs fresh thyme
+- 3 tbsp lemon juice
+- 1 tsp cornstarch
+- 8 cloves garlic, sliced thin
+- ½ tsp red pepper flakes
+- 4 tbsp butter
+- 2 tbsp parsley
+
+## Steps
+
+1. Peel shrimp, reserve shells. Brine shrimp in salt, sugar, 1 quart water for 15 minutes.
+2. Cook shells in 1 tbsp oil until spotty brown. Add wine and thyme, simmer 5 minutes. Strain, reserve liquid.
+3. Mix lemon juice and cornstarch.
+4. Cook garlic and pepper flakes in oil over medium-low until golden, 3-5 minutes.
+5. Add wine mixture, simmer. Add shrimp, cover, cook 5-7 minutes.
+6. Transfer shrimp. Add lemon-cornstarch mixture, cook until thickened.
+7. Off heat, whisk in butter and parsley. Return shrimp, toss.
+
+## Notes
+
+- Brining keeps shrimp juicy.
+- Making stock from shells adds depth.
+- Poaching in wine cooks shrimp more evenly.
+
+Source: America's Test Kitchen (ATK's #1 most popular recipe)
+Canonical: https://rcpbx.com/recipes/shrimp-scampi/
+
+---
+
+# Sloppy Joes
+
+Sweet, tangy, messy perfection
+
+Serves: 6
+
+## Ingredients
+
+- 1½ lbs ground beef
+- 1 tbsp oil
+- 1 onion, diced fine
+- 1 green bell pepper, diced fine
+- 4 cloves garlic, minced
+- 1 cup ketchup
+- 2 tbsp brown sugar
+- 1 tbsp Worcestershire
+- 1 tbsp yellow mustard
+- 1 tsp chili powder
+- ½ cup water
+- Hamburger buns
+
+## Steps
+
+1. Cook onion and pepper in oil until soft, 5 minutes.
+2. Add beef, break into small pieces. Brown 8 minutes. Drain fat.
+3. Add garlic, 30 seconds.
+4. Stir in ketchup, sugar, Worcestershire, mustard, chili powder, water.
+5. Simmer until thick, 10-15 minutes. Season to taste.
+6. Toast buns. Pile on the sloppy joe.
+
+## Notes
+
+- Break meat small for classic texture.
+- Let simmer until thick.
+- Vinegar at end adds brightness.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/sloppy-joes/
+
+---
+
+# Smash Burgers
+
+Crispy lacy edges, diner-style perfection. Fast and simple.
+
+Prep: 5 min · Cook: 10 min · Serves: 4
+
+## Ingredients
+
+- 1 lb ground beef chuck (80/20)
+- 8 slices American cheese
+- 4 burger buns (potato buns work great)
+- Kosher salt
+- Black pepper
+- 2 tbsp butter for buns
+- Suggested Toppings: Pickle slices, thinly sliced onion, ketchup, mustard, mayo, shredded lettuce
+
+## Steps
+
+1. Divide beef into 8 equal balls (2 oz each). Don't pack them tight—keep them loose.
+2. Heat cast iron skillet or griddle over HIGH heat until smoking hot. This is crucial.
+3. Place 2-4 balls on the hot surface (don't crowd). Immediately smash flat with a sturdy spatula. Press HARD for 10 seconds. Should be very thin.
+4. Season the top with salt and pepper AFTER smashing (not before).
+5. Cook 2 minutes until edges are brown and crispy. Flip.
+6. Immediately add cheese slice. Cook 1 more minute.
+7. Stack 2 patties per burger.
+8. Toast buns in the beef fat on the same pan. Assemble and serve immediately.
+
+## Notes
+
+- Why season AFTER smashing: Salt draws moisture from raw meat. Salting after = better crust.
+- American cheese: Melts better than anything else. This is not the time for fancy cheese.
+- The smash: Press as thin as possible. The goal is maximum surface contact = maximum crust.
+- Why 2 thin patties: More crust per burger. That crust is the whole point.
+- Ventilation: This creates smoke. Open windows or turn on the fan.
+
+Source: Adapted from Serious Eats / Kenji López-Alt
+Canonical: https://rcpbx.com/recipes/smash-burgers/
+
+---
+
+# Snickerdoodles
+
+Soft, chewy, and rolled in cinnamon sugar. The cookie that hugs you back.
+
+Prep: 15 min · Cook: 10 min · Makes: 24 cookies
+
+## Ingredients
+
+- 1/2 cup (1 stick) butter, softened
+- 3/4 cup sugar
+- 1 large egg
+- 1 tsp vanilla extract
+- 1 1/2 cups all-purpose flour
+- 1 tsp cream of tartar
+- 1/2 tsp baking soda
+- 1/4 tsp salt
+**For rolling:**
+- 3 Tbsp sugar
+- 1 Tbsp cinnamon
+
+## Steps
+
+1. Preheat oven to 375°F. Line baking sheets with parchment.
+2. Beat butter and sugar until light and fluffy, about 2 minutes.
+3. Add egg and vanilla. Beat until combined.
+4. In another bowl, whisk flour, cream of tartar, baking soda, and salt.
+5. Add dry ingredients to wet. Mix until just combined.
+6. Mix cinnamon and sugar in a small bowl.
+7. Roll dough into 1-inch balls. Roll each ball in cinnamon sugar.
+8. Place 2 inches apart on baking sheets. Bake 8-10 minutes until edges are set but centers are soft.
+9. Cool on pan 5 minutes before transferring to a wire rack.
+
+## Notes
+
+- Cream of tartar: Don't skip it—it gives snickerdoodles their signature tangy flavor and chewy texture.
+- Soft centers: Pull them when edges are just set. They firm up as they cool.
+- Crinkle tops: The cookies should crack and crinkle. That's the sign of a good snickerdoodle.
+- Chill the dough: For thicker cookies, refrigerate dough 30 minutes before rolling.
+- Storage: Keep in an airtight container up to 1 week.
+
+Source: Adapted from Sally's Baking Addiction
+Canonical: https://rcpbx.com/recipes/snickerdoodles/
+
+---
+
+# Spaghetti & Meatballs
+
+Tender meatballs, quick marinara. Weeknight-friendly.
+
+Prep: 20 min · Cook: 45 min · Serves: 6
+
+## Ingredients
+
+- Meatballs: 1 lb ground beef (80/20), ½ lb ground pork, ½ cup panko breadcrumbs, ¼ cup milk, 1 egg, ¼ cup parmesan grated, 3 garlic cloves minced, 2 tbsp fresh parsley chopped, 1 tsp salt, ½ tsp black pepper
+- Sauce & Pasta: 28 oz crushed tomatoes, 3 garlic cloves minced, 2 tbsp olive oil, 1 tsp Italian seasoning, 1 lb spaghetti, fresh basil for serving
+
+## Steps
+
+1. Preheat oven to 400°F. Line baking sheet with parchment.
+2. Make the panade: Mix panko and milk in large bowl. Let sit 5 minutes until absorbed.
+3. Add beef, pork, egg, parmesan, garlic, parsley, salt, and pepper to bowl. Mix gently with hands until just combined. Don't overwork.
+4. Roll into golf ball-sized meatballs (about 20). Place on baking sheet. Bake 15-20 minutes until browned.
+5. While meatballs bake, make sauce: Heat oil in large pan over medium. Add garlic, cook 30 seconds. Add tomatoes and Italian seasoning. Simmer 10 minutes.
+6. Add baked meatballs to sauce. Simmer together 15-20 minutes.
+7. Cook spaghetti according to package. Drain, reserving 1 cup pasta water.
+8. Toss pasta with sauce, adding pasta water if needed. Serve meatballs on top with fresh basil.
+
+## Notes
+
+- The panade secret: Soaking breadcrumbs in milk keeps meatballs tender and moist. Don't skip this.
+- Why oven-bake? Less messy than pan-frying, cooks evenly, still gets nice browning.
+- All beef works: Use 1½ lbs ground beef if you don't have pork.
+- Storage: Meatballs keep 4 days refrigerated, freeze beautifully for 3 months.
+
+Source: Adapted from Once Upon a Chef
+Canonical: https://rcpbx.com/recipes/spaghetti-and-meatballs/
+
+---
+
+# Split Pea Soup
+
+Thick, smoky, and deeply satisfying
+
+Serves: 6-8
+
+## Ingredients
+
+- 1 smoked ham hock
+- 2 tbsp butter
+- 2 onions, chopped
+- 2 celery ribs, chopped
+- 2 carrots, chopped
+- 4 cloves garlic, minced
+- 1 lb green split peas, rinsed
+- 8 cups water
+- 2 bay leaves
+- 1 tsp fresh thyme
+- Salt and pepper
+
+## Steps
+
+1. Melt butter. Cook onions, celery, carrots until softened, 8-10 minutes.
+2. Add garlic, cook 30 seconds.
+3. Add peas, water, ham hock, bay leaves, thyme. Bring to boil.
+4. Reduce heat, simmer partially covered until thick, about 1 hour.
+5. Remove ham hock, shred meat, return to soup. Discard bone.
+6. Remove bay leaves. Season with salt and pepper.
+
+## Notes
+
+- No need to soak split peas.
+- Soup thickens significantly as it cools - thin when reheating.
+
+Source: America's Test Kitchen (ATK Lab-Tested)
+Canonical: https://rcpbx.com/recipes/split-pea-soup/
+
+---
+
+# Stuffed Shells
+
+Ricotta-filled pasta in marinara
+
+Serves: 8
+
+## Ingredients
+
+- 1 (12 oz) box jumbo shells
+- 1 lb ground beef
+- 1 onion, chopped
+- 1 (24 oz) jar marinara
+- 32 oz ricotta
+- 2 cups mozzarella, shredded
+- ½ cup Parmesan
+- 2 eggs
+- ¼ cup parsley
+- 1 tsp Italian seasoning
+
+## Steps
+
+1. Cook shells until just al dente. Cool.
+2. Brown beef with onion. Stir in half the marinara.
+3. Mix ricotta, 1 cup mozzarella, Parmesan, eggs, parsley, Italian seasoning.
+4. Spread remaining marinara in 9x13 dish.
+5. Fill shells with ricotta, place in dish. Top with meat sauce and remaining mozzarella.
+6. Cover, bake at 350°F for 40 minutes. Uncover, bake 10 more minutes.
+
+## Notes
+
+- Undercook shells so they don't tear.
+- Piping bag makes filling faster.
+
+Source: AllRecipes (2,700+ five-star reviews)
+Canonical: https://rcpbx.com/recipes/stuffed-shells/
+
+---
+
+# Stuffing
+
+Herbed bread, savory, buttery
+
+Serves: 10-12
+
+## Ingredients
+
+- 1 lb crusty bread, cubed and dried
+- 6 tbsp butter
+- 1 large onion, diced
+- 3 celery ribs, diced
+- 3 cloves garlic, minced
+- 1 tbsp fresh sage, chopped
+- 1 tbsp fresh thyme
+- 2 cups chicken broth
+- 2 eggs, beaten
+- Salt and pepper
+
+## Steps
+
+1. Preheat oven to 350°F. Butter 9x13 dish.
+2. Dry bread cubes in oven 15 minutes if not already stale.
+3. Melt butter. Cook onion and celery until soft, 8 minutes.
+4. Add garlic, sage, thyme. Cook 1 minute. Season.
+5. Combine bread, vegetables, broth, eggs. Toss well.
+6. Transfer to dish. Cover with foil.
+7. Bake 30 minutes covered. Uncover, bake 20 more minutes until golden.
+
+## Notes
+
+- Dried bread absorbs more liquid.
+- Fresh herbs make a huge difference.
+
+Source: Serious Eats (Rigorously tested)
+Canonical: https://rcpbx.com/recipes/stuffing/
+
+---
+
+# Sugar Cookies
+
+Crisp edges, soft center, perfect for decorating
+
+Makes: 24-36
+
+## Ingredients
+
+- 1 cup butter softened
+- 1 cup sugar
+- 1 egg
+- 2 tsp vanilla
+- ½ tsp almond extract (optional)
+- 3 cups flour
+- 1½ tsp baking powder
+- ½ tsp salt
+- Royal icing for decorating
+
+## Steps
+
+1. Beat butter and sugar until fluffy, 3 minutes.
+2. Add egg and extracts.
+3. Whisk flour, baking powder, salt. Add gradually.
+4. Divide dough, flatten, wrap, chill 2 hours.
+5. Roll to ¼-inch thick. Cut shapes.
+6. Place on parchment sheets. Chill 15 minutes.
+7. Bake at 350°F for 8-10 minutes until edges just start to color.
+8. Cool completely before decorating.
+
+## Notes
+
+- Chilling prevents spreading.
+- Don't overbake - they firm as they cool.
+- Almond extract is the secret.
+
+Source: King Arthur Baking (King Arthur tested)
+Canonical: https://rcpbx.com/recipes/sugar-cookies/
+
+---
+
+# Swedish Meatballs
+
+Tender meatballs in creamy gravy. Better than IKEA.
+
+Prep: 25 min · Cook: 25 min · Serves: 6
+
+## Ingredients
+
+- 1 lb ground beef
+- ½ lb ground pork
+- 1 egg
+- ¼ cup breadcrumbs
+- ¼ cup milk
+- 1 tsp salt
+- ¼ tsp allspice
+- ¼ tsp nutmeg
+- 3 tbsp butter
+- 3 tbsp flour
+- 2 cups beef broth
+- 1 cup heavy cream
+- 1 tbsp Worcestershire sauce
+
+## Steps
+
+1. Soak breadcrumbs in milk for 5 minutes.
+2. Mix beef, pork, egg, soaked breadcrumbs, salt, allspice, and nutmeg. Don't overmix.
+3. Roll into 1-inch balls. You should get about 30.
+4. Brown meatballs in batches in butter over medium heat. Set aside.
+5. In same pan, whisk flour into drippings. Cook 1 minute.
+6. Slowly whisk in beef broth, then cream. Simmer until thickened, about 5 minutes.
+7. Add Worcestershire. Return meatballs to sauce.
+8. Simmer 10 minutes until meatballs are cooked through.
+9. Serve over egg noodles or mashed potatoes.
+
+## Notes
+
+- Allspice is key: It's the signature Swedish flavor.
+- Don't skip the pork: It keeps meatballs tender.
+- Make ahead: Meatballs freeze well in sauce.
+
+Source: Adapted from Serious Eats
+Canonical: https://rcpbx.com/recipes/swedish-meatballs/
+
+---
+
+# Sweet Potato Casserole
+
+Is it a side dish or dessert? Yes. The Thanksgiving essential.
+
+Prep: 20 min · Cook: 45 min · Serves: 10
+
+## Ingredients
+
+**For the filling:**
+- 3 lbs sweet potatoes (about 4 large)
+- 1/2 cup butter, melted
+- 1/2 cup brown sugar
+- 2 large eggs
+- 1 tsp vanilla extract
+- 1/2 cup milk
+- 1/2 tsp cinnamon
+- 1/4 tsp nutmeg
+- 1/2 tsp salt
+**For the topping:**
+- 1 cup pecans, chopped
+- 1/2 cup brown sugar
+- 1/3 cup flour
+- 3 Tbsp butter, cold and cubed
+
+## Steps
+
+1. Preheat oven to 375°F. Grease a 9x13 inch baking dish.
+2. Bake or boil sweet potatoes until tender, about 45-60 minutes for baking or 20-25 minutes for boiling. Peel and mash.
+3. Mix mashed sweet potatoes with melted butter, brown sugar, eggs, vanilla, milk, cinnamon, nutmeg, and salt until smooth.
+4. Spread filling in prepared baking dish.
+5. Make topping: Mix pecans, brown sugar, and flour. Cut in cold butter until crumbly.
+6. Sprinkle topping evenly over sweet potato filling.
+7. Bake 30 minutes until topping is golden and filling is set.
+
+## Notes
+
+- Sweet potatoes vs yams: Use orange-fleshed sweet potatoes. They're often mislabeled as yams in stores.
+- Canned shortcut: Substitute two 29 oz cans of sweet potato purée for fresh.
+- Marshmallow version: Skip the streusel topping. Top with mini marshmallows and broil 1-2 minutes until golden.
+- Make ahead: Prepare filling a day ahead and refrigerate. Add topping just before baking.
+- Smaller batch: Halve the recipe for a smaller gathering—use an 8x8 pan.
+
+Source: Adapted from Once Upon a Chef
+Canonical: https://rcpbx.com/recipes/sweet-potato-casserole/
+
+---
+
+# Teriyaki Chicken
+
+Homemade teriyaki sauce beats bottled every time. Sweet, salty, and glossy.
+
+Prep: 10 min · Cook: 20 min · Serves: 4
+
+## Ingredients
+
+- 2 lbs boneless skinless chicken thighs
+- 1 Tbsp vegetable oil
+- 1/2 cup soy sauce
+- 1/4 cup mirin (or 3 Tbsp rice vinegar + 1 Tbsp sugar)
+- 1/4 cup sake (or dry sherry)
+- 3 Tbsp brown sugar
+- 2 cloves garlic, minced
+- 1 tsp fresh ginger, grated
+- 1 Tbsp cornstarch + 2 Tbsp water
+- Sesame seeds and green onions for garnish
+
+## Steps
+
+1. Whisk together soy sauce, mirin, sake, brown sugar, garlic, and ginger in a bowl. Set aside.
+2. Heat oil in a large skillet over medium-high heat. Add chicken thighs and cook 4-5 minutes per side until golden and cooked through (165°F). Remove to a plate.
+3. Pour teriyaki sauce into the skillet. Bring to a simmer, scraping up any browned bits.
+4. Mix cornstarch with water. Stir into the sauce and cook 1-2 minutes until thickened.
+5. Return chicken to the skillet. Coat in sauce and cook 1-2 minutes, flipping to glaze both sides.
+6. Slice chicken and serve over rice. Drizzle with extra sauce, sesame seeds, and green onions.
+
+## Notes
+
+- Real teriyaki: The word means 'glossy grilled.' The sauce should be sticky and shiny.
+- Mirin: This sweet rice wine is key. Find it in the Asian aisle. Don't skip it.
+- No sake: Dry sherry or white wine work. Or use more mirin.
+- Grilled version: Grill chicken and brush with sauce during the last few minutes.
+- Chicken breast: Works but thighs are juicier and more forgiving.
+
+Source: Adapted from Just One Cookbook
+Canonical: https://rcpbx.com/recipes/teriyaki-chicken/
+
+---
+
+# Tomato Soup
+
+Velvety smooth, deeply tomatoey. Grilled cheese's best friend.
+
+Prep: 10 min · Cook: 30 min · Serves: 6
+
+## Ingredients
+
+- 2 tbsp butter
+- 1 onion, diced
+- 3 cloves garlic, minced
+- 2 cans 28oz whole peeled tomatoes
+- 2 cups chicken or vegetable broth
+- 1 tsp sugar
+- ½ cup heavy cream
+- Salt and pepper to taste
+- Fresh basil for garnish
+
+## Steps
+
+1. Melt butter in large pot over medium heat.
+2. Sauté onion until soft, about 5 minutes. Add garlic, cook 1 minute.
+3. Add tomatoes with juices, broth, and sugar. Bring to simmer.
+4. Cook 20 minutes, stirring occasionally.
+5. Blend until smooth with immersion blender (or in batches in regular blender).
+6. Stir in cream. Season with salt and pepper.
+7. Serve hot, garnished with basil.
+
+## Notes
+
+- San Marzano tomatoes: Worth the splurge for best flavor.
+- Don't boil after adding cream: It can curdle.
+- Make it chunky: Blend only half for more texture.
+
+Source: Adapted from America's Test Kitchen
+Canonical: https://rcpbx.com/recipes/tomato-soup/
+
+---
+
+# Tuna Noodle Casserole
+
+Creamy, comforting, budget-friendly classic.
+
+Prep: 15 min · Cook: 30 min · Serves: 6
+
+## Ingredients
+
+- 12 oz egg noodles
+- 4 tbsp butter
+- 1 onion, diced
+- 2 stalks celery, diced
+- ¼ cup flour
+- 2 cups milk
+- 1 cup chicken broth
+- 2 cans 5oz tuna, drained
+- 1 cup frozen peas
+- 1 cup shredded cheddar
+- ½ cup breadcrumbs
+- Salt and pepper to taste
+
+## Steps
+
+1. Preheat oven to 375°F. Cook noodles according to package, drain.
+2. Melt butter in large oven-safe skillet. Sauté onion and celery until soft.
+3. Whisk in flour, cook 1 minute.
+4. Gradually whisk in milk and broth. Simmer until thickened.
+5. Remove from heat. Stir in tuna, peas, half the cheese, noodles. Season.
+6. Top with remaining cheese and breadcrumbs.
+7. Bake 20-25 minutes until bubbly and golden.
+
+## Notes
+
+- Upgrade the tuna: Oil-packed has better flavor than water-packed.
+- Add mushrooms: Sauté with the onion for extra depth.
+- Crispy top: Broil last 2 minutes for extra crunch.
+
+Source: Adapted from AllRecipes
+Canonical: https://rcpbx.com/recipes/tuna-noodle-casserole/
+
+---
+
+# Tuna Salad
+
+Classic lunch, perfectly balanced. Not too dry, not too wet.
+
+Prep: 10 min · Cook: 0 min · Serves: 4
+
+## Ingredients
+
+- 2 cans 5oz tuna, drained
+- ¼ cup mayonnaise
+- 1 tbsp Dijon mustard
+- 2 stalks celery, finely diced
+- 2 tbsp red onion, minced
+- 1 tbsp lemon juice
+- Salt and pepper to taste
+- Optional: dill, capers, relish
+
+## Steps
+
+1. Drain tuna well and flake into a bowl.
+2. Add mayo, mustard, celery, onion, and lemon juice.
+3. Mix gently—don't mash the tuna to paste.
+4. Season with salt and pepper.
+5. Serve on bread, crackers, or over greens.
+
+## Notes
+
+- Good tuna matters: Try olive oil-packed for richer flavor.
+- Drain well: Wet tuna = watery salad.
+- Variations: Add chopped pickle, fresh dill, or a pinch of curry powder.
+
+Source: Adapted from Serious Eats
+Canonical: https://rcpbx.com/recipes/tuna-salad/
+
+---
+
+# Basic Vinaigrette
+
+Master this ratio and never buy bottled dressing again.
+
+Prep: 5 min · Cook: 0 min · Serves: 8
+
+## Ingredients
+
+- 3 tbsp red wine vinegar
+- 1 tsp Dijon mustard
+- 1 clove garlic, minced
+- ½ cup extra virgin olive oil
+- Salt and pepper to taste
+- Optional: honey, shallot, herbs
+
+## Steps
+
+1. Whisk vinegar, mustard, garlic, salt, and pepper in a bowl.
+2. Slowly drizzle in olive oil while whisking constantly.
+3. Taste and adjust seasoning.
+4. Use immediately or store refrigerated up to 1 week.
+
+## Notes
+
+- The ratio: 3 parts oil to 1 part acid. Adjust to taste.
+- Mustard is the emulsifier: It helps oil and vinegar stay mixed.
+- Variations: Swap vinegar for lemon juice. Add honey for sweetness. Use shallot instead of garlic.
+
+Source: Adapted from Serious Eats
+Canonical: https://rcpbx.com/recipes/vinaigrette/
+
+---
+
+# Crispy Waffles
+
+Crispy outside, fluffy inside. The cornstarch is the secret.
+
+Prep: 10 min · Cook: 20 min · Serves: 6
+
+## Ingredients
+
+- 2 cups all-purpose flour
+- ¼ cup cornstarch
+- 1 tbsp baking powder
+- ½ tsp salt
+- 2 tbsp sugar
+- 2 eggs, separated
+- 2 cups milk
+- ½ cup vegetable oil
+- 1 tsp vanilla
+
+## Steps
+
+1. Preheat waffle iron.
+2. Whisk flour, cornstarch, baking powder, salt, and sugar.
+3. In another bowl, whisk egg yolks, milk, oil, and vanilla.
+4. Beat egg whites to stiff peaks.
+5. Pour wet into dry, stir until just combined.
+6. Fold in egg whites gently—lumps are okay.
+7. Cook according to your waffle iron instructions.
+8. Serve immediately for maximum crispness.
+
+## Notes
+
+- Cornstarch = crispy: It's the secret to that crunch.
+- Whipped whites = fluffy: Don't skip this step.
+- Don't stack: Keep waffles on a wire rack in warm oven to stay crispy.
+
+Source: Adapted from King Arthur Baking
+Canonical: https://rcpbx.com/recipes/waffles/
+
+---
+
 # Watermelon Feta Salad
 
 Cold, salty, sweet. July in a bowl.
@@ -870,6 +6290,48 @@ _Tested 2026-07. Draining the melon and soaking the onion turn this from soggy-a
 
 Source: rcpbx original
 Canonical: https://rcpbx.com/recipes/watermelon-feta-salad/
+
+---
+
+# White Chicken Chili
+
+Creamy, warming, and lighter than red chili.
+
+Prep: 15 min · Cook: 30 min · Serves: 8
+
+## Ingredients
+
+- 1 lb chicken breast
+- 2 tbsp olive oil
+- 1 onion, diced
+- 4 cloves garlic, minced
+- 2 cans 15oz white beans, drained
+- 4 cups chicken broth
+- 2 cans 4oz green chiles
+- 1 tsp cumin
+- ½ tsp oregano
+- ¼ tsp cayenne
+- 4 oz cream cheese
+- Sour cream, cilantro, lime for serving
+
+## Steps
+
+1. Season chicken with salt and pepper. Sear in oil until cooked through. Remove and shred.
+2. Sauté onion until soft. Add garlic, cook 1 minute.
+3. Add beans, broth, chiles, cumin, oregano, cayenne. Bring to simmer.
+4. Cook 15 minutes. Mash some beans against the pot to thicken.
+5. Stir in cream cheese until melted. Add shredded chicken.
+6. Simmer 5 more minutes.
+7. Serve topped with sour cream, cilantro, and lime.
+
+## Notes
+
+- Rotisserie chicken: Great shortcut—use 3 cups shredded.
+- More heat: Add diced jalapeño with the onion.
+- Even better next day: Flavors meld overnight.
+
+Source: Adapted from AllRecipes
+Canonical: https://rcpbx.com/recipes/white-chicken-chili/
 
 ---
 
@@ -919,5 +6381,50 @@ _Tested 2026-07. Two-second dunks and an overnight chill are the whole game - lo
 
 Source: TikTok viral, spring-summer 2026
 Canonical: https://rcpbx.com/recipes/yogurt-tiramisu/
+
+---
+
+# Zucchini Bread
+
+Moist, lightly spiced, and the best way to use summer's zucchini overflow.
+
+Prep: 15 min · Cook: 55 min · Makes: 1 loaf (10 slices)
+
+## Ingredients
+
+- 2 cups shredded zucchini (about 2 medium)
+- 3/4 cup sugar
+- 1/3 cup vegetable oil
+- 2 large eggs
+- 1 tsp vanilla extract
+- 1 1/2 cups all-purpose flour
+- 1 tsp baking soda
+- 1/2 tsp baking powder
+- 1/2 tsp salt
+- 1 1/2 tsp cinnamon
+- 1/4 tsp nutmeg
+- 1/2 cup walnuts, chopped (optional)
+- 1/2 cup chocolate chips (optional)
+
+## Steps
+
+1. Preheat oven to 350°F. Grease a 9x5 inch loaf pan.
+2. Shred zucchini and squeeze out excess moisture with a clean kitchen towel. You should have about 1 1/2 cups after squeezing.
+3. In a large bowl, whisk sugar, oil, eggs, and vanilla until combined.
+4. In another bowl, whisk flour, baking soda, baking powder, salt, cinnamon, and nutmeg.
+5. Add dry ingredients to wet ingredients and stir until just combined. Fold in zucchini and walnuts or chocolate chips if using.
+6. Pour batter into prepared pan. Bake 50-60 minutes until a toothpick inserted in center comes out clean.
+7. Cool in pan 10 minutes, then turn out onto a wire rack to cool completely.
+
+## Notes
+
+- Squeeze the zucchini: This is the most important step. Excess moisture = soggy bread.
+- Don't overmix: Stir until just combined. Overmixing makes the bread tough.
+- Storage: Wrap tightly and store at room temperature 3-4 days, or freeze up to 3 months.
+- Double it: This recipe doubles perfectly for two loaves.
+- Muffins: Pour into lined muffin tins and bake 20-25 minutes.
+
+Source: Adapted from Once Upon a Chef
+Canonical: https://rcpbx.com/recipes/zucchini-bread/
 
 ---

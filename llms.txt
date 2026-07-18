@@ -11,29 +11,31 @@
 
 ## Recipes by category
 
-### Baking & Desserts
+### Baking
 - [Apple Pie](https://rcpbx.com/recipes/apple-pie/): Flaky crust, spiced fruit filling
 - [Banana Bread](https://rcpbx.com/recipes/banana-bread/): Moist, tender, loaded with banana flavor. Use those overripe bananas.
-- [Black Sesame Cookies](https://rcpbx.com/recipes/black-sesame-cookies/): Chewy sugar cookies with the flavor of the year.
 - [Blueberry Muffins](https://rcpbx.com/recipes/blueberry-muffins/): Tender, bursting with berries
 - [Carrot Cake](https://rcpbx.com/recipes/carrot-cake/): Moist, spiced, cream cheese frosted
-- [Chickpea Cookie Dough](https://rcpbx.com/recipes/chickpea-cookie-dough/): Edible cookie dough with 6g of fiber hiding in it.
 - [Chocolate Cake](https://rcpbx.com/recipes/chocolate-cake/): Rich, moist, deeply chocolatey
 - [Chocolate Chip Cookies](https://rcpbx.com/recipes/chocolate-chip-cookies/): Brown butter, toffee notes, crispy edges, chewy center.
-- [Dubai Chocolate Bar](https://rcpbx.com/recipes/dubai-chocolate-bar/): The viral pistachio-kunafa chocolate, made with the right filling.
-- [Frozen Yogurt Clusters](https://rcpbx.com/recipes/frozen-yogurt-clusters/): Chocolate-shelled frozen yogurt bites. The freezer snack of the summer.
 - [Fudgy Brownies](https://rcpbx.com/recipes/brownies/): Shiny crackly top, fudgy center, chewy edges.
-- [Lemon Bars](https://rcpbx.com/recipes/lemon-bars/): Buttery shortbread crust, tangy lemon filling, powdered sugar snow. Perfect.
 - [New York Cheesecake](https://rcpbx.com/recipes/cheesecake/): Dense, creamy, classic
 - [Peach Cobbler](https://rcpbx.com/recipes/peach-cobbler/): Juicy fruit, biscuit topping
-- [Peanut Butter Cookies](https://rcpbx.com/recipes/peanut-butter-cookies/): Three ingredients. No flour. Impossibly good.
 - [Pie Crust](https://rcpbx.com/recipes/pie-crust/): Flaky, buttery, foolproof
 - [Pound Cake](https://rcpbx.com/recipes/pound-cake/): Dense, buttery, versatile
-- [Protein Ice Cream](https://rcpbx.com/recipes/protein-ice-cream/): Creami-style pint with protein math that actually checks out.
 - [Pumpkin Pie](https://rcpbx.com/recipes/pumpkin-pie/): Spiced, custardy, Thanksgiving essential
+- [Sugar Cookies](https://rcpbx.com/recipes/sugar-cookies/): Crisp edges, soft center, perfect for decorating
+
+### Baking & Desserts
+- [Black Sesame Cookies](https://rcpbx.com/recipes/black-sesame-cookies/): Chewy sugar cookies with the flavor of the year.
+- [Chickpea Cookie Dough](https://rcpbx.com/recipes/chickpea-cookie-dough/): Edible cookie dough with 6g of fiber hiding in it.
+- [Dubai Chocolate Bar](https://rcpbx.com/recipes/dubai-chocolate-bar/): The viral pistachio-kunafa chocolate, made with the right filling.
+- [Frozen Yogurt Clusters](https://rcpbx.com/recipes/frozen-yogurt-clusters/): Chocolate-shelled frozen yogurt bites. The freezer snack of the summer.
+- [Lemon Bars](https://rcpbx.com/recipes/lemon-bars/): Buttery shortbread crust, tangy lemon filling, powdered sugar snow. Perfect.
+- [Peanut Butter Cookies](https://rcpbx.com/recipes/peanut-butter-cookies/): Three ingredients. No flour. Impossibly good.
+- [Protein Ice Cream](https://rcpbx.com/recipes/protein-ice-cream/): Creami-style pint with protein math that actually checks out.
 - [Rice Krispie Treats](https://rcpbx.com/recipes/rice-krispie-treats/): Three ingredients. Ten minutes. Pure nostalgic bliss.
 - [Snickerdoodles](https://rcpbx.com/recipes/snickerdoodles/): Soft, chewy, and rolled in cinnamon sugar. The cookie that hugs you back.
-- [Sugar Cookies](https://rcpbx.com/recipes/sugar-cookies/): Crisp edges, soft center, perfect for decorating
 - [Yogurt Tiramisu](https://rcpbx.com/recipes/yogurt-tiramisu/): The viral Biscoff-yogurt tiramisu. Zero mascarpone, zero regret.
 - [Zucchini Bread](https://rcpbx.com/recipes/zucchini-bread/): Moist, lightly spiced, and the best way to use summer's zucchini overflow.
 
