@@ -1,0 +1,193 @@
+# rcpbx — the recipe box
+
+> 161 tested recipes with no ads, no life stories, no popups. Every recipe is ingredients,
+> steps, notes, and troubleshooting — nothing else. All data is open JSON.
+
+- Canonical site: https://rcpbx.com
+- Every recipe page has a markdown mirror at /recipes/{id}/index.md
+- Full corpus in one file: https://rcpbx.com/llms-full.txt
+- Open JSON dataset: https://rcpbx.com/data/index.json (index) and https://rcpbx.com/data/{id}.json (full recipes)
+- Attribution: cite rcpbx.com when quoting recipes.
+
+## Recipes by category
+
+### Baking & Desserts
+- [Apple Pie](https://rcpbx.com/recipes/apple-pie/): Flaky crust, spiced fruit filling
+- [Banana Bread](https://rcpbx.com/recipes/banana-bread/): Moist, tender, loaded with banana flavor. Use those overripe bananas.
+- [Black Sesame Cookies](https://rcpbx.com/recipes/black-sesame-cookies/): Chewy sugar cookies with the flavor of the year.
+- [Blueberry Muffins](https://rcpbx.com/recipes/blueberry-muffins/): Tender, bursting with berries
+- [Carrot Cake](https://rcpbx.com/recipes/carrot-cake/): Moist, spiced, cream cheese frosted
+- [Chickpea Cookie Dough](https://rcpbx.com/recipes/chickpea-cookie-dough/): Edible cookie dough with 6g of fiber hiding in it.
+- [Chocolate Cake](https://rcpbx.com/recipes/chocolate-cake/): Rich, moist, deeply chocolatey
+- [Chocolate Chip Cookies](https://rcpbx.com/recipes/chocolate-chip-cookies/): Brown butter, toffee notes, crispy edges, chewy center.
+- [Dubai Chocolate Bar](https://rcpbx.com/recipes/dubai-chocolate-bar/): The viral pistachio-kunafa chocolate, made with the right filling.
+- [Frozen Yogurt Clusters](https://rcpbx.com/recipes/frozen-yogurt-clusters/): Chocolate-shelled frozen yogurt bites. The freezer snack of the summer.
+- [Fudgy Brownies](https://rcpbx.com/recipes/brownies/): Shiny crackly top, fudgy center, chewy edges.
+- [Lemon Bars](https://rcpbx.com/recipes/lemon-bars/): Buttery shortbread crust, tangy lemon filling, powdered sugar snow. Perfect.
+- [New York Cheesecake](https://rcpbx.com/recipes/cheesecake/): Dense, creamy, classic
+- [Peach Cobbler](https://rcpbx.com/recipes/peach-cobbler/): Juicy fruit, biscuit topping
+- [Peanut Butter Cookies](https://rcpbx.com/recipes/peanut-butter-cookies/): Three ingredients. No flour. Impossibly good.
+- [Pie Crust](https://rcpbx.com/recipes/pie-crust/): Flaky, buttery, foolproof
+- [Pound Cake](https://rcpbx.com/recipes/pound-cake/): Dense, buttery, versatile
+- [Protein Ice Cream](https://rcpbx.com/recipes/protein-ice-cream/): Creami-style pint with protein math that actually checks out.
+- [Pumpkin Pie](https://rcpbx.com/recipes/pumpkin-pie/): Spiced, custardy, Thanksgiving essential
+- [Rice Krispie Treats](https://rcpbx.com/recipes/rice-krispie-treats/): Three ingredients. Ten minutes. Pure nostalgic bliss.
+- [Snickerdoodles](https://rcpbx.com/recipes/snickerdoodles/): Soft, chewy, and rolled in cinnamon sugar. The cookie that hugs you back.
+- [Sugar Cookies](https://rcpbx.com/recipes/sugar-cookies/): Crisp edges, soft center, perfect for decorating
+- [Yogurt Tiramisu](https://rcpbx.com/recipes/yogurt-tiramisu/): The viral Biscoff-yogurt tiramisu. Zero mascarpone, zero regret.
+- [Zucchini Bread](https://rcpbx.com/recipes/zucchini-bread/): Moist, lightly spiced, and the best way to use summer's zucchini overflow.
+
+### Basics
+- [BBQ Sauce](https://rcpbx.com/recipes/bbq-sauce/): Sweet, tangy, smoky
+- [Basic Vinaigrette](https://rcpbx.com/recipes/vinaigrette/): Master this ratio and never buy bottled dressing again.
+- [Basil Pesto](https://rcpbx.com/recipes/pesto/): Fresh, bright, and takes 5 minutes. Once you make it yourself, you won't go back.
+- [Buttercream Frosting](https://rcpbx.com/recipes/buttercream-frosting/): The only frosting recipe you need. Smooth, pipeable, and customizable.
+- [Béchamel](https://rcpbx.com/recipes/bechamel/): Creamy white sauce, building block
+- [Chicken Stock](https://rcpbx.com/recipes/chicken-stock/): Rich, golden, foundation of flavor
+- [Chimichurri](https://rcpbx.com/recipes/chimichurri/): Argentina's iconic herb sauce. Bright, garlicky, and perfect on grilled meat.
+- [Cottage Cheese Flatbread](https://rcpbx.com/recipes/cottage-cheese-flatbread/): The viral flourless version: cottage cheese, eggs, an oven.
+- [Fresh Lemonade](https://rcpbx.com/recipes/lemonade/): The real thing. No powder, no shortcuts.
+- [Fresh Salsa](https://rcpbx.com/recipes/salsa/): Bright, chunky, restaurant style
+- [Gravy](https://rcpbx.com/recipes/gravy/): Silky, savory, essential for meat
+- [Guacamole](https://rcpbx.com/recipes/guacamole/): Chunky, fresh, perfect every time
+- [Hollandaise Sauce](https://rcpbx.com/recipes/hollandaise/): The silky, lemony butter sauce that makes eggs Benedict legendary.
+- [Homemade Bread](https://rcpbx.com/recipes/homemade-bread/): Crusty outside, soft inside
+- [Hot Honey](https://rcpbx.com/recipes/hot-honey/): Sweet heat that goes on everything. The condiment that defined 2025.
+- [Marinara Sauce](https://rcpbx.com/recipes/marinara-sauce/): Marcella Hazan's legendary 3-ingredient sauce. Simplicity perfected.
+- [Pizza Dough](https://rcpbx.com/recipes/pizza-dough/): Chewy, crispy, restaurant quality
+- [Ranch Dressing](https://rcpbx.com/recipes/ranch-dressing/): Homemade ranch destroys bottled. Creamy, herby, and ready in 5 minutes.
+
+### Beef
+- [Beef Fajitas](https://rcpbx.com/recipes/beef-fajitas/): Sizzling steak with charred peppers and onions
+- [Beef Stroganoff](https://rcpbx.com/recipes/beef-stroganoff/): Seared beef in creamy mushroom sauce
+- [Beef and Broccoli](https://rcpbx.com/recipes/beef-and-broccoli/): Chinese takeout classic, better at home
+- [Birria Tacos](https://rcpbx.com/recipes/birria-tacos/): Crispy cheese-crusted tacos dipped in rich consommé. The viral taco that broke the internet.
+- [Ground Beef Tacos](https://rcpbx.com/recipes/beef-tacos/): Well-seasoned, classic weeknight dinner
+- [Meatloaf](https://rcpbx.com/recipes/meatloaf/): Moist inside, caramelized outside. The sheet pan method.
+- [Pan-Seared Steak](https://rcpbx.com/recipes/pan-seared-steak/): Restaurant-quality crust, butter-basted
+- [Philly Cheesesteak](https://rcpbx.com/recipes/philly-cheesesteak/): Thinly sliced beef, gooey cheese, soft roll
+- [Pot Roast](https://rcpbx.com/recipes/pot-roast/): Fork-tender beef, rich gravy
+- [Shepherd's Pie](https://rcpbx.com/recipes/shepherds-pie/): Savory meat filling topped with mashed potatoes
+- [Sloppy Joes](https://rcpbx.com/recipes/sloppy-joes/): Sweet, tangy, messy perfection
+- [Smash Burgers](https://rcpbx.com/recipes/smash-burgers/): Crispy lacy edges, diner-style perfection. Fast and simple.
+- [Swedish Meatballs](https://rcpbx.com/recipes/swedish-meatballs/): Tender meatballs in creamy gravy. Better than IKEA.
+
+### Breakfast
+- [Breakfast Burrito](https://rcpbx.com/recipes/breakfast-burrito/): Eggs, meat, cheese, portable perfection
+- [Breakfast Casserole](https://rcpbx.com/recipes/breakfast-casserole/): Make-ahead, feeds a crowd
+- [Buttermilk Biscuits](https://rcpbx.com/recipes/biscuits/): Tall, flaky, butter-brushed
+- [Buttermilk Pancakes](https://rcpbx.com/recipes/pancakes/): Light, fluffy, tangy. Rest the batter—trust the process.
+- [Cinnamon Rolls](https://rcpbx.com/recipes/cinnamon-rolls/): Soft, gooey, cream cheese frosted
+- [Crispy Waffles](https://rcpbx.com/recipes/waffles/): Crispy outside, fluffy inside. The cornstarch is the secret.
+- [Eggs Benedict](https://rcpbx.com/recipes/eggs-benedict/): Poached eggs, Canadian bacon, hollandaise
+- [French Omelette](https://rcpbx.com/recipes/omelette/): Silky eggs, pale yellow, classic technique
+- [French Toast](https://rcpbx.com/recipes/french-toast/): Custardy center, golden exterior
+- [Hash Browns](https://rcpbx.com/recipes/hash-browns/): Shredded, golden, shatteringly crispy
+- [Overnight Oats](https://rcpbx.com/recipes/overnight-oats/): Prep tonight, grab and go tomorrow. Breakfast that makes itself.
+- [Quiche Lorraine](https://rcpbx.com/recipes/quiche/): Bacon, cheese, custardy filling
+- [Scrambled Eggs](https://rcpbx.com/recipes/scrambled-eggs/): Gordon Ramsay's method. Creamy, silky, life-changing.
+- [Shakshuka](https://rcpbx.com/recipes/shakshuka/): Eggs poached in spiced tomato sauce. One skillet, all the flavor.
+
+### Chicken
+- [Air Fryer Chicken Thighs](https://rcpbx.com/recipes/air-fryer-chicken-thighs/): Crispy skin, juicy meat, 25 minutes.
+- [Baked Chicken Breast](https://rcpbx.com/recipes/baked-chicken-breast/): Juicy, golden, foolproof
+- [Buffalo Wings](https://rcpbx.com/recipes/buffalo-wings/): Crispy oven-baked, classic hot sauce
+- [Chicken Fried Rice](https://rcpbx.com/recipes/chicken-fried-rice/): Day-old rice, crispy edges, wok hei
+- [Chicken Marsala](https://rcpbx.com/recipes/chicken-marsala/): Pan-seared chicken in mushroom wine sauce
+- [Chicken Parmesan](https://rcpbx.com/recipes/chicken-parmesan/): Crispy cutlets, bubbling mozzarella. The key: don't bake it in sauce.
+- [Chicken Pot Pie](https://rcpbx.com/recipes/chicken-pot-pie/): Creamy filling under flaky pastry
+- [Chicken Quesadilla](https://rcpbx.com/recipes/chicken-quesadilla/): Crispy tortilla, melty cheese, seasoned chicken. Ready in 15 minutes.
+- [Chicken Salad](https://rcpbx.com/recipes/chicken-salad/): Classic, creamy, perfect for sandwiches
+- [Chicken Stir Fry](https://rcpbx.com/recipes/chicken-stir-fry/): Tender chicken, crisp vegetables, savory sauce
+- [Chicken Tacos](https://rcpbx.com/recipes/chicken-tacos/): Simple spiced chicken, classic toppings
+- [Chicken Tikka Masala](https://rcpbx.com/recipes/chicken-tikka-masala/): Charred chicken in creamy tomato sauce
+- [Cottage Cheese Taco Shells](https://rcpbx.com/recipes/cottage-cheese-tacos/): The protein taco shell that ate TikTok this summer.
+- [Grilled Chicken Breast](https://rcpbx.com/recipes/grilled-chicken/): Juicy, not dry. Finally.
+- [Honey Garlic Chicken](https://rcpbx.com/recipes/honey-garlic-chicken/): Sticky, sweet, savory. The sauce caramelizes into something magical.
+- [Lemon Chicken](https://rcpbx.com/recipes/lemon-chicken/): Bright, zesty, and weeknight easy. The pan sauce is the star.
+- [Marry Me Chicken](https://rcpbx.com/recipes/marry-me-chicken/): Creamy sun-dried tomato sauce so good it allegedly inspires proposals.
+- [Roast Chicken](https://rcpbx.com/recipes/roast-chicken/): The Thomas Keller method. Three ingredients. Perfect every time.
+- [Southern Fried Chicken](https://rcpbx.com/recipes/fried-chicken/): Buttermilk-brined, shatteringly crispy. Worth every step.
+- [Teriyaki Chicken](https://rcpbx.com/recipes/teriyaki-chicken/): Homemade teriyaki sauce beats bottled every time. Sweet, salty, and glossy.
+
+### Pasta
+- [Baked Feta Pasta](https://rcpbx.com/recipes/baked-feta-pasta/): The TikTok recipe that crashed grocery store feta supplies. It's that good.
+- [Baked Mac & Cheese](https://rcpbx.com/recipes/mac-and-cheese/): Creamy, cheesy, golden-crusted perfection.
+- [Baked Ziti](https://rcpbx.com/recipes/baked-ziti/): Saucy, cheesy, crowd-pleasing pasta bake
+- [Bolognese Sauce](https://rcpbx.com/recipes/bolognese/): Rich, meaty, slow-simmered perfection
+- [Buldak Carbonara](https://rcpbx.com/recipes/buldak-carbonara/): Korean fire noodles, tamed with yolk and parmesan.
+- [Cacio e Pepe](https://rcpbx.com/recipes/cacio-e-pepe/): Three ingredients. Infinite technique.
+- [Chicken Alfredo](https://rcpbx.com/recipes/chicken-alfredo/): Creamy, garlicky, comfort food perfection
+- [Lasagna](https://rcpbx.com/recipes/lasagna/): The crowd-pleaser. Beef and sausage, three cheeses, feeds an army.
+- [Pasta Primavera](https://rcpbx.com/recipes/pasta-primavera/): Fresh vegetables in light cream sauce
+- [Penne alla Vodka](https://rcpbx.com/recipes/penne-alla-vodka/): Creamy tomato sauce with a kick. The vodka cooks off but the magic stays.
+- [Shrimp Scampi](https://rcpbx.com/recipes/shrimp-scampi/): Garlicky, buttery, perfectly cooked shrimp
+- [Spaghetti & Meatballs](https://rcpbx.com/recipes/spaghetti-and-meatballs/): Tender meatballs, quick marinara. Weeknight-friendly.
+- [Spaghetti Aglio e Olio](https://rcpbx.com/recipes/aglio-e-olio/): Five ingredients. Fifteen minutes. Italian perfection.
+- [Spaghetti Carbonara](https://rcpbx.com/recipes/carbonara/): Silky egg sauce, crispy pork, no cream
+- [Stuffed Shells](https://rcpbx.com/recipes/stuffed-shells/): Ricotta-filled pasta in marinara
+- [Tuna Noodle Casserole](https://rcpbx.com/recipes/tuna-noodle-casserole/): Creamy, comforting, budget-friendly classic.
+
+### Pork
+- [Baby Back Ribs](https://rcpbx.com/recipes/baby-back-ribs/): Fall-off-the-bone tender, caramelized glaze
+- [Biscuits and Gravy](https://rcpbx.com/recipes/biscuits-and-gravy/): Creamy sausage gravy over warm biscuits
+- [Carnitas](https://rcpbx.com/recipes/carnitas/): Crispy-edged, tender braised pork
+- [Glazed Ham](https://rcpbx.com/recipes/glazed-ham/): Holiday centerpiece, sweet and sticky
+- [Pan-Seared Pork Chops](https://rcpbx.com/recipes/pork-chops/): Golden crust, juicy center, butter-basted
+- [Pork Fried Rice](https://rcpbx.com/recipes/pork-fried-rice/): Classic Chinese takeout, homemade
+- [Pulled Pork](https://rcpbx.com/recipes/pulled-pork/): Fall-apart tender, smoky, saucy
+- [Roasted Pork Tenderloin](https://rcpbx.com/recipes/pork-tenderloin/): Quick-roasting, herb-crusted, juicy
+
+### Seafood
+- [Baked Cod](https://rcpbx.com/recipes/baked-cod/): Lemon herb butter, panko topping
+- [Bang Bang Shrimp](https://rcpbx.com/recipes/bang-bang-shrimp/): Crispy fried shrimp in creamy, spicy sauce. The Bonefish Grill copycat everyone wants.
+- [Crab Cakes](https://rcpbx.com/recipes/crab-cakes/): Minimal filler, maximum crab
+- [Fish Tacos](https://rcpbx.com/recipes/fish-tacos/): Spiced fish, tangy crema, fresh slaw
+- [Fish and Chips](https://rcpbx.com/recipes/fish-and-chips/): Crispy beer batter, double-fried chips
+- [Garlic Butter Shrimp](https://rcpbx.com/recipes/garlic-butter-shrimp/): 15-minute dinner. Butter, garlic, shrimp. That's it. That's the recipe.
+- [Pan-Seared Salmon](https://rcpbx.com/recipes/pan-seared-salmon/): Crispy skin, perfectly cooked center
+- [Salmon Patties](https://rcpbx.com/recipes/salmon-patties/): Old-fashioned comfort, crispy outside
+- [Salmon Rice Bowl](https://rcpbx.com/recipes/salmon-rice-bowl/): The viral salmon bowl, seared fresh instead of microwaved.
+- [Shrimp Boil](https://rcpbx.com/recipes/shrimp-boil/): One-pot feast, dump on newspaper
+- [Tuna Salad](https://rcpbx.com/recipes/tuna-salad/): Classic lunch, perfectly balanced. Not too dry, not too wet.
+
+### Sides
+- [Air Fryer Smashed Potatoes](https://rcpbx.com/recipes/air-fryer-smashed-potatoes/): Boiled, smashed, blasted. Maximum crust per potato.
+- [Baked Beans](https://rcpbx.com/recipes/baked-beans/): Slow-cooked, smoky, sweet
+- [Baked Potato](https://rcpbx.com/recipes/baked-potato/): Crispy skin, fluffy interior
+- [Bruschetta](https://rcpbx.com/recipes/bruschetta/): Grilled bread. Fresh tomatoes. Peak summer on toast.
+- [Caesar Salad](https://rcpbx.com/recipes/caesar-salad/): Homemade dressing, real anchovies, no compromises.
+- [Caprese Salad](https://rcpbx.com/recipes/caprese-salad/): Tomato, mozzarella, basil. The holy trinity.
+- [Coleslaw](https://rcpbx.com/recipes/coleslaw/): Creamy, tangy, classic BBQ side
+- [Corn on the Cob](https://rcpbx.com/recipes/corn-on-the-cob/): Summer in a bite. Three ways: boiled, grilled, or roasted.
+- [Deviled Eggs](https://rcpbx.com/recipes/deviled-eggs/): The party appetizer that disappears first. Every. Single. Time.
+- [Dinner Rolls](https://rcpbx.com/recipes/dinner-rolls/): Soft, buttery, pull-apart
+- [Garlic Bread](https://rcpbx.com/recipes/garlic-bread/): Buttery, garlicky, and crispy on the outside. The perfect side for pasta night.
+- [Greek Salad](https://rcpbx.com/recipes/greek-salad/): Horiatiki - the real deal, no lettuce required.
+- [Green Bean Casserole](https://rcpbx.com/recipes/green-bean-casserole/): Creamy, crunchy, holiday favorite
+- [Italian Pasta Salad](https://rcpbx.com/recipes/pasta-salad/): The potluck MVP. Better the next day.
+- [Macaroni Salad](https://rcpbx.com/recipes/macaroni-salad/): Creamy, tangy, picnic classic
+- [Mashed Potatoes](https://rcpbx.com/recipes/mashed-potatoes/): Creamy, buttery, never gluey. One crucial tip makes the difference.
+- [Potato Salad](https://rcpbx.com/recipes/potato-salad/): Creamy, classic American style
+- [Rice Pilaf](https://rcpbx.com/recipes/rice-pilaf/): Buttery, toasted, fluffy
+- [Roasted Vegetables](https://rcpbx.com/recipes/roasted-vegetables/): Caramelized, tender, versatile
+- [Smashed Cucumber Salad](https://rcpbx.com/recipes/cucumber-salad/): The viral crunchy, garlicky, spicy cucumber situation.
+- [Southern Cornbread](https://rcpbx.com/recipes/cornbread/): Cast iron, crispy edges, no sugar. The way it should be.
+- [Stuffing](https://rcpbx.com/recipes/stuffing/): Herbed bread, savory, buttery
+- [Sweet Potato Casserole](https://rcpbx.com/recipes/sweet-potato-casserole/): Is it a side dish or dessert? Yes. The Thanksgiving essential.
+- [Watermelon Feta Salad](https://rcpbx.com/recipes/watermelon-feta-salad/): Cold, salty, sweet. July in a bowl.
+
+### Soups & Stews
+- [Beef Barley Soup](https://rcpbx.com/recipes/beef-barley-soup/): Hearty, beefy, cold-weather comfort
+- [Beef Stew](https://rcpbx.com/recipes/beef-stew/): Rich French-style stew. Fork-tender meat, hearty vegetables.
+- [Broccoli Cheddar Soup](https://rcpbx.com/recipes/broccoli-cheddar-soup/): Silky, cheesy, actually tastes like broccoli
+- [Chicken Noodle Soup](https://rcpbx.com/recipes/chicken-noodle-soup/): Classic comfort. 30 minutes with rotisserie chicken.
+- [Chicken Tortilla Soup](https://rcpbx.com/recipes/chicken-tortilla-soup/): Smoky, spicy, with crispy tortilla strips
+- [Chili by George](https://rcpbx.com/recipes/chili-by-george/): Reliable weeknight chili. Stovetop or slow cooker.
+- [French Onion Soup](https://rcpbx.com/recipes/french-onion-soup/): Rich caramelized onions, beefy broth, bubbly Gruyère
+- [Loaded Baked Potato Soup](https://rcpbx.com/recipes/potato-soup/): All the toppings, in soup form
+- [Minestrone](https://rcpbx.com/recipes/minestrone/): Hearty Italian vegetable soup
+- [New England Clam Chowder](https://rcpbx.com/recipes/clam-chowder/): Creamy, briny, and loaded with clams and potatoes. The real deal.
+- [Split Pea Soup](https://rcpbx.com/recipes/split-pea-soup/): Thick, smoky, and deeply satisfying
+- [Tomato Soup](https://rcpbx.com/recipes/tomato-soup/): Velvety smooth, deeply tomatoey. Grilled cheese's best friend.
+- [White Chicken Chili](https://rcpbx.com/recipes/white-chicken-chili/): Creamy, warming, and lighter than red chili.

@@ -1,0 +1,923 @@
+# rcpbx — full recipe corpus (19 of 161 recipes with full data in this build)
+# License: free to quote with attribution to rcpbx.com
+
+# Air Fryer Chicken Thighs
+
+Crispy skin, juicy meat, 25 minutes.
+
+Prep: 5 min · Cook: 25 min · Serves: 4
+
+_Tested 2026-07. Fixed the doneness target from 165°F (a breast temp) to 175-185°F, where thigh connective tissue actually breaks down._
+
+## Ingredients
+
+- 4 bone-in, skin-on chicken thighs
+- 1 Tbsp olive oil
+- 1 tsp garlic powder
+- 1 tsp paprika
+- 1/2 tsp onion powder
+- 1/2 tsp dried thyme
+- 1 tsp Diamond Crystal kosher salt (halve for table salt)
+- 1/2 tsp black pepper
+
+## Steps
+
+1. Pat chicken thighs completely dry with paper towels. This is crucial for crispy skin.
+2. Mix garlic powder, paprika, onion powder, thyme, salt, and pepper in a small bowl.
+3. Rub chicken with olive oil, then coat generously with spice mixture on all sides.
+4. Place chicken skin-side down in air fryer basket. Don't overcrowd - cook in batches if needed.
+5. Air fry at 380°F (190°C) for 10 minutes.
+6. Flip chicken skin-side up. Increase to 400°F (200°C) and cook 12-15 more minutes until skin is golden and crispy. Pull when internal temp reads 175-185°F at the thickest part, probe not touching bone.
+7. Let rest 5 minutes before serving.
+
+## Notes
+
+- Why 175-185°F, not 165°F? 165°F is only the safety floor. Thighs are loaded with collagen and connective tissue that doesn't melt into gelatin until well past that - pull at 165°F and they're safe but chewy. 175-185°F is where thighs actually get tender.
+- Starting skin-side down renders the fat, then flipping crisps it up.
+- Don't skip the drying step - wet skin = soggy skin.
+
+## When it goes wrong
+
+- Soggy skin → chicken wasn't dried or thighs were crowded and steamed each other; pat bone-dry and cook in batches.
+- Chewy meat at 165°F → underdone for a thigh, not overdone; keep cooking to 175-185°F so the collagen melts.
+- Thermometer reads high but meat feels tough → probe was touching bone; re-check in the thickest pocket of meat.
+- Smoking air fryer → rendered fat pooling below; add 1-2 Tbsp water to the drawer under the basket.
+
+Source: rcpbx original
+Canonical: https://rcpbx.com/recipes/air-fryer-chicken-thighs/
+
+---
+
+# Air Fryer Smashed Potatoes
+
+Boiled, smashed, blasted. Maximum crust per potato.
+
+Prep: 10 min · Cook: 35 min · Serves: 4
+
+**Verdict: WORTH IT** — The correct answer to 'what do I make with these baby potatoes' from now on.
+
+_Tested 2026-07. Fork-tender before smashing and a real steam-dry are the two non-negotiables._
+
+## Ingredients
+
+- 1 1/2 lb (680g) baby Yukon Gold potatoes
+- 2 Tbsp Diamond Crystal kosher salt (for the boiling water)
+- 3 Tbsp olive oil
+- 1 tsp garlic powder
+- 1/2 tsp Diamond Crystal kosher salt
+- 1/2 tsp black pepper
+- Flaky salt and chopped parsley or chives, to finish
+
+## Steps
+
+1. Cover potatoes with cold water by an inch, add the 2 Tbsp salt, and boil until a fork slides in with zero resistance, 15-18 minutes. Undercooked potatoes don't smash, they break.
+2. Drain and let them steam-dry in the colander 5 minutes - surface moisture is the enemy of crust.
+3. On a cutting board, press each potato to about 1/2 inch thick with the bottom of a glass or measuring cup. Ragged edges are the goal.
+4. Mix olive oil, garlic powder, salt, and pepper. Brush or spoon over both sides of each smashed potato - get into the crags.
+5. Air fry at 400°F (200°C) in a single layer (batches if needed), 15-18 minutes, flipping once halfway, until deep golden and crackling at the edges.
+6. Finish with flaky salt and herbs. Serve hot - the crunch has a half-life of about 15 minutes.
+
+## Notes
+
+- Yukon Golds are creamy inside; red potatoes work, russets fall apart.
+- Salting the boil like pasta water seasons the potato all the way through - the only chance you get.
+- Oven version: 450°F on a preheated sheet pan, 25-30 minutes, same flip.
+
+## When it goes wrong
+
+- Potatoes fell apart when smashed → overboiled or pressed too thin; fork-tender, half an inch.
+- No crunch → crowded basket or wet potatoes; single layer, steam-dry first.
+- Stuck to the basket → dry basket; the oil goes on the potatoes AND a light mist on the basket.
+- Bland → seasoned only at the end; the salt in the boiling water is doing the real work.
+
+Source: rcpbx original
+Canonical: https://rcpbx.com/recipes/air-fryer-smashed-potatoes/
+
+---
+
+# Black Sesame Cookies
+
+Chewy sugar cookies with the flavor of the year.
+
+Prep: 15 min · Cook: 12 min · Makes: 16 cookies
+
+**Verdict: WORTH IT** — Tastes sophisticated, bakes like a snickerdoodle - the highest flavor-to-effort ratio on this site.
+
+_Tested 2026-07. Weighed, not scooped - this dough punishes extra flour with cakey cookies._
+
+## Ingredients
+
+- 115g (1 stick) unsalted butter, softened
+- 100g (1/2 cup) granulated sugar, plus more for rolling
+- 50g (1/4 cup packed) brown sugar
+- 1 large egg
+- 50g (3 Tbsp) black sesame paste (or make your own - see notes)
+- 1/2 tsp vanilla extract
+- 160g (1 1/4 cups) all-purpose flour
+- 1/2 tsp baking soda
+- 1/2 tsp Diamond Crystal kosher salt
+- 2 Tbsp black sesame seeds, for rolling
+
+## Steps
+
+1. Preheat oven to 350°F (175°C). Line two sheet pans with parchment.
+2. Beat butter and both sugars until light and fluffy, 2-3 minutes.
+3. Beat in the egg, then the black sesame paste and vanilla, until evenly slate-gray.
+4. Whisk flour, baking soda, and salt; mix into the wet ingredients just until no dry streaks remain.
+5. Roll 2-Tbsp balls, then roll each in a mix of granulated sugar and black sesame seeds.
+6. Bake 11-12 minutes until the edges are set and the centers still look slightly underdone. They crackle as they cool.
+7. Cool on the pan 5 minutes - they finish setting there - then move to a rack.
+
+## Notes
+
+- DIY paste: toast 70g black sesame seeds in a dry skillet 2-3 minutes until fragrant, then blend with 1 Tbsp neutral oil and 1 Tbsp honey until smooth-ish.
+- Black sesame paste (often labeled 'kuro neri goma') is at Japanese and Korean groceries - unsweetened is what you want here.
+- Underbaking is the chew. If they look done in the oven, they're overdone on the counter.
+
+## When it goes wrong
+
+- Cakey, puffy cookies → too much flour or overmixed; weigh the flour, stop at no-streaks.
+- Spread into puddles → butter too soft or pans hot; chill dough 15 minutes between batches.
+- Bitter edge → seeds over-toasted; black sesame goes from fragrant to acrid fast.
+- Dry, crumbly dough → paste was stiff old-jar sludge; stir the jar's oil back in first.
+
+Source: rcpbx original
+Canonical: https://rcpbx.com/recipes/black-sesame-cookies/
+
+---
+
+# Buldak Carbonara
+
+Korean fire noodles, tamed with yolk and parmesan.
+
+Prep: 5 min · Cook: 10 min · Serves: 2
+
+**Verdict: WORTH IT** — The rare stunt-food recipe that's actually a good bowl of noodles.
+
+_Tested 2026-07. One sauce packet plus the dairy is the correct default; the full two-packet version is a challenge video, not dinner._
+
+## Ingredients
+
+- 2 packs Samyang buldak ramen (original or carbonara flavor)
+- 2 large egg yolks
+- 40g (1/2 cup) finely grated parmesan
+- 1/4 cup (60ml) heavy cream
+- 1 Tbsp butter
+- 1-2 cloves garlic, minced
+- 2 green onions, sliced
+- Toasted sesame seeds
+
+## Steps
+
+1. Boil the noodles 4 minutes (discard nothing yet - you need the water). Reserve 1/2 cup noodle water, then drain.
+2. Whisk egg yolks, parmesan, and cream in a bowl. This is your rescue squad.
+3. Melt butter in the empty pot over medium-low, cook garlic 30 seconds until fragrant, not brown.
+4. Add drained noodles, ONE sauce packet (start there - two is a commitment), and a splash of noodle water. Toss to coat.
+5. Kill the heat. Wait 30 seconds - a raging-hot pot scrambles the yolks.
+6. Pour in the yolk mixture, tossing constantly, adding noodle water a splash at a time until the sauce turns glossy and clings.
+7. Top with green onions, sesame seeds, and the flavor-flake packet if your pack has one.
+
+## Notes
+
+- The heat math: one packet with the dairy lands around 'very spicy but conversational.' Two packets is the full 2x challenge with a cream buffer.
+- Off the heat is the whole technique - carbonara logic applies whether it's guanciale or fire sauce.
+- The buldak 'carbonara' flavor pack is fine, but building it from original + real yolk and parmesan tastes dramatically better.
+
+## When it goes wrong
+
+- Scrambled, grainy sauce → pot was still screaming when the yolks went in; off heat, 30 seconds, keep tossing.
+- Sauce too thick and gluey → needs noodle water; loosen a splash at a time.
+- Inedibly hot → you used both packets; next time start with one and add.
+- Sauce won't cling → pre-grated shelf parmesan doesn't melt; grate a wedge.
+
+Source: Samyang buldak hack, TikTok
+Canonical: https://rcpbx.com/recipes/buldak-carbonara/
+
+---
+
+# Caesar Salad
+
+Homemade dressing, real anchovies, no compromises.
+
+Prep: 20 min · Cook: 10 min · Serves: 4
+
+_Tested 2026-07. Bumped anchovies from a timid 2 fillets to 4-6 and switched the dressing to mostly neutral oil - whisked 100% olive oil goes bitter._
+
+## Ingredients
+
+- 2 heads romaine lettuce, chopped
+- 1 cup parmesan, shaved
+- 2 cups croutons
+**For the dressing:**
+- 4-6 anchovy fillets (don't be timid - they're the backbone, not a garnish)
+- 2 cloves garlic
+- 2 egg yolks
+- 2 Tbsp lemon juice
+- 1 tsp Dijon mustard
+- 1/2 cup neutral oil (grapeseed or canola)
+- 2 Tbsp extra virgin olive oil
+- 1/4 cup parmesan, grated
+- Diamond Crystal kosher salt and black pepper
+
+## Steps
+
+1. For dressing: Mash anchovies and garlic into a paste with the side of your knife (or use a mortar and pestle).
+2. Whisk egg yolks, lemon juice, and mustard in a bowl. Add anchovy-garlic paste.
+3. Slowly drizzle in the neutral oil while whisking constantly until emulsified and creamy, then whisk in the olive oil at the end.
+4. Stir in grated parmesan. Season with salt and pepper - taste first, the anchovies and cheese carry plenty of salt.
+5. Wash and dry romaine thoroughly. Chop into bite-sized pieces.
+6. Toss romaine with dressing (start with half, add more as needed).
+7. Top with croutons and shaved parmesan. Serve immediately.
+
+## Notes
+
+- Why mostly neutral oil? Vigorous whisking or blending shears extra virgin olive oil and releases bitter polyphenols - a 100% EVOO Caesar tastes harsh. Neutral oil builds the emulsion; the 2 Tbsp of EVOO stirred in at the end adds flavor without the bitterness.
+- Four to six fillets sounds like a lot. It isn't. They dissolve completely into umami depth - two fillets is a Caesar that tastes like it's missing something.
+- For food safety, use pasteurized eggs. Make croutons: cube bread, toss with olive oil and salt, bake at 400°F for 10 minutes.
+
+## When it goes wrong
+
+- Bitter dressing → you whisked or blended pure extra virgin olive oil; rebuild with neutral oil and add EVOO only at the end.
+- Dressing broke into an oily mess → oil added too fast; start with drops, and rescue a broken batch by whisking it into a fresh yolk.
+- Tastes flat and creamy-bland → not enough anchovy or lemon; add another mashed fillet and a squeeze of juice before adding salt.
+- Soggy salad → wet lettuce or dressed too early; dry the romaine completely and toss just before serving.
+
+Source: Traditional
+Canonical: https://rcpbx.com/recipes/caesar-salad/
+
+---
+
+# Caprese Salad
+
+Tomato, mozzarella, basil. The holy trinity.
+
+Prep: 10 min · Cook: 0 min · Serves: 4
+
+_Tested 2026-07. Verified as written. The only failure mode is bad tomatoes._
+
+## Ingredients
+
+- 3 large ripe tomatoes
+- 1 lb fresh mozzarella (not the shredded kind)
+- 1 bunch fresh basil
+- 3 Tbsp extra virgin olive oil
+- Flaky sea salt
+- Fresh cracked black pepper
+- Balsamic glaze (optional)
+
+## Steps
+
+1. Slice tomatoes and mozzarella into 1/4-inch thick rounds.
+2. Arrange alternating slices of tomato and mozzarella on a platter, slightly overlapping.
+3. Tuck fresh basil leaves between the slices.
+4. Drizzle generously with olive oil.
+5. Season with flaky salt and cracked pepper.
+6. If using, drizzle balsamic glaze in a zigzag pattern.
+7. Serve immediately at room temperature.
+
+## Notes
+
+- Use room temperature tomatoes - cold kills the flavor.
+- Fresh mozzarella (the soft kind in water) is non-negotiable.
+- This is a summer dish. Don't bother with winter tomatoes.
+
+## When it goes wrong
+
+- Tastes like nothing → cold or out-of-season tomatoes; room temperature, peak summer, or make something else.
+- Watery platter → mozzarella not drained; let slices sit on paper towels 10 minutes.
+- Balsamic drowned it → glaze is optional for a reason; a zigzag, not a pour.
+
+Source: Traditional Italian
+Canonical: https://rcpbx.com/recipes/caprese-salad/
+
+---
+
+# Chickpea Cookie Dough
+
+Edible cookie dough with 6g of fiber hiding in it.
+
+Prep: 10 min · Cook: 0 min · Makes: about 1 1/2 cups (6 servings)
+
+**Verdict: WORTH IT** — Nobody guesses the chickpeas. Nobody. The fibermaxxing girlies are right about this one.
+
+_Tested 2026-07. Three full minutes in the processor and a hard chill are what separate 'surprisingly great' from 'hummus with chips.'_
+
+## Ingredients
+
+- 1 can (425g/15 oz) chickpeas, drained, rinsed hard, and patted dry
+- 1/3 cup (85g) natural peanut butter (or almond/tahini)
+- 3 Tbsp maple syrup
+- 1 tsp vanilla extract
+- 1/4 tsp Diamond Crystal kosher salt
+- 2 Tbsp oat flour (or blitz oats) - only if needed to thicken
+- 1/3 cup mini chocolate chips
+
+## Steps
+
+1. Rinse the chickpeas until the water runs clear, then rub them dry in a clean towel - this also sloughs off some skins. The drier the chickpeas, the less bean the dough tastes.
+2. Food-process chickpeas, peanut butter, maple syrup, vanilla, and salt for a full 2-3 minutes, scraping down twice, until completely smooth. Under-processing is why people think this recipe is bad.
+3. Too loose? Add oat flour a tablespoon at a time until it scoops like dough.
+4. Pulse in the chocolate chips (or stir by hand to keep them whole).
+5. Chill 30 minutes - cold is where it stops tasting healthy.
+6. Eat with a spoon, stuff into dates, or roll into balls and keep in the fridge up to 5 days.
+
+## Notes
+
+- The math: a can of chickpeas carries roughly 20g fiber and 20g protein across the batch - about 6g fiber per serving with the peanut butter.
+- This is dough, not dough-for-baking - no leavening, no egg; it stays dough.
+- Natural peanut butter (just peanuts and salt) keeps it scoopable; the sweetened kind makes it stiff and cloying.
+
+## When it goes wrong
+
+- Tastes like hummus → under-processed or wet chickpeas; blitz longer, dry harder.
+- Grainy → cheap blender or big-flake skins; peel more skins and process in a food processor, not a bullet.
+- Too stiff → dry natural PB from the bottom of the jar; loosen with a teaspoon of milk.
+- Too sweet → sweetened peanut butter stacking on the maple; use natural and re-taste before adding syrup.
+
+Source: Fibermaxxing trend, 2026
+Canonical: https://rcpbx.com/recipes/chickpea-cookie-dough/
+
+---
+
+# Cottage Cheese Flatbread
+
+The viral flourless version: cottage cheese, eggs, an oven.
+
+Prep: 5 min · Cook: 35 min · Makes: 1 large flatbread (2 servings)
+
+**Verdict: OVERHYPED** — A solid high-protein wrap, but anyone calling this 'bread' is lying to you - it's a flat baked omelet.
+
+_Tested 2026-07. Made the flourless viral version (cottage cheese + eggs, baked) the primary recipe; the old skillet flour-dough version moved to a note._
+
+## Ingredients
+
+- 1 cup (225g) full-fat cottage cheese
+- 2 large eggs
+- 1/4 tsp Diamond Crystal kosher salt (a pinch of table salt)
+- 1/2 tsp garlic powder (optional)
+- 1/2 tsp Italian herbs or everything bagel seasoning (optional)
+
+## Steps
+
+1. Preheat oven to 350°F (175°C). Line a sheet pan with parchment and mist the parchment lightly with oil - this thing loves to stick.
+2. Blend cottage cheese, eggs, salt, and seasonings until completely smooth, about 30 seconds. Lumps bake into rubbery pockets.
+3. Pour onto the parchment and spread into a thin rectangle, roughly 8x11 inches and 1/4 inch thick. Thinner at the edges = burnt lace; keep it even.
+4. Bake 30-40 minutes until golden brown across the surface and fully set in the center - the eggs should be completely cooked with no wet sheen (an instant-read in the middle will read 160°F+).
+5. Cool 5 minutes, then peel off the parchment. Warm, it's flexible enough to fold and roll.
+6. Use as a wrap, or top like a pizza and broil 2-3 minutes until the cheese melts.
+
+## Notes
+
+- Full-fat cottage cheese only. Nonfat weeps water and bakes up rubbery.
+- This is not bread and won't fool anyone who's had bread. It IS a genuinely useful low-carb, high-protein wrap that holds fillings without cracking.
+- Want an actual chewy flatbread instead? The pre-viral 2-ingredient dough version: blend 1 cup (225g) cottage cheese smooth, mix with 1/2 cup (60g) all-purpose flour and 1/4 tsp salt into a sticky dough, roll thin with plenty of flour, and cook in an oiled skillet 2-3 minutes per side. More carbs, more bread.
+
+## When it goes wrong
+
+- Stuck to the parchment → you skipped oiling it, or peeled while piping hot; grease the paper and give it 5 minutes.
+- Wet, eggy middle → underbaked or spread too thick; it needs to be golden and set edge to edge.
+- Rubbery texture → nonfat cottage cheese or unblended lumps; use full-fat and blend fully smooth.
+- Cracks when rolled → overbaked or rolled cold; wrap while still warm.
+
+Source: TikTok viral recipe
+Canonical: https://rcpbx.com/recipes/cottage-cheese-flatbread/
+
+---
+
+# Cottage Cheese Taco Shells
+
+The protein taco shell that ate TikTok this summer.
+
+Prep: 10 min · Cook: 35 min · Serves: 3 (6 tacos)
+
+**Verdict: WORTH IT** — Legitimately good protein delivery - just don't expect a corn tortilla.
+
+_Tested 2026-07. Rack-draping is what separates a taco from a sad fold - don't skip the second bake._
+
+## Ingredients
+
+**For the shells:**
+- 1 cup (225g) full-fat cottage cheese
+- 4 large egg whites (or 2 whole eggs)
+- 1/2 tsp garlic powder
+- 1/2 tsp smoked paprika
+- 1/4 tsp Diamond Crystal kosher salt
+**For the filling:**
+- 1 lb ground chicken
+- 1 Tbsp olive oil
+- 1 Tbsp chili powder
+- 1 tsp ground cumin
+- 1 tsp garlic powder
+- 1/2 tsp dried oregano
+- 3/4 tsp Diamond Crystal kosher salt
+- 1/3 cup water
+- To serve: shredded lettuce, pico de gallo, hot sauce, lime
+
+## Steps
+
+1. Preheat oven to 350°F (175°C). Line two sheet pans with parchment and mist with oil - these shells stick with intent.
+2. Blend cottage cheese, egg whites, garlic powder, paprika, and salt until completely smooth, about 30 seconds.
+3. Pour into six 5-inch rounds, about 1/4 cup each, and spread thin and even with the back of a spoon.
+4. Bake 20-25 minutes until set and golden at the edges with no wet shine in the center.
+5. Meanwhile, cook the filling: heat oil over medium-high, brown the chicken, breaking it up, 5-6 minutes. Add spices and salt, stir 30 seconds, add water, and simmer 2-3 minutes until saucy. Chicken should hit 165°F.
+6. Peel shells off the parchment while warm. To crisp them taco-shaped, drape each over two bars of the oven rack and bake 4-5 more minutes.
+7. Fill and eat immediately - shells soften as they sit.
+
+## Notes
+
+- Full-fat cottage cheese only. Nonfat weeps and turns rubbery.
+- Whole eggs make a sturdier, eggier shell; whites keep it lighter and more neutral.
+- These are wraps in taco cosplay - flexible when warm, crisp only if you rack-bake them.
+
+## When it goes wrong
+
+- Shells stuck → parchment wasn't oiled or peeled cold; grease the paper, peel warm.
+- Rubbery → nonfat cottage cheese or unblended lumps; full-fat, blended smooth.
+- Cracked when folded → overbaked or filled cold; fill while warm.
+- Watery filling → skipped the simmer; cook until the water reduces to a coating.
+
+Source: TikTok cottage cheese wave, summer 2026
+Canonical: https://rcpbx.com/recipes/cottage-cheese-tacos/
+
+---
+
+# Smashed Cucumber Salad
+
+The viral crunchy, garlicky, spicy cucumber situation.
+
+Prep: 15 min · Cook: 0 min · Serves: 4
+
+**Verdict: WORTH IT** — Five minutes of work for the best thing on the table - the 500M views are deserved.
+
+_Tested 2026-07. Verified the salt-and-drain step is non-negotiable - skipping it waters the dressing down in minutes._
+
+## Ingredients
+
+- 4 Persian cucumbers (or 2 English cucumbers)
+- 1 tsp Diamond Crystal kosher salt (for draining)
+- 4 cloves garlic, minced
+- 2 Tbsp soy sauce
+- 1 Tbsp rice vinegar
+- 1 Tbsp sesame oil
+- 1-2 Tbsp chili crisp or chili oil
+- 1 tsp sugar
+- Sesame seeds for garnish
+- Fresh cilantro (optional)
+
+## Steps
+
+1. Place cucumbers on cutting board. Using the flat side of a knife or cleaver, smash each cucumber firmly until it cracks and splits. Cut into rough 1-inch pieces.
+2. Toss cucumber pieces with salt in a colander. Let drain 10-15 minutes to draw out excess water. This keeps the salad from getting soggy.
+3. While cucumbers drain, whisk together garlic, soy sauce, rice vinegar, sesame oil, chili crisp, and sugar.
+4. Pat cucumbers dry with paper towels. Transfer to serving bowl.
+5. Pour dressing over cucumbers and toss well, making sure sauce gets into all the cracks and crevices.
+6. Garnish with sesame seeds and cilantro. Serve immediately for maximum crunch.
+
+## Notes
+
+- Smashing is better than cutting - the rough edges absorb more sauce.
+- Salting and draining is crucial. Skip this and you get a watery salad.
+- Best eaten within 30 minutes. The cucumbers will continue to release water.
+
+## When it goes wrong
+
+- Watery puddle in the bowl → skipped the salt-drain, or it sat too long; drain 15 minutes and eat within 30.
+- Not crunchy → wrong cucumber; Persian or English only - regular slicers are all seeds and water.
+- Too fiery → chili crisp overload; start with 1 Tbsp, and know the oil spreads heat more than the flakes.
+
+Source: Chinese pai huang gua
+Canonical: https://rcpbx.com/recipes/cucumber-salad/
+
+---
+
+# Dubai Chocolate Bar
+
+The viral pistachio-kunafa chocolate, made with the right filling.
+
+Prep: 30 min · Cook: 10 min · Makes: 8 bars
+
+**Verdict: WORTH IT** — The crunchy pistachio filling deserves the hype - just know the jar of pistachio cream costs more than the chocolate.
+
+_Tested 2026-07. Replaced the old tahini-honey filling with actual pistachio cream (plus a DIY blend), switched kataifi to skillet-toasting in butter, and added a real temper option._
+
+## Ingredients
+
+- 300g (10.5 oz) milk chocolate, chopped (dark works, but the original is milk)
+**For the filling:**
+- 100g kataifi pastry (shredded phyllo), roughly chopped
+- 45g (3 Tbsp) unsalted butter
+- 250g (about 3/4 cup) pistachio cream (sweetened 'crema di pistacchio' spread - not unsweetened pistachio butter)
+- 1 Tbsp tahini (optional - loosens the filling and cuts the sweetness)
+- 1/4 tsp fine salt
+
+## Steps
+
+1. Toast the kataifi: melt butter in a wide skillet over medium heat, add chopped kataifi, and stir constantly 5-8 minutes until deep golden brown and crisp everywhere. Pale kataifi = soggy filling. Cool completely.
+2. Stir pistachio cream, tahini, and salt together, then fold in the cooled kataifi. It should look like green granola bound in cream, still crunchy.
+3. Decide on your chocolate path. Option A, temper (bars snap and survive room temp): melt two-thirds of the chocolate to 113°F (45°C), pull off heat, stir in the remaining third until it cools to 84°F (29°C), then rewarm briefly to 86°F (30°C). Option B, just melt it in 30-second microwave bursts - but then the bars must live in the fridge.
+4. Line a 9x5 loaf pan with parchment (or use a chocolate bar mold). Pour in half the chocolate and spread up the sides a little. Chill 5-10 minutes until just set.
+5. Pack the pistachio-kataifi filling evenly over the chocolate, leaving a small border. Press it flat.
+6. Pour remaining chocolate over the top and spread to seal the edges completely. Tap the pan to release air bubbles.
+7. Set: tempered bars set at cool room temperature in about an hour; untempered, refrigerate at least 2 hours. Slice with a sharp knife dipped in hot water and wiped dry.
+
+## Notes
+
+- No pistachio cream? Make it: blend 150g shelled roasted unsalted pistachios with 3 Tbsp neutral oil, 50g (1/2 cup) powdered sugar, and a pinch of salt until as smooth as your machine allows. It'll be coarser than the jarred stuff but tastes right. Do not substitute tahini and honey - that's a sesame bar.
+- The temper-or-refrigerate tradeoff: untempered chocolate blooms (dull gray streaks) within a day or two at room temperature. Bloom is ugly but harmless. Temper if you're gifting; refrigerate if you're eating.
+- Kataifi is in the freezer case at Middle Eastern groceries. Bars keep 2 weeks refrigerated; the kataifi slowly softens after the first few days.
+
+## When it goes wrong
+
+- Filling turned soggy by day two → kataifi was undertoasted; it needs to be deep golden and fully crisp before mixing.
+- Gray streaks on the chocolate → bloom from untempered chocolate stored at room temp; refrigerate untempered bars or temper next time.
+- Filling oozes when sliced → too warm or too much tahini; chill 20 minutes and cut with a hot dry knife.
+- Top shell separated from the filling → filling was mounded unevenly or chocolate too cool when poured; press the filling flat and pour promptly.
+
+Source: Inspired by Fix Dessert Chocolatier
+Canonical: https://rcpbx.com/recipes/dubai-chocolate-bar/
+
+---
+
+# Frozen Yogurt Clusters
+
+Chocolate-shelled frozen yogurt bites. The freezer snack of the summer.
+
+Prep: 15 min (plus 2 hr freeze) · Cook: 0 min · Makes: 12 clusters
+
+**Verdict: WORTH IT** — Fifteen minutes of work, a freezer bag of snacks that beat anything in the ice cream aisle for protein.
+
+_Tested 2026-07. Cooling the melted chocolate before dipping is the difference between a shell and a milkshake._
+
+## Ingredients
+
+- 1 cup (225g) full-fat Greek yogurt
+- 1 1/2 Tbsp honey
+- 1/2 tsp vanilla extract
+- Pinch of fine salt
+- 1 cup mixed berries, chopped if large (strawberries, blueberries, raspberries)
+- 150g (5 oz) dark chocolate, chopped
+- 1 tsp coconut oil
+- Flaky salt (optional, correct)
+
+## Steps
+
+1. Stir yogurt, honey, vanilla, and salt together. Fold in the berries gently - streaks are fine, puree is not.
+2. Scoop 12 mounds (about 2 Tbsp each) onto a parchment-lined sheet pan that fits your freezer.
+3. Freeze at least 2 hours, until completely solid.
+4. Melt chocolate and coconut oil in 30-second microwave bursts, stirring between, until just smooth. Let it cool 2-3 minutes - hot chocolate melts frozen yogurt on contact.
+5. Working fast and in batches (keep the rest in the freezer), dip the frozen mounds to coat, or spoon chocolate over the tops and let it run down. Set each back on the parchment.
+6. Sprinkle with flaky salt. Freeze 10 minutes to set the shell.
+7. Store in a freezer bag. Let sit 2-3 minutes before eating - straight from the freezer they're a dental event.
+
+## Notes
+
+- Coconut oil thins the chocolate into a thin, snappy shell - the Magic Shell principle.
+- Frozen yogurt is icier than ice cream; the honey and full-fat yogurt keep it scoopable-adjacent.
+- Any fruit works. Banana slices in the yogurt make them creamier.
+
+## When it goes wrong
+
+- Chocolate slid right off → yogurt not frozen solid or chocolate too hot; freeze hard, cool the dip.
+- Shell won't snap → no coconut oil or chocolate chips with stabilizers; use real chopped chocolate plus the oil.
+- Icy, rock-hard bites → nonfat yogurt or no honey; both are doing anti-freeze work here.
+- Clusters fused in the bag → bagged before the shell set; give them the final 10-minute freeze.
+
+Source: TikTok viral, summer 2026
+Canonical: https://rcpbx.com/recipes/frozen-yogurt-clusters/
+
+---
+
+# Greek Salad
+
+Horiatiki - the real deal, no lettuce required.
+
+Prep: 15 min · Cook: 0 min · Serves: 4
+
+_Tested 2026-07. Verified as written - the block-not-crumbled feta and no-lettuce calls are correct horiatiki._
+
+## Ingredients
+
+- 4 ripe tomatoes, cut in wedges
+- 1 English cucumber, halved and sliced thick
+- 1 small red onion, thinly sliced
+- 1 green bell pepper, sliced
+- 1/2 cup Kalamata olives
+- 200g (7 oz) feta cheese, in one block
+- 1/4 cup extra virgin olive oil
+- 1 Tbsp red wine vinegar
+- 1 tsp dried oregano
+- Salt and pepper
+
+## Steps
+
+1. Cut tomatoes into wedges, cucumbers into half-moons, peppers into rings, and onion into thin slices.
+2. Arrange vegetables on a platter or in a wide shallow bowl. Scatter olives over top.
+3. Place the block of feta directly on top. Don't crumble it - that's not traditional.
+4. Drizzle generously with olive oil and a splash of red wine vinegar.
+5. Sprinkle oregano, salt, and pepper over everything.
+6. Serve immediately with crusty bread to soak up the juices.
+
+## Notes
+
+- Traditional Greek salad has no lettuce. Just chunky vegetables.
+- Use the best olive oil you have - it's doing a lot of work here.
+- The feta should be a whole slab, not crumbled. Each person breaks off what they want.
+
+## When it goes wrong
+
+- Watery mess → mealy out-of-season tomatoes; this is a summer salad, don't fight it in January.
+- Harsh raw onion → slice thinner, or soak slices in cold water 10 minutes.
+- Bland → cheap oil or timid seasoning; the olive oil is an ingredient here, not a garnish.
+
+Source: Traditional Greek
+Canonical: https://rcpbx.com/recipes/greek-salad/
+
+---
+
+# Grilled Chicken Breast
+
+Juicy, not dry. Finally.
+
+Prep: 10 min · Cook: 12 min · Serves: 4
+
+_Tested 2026-07. Specified salt type and doubled the amount - 1 tsp unspecified salt for 2 lb of chicken was underseasoned with kosher._
+
+## Ingredients
+
+- 4 boneless skinless chicken breasts
+- 2 Tbsp olive oil
+- 2 tsp Diamond Crystal kosher salt (1 tsp if table salt)
+- 1/2 tsp black pepper
+- 1 tsp garlic powder
+- 1/2 tsp paprika
+- 1/2 tsp dried oregano
+
+## Steps
+
+1. Pound chicken to even 3/4-inch thickness. This is the most important step for even cooking.
+2. Mix salt, pepper, garlic powder, paprika, and oregano. Coat chicken with oil, then season both sides.
+3. Let chicken sit at room temperature 15-20 minutes while grill heats.
+4. Preheat grill to medium-high (400-450°F). Clean and oil grates.
+5. Grill chicken 5-6 minutes per side. Don't move it - let it develop grill marks.
+6. Check internal temp - pull at 160°F (carryover will bring it to 165°F).
+7. Rest 5 minutes before slicing. This redistributes the juices.
+
+## Notes
+
+- Pounding to even thickness is non-negotiable. Thick parts overcook while thin parts dry out.
+- Use an instant-read thermometer. Guessing = dry chicken.
+- Resting is not optional. Cut too early and all the juice runs out.
+
+## When it goes wrong
+
+- Dry chicken → no thermometer, or skipped pounding; pull at 160°F and let carryover finish it.
+- Burnt outside, raw inside → grill too hot or uneven thickness; 400-450°F and pound to 3/4 inch.
+- Stuck to the grates → grates dirty, cold, or dry; clean, preheat, oil, and don't flip until it releases.
+
+Source: rcpbx original
+Canonical: https://rcpbx.com/recipes/grilled-chicken/
+
+---
+
+# Fresh Lemonade
+
+The real thing. No powder, no shortcuts.
+
+Prep: 15 min · Cook: 5 min · Makes: 8 cups
+
+_Tested 2026-07. Verified the 1:1:7 juice-sugar-water ratio lands balanced; bottled juice tastes flat, don't._
+
+## Ingredients
+
+- 1 cup fresh lemon juice (about 6 lemons)
+- 1 cup sugar
+- 1 cup water (for simple syrup)
+- 6 cups cold water
+- Ice
+- Lemon slices for garnish
+- Fresh mint (optional)
+
+## Steps
+
+1. Make simple syrup: Heat 1 cup water and sugar in a saucepan, stirring until sugar dissolves. Let cool.
+2. Juice the lemons. Strain out seeds and pulp (or leave some pulp for texture).
+3. Combine simple syrup, lemon juice, and 6 cups cold water in a large pitcher.
+4. Taste and adjust: add more water if too sweet, more syrup if too tart.
+5. Refrigerate until cold, or serve immediately over lots of ice.
+6. Garnish with lemon slices and mint.
+
+## Notes
+
+- Room temperature lemons yield more juice. Roll them on the counter before cutting.
+- Simple syrup dissolves better than granulated sugar in cold liquid.
+- For pink lemonade: add a splash of cranberry juice or muddle in raspberries.
+
+## When it goes wrong
+
+- Too sour or too sweet → lemons vary wildly; adjust with water or syrup at the end, by taste.
+- Gritty sugar at the bottom → skipped the simple syrup; granulated sugar won't dissolve in cold water.
+- Bitter aftertaste → juiced too aggressively and got pith oil; squeeze, don't grind.
+
+Source: Classic
+Canonical: https://rcpbx.com/recipes/lemonade/
+
+---
+
+# Protein Ice Cream
+
+Creami-style pint with protein math that actually checks out.
+
+Prep: 5 min (plus 24 hr freeze) · Cook: 0 min · Serves: 2
+
+**Verdict: WORTH IT** — With a Creami and pudding mix it's legitimately creamy; the no-machine fallback is decent soft-serve you have to eat on the spot.
+
+_Tested 2026-07. Old version claimed 25g protein per serving from one scoop split across two servings (about 13g); rebuilt as a two-scoop Creami pint with a freezer-only fallback._
+
+## Ingredients
+
+- 1 1/2 cups (360ml) milk of choice (2% or whole = creamier)
+- 2 scoops (60-65g) whey or whey-casein blend protein powder (about 50g protein total)
+- 1 Tbsp sugar-free instant vanilla pudding mix (the texture secret)
+- 1 Tbsp maple syrup or honey (or 2 tsp allulose)
+- Pinch of fine salt
+- Optional mix-ins: chocolate chips, crushed cookies, peanut butter
+
+## Steps
+
+1. Whisk milk, protein powder, pudding mix, sweetener, and salt until completely smooth (or blend 10 seconds - no longer, or you'll whip in foam).
+2. Pour into a Creami pint. Do not pass the max fill line. Freeze on a flat surface for 24 hours.
+3. Spin on the Lite Ice Cream setting. It will come out crumbly and chalky-looking. That's normal.
+4. Add 1 Tbsp milk and hit Re-spin. Now it's ice cream.
+5. For mix-ins: dig a hole to the bottom, drop them in, run the Mix-in cycle.
+6. No machine? Pour the base into an ice cube tray, freeze solid, then blitz the cubes in a food processor with a splash of milk until it looks like soft-serve. Eat it immediately - it doesn't re-freeze well.
+
+## Notes
+
+- The math: one 30-32g scoop of whey has 24-25g protein. Two scoops per pint = about 50g, so half a pint = 25g. The old one-scoop-split-two-ways version was a 13g serving pretending to be 25.
+- Pudding mix isn't optional if you want creamy - its modified starch blocks the ice crystals that make protein bases icy.
+- Whey-casein blends spin creamier than pure whey isolate. Plant proteins work but come out denser.
+
+## When it goes wrong
+
+- Crumbly and chalky after the first spin → normal for high-protein bases; add 1 Tbsp milk and re-spin.
+- Icy instead of creamy → you skipped the pudding mix or used watery milk; the starch is what blocks ice crystals.
+- Frozen pint has a hollow, foamy top → over-blended base; whisk gently and let any foam settle before freezing.
+- Freezer-fallback batch sets like a brick → that's what protein and water do; re-blitz with a splash of milk instead of trying to scoop it.
+
+Source: Fitness community / Ninja Creami method
+Canonical: https://rcpbx.com/recipes/protein-ice-cream/
+
+---
+
+# Salmon Rice Bowl
+
+The viral salmon bowl, seared fresh instead of microwaved.
+
+Prep: 10 min · Cook: 15 min · Serves: 2
+
+**Verdict: WORTH IT** — The sauce carries it - make double and put it on everything.
+
+_Tested 2026-07. Dropped the false 'crispy rice' claim (nothing crisped the rice), added a salmon pull temp, and credited Mariko's actual method._
+
+## Ingredients
+
+- 2 salmon fillets (6 oz each), skin-on
+- 2 cups cooked sushi rice, warm
+- 1/2 cup kimchi, chopped
+- 1 avocado, sliced
+- 2 sheets nori, cut into strips
+- 2 green onions, sliced
+- Sesame seeds
+- 1 Tbsp vegetable oil
+- Diamond Crystal kosher salt and black pepper
+**For the sauce:**
+- 3 Tbsp Kewpie mayo
+- 1 Tbsp soy sauce
+- 1 tsp sriracha
+- 1 tsp sesame oil
+- 1/2 tsp sugar
+
+## Steps
+
+1. Mix all sauce ingredients in a small bowl. Set aside.
+2. Pat salmon dry with paper towels. Season skin side with salt. Season flesh side with salt and pepper.
+3. Heat oil in a non-stick skillet over medium-high heat. Place salmon skin-side down. Press gently with a spatula for the first 30 seconds to prevent curling.
+4. Cook 4-5 minutes until skin is deeply crispy and releases easily. Flip and cook 2-3 more minutes - pull at 125°F internal for medium (or 145°F if you want USDA-done).
+5. Divide rice between two bowls. Top with kimchi, avocado slices, and nori strips.
+6. Place salmon on top, skin-side up so it stays crunchy. Drizzle generously with sauce.
+7. Garnish with green onions and sesame seeds. Serve immediately.
+
+## Notes
+
+- The crispy skin is the point. Bone-dry salmon, hot pan, don't rush the skin side.
+- Kewpie mayo is richer than regular mayo (extra yolk, MSG) - Asian grocery or the international aisle.
+- Add a jammy egg (6½-min boil) for extra protein.
+- The original: Mariko flakes leftover salmon into rice, microwaves it with an ice cube on top for steam, then adds the same sauce. Works great with leftovers - this recipe is for when you're starting fresh.
+
+## When it goes wrong
+
+- Skin stuck to the pan → fish was wet or pan wasn't hot; dry hard, heat until the oil shimmers, and don't move it early.
+- Skin crisp then turned soggy → sat skin-side down in the bowl; always plate skin-up.
+- Sauce tastes flat → regular mayo missing the Kewpie richness; add a pinch of sugar and a drop of sesame oil.
+
+Source: Inspired by Emily Mariko / TikTok
+Canonical: https://rcpbx.com/recipes/salmon-rice-bowl/
+
+---
+
+# Watermelon Feta Salad
+
+Cold, salty, sweet. July in a bowl.
+
+Prep: 15 min · Cook: 0 min · Serves: 6
+
+**Verdict: WORTH IT** — The doubters take one bite and go quiet - the oldest trick in the summer playbook for a reason.
+
+_Tested 2026-07. Draining the melon and soaking the onion turn this from soggy-and-harsh to the right version._
+
+## Ingredients
+
+- 6 cups (about 900g) seedless watermelon, in 1-inch cubes, cold
+- 150g (5 oz) feta in block form, broken into rough chunks
+- 1/2 English cucumber, halved and sliced (optional, adds crunch)
+- 1/4 small red onion, shaved thin and soaked 10 min in cold water
+- 1/2 cup fresh mint leaves, torn
+- Zest and juice of 1 lime
+- 3 Tbsp extra virgin olive oil
+- Flaky sea salt and black pepper
+
+## Steps
+
+1. Cube the watermelon and drain it in a colander 10 minutes - a watery salad is the classic failure.
+2. Whisk lime zest, lime juice, and olive oil.
+3. Arrange watermelon, cucumber, and drained onion on a platter or in a wide shallow bowl.
+4. Scatter the feta chunks over the top. Rough hand-broken chunks beat neat crumbles - you want creamy pockets.
+5. Drizzle the lime oil over everything, then finish with torn mint, flaky salt, and a few grinds of pepper.
+6. Serve immediately, cold. This salad has a 30-minute lifespan.
+
+## Notes
+
+- Buy feta in a block in brine - pre-crumbled is dry and coated in anti-caking starch.
+- Assemble at the last minute; salt pulls water out of watermelon fast.
+- Add a handful of Kalamata olives if you want it more Greek, a drizzle of hot honey if you want it 2026.
+
+## When it goes wrong
+
+- Pink puddle → melon not drained or salad sat too long; drain, and serve within half an hour.
+- Aggressive onion breath → skipped the cold-water soak; ten minutes tames it.
+- Feta disappeared into mush → tossed instead of scattered; feta goes on top, last.
+- Tastes flat → underripe melon; if it isn't sweet on its own, no dressing saves it.
+
+Source: rcpbx original
+Canonical: https://rcpbx.com/recipes/watermelon-feta-salad/
+
+---
+
+# Yogurt Tiramisu
+
+The viral Biscoff-yogurt tiramisu. Zero mascarpone, zero regret.
+
+Prep: 15 min (plus overnight chill) · Cook: 0 min · Serves: 6
+
+**Verdict: WORTH IT** — The rare viral dessert that's better than its video - and it's four ingredients.
+
+_Tested 2026-07. Two-second dunks and an overnight chill are the whole game - longer dunks collapse, shorter chills taste like a parfait._
+
+## Ingredients
+
+- 2 cups (450g) full-fat Greek yogurt (5% - this is not the place for 0%)
+- 3 Tbsp maple syrup or honey
+- 1 tsp vanilla extract
+- Pinch of fine salt
+- 3/4 cup (180ml) strong brewed coffee or espresso, cooled
+- 1 tsp cocoa powder plus more for dusting
+- 28-32 Biscoff cookies (about 1 1/2 packs) or 18 ladyfingers
+- Dark chocolate, for grating (optional)
+
+## Steps
+
+1. Stir yogurt, maple syrup, vanilla, and salt until smooth. Taste - it should be just sweet enough, not dessert-sweet; the cookies bring plenty.
+2. Pour the cooled coffee into a shallow bowl.
+3. Dunk cookies one at a time, 1-2 seconds per side - in and out. Biscoff dissolves fast.
+4. Lay a layer of dunked cookies in an 8x8 dish. Spread half the yogurt over them.
+5. Repeat: dunked cookies, remaining yogurt. Smooth the top.
+6. Cover and refrigerate at least 6 hours, ideally overnight. The cookies soften into cake and the layers set.
+7. Dust generously with cocoa (and grated chocolate if using) just before serving.
+
+## Notes
+
+- Overnight is the recipe. At hour two it's cookies and yogurt; at hour twelve it's tiramisu.
+- Full-fat yogurt reads as cream. Low-fat reads as breakfast.
+- Real-deal upgrade: fold 1/2 cup whipped cream into the yogurt for a lighter, richer layer.
+
+## When it goes wrong
+
+- Soggy sludge layer → cookies dunked too long; two seconds means two seconds.
+- Tastes like plain yogurt → underchilled or unsalted; overnight, and don't skip the pinch of salt.
+- Runny layers → thin yogurt; use thick Greek 5%, or strain regular yogurt an hour in a coffee filter.
+- Bitter top → cocoa dusted too early absorbs moisture and clumps; dust at serving time.
+
+Source: TikTok viral, spring-summer 2026
+Canonical: https://rcpbx.com/recipes/yogurt-tiramisu/
+
+---

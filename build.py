@@ -1,565 +1,614 @@
 #!/usr/bin/env python3
 """
-rcpbx Static Site Generator
-Generates SEO-optimized static HTML for every recipe.
-Run: python build.py
+rcpbx build.py — generates static recipe pages from data/*.json
+v2 (2026-07): cook mode (check-off, step focus, timers, wake lock),
+serving scaler, save-to-box, verdict/tested/troubleshooting blocks,
+real breadcrumbs, related recipes, per-recipe og card, enriched index.json,
+sitemap maintenance.
+
+Run from the site root:  python3 build.py
 """
+import json, glob, os, re, html, random
+from xml.etree import ElementTree as ET
 
-import json
-import os
-import re
-from datetime import datetime
-from pathlib import Path
+SITE = "https://rcpbx.com"
+HUBS = {
+    "chicken": ("Chicken", "/chicken-recipes/"),
+    "beef": ("Beef", "/beef-recipes/"),
+    "pork": ("Pork", "/pork-recipes/"),
+    "seafood": ("Seafood", "/seafood-recipes/"),
+    "pasta": ("Pasta", "/pasta-recipes/"),
+    "breakfast": ("Breakfast", "/breakfast-recipes/"),
+    "sides": ("Sides", "/side-dishes/"),
+    "baking-dessert": ("Baking & Desserts", "/dessert-recipes/"),
+    "soups-stews": ("Soups & Stews", "/soup-recipes/"),
+    "basics": ("Basics", "/basic-recipes/"),
+}
 
-# Config
-SITE_URL = "https://rcpbx.com"
-BUILD_DIR = Path("recipes")
-DATA_DIR = Path("data")
+def esc(s): return html.escape(str(s), quote=True)
 
-def slugify(text):
-    return re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
+# ---------- quantity + timer markup ----------
+FRACS = {"½":".5","¼":".25","¾":".75","⅓":".333","⅔":".667","⅛":".125"}
+def frac_to_float(tok):
+    tok = tok.strip()
+    for u,v in FRACS.items(): tok = tok.replace(u, v if tok==u else " "+v.lstrip("."))
+    if " " in tok and "/" in tok:
+        a,b = tok.split(None,1); n,d = b.split("/"); return float(a)+float(n)/float(d)
+    if "/" in tok:
+        n,d = tok.split("/"); return float(n)/float(d)
+    return float(tok)
 
-def load_recipes():
-    recipes = []
-    for f in sorted(DATA_DIR.glob("*.json")):
-        if f.name == "index.json":
-            continue
-        with open(f) as fp:
-            recipes.append(json.load(fp))
-    return recipes
+QTY_LEAD = re.compile(r"^([0-9]+\s+[0-9]+/[0-9]+|[0-9]+/[0-9]+|[0-9]+(?:\.[0-9]+)?)(?=[\s-])")
+QTY_RANGE = re.compile(r"^([0-9]+(?:\.[0-9]+)?)-([0-9]+(?:\.[0-9]+)?)(?=\s)")
+QTY_PAREN = re.compile(r"\(([0-9]+(?:\.[0-9]+)?)\s*(g|kg|ml|L|oz|lb)\b")
 
-def get_category_name(slug):
-    names = {
-        'soups-stews': 'Soups & Stews',
-        'pasta': 'Pasta',
-        'chicken': 'Chicken',
-        'beef': 'Beef',
-        'pork': 'Pork',
-        'seafood': 'Seafood',
-        'breakfast': 'Breakfast',
-        'sides': 'Sides',
-        'baking-dessert': 'Baking & Desserts',
-        'basics': 'Basics'
-    }
-    return names.get(slug, slug.title())
-
-def estimate_total_time(prep, cook):
-    """Convert '10 min' + '30 min' to 'PT40M' ISO 8601 duration"""
-    total_mins = 0
-    for t in [prep, cook]:
-        if not t:
-            continue
-        match = re.search(r'(\d+)\s*(min|hour|hr)', t.lower())
-        if match:
-            val = int(match.group(1))
-            if 'hour' in match.group(2) or 'hr' in match.group(2):
-                val *= 60
-            total_mins += val
-    if total_mins == 0:
-        return None
-    hours = total_mins // 60
-    mins = total_mins % 60
-    if hours and mins:
-        return f"PT{hours}H{mins}M"
-    elif hours:
-        return f"PT{hours}H"
+def mark_qty(line):
+    """Wrap scalable quantities in spans; returns escaped HTML."""
+    out = esc(line)
+    m = QTY_RANGE.match(line)
+    if m:
+        pre = esc(m.group(0))
+        rep = ('<span class="qty" data-base="%s">%s</span>-<span class="qty" data-base="%s">%s</span>'
+               % (m.group(1), esc(m.group(1)), m.group(2), esc(m.group(2))))
+        out = rep + esc(line[m.end():])
     else:
-        return f"PT{mins}M"
+        m = QTY_LEAD.match(line)
+        if m:
+            val = frac_to_float(m.group(1))
+            out = ('<span class="qty" data-base="%.4g">%s</span>' % (val, esc(m.group(1)))) + esc(line[m.end():])
+    def paren_sub(mm):
+        return '(<span class="qty" data-base="%s">%s</span>%s' % (mm.group(1), mm.group(1), mm.group(2))
+    # apply paren metric scaling on the escaped string (safe: pattern has no entities)
+    out = QTY_PAREN.sub(paren_sub, out)
+    return out
 
-def generate_recipe_schema(recipe):
-    """Generate JSON-LD Recipe schema"""
+TIMER = re.compile(r"\b([0-9]+)(?:[-–]([0-9]+))?\s*(more\s+)?min(?:ute)?s?\b")
+def mark_timers(text):
+    out, last = [], 0
+    e = esc(text)
+    for m in TIMER.finditer(e):
+        mins = m.group(2) or m.group(1)
+        out.append(e[last:m.start()])
+        out.append('<button class="t" data-min="%s" type="button" aria-label="start %s minute timer">%s</button>' % (mins, mins, m.group(0)))
+        last = m.end()
+    out.append(e[last:])
+    return "".join(out)
+
+# ---------- template ----------
+TPL = open(os.path.join(os.path.dirname(__file__), "recipe-template.html")).read() if os.path.exists(os.path.join(os.path.dirname(__file__), "recipe-template.html")) else None
+
+def build_page(r, related, total):
+    rid = r["id"]
+    title = r["title"]
+    cat = r.get("category",""); slug = r.get("categorySlug","basics")
+    hub_name, hub_url = HUBS.get(slug, (cat or "Recipes", "/"))
+    desc = r.get("description", r.get("tagline",""))
+    meta_desc = (desc[:152] + "…") if len(desc) > 155 else desc
+    card = "%s/recipes/%s/card.png" % (SITE, rid)
+    url = "%s/recipes/%s/" % (SITE, rid)
+    serves = r.get("serves") or r.get("makes") or ""
+    serves_label = "Serves" if r.get("serves") else "Makes"
+    tested = r.get("tested"); verdict = r.get("verdict")
+
+    # schema
     schema = {
-        "@context": "https://schema.org",
-        "@type": "Recipe",
-        "name": recipe['title'],
-        "description": recipe.get('description', recipe.get('tagline', '')),
-        "author": {
-            "@type": "Organization",
-            "name": "rcpbx"
-        },
-        "datePublished": "2024-01-01",
-        "prepTime": estimate_total_time(recipe.get('prep', ''), ''),
-        "cookTime": estimate_total_time('', recipe.get('cook', '')),
-        "totalTime": estimate_total_time(recipe.get('prep', ''), recipe.get('cook', '')),
-        "recipeYield": recipe.get('serves', recipe.get('makes', '4 servings')),
-        "recipeCategory": recipe.get('category', ''),
-        "recipeIngredient": recipe.get('ingredients', []),
-        "recipeInstructions": [
-            {"@type": "HowToStep", "text": step} 
-            for step in recipe.get('steps', [])
-        ],
-        "url": f"{SITE_URL}/recipes/{recipe['id']}/"
+        "@context":"https://schema.org","@type":"Recipe","name":title,
+        "description":desc,
+        "image":[card],
+        "author":{"@type":"Organization","name":"rcpbx","url":SITE},
+        "recipeYield":str(serves),
+        "recipeCategory":cat,
+        "keywords":"%s, %s, no ads recipe, tested recipe" % (title.lower(), cat.lower()),
+        "recipeIngredient":[i for i in r.get("ingredients",[]) if not i.strip().endswith(":")],
+        "recipeInstructions":[{"@type":"HowToStep","text":s} for s in r.get("steps",[])],
+        "url":url,
     }
-    # Clean None values
-    schema = {k: v for k, v in schema.items() if v is not None}
-    return json.dumps(schema, indent=2)
+    if r.get("prep"):
+        pm = re.search(r"(\d+)", r["prep"]); cm = re.search(r"(\d+)", r.get("cook","0"))
+        if pm: schema["prepTime"] = "PT%sM" % pm.group(1)
+        if cm: schema["cookTime"] = "PT%sM" % cm.group(1)
+        if pm and cm: schema["totalTime"] = "PT%sM" % (int(pm.group(1))+int(cm.group(1)))
+    if tested:
+        d = tested if len(tested) > 7 else tested + "-01"
+        schema["datePublished"] = d; schema["dateModified"] = d
+    crumbs = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Home","item":SITE},
+        {"@type":"ListItem","position":2,"name":hub_name,"item":SITE+hub_url},
+        {"@type":"ListItem","position":3,"name":title,"item":url}]}
 
-def generate_breadcrumb_schema(recipe):
-    """Generate BreadcrumbList schema"""
-    schema = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": SITE_URL
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": get_category_name(recipe.get('categorySlug', '')),
-                "item": f"{SITE_URL}/?category={recipe.get('categorySlug', '')}"
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "name": recipe['title'],
-                "item": f"{SITE_URL}/recipes/{recipe['id']}/"
-            }
-        ]
-    }
-    return json.dumps(schema, indent=2)
-
-def generate_recipe_html(recipe):
-    """Generate full static HTML page for a recipe"""
-    
-    title = recipe['title']
-    recipe_id = recipe['id']
-    tagline = recipe.get('tagline', '')
-    description = recipe.get('description', tagline)
-    category = recipe.get('category', '')
-    category_slug = recipe.get('categorySlug', '')
-    prep = recipe.get('prep', '')
-    cook = recipe.get('cook', '')
-    serves = recipe.get('serves', recipe.get('makes', ''))
-    ingredients = recipe.get('ingredients', [])
-    steps = recipe.get('steps', [])
-    notes = recipe.get('notes', [])
-    source = recipe.get('source', '')
-    source_url = recipe.get('sourceUrl', '')
-    
-    # Meta description (max 160 chars)
-    meta_desc = f"{title}: {tagline}"[:157] + "..." if len(f"{title}: {tagline}") > 160 else f"{title}: {tagline}"
-    
-    # Generate ingredients HTML
-    ingredients_html = "\n".join([f'        <li class="ingredient">{ing}</li>' for ing in ingredients])
-    
-    # Generate steps HTML  
-    steps_html = "\n".join([f'        <li class="step">{step}</li>' for i, step in enumerate(steps)])
-    
-    # Generate notes HTML
-    notes_html = ""
-    if notes:
-        notes_items = "\n".join([f'        <li>{note}</li>' for note in notes])
-        notes_html = f'''
-    <section class="notes">
-      <h2>Notes</h2>
-      <ul>
-{notes_items}
-      </ul>
-    </section>'''
-
-    # Source attribution
-    source_html = ""
-    if source:
-        if source_url:
-            source_html = f'<p class="source">{source} · <a href="{source_url}" target="_blank" rel="noopener">Original</a></p>'
+    # ingredients html
+    ing_html = []
+    for i in r.get("ingredients", []):
+        if i.strip().endswith(":"):
+            ing_html.append('        <li class="ing-group">%s</li>' % esc(i.rstrip(":")))
         else:
-            source_html = f'<p class="source">{source}</p>'
+            ing_html.append('        <li class="ingredient"><span class="ing-text">%s</span></li>' % mark_qty(i))
+    steps_html = "\n".join('        <li class="step">%s</li>' % mark_timers(s) for s in r.get("steps", []))
+    notes_html = ""
+    if r.get("notes"):
+        notes_html = ('    <section class="notes">\n      <h2>Notes</h2>\n      <ul>\n'
+            + "\n".join("        <li>%s</li>" % esc(n) for n in r["notes"]) + "\n      </ul>\n    </section>")
+    ts_html = ""
+    if r.get("troubleshooting"):
+        items = []
+        for t in r["troubleshooting"]:
+            parts = t.split("→", 1)
+            if len(parts) == 2:
+                items.append('        <li><strong>%s</strong> →%s</li>' % (esc(parts[0].strip()), esc(parts[1])))
+            else:
+                items.append("        <li>%s</li>" % esc(t))
+        ts_html = ('    <section class="trouble">\n      <h2>When it goes wrong</h2>\n      <ul>\n'
+            + "\n".join(items) + "\n      </ul>\n    </section>")
+    verdict_html = ""
+    if verdict:
+        vs = verdict.get("status","")
+        vclass = {"WORTH IT":"v-worth","SKIP":"v-skip","OVERHYPED":"v-hype"}.get(vs,"v-worth")
+        verdict_html = ('<div class="verdict %s"><span class="v-badge">%s</span><span class="v-note">%s</span></div>'
+                        % (vclass, esc(vs), esc(verdict.get("note",""))))
+    tested_html = ""
+    if tested:
+        note = esc(r.get("testedNote",""))
+        tested_html = ('<p class="tested-line"><span class="tested-badge">tested %s</span>%s</p>'
+                       % (esc(tested), (" " + note) if note else ""))
+    rel_html = "\n".join(
+        '        <a href="/recipes/%s/"><span class="rel-title">%s</span><span class="rel-tag">%s</span></a>'
+        % (x["id"], esc(x["title"]), esc(x.get("tagline",""))) for x in related)
 
-    html = f'''<!DOCTYPE html>
+    page = (TEMPLATE
+        .replace("%%TITLE%%", esc(title))
+        .replace("%%TAGLINE%%", esc(r.get("tagline","")))
+        .replace("%%META_DESC%%", esc(meta_desc))
+        .replace("%%URL%%", url)
+        .replace("%%CARD%%", card)
+        .replace("%%SCHEMA%%", json.dumps(schema, indent=2, ensure_ascii=False))
+        .replace("%%CRUMBS%%", json.dumps(crumbs, indent=2, ensure_ascii=False))
+        .replace("%%HUB_NAME%%", esc(hub_name))
+        .replace("%%HUB_URL%%", hub_url)
+        .replace("%%PREP%%", esc(r.get("prep","")))
+        .replace("%%COOK%%", esc(r.get("cook","")))
+        .replace("%%SERVES%%", esc(str(serves)))
+        .replace("%%SERVES_LABEL%%", serves_label)
+        .replace("%%RID%%", rid)
+        .replace("%%VERDICT%%", verdict_html)
+        .replace("%%TESTED%%", tested_html)
+        .replace("%%INGREDIENTS%%", "\n".join(ing_html))
+        .replace("%%STEPS%%", steps_html)
+        .replace("%%NOTES%%", notes_html)
+        .replace("%%TROUBLE%%", ts_html)
+        .replace("%%SOURCE%%", esc(r.get("source","")))
+        .replace("%%RELATED%%", rel_html)
+        .replace("%%TOTAL%%", str(total)))
+    return page
+
+def main():
+    root = os.path.dirname(os.path.abspath(__file__))
+    os.chdir(root)
+    files = [f for f in glob.glob("data/*.json") if os.path.basename(f) not in ("index.json","hot.json","radar.json")]
+    recipes = {}
+    for f in files:
+        r = json.load(open(f))
+        recipes[r["id"]] = r
+
+    # enrich index.json with prep/cook/serves/tested where full data exists
+    idx = json.load(open("data/index.json"))
+    for e in idx:
+        r = recipes.get(e["id"])
+        if r:
+            for k in ("prep","cook","title","tagline"):
+                if r.get(k): e[k] = r[k]
+            if r.get("makes"):
+                e["makes"] = str(r["makes"]); e.pop("serves", None)
+            elif r.get("serves"):
+                e["serves"] = str(r["serves"]); e.pop("makes", None)
+            if r.get("tested"): e["tested"] = r["tested"]
+            if r.get("verdict"): e["verdict"] = r["verdict"]["status"]
+            e["category"] = r.get("category", e.get("category"))
+            e["categorySlug"] = r.get("categorySlug", e.get("categorySlug"))
+    json.dump(idx, open("data/index.json","w"), indent=2, ensure_ascii=False)
+    total = len(idx)
+
+    by_cat = {}
+    for e in idx: by_cat.setdefault(e.get("categorySlug"), []).append(e)
+
+    built = 0
+    for rid, r in recipes.items():
+        pool = [e for e in by_cat.get(r.get("categorySlug"), []) if e["id"] != rid]
+        rnd = random.Random(rid)  # deterministic per recipe
+        related = rnd.sample(pool, min(3, len(pool)))
+        os.makedirs("recipes/%s" % rid, exist_ok=True)
+        with open("recipes/%s/index.html" % rid, "w") as f:
+            f.write(build_page(r, related, total))
+        built += 1
+
+    # sitemap: rebuild namespace-proof (regex parse of existing, union with wanted)
+    try:
+        import datetime
+        old = open("sitemap.xml").read() if os.path.exists("sitemap.xml") else ""
+        locs = re.findall(r"<(?:[a-z0-9]+:)?loc>(.*?)</(?:[a-z0-9]+:)?loc>", old)
+        want = ["%s/recipes/%s/" % (SITE, e["id"]) for e in idx] + [SITE+"/box/", SITE+"/basic-recipes/"]
+        seen, out = set(), []
+        for u in locs + want:
+            u2 = u.rstrip("/") + "/"
+            if u2 not in seen:
+                seen.add(u2); out.append(u2)
+        today = datetime.date.today().isoformat()
+        lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+                 '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+        for u in out:
+            pri = "1.0" if u == SITE + "/" else ("0.8" if "/recipes/" in u else "0.6")
+            lines.append("  <url><loc>%s</loc><lastmod>%s</lastmod><priority>%s</priority></url>" % (u, today, pri))
+        lines.append("</urlset>")
+        open("sitemap.xml", "w").write("\n".join(lines))
+        print("sitemap: %d urls" % len(out))
+    except Exception as ex:
+        print("sitemap skipped:", ex)
+
+    print("built %d recipe pages · index.json enriched (%d recipes)" % (built, total))
+
+TEMPLATE = r"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title} | rcpbx</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>%%TITLE%% | rcpbx</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
-  
-  <!-- SEO -->
-  <meta name="description" content="{meta_desc}">
+  <meta name="description" content="%%META_DESC%%">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="{SITE_URL}/recipes/{recipe_id}/">
-  
-  <!-- Open Graph -->
+  <link rel="canonical" href="%%URL%%">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="{SITE_URL}/recipes/{recipe_id}/">
-  <meta property="og:title" content="{title} | rcpbx">
-  <meta property="og:description" content="{meta_desc}">
+  <meta property="og:url" content="%%URL%%">
+  <meta property="og:title" content="%%TITLE%% | rcpbx">
+  <meta property="og:description" content="%%META_DESC%%">
   <meta property="og:site_name" content="rcpbx">
-  <meta property="og:image" content="{SITE_URL}/og-image.svg">
-  
-  <!-- Twitter -->
+  <meta property="og:image" content="%%CARD%%">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{title} | rcpbx">
-  <meta name="twitter:description" content="{meta_desc}">
-  <meta name="twitter:image" content="{SITE_URL}/og-image.svg">
-  
-  <!-- Recipe Schema -->
+  <meta name="twitter:title" content="%%TITLE%% | rcpbx">
+  <meta name="twitter:description" content="%%META_DESC%%">
+  <meta name="twitter:image" content="%%CARD%%">
   <script type="application/ld+json">
-{generate_recipe_schema(recipe)}
+%%SCHEMA%%
   </script>
-  
-  <!-- Breadcrumb Schema -->
   <script type="application/ld+json">
-{generate_breadcrumb_schema(recipe)}
+%%CRUMBS%%
   </script>
-  
-  <!-- Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2VNWY2BFX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){{dataLayer.push(arguments);}}
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-E2VNWY2BFX');
   </script>
-  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    :root {{
-      --bg: #faf9f6;
-      --text: #222;
-      --text-muted: #666;
-      --border: #ddd;
-      --accent: #16a34a;
-      --accent-light: #dcfce7;
-      --font-sans: 'Inter', -apple-system, sans-serif;
-      --font-mono: 'JetBrains Mono', monospace;
-    }}
-    @media (prefers-color-scheme: dark) {{
-      :root {{
-        --bg: #111;
-        --text: #e5e5e5;
-        --text-muted: #999;
-        --border: #333;
-        --accent: #22c55e;
-        --accent-light: #14532d;
-      }}
-    }}
-    *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
-    html {{ font-family: var(--font-sans); background: var(--bg); color: var(--text); line-height: 1.6; }}
-    body {{ min-height: 100vh; }}
-    
-    header {{
-      border-bottom: 1px solid var(--border);
-      padding: 1rem 1.5rem;
-    }}
-    .header-inner {{
-      max-width: 800px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }}
-    .logo {{
-      font-family: var(--font-mono);
-      font-size: 1.25rem;
-      font-weight: 600;
-      text-decoration: none;
-      color: var(--text);
-    }}
-    .logo-prefix {{ color: var(--accent); }}
-    .breadcrumb {{
-      font-size: 0.8rem;
-      color: var(--text-muted);
-    }}
-    .breadcrumb a {{
-      color: var(--text-muted);
-      text-decoration: none;
-    }}
-    .breadcrumb a:hover {{ color: var(--accent); }}
-    
-    main {{
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 2rem 1.5rem;
-    }}
-    
-    .recipe-header {{
-      margin-bottom: 2rem;
-      padding-bottom: 1.5rem;
-      border-bottom: 1px solid var(--border);
-    }}
-    h1 {{
-      font-size: 2rem;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
-    }}
-    .tagline {{
-      font-size: 1.1rem;
-      color: var(--text-muted);
-      margin-bottom: 1rem;
-    }}
-    .meta {{
-      display: flex;
-      gap: 1.5rem;
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }}
-    .meta-item {{
-      display: flex;
-      align-items: center;
-      gap: 0.3rem;
-    }}
-    .meta-label {{
-      font-weight: 500;
-      color: var(--text);
-    }}
-    
-    .recipe-grid {{
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      gap: 2rem;
-    }}
-    @media (max-width: 700px) {{
-      .recipe-grid {{
-        grid-template-columns: 1fr;
-      }}
-    }}
-    
-    section {{
-      margin-bottom: 2rem;
-    }}
-    h2 {{
-      font-size: 1.1rem;
-      font-weight: 600;
-      margin-bottom: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--text-muted);
-    }}
-    
-    .ingredients ul {{
-      list-style: none;
-    }}
-    .ingredient {{
-      padding: 0.5rem 0;
-      border-bottom: 1px solid var(--border);
-    }}
-    .ingredient:last-child {{
-      border-bottom: none;
-    }}
-    
-    .steps ol {{
-      list-style: none;
-      counter-reset: step;
-    }}
-    .step {{
-      counter-increment: step;
-      padding: 0.75rem 0;
-      padding-left: 2.5rem;
-      position: relative;
-      border-bottom: 1px solid var(--border);
-    }}
-    .step:last-child {{
-      border-bottom: none;
-    }}
-    .step::before {{
-      content: counter(step);
-      position: absolute;
-      left: 0;
-      top: 0.75rem;
-      width: 1.75rem;
-      height: 1.75rem;
-      background: var(--accent);
-      color: white;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.8rem;
-      font-weight: 600;
-    }}
-    
-    .notes {{
-      background: var(--accent-light);
-      padding: 1.25rem;
-      border-radius: 8px;
-      margin-top: 2rem;
-    }}
-    .notes h2 {{
-      color: var(--accent);
-      margin-bottom: 0.75rem;
-    }}
-    .notes ul {{
-      list-style: none;
-    }}
-    .notes li {{
-      padding: 0.4rem 0;
-      padding-left: 1.25rem;
-      position: relative;
-    }}
-    .notes li::before {{
-      content: "→";
-      position: absolute;
-      left: 0;
-      color: var(--accent);
-    }}
-    
-    .source {{
-      margin-top: 2rem;
-      font-size: 0.85rem;
-      color: var(--text-muted);
-    }}
-    .source a {{
-      color: var(--accent);
-      text-decoration: none;
-    }}
-    .source a:hover {{
-      text-decoration: underline;
-    }}
-    
-    footer {{
-      border-top: 1px solid var(--border);
-      padding: 1.5rem;
-      text-align: center;
-      margin-top: 3rem;
-    }}
-    .footer-text {{
-      font-family: var(--font-mono);
-      font-size: 0.75rem;
-      color: var(--text-muted);
-    }}
-    .footer-text a {{
-      color: var(--accent);
-      text-decoration: none;
-    }}
+    :root {
+      --bg: #faf9f6; --bg-alt: #f0efeb; --text: #222; --text-muted: #666; --text-dim: #999;
+      --border: #ddd; --accent: #16a34a; --accent-light: #dcfce7; --accent-dim: rgba(22,163,74,0.1);
+      --font-sans: 'Inter', -apple-system, sans-serif; --font-mono: 'JetBrains Mono', monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111; --bg-alt: #1a1a1a; --text: #e5e5e5; --text-muted: #999; --text-dim: #666;
+        --border: #333; --accent: #22c55e; --accent-light: #14532d; --accent-dim: rgba(34,197,94,0.15); }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-family: var(--font-sans); background: var(--bg); color: var(--text); line-height: 1.6; }
+    body { min-height: 100vh; }
+    header { border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; position: sticky; top: 0; background: var(--bg); z-index: 50; }
+    .header-inner { max-width: 800px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+    .logo { font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600; text-decoration: none; color: var(--text); white-space: nowrap; }
+    .logo-prefix { color: var(--accent); }
+    .header-actions { display: flex; gap: 0.5rem; align-items: center; }
+    .hbtn { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); background: none;
+      border: 1px solid var(--border); border-radius: 4px; padding: 0.35rem 0.6rem; cursor: pointer; text-decoration: none; white-space: nowrap; }
+    .hbtn:hover { border-color: var(--accent); color: var(--accent); }
+    .hbtn.on { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+    .breadcrumb { font-size: 0.75rem; color: var(--text-muted); max-width: 800px; margin: 0.4rem auto 0; }
+    .breadcrumb a { color: var(--text-muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--accent); }
+    main { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+    .recipe-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; letter-spacing: -0.02em; }
+    .tagline { font-size: 1.1rem; color: var(--text-muted); margin-bottom: 0.75rem; }
+    .verdict { display: flex; align-items: baseline; gap: 0.6rem; margin: 0.5rem 0 0.75rem; flex-wrap: wrap; }
+    .v-badge { font-family: var(--font-mono); font-size: 0.7rem; font-weight: 500; letter-spacing: 0.05em;
+      padding: 0.2rem 0.5rem; border-radius: 3px; color: var(--bg); background: var(--accent); }
+    .v-hype .v-badge { background: #d97706; } .v-skip .v-badge { background: #dc2626; }
+    .v-note { font-size: 0.85rem; color: var(--text-muted); font-style: italic; }
+    .tested-line { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; }
+    .tested-badge { font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent);
+      border: 1px solid var(--accent); border-radius: 3px; padding: 0.1rem 0.4rem; margin-right: 0.4rem; }
+    .meta { display: flex; gap: 1.25rem; font-size: 0.9rem; color: var(--text-muted); align-items: center; flex-wrap: wrap; }
+    .meta-item { display: flex; align-items: center; gap: 0.3rem; }
+    .meta-label { font-weight: 500; color: var(--text); }
+    .scaler { display: inline-flex; align-items: center; gap: 0.15rem; margin-left: 0.35rem; }
+    .scaler button { font-family: var(--font-mono); width: 1.5rem; height: 1.5rem; border: 1px solid var(--border);
+      background: var(--bg); color: var(--text); border-radius: 3px; cursor: pointer; font-size: 0.85rem; line-height: 1; }
+    .scaler button:hover { border-color: var(--accent); color: var(--accent); }
+    .scaler .mult { font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); min-width: 2.2rem; text-align: center; }
+    .recipe-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; }
+    @media (max-width: 700px) { .recipe-grid { grid-template-columns: 1fr; } }
+    section { margin-bottom: 2rem; }
+    h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); }
+    .ingredients ul { list-style: none; }
+    .ing-group { font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--accent); padding: 0.75rem 0 0.25rem; }
+    .ingredient { padding: 0.5rem 0; border-bottom: 1px solid var(--border); cursor: pointer;
+      display: flex; align-items: baseline; gap: 0.6rem; -webkit-tap-highlight-color: transparent; }
+    .ingredient:last-child { border-bottom: none; }
+    .ingredient::before { content: ""; flex: none; width: 0.9rem; height: 0.9rem; border: 1.5px solid var(--border);
+      border-radius: 3px; transform: translateY(0.12rem); transition: all 0.15s; }
+    .ingredient:hover::before { border-color: var(--accent); }
+    .ingredient.done::before { background: var(--accent); border-color: var(--accent);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 8.5 6.5 12 13 4.5' stroke='white' stroke-width='2.2' fill='none'/%3E%3C/svg%3E"); }
+    .ingredient.done .ing-text { color: var(--text-dim); text-decoration: line-through; }
+    .qty { color: var(--accent); font-weight: 500; }
+    .steps ol { list-style: none; counter-reset: step; }
+    .step { counter-increment: step; padding: 0.85rem 0; padding-left: 2.5rem; position: relative;
+      border-bottom: 1px solid var(--border); font-size: 1.02rem; cursor: pointer; transition: opacity 0.2s; -webkit-tap-highlight-color: transparent; }
+    .step:last-child { border-bottom: none; }
+    .step::before { content: counter(step); position: absolute; left: 0; top: 0.85rem; width: 1.75rem; height: 1.75rem;
+      background: var(--accent); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      font-size: 0.8rem; font-weight: 600; transition: all 0.15s; }
+    .steps.focused .step { opacity: 0.35; }
+    .steps.focused .step.current { opacity: 1; font-size: 1.12rem; font-weight: 500; }
+    .steps.focused .step.current::before { transform: scale(1.15); }
+    .step.done-step { opacity: 0.45; } .step.done-step::before { background: var(--text-dim); }
+    .t { font-family: var(--font-mono); font-size: 0.85em; color: var(--accent); background: var(--accent-dim);
+      border: 1px dashed var(--accent); border-radius: 4px; padding: 0 0.35rem; cursor: pointer; }
+    .t.running { background: var(--accent); color: var(--bg); border-style: solid; }
+    .cook-hint { font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-dim); margin: -0.5rem 0 1rem; }
+    .notes { background: var(--accent-light); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; }
+    .notes h2 { color: var(--accent); margin-bottom: 0.75rem; }
+    .notes ul, .trouble ul { list-style: none; }
+    .notes li, .trouble li { padding: 0.4rem 0; padding-left: 1.25rem; position: relative; }
+    .notes li::before, .trouble li::before { content: "→"; position: absolute; left: 0; color: var(--accent); }
+    .trouble { background: var(--bg-alt); border: 1px solid var(--border); padding: 1.25rem; border-radius: 8px; margin-top: 1.5rem; }
+    .trouble h2 { margin-bottom: 0.75rem; }
+    .trouble li::before { content: "!"; font-family: var(--font-mono); font-weight: 500; color: #d97706; }
+    .source { margin-top: 2rem; font-size: 0.85rem; color: var(--text-muted); }
+    .related { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1.5rem; }
+    .related h2 { font-size: 0.7rem; font-family: var(--font-mono); }
+    .related h2::before { content: ">"; color: var(--accent); margin-right: 0.4rem; }
+    .related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem; }
+    .related-grid a { display: block; padding: 0.75rem 0.9rem; border: 1px solid var(--border); border-radius: 6px;
+      text-decoration: none; transition: border-color 0.15s; }
+    .related-grid a:hover { border-color: var(--accent); }
+    .rel-title { display: block; font-weight: 600; font-size: 0.9rem; color: var(--text); }
+    .rel-tag { display: block; font-size: 0.75rem; color: var(--text-muted); margin-top: 0.15rem; }
+    .rel-more { font-family: var(--font-mono); font-size: 0.75rem; margin-top: 0.9rem; }
+    .rel-more a { color: var(--accent); text-decoration: none; margin-right: 1.25rem; }
+    footer { border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; margin-top: 3rem; }
+    .footer-text { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); }
+    .footer-text a { color: var(--accent); text-decoration: none; }
+    .timerbar { position: fixed; bottom: 0; left: 0; right: 0; background: var(--text); color: var(--bg);
+      font-family: var(--font-mono); display: none; align-items: center; justify-content: center; gap: 1rem;
+      padding: 0.6rem 1rem; z-index: 100; font-size: 0.95rem; }
+    .timerbar.show { display: flex; }
+    .timerbar button { font-family: var(--font-mono); background: none; border: 1px solid var(--bg);
+      color: var(--bg); border-radius: 4px; padding: 0.15rem 0.6rem; cursor: pointer; font-size: 0.75rem; }
+    @media print { header, .related, footer, .timerbar, .cook-hint, .header-actions { display: none !important; }
+      .recipe-grid { grid-template-columns: 1fr 2fr; } }
   </style>
 </head>
 <body>
   <header>
     <div class="header-inner">
       <a href="/" class="logo"><span class="logo-prefix">&gt;</span>rcpbx</a>
-      <nav class="breadcrumb">
-        <a href="/">Home</a> / <a href="/?category={category_slug}">{category}</a> / {title}
-      </nav>
+      <div class="header-actions">
+        <button class="hbtn" id="saveBtn" type="button">+ box</button>
+        <button class="hbtn" id="wakeBtn" type="button" hidden>screen on</button>
+        <button class="hbtn" id="resetBtn" type="button" title="clear check-offs">reset</button>
+      </div>
     </div>
+    <nav class="breadcrumb"><a href="/">Home</a> / <a href="%%HUB_URL%%">%%HUB_NAME%%</a> / %%TITLE%%</nav>
   </header>
-  
+
   <main>
-    <article>
+    <article data-recipe="%%RID%%">
       <div class="recipe-header">
-        <h1>{title}</h1>
-        <p class="tagline">{tagline}</p>
+        <h1>%%TITLE%%</h1>
+        <p class="tagline">%%TAGLINE%%</p>
+        %%VERDICT%%
+        %%TESTED%%
         <div class="meta">
-          <span class="meta-item"><span class="meta-label">Prep:</span> {prep}</span>
-          <span class="meta-item"><span class="meta-label">Cook:</span> {cook}</span>
-          <span class="meta-item"><span class="meta-label">Serves:</span> {serves}</span>
+          <span class="meta-item"><span class="meta-label">Prep:</span> %%PREP%%</span>
+          <span class="meta-item"><span class="meta-label">Cook:</span> %%COOK%%</span>
+          <span class="meta-item"><span class="meta-label">%%SERVES_LABEL%%:</span> <span id="servesVal">%%SERVES%%</span>
+            <span class="scaler"><button id="scDown" type="button" aria-label="scale down">−</button><span class="mult" id="scMult">1×</span><button id="scUp" type="button" aria-label="scale up">+</button></span>
+          </span>
         </div>
       </div>
-      
+
       <div class="recipe-grid">
         <section class="ingredients">
           <h2>Ingredients</h2>
-          <ul>
-{ingredients_html}
+          <p class="cook-hint">tap to check off</p>
+          <ul id="ingList">
+%%INGREDIENTS%%
           </ul>
         </section>
-        
-        <section class="steps">
+
+        <section class="steps" id="stepsWrap">
           <h2>Instructions</h2>
-          <ol>
-{steps_html}
+          <p class="cook-hint">tap a step to focus · tap times to start a timer</p>
+          <ol id="stepList">
+%%STEPS%%
           </ol>
         </section>
       </div>
-      {notes_html}
-      
-      {source_html}
+
+%%NOTES%%
+%%TROUBLE%%
+
+      <p class="source">%%SOURCE%%</p>
+
+      <section class="related">
+        <h2>More like this</h2>
+        <div class="related-grid">
+%%RELATED%%
+        </div>
+        <p class="rel-more"><a href="%%HUB_URL%%">all %%HUB_NAME%% →</a><a href="/random/">&gt;_ random recipe</a><a href="/box/">your box →</a></p>
+      </section>
     </article>
   </main>
-  
+
+  <div class="timerbar" id="timerbar"><span id="timerLabel"></span><span id="timerVal"></span><button id="timerStop" type="button">stop</button></div>
+
   <footer>
-    <p class="footer-text">
-      <a href="/">rcpbx.com</a> · 142 recipes · no life stories · no ads
-    </p>
+    <p class="footer-text"><a href="/">rcpbx.com</a> · %%TOTAL%% recipes · no life stories · no ads</p>
   </footer>
+
+  <script>
+  (function(){
+    var RID = document.querySelector('article').dataset.recipe;
+    var LS = 'rcpbx-cook-' + RID;
+    var state = {}; try { state = JSON.parse(localStorage.getItem(LS)) || {}; } catch(e){}
+    function save(){ try { localStorage.setItem(LS, JSON.stringify(state)); } catch(e){} }
+
+    // --- ingredient check-off ---
+    var ings = [].slice.call(document.querySelectorAll('.ingredient'));
+    ings.forEach(function(li, i){
+      if (state['i'+i]) li.classList.add('done');
+      li.addEventListener('click', function(e){
+        if (e.target.closest('.t')) return;
+        li.classList.toggle('done');
+        state['i'+i] = li.classList.contains('done') ? 1 : 0; save();
+      });
+    });
+
+    // --- step focus ---
+    var wrap = document.getElementById('stepsWrap');
+    var steps = [].slice.call(document.querySelectorAll('.step'));
+    steps.forEach(function(li, i){
+      li.addEventListener('click', function(e){
+        if (e.target.closest('.t')) return;
+        var was = li.classList.contains('current');
+        steps.forEach(function(s){ s.classList.remove('current'); });
+        if (was) { wrap.classList.remove('focused'); }
+        else {
+          li.classList.add('current'); wrap.classList.add('focused');
+          steps.forEach(function(s, j){ s.classList.toggle('done-step', j < i); });
+        }
+      });
+    });
+
+    // --- serving scaler ---
+    var mult = 1, factors = [0.5, 1, 1.5, 2, 3, 4];
+    var servesEl = document.getElementById('servesVal');
+    var baseServes = servesEl ? servesEl.textContent : '';
+    var baseNum = parseFloat(baseServes);
+    var UF = {0.25:'¼',0.333:'⅓',0.5:'½',0.667:'⅔',0.75:'¾',0.125:'⅛'};
+    function fmt(v){
+      if (v >= 10) return String(Math.round(v));
+      var whole = Math.floor(v + 1e-6), rem = v - whole, best = null, bd = 1;
+      [0.125,0.25,0.333,0.5,0.667,0.75].forEach(function(f){ var d = Math.abs(rem - f); if (d < bd) { bd = d; best = f; } });
+      if (rem < 0.0625) return String(whole || Math.round(v*100)/100);
+      if (bd < 0.06) return (whole ? whole + ' ' : '') + UF[best];
+      return String(Math.round(v * 100) / 100);
+    }
+    function applyScale(){
+      document.querySelectorAll('.qty').forEach(function(q){
+        var b = parseFloat(q.dataset.base);
+        q.textContent = mult === 1 ? (q.dataset.orig || q.textContent) : fmt(b * mult);
+        if (!q.dataset.orig) q.dataset.orig = q.textContent;
+      });
+      if (servesEl && !isNaN(baseNum)) {
+        servesEl.textContent = mult === 1 ? baseServes : baseServes.replace(/[0-9.]+/, function(n){ return fmt(parseFloat(n) * mult); });
+      }
+      document.getElementById('scMult').textContent = (mult % 1 ? mult.toFixed(1) : mult) + '×';
+    }
+    document.querySelectorAll('.qty').forEach(function(q){ q.dataset.orig = q.textContent; });
+    document.getElementById('scUp').addEventListener('click', function(){
+      var i = factors.indexOf(mult); if (i < factors.length - 1) { mult = factors[i+1]; applyScale(); }
+    });
+    document.getElementById('scDown').addEventListener('click', function(){
+      var i = factors.indexOf(mult); if (i > 0) { mult = factors[i-1]; applyScale(); }
+    });
+
+    // --- timers ---
+    var bar = document.getElementById('timerbar'), tv = document.getElementById('timerVal'),
+        tl = document.getElementById('timerLabel'), iv = null, endAt = 0, activeBtn = null;
+    function beep(){
+      try {
+        var ctx = new (window.AudioContext || window.webkitAudioContext)();
+        var n = 0;
+        (function ping(){
+          if (n++ > 5) return;
+          var o = ctx.createOscillator(), g = ctx.createGain();
+          o.connect(g); g.connect(ctx.destination); o.frequency.value = 880;
+          g.gain.setValueAtTime(0.3, ctx.currentTime);
+          g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.35);
+          o.start(); o.stop(ctx.currentTime + 0.4);
+          setTimeout(ping, 500);
+        })();
+      } catch(e){}
+    }
+    function stopTimer(){
+      clearInterval(iv); iv = null; bar.classList.remove('show');
+      if (activeBtn) activeBtn.classList.remove('running'); activeBtn = null;
+    }
+    function tick(){
+      var s = Math.max(0, Math.round((endAt - Date.now()) / 1000));
+      tv.textContent = Math.floor(s/60) + ':' + ('0' + s % 60).slice(-2);
+      document.title = tv.textContent + ' · %%TITLE%% | rcpbx';
+      if (s <= 0) { stopTimer(); beep(); document.title = '%%TITLE%% | rcpbx'; tv.textContent = 'done!';
+        bar.classList.add('show'); setTimeout(function(){ bar.classList.remove('show'); }, 5000); }
+    }
+    document.getElementById('timerStop').addEventListener('click', function(){ stopTimer(); document.title = '%%TITLE%% | rcpbx'; });
+    document.querySelectorAll('.t').forEach(function(b){
+      b.addEventListener('click', function(e){
+        e.stopPropagation();
+        stopTimer(); activeBtn = b; b.classList.add('running');
+        endAt = Date.now() + parseInt(b.dataset.min, 10) * 60000;
+        tl.textContent = b.dataset.min + ' min timer'; bar.classList.add('show');
+        tick(); iv = setInterval(tick, 500);
+      });
+    });
+
+    // --- wake lock ---
+    var wakeBtn = document.getElementById('wakeBtn'), lock = null;
+    if ('wakeLock' in navigator) {
+      wakeBtn.hidden = false;
+      function req(){ navigator.wakeLock.request('screen').then(function(l){
+        lock = l; wakeBtn.classList.add('on'); wakeBtn.textContent = 'screen on ✓';
+        l.addEventListener('release', function(){ wakeBtn.classList.remove('on'); wakeBtn.textContent = 'screen on'; });
+      }).catch(function(){}); }
+      wakeBtn.addEventListener('click', function(){
+        if (lock) { lock.release(); lock = null; } else req();
+      });
+      document.addEventListener('visibilitychange', function(){
+        if (lock !== null && document.visibilityState === 'visible') req();
+      });
+    }
+
+    // --- save to box ---
+    var saveBtn = document.getElementById('saveBtn');
+    function box(){ try { return JSON.parse(localStorage.getItem('rcpbx-box')) || []; } catch(e){ return []; } }
+    function renderSave(){ var on = box().indexOf(RID) > -1;
+      saveBtn.classList.toggle('on', on); saveBtn.textContent = on ? '✓ in box' : '+ box'; }
+    saveBtn.addEventListener('click', function(){
+      var b = box(), i = b.indexOf(RID);
+      if (i > -1) b.splice(i, 1); else b.push(RID);
+      try { localStorage.setItem('rcpbx-box', JSON.stringify(b)); } catch(e){}
+      renderSave();
+    });
+    renderSave();
+
+    // --- reset ---
+    document.getElementById('resetBtn').addEventListener('click', function(){
+      state = {}; save();
+      ings.forEach(function(li){ li.classList.remove('done'); });
+      steps.forEach(function(s){ s.classList.remove('current','done-step'); });
+      wrap.classList.remove('focused');
+    });
+  })();
+  </script>
 </body>
-</html>'''
-    
-    return html
-
-def generate_sitemap(recipes):
-    """Generate sitemap.xml with all static recipe URLs"""
-    today = datetime.now().strftime('%Y-%m-%d')
-    
-    xml = '''<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.w3.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://rcpbx.com/</loc>
-    <lastmod>{today}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://rcpbx.com/about/</loc>
-    <lastmod>{today}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://rcpbx.com/reference/</loc>
-    <lastmod>{today}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-'''.format(today=today)
-
-    # Categories
-    categories = ['soups-stews', 'pasta', 'chicken', 'beef', 'pork', 'seafood', 'breakfast', 'sides', 'baking-dessert', 'basics']
-    for cat in categories:
-        xml += f'''  <url>
-    <loc>https://rcpbx.com/?category={cat}</loc>
-    <lastmod>{today}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-'''
-
-    # All recipes with clean URLs
-    for recipe in recipes:
-        xml += f'''  <url>
-    <loc>https://rcpbx.com/recipes/{recipe['id']}/</loc>
-    <lastmod>{today}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-'''
-
-    xml += '</urlset>'
-    return xml
-
-def main():
-    print("🍳 rcpbx Static Site Generator")
-    print("=" * 40)
-    
-    recipes = load_recipes()
-    print(f"📖 Loaded {len(recipes)} recipes")
-    
-    # Create recipe directories and HTML files
-    generated = 0
-    for recipe in recipes:
-        recipe_dir = BUILD_DIR / recipe['id']
-        recipe_dir.mkdir(parents=True, exist_ok=True)
-        
-        html = generate_recipe_html(recipe)
-        (recipe_dir / "index.html").write_text(html)
-        generated += 1
-    
-    print(f"✅ Generated {generated} static recipe pages")
-    
-    # Generate sitemap
-    sitemap = generate_sitemap(recipes)
-    Path("sitemap.xml").write_text(sitemap)
-    print("✅ Generated sitemap.xml")
-    
-    print("=" * 40)
-    print("🚀 Build complete!")
-    print(f"   Static pages: recipes/*/index.html")
-    print(f"   Clean URLs: /recipes/chicken-parmesan/")
+</html>
+"""
 
 if __name__ == "__main__":
     main()

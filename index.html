@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>rcpbx — the recipe box | 153 Recipes That Actually Work</title>
+  <title>rcpbx — the recipe box | 161 Recipes That Actually Work</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
-  <meta name="description" content="153 tested recipes with no life stories, no ads, no popups. Just the recipe. Cook times, ingredients, clear steps. Chicken parmesan, beef stew, banana bread and more.">
+  <meta name="description" content="161 tested recipes with no life stories, no ads, no popups. Just the recipe. Cook times, ingredients, clear steps. Chicken parmesan, beef stew, banana bread and more.">
   
   <!-- SEO -->
   <link rel="canonical" href="https://rcpbx.com/">
@@ -17,18 +17,18 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rcpbx.com/">
   <meta property="og:title" content="rcpbx — Recipes That Actually Work">
-  <meta property="og:description" content="153 tested recipes. No life stories. No ads. No popups. Just cook.">
+  <meta property="og:description" content="161 tested recipes. No life stories. No ads. No popups. Just cook.">
   <meta property="og:site_name" content="rcpbx">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://rcpbx.com/og-image.svg">
+  <meta property="og:image" content="https://rcpbx.com/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="rcpbx — Recipes That Actually Work">
-  <meta name="twitter:description" content="153 tested recipes. No life stories. No ads. No popups. Just cook.">
-  <meta name="twitter:image" content="https://rcpbx.com/og-image.svg">
+  <meta name="twitter:description" content="161 tested recipes. No life stories. No ads. No popups. Just cook.">
+  <meta name="twitter:image" content="https://rcpbx.com/og-image.png">
   
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
@@ -38,7 +38,7 @@
     "name": "rcpbx",
     "alternateName": "The Recipe Box",
     "url": "https://rcpbx.com",
-    "description": "153 tested recipes with no life stories, no ads. Just the recipe.",
+    "description": "161 tested recipes with no life stories, no ads. Just the recipe.",
     "potentialAction": {
       "@type": "SearchAction",
       "target": "https://rcpbx.com/?search={search_term_string}",
@@ -52,16 +52,16 @@
     "@type": "ItemList",
     "name": "Recipe Categories",
     "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Soups & Stews", "url": "https://rcpbx.com/recipes/?cat=soups-stews"},
-      {"@type": "ListItem", "position": 2, "name": "Pasta", "url": "https://rcpbx.com/recipes/?cat=pasta"},
-      {"@type": "ListItem", "position": 3, "name": "Chicken", "url": "https://rcpbx.com/recipes/?cat=chicken"},
-      {"@type": "ListItem", "position": 4, "name": "Beef", "url": "https://rcpbx.com/recipes/?cat=beef"},
-      {"@type": "ListItem", "position": 5, "name": "Pork", "url": "https://rcpbx.com/recipes/?cat=pork"},
-      {"@type": "ListItem", "position": 6, "name": "Seafood", "url": "https://rcpbx.com/recipes/?cat=seafood"},
-      {"@type": "ListItem", "position": 7, "name": "Breakfast", "url": "https://rcpbx.com/recipes/?cat=breakfast"},
-      {"@type": "ListItem", "position": 8, "name": "Sides", "url": "https://rcpbx.com/recipes/?cat=sides"},
-      {"@type": "ListItem", "position": 9, "name": "Baking & Desserts", "url": "https://rcpbx.com/recipes/?cat=baking-dessert"},
-      {"@type": "ListItem", "position": 10, "name": "Basics", "url": "https://rcpbx.com/recipes/?cat=basics"}
+      {"@type": "ListItem", "position": 1, "name": "Soups & Stews", "url": "https://rcpbx.com/soup-recipes/"},
+      {"@type": "ListItem", "position": 2, "name": "Pasta", "url": "https://rcpbx.com/pasta-recipes/"},
+      {"@type": "ListItem", "position": 3, "name": "Chicken", "url": "https://rcpbx.com/chicken-recipes/"},
+      {"@type": "ListItem", "position": 4, "name": "Beef", "url": "https://rcpbx.com/beef-recipes/"},
+      {"@type": "ListItem", "position": 5, "name": "Pork", "url": "https://rcpbx.com/pork-recipes/"},
+      {"@type": "ListItem", "position": 6, "name": "Seafood", "url": "https://rcpbx.com/seafood-recipes/"},
+      {"@type": "ListItem", "position": 7, "name": "Breakfast", "url": "https://rcpbx.com/breakfast-recipes/"},
+      {"@type": "ListItem", "position": 8, "name": "Sides", "url": "https://rcpbx.com/side-dishes/"},
+      {"@type": "ListItem", "position": 9, "name": "Baking & Desserts", "url": "https://rcpbx.com/dessert-recipes/"},
+      {"@type": "ListItem", "position": 10, "name": "Basics", "url": "https://rcpbx.com/basic-recipes/"}
     ]
   }
   </script>
@@ -88,6 +88,7 @@
       --border: #ddd;
       --accent: #16a34a;
       --accent-dim: rgba(22,163,74,0.1);
+      --card: #ffffff;
       --font-sans: 'Inter', -apple-system, sans-serif;
       --font-mono: 'JetBrains Mono', 'Courier New', monospace;
       --max-width: 1100px;
@@ -103,6 +104,7 @@
         --border: #333;
         --accent: #22c55e;
         --accent-dim: rgba(34,197,94,0.15);
+        --card: #1a1a1a;
       }
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -566,6 +568,81 @@
       50% { background: var(--accent-dim); }
     }
     
+    /* Hot now rail */
+    .hot-rail {
+      max-width: 640px;
+      margin: 0 auto 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg-alt);
+      padding: 0.6rem 0.9rem;
+      display: none;
+    }
+    .hot-rail.active { display: block; }
+    .hot-rail-label {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      margin-bottom: 0.35rem;
+    }
+    .hot-rail-label .hot-date { color: var(--text-dim); text-transform: none; letter-spacing: 0; margin-left: 0.4rem; }
+    .hot-item {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      padding: 0.2rem 0;
+      text-decoration: none;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    .hot-item:hover .hot-title { color: var(--accent); }
+    .hot-title { font-weight: 500; }
+    .hot-verdict { color: var(--accent); font-size: 0.65rem; flex: none; }
+    .hot-note { color: var(--text-dim); font-size: 0.7rem; overflow: hidden; text-overflow: ellipsis; }
+
+    /* Tonight row */
+    .tonight {
+      max-width: 640px;
+      margin: 0 auto 1.5rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.4rem;
+      align-items: center;
+    }
+    .tonight a {
+      color: var(--text-muted);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.25rem 0.6rem;
+      transition: all 0.15s;
+    }
+    .tonight a:hover { border-color: var(--accent); color: var(--accent); }
+    .tonight .t-label { color: var(--accent); }
+
+    /* Footer nav */
+    .footer-nav {
+      max-width: var(--max-width);
+      margin: 0 auto 0.9rem;
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      line-height: 2;
+      color: var(--text-dim);
+    }
+    .footer-nav a { color: var(--text-muted); text-decoration: none; white-space: nowrap; }
+    .footer-nav a:hover { color: var(--accent); }
+    .footer-nav .sep { color: var(--border); margin: 0 0.35rem; }
+
     /* Search response toast */
     .search-toast {
       position: fixed;
@@ -597,6 +674,7 @@
         </span>
       </a>
       <nav class="header-nav">
+        <a href="box/" class="header-link" id="boxLink">box</a>
         <a href="request/" class="header-link submit">+ request recipe</a>
         <a href="reference/" class="header-link">kitchen ref →</a>
       </nav>
@@ -616,45 +694,56 @@
       <p class="chef-quote" id="chefQuote"></p>
       <div class="search-results" id="searchResults"></div>
 
+      <div class="hot-rail" id="hotRail"></div>
+
+      <nav class="tonight">
+        <span class="t-label">&gt; tonight:</span>
+        <a href="15-minute-meals/">15 min</a>
+        <a href="30-minute-meals/">30 min</a>
+        <a href="no-cook/">no-cook</a>
+        <a href="weeknight/">weeknight</a>
+        <a href="random/">surprise me</a>
+      </nav>
+
       <div class="categories" id="categories">
-        <div class="categories-label"><span id="recipeCount">153</span> recipes across 10 categories</div>
-        <a href="recipes/?cat=soups-stews" class="category">
+        <div class="categories-label"><span id="recipeCount">161</span> recipes across 10 categories</div>
+        <a href="soup-recipes/" class="category">
           <span class="category-name">Soups & Stews</span>
           <span class="category-count">13 recipes</span>
         </a>
-        <a href="recipes/?cat=pasta" class="category">
+        <a href="pasta-recipes/" class="category">
           <span class="category-name">Pasta</span>
-          <span class="category-count">15 recipes</span>
+          <span class="category-count">16 recipes</span>
         </a>
-        <a href="recipes/?cat=chicken" class="category">
+        <a href="chicken-recipes/" class="category">
           <span class="category-name">Chicken</span>
-          <span class="category-count">19 recipes</span>
+          <span class="category-count">20 recipes</span>
         </a>
-        <a href="recipes/?cat=beef" class="category">
+        <a href="beef-recipes/" class="category">
           <span class="category-name">Beef</span>
           <span class="category-count">13 recipes</span>
         </a>
-        <a href="recipes/?cat=pork" class="category">
+        <a href="pork-recipes/" class="category">
           <span class="category-name">Pork</span>
           <span class="category-count">8 recipes</span>
         </a>
-        <a href="recipes/?cat=seafood" class="category">
+        <a href="seafood-recipes/" class="category">
           <span class="category-name">Seafood</span>
           <span class="category-count">11 recipes</span>
         </a>
-        <a href="recipes/?cat=breakfast" class="category">
+        <a href="breakfast-recipes/" class="category">
           <span class="category-name">Breakfast</span>
           <span class="category-count">14 recipes</span>
         </a>
-        <a href="recipes/?cat=sides" class="category">
+        <a href="side-dishes/" class="category">
           <span class="category-name">Sides</span>
-          <span class="category-count">22 recipes</span>
+          <span class="category-count">24 recipes</span>
         </a>
-        <a href="recipes/?cat=baking-dessert" class="category">
+        <a href="dessert-recipes/" class="category">
           <span class="category-name">Baking & Desserts</span>
-          <span class="category-count">20 recipes</span>
+          <span class="category-count">24 recipes</span>
         </a>
-        <a href="recipes/?cat=basics" class="category">
+        <a href="basic-recipes/" class="category">
           <span class="category-name">Basics</span>
           <span class="category-count">18 recipes</span>
         </a>
@@ -717,8 +806,13 @@
   </div>
 
   <footer>
+    <nav class="footer-nav">
+      <a href="15-minute-meals/">15-minute meals</a><span class="sep">·</span><a href="30-minute-meals/">30-minute meals</a><span class="sep">·</span><a href="under-1-hour/">under 1 hour</a><span class="sep">·</span><a href="no-cook/">no-cook</a><span class="sep">·</span><a href="grilled/">grilled</a><span class="sep">·</span><a href="baked/">baked</a><span class="sep">·</span><a href="easy-recipes/">easy</a><span class="sep">·</span><a href="healthy-recipes/">healthy</a><span class="sep">·</span><a href="weeknight/">weeknight dinners</a><span class="sep">·</span><a href="egg-recipes/">eggs</a><span class="sep">·</span><a href="vegetarian-recipes/">vegetarian</a><br>
+      <a href="what-to-make-with-chicken-breast/">what to make with chicken breast</a><span class="sep">·</span><a href="what-to-make-with-ground-beef/">ground beef</a><span class="sep">·</span><a href="what-to-make-with-eggs/">eggs</a><span class="sep">·</span><a href="what-to-make-with-potatoes/">potatoes</a><span class="sep">·</span><a href="what-to-make-with-rice/">rice</a><span class="sep">·</span><a href="what-to-make-with-pasta/">pasta</a><br>
+      <a href="trends/">the radar</a><span class="sep">·</span><a href="box/">your box</a><span class="sep">·</span><a href="random/">random</a><span class="sep">·</span><a href="about/">about</a><span class="sep">·</span><a href="reference/">kitchen reference</a><span class="sep">·</span><a href="feed.xml">rss</a><span class="sep">·</span><a href="llms.txt">llms.txt</a>
+    </nav>
     <div class="footer-content">
-      <p><span style="color:var(--accent);font-weight:500">rcpbx.com</span> · <span id="viewCount">0 visitors</span> · $0 VC · never acquired</p>
+      <p><span style="color:var(--accent);font-weight:500">rcpbx.com</span> · $0 VC · never acquired · no ads, ever</p>
     </div>
   </footer>
 
@@ -783,34 +877,34 @@
 
     searchInput.addEventListener('input', (e) => {
       const val = e.target.value.toLowerCase().trim();
-      
-      // Easter eggs
-      if (easterEggs[val]) {
-        showToast(easterEggs[val]);
-      }
-      
+
       // Recipe search
       if (val.length < 2) {
         searchResults.innerHTML = '';
         searchResults.classList.remove('active');
         return;
       }
-      
-      const matches = recipeIndex.filter(r => 
-        r.title.toLowerCase().includes(val) || 
+
+      const matches = recipeIndex.filter(r =>
+        r.title.toLowerCase().includes(val) ||
         (r.tagline && r.tagline.toLowerCase().includes(val)) ||
         (r.category && r.category.toLowerCase().includes(val))
       ).slice(0, 6);
-      
+
       if (matches.length === 0) {
-        searchResults.innerHTML = '<div class="no-results">No recipes found</div>';
+        // Easter eggs only when there's nothing real to show
+        if (easterEggs[val]) showToast(easterEggs[val]);
+        searchResults.innerHTML = '<div class="no-results">no recipes found — try \'chicken\'</div>';
       } else {
-        searchResults.innerHTML = matches.map(r => `
-          <a href="recipes/?r=${r.id}">
-            <div class="result-title">${r.title}</div>
-            <div class="result-tagline">${r.tagline || r.category || ''}</div>
+        searchResults.innerHTML = matches.map(r => {
+          const meta = [r.cook ? 'cook ' + r.cook : '', r.serves ? 'serves ' + r.serves : '']
+            .filter(Boolean).join(' · ');
+          return `
+          <a href="recipes/${r.id}/">
+            <div class="result-title">${r.title}${r.verdict ? ' <span style="font-family:var(--font-mono);font-size:0.6rem;color:var(--accent)">[' + r.verdict + ']</span>' : ''}</div>
+            <div class="result-tagline">${r.tagline || r.category || ''}${meta ? ' <span style="font-family:var(--font-mono);font-size:0.65rem;color:var(--text-dim)">' + meta + '</span>' : ''}</div>
           </a>
-        `).join('');
+        `;}).join('');
       }
       searchResults.classList.add('active');
     });
@@ -855,13 +949,23 @@
       logoTimeout = setTimeout(() => logo.classList.remove('active'), 2500);
     });
 
-    // View counter
-    fetch('https://api.counterapi.dev/v1/rcpbx/visits/up')
+    // Hot now rail
+    fetch('data/hot.json')
       .then(r => r.json())
-      .then(d => {
-        document.getElementById('viewCount').textContent = d.count.toLocaleString() + ' views';
+      .then(hot => {
+        if (!hot || !hot.length) return;
+        const rail = document.getElementById('hotRail');
+        rail.innerHTML = '<div class="hot-rail-label">&gt; hot_now <span class="hot-date">tested ' + (hot[0].dateTested || '') + '</span></div>' +
+          hot.map(h => `<a class="hot-item" href="recipes/${h.id}/"><span class="hot-verdict">[${h.verdict}]</span><span class="hot-title">${h.title}</span><span class="hot-note">— ${h.note}</span></a>`).join('');
+        rail.classList.add('active');
       })
       .catch(() => {});
+
+    // Box count in header
+    try {
+      const boxIds = JSON.parse(localStorage.getItem('rcpbx-box')) || [];
+      if (boxIds.length) document.getElementById('boxLink').textContent = 'box (' + boxIds.length + ')';
+    } catch(e) {}
 
     // Chef quotes
     const chefQuotes = [
