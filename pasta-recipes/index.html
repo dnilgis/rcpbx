@@ -2,88 +2,162 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Pasta Recipes | rcpbx</title>
-  <meta name="description" content="Noodles in every form.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
+  <meta name="description" content="16 pasta recipes with no ads and no life stories. Ingredients, steps, done.">
+  <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://rcpbx.com/pasta-recipes/">
-  <meta property="og:title" content="Pasta Recipes | rcpbx">
-  <meta property="og:description" content="Noodles in every form.">
+  <meta property="og:type" content="website">
   <meta property="og:url" content="https://rcpbx.com/pasta-recipes/">
+  <meta property="og:title" content="Pasta Recipes | rcpbx">
+  <meta property="og:description" content="16 pasta recipes with no ads and no life stories. Ingredients, steps, done.">
+  <meta property="og:site_name" content="rcpbx">
+  <meta property="og:image" content="https://rcpbx.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://rcpbx.com/og-image.png">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"CollectionPage","name":"Pasta Recipes","description":"Noodles in every form.","url":"https://rcpbx.com/pasta-recipes/"}
+{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Pasta Recipes", "description": "16 pasta recipes with no ads and no life stories. Ingredients, steps, done.", "url": "https://rcpbx.com/pasta-recipes/", "mainEntity": {"@type": "ItemList", "numberOfItems": 16, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Baked Feta Pasta", "url": "https://rcpbx.com/recipes/baked-feta-pasta/"}, {"@type": "ListItem", "position": 2, "name": "Baked Mac & Cheese", "url": "https://rcpbx.com/recipes/mac-and-cheese/"}, {"@type": "ListItem", "position": 3, "name": "Baked Ziti", "url": "https://rcpbx.com/recipes/baked-ziti/"}, {"@type": "ListItem", "position": 4, "name": "Bolognese Sauce", "url": "https://rcpbx.com/recipes/bolognese/"}, {"@type": "ListItem", "position": 5, "name": "Buldak Carbonara", "url": "https://rcpbx.com/recipes/buldak-carbonara/"}, {"@type": "ListItem", "position": 6, "name": "Cacio e Pepe", "url": "https://rcpbx.com/recipes/cacio-e-pepe/"}, {"@type": "ListItem", "position": 7, "name": "Chicken Alfredo", "url": "https://rcpbx.com/recipes/chicken-alfredo/"}, {"@type": "ListItem", "position": 8, "name": "Lasagna", "url": "https://rcpbx.com/recipes/lasagna/"}, {"@type": "ListItem", "position": 9, "name": "Pasta Primavera", "url": "https://rcpbx.com/recipes/pasta-primavera/"}, {"@type": "ListItem", "position": 10, "name": "Penne alla Vodka", "url": "https://rcpbx.com/recipes/penne-alla-vodka/"}, {"@type": "ListItem", "position": 11, "name": "Shrimp Scampi", "url": "https://rcpbx.com/recipes/shrimp-scampi/"}, {"@type": "ListItem", "position": 12, "name": "Spaghetti & Meatballs", "url": "https://rcpbx.com/recipes/spaghetti-and-meatballs/"}, {"@type": "ListItem", "position": 13, "name": "Spaghetti Aglio e Olio", "url": "https://rcpbx.com/recipes/aglio-e-olio/"}, {"@type": "ListItem", "position": 14, "name": "Spaghetti Carbonara", "url": "https://rcpbx.com/recipes/carbonara/"}, {"@type": "ListItem", "position": 15, "name": "Stuffed Shells", "url": "https://rcpbx.com/recipes/stuffed-shells/"}, {"@type": "ListItem", "position": 16, "name": "Tuna Noodle Casserole", "url": "https://rcpbx.com/recipes/tuna-noodle-casserole/"}]}}
   </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2VNWY2BFX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E2VNWY2BFX');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    :root { --bg: #faf9f6; --text: #222; --text-muted: #666; --border: #ddd; --accent: #16a34a; }
-    @media (prefers-color-scheme: dark) { :root { --bg: #111; --text: #e5e5e5; --text-muted: #999; --border: #333; --accent: #22c55e; } }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding: 2rem; }
-    .container { max-width: 800px; margin: 0 auto; }
-    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-    .subtitle { color: var(--text-muted); margin-bottom: 2rem; font-size: 1.1rem; }
-    .count { color: var(--accent); font-weight: 600; }
-    .recipes { display: grid; gap: 0.75rem; }
-    .recipe-card { display: flex; flex-direction: column; gap: 0.25rem; padding: 1rem; border: 1px solid var(--border); border-radius: 8px; text-decoration: none; color: var(--text); transition: border-color 0.15s; }
-    .recipe-card:hover { border-color: var(--accent); }
-    .recipe-title { font-weight: 600; }
-    .recipe-meta { font-size: 0.85rem; color: var(--text-muted); }
-    .back { display: inline-block; margin-bottom: 2rem; color: var(--text-muted); text-decoration: none; font-size: 0.9rem; }
-    .back:hover { color: var(--accent); }
-    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); text-align: center; font-size: 0.8rem; color: var(--text-muted); }
-    footer a { color: var(--accent); text-decoration: none; }
+    :root {
+      --bg: #faf9f6; --bg-alt: #f0efeb; --text: #222; --text-muted: #666; --text-dim: #999;
+      --border: #ddd; --accent: #16a34a; --accent-dim: rgba(22,163,74,0.1);
+      --font-sans: 'Inter', -apple-system, sans-serif; --font-mono: 'JetBrains Mono', monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111; --bg-alt: #1a1a1a; --text: #e5e5e5; --text-muted: #999; --text-dim: #666;
+        --border: #333; --accent: #22c55e; --accent-dim: rgba(34,197,94,0.15); }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-family: var(--font-sans); background: var(--bg); color: var(--text); line-height: 1.6; }
+    header { border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; }
+    .header-inner { max-width: 800px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600; text-decoration: none; color: var(--text); }
+    .logo-prefix { color: var(--accent); }
+    .header-link { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); text-decoration: none; text-transform: uppercase; letter-spacing: 0.05em; }
+    .header-link:hover { color: var(--accent); }
+    main { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+    .breadcrumb { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 1rem; font-family: var(--font-mono); }
+    .breadcrumb a { color: var(--text-muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--accent); }
+    h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    .intro { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.75rem; max-width: 62ch; }
+    .count-line { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-dim); margin-bottom: 1rem; }
+    .count-line span { color: var(--accent); }
+    .recipe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.75rem; }
+    .recipe-card { display: block; padding: 0.85rem 1rem; border: 1px solid var(--border); border-radius: 6px;
+      text-decoration: none; transition: border-color 0.15s, transform 0.15s; }
+    .recipe-card:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .recipe-title { display: block; font-weight: 600; font-size: 0.95rem; color: var(--text); }
+    .card-verdict { font-family: var(--font-mono); font-size: 0.6rem; color: var(--accent); font-weight: 500; }
+    .recipe-tagline { display: block; font-size: 0.78rem; color: var(--text-muted); margin-top: 0.15rem; }
+    .recipe-meta { display: block; font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-dim); margin-top: 0.3rem; }
+    .also { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1.25rem;
+      font-family: var(--font-mono); font-size: 0.75rem; line-height: 2.1; color: var(--text-dim); }
+    .also a { color: var(--text-muted); text-decoration: none; }
+    .also a:hover { color: var(--accent); }
+    .also .lbl { color: var(--accent); margin-right: 0.4rem; }
+    footer { border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; margin-top: 3rem; }
+    .footer-text { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); }
+    .footer-text a { color: var(--accent); text-decoration: none; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <a href="/" class="back">← all recipes</a>
+  <header>
+    <div class="header-inner">
+      <a href="/" class="logo"><span class="logo-prefix">&gt;</span>rcpbx</a>
+      <a href="/" class="header-link">← all recipes</a>
+    </div>
+  </header>
+  <main>
+    <nav class="breadcrumb"><a href="/">home</a> / pasta</nav>
     <h1>Pasta Recipes</h1>
-    <p class="subtitle">Noodles in every form. <span class="count">11 recipes</span></p>
-    <div class="recipes">
-        <a href="/recipes/aglio-e-olio/" class="recipe-card">
-          <span class="recipe-title">Spaghetti Aglio e Olio</span>
-          <span class="recipe-meta">5 min + 15 min · 4</span>
-        </a>
+    <p class="intro">Every pasta recipe on rcpbx — 16 of them, one canonical version per dish, stripped to ingredients and steps. No ads, no life stories, no popups.</p>
+    <p class="count-line"><span>16</span> recipes · every one opens to ingredients and steps, nothing else</p>
+    <div class="recipe-grid">
         <a href="/recipes/baked-feta-pasta/" class="recipe-card">
           <span class="recipe-title">Baked Feta Pasta</span>
-          <span class="recipe-meta">10 min + 35 min · 4</span>
+          <span class="recipe-tagline">The TikTok recipe that crashed grocery store feta supplies. It&#x27;s that good.</span>
+        </a>
+        <a href="/recipes/mac-and-cheese/" class="recipe-card">
+          <span class="recipe-title">Baked Mac &amp; Cheese</span>
+          <span class="recipe-tagline">Creamy, cheesy, golden-crusted perfection.</span>
+        </a>
+        <a href="/recipes/baked-ziti/" class="recipe-card">
+          <span class="recipe-title">Baked Ziti</span>
+          <span class="recipe-tagline">Saucy, cheesy, crowd-pleasing pasta bake</span>
+        </a>
+        <a href="/recipes/bolognese/" class="recipe-card">
+          <span class="recipe-title">Bolognese Sauce</span>
+          <span class="recipe-tagline">Rich, meaty, slow-simmered perfection</span>
+        </a>
+        <a href="/recipes/buldak-carbonara/" class="recipe-card">
+          <span class="recipe-title">Buldak Carbonara <span class="card-verdict">[WORTH IT]</span></span>
+          <span class="recipe-tagline">Korean fire noodles, tamed with yolk and parmesan.</span>
+          <span class="recipe-meta">15 min · serves 2</span>
         </a>
         <a href="/recipes/cacio-e-pepe/" class="recipe-card">
           <span class="recipe-title">Cacio e Pepe</span>
-          <span class="recipe-meta"> +  · 4</span>
-        </a>
-        <a href="/recipes/carbonara/" class="recipe-card">
-          <span class="recipe-title">Spaghetti Carbonara</span>
-          <span class="recipe-meta"> +  · 4</span>
+          <span class="recipe-tagline">Three ingredients. Infinite technique.</span>
         </a>
         <a href="/recipes/chicken-alfredo/" class="recipe-card">
           <span class="recipe-title">Chicken Alfredo</span>
-          <span class="recipe-meta"> +  · 4</span>
+          <span class="recipe-tagline">Creamy, garlicky, comfort food perfection</span>
         </a>
         <a href="/recipes/lasagna/" class="recipe-card">
           <span class="recipe-title">Lasagna</span>
-          <span class="recipe-meta">45 min + 2½ hrs · 12</span>
-        </a>
-        <a href="/recipes/minestrone/" class="recipe-card">
-          <span class="recipe-title">Minestrone</span>
-          <span class="recipe-meta"> +  · 8-10</span>
+          <span class="recipe-tagline">The crowd-pleaser. Beef and sausage, three cheeses, feeds an army.</span>
         </a>
         <a href="/recipes/pasta-primavera/" class="recipe-card">
           <span class="recipe-title">Pasta Primavera</span>
-          <span class="recipe-meta"> +  · 4</span>
-        </a>
-        <a href="/recipes/pasta-salad/" class="recipe-card">
-          <span class="recipe-title">Italian Pasta Salad</span>
-          <span class="recipe-meta">20 min + 10 min · 12</span>
+          <span class="recipe-tagline">Fresh vegetables in light cream sauce</span>
         </a>
         <a href="/recipes/penne-alla-vodka/" class="recipe-card">
           <span class="recipe-title">Penne alla Vodka</span>
-          <span class="recipe-meta">10 min + 25 min · 4</span>
+          <span class="recipe-tagline">Creamy tomato sauce with a kick. The vodka cooks off but the magic stays.</span>
+        </a>
+        <a href="/recipes/shrimp-scampi/" class="recipe-card">
+          <span class="recipe-title">Shrimp Scampi</span>
+          <span class="recipe-tagline">Garlicky, buttery, perfectly cooked shrimp</span>
         </a>
         <a href="/recipes/spaghetti-and-meatballs/" class="recipe-card">
-          <span class="recipe-title">Spaghetti & Meatballs</span>
-          <span class="recipe-meta">20 min + 45 min · 6</span>
+          <span class="recipe-title">Spaghetti &amp; Meatballs</span>
+          <span class="recipe-tagline">Tender meatballs, quick marinara. Weeknight-friendly.</span>
+        </a>
+        <a href="/recipes/aglio-e-olio/" class="recipe-card">
+          <span class="recipe-title">Spaghetti Aglio e Olio</span>
+          <span class="recipe-tagline">Five ingredients. Fifteen minutes. Italian perfection.</span>
+        </a>
+        <a href="/recipes/carbonara/" class="recipe-card">
+          <span class="recipe-title">Spaghetti Carbonara</span>
+          <span class="recipe-tagline">Silky egg sauce, crispy pork, no cream</span>
+        </a>
+        <a href="/recipes/stuffed-shells/" class="recipe-card">
+          <span class="recipe-title">Stuffed Shells</span>
+          <span class="recipe-tagline">Ricotta-filled pasta in marinara</span>
+        </a>
+        <a href="/recipes/tuna-noodle-casserole/" class="recipe-card">
+          <span class="recipe-title">Tuna Noodle Casserole</span>
+          <span class="recipe-tagline">Creamy, comforting, budget-friendly classic.</span>
         </a>
     </div>
-    <footer><a href="/">rcpbx.com</a> · no life stories · no ads</footer>
-  </div>
+    <div class="also"><span class="lbl">&gt; also:</span><a href="/15-minute-meals/">15-minute meals</a> · <a href="/30-minute-meals/">30-minute meals</a> · <a href="/weeknight/">weeknight dinners</a> · <a href="/no-cook/">no-cook</a> · <a href="/easy-recipes/">easy</a> · <a href="/chicken-recipes/">chicken</a> · <a href="/dessert-recipes/">desserts</a></div>
+  </main>
+  <footer>
+    <p class="footer-text"><a href="/">rcpbx.com</a> · no life stories · no ads · <a href="/random/">random recipe</a></p>
+  </footer>
 </body>
 </html>
