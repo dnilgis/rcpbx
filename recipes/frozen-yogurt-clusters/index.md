@@ -1,0 +1,46 @@
+# Frozen Yogurt Clusters
+
+Chocolate-shelled frozen yogurt bites. The freezer snack of the summer.
+
+Prep: 15 min (plus 2 hr freeze) · Cook: 0 min · Makes: 12 clusters
+
+**Verdict: WORTH IT** — Fifteen minutes of work, a freezer bag of snacks that beat anything in the ice cream aisle for protein.
+
+_Tested 2026-07. Cooling the melted chocolate before dipping is the difference between a shell and a milkshake._
+
+## Ingredients
+
+- 1 cup (225g) full-fat Greek yogurt
+- 1 1/2 Tbsp honey
+- 1/2 tsp vanilla extract
+- Pinch of fine salt
+- 1 cup mixed berries, chopped if large (strawberries, blueberries, raspberries)
+- 150g (5 oz) dark chocolate, chopped
+- 1 tsp coconut oil
+- Flaky salt (optional, correct)
+
+## Steps
+
+1. Stir yogurt, honey, vanilla, and salt together. Fold in the berries gently - streaks are fine, puree is not.
+2. Scoop 12 mounds (about 2 Tbsp each) onto a parchment-lined sheet pan that fits your freezer.
+3. Freeze at least 2 hours, until completely solid.
+4. Melt chocolate and coconut oil in 30-second microwave bursts, stirring between, until just smooth. Let it cool 2-3 minutes - hot chocolate melts frozen yogurt on contact.
+5. Working fast and in batches (keep the rest in the freezer), dip the frozen mounds to coat, or spoon chocolate over the tops and let it run down. Set each back on the parchment.
+6. Sprinkle with flaky salt. Freeze 10 minutes to set the shell.
+7. Store in a freezer bag. Let sit 2-3 minutes before eating - straight from the freezer they're a dental event.
+
+## Notes
+
+- Coconut oil thins the chocolate into a thin, snappy shell - the Magic Shell principle.
+- Frozen yogurt is icier than ice cream; the honey and full-fat yogurt keep it scoopable-adjacent.
+- Any fruit works. Banana slices in the yogurt make them creamier.
+
+## When it goes wrong
+
+- Chocolate slid right off → yogurt not frozen solid or chocolate too hot; freeze hard, cool the dip.
+- Shell won't snap → no coconut oil or chocolate chips with stabilizers; use real chopped chocolate plus the oil.
+- Icy, rock-hard bites → nonfat yogurt or no honey; both are doing anti-freeze work here.
+- Clusters fused in the bag → bagged before the shell set; give them the final 10-minute freeze.
+
+Source: TikTok viral, summer 2026
+Canonical: https://rcpbx.com/recipes/frozen-yogurt-clusters/
