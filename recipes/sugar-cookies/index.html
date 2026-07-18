@@ -2,52 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Sugar Cookies | rcpbx</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
-  
-  <!-- SEO -->
-  <meta name="description" content="Sugar Cookies: Crisp edges, soft center, perfect for decorating">
+  <meta name="description" content="Sugar Cookies - King Arthur tested">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://rcpbx.com/recipes/sugar-cookies/">
-  
-  <!-- Open Graph -->
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://rcpbx.com/recipes/sugar-cookies/">
   <meta property="og:title" content="Sugar Cookies | rcpbx">
-  <meta property="og:description" content="Sugar Cookies: Crisp edges, soft center, perfect for decorating">
+  <meta property="og:description" content="Sugar Cookies - King Arthur tested">
   <meta property="og:site_name" content="rcpbx">
-  <meta property="og:image" content="https://rcpbx.com/og-image.svg">
-  
-  <!-- Twitter -->
+  <meta property="og:image" content="https://rcpbx.com/recipes/sugar-cookies/card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Sugar Cookies | rcpbx">
-  <meta name="twitter:description" content="Sugar Cookies: Crisp edges, soft center, perfect for decorating">
-  <meta name="twitter:image" content="https://rcpbx.com/og-image.svg">
-  
-  <!-- Recipe Schema -->
+  <meta name="twitter:description" content="Sugar Cookies - King Arthur tested">
+  <meta name="twitter:image" content="https://rcpbx.com/recipes/sugar-cookies/card.png">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Recipe",
   "name": "Sugar Cookies",
   "description": "Sugar Cookies - King Arthur tested",
+  "image": [
+    "https://rcpbx.com/recipes/sugar-cookies/card.png"
+  ],
   "author": {
     "@type": "Organization",
-    "name": "rcpbx"
+    "name": "rcpbx",
+    "url": "https://rcpbx.com"
   },
-  "datePublished": "2024-01-01",
   "recipeYield": "24-36",
   "recipeCategory": "Baking",
+  "keywords": "sugar cookies, baking, no ads recipe, tested recipe",
   "recipeIngredient": [
     "1 cup butter softened",
     "1 cup sugar",
     "1 egg",
     "2 tsp vanilla",
-    "\u00bd tsp almond extract (optional)",
+    "½ tsp almond extract (optional)",
     "3 cups flour",
-    "1\u00bd tsp baking powder",
-    "\u00bd tsp salt",
+    "1½ tsp baking powder",
+    "½ tsp salt",
     "Royal icing for decorating"
   ],
   "recipeInstructions": [
@@ -69,7 +67,7 @@
     },
     {
       "@type": "HowToStep",
-      "text": "Roll to \u00bc-inch thick. Cut shapes."
+      "text": "Roll to ¼-inch thick. Cut shapes."
     },
     {
       "@type": "HowToStep",
@@ -77,7 +75,7 @@
     },
     {
       "@type": "HowToStep",
-      "text": "Bake at 350\u00b0F for 8-10 minutes until edges just start to color."
+      "text": "Bake at 350°F for 8-10 minutes until edges just start to color."
     },
     {
       "@type": "HowToStep",
@@ -87,8 +85,6 @@
   "url": "https://rcpbx.com/recipes/sugar-cookies/"
 }
   </script>
-  
-  <!-- Breadcrumb Schema -->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -104,7 +100,7 @@
       "@type": "ListItem",
       "position": 2,
       "name": "Baking & Desserts",
-      "item": "https://rcpbx.com/?category=baking-dessert"
+      "item": "https://rcpbx.com/dessert-recipes/"
     },
     {
       "@type": "ListItem",
@@ -115,8 +111,6 @@
   ]
 }
   </script>
-  
-  <!-- Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2VNWY2BFX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -124,291 +118,355 @@
     gtag('js', new Date());
     gtag('config', 'G-E2VNWY2BFX');
   </script>
-  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #faf9f6;
-      --text: #222;
-      --text-muted: #666;
-      --border: #ddd;
-      --accent: #16a34a;
-      --accent-light: #dcfce7;
-      --font-sans: 'Inter', -apple-system, sans-serif;
-      --font-mono: 'JetBrains Mono', monospace;
+      --bg: #faf9f6; --bg-alt: #f0efeb; --text: #222; --text-muted: #666; --text-dim: #999;
+      --border: #ddd; --accent: #16a34a; --accent-light: #dcfce7; --accent-dim: rgba(22,163,74,0.1);
+      --font-sans: 'Inter', -apple-system, sans-serif; --font-mono: 'JetBrains Mono', monospace;
     }
     @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #111;
-        --text: #e5e5e5;
-        --text-muted: #999;
-        --border: #333;
-        --accent: #22c55e;
-        --accent-light: #14532d;
-      }
+      :root { --bg: #111; --bg-alt: #1a1a1a; --text: #e5e5e5; --text-muted: #999; --text-dim: #666;
+        --border: #333; --accent: #22c55e; --accent-light: #14532d; --accent-dim: rgba(34,197,94,0.15); }
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { font-family: var(--font-sans); background: var(--bg); color: var(--text); line-height: 1.6; }
     body { min-height: 100vh; }
-    
-    header {
-      border-bottom: 1px solid var(--border);
-      padding: 1rem 1.5rem;
-    }
-    .header-inner {
-      max-width: 800px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .logo {
-      font-family: var(--font-mono);
-      font-size: 1.25rem;
-      font-weight: 600;
-      text-decoration: none;
-      color: var(--text);
-    }
+    header { border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; position: sticky; top: 0; background: var(--bg); z-index: 50; }
+    .header-inner { max-width: 800px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+    .logo { font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600; text-decoration: none; color: var(--text); white-space: nowrap; }
     .logo-prefix { color: var(--accent); }
-    .breadcrumb {
-      font-size: 0.8rem;
-      color: var(--text-muted);
-    }
-    .breadcrumb a {
-      color: var(--text-muted);
-      text-decoration: none;
-    }
+    .header-actions { display: flex; gap: 0.5rem; align-items: center; }
+    .hbtn { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); background: none;
+      border: 1px solid var(--border); border-radius: 4px; padding: 0.35rem 0.6rem; cursor: pointer; text-decoration: none; white-space: nowrap; }
+    .hbtn:hover { border-color: var(--accent); color: var(--accent); }
+    .hbtn.on { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+    .breadcrumb { font-size: 0.75rem; color: var(--text-muted); max-width: 800px; margin: 0.4rem auto 0; }
+    .breadcrumb a { color: var(--text-muted); text-decoration: none; }
     .breadcrumb a:hover { color: var(--accent); }
-    
-    main {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 2rem 1.5rem;
-    }
-    
-    .recipe-header {
-      margin-bottom: 2rem;
-      padding-bottom: 1.5rem;
-      border-bottom: 1px solid var(--border);
-    }
-    h1 {
-      font-size: 2rem;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
-    }
-    .tagline {
-      font-size: 1.1rem;
-      color: var(--text-muted);
-      margin-bottom: 1rem;
-    }
-    .meta {
-      display: flex;
-      gap: 1.5rem;
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }
-    .meta-item {
-      display: flex;
-      align-items: center;
-      gap: 0.3rem;
-    }
-    .meta-label {
-      font-weight: 500;
-      color: var(--text);
-    }
-    
-    .recipe-grid {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      gap: 2rem;
-    }
-    @media (max-width: 700px) {
-      .recipe-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-    
-    section {
-      margin-bottom: 2rem;
-    }
-    h2 {
-      font-size: 1.1rem;
-      font-weight: 600;
-      margin-bottom: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--text-muted);
-    }
-    
-    .ingredients ul {
-      list-style: none;
-    }
-    .ingredient {
-      padding: 0.5rem 0;
-      border-bottom: 1px solid var(--border);
-    }
-    .ingredient:last-child {
-      border-bottom: none;
-    }
-    
-    .steps ol {
-      list-style: none;
-      counter-reset: step;
-    }
-    .step {
-      counter-increment: step;
-      padding: 0.75rem 0;
-      padding-left: 2.5rem;
-      position: relative;
-      border-bottom: 1px solid var(--border);
-    }
-    .step:last-child {
-      border-bottom: none;
-    }
-    .step::before {
-      content: counter(step);
-      position: absolute;
-      left: 0;
-      top: 0.75rem;
-      width: 1.75rem;
-      height: 1.75rem;
-      background: var(--accent);
-      color: white;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.8rem;
-      font-weight: 600;
-    }
-    
-    .notes {
-      background: var(--accent-light);
-      padding: 1.25rem;
-      border-radius: 8px;
-      margin-top: 2rem;
-    }
-    .notes h2 {
-      color: var(--accent);
-      margin-bottom: 0.75rem;
-    }
-    .notes ul {
-      list-style: none;
-    }
-    .notes li {
-      padding: 0.4rem 0;
-      padding-left: 1.25rem;
-      position: relative;
-    }
-    .notes li::before {
-      content: "→";
-      position: absolute;
-      left: 0;
-      color: var(--accent);
-    }
-    
-    .source {
-      margin-top: 2rem;
-      font-size: 0.85rem;
-      color: var(--text-muted);
-    }
-    .source a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-    .source a:hover {
-      text-decoration: underline;
-    }
-    
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 1.5rem;
-      text-align: center;
-      margin-top: 3rem;
-    }
-    .footer-text {
-      font-family: var(--font-mono);
-      font-size: 0.75rem;
-      color: var(--text-muted);
-    }
-    .footer-text a {
-      color: var(--accent);
-      text-decoration: none;
-    }
+    main { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+    .recipe-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; letter-spacing: -0.02em; }
+    .tagline { font-size: 1.1rem; color: var(--text-muted); margin-bottom: 0.75rem; }
+    .verdict { display: flex; align-items: baseline; gap: 0.6rem; margin: 0.5rem 0 0.75rem; flex-wrap: wrap; }
+    .v-badge { font-family: var(--font-mono); font-size: 0.7rem; font-weight: 500; letter-spacing: 0.05em;
+      padding: 0.2rem 0.5rem; border-radius: 3px; color: var(--bg); background: var(--accent); }
+    .v-hype .v-badge { background: #d97706; } .v-skip .v-badge { background: #dc2626; }
+    .v-note { font-size: 0.85rem; color: var(--text-muted); font-style: italic; }
+    .tested-line { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; }
+    .tested-badge { font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent);
+      border: 1px solid var(--accent); border-radius: 3px; padding: 0.1rem 0.4rem; margin-right: 0.4rem; }
+    .meta { display: flex; gap: 1.25rem; font-size: 0.9rem; color: var(--text-muted); align-items: center; flex-wrap: wrap; }
+    .meta-item { display: flex; align-items: center; gap: 0.3rem; }
+    .meta-label { font-weight: 500; color: var(--text); }
+    .scaler { display: inline-flex; align-items: center; gap: 0.15rem; margin-left: 0.35rem; }
+    .scaler button { font-family: var(--font-mono); width: 1.5rem; height: 1.5rem; border: 1px solid var(--border);
+      background: var(--bg); color: var(--text); border-radius: 3px; cursor: pointer; font-size: 0.85rem; line-height: 1; }
+    .scaler button:hover { border-color: var(--accent); color: var(--accent); }
+    .scaler .mult { font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); min-width: 2.2rem; text-align: center; }
+    .recipe-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; }
+    @media (max-width: 700px) { .recipe-grid { grid-template-columns: 1fr; } }
+    section { margin-bottom: 2rem; }
+    h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); }
+    .ingredients ul { list-style: none; }
+    .ing-group { font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--accent); padding: 0.75rem 0 0.25rem; }
+    .ingredient { padding: 0.5rem 0; border-bottom: 1px solid var(--border); cursor: pointer;
+      display: flex; align-items: baseline; gap: 0.6rem; -webkit-tap-highlight-color: transparent; }
+    .ingredient:last-child { border-bottom: none; }
+    .ingredient::before { content: ""; flex: none; width: 0.9rem; height: 0.9rem; border: 1.5px solid var(--border);
+      border-radius: 3px; transform: translateY(0.12rem); transition: all 0.15s; }
+    .ingredient:hover::before { border-color: var(--accent); }
+    .ingredient.done::before { background: var(--accent); border-color: var(--accent);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 8.5 6.5 12 13 4.5' stroke='white' stroke-width='2.2' fill='none'/%3E%3C/svg%3E"); }
+    .ingredient.done .ing-text { color: var(--text-dim); text-decoration: line-through; }
+    .qty { color: var(--accent); font-weight: 500; }
+    .steps ol { list-style: none; counter-reset: step; }
+    .step { counter-increment: step; padding: 0.85rem 0; padding-left: 2.5rem; position: relative;
+      border-bottom: 1px solid var(--border); font-size: 1.02rem; cursor: pointer; transition: opacity 0.2s; -webkit-tap-highlight-color: transparent; }
+    .step:last-child { border-bottom: none; }
+    .step::before { content: counter(step); position: absolute; left: 0; top: 0.85rem; width: 1.75rem; height: 1.75rem;
+      background: var(--accent); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      font-size: 0.8rem; font-weight: 600; transition: all 0.15s; }
+    .steps.focused .step { opacity: 0.35; }
+    .steps.focused .step.current { opacity: 1; font-size: 1.12rem; font-weight: 500; }
+    .steps.focused .step.current::before { transform: scale(1.15); }
+    .step.done-step { opacity: 0.45; } .step.done-step::before { background: var(--text-dim); }
+    .t { font-family: var(--font-mono); font-size: 0.85em; color: var(--accent); background: var(--accent-dim);
+      border: 1px dashed var(--accent); border-radius: 4px; padding: 0 0.35rem; cursor: pointer; }
+    .t.running { background: var(--accent); color: var(--bg); border-style: solid; }
+    .cook-hint { font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-dim); margin: -0.5rem 0 1rem; }
+    .notes { background: var(--accent-light); padding: 1.25rem; border-radius: 8px; margin-top: 2rem; }
+    .notes h2 { color: var(--accent); margin-bottom: 0.75rem; }
+    .notes ul, .trouble ul { list-style: none; }
+    .notes li, .trouble li { padding: 0.4rem 0; padding-left: 1.25rem; position: relative; }
+    .notes li::before, .trouble li::before { content: "→"; position: absolute; left: 0; color: var(--accent); }
+    .trouble { background: var(--bg-alt); border: 1px solid var(--border); padding: 1.25rem; border-radius: 8px; margin-top: 1.5rem; }
+    .trouble h2 { margin-bottom: 0.75rem; }
+    .trouble li::before { content: "!"; font-family: var(--font-mono); font-weight: 500; color: #d97706; }
+    .source { margin-top: 2rem; font-size: 0.85rem; color: var(--text-muted); }
+    .related { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1.5rem; }
+    .related h2 { font-size: 0.7rem; font-family: var(--font-mono); }
+    .related h2::before { content: ">"; color: var(--accent); margin-right: 0.4rem; }
+    .related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem; }
+    .related-grid a { display: block; padding: 0.75rem 0.9rem; border: 1px solid var(--border); border-radius: 6px;
+      text-decoration: none; transition: border-color 0.15s; }
+    .related-grid a:hover { border-color: var(--accent); }
+    .rel-title { display: block; font-weight: 600; font-size: 0.9rem; color: var(--text); }
+    .rel-tag { display: block; font-size: 0.75rem; color: var(--text-muted); margin-top: 0.15rem; }
+    .rel-more { font-family: var(--font-mono); font-size: 0.75rem; margin-top: 0.9rem; }
+    .rel-more a { color: var(--accent); text-decoration: none; margin-right: 1.25rem; }
+    footer { border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; margin-top: 3rem; }
+    .footer-text { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); }
+    .footer-text a { color: var(--accent); text-decoration: none; }
+    .timerbar { position: fixed; bottom: 0; left: 0; right: 0; background: var(--text); color: var(--bg);
+      font-family: var(--font-mono); display: none; align-items: center; justify-content: center; gap: 1rem;
+      padding: 0.6rem 1rem; z-index: 100; font-size: 0.95rem; }
+    .timerbar.show { display: flex; }
+    .timerbar button { font-family: var(--font-mono); background: none; border: 1px solid var(--bg);
+      color: var(--bg); border-radius: 4px; padding: 0.15rem 0.6rem; cursor: pointer; font-size: 0.75rem; }
+    @media print { header, .related, footer, .timerbar, .cook-hint, .header-actions { display: none !important; }
+      .recipe-grid { grid-template-columns: 1fr 2fr; } }
   </style>
 </head>
 <body>
   <header>
     <div class="header-inner">
       <a href="/" class="logo"><span class="logo-prefix">&gt;</span>rcpbx</a>
-      <nav class="breadcrumb">
-        <a href="/">Home</a> / <a href="/?category=baking-dessert">Baking</a> / Sugar Cookies
-      </nav>
+      <div class="header-actions">
+        <button class="hbtn" id="saveBtn" type="button">+ box</button>
+        <button class="hbtn" id="wakeBtn" type="button" hidden>screen on</button>
+        <button class="hbtn" id="resetBtn" type="button" title="clear check-offs">reset</button>
+      </div>
     </div>
+    <nav class="breadcrumb"><a href="/">Home</a> / <a href="/dessert-recipes/">Baking &amp; Desserts</a> / Sugar Cookies</nav>
   </header>
-  
+
   <main>
-    <article>
+    <article data-recipe="sugar-cookies">
       <div class="recipe-header">
         <h1>Sugar Cookies</h1>
         <p class="tagline">Crisp edges, soft center, perfect for decorating</p>
+        
+        
         <div class="meta">
           <span class="meta-item"><span class="meta-label">Prep:</span> </span>
           <span class="meta-item"><span class="meta-label">Cook:</span> </span>
-          <span class="meta-item"><span class="meta-label">Serves:</span> 24-36</span>
+          <span class="meta-item"><span class="meta-label">Makes:</span> <span id="servesVal">24-36</span>
+            <span class="scaler"><button id="scDown" type="button" aria-label="scale down">−</button><span class="mult" id="scMult">1×</span><button id="scUp" type="button" aria-label="scale up">+</button></span>
+          </span>
         </div>
       </div>
-      
+
       <div class="recipe-grid">
         <section class="ingredients">
           <h2>Ingredients</h2>
-          <ul>
-        <li class="ingredient">1 cup butter softened</li>
-        <li class="ingredient">1 cup sugar</li>
-        <li class="ingredient">1 egg</li>
-        <li class="ingredient">2 tsp vanilla</li>
-        <li class="ingredient">½ tsp almond extract (optional)</li>
-        <li class="ingredient">3 cups flour</li>
-        <li class="ingredient">1½ tsp baking powder</li>
-        <li class="ingredient">½ tsp salt</li>
-        <li class="ingredient">Royal icing for decorating</li>
+          <p class="cook-hint">tap to check off</p>
+          <ul id="ingList">
+        <li class="ingredient"><span class="ing-text"><span class="qty" data-base="1">1</span> cup butter softened</span></li>
+        <li class="ingredient"><span class="ing-text"><span class="qty" data-base="1">1</span> cup sugar</span></li>
+        <li class="ingredient"><span class="ing-text"><span class="qty" data-base="1">1</span> egg</span></li>
+        <li class="ingredient"><span class="ing-text"><span class="qty" data-base="2">2</span> tsp vanilla</span></li>
+        <li class="ingredient"><span class="ing-text">½ tsp almond extract (optional)</span></li>
+        <li class="ingredient"><span class="ing-text"><span class="qty" data-base="3">3</span> cups flour</span></li>
+        <li class="ingredient"><span class="ing-text">1½ tsp baking powder</span></li>
+        <li class="ingredient"><span class="ing-text">½ tsp salt</span></li>
+        <li class="ingredient"><span class="ing-text">Royal icing for decorating</span></li>
           </ul>
         </section>
-        
-        <section class="steps">
+
+        <section class="steps" id="stepsWrap">
           <h2>Instructions</h2>
-          <ol>
-        <li class="step">Beat butter and sugar until fluffy, 3 minutes.</li>
+          <p class="cook-hint">tap a step to focus · tap times to start a timer</p>
+          <ol id="stepList">
+        <li class="step">Beat butter and sugar until fluffy, <button class="t" data-min="3" type="button" aria-label="start 3 minute timer">3 minutes</button>.</li>
         <li class="step">Add egg and extracts.</li>
         <li class="step">Whisk flour, baking powder, salt. Add gradually.</li>
         <li class="step">Divide dough, flatten, wrap, chill 2 hours.</li>
         <li class="step">Roll to ¼-inch thick. Cut shapes.</li>
-        <li class="step">Place on parchment sheets. Chill 15 minutes.</li>
-        <li class="step">Bake at 350°F for 8-10 minutes until edges just start to color.</li>
+        <li class="step">Place on parchment sheets. Chill <button class="t" data-min="15" type="button" aria-label="start 15 minute timer">15 minutes</button>.</li>
+        <li class="step">Bake at 350°F for <button class="t" data-min="10" type="button" aria-label="start 10 minute timer">8-10 minutes</button> until edges just start to color.</li>
         <li class="step">Cool completely before decorating.</li>
           </ol>
         </section>
       </div>
-      
+
     <section class="notes">
       <h2>Notes</h2>
       <ul>
         <li>Chilling prevents spreading.</li>
-        <li>Don't overbake - they firm as they cool.</li>
+        <li>Don&#x27;t overbake - they firm as they cool.</li>
         <li>Almond extract is the secret.</li>
       </ul>
     </section>
-      
-      <p class="source">King Arthur Baking (King Arthur tested) · <a href="https://www.kingarthurbaking.com/recipes/cutout-sugar-cookies-recipe" target="_blank" rel="noopener">Original</a></p>
+
+
+      <p class="source">King Arthur Baking (King Arthur tested)</p>
+
+      <section class="related">
+        <h2>More like this</h2>
+        <div class="related-grid">
+        <a href="/recipes/carrot-cake/"><span class="rel-title">Carrot Cake</span><span class="rel-tag">Moist, spiced, cream cheese frosted</span></a>
+        <a href="/recipes/pound-cake/"><span class="rel-title">Pound Cake</span><span class="rel-tag">Dense, buttery, versatile</span></a>
+        <a href="/recipes/yogurt-tiramisu/"><span class="rel-title">Yogurt Tiramisu</span><span class="rel-tag">The viral Biscoff-yogurt tiramisu. Zero mascarpone, zero regret.</span></a>
+        </div>
+        <p class="rel-more"><a href="/dessert-recipes/">all Baking &amp; Desserts →</a><a href="/random/">&gt;_ random recipe</a><a href="/box/">your box →</a></p>
+      </section>
     </article>
   </main>
-  
+
+  <div class="timerbar" id="timerbar"><span id="timerLabel"></span><span id="timerVal"></span><button id="timerStop" type="button">stop</button></div>
+
   <footer>
-    <p class="footer-text">
-      <a href="/">rcpbx.com</a> · 142 recipes · no life stories · no ads
-    </p>
+    <p class="footer-text"><a href="/">rcpbx.com</a> · 161 recipes · no life stories · no ads</p>
   </footer>
+
+  <script>
+  (function(){
+    var RID = document.querySelector('article').dataset.recipe;
+    var LS = 'rcpbx-cook-' + RID;
+    var state = {}; try { state = JSON.parse(localStorage.getItem(LS)) || {}; } catch(e){}
+    function save(){ try { localStorage.setItem(LS, JSON.stringify(state)); } catch(e){} }
+
+    // --- ingredient check-off ---
+    var ings = [].slice.call(document.querySelectorAll('.ingredient'));
+    ings.forEach(function(li, i){
+      if (state['i'+i]) li.classList.add('done');
+      li.addEventListener('click', function(e){
+        if (e.target.closest('.t')) return;
+        li.classList.toggle('done');
+        state['i'+i] = li.classList.contains('done') ? 1 : 0; save();
+      });
+    });
+
+    // --- step focus ---
+    var wrap = document.getElementById('stepsWrap');
+    var steps = [].slice.call(document.querySelectorAll('.step'));
+    steps.forEach(function(li, i){
+      li.addEventListener('click', function(e){
+        if (e.target.closest('.t')) return;
+        var was = li.classList.contains('current');
+        steps.forEach(function(s){ s.classList.remove('current'); });
+        if (was) { wrap.classList.remove('focused'); }
+        else {
+          li.classList.add('current'); wrap.classList.add('focused');
+          steps.forEach(function(s, j){ s.classList.toggle('done-step', j < i); });
+        }
+      });
+    });
+
+    // --- serving scaler ---
+    var mult = 1, factors = [0.5, 1, 1.5, 2, 3, 4];
+    var servesEl = document.getElementById('servesVal');
+    var baseServes = servesEl ? servesEl.textContent : '';
+    var baseNum = parseFloat(baseServes);
+    var UF = {0.25:'¼',0.333:'⅓',0.5:'½',0.667:'⅔',0.75:'¾',0.125:'⅛'};
+    function fmt(v){
+      if (v >= 10) return String(Math.round(v));
+      var whole = Math.floor(v + 1e-6), rem = v - whole, best = null, bd = 1;
+      [0.125,0.25,0.333,0.5,0.667,0.75].forEach(function(f){ var d = Math.abs(rem - f); if (d < bd) { bd = d; best = f; } });
+      if (rem < 0.0625) return String(whole || Math.round(v*100)/100);
+      if (bd < 0.06) return (whole ? whole + ' ' : '') + UF[best];
+      return String(Math.round(v * 100) / 100);
+    }
+    function applyScale(){
+      document.querySelectorAll('.qty').forEach(function(q){
+        var b = parseFloat(q.dataset.base);
+        q.textContent = mult === 1 ? (q.dataset.orig || q.textContent) : fmt(b * mult);
+        if (!q.dataset.orig) q.dataset.orig = q.textContent;
+      });
+      if (servesEl && !isNaN(baseNum)) {
+        servesEl.textContent = mult === 1 ? baseServes : baseServes.replace(/[0-9.]+/, function(n){ return fmt(parseFloat(n) * mult); });
+      }
+      document.getElementById('scMult').textContent = (mult % 1 ? mult.toFixed(1) : mult) + '×';
+    }
+    document.querySelectorAll('.qty').forEach(function(q){ q.dataset.orig = q.textContent; });
+    document.getElementById('scUp').addEventListener('click', function(){
+      var i = factors.indexOf(mult); if (i < factors.length - 1) { mult = factors[i+1]; applyScale(); }
+    });
+    document.getElementById('scDown').addEventListener('click', function(){
+      var i = factors.indexOf(mult); if (i > 0) { mult = factors[i-1]; applyScale(); }
+    });
+
+    // --- timers ---
+    var bar = document.getElementById('timerbar'), tv = document.getElementById('timerVal'),
+        tl = document.getElementById('timerLabel'), iv = null, endAt = 0, activeBtn = null;
+    function beep(){
+      try {
+        var ctx = new (window.AudioContext || window.webkitAudioContext)();
+        var n = 0;
+        (function ping(){
+          if (n++ > 5) return;
+          var o = ctx.createOscillator(), g = ctx.createGain();
+          o.connect(g); g.connect(ctx.destination); o.frequency.value = 880;
+          g.gain.setValueAtTime(0.3, ctx.currentTime);
+          g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.35);
+          o.start(); o.stop(ctx.currentTime + 0.4);
+          setTimeout(ping, 500);
+        })();
+      } catch(e){}
+    }
+    function stopTimer(){
+      clearInterval(iv); iv = null; bar.classList.remove('show');
+      if (activeBtn) activeBtn.classList.remove('running'); activeBtn = null;
+    }
+    function tick(){
+      var s = Math.max(0, Math.round((endAt - Date.now()) / 1000));
+      tv.textContent = Math.floor(s/60) + ':' + ('0' + s % 60).slice(-2);
+      document.title = tv.textContent + ' · Sugar Cookies | rcpbx';
+      if (s <= 0) { stopTimer(); beep(); document.title = 'Sugar Cookies | rcpbx'; tv.textContent = 'done!';
+        bar.classList.add('show'); setTimeout(function(){ bar.classList.remove('show'); }, 5000); }
+    }
+    document.getElementById('timerStop').addEventListener('click', function(){ stopTimer(); document.title = 'Sugar Cookies | rcpbx'; });
+    document.querySelectorAll('.t').forEach(function(b){
+      b.addEventListener('click', function(e){
+        e.stopPropagation();
+        stopTimer(); activeBtn = b; b.classList.add('running');
+        endAt = Date.now() + parseInt(b.dataset.min, 10) * 60000;
+        tl.textContent = b.dataset.min + ' min timer'; bar.classList.add('show');
+        tick(); iv = setInterval(tick, 500);
+      });
+    });
+
+    // --- wake lock ---
+    var wakeBtn = document.getElementById('wakeBtn'), lock = null;
+    if ('wakeLock' in navigator) {
+      wakeBtn.hidden = false;
+      function req(){ navigator.wakeLock.request('screen').then(function(l){
+        lock = l; wakeBtn.classList.add('on'); wakeBtn.textContent = 'screen on ✓';
+        l.addEventListener('release', function(){ wakeBtn.classList.remove('on'); wakeBtn.textContent = 'screen on'; });
+      }).catch(function(){}); }
+      wakeBtn.addEventListener('click', function(){
+        if (lock) { lock.release(); lock = null; } else req();
+      });
+      document.addEventListener('visibilitychange', function(){
+        if (lock !== null && document.visibilityState === 'visible') req();
+      });
+    }
+
+    // --- save to box ---
+    var saveBtn = document.getElementById('saveBtn');
+    function box(){ try { return JSON.parse(localStorage.getItem('rcpbx-box')) || []; } catch(e){ return []; } }
+    function renderSave(){ var on = box().indexOf(RID) > -1;
+      saveBtn.classList.toggle('on', on); saveBtn.textContent = on ? '✓ in box' : '+ box'; }
+    saveBtn.addEventListener('click', function(){
+      var b = box(), i = b.indexOf(RID);
+      if (i > -1) b.splice(i, 1); else b.push(RID);
+      try { localStorage.setItem('rcpbx-box', JSON.stringify(b)); } catch(e){}
+      renderSave();
+    });
+    renderSave();
+
+    // --- reset ---
+    document.getElementById('resetBtn').addEventListener('click', function(){
+      state = {}; save();
+      ings.forEach(function(li){ li.classList.remove('done'); });
+      steps.forEach(function(s){ s.classList.remove('current','done-step'); });
+      wrap.classList.remove('focused');
+    });
+  })();
+  </script>
 </body>
 </html>
