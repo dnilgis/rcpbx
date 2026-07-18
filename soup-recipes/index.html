@@ -2,96 +2,149 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Soup Recipes | rcpbx</title>
-  <meta name="description" content="Warm, comforting, soupy.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Soup &amp; Stew Recipes | rcpbx</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
+  <meta name="description" content="13 soups &amp; stews recipes with no ads and no life stories. Ingredients, steps, done.">
+  <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://rcpbx.com/soup-recipes/">
-  <meta property="og:title" content="Soup Recipes | rcpbx">
-  <meta property="og:description" content="Warm, comforting, soupy.">
+  <meta property="og:type" content="website">
   <meta property="og:url" content="https://rcpbx.com/soup-recipes/">
+  <meta property="og:title" content="Soup &amp; Stew Recipes | rcpbx">
+  <meta property="og:description" content="13 soups &amp; stews recipes with no ads and no life stories. Ingredients, steps, done.">
+  <meta property="og:site_name" content="rcpbx">
+  <meta property="og:image" content="https://rcpbx.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://rcpbx.com/og-image.png">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"CollectionPage","name":"Soup Recipes","description":"Warm, comforting, soupy.","url":"https://rcpbx.com/soup-recipes/"}
+{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Soup & Stew Recipes", "description": "13 soups & stews recipes with no ads and no life stories. Ingredients, steps, done.", "url": "https://rcpbx.com/soup-recipes/", "mainEntity": {"@type": "ItemList", "numberOfItems": 13, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Beef Barley Soup", "url": "https://rcpbx.com/recipes/beef-barley-soup/"}, {"@type": "ListItem", "position": 2, "name": "Beef Stew", "url": "https://rcpbx.com/recipes/beef-stew/"}, {"@type": "ListItem", "position": 3, "name": "Broccoli Cheddar Soup", "url": "https://rcpbx.com/recipes/broccoli-cheddar-soup/"}, {"@type": "ListItem", "position": 4, "name": "Chicken Noodle Soup", "url": "https://rcpbx.com/recipes/chicken-noodle-soup/"}, {"@type": "ListItem", "position": 5, "name": "Chicken Tortilla Soup", "url": "https://rcpbx.com/recipes/chicken-tortilla-soup/"}, {"@type": "ListItem", "position": 6, "name": "Chili by George", "url": "https://rcpbx.com/recipes/chili-by-george/"}, {"@type": "ListItem", "position": 7, "name": "French Onion Soup", "url": "https://rcpbx.com/recipes/french-onion-soup/"}, {"@type": "ListItem", "position": 8, "name": "Loaded Baked Potato Soup", "url": "https://rcpbx.com/recipes/potato-soup/"}, {"@type": "ListItem", "position": 9, "name": "Minestrone", "url": "https://rcpbx.com/recipes/minestrone/"}, {"@type": "ListItem", "position": 10, "name": "New England Clam Chowder", "url": "https://rcpbx.com/recipes/clam-chowder/"}, {"@type": "ListItem", "position": 11, "name": "Split Pea Soup", "url": "https://rcpbx.com/recipes/split-pea-soup/"}, {"@type": "ListItem", "position": 12, "name": "Tomato Soup", "url": "https://rcpbx.com/recipes/tomato-soup/"}, {"@type": "ListItem", "position": 13, "name": "White Chicken Chili", "url": "https://rcpbx.com/recipes/white-chicken-chili/"}]}}
   </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2VNWY2BFX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E2VNWY2BFX');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    :root { --bg: #faf9f6; --text: #222; --text-muted: #666; --border: #ddd; --accent: #16a34a; }
-    @media (prefers-color-scheme: dark) { :root { --bg: #111; --text: #e5e5e5; --text-muted: #999; --border: #333; --accent: #22c55e; } }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding: 2rem; }
-    .container { max-width: 800px; margin: 0 auto; }
-    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-    .subtitle { color: var(--text-muted); margin-bottom: 2rem; font-size: 1.1rem; }
-    .count { color: var(--accent); font-weight: 600; }
-    .recipes { display: grid; gap: 0.75rem; }
-    .recipe-card { display: flex; flex-direction: column; gap: 0.25rem; padding: 1rem; border: 1px solid var(--border); border-radius: 8px; text-decoration: none; color: var(--text); transition: border-color 0.15s; }
-    .recipe-card:hover { border-color: var(--accent); }
-    .recipe-title { font-weight: 600; }
-    .recipe-meta { font-size: 0.85rem; color: var(--text-muted); }
-    .back { display: inline-block; margin-bottom: 2rem; color: var(--text-muted); text-decoration: none; font-size: 0.9rem; }
-    .back:hover { color: var(--accent); }
-    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); text-align: center; font-size: 0.8rem; color: var(--text-muted); }
-    footer a { color: var(--accent); text-decoration: none; }
+    :root {
+      --bg: #faf9f6; --bg-alt: #f0efeb; --text: #222; --text-muted: #666; --text-dim: #999;
+      --border: #ddd; --accent: #16a34a; --accent-dim: rgba(22,163,74,0.1);
+      --font-sans: 'Inter', -apple-system, sans-serif; --font-mono: 'JetBrains Mono', monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111; --bg-alt: #1a1a1a; --text: #e5e5e5; --text-muted: #999; --text-dim: #666;
+        --border: #333; --accent: #22c55e; --accent-dim: rgba(34,197,94,0.15); }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-family: var(--font-sans); background: var(--bg); color: var(--text); line-height: 1.6; }
+    header { border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; }
+    .header-inner { max-width: 800px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600; text-decoration: none; color: var(--text); }
+    .logo-prefix { color: var(--accent); }
+    .header-link { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); text-decoration: none; text-transform: uppercase; letter-spacing: 0.05em; }
+    .header-link:hover { color: var(--accent); }
+    main { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+    .breadcrumb { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 1rem; font-family: var(--font-mono); }
+    .breadcrumb a { color: var(--text-muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--accent); }
+    h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    .intro { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.75rem; max-width: 62ch; }
+    .count-line { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-dim); margin-bottom: 1rem; }
+    .count-line span { color: var(--accent); }
+    .recipe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.75rem; }
+    .recipe-card { display: block; padding: 0.85rem 1rem; border: 1px solid var(--border); border-radius: 6px;
+      text-decoration: none; transition: border-color 0.15s, transform 0.15s; }
+    .recipe-card:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .recipe-title { display: block; font-weight: 600; font-size: 0.95rem; color: var(--text); }
+    .card-verdict { font-family: var(--font-mono); font-size: 0.6rem; color: var(--accent); font-weight: 500; }
+    .recipe-tagline { display: block; font-size: 0.78rem; color: var(--text-muted); margin-top: 0.15rem; }
+    .recipe-meta { display: block; font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-dim); margin-top: 0.3rem; }
+    .also { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1.25rem;
+      font-family: var(--font-mono); font-size: 0.75rem; line-height: 2.1; color: var(--text-dim); }
+    .also a { color: var(--text-muted); text-decoration: none; }
+    .also a:hover { color: var(--accent); }
+    .also .lbl { color: var(--accent); margin-right: 0.4rem; }
+    footer { border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; margin-top: 3rem; }
+    .footer-text { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); }
+    .footer-text a { color: var(--accent); text-decoration: none; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <a href="/" class="back">← all recipes</a>
-    <h1>Soup Recipes</h1>
-    <p class="subtitle">Warm, comforting, soupy. <span class="count">13 recipes</span></p>
-    <div class="recipes">
+  <header>
+    <div class="header-inner">
+      <a href="/" class="logo"><span class="logo-prefix">&gt;</span>rcpbx</a>
+      <a href="/" class="header-link">← all recipes</a>
+    </div>
+  </header>
+  <main>
+    <nav class="breadcrumb"><a href="/">home</a> / soups &amp; stews</nav>
+    <h1>Soup &amp; Stew Recipes</h1>
+    <p class="intro">Every soups & stews recipe on rcpbx — 13 of them, one canonical version per dish, stripped to ingredients and steps. No ads, no life stories, no popups.</p>
+    <p class="count-line"><span>13</span> recipes · every one opens to ingredients and steps, nothing else</p>
+    <div class="recipe-grid">
         <a href="/recipes/beef-barley-soup/" class="recipe-card">
           <span class="recipe-title">Beef Barley Soup</span>
-          <span class="recipe-meta"> +  · 6-8</span>
+          <span class="recipe-tagline">Hearty, beefy, cold-weather comfort</span>
         </a>
         <a href="/recipes/beef-stew/" class="recipe-card">
           <span class="recipe-title">Beef Stew</span>
-          <span class="recipe-meta">30 min + 2½ hrs · 6</span>
+          <span class="recipe-tagline">Rich French-style stew. Fork-tender meat, hearty vegetables.</span>
         </a>
         <a href="/recipes/broccoli-cheddar-soup/" class="recipe-card">
           <span class="recipe-title">Broccoli Cheddar Soup</span>
-          <span class="recipe-meta"> +  · 6-8</span>
+          <span class="recipe-tagline">Silky, cheesy, actually tastes like broccoli</span>
         </a>
         <a href="/recipes/chicken-noodle-soup/" class="recipe-card">
           <span class="recipe-title">Chicken Noodle Soup</span>
-          <span class="recipe-meta">10 min + 20 min · 6</span>
+          <span class="recipe-tagline">Classic comfort. 30 minutes with rotisserie chicken.</span>
         </a>
         <a href="/recipes/chicken-tortilla-soup/" class="recipe-card">
           <span class="recipe-title">Chicken Tortilla Soup</span>
-          <span class="recipe-meta"> +  · 6</span>
+          <span class="recipe-tagline">Smoky, spicy, with crispy tortilla strips</span>
         </a>
         <a href="/recipes/chili-by-george/" class="recipe-card">
           <span class="recipe-title">Chili by George</span>
-          <span class="recipe-meta">15 min + 1½ hrs · 10</span>
-        </a>
-        <a href="/recipes/clam-chowder/" class="recipe-card">
-          <span class="recipe-title">New England Clam Chowder</span>
-          <span class="recipe-meta">20 min + 35 min · 6</span>
+          <span class="recipe-tagline">Reliable weeknight chili. Stovetop or slow cooker.</span>
         </a>
         <a href="/recipes/french-onion-soup/" class="recipe-card">
           <span class="recipe-title">French Onion Soup</span>
-          <span class="recipe-meta"> +  · 6</span>
-        </a>
-        <a href="/recipes/minestrone/" class="recipe-card">
-          <span class="recipe-title">Minestrone</span>
-          <span class="recipe-meta"> +  · 8-10</span>
+          <span class="recipe-tagline">Rich caramelized onions, beefy broth, bubbly Gruyère</span>
         </a>
         <a href="/recipes/potato-soup/" class="recipe-card">
           <span class="recipe-title">Loaded Baked Potato Soup</span>
-          <span class="recipe-meta"> +  · 6-8</span>
+          <span class="recipe-tagline">All the toppings, in soup form</span>
+        </a>
+        <a href="/recipes/minestrone/" class="recipe-card">
+          <span class="recipe-title">Minestrone</span>
+          <span class="recipe-tagline">Hearty Italian vegetable soup</span>
+        </a>
+        <a href="/recipes/clam-chowder/" class="recipe-card">
+          <span class="recipe-title">New England Clam Chowder</span>
+          <span class="recipe-tagline">Creamy, briny, and loaded with clams and potatoes. The real deal.</span>
         </a>
         <a href="/recipes/split-pea-soup/" class="recipe-card">
           <span class="recipe-title">Split Pea Soup</span>
-          <span class="recipe-meta"> +  · 6-8</span>
+          <span class="recipe-tagline">Thick, smoky, and deeply satisfying</span>
         </a>
         <a href="/recipes/tomato-soup/" class="recipe-card">
           <span class="recipe-title">Tomato Soup</span>
-          <span class="recipe-meta">10 min + 30 min · 6</span>
+          <span class="recipe-tagline">Velvety smooth, deeply tomatoey. Grilled cheese&#x27;s best friend.</span>
         </a>
         <a href="/recipes/white-chicken-chili/" class="recipe-card">
           <span class="recipe-title">White Chicken Chili</span>
-          <span class="recipe-meta">15 min + 30 min · 8</span>
+          <span class="recipe-tagline">Creamy, warming, and lighter than red chili.</span>
         </a>
     </div>
-    <footer><a href="/">rcpbx.com</a> · no life stories · no ads</footer>
-  </div>
+    <div class="also"><span class="lbl">&gt; also:</span><a href="/15-minute-meals/">15-minute meals</a> · <a href="/30-minute-meals/">30-minute meals</a> · <a href="/weeknight/">weeknight dinners</a> · <a href="/no-cook/">no-cook</a> · <a href="/easy-recipes/">easy</a> · <a href="/chicken-recipes/">chicken</a> · <a href="/pasta-recipes/">pasta</a> · <a href="/dessert-recipes/">desserts</a></div>
+  </main>
+  <footer>
+    <p class="footer-text"><a href="/">rcpbx.com</a> · no life stories · no ads · <a href="/random/">random recipe</a></p>
+  </footer>
 </body>
 </html>

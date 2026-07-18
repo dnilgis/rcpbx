@@ -2,100 +2,153 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Breakfast Recipes | rcpbx</title>
-  <meta name="description" content="Start your day right.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
+  <meta name="description" content="14 breakfast recipes with no ads and no life stories. Ingredients, steps, done.">
+  <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://rcpbx.com/breakfast-recipes/">
-  <meta property="og:title" content="Breakfast Recipes | rcpbx">
-  <meta property="og:description" content="Start your day right.">
+  <meta property="og:type" content="website">
   <meta property="og:url" content="https://rcpbx.com/breakfast-recipes/">
+  <meta property="og:title" content="Breakfast Recipes | rcpbx">
+  <meta property="og:description" content="14 breakfast recipes with no ads and no life stories. Ingredients, steps, done.">
+  <meta property="og:site_name" content="rcpbx">
+  <meta property="og:image" content="https://rcpbx.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://rcpbx.com/og-image.png">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"CollectionPage","name":"Breakfast Recipes","description":"Start your day right.","url":"https://rcpbx.com/breakfast-recipes/"}
+{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Breakfast Recipes", "description": "14 breakfast recipes with no ads and no life stories. Ingredients, steps, done.", "url": "https://rcpbx.com/breakfast-recipes/", "mainEntity": {"@type": "ItemList", "numberOfItems": 14, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Breakfast Burrito", "url": "https://rcpbx.com/recipes/breakfast-burrito/"}, {"@type": "ListItem", "position": 2, "name": "Breakfast Casserole", "url": "https://rcpbx.com/recipes/breakfast-casserole/"}, {"@type": "ListItem", "position": 3, "name": "Buttermilk Biscuits", "url": "https://rcpbx.com/recipes/biscuits/"}, {"@type": "ListItem", "position": 4, "name": "Buttermilk Pancakes", "url": "https://rcpbx.com/recipes/pancakes/"}, {"@type": "ListItem", "position": 5, "name": "Cinnamon Rolls", "url": "https://rcpbx.com/recipes/cinnamon-rolls/"}, {"@type": "ListItem", "position": 6, "name": "Crispy Waffles", "url": "https://rcpbx.com/recipes/waffles/"}, {"@type": "ListItem", "position": 7, "name": "Eggs Benedict", "url": "https://rcpbx.com/recipes/eggs-benedict/"}, {"@type": "ListItem", "position": 8, "name": "French Omelette", "url": "https://rcpbx.com/recipes/omelette/"}, {"@type": "ListItem", "position": 9, "name": "French Toast", "url": "https://rcpbx.com/recipes/french-toast/"}, {"@type": "ListItem", "position": 10, "name": "Hash Browns", "url": "https://rcpbx.com/recipes/hash-browns/"}, {"@type": "ListItem", "position": 11, "name": "Overnight Oats", "url": "https://rcpbx.com/recipes/overnight-oats/"}, {"@type": "ListItem", "position": 12, "name": "Quiche Lorraine", "url": "https://rcpbx.com/recipes/quiche/"}, {"@type": "ListItem", "position": 13, "name": "Scrambled Eggs", "url": "https://rcpbx.com/recipes/scrambled-eggs/"}, {"@type": "ListItem", "position": 14, "name": "Shakshuka", "url": "https://rcpbx.com/recipes/shakshuka/"}]}}
   </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2VNWY2BFX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E2VNWY2BFX');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    :root { --bg: #faf9f6; --text: #222; --text-muted: #666; --border: #ddd; --accent: #16a34a; }
-    @media (prefers-color-scheme: dark) { :root { --bg: #111; --text: #e5e5e5; --text-muted: #999; --border: #333; --accent: #22c55e; } }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding: 2rem; }
-    .container { max-width: 800px; margin: 0 auto; }
-    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-    .subtitle { color: var(--text-muted); margin-bottom: 2rem; font-size: 1.1rem; }
-    .count { color: var(--accent); font-weight: 600; }
-    .recipes { display: grid; gap: 0.75rem; }
-    .recipe-card { display: flex; flex-direction: column; gap: 0.25rem; padding: 1rem; border: 1px solid var(--border); border-radius: 8px; text-decoration: none; color: var(--text); transition: border-color 0.15s; }
-    .recipe-card:hover { border-color: var(--accent); }
-    .recipe-title { font-weight: 600; }
-    .recipe-meta { font-size: 0.85rem; color: var(--text-muted); }
-    .back { display: inline-block; margin-bottom: 2rem; color: var(--text-muted); text-decoration: none; font-size: 0.9rem; }
-    .back:hover { color: var(--accent); }
-    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); text-align: center; font-size: 0.8rem; color: var(--text-muted); }
-    footer a { color: var(--accent); text-decoration: none; }
+    :root {
+      --bg: #faf9f6; --bg-alt: #f0efeb; --text: #222; --text-muted: #666; --text-dim: #999;
+      --border: #ddd; --accent: #16a34a; --accent-dim: rgba(22,163,74,0.1);
+      --font-sans: 'Inter', -apple-system, sans-serif; --font-mono: 'JetBrains Mono', monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111; --bg-alt: #1a1a1a; --text: #e5e5e5; --text-muted: #999; --text-dim: #666;
+        --border: #333; --accent: #22c55e; --accent-dim: rgba(34,197,94,0.15); }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-family: var(--font-sans); background: var(--bg); color: var(--text); line-height: 1.6; }
+    header { border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; }
+    .header-inner { max-width: 800px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600; text-decoration: none; color: var(--text); }
+    .logo-prefix { color: var(--accent); }
+    .header-link { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); text-decoration: none; text-transform: uppercase; letter-spacing: 0.05em; }
+    .header-link:hover { color: var(--accent); }
+    main { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+    .breadcrumb { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 1rem; font-family: var(--font-mono); }
+    .breadcrumb a { color: var(--text-muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--accent); }
+    h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    .intro { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.75rem; max-width: 62ch; }
+    .count-line { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-dim); margin-bottom: 1rem; }
+    .count-line span { color: var(--accent); }
+    .recipe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.75rem; }
+    .recipe-card { display: block; padding: 0.85rem 1rem; border: 1px solid var(--border); border-radius: 6px;
+      text-decoration: none; transition: border-color 0.15s, transform 0.15s; }
+    .recipe-card:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .recipe-title { display: block; font-weight: 600; font-size: 0.95rem; color: var(--text); }
+    .card-verdict { font-family: var(--font-mono); font-size: 0.6rem; color: var(--accent); font-weight: 500; }
+    .recipe-tagline { display: block; font-size: 0.78rem; color: var(--text-muted); margin-top: 0.15rem; }
+    .recipe-meta { display: block; font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-dim); margin-top: 0.3rem; }
+    .also { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1.25rem;
+      font-family: var(--font-mono); font-size: 0.75rem; line-height: 2.1; color: var(--text-dim); }
+    .also a { color: var(--text-muted); text-decoration: none; }
+    .also a:hover { color: var(--accent); }
+    .also .lbl { color: var(--accent); margin-right: 0.4rem; }
+    footer { border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; margin-top: 3rem; }
+    .footer-text { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); }
+    .footer-text a { color: var(--accent); text-decoration: none; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <a href="/" class="back">← all recipes</a>
+  <header>
+    <div class="header-inner">
+      <a href="/" class="logo"><span class="logo-prefix">&gt;</span>rcpbx</a>
+      <a href="/" class="header-link">← all recipes</a>
+    </div>
+  </header>
+  <main>
+    <nav class="breadcrumb"><a href="/">home</a> / breakfast</nav>
     <h1>Breakfast Recipes</h1>
-    <p class="subtitle">Start your day right. <span class="count">14 recipes</span></p>
-    <div class="recipes">
-        <a href="/recipes/biscuits/" class="recipe-card">
-          <span class="recipe-title">Buttermilk Biscuits</span>
-          <span class="recipe-meta"> +  · 8-10</span>
-        </a>
+    <p class="intro">Every breakfast recipe on rcpbx — 14 of them, one canonical version per dish, stripped to ingredients and steps. No ads, no life stories, no popups.</p>
+    <p class="count-line"><span>14</span> recipes · every one opens to ingredients and steps, nothing else</p>
+    <div class="recipe-grid">
         <a href="/recipes/breakfast-burrito/" class="recipe-card">
           <span class="recipe-title">Breakfast Burrito</span>
-          <span class="recipe-meta"> +  · 4</span>
+          <span class="recipe-tagline">Eggs, meat, cheese, portable perfection</span>
         </a>
         <a href="/recipes/breakfast-casserole/" class="recipe-card">
           <span class="recipe-title">Breakfast Casserole</span>
-          <span class="recipe-meta"> +  · 8-10</span>
+          <span class="recipe-tagline">Make-ahead, feeds a crowd</span>
         </a>
-        <a href="/recipes/cinnamon-rolls/" class="recipe-card">
-          <span class="recipe-title">Cinnamon Rolls</span>
-          <span class="recipe-meta"> +  · 12</span>
-        </a>
-        <a href="/recipes/eggs-benedict/" class="recipe-card">
-          <span class="recipe-title">Eggs Benedict</span>
-          <span class="recipe-meta"> +  · 4</span>
-        </a>
-        <a href="/recipes/french-toast/" class="recipe-card">
-          <span class="recipe-title">French Toast</span>
-          <span class="recipe-meta"> +  · 4</span>
-        </a>
-        <a href="/recipes/hash-browns/" class="recipe-card">
-          <span class="recipe-title">Hash Browns</span>
-          <span class="recipe-meta"> +  · 4</span>
-        </a>
-        <a href="/recipes/omelette/" class="recipe-card">
-          <span class="recipe-title">French Omelette</span>
-          <span class="recipe-meta"> +  · 1</span>
-        </a>
-        <a href="/recipes/overnight-oats/" class="recipe-card">
-          <span class="recipe-title">Overnight Oats</span>
-          <span class="recipe-meta">5 min + 0 min (8 hours soak) · 1</span>
+        <a href="/recipes/biscuits/" class="recipe-card">
+          <span class="recipe-title">Buttermilk Biscuits</span>
+          <span class="recipe-tagline">Tall, flaky, butter-brushed</span>
         </a>
         <a href="/recipes/pancakes/" class="recipe-card">
           <span class="recipe-title">Buttermilk Pancakes</span>
-          <span class="recipe-meta">10 min +  · 12</span>
+          <span class="recipe-tagline">Light, fluffy, tangy. Rest the batter—trust the process.</span>
         </a>
-        <a href="/recipes/quiche/" class="recipe-card">
-          <span class="recipe-title">Quiche Lorraine</span>
-          <span class="recipe-meta"> +  · 6-8</span>
-        </a>
-        <a href="/recipes/scrambled-eggs/" class="recipe-card">
-          <span class="recipe-title">Scrambled Eggs</span>
-          <span class="recipe-meta">1 min + 4 min · 2</span>
-        </a>
-        <a href="/recipes/shakshuka/" class="recipe-card">
-          <span class="recipe-title">Shakshuka</span>
-          <span class="recipe-meta">10 min + 25 min · 4</span>
+        <a href="/recipes/cinnamon-rolls/" class="recipe-card">
+          <span class="recipe-title">Cinnamon Rolls</span>
+          <span class="recipe-tagline">Soft, gooey, cream cheese frosted</span>
         </a>
         <a href="/recipes/waffles/" class="recipe-card">
           <span class="recipe-title">Crispy Waffles</span>
-          <span class="recipe-meta">10 min + 20 min · 6</span>
+          <span class="recipe-tagline">Crispy outside, fluffy inside. The cornstarch is the secret.</span>
+        </a>
+        <a href="/recipes/eggs-benedict/" class="recipe-card">
+          <span class="recipe-title">Eggs Benedict</span>
+          <span class="recipe-tagline">Poached eggs, Canadian bacon, hollandaise</span>
+        </a>
+        <a href="/recipes/omelette/" class="recipe-card">
+          <span class="recipe-title">French Omelette</span>
+          <span class="recipe-tagline">Silky eggs, pale yellow, classic technique</span>
+        </a>
+        <a href="/recipes/french-toast/" class="recipe-card">
+          <span class="recipe-title">French Toast</span>
+          <span class="recipe-tagline">Custardy center, golden exterior</span>
+        </a>
+        <a href="/recipes/hash-browns/" class="recipe-card">
+          <span class="recipe-title">Hash Browns</span>
+          <span class="recipe-tagline">Shredded, golden, shatteringly crispy</span>
+        </a>
+        <a href="/recipes/overnight-oats/" class="recipe-card">
+          <span class="recipe-title">Overnight Oats</span>
+          <span class="recipe-tagline">Prep tonight, grab and go tomorrow. Breakfast that makes itself.</span>
+        </a>
+        <a href="/recipes/quiche/" class="recipe-card">
+          <span class="recipe-title">Quiche Lorraine</span>
+          <span class="recipe-tagline">Bacon, cheese, custardy filling</span>
+        </a>
+        <a href="/recipes/scrambled-eggs/" class="recipe-card">
+          <span class="recipe-title">Scrambled Eggs</span>
+          <span class="recipe-tagline">Gordon Ramsay&#x27;s method. Creamy, silky, life-changing.</span>
+        </a>
+        <a href="/recipes/shakshuka/" class="recipe-card">
+          <span class="recipe-title">Shakshuka</span>
+          <span class="recipe-tagline">Eggs poached in spiced tomato sauce. One skillet, all the flavor.</span>
         </a>
     </div>
-    <footer><a href="/">rcpbx.com</a> · no life stories · no ads</footer>
-  </div>
+    <div class="also"><span class="lbl">&gt; also:</span><a href="/15-minute-meals/">15-minute meals</a> · <a href="/30-minute-meals/">30-minute meals</a> · <a href="/weeknight/">weeknight dinners</a> · <a href="/no-cook/">no-cook</a> · <a href="/easy-recipes/">easy</a> · <a href="/chicken-recipes/">chicken</a> · <a href="/pasta-recipes/">pasta</a> · <a href="/dessert-recipes/">desserts</a></div>
+  </main>
+  <footer>
+    <p class="footer-text"><a href="/">rcpbx.com</a> · no life stories · no ads · <a href="/random/">random recipe</a></p>
+  </footer>
 </body>
 </html>

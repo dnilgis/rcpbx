@@ -2,112 +2,133 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trend Radar | rcpbx admin</title>
-  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>The Radar — viral recipes, tested weekly | rcpbx</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
+  <meta name="description" content="The trend radar: every viral recipe on the internet, tested in a real kitchen and given a verdict — WORTH IT, OVERHYPED, or SKIP. Updated weekly.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://rcpbx.com/trends/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rcpbx.com/trends/">
+  <meta property="og:title" content="The Radar — viral recipes, tested weekly | rcpbx">
+  <meta property="og:description" content="Every viral recipe, tested. WORTH IT / OVERHYPED / SKIP. No ads, no life stories.">
+  <meta property="og:site_name" content="rcpbx">
+  <meta property="og:image" content="https://rcpbx.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://rcpbx.com/og-image.png">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2VNWY2BFX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E2VNWY2BFX');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    :root { --bg: #0a0a0a; --card: #141414; --border: #2a2a2a; --text: #e5e5e5; --muted: #888; --accent: #16a34a; --hot: #ef4444; --warm: #f59e0b; }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding: 2rem; }
-    .container { max-width: 1200px; margin: 0 auto; }
-    h1 { font-size: 1.5rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; }
-    h1 span { color: var(--accent); }
-    .subtitle { color: var(--muted); margin-bottom: 2rem; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.5rem; }
-    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; }
-    .card h2 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 1rem; }
-    .trend-list { list-style: none; }
-    .trend-item { display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 0; border-bottom: 1px solid var(--border); }
-    .trend-item:last-child { border-bottom: none; }
-    .trend-name { font-weight: 500; }
-    .trend-score { font-size: 0.8rem; padding: 0.25rem 0.5rem; border-radius: 4px; font-weight: 600; }
-    .trend-score.hot { background: var(--hot); color: white; }
-    .trend-score.warm { background: var(--warm); color: black; }
-    .trend-score.rising { background: var(--accent); color: white; }
-    .status { font-size: 0.7rem; padding: 0.15rem 0.4rem; border-radius: 3px; margin-left: 0.5rem; }
-    .status.have { background: #14532d; color: #86efac; }
-    .status.missing { background: #7f1d1d; color: #fca5a5; }
-    .insight-box { background: #1a1a2e; border: 1px solid #2a2a4e; border-radius: 8px; padding: 1.25rem; margin-top: 1.5rem; }
-    .insight-box h3 { font-size: 0.9rem; color: #a78bfa; margin-bottom: 0.75rem; }
-    .insight-box p { font-size: 0.9rem; color: #ccc; line-height: 1.6; }
-    .actions { margin-top: 1.5rem; display: flex; gap: 1rem; }
-    .btn { padding: 0.75rem 1.25rem; border-radius: 8px; font-weight: 500; cursor: pointer; border: none; font-size: 0.9rem; }
-    .btn-primary { background: var(--accent); color: white; }
-    .btn-secondary { background: var(--border); color: var(--text); }
-    .source { font-size: 0.7rem; color: var(--muted); }
+    :root {
+      --bg: #0d0d0d; --bg-alt: #161616; --text: #e5e5e5; --text-muted: #999; --text-dim: #666;
+      --border: #2a2a2a; --accent: #22c55e; --accent-dim: rgba(34,197,94,0.12);
+      --amber: #f59e0b; --red: #ef4444;
+      --font-sans: 'Inter', -apple-system, sans-serif; --font-mono: 'JetBrains Mono', monospace;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-family: var(--font-mono); background: var(--bg); color: var(--text); line-height: 1.6; }
+    header { border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; }
+    .header-inner { max-width: 760px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-size: 1.25rem; font-weight: 600; text-decoration: none; color: var(--text); }
+    .logo-prefix { color: var(--accent); }
+    .header-link { font-size: 0.7rem; color: var(--text-muted); text-decoration: none; text-transform: uppercase; letter-spacing: 0.05em; }
+    .header-link:hover { color: var(--accent); }
+    main { max-width: 760px; margin: 0 auto; padding: 2.5rem 1.5rem; }
+    h1 { font-family: var(--font-sans); font-size: 1.7rem; font-weight: 700; letter-spacing: -0.02em; }
+    h1::before { content: "> "; color: var(--accent); font-family: var(--font-mono); }
+    .sub { color: var(--text-muted); font-size: 0.8rem; margin: 0.5rem 0 0.25rem; font-family: var(--font-sans); }
+    .edition { font-size: 0.68rem; color: var(--text-dim); margin-bottom: 2rem; }
+    .edition span { color: var(--accent); }
+    .legend { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.65rem; color: var(--text-dim); margin-bottom: 1.5rem; }
+    .radar { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; margin-bottom: 2.5rem; }
+    .radar-head { display: grid; grid-template-columns: 1fr 90px 150px; gap: 0.75rem; padding: 0.55rem 1rem;
+      background: var(--bg-alt); font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim); }
+    .row { display: grid; grid-template-columns: 1fr 90px 150px; gap: 0.75rem; padding: 0.7rem 1rem;
+      border-top: 1px solid var(--border); font-size: 0.78rem; align-items: baseline; }
+    .row a { color: var(--text); text-decoration: none; }
+    .row a:hover { color: var(--accent); }
+    .t-name { font-weight: 500; }
+    .t-note { display: block; color: var(--text-dim); font-size: 0.65rem; margin-top: 0.1rem; }
+    .heat { color: var(--accent); letter-spacing: 0.1em; font-size: 0.7rem; }
+    .heat.h2 { color: var(--amber); } .heat.h1 { color: var(--text-dim); }
+    .status { font-size: 0.62rem; letter-spacing: 0.04em; }
+    .s-worth { color: var(--accent); } .s-hype { color: var(--amber); } .s-skip { color: var(--red); }
+    .s-kitchen { color: var(--amber); } .s-watch { color: var(--text-dim); }
+    h2 { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin: 0 0 0.75rem; }
+    h2::before { content: "> "; color: var(--accent); }
+    .how { border: 1px dashed var(--border); border-radius: 8px; padding: 1rem 1.25rem; font-size: 0.72rem;
+      color: var(--text-muted); font-family: var(--font-sans); line-height: 1.7; margin-bottom: 2.5rem; }
+    .how code { font-family: var(--font-mono); color: var(--accent); font-size: 0.68rem; }
+    footer { border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; }
+    .footer-text { font-size: 0.7rem; color: var(--text-muted); }
+    .footer-text a { color: var(--accent); text-decoration: none; }
+    @media (max-width: 560px) {
+      .radar-head { display: none; }
+      .row { grid-template-columns: 1fr; gap: 0.2rem; }
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>📡 <span>Trend Radar</span></h1>
-    <p class="subtitle">What recipes are people searching for right now? (Admin only)</p>
-    
-    <div class="grid">
-      <div class="card">
-        <h2>🔥 Google Trends - Rising</h2>
-        <ul class="trend-list">
-          <li class="trend-item"><span class="trend-name">Dubai chocolate bar <span class="status missing">MISSING</span></span><span class="trend-score hot">🔥 VIRAL</span></li>
-          <li class="trend-item"><span class="trend-name">Protein ice cream <span class="status missing">MISSING</span></span><span class="trend-score rising">↑ 340%</span></li>
-          <li class="trend-item"><span class="trend-name">Cottage cheese flatbread <span class="status missing">MISSING</span></span><span class="trend-score rising">↑ 280%</span></li>
-          <li class="trend-item"><span class="trend-name">Birria ramen <span class="status missing">MISSING</span></span><span class="trend-score rising">↑ 250%</span></li>
-          <li class="trend-item"><span class="trend-name">Crumbl cookie copycat <span class="status missing">MISSING</span></span><span class="trend-score rising">↑ 220%</span></li>
-          <li class="trend-item"><span class="trend-name">Marry me chicken <span class="status have">✓ HAVE</span></span><span class="trend-score warm">↑ 180%</span></li>
-          <li class="trend-item"><span class="trend-name">Hot honey <span class="status have">✓ HAVE</span></span><span class="trend-score warm">↑ 150%</span></li>
-        </ul>
-      </div>
-      
-      <div class="card">
-        <h2>📱 Social Viral (TikTok/IG/Pinterest)</h2>
-        <ul class="trend-list">
-          <li class="trend-item"><span class="trend-name">Salmon rice bowl <span class="status missing">MISSING</span></span><span class="trend-score hot">VIRAL</span></li>
-          <li class="trend-item"><span class="trend-name">Cucumber salad (smashed) <span class="status missing">MISSING</span></span><span class="trend-score hot">VIRAL</span></li>
-          <li class="trend-item"><span class="trend-name">Buldak carbonara <span class="status missing">MISSING</span></span><span class="trend-score hot">HOT</span></li>
-          <li class="trend-item"><span class="trend-name">Croissant cereal <span class="status missing">MISSING</span></span><span class="trend-score rising">Rising</span></li>
-          <li class="trend-item"><span class="trend-name">Ube pancakes <span class="status missing">MISSING</span></span><span class="trend-score rising">Rising</span></li>
-          <li class="trend-item"><span class="trend-name">Greek yogurt bark <span class="status missing">MISSING</span></span><span class="trend-score rising">Rising</span></li>
-        </ul>
-      </div>
-      
-      <div class="card">
-        <h2>🎯 High-Volume Gaps</h2>
-        <ul class="trend-list">
-          <li class="trend-item"><span class="trend-name">Air fryer chicken thighs</span><span class="source">110K/mo</span></li>
-          <li class="trend-item"><span class="trend-name">Greek salad</span><span class="source">95K/mo</span></li>
-          <li class="trend-item"><span class="trend-name">Instant Pot pulled pork</span><span class="source">90K/mo</span></li>
-          <li class="trend-item"><span class="trend-name">Chicken Caesar salad</span><span class="source">82K/mo</span></li>
-          <li class="trend-item"><span class="trend-name">Sheet pan fajitas</span><span class="source">74K/mo</span></li>
-          <li class="trend-item"><span class="trend-name">Caprese salad</span><span class="source">71K/mo</span></li>
-          <li class="trend-item"><span class="trend-name">One pot pasta</span><span class="source">68K/mo</span></li>
-        </ul>
-      </div>
-      
-      <div class="card">
-        <h2>📅 Seasonal (Next 30 Days)</h2>
-        <ul class="trend-list">
-          <li class="trend-item"><span class="trend-name">Summer salads <span class="status missing">MISSING</span></span><span class="trend-score hot">NOW</span></li>
-          <li class="trend-item"><span class="trend-name">Grilled chicken <span class="status missing">MISSING</span></span><span class="trend-score hot">PEAK</span></li>
-          <li class="trend-item"><span class="trend-name">Homemade ice cream <span class="status missing">MISSING</span></span><span class="trend-score hot">PEAK</span></li>
-          <li class="trend-item"><span class="trend-name">Lemonade <span class="status missing">MISSING</span></span><span class="trend-score warm">HIGH</span></li>
-          <li class="trend-item"><span class="trend-name">Watermelon recipes <span class="status missing">MISSING</span></span><span class="trend-score warm">HIGH</span></li>
-          <li class="trend-item"><span class="trend-name">Corn on the cob <span class="status have">✓ HAVE</span></span><span class="trend-score rising">Rising</span></li>
-        </ul>
-      </div>
+  <header>
+    <div class="header-inner">
+      <a href="/" class="logo"><span class="logo-prefix">&gt;</span>rcpbx</a>
+      <a href="/" class="header-link">← all recipes</a>
     </div>
-    
-    <div class="insight-box">
-      <h3>💡 This Week's Strategy</h3>
-      <p>
-        <strong>Immediate priority:</strong> Dubai chocolate bar, salmon rice bowl, and cucumber salad are EXPLODING. First-mover advantage is real—add these this week.<br><br>
-        <strong>Quick wins:</strong> Air fryer recipes get 500K+ combined monthly searches. Add 5 air fryer variants of existing recipes (chicken thighs, salmon, Brussels sprouts, etc.)<br><br>
-        <strong>Summer gap:</strong> You're missing the entire salad category. Greek, Caesar, Caprese, Cobb = 300K+ monthly searches combined. These are also fast to make and photograph well.<br><br>
-        <strong>Appliance play:</strong> "Instant Pot [recipe]" and "Air Fryer [recipe]" queries are massive. Consider duplicating popular recipes with appliance-specific versions.
-      </p>
+  </header>
+  <main>
+    <h1>The Radar</h1>
+    <p class="sub">Every viral recipe on the internet, cooked in a real kitchen, given a verdict. The trend gets 15 seconds of fame; the verdict is forever.</p>
+    <p class="edition">edition <span>2026-W29</span> · updated July 18, 2026 · updates weekly</p>
+
+    <div class="legend">
+      <span><span class="s-worth">WORTH IT</span> — tested, published, deserved the hype</span>
+      <span><span class="s-hype">OVERHYPED</span> — tested, published, temper your expectations</span>
+      <span><span class="s-skip">SKIP</span> — tested, failed, not published</span>
+      <span><span class="s-kitchen">IN THE KITCHEN</span> — being tested now</span>
+      <span><span class="s-watch">WATCHING</span> — on the list</span>
     </div>
-    
-    <div class="actions">
-      <button class="btn btn-primary" onclick="alert('Priority list:\n\n1. Dubai chocolate bar\n2. Salmon rice bowl\n3. Cucumber salad\n4. Greek salad\n5. Air fryer chicken thighs\n6. Protein ice cream\n7. Cottage cheese flatbread\n8. Caprese salad\n9. Grilled chicken\n10. Homemade ice cream')">Show Priority Queue</button>
-      <a href="/" class="btn btn-secondary">← Back to site</a>
+
+    <div class="radar">
+      <div class="radar-head"><span>trend</span><span>heat</span><span>status</span></div>
+      <div class="row"><span><a href="/recipes/cottage-cheese-tacos/" class="t-name">Cottage cheese taco shells</a><span class="t-note">the cottage-cheese wave's best trick — causing actual grocery shortages</span></span><span class="heat">▲▲▲</span><span class="status"><a href="/recipes/cottage-cheese-tacos/" class="s-worth">WORTH IT →</a></span></div>
+      <div class="row"><span><a href="/recipes/yogurt-tiramisu/" class="t-name">Yogurt tiramisu</a><span class="t-note">Biscoff + Greek yogurt, overnight — the no-bake of the summer</span></span><span class="heat">▲▲▲</span><span class="status"><a href="/recipes/yogurt-tiramisu/" class="s-worth">WORTH IT →</a></span></div>
+      <div class="row"><span><a href="/recipes/buldak-carbonara/" class="t-name">Buldak carbonara</a><span class="t-note">Korean fire noodles + carbonara logic</span></span><span class="heat">▲▲▲</span><span class="status"><a href="/recipes/buldak-carbonara/" class="s-worth">WORTH IT →</a></span></div>
+      <div class="row"><span><a href="/recipes/frozen-yogurt-clusters/" class="t-name">Frozen yogurt clusters</a><span class="t-note">high-protein freezer snack, chocolate shell that snaps</span></span><span class="heat">▲▲▲</span><span class="status"><a href="/recipes/frozen-yogurt-clusters/" class="s-worth">WORTH IT →</a></span></div>
+      <div class="row"><span><a href="/recipes/chickpea-cookie-dough/" class="t-name">Chickpea cookie dough</a><span class="t-note">fibermaxxing's marquee snack — "fiber" searches up triple digits</span></span><span class="heat">▲▲</span><span class="status"><a href="/recipes/chickpea-cookie-dough/" class="s-worth">WORTH IT →</a></span></div>
+      <div class="row"><span><a href="/recipes/black-sesame-cookies/" class="t-name">Black sesame anything</a><span class="t-note">the flavor of 2026, at all-time-high search interest</span></span><span class="heat">▲▲</span><span class="status"><a href="/recipes/black-sesame-cookies/" class="s-worth">WORTH IT →</a></span></div>
+      <div class="row"><span><a href="/recipes/air-fryer-smashed-potatoes/" class="t-name">Air fryer smashed potatoes</a><span class="t-note">the current default potato of the app</span></span><span class="heat">▲▲</span><span class="status"><a href="/recipes/air-fryer-smashed-potatoes/" class="s-worth">WORTH IT →</a></span></div>
+      <div class="row"><span><a href="/recipes/watermelon-feta-salad/" class="t-name">Watermelon feta salad</a><span class="t-note">peak-July seasonal, the annual comeback</span></span><span class="heat">▲▲</span><span class="status"><a href="/recipes/watermelon-feta-salad/" class="s-worth">WORTH IT →</a></span></div>
+      <div class="row"><span><a href="/recipes/dubai-chocolate-bar/" class="t-name">Dubai chocolate bar</a><span class="t-note">retested with real pistachio cream — it's a grocery SKU now, but homemade still wins</span></span><span class="heat h2">▲▲</span><span class="status"><a href="/recipes/dubai-chocolate-bar/" class="s-worth">WORTH IT →</a></span></div>
+      <div class="row"><span><a href="/recipes/protein-ice-cream/" class="t-name">Protein ice cream</a><span class="t-note">rebuilt Creami-style, with protein math that survives arithmetic</span></span><span class="heat h2">▲▲</span><span class="status"><a href="/recipes/protein-ice-cream/" class="s-worth">WORTH IT →</a></span></div>
+      <div class="row"><span><a href="/recipes/cottage-cheese-flatbread/" class="t-name">Cottage cheese flatbread</a><span class="t-note">the flourless "bread" — useful wrap, dishonest name</span></span><span class="heat h2">▲</span><span class="status"><a href="/recipes/cottage-cheese-flatbread/" class="s-hype">OVERHYPED →</a></span></div>
+      <div class="row"><span><span class="t-name">Hugo spritz (+ zero-proof)</span><span class="t-note">elderflower spritz, search interest spiking hard this month</span></span><span class="heat">▲▲▲</span><span class="status s-kitchen">IN THE KITCHEN</span></div>
+      <div class="row"><span><span class="t-name">Iced matcha latte</span><span class="t-note">shortage discourse = peak relevance</span></span><span class="heat">▲▲</span><span class="status s-kitchen">IN THE KITCHEN</span></div>
+      <div class="row"><span><span class="t-name">Sourdough focaccia</span><span class="t-note">the 2026 bake — bridges our Basics bench to the trend</span></span><span class="heat h2">▲▲</span><span class="status s-watch">WATCHING</span></div>
+      <div class="row"><span><span class="t-name">Swicy everything</span><span class="t-note">sweet-heat is the flavor direction of the year; our hot honey is the base</span></span><span class="heat h2">▲▲</span><span class="status s-watch">WATCHING</span></div>
+      <div class="row"><span><span class="t-name">Crispy rice salad</span><span class="t-note">nam khao-inspired bowls all over the app</span></span><span class="heat h2">▲</span><span class="status s-watch">WATCHING</span></div>
     </div>
-  </div>
+
+    <h2>How this works</h2>
+    <div class="how">
+      One person, one kitchen, one rule: nothing gets published untested. Each week we pick the loudest trend,
+      cook it for real, and file a verdict — <code>WORTH IT</code>, <code>OVERHYPED</code>, or <code>SKIP</code>.
+      Winners join the permanent collection with a tested date and a changelog. Losers get a one-line SKIP so you
+      don't waste the groceries. Viral recipes chase attention; we referee it.
+      Want something tested? <a href="/request/" style="color:var(--accent)">Request it</a>.
+    </div>
+  </main>
+  <footer>
+    <p class="footer-text"><a href="/">rcpbx.com</a> · no life stories · no ads · <a href="/feed.xml">rss</a></p>
+  </footer>
 </body>
 </html>
