@@ -2,88 +2,152 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>What to Make with Ground Beef | rcpbx</title>
-  <meta name="description" content="Got ground beef? Here's what to make.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
+  <meta name="description" content="A pound of ground beef becomes any of these — tested recipes with real times, no scrolling past someone&#x27;s childhood.">
+  <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://rcpbx.com/what-to-make-with-ground-beef/">
-  <meta property="og:title" content="What to Make with Ground Beef | rcpbx">
-  <meta property="og:description" content="Got ground beef? Here's what to make.">
+  <meta property="og:type" content="website">
   <meta property="og:url" content="https://rcpbx.com/what-to-make-with-ground-beef/">
+  <meta property="og:title" content="What to Make with Ground Beef | rcpbx">
+  <meta property="og:description" content="A pound of ground beef becomes any of these — tested recipes with real times, no scrolling past someone&#x27;s childhood.">
+  <meta property="og:site_name" content="rcpbx">
+  <meta property="og:image" content="https://rcpbx.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://rcpbx.com/og-image.png">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"CollectionPage","name":"What to Make with Ground Beef","description":"Got ground beef? Here's what to make.","url":"https://rcpbx.com/what-to-make-with-ground-beef/"}
+{"@context": "https://schema.org", "@type": "CollectionPage", "name": "What to Make with Ground Beef", "description": "A pound of ground beef becomes any of these — tested recipes with real times, no scrolling past someone's childhood.", "url": "https://rcpbx.com/what-to-make-with-ground-beef/", "mainEntity": {"@type": "ItemList", "numberOfItems": 11, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Bolognese Sauce", "url": "https://rcpbx.com/recipes/bolognese/"}, {"@type": "ListItem", "position": 2, "name": "Chili by George", "url": "https://rcpbx.com/recipes/chili-by-george/"}, {"@type": "ListItem", "position": 3, "name": "Ground Beef Tacos", "url": "https://rcpbx.com/recipes/beef-tacos/"}, {"@type": "ListItem", "position": 4, "name": "Lasagna", "url": "https://rcpbx.com/recipes/lasagna/"}, {"@type": "ListItem", "position": 5, "name": "Meatloaf", "url": "https://rcpbx.com/recipes/meatloaf/"}, {"@type": "ListItem", "position": 6, "name": "Shepherd's Pie", "url": "https://rcpbx.com/recipes/shepherds-pie/"}, {"@type": "ListItem", "position": 7, "name": "Sloppy Joes", "url": "https://rcpbx.com/recipes/sloppy-joes/"}, {"@type": "ListItem", "position": 8, "name": "Smash Burgers", "url": "https://rcpbx.com/recipes/smash-burgers/"}, {"@type": "ListItem", "position": 9, "name": "Spaghetti & Meatballs", "url": "https://rcpbx.com/recipes/spaghetti-and-meatballs/"}, {"@type": "ListItem", "position": 10, "name": "Stuffed Shells", "url": "https://rcpbx.com/recipes/stuffed-shells/"}, {"@type": "ListItem", "position": 11, "name": "Swedish Meatballs", "url": "https://rcpbx.com/recipes/swedish-meatballs/"}]}}
   </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2VNWY2BFX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E2VNWY2BFX');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    :root { --bg: #faf9f6; --text: #222; --text-muted: #666; --border: #ddd; --accent: #16a34a; }
-    @media (prefers-color-scheme: dark) { :root { --bg: #111; --text: #e5e5e5; --text-muted: #999; --border: #333; --accent: #22c55e; } }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding: 2rem; }
-    .container { max-width: 800px; margin: 0 auto; }
-    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-    .subtitle { color: var(--text-muted); margin-bottom: 2rem; font-size: 1.1rem; }
-    .count { color: var(--accent); font-weight: 600; }
-    .recipes { display: grid; gap: 0.75rem; }
-    .recipe-card { display: flex; flex-direction: column; gap: 0.25rem; padding: 1rem; border: 1px solid var(--border); border-radius: 8px; text-decoration: none; color: var(--text); transition: border-color 0.15s; }
-    .recipe-card:hover { border-color: var(--accent); }
-    .recipe-title { font-weight: 600; }
-    .recipe-meta { font-size: 0.85rem; color: var(--text-muted); }
-    .back { display: inline-block; margin-bottom: 2rem; color: var(--text-muted); text-decoration: none; font-size: 0.9rem; }
-    .back:hover { color: var(--accent); }
-    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); text-align: center; font-size: 0.8rem; color: var(--text-muted); }
-    footer a { color: var(--accent); text-decoration: none; }
+    :root {
+      --bg: #faf9f6; --bg-alt: #f0efeb; --text: #222; --text-muted: #666; --text-dim: #999;
+      --border: #ddd; --accent: #16a34a; --accent-dim: rgba(22,163,74,0.1);
+      --font-sans: 'Inter', -apple-system, sans-serif; --font-mono: 'JetBrains Mono', monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111; --bg-alt: #1a1a1a; --text: #e5e5e5; --text-muted: #999; --text-dim: #666;
+        --border: #333; --accent: #22c55e; --accent-dim: rgba(34,197,94,0.15); }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-family: var(--font-sans); background: var(--bg); color: var(--text); line-height: 1.6; }
+    header { border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; }
+    .header-inner { max-width: 800px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-family: var(--font-mono); font-size: 1.25rem; font-weight: 600; text-decoration: none; color: var(--text); }
+    .logo-prefix { color: var(--accent); }
+    .header-link { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); text-decoration: none; text-transform: uppercase; letter-spacing: 0.05em; }
+    .header-link:hover { color: var(--accent); }
+    main { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+    .breadcrumb { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 1rem; font-family: var(--font-mono); }
+    .breadcrumb a { color: var(--text-muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--accent); }
+    h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    .intro { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.75rem; max-width: 62ch; }
+    .count-line { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-dim); margin-bottom: 1rem; }
+    .count-line span { color: var(--accent); }
+    .recipe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.75rem; }
+    .recipe-card { display: block; padding: 0.85rem 1rem; border: 1px solid var(--border); border-radius: 6px;
+      text-decoration: none; transition: border-color 0.15s, transform 0.15s; }
+    .recipe-card:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .recipe-title { display: block; font-weight: 600; font-size: 0.95rem; color: var(--text); }
+    .card-verdict { font-family: var(--font-mono); font-size: 0.6rem; color: var(--accent); font-weight: 500; }
+    .recipe-tagline { display: block; font-size: 0.78rem; color: var(--text-muted); margin-top: 0.15rem; }
+    .recipe-meta { display: block; font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-dim); margin-top: 0.3rem; }
+    .also { margin-top: 2.5rem; border-top: 1px solid var(--border); padding-top: 1.25rem;
+      font-family: var(--font-mono); font-size: 0.75rem; line-height: 2.1; color: var(--text-dim); }
+    .also a { color: var(--text-muted); text-decoration: none; }
+    .also a:hover { color: var(--accent); }
+    .also .lbl { color: var(--accent); margin-right: 0.4rem; }
+    footer { border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; margin-top: 3rem; }
+    .footer-text { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); }
+    .footer-text a { color: var(--accent); text-decoration: none; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <a href="/" class="back">← all recipes</a>
+  <header>
+    <div class="header-inner">
+      <a href="/" class="logo"><span class="logo-prefix">&gt;</span>rcpbx</a>
+      <a href="/" class="header-link">← all recipes</a>
+    </div>
+  </header>
+  <main>
+    <nav class="breadcrumb"><a href="/">home</a> / what to make with ground beef</nav>
     <h1>What to Make with Ground Beef</h1>
-    <p class="subtitle">Got ground beef? Here's what to make. <span class="count">11 recipes</span></p>
-    <div class="recipes">
-        <a href="/recipes/beef-tacos/" class="recipe-card">
-          <span class="recipe-title">Ground Beef Tacos</span>
-          <span class="recipe-meta"> +  · 4-6</span>
-        </a>
+    <p class="intro">A pound of ground beef becomes any of these — tested recipes with real times, no scrolling past someone's childhood.</p>
+    <p class="count-line"><span>11</span> recipes · every one opens to ingredients and steps, nothing else</p>
+    <div class="recipe-grid">
         <a href="/recipes/bolognese/" class="recipe-card">
           <span class="recipe-title">Bolognese Sauce</span>
-          <span class="recipe-meta"> +  · 8</span>
+          <span class="recipe-tagline">Rich, meaty, slow-simmered perfection</span>
+          <span class="recipe-meta">serves 8</span>
         </a>
         <a href="/recipes/chili-by-george/" class="recipe-card">
           <span class="recipe-title">Chili by George</span>
-          <span class="recipe-meta">15 min + 1½ hrs · 10</span>
+          <span class="recipe-tagline">Reliable weeknight chili. Stovetop or slow cooker.</span>
+          <span class="recipe-meta">15 min · serves 10</span>
+        </a>
+        <a href="/recipes/beef-tacos/" class="recipe-card">
+          <span class="recipe-title">Ground Beef Tacos</span>
+          <span class="recipe-tagline">Well-seasoned, classic weeknight dinner</span>
+          <span class="recipe-meta">serves 4-6</span>
         </a>
         <a href="/recipes/lasagna/" class="recipe-card">
           <span class="recipe-title">Lasagna</span>
-          <span class="recipe-meta">45 min + 2½ hrs · 12</span>
+          <span class="recipe-tagline">The crowd-pleaser. Beef and sausage, three cheeses, feeds an army.</span>
+          <span class="recipe-meta">45 min · serves 12</span>
         </a>
         <a href="/recipes/meatloaf/" class="recipe-card">
           <span class="recipe-title">Meatloaf</span>
-          <span class="recipe-meta">15 min + 1 hr · 8</span>
+          <span class="recipe-tagline">Moist inside, caramelized outside. The sheet pan method.</span>
+          <span class="recipe-meta">75 min · serves 8</span>
         </a>
         <a href="/recipes/shepherds-pie/" class="recipe-card">
-          <span class="recipe-title">Shepherd's Pie</span>
-          <span class="recipe-meta"> +  · 6-8</span>
+          <span class="recipe-title">Shepherd&#x27;s Pie</span>
+          <span class="recipe-tagline">Savory meat filling topped with mashed potatoes</span>
+          <span class="recipe-meta">serves 6-8</span>
         </a>
         <a href="/recipes/sloppy-joes/" class="recipe-card">
           <span class="recipe-title">Sloppy Joes</span>
-          <span class="recipe-meta"> +  · 6</span>
+          <span class="recipe-tagline">Sweet, tangy, messy perfection</span>
+          <span class="recipe-meta">serves 6</span>
         </a>
         <a href="/recipes/smash-burgers/" class="recipe-card">
           <span class="recipe-title">Smash Burgers</span>
-          <span class="recipe-meta">5 min + 10 min · 4</span>
+          <span class="recipe-tagline">Crispy lacy edges, diner-style perfection. Fast and simple.</span>
+          <span class="recipe-meta">15 min · serves 4</span>
         </a>
         <a href="/recipes/spaghetti-and-meatballs/" class="recipe-card">
-          <span class="recipe-title">Spaghetti & Meatballs</span>
-          <span class="recipe-meta">20 min + 45 min · 6</span>
+          <span class="recipe-title">Spaghetti &amp; Meatballs</span>
+          <span class="recipe-tagline">Tender meatballs, quick marinara. Weeknight-friendly.</span>
+          <span class="recipe-meta">65 min · serves 6</span>
         </a>
         <a href="/recipes/stuffed-shells/" class="recipe-card">
           <span class="recipe-title">Stuffed Shells</span>
-          <span class="recipe-meta"> +  · 8</span>
+          <span class="recipe-tagline">Ricotta-filled pasta in marinara</span>
+          <span class="recipe-meta">serves 8</span>
         </a>
         <a href="/recipes/swedish-meatballs/" class="recipe-card">
           <span class="recipe-title">Swedish Meatballs</span>
-          <span class="recipe-meta">25 min + 25 min · 6</span>
+          <span class="recipe-tagline">Tender meatballs in creamy gravy. Better than IKEA.</span>
+          <span class="recipe-meta">50 min · serves 6</span>
         </a>
     </div>
-    <footer><a href="/">rcpbx.com</a> · no life stories · no ads</footer>
-  </div>
+    <div class="also"><span class="lbl">&gt; also:</span><a href="/15-minute-meals/">15-minute meals</a> · <a href="/30-minute-meals/">30-minute meals</a> · <a href="/weeknight/">weeknight dinners</a> · <a href="/no-cook/">no-cook</a> · <a href="/easy-recipes/">easy</a> · <a href="/chicken-recipes/">chicken</a> · <a href="/pasta-recipes/">pasta</a> · <a href="/dessert-recipes/">desserts</a></div>
+  </main>
+  <footer>
+    <p class="footer-text"><a href="/">rcpbx.com</a> · no life stories · no ads · <a href="/random/">random recipe</a></p>
+  </footer>
 </body>
 </html>
