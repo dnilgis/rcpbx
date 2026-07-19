@@ -10,6 +10,10 @@ Run from the site root:  python3 build.py
 """
 import json, glob, os, re, html, random
 from xml.etree import ElementTree as ET
+try:
+    import segno  # pip install segno — powers the print QR codes
+except ImportError:
+    segno = None
 
 SITE = "https://rcpbx.com"
 HUBS = {
@@ -154,6 +158,13 @@ def build_page(r, related, total):
         '        <a href="/recipes/%s/"><span class="rel-title">%s</span><span class="rel-tag">%s</span></a>'
         % (x["id"], esc(x["title"]), esc(x.get("tagline",""))) for x in related)
 
+    qr_html = ""
+    if segno:
+        q = segno.make(url, error="m")
+        qr_html = ('<div class="print-qr">%s<span class="print-qr-label">scan to cook interactive —<br>'
+                   'timers, scaling, check-off</span></div>'
+                   % (q.svg_inline(scale=2.4),))
+
     page = (TEMPLATE
         .replace("%%TITLE%%", esc(title))
         .replace("%%TAGLINE%%", esc(r.get("tagline","")))
@@ -177,6 +188,7 @@ def build_page(r, related, total):
         .replace("%%TROUBLE%%", ts_html)
         .replace("%%SOURCE%%", esc(r.get("source","")))
         .replace("%%RELATED%%", rel_html)
+        .replace("%%QR%%", qr_html)
         .replace("%%TOTAL%%", str(total)))
     return page
 
@@ -389,8 +401,37 @@ TEMPLATE = r"""<!DOCTYPE html>
     .timerbar.show { display: flex; }
     .timerbar button { font-family: var(--font-mono); background: none; border: 1px solid var(--bg);
       color: var(--bg); border-radius: 4px; padding: 0.15rem 0.6rem; cursor: pointer; font-size: 0.75rem; }
-    @media print { header, .related, footer, .timerbar, .cook-hint, .header-actions { display: none !important; }
-      .recipe-grid { grid-template-columns: 1fr 2fr; } }
+    .print-qr { display: none; }
+    @media print {
+      @page { margin: 1.4cm; }
+      html { font-size: 11px; background: #fff; color: #000; }
+      :root { --bg: #fff; --bg-alt: #fff; --text: #000; --text-muted: #444; --text-dim: #777;
+        --border: #bbb; --accent: #167a3d; --accent-light: #fff; --accent-dim: #fff; }
+      header nav.breadcrumb, .header-actions, .related, footer, .timerbar, .cook-hint, .scaler { display: none !important; }
+      header { position: static; border-bottom: 2px solid #000; padding: 0 0 0.5rem; }
+      main { padding: 1rem 0; max-width: none; }
+      .recipe-header { position: relative; padding-right: 130px; margin-bottom: 1rem; padding-bottom: 1rem; min-height: 150px; }
+      .print-qr { display: block; position: absolute; top: 0; right: 0; width: 110px; text-align: center; }
+      .print-qr svg { width: 96px; height: 96px; }
+      .print-qr .qrline { stroke: #000; }
+      .print-qr-label { display: block; font-family: var(--font-mono); font-size: 7px; color: #555; margin-top: 2px; line-height: 1.5; }
+      h1 { font-size: 1.7rem; } .tagline { font-size: 1rem; }
+      .verdict .v-badge { border: 1.5px solid #000; color: #000 !important; background: #fff !important; }
+      .tested-badge { color: #000; border-color: #000; }
+      .recipe-grid { grid-template-columns: 1fr 2fr; gap: 1.25rem; }
+      .ingredient { cursor: auto; padding: 0.28rem 0; break-inside: avoid; }
+      .ingredient::before { border-color: #999; transform: translateY(0.05rem); }
+      .step { cursor: auto; padding: 0.55rem 0 0.55rem 2.2rem; font-size: 1rem; break-inside: avoid; }
+      .steps ol .step::before { background: #fff !important; color: #000 !important; border: 1.5px solid #000 !important;
+        width: 1.4rem !important; height: 1.4rem !important; top: 0.62rem !important; font-size: 0.72rem !important; }
+      .t { border: none; background: none; color: #000; padding: 0; font-family: inherit; font-size: inherit; }
+      .qty { color: #000; font-weight: 600; }
+      .notes, .trouble { border: 1px solid #bbb; background: #fff; padding: 0.75rem 1rem; margin-top: 1rem; break-inside: avoid; }
+      .notes h2, .trouble h2 { color: #000; }
+      .notes li::before, .trouble li::before { color: #000; }
+      .source { margin-top: 1rem; }
+      a { color: inherit; text-decoration: none; }
+    }
   </style>
 </head>
 <body>
@@ -400,6 +441,7 @@ TEMPLATE = r"""<!DOCTYPE html>
       <div class="header-actions">
         <button class="hbtn" id="saveBtn" type="button">+ box</button>
         <button class="hbtn" id="wakeBtn" type="button" hidden>screen on</button>
+        <button class="hbtn" onclick="window.print()" type="button" title="print a clean recipe card with QR code">print</button>
         <button class="hbtn" id="resetBtn" type="button" title="clear check-offs">reset</button>
       </div>
     </div>
@@ -409,6 +451,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   <main>
     <article data-recipe="%%RID%%">
       <div class="recipe-header">
+        %%QR%%
         <h1>%%TITLE%%</h1>
         <p class="tagline">%%TAGLINE%%</p>
         %%VERDICT%%
