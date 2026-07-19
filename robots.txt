@@ -1,8 +1,22 @@
+# rcpbx.com — everything here is meant to be read, by people and by machines.
 User-agent: *
 Allow: /
 
-Sitemap: https://rcpbx.com/sitemap.xml
+# AI crawlers explicitly welcome. Clean structured recipes, no ads to strip.
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
 
-# Clean recipe URLs
-# /recipes/chicken-parmesan/ (preferred)
-# /recipes/?r=chicken-parmesan (legacy, still works)
+Sitemap: https://rcpbx.com/sitemap.xml
+# LLM-friendly index: https://rcpbx.com/llms.txt
+# Full corpus:       https://rcpbx.com/llms-full.txt
+# Markdown mirror of any recipe: /recipes/{id}/index.md

@@ -1,11 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/1998/Atom">
   <channel>
-    <title>rcpbx - New Recipes</title>
+    <title>rcpbx - New &amp; Tested Recipes</title>
     <link>https://rcpbx.com</link>
-    <description>Recipes that work. No life stories. No ads.</description>
+    <description>Recipes that work. No life stories. No ads. Viral recipes tested weekly with verdicts.</description>
     <language>en-us</language>
     <atom:link href="https://rcpbx.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 12 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 02:00:51 +0000</lastBuildDate>
+    <item>
+      <title>Yogurt Tiramisu</title>
+      <link>https://rcpbx.com/recipes/yogurt-tiramisu/</link>
+      <guid>https://rcpbx.com/recipes/yogurt-tiramisu/</guid>
+      <description>[WORTH IT] The viral Biscoff-yogurt tiramisu. Zero mascarpone, zero regret.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Watermelon Feta Salad</title>
+      <link>https://rcpbx.com/recipes/watermelon-feta-salad/</link>
+      <guid>https://rcpbx.com/recipes/watermelon-feta-salad/</guid>
+      <description>[WORTH IT] Cold, salty, sweet. July in a bowl.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Salmon Rice Bowl</title>
+      <link>https://rcpbx.com/recipes/salmon-rice-bowl/</link>
+      <guid>https://rcpbx.com/recipes/salmon-rice-bowl/</guid>
+      <description>[WORTH IT] The viral salmon bowl, seared fresh instead of microwaved.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Protein Ice Cream</title>
+      <link>https://rcpbx.com/recipes/protein-ice-cream/</link>
+      <guid>https://rcpbx.com/recipes/protein-ice-cream/</guid>
+      <description>[WORTH IT] Creami-style pint with protein math that actually checks out.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fresh Lemonade</title>
+      <link>https://rcpbx.com/recipes/lemonade/</link>
+      <guid>https://rcpbx.com/recipes/lemonade/</guid>
+      <description>The real thing. No powder, no shortcuts.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grilled Chicken Breast</title>
+      <link>https://rcpbx.com/recipes/grilled-chicken/</link>
+      <guid>https://rcpbx.com/recipes/grilled-chicken/</guid>
+      <description>Juicy, not dry. Finally.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Greek Salad</title>
+      <link>https://rcpbx.com/recipes/greek-salad/</link>
+      <guid>https://rcpbx.com/recipes/greek-salad/</guid>
+      <description>Horiatiki - the real deal, no lettuce required.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Frozen Yogurt Clusters</title>
+      <link>https://rcpbx.com/recipes/frozen-yogurt-clusters/</link>
+      <guid>https://rcpbx.com/recipes/frozen-yogurt-clusters/</guid>
+      <description>[WORTH IT] Chocolate-shelled frozen yogurt bites. The freezer snack of the summer.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dubai Chocolate Bar</title>
+      <link>https://rcpbx.com/recipes/dubai-chocolate-bar/</link>
+      <guid>https://rcpbx.com/recipes/dubai-chocolate-bar/</guid>
+      <description>[WORTH IT] The viral pistachio-kunafa chocolate, made with the right filling.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Smashed Cucumber Salad</title>
+      <link>https://rcpbx.com/recipes/cucumber-salad/</link>
+      <guid>https://rcpbx.com/recipes/cucumber-salad/</guid>
+      <description>[WORTH IT] The viral crunchy, garlicky, spicy cucumber situation.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cottage Cheese Taco Shells</title>
+      <link>https://rcpbx.com/recipes/cottage-cheese-tacos/</link>
+      <guid>https://rcpbx.com/recipes/cottage-cheese-tacos/</guid>
+      <description>[WORTH IT] The protein taco shell that ate TikTok this summer.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cottage Cheese Flatbread</title>
+      <link>https://rcpbx.com/recipes/cottage-cheese-flatbread/</link>
+      <guid>https://rcpbx.com/recipes/cottage-cheese-flatbread/</guid>
+      <description>[OVERHYPED] The viral flourless version: cottage cheese, eggs, an oven.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chickpea Cookie Dough</title>
+      <link>https://rcpbx.com/recipes/chickpea-cookie-dough/</link>
+      <guid>https://rcpbx.com/recipes/chickpea-cookie-dough/</guid>
+      <description>[WORTH IT] Edible cookie dough with 6g of fiber hiding in it.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Caprese Salad</title>
+      <link>https://rcpbx.com/recipes/caprese-salad/</link>
+      <guid>https://rcpbx.com/recipes/caprese-salad/</guid>
+      <description>Tomato, mozzarella, basil. The holy trinity.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Caesar Salad</title>
+      <link>https://rcpbx.com/recipes/caesar-salad/</link>
+      <guid>https://rcpbx.com/recipes/caesar-salad/</guid>
+      <description>Homemade dressing, real anchovies, no compromises.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Buldak Carbonara</title>
+      <link>https://rcpbx.com/recipes/buldak-carbonara/</link>
+      <guid>https://rcpbx.com/recipes/buldak-carbonara/</guid>
+      <description>[WORTH IT] Korean fire noodles, tamed with yolk and parmesan.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Black Sesame Cookies</title>
+      <link>https://rcpbx.com/recipes/black-sesame-cookies/</link>
+      <guid>https://rcpbx.com/recipes/black-sesame-cookies/</guid>
+      <description>[WORTH IT] Chewy sugar cookies with the flavor of the year.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Air Fryer Smashed Potatoes</title>
+      <link>https://rcpbx.com/recipes/air-fryer-smashed-potatoes/</link>
+      <guid>https://rcpbx.com/recipes/air-fryer-smashed-potatoes/</guid>
+      <description>[WORTH IT] Boiled, smashed, blasted. Maximum crust per potato.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Air Fryer Chicken Thighs</title>
+      <link>https://rcpbx.com/recipes/air-fryer-chicken-thighs/</link>
+      <guid>https://rcpbx.com/recipes/air-fryer-chicken-thighs/</guid>
+      <description>Crispy skin, juicy meat, 25 minutes.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
   </channel>
 </rss>
