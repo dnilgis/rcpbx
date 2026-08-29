@@ -34,5 +34,5 @@ Serves: 6
 - Cooking tortillas in soup adds body and flavor.
 - Crispy strips must be added right before serving.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/chicken-tortilla-soup/

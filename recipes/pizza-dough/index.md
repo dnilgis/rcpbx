@@ -29,5 +29,5 @@ Makes: 2 pizzas
 - Cold rise develops more flavor.
 - High heat is essential for crispy crust.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/pizza-dough/

@@ -32,5 +32,5 @@ Serves: 4-6
 - Mahi or cod hold up best.
 - Don't overcook - fish should just flake.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/fish-tacos/

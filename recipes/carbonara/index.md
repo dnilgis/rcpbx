@@ -30,5 +30,5 @@ Serves: 4
 - Work fast - pasta must be hot.
 - No cream in real carbonara - ever.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/carbonara/

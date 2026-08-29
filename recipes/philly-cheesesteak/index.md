@@ -28,5 +28,5 @@ Serves: 4
 - American cheese melts perfectly.
 - Don't overcook - should be tender.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/philly-cheesesteak/

@@ -28,5 +28,5 @@ Serves: 4-6
 - Toasting adds nutty flavor.
 - Don't lift lid while cooking.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/rice-pilaf/

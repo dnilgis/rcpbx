@@ -30,5 +30,5 @@ Serves: 8
 - Pasta absorbs dressing - make it wetter than you think.
 - Tastes better next day.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/macaroni-salad/

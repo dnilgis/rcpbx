@@ -30,5 +30,5 @@ Prep: 10 min · Cook: 10 min · Makes: 24 cookies
 - Gluten-free: These are naturally gluten-free as written.
 - Add-ins: Press a Hershey's Kiss into each cookie right after baking for peanut butter blossoms.
 
-Source: Adapted from Allrecipes
+Source: Adapted from AllRecipes
 Canonical: https://rcpbx.com/recipes/peanut-butter-cookies/

@@ -28,5 +28,5 @@ Serves: 4-6
 - Tenderloins are lean - don't overcook.
 - Sugar helps browning.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/pork-tenderloin/
