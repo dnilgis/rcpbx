@@ -31,5 +31,5 @@ Serves: 16
 - Dough should be slightly tacky.
 - Butter while hot so it soaks in.
 
-Source: King Arthur Baking (King Arthur tested)
+Source: Adapted from King Arthur Baking
 Canonical: https://rcpbx.com/recipes/dinner-rolls/

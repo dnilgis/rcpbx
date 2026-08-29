@@ -34,5 +34,5 @@ Serves: 6-8
 - Don't skip frying potato skins - incredible texture.
 - Add sour cream off heat to prevent curdling.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/potato-soup/

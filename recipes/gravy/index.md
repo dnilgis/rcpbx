@@ -29,5 +29,5 @@ Makes: 3 cups
 - Gradual addition prevents lumps.
 - Strain for silky texture.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/gravy/

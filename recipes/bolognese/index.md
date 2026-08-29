@@ -35,5 +35,5 @@ Serves: 8
 - True Bolognese is barely red - it's a meat sauce.
 - Traditionally served with tagliatelle, not spaghetti.
 
-Source: Marcella Hazan / Serious Eats (Marcella Hazan classic + Kenji tested)
+Source: Adapted from Marcella Hazan / Serious Eats
 Canonical: https://rcpbx.com/recipes/bolognese/

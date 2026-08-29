@@ -33,5 +33,5 @@ Serves: 4
 - Handle gently to preserve lumps.
 - Chilling firms them up.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/crab-cakes/

@@ -29,5 +29,5 @@ Serves: 4
 - Thick-cut bone-in stays juicier.
 - Pork is safe at 145°F.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/pork-chops/

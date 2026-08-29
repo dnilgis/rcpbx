@@ -27,5 +27,5 @@ Serves: 4-6
 - Use two pans if needed.
 - High heat creates caramelization.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/roasted-vegetables/

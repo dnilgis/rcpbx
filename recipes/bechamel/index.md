@@ -27,5 +27,5 @@ Makes: 2 cups
 - Don't brown the flour - should stay white.
 - Base for cheese sauce, gratins, lasagna.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/bechamel/

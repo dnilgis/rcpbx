@@ -29,5 +29,5 @@ Serves: 4-6
 - Poaching keeps chicken moist.
 - Shredded has better texture than cubed.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/chicken-salad/

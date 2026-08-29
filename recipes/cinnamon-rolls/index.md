@@ -27,5 +27,5 @@ Serves: 12
 - Use dental floss to cut dough.
 - Don't overbake.
 
-Source: King Arthur Baking (King Arthur tested)
+Source: Adapted from King Arthur Baking
 Canonical: https://rcpbx.com/recipes/cinnamon-rolls/

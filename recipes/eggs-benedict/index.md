@@ -27,5 +27,5 @@ Serves: 4
 - Fresh eggs poach better.
 - Hollandaise breaks if too hot.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/eggs-benedict/

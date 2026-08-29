@@ -29,5 +29,5 @@ Serves: 12
 - Creaming butter and sugar is the key to texture.
 - Don't open oven door for first 45 minutes.
 
-Source: King Arthur Baking (King Arthur tested)
+Source: Adapted from King Arthur Baking
 Canonical: https://rcpbx.com/recipes/pound-cake/

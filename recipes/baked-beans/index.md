@@ -31,5 +31,5 @@ Serves: 8-10
 - Soaking ensures even cooking.
 - Low and slow is essential.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/baked-beans/
