@@ -2,7 +2,7 @@
   "id": "pork-fried-rice",
   "title": "Pork Fried Rice",
   "tagline": "Classic Chinese takeout, homemade",
-  "description": "Pork Fried Rice - Kenji López-Alt tested",
+  "description": "Classic Chinese takeout, homemade. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Pork",
   "categorySlug": "pork",
   "time": "30 min",
@@ -31,6 +31,6 @@
     "Char siu is traditional.",
     "Day-old rice is essential."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/easy-vegetable-fried-rice-recipe"
 }

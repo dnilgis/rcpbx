@@ -2,7 +2,7 @@
   "id": "pork-tenderloin",
   "title": "Roasted Pork Tenderloin",
   "tagline": "Quick-roasting, herb-crusted, juicy",
-  "description": "Roasted Pork Tenderloin - ATK Lab-Tested",
+  "description": "Quick-roasting, herb-crusted, juicy. Adapted from America's Test Kitchen.",
   "category": "Pork",
   "categorySlug": "pork",
   "time": "45 min",
@@ -28,6 +28,6 @@
     "Tenderloins are lean - don't overcook.",
     "Sugar helps browning."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/8053-roasted-pork-tenderloin"
 }

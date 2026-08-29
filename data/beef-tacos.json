@@ -2,7 +2,7 @@
   "id": "beef-tacos",
   "title": "Ground Beef Tacos",
   "tagline": "Well-seasoned, classic weeknight dinner",
-  "description": "Ground Beef Tacos - Kenji López-Alt tested",
+  "description": "Well-seasoned, classic weeknight dinner. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Beef",
   "categorySlug": "beef",
   "time": "25 min",
@@ -32,6 +32,6 @@
     "Browning before spices develops flavor.",
     "Vinegar adds brightness."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/really-good-beef-taco-recipe"
 }

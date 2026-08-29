@@ -2,7 +2,7 @@
   "id": "broccoli-cheddar-soup",
   "title": "Broccoli Cheddar Soup",
   "tagline": "Silky, cheesy, actually tastes like broccoli",
-  "description": "Broccoli Cheddar Soup - ATK Lab-Tested",
+  "description": "Silky, cheesy, actually tastes like broccoli. Adapted from America's Test Kitchen.",
   "category": "Soups & Stews",
   "categorySlug": "soups-stews",
   "time": "45 min",
@@ -34,6 +34,6 @@
     "Overcooking broccoli is actually the key here.",
     "Don't boil after adding cheese or it separates."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/6393-broccoli-cheese-soup"
 }

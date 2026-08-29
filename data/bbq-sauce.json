@@ -2,7 +2,7 @@
   "id": "bbq-sauce",
   "title": "BBQ Sauce",
   "tagline": "Sweet, tangy, smoky",
-  "description": "BBQ Sauce - Rigorously tested",
+  "description": "Sweet, tangy, smoky. Adapted from Serious Eats.",
   "category": "Basics",
   "categorySlug": "basics",
   "time": "30 min",
@@ -31,6 +31,6 @@
     "Thickens as it cools.",
     "Add chipotle for smoky heat."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/best-bbq-sauce-recipe"
 }

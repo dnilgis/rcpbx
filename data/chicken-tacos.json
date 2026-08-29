@@ -2,7 +2,7 @@
   "id": "chicken-tacos",
   "title": "Chicken Tacos",
   "tagline": "Simple spiced chicken, classic toppings",
-  "description": "Chicken Tacos - Kenji López-Alt tested",
+  "description": "Simple spiced chicken, classic toppings. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Chicken",
   "categorySlug": "chicken",
   "time": "45 min",
@@ -30,6 +30,6 @@
     "Char adds taqueria flavor.",
     "Double-stack corn tortillas."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/easy-oven-roasted-chicken-tacos"
 }

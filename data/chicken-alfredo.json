@@ -2,7 +2,7 @@
   "id": "chicken-alfredo",
   "title": "Chicken Alfredo",
   "tagline": "Creamy, garlicky, comfort food perfection",
-  "description": "Chicken Alfredo - Kenji López-Alt tested",
+  "description": "Creamy, garlicky, comfort food perfection. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Pasta",
   "categorySlug": "pasta",
   "time": "30 min",
@@ -31,6 +31,6 @@
     "Real Alfredo is just butter, Parmesan, pasta water - cream is American addition.",
     "Take pot off heat before adding cheese to prevent clumping."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/the-best-fettuccine-alfredo-recipe"
 }

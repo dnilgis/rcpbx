@@ -2,7 +2,7 @@
   "id": "pie-crust",
   "title": "Pie Crust",
   "tagline": "Flaky, buttery, foolproof",
-  "description": "Pie Crust - BraveTart tested",
+  "description": "Flaky, buttery, foolproof. Adapted from Serious Eats / Stella Parks.",
   "category": "Baking",
   "categorySlug": "baking-dessert",
   "time": "15 min + chilling",
@@ -29,6 +29,6 @@
     "Don't overwork the dough.",
     "Visible butter pieces = flaky crust."
   ],
-  "source": "Serious Eats / Stella Parks (BraveTart tested)",
+  "source": "Adapted from Serious Eats / Stella Parks",
   "sourceUrl": "https://www.seriouseats.com/easy-pie-crust-recipe"
 }

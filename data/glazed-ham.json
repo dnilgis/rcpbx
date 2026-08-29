@@ -2,7 +2,7 @@
   "id": "glazed-ham",
   "title": "Glazed Ham",
   "tagline": "Holiday centerpiece, sweet and sticky",
-  "description": "Glazed Ham - ATK Lab-Tested",
+  "description": "Holiday centerpiece, sweet and sticky. Adapted from America's Test Kitchen.",
   "category": "Pork",
   "categorySlug": "pork",
   "time": "2½-3 hrs",
@@ -28,6 +28,6 @@
     "Spiral ham is already cooked - just heating and glazing.",
     "Cut-side down keeps meat moist."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/6352-glazed-spiral-ham"
 }

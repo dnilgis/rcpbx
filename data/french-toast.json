@@ -2,7 +2,7 @@
   "id": "french-toast",
   "title": "French Toast",
   "tagline": "Custardy center, golden exterior",
-  "description": "French Toast - Kenji López-Alt tested",
+  "description": "Custardy center, golden exterior. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Breakfast",
   "categorySlug": "breakfast",
   "time": "25 min",
@@ -32,6 +32,6 @@
     "Day-old bread absorbs better.",
     "Don't over-soak."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/perfect-french-toast-recipe"
 }

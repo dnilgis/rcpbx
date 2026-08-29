@@ -2,7 +2,7 @@
   "id": "fish-and-chips",
   "title": "Fish and Chips",
   "tagline": "Crispy beer batter, double-fried chips",
-  "description": "Fish and Chips - Kenji López-Alt tested",
+  "description": "Crispy beer batter, double-fried chips. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Seafood",
   "categorySlug": "seafood",
   "time": "1 hr",
@@ -31,6 +31,6 @@
     "Cold beer keeps batter light.",
     "Soaking removes starch."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/fish-and-chips-recipe"
 }

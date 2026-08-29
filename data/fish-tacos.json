@@ -2,7 +2,7 @@
   "id": "fish-tacos",
   "title": "Fish Tacos",
   "tagline": "Spiced fish, tangy crema, fresh slaw",
-  "description": "Fish Tacos - Kenji López-Alt tested",
+  "description": "Spiced fish, tangy crema, fresh slaw. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Seafood",
   "categorySlug": "seafood",
   "time": "45 min",
@@ -32,6 +32,6 @@
     "Mahi or cod hold up best.",
     "Don't overcook - fish should just flake."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/fish-tacos-recipe"
 }

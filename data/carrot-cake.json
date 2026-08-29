@@ -2,7 +2,7 @@
   "id": "carrot-cake",
   "title": "Carrot Cake",
   "tagline": "Moist, spiced, cream cheese frosted",
-  "description": "Carrot Cake - Stella Parks tested",
+  "description": "Moist, spiced, cream cheese frosted. Adapted from Serious Eats / Stella Parks.",
   "category": "Baking",
   "categorySlug": "baking-dessert",
   "time": "1½ hrs",
@@ -26,6 +26,6 @@
     "Oil keeps cake moist.",
     "Toast walnuts for better flavor."
   ],
-  "source": "Serious Eats (Stella Parks tested)",
+  "source": "Adapted from Serious Eats / Stella Parks",
   "sourceUrl": "https://www.seriouseats.com/carrot-cake-recipe"
 }

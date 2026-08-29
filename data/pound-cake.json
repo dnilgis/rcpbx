@@ -2,7 +2,7 @@
   "id": "pound-cake",
   "title": "Pound Cake",
   "tagline": "Dense, buttery, versatile",
-  "description": "Pound Cake - King Arthur tested",
+  "description": "Dense, buttery, versatile. Adapted from King Arthur Baking.",
   "category": "Baking",
   "categorySlug": "baking-dessert",
   "time": "1½ hrs",
@@ -29,6 +29,6 @@
     "Creaming butter and sugar is the key to texture.",
     "Don't open oven door for first 45 minutes."
   ],
-  "source": "King Arthur Baking (King Arthur tested)",
+  "source": "Adapted from King Arthur Baking",
   "sourceUrl": "https://www.kingarthurbaking.com/recipes/pound-cake-recipe"
 }

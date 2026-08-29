@@ -2,7 +2,7 @@
   "id": "philly-cheesesteak",
   "title": "Philly Cheesesteak",
   "tagline": "Thinly sliced beef, gooey cheese, soft roll",
-  "description": "Philly Cheesesteak - Kenji López-Alt tested",
+  "description": "Thinly sliced beef, gooey cheese, soft roll. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Beef",
   "categorySlug": "beef",
   "time": "30 min",
@@ -28,6 +28,6 @@
     "American cheese melts perfectly.",
     "Don't overcook - should be tender."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/philly-style-cheesesteaks-recipe"
 }

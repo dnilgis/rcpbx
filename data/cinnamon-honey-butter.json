@@ -1,0 +1,35 @@
+{
+  "id": "cinnamon-honey-butter",
+  "title": "Cinnamon Honey Butter",
+  "tagline": "The Texas Roadhouse butter. Illegal to serve rolls without it.",
+  "description": "The whipped cinnamon honey butter that makes the steakhouse rolls a pilgrimage: butter, honey, powdered sugar, cinnamon, whipped until it spreads like frosting. Two minutes of work, permanent household demand.",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "prep": "5 min",
+  "cook": "0 min",
+  "makes": "about 1 cup",
+  "ingredients": [
+    "225g (2 sticks) unsalted butter, fully softened (leave it out 2 hours - actually softened)",
+    "1/4 cup (85g) honey",
+    "1/4 cup (30g) powdered sugar",
+    "1 tsp ground cinnamon",
+    "1/4 tsp Diamond Crystal kosher salt"
+  ],
+  "steps": [
+    "Beat the softened butter with a hand mixer (or stand mixer, whisk attachment) for 1 minute until creamy.",
+    "Add honey, powdered sugar, cinnamon, and salt. Beat 2-3 more minutes, scraping down once, until pale, fluffy, and visibly whipped - it should hold soft peaks like frosting.",
+    "Serve at room temperature. Refrigerate leftovers up to 2 weeks; let it come back to room temp (or re-whip 30 seconds) before serving."
+  ],
+  "notes": [
+    "The whip is the recipe. Stirred-together ingredients taste the same but spread like cold spackle - the airiness is the Roadhouse texture.",
+    "Salted butter works: drop the added salt.",
+    "Also correct on: pancakes, cornbread, sweet potatoes, toast, a spoon."
+  ],
+  "troubleshooting": [
+    "Grainy → butter wasn't soft enough to emulsify; let it warm and re-whip.",
+    "Separated or greasy → over-whipped in a warm kitchen; chill 10 minutes and whip briefly.",
+    "Too sweet → that's the recipe; halve the powdered sugar next time and it's still right."
+  ],
+  "source": "Texas Roadhouse copycat",
+  "sourceUrl": ""
+}

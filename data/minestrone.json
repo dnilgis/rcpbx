@@ -2,7 +2,7 @@
   "id": "minestrone",
   "title": "Minestrone",
   "tagline": "Hearty Italian vegetable soup",
-  "description": "Minestrone - ATK Lab-Tested",
+  "description": "Hearty Italian vegetable soup. Adapted from America's Test Kitchen.",
   "category": "Soups & Stews",
   "categorySlug": "soups-stews",
   "time": "1¼ hrs",
@@ -36,6 +36,6 @@
     "Add pasta near end so it doesn't get mushy.",
     "Even better the next day."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/1574-hearty-minestrone"
 }

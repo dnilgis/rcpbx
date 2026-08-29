@@ -383,6 +383,16 @@
     "serves": "4"
   },
   {
+    "id": "chicken-asparagus",
+    "title": "Chicken & Asparagus Skillet",
+    "tagline": "One pan, lemon, garlic, cream. The weeknight standard.",
+    "category": "Chicken",
+    "categorySlug": "chicken",
+    "prep": "10 min",
+    "cook": "20 min",
+    "serves": "4"
+  },
+  {
     "id": "chicken-fried-rice",
     "title": "Chicken Fried Rice",
     "tagline": "Day-old rice, crispy edges, wok hei",
@@ -533,6 +543,16 @@
     "prep": "20 min",
     "cook": "12 min",
     "makes": "16"
+  },
+  {
+    "id": "cinnamon-honey-butter",
+    "title": "Cinnamon Honey Butter",
+    "tagline": "The Texas Roadhouse butter. Illegal to serve rolls without it.",
+    "category": "Basics",
+    "categorySlug": "basics",
+    "prep": "5 min",
+    "cook": "0 min",
+    "makes": "about 1 cup"
   },
   {
     "id": "cinnamon-rolls",
@@ -1374,6 +1394,16 @@
     "prep": "10 min",
     "cook": "20 min",
     "serves": "4"
+  },
+  {
+    "id": "texas-roadhouse-rolls",
+    "title": "Texas Roadhouse Rolls",
+    "tagline": "The impossibly soft steakhouse rolls, at home, by the basket.",
+    "category": "Sides",
+    "categorySlug": "sides",
+    "prep": "25 min (plus 1.5 hr rising)",
+    "cook": "15 min",
+    "makes": "24 rolls"
   },
   {
     "id": "tomato-soup",

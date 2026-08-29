@@ -2,7 +2,7 @@
   "id": "chicken-tikka-masala",
   "title": "Chicken Tikka Masala",
   "tagline": "Charred chicken in creamy tomato sauce",
-  "description": "Chicken Tikka Masala - Kenji López-Alt tested",
+  "description": "Charred chicken in creamy tomato sauce. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Chicken",
   "categorySlug": "chicken",
   "time": "1 hr + marinating",
@@ -34,6 +34,6 @@
     "Yogurt marinade tenderizes.",
     "Charring under broiler adds authentic flavor."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/chicken-tikka-masala-recipe"
 }

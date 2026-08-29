@@ -2,7 +2,7 @@
   "id": "bolognese",
   "title": "Bolognese Sauce",
   "tagline": "Rich, meaty, slow-simmered perfection",
-  "description": "Bolognese Sauce - Marcella Hazan classic + Kenji tested",
+  "description": "Rich, meaty, slow-simmered perfection. Adapted from Marcella Hazan, with Serious Eats influences.",
   "category": "Pasta",
   "categorySlug": "pasta",
   "time": "3-4 hrs",
@@ -35,6 +35,6 @@
     "True Bolognese is barely red - it's a meat sauce.",
     "Traditionally served with tagliatelle, not spaghetti."
   ],
-  "source": "Marcella Hazan / Serious Eats (Marcella Hazan classic + Kenji tested)",
+  "source": "Adapted from Marcella Hazan / Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/the-best-slow-cooked-bolognese-sauce-recipe"
 }

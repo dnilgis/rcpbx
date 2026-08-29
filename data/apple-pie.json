@@ -2,7 +2,7 @@
   "id": "apple-pie",
   "title": "Apple Pie",
   "tagline": "Flaky crust, spiced fruit filling",
-  "description": "Apple Pie - BraveTart tested",
+  "description": "Flaky crust, spiced fruit filling. Adapted from Serious Eats / Stella Parks.",
   "category": "Baking",
   "categorySlug": "baking-dessert",
   "time": "2 hrs + chilling",
@@ -27,6 +27,6 @@
     "Cold butter = flaky crust.",
     "Must cool or filling will run."
   ],
-  "source": "Serious Eats / Stella Parks (BraveTart tested)",
+  "source": "Adapted from Serious Eats / Stella Parks",
   "sourceUrl": "https://www.seriouseats.com/bravetart-apple-pie-recipe"
 }

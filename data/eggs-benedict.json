@@ -2,7 +2,7 @@
   "id": "eggs-benedict",
   "title": "Eggs Benedict",
   "tagline": "Poached eggs, Canadian bacon, hollandaise",
-  "description": "Eggs Benedict - Kenji López-Alt tested",
+  "description": "Poached eggs, Canadian bacon, hollandaise. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Breakfast",
   "categorySlug": "breakfast",
   "time": "45 min",
@@ -27,6 +27,6 @@
     "Fresh eggs poach better.",
     "Hollandaise breaks if too hot."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/the-best-eggs-benedict-recipe"
 }

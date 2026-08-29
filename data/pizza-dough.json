@@ -2,7 +2,7 @@
   "id": "pizza-dough",
   "title": "Pizza Dough",
   "tagline": "Chewy, crispy, restaurant quality",
-  "description": "Pizza Dough - Kenji López-Alt tested",
+  "description": "Chewy, crispy, restaurant quality. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Basics",
   "categorySlug": "basics",
   "time": "15 min + rising",
@@ -29,6 +29,6 @@
     "Cold rise develops more flavor.",
     "High heat is essential for crispy crust."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/basic-new-york-style-pizza-dough"
 }

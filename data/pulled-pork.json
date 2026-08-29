@@ -2,7 +2,7 @@
   "id": "pulled-pork",
   "title": "Pulled Pork",
   "tagline": "Fall-apart tender, smoky, saucy",
-  "description": "Pulled Pork - Kenji López-Alt tested",
+  "description": "Fall-apart tender, smoky, saucy. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Pork",
   "categorySlug": "pork",
   "time": "8-10 hrs",
@@ -33,6 +33,6 @@
     "Low and slow breaks down collagen.",
     "Mix crispy bark into pulled meat."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/easy-oven-pulled-pork-recipe"
 }

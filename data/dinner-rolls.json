@@ -2,7 +2,7 @@
   "id": "dinner-rolls",
   "title": "Dinner Rolls",
   "tagline": "Soft, buttery, pull-apart",
-  "description": "Dinner Rolls - King Arthur tested",
+  "description": "Soft, buttery, pull-apart. Adapted from King Arthur Baking.",
   "category": "Sides",
   "categorySlug": "sides",
   "time": "2½ hrs",
@@ -31,6 +31,6 @@
     "Dough should be slightly tacky.",
     "Butter while hot so it soaks in."
   ],
-  "source": "King Arthur Baking (King Arthur tested)",
+  "source": "Adapted from King Arthur Baking",
   "sourceUrl": "https://www.kingarthurbaking.com/recipes/soft-dinner-rolls-recipe"
 }

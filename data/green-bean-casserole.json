@@ -2,7 +2,7 @@
   "id": "green-bean-casserole",
   "title": "Green Bean Casserole",
   "tagline": "Creamy, crunchy, holiday favorite",
-  "description": "Green Bean Casserole - Rigorously tested",
+  "description": "Creamy, crunchy, holiday favorite. Adapted from Serious Eats.",
   "category": "Sides",
   "categorySlug": "sides",
   "time": "1 hr",
@@ -31,6 +31,6 @@
     "Fresh beans are so much better than canned.",
     "Adding onions at end keeps them crispy."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/the-best-green-bean-casserole-recipe"
 }

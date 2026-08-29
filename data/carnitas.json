@@ -2,7 +2,7 @@
   "id": "carnitas",
   "title": "Carnitas",
   "tagline": "Crispy-edged, tender braised pork",
-  "description": "Carnitas - Kenji López-Alt tested",
+  "description": "Crispy-edged, tender braised pork. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Pork",
   "categorySlug": "pork",
   "time": "3-4 hrs",
@@ -32,6 +32,6 @@
     "Orange juice adds subtle sweetness.",
     "Mix crispy bits with tender meat."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/no-waste-tacos-de-carnitas-recipe"
 }

@@ -2,7 +2,7 @@
   "id": "chicken-stock",
   "title": "Chicken Stock",
   "tagline": "Rich, golden, foundation of flavor",
-  "description": "Chicken Stock - Kenji López-Alt tested",
+  "description": "Rich, golden, foundation of flavor. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Basics",
   "categorySlug": "basics",
   "time": "4-6 hrs",
@@ -31,6 +31,6 @@
     "More gelatin = richer body.",
     "Freezes for 6 months."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/best-rich-easy-white-chicken-stock-recipe"
 }

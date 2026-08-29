@@ -2,7 +2,7 @@
   "id": "homemade-bread",
   "title": "Homemade Bread",
   "tagline": "Crusty outside, soft inside",
-  "description": "Homemade Bread - King Arthur tested",
+  "description": "Crusty outside, soft inside. Adapted from King Arthur Baking.",
   "category": "Basics",
   "categorySlug": "basics",
   "time": "2 hrs + overnight",
@@ -28,6 +28,6 @@
     "Dutch oven creates steam for crusty crust.",
     "Cool completely or crumb will be gummy."
   ],
-  "source": "King Arthur Baking (King Arthur tested)",
+  "source": "Adapted from King Arthur Baking",
   "sourceUrl": "https://www.kingarthurbaking.com/recipes/no-knead-crusty-white-bread-recipe"
 }

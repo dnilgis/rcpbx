@@ -2,7 +2,7 @@
   "id": "potato-salad",
   "title": "Potato Salad",
   "tagline": "Creamy, classic American style",
-  "description": "Potato Salad - Kenji López-Alt tested",
+  "description": "Creamy, classic American style. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Sides",
   "categorySlug": "sides",
   "time": "45 min + chilling",
@@ -31,6 +31,6 @@
     "Dress potatoes while warm - absorbs more flavor.",
     "Yukon Golds hold shape better."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/classic-american-potato-salad-recipe"
 }

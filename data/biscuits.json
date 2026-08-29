@@ -2,7 +2,7 @@
   "id": "biscuits",
   "title": "Buttermilk Biscuits",
   "tagline": "Tall, flaky, butter-brushed",
-  "description": "Buttermilk Biscuits - BraveTart tested",
+  "description": "Tall, flaky, butter-brushed. Adapted from Serious Eats / Stella Parks.",
   "category": "Breakfast",
   "categorySlug": "breakfast",
   "time": "30 min",
@@ -31,6 +31,6 @@
     "Don't twist cutter - seals edges.",
     "Biscuits touching rise higher."
   ],
-  "source": "Serious Eats / Stella Parks (BraveTart tested)",
+  "source": "Adapted from Serious Eats / Stella Parks",
   "sourceUrl": "https://www.seriouseats.com/the-best-buttermilk-biscuits-recipe"
 }

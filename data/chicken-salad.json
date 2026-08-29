@@ -2,7 +2,7 @@
   "id": "chicken-salad",
   "title": "Chicken Salad",
   "tagline": "Classic, creamy, perfect for sandwiches",
-  "description": "Chicken Salad - ATK Lab-Tested",
+  "description": "Classic, creamy, perfect for sandwiches. Adapted from America's Test Kitchen.",
   "category": "Chicken",
   "categorySlug": "chicken",
   "time": "30 min",
@@ -29,6 +29,6 @@
     "Poaching keeps chicken moist.",
     "Shredded has better texture than cubed."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/8063-classic-chicken-salad"
 }
