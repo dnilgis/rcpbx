@@ -1,4 +1,4 @@
-# rcpbx — full recipe corpus (161 of 161 recipes with full data in this build)
+# rcpbx — full recipe corpus (164 of 164 recipes with full data in this build)
 # License: free to quote with attribution to rcpbx.com
 
 # Spaghetti Aglio e Olio
@@ -164,7 +164,7 @@ Serves: 8
 - Cold butter = flaky crust.
 - Must cool or filling will run.
 
-Source: Serious Eats / Stella Parks (BraveTart tested)
+Source: Adapted from Serious Eats / Stella Parks
 Canonical: https://rcpbx.com/recipes/apple-pie/
 
 ---
@@ -204,7 +204,7 @@ Serves: 4
 - Foil wrap keeps them moist.
 - Broiling gives caramelized finish.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/baby-back-ribs/
 
 ---
@@ -242,7 +242,7 @@ Serves: 8-10
 - Soaking ensures even cooking.
 - Low and slow is essential.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/baked-beans/
 
 ---
@@ -277,7 +277,7 @@ Serves: 4
 - Use thermometer - overcooked breast is dry.
 - Resting is crucial.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/baked-chicken-breast/
 
 ---
@@ -314,7 +314,7 @@ Serves: 4
 - Cod's mild flavor pairs with bold toppings.
 - Don't overcook - should just flake.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/baked-cod/
 
 ---
@@ -391,7 +391,7 @@ Serves: 4
 - Oil and salt = crispy skin.
 - No foil - steams instead of bakes.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/baked-potato/
 
 ---
@@ -430,7 +430,7 @@ Serves: 8-10
 - Undercook pasta - it finishes in oven.
 - Dollop ricotta for pockets of creaminess.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/baked-ziti/
 
 ---
@@ -475,7 +475,7 @@ Prep: 15 min · Cook: 1 hr · Makes: 1 loaf
 - Freeze ripe bananas: Peel, freeze in bags. Thaw before using—they get extra soft and sweet.
 - Storage: Keeps 4 days wrapped at room temp. Freezes well for 3 months.
 
-Source: Adapted from King Arthur Flour (Recipe of the Year)
+Source: Adapted from King Arthur Baking
 Canonical: https://rcpbx.com/recipes/banana-bread/
 
 ---
@@ -554,7 +554,7 @@ Makes: 2 cups
 - Thickens as it cools.
 - Add chipotle for smoky heat.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/bbq-sauce/
 
 ---
@@ -588,7 +588,7 @@ Makes: 2 cups
 - Don't brown the flour - should stay white.
 - Base for cheese sauce, gratins, lasagna.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/bechamel/
 
 ---
@@ -627,7 +627,7 @@ Serves: 4
 - Velveting keeps beef tender.
 - Slice against grain for tender pieces.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/beef-and-broccoli/
 
 ---
@@ -668,7 +668,7 @@ Serves: 6-8
 - Don't skip browning the beef - builds the flavor base.
 - Add more broth when reheating - barley absorbs liquid.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/beef-barley-soup/
 
 ---
@@ -705,7 +705,7 @@ Serves: 4-6
 - Cast iron gets hot enough for proper char.
 - Don't marinate more than 2 hours.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/beef-fajitas/
 
 ---
@@ -792,7 +792,7 @@ Serves: 4
 - Don't overcook beef - should be medium rare.
 - Add sour cream off heat to prevent curdling.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/beef-stroganoff/
 
 ---
@@ -831,7 +831,7 @@ Serves: 4-6
 - Browning before spices develops flavor.
 - Vinegar adds brightness.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/beef-tacos/
 
 ---
@@ -919,7 +919,7 @@ Serves: 8-10
 - Don't twist cutter - seals edges.
 - Biscuits touching rise higher.
 
-Source: Serious Eats / Stella Parks (BraveTart tested)
+Source: Adapted from Serious Eats / Stella Parks
 Canonical: https://rcpbx.com/recipes/biscuits/
 
 ---
@@ -955,7 +955,7 @@ Serves: 4-6
 - Gravy thickens as it cools.
 - Black pepper is essential.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/biscuits-and-gravy/
 
 ---
@@ -1046,7 +1046,7 @@ Makes: 12
 - Frozen blueberries work great.
 - Fill cups nearly full for big tops.
 
-Source: King Arthur Baking (King Arthur tested)
+Source: Adapted from King Arthur Baking
 Canonical: https://rcpbx.com/recipes/blueberry-muffins/
 
 ---
@@ -1088,7 +1088,7 @@ Serves: 8
 - True Bolognese is barely red - it's a meat sauce.
 - Traditionally served with tagliatelle, not spaghetti.
 
-Source: Marcella Hazan / Serious Eats (Marcella Hazan classic + Kenji tested)
+Source: Adapted from Marcella Hazan / Serious Eats
 Canonical: https://rcpbx.com/recipes/bolognese/
 
 ---
@@ -1127,7 +1127,7 @@ Serves: 4
 - Warm tortillas are more pliable.
 - Don't overfill.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/breakfast-burrito/
 
 ---
@@ -1203,7 +1203,7 @@ Serves: 6-8
 - Overcooking broccoli is actually the key here.
 - Don't boil after adding cheese or it separates.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/broccoli-cheddar-soup/
 
 ---
@@ -1320,7 +1320,7 @@ Serves: 4
 - Don't skip overnight rest.
 - Frank's is classic; adjust heat with more/less sauce.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/buffalo-wings/
 
 ---
@@ -1437,7 +1437,7 @@ Serves: 4
 - Pecorino is essential - don't substitute Parmesan.
 - Work fast and off heat to prevent clumping.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/cacio-e-pepe/
 
 ---
@@ -1571,7 +1571,7 @@ Serves: 4
 - Work fast - pasta must be hot.
 - No cream in real carbonara - ever.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/carbonara/
 
 ---
@@ -1610,7 +1610,7 @@ Serves: 8-10
 - Orange juice adds subtle sweetness.
 - Mix crispy bits with tender meat.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/carnitas/
 
 ---
@@ -1643,7 +1643,7 @@ Serves: 12
 - Oil keeps cake moist.
 - Toast walnuts for better flavor.
 
-Source: Serious Eats (Stella Parks tested)
+Source: Adapted from Serious Eats / Stella Parks
 Canonical: https://rcpbx.com/recipes/carrot-cake/
 
 ---
@@ -1677,7 +1677,7 @@ Serves: 12
 - Water bath prevents cracking.
 - Must chill overnight.
 
-Source: Serious Eats / Stella Parks (BraveTart tested)
+Source: Adapted from Serious Eats / Stella Parks
 Canonical: https://rcpbx.com/recipes/cheesecake/
 
 ---
@@ -1715,8 +1715,57 @@ Serves: 4
 - Real Alfredo is just butter, Parmesan, pasta water - cream is American addition.
 - Take pot off heat before adding cheese to prevent clumping.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/chicken-alfredo/
+
+---
+
+# Chicken & Asparagus Skillet
+
+One pan, lemon, garlic, cream. The weeknight standard.
+
+Prep: 10 min · Cook: 20 min · Serves: 4
+
+## Ingredients
+
+- 4 boneless skinless chicken breasts (or 2 large, halved horizontally into cutlets)
+- 1 1/2 tsp Diamond Crystal kosher salt (3/4 tsp table salt), divided
+- 1/2 tsp black pepper
+- 1/2 tsp garlic powder
+- 2 Tbsp olive oil
+- 1 lb (450g) asparagus, woody ends snapped off, cut in 2-inch pieces
+- 3 cloves garlic, minced
+- 3/4 cup (180ml) chicken broth
+- 1/2 cup (120ml) heavy cream
+- Zest and juice of 1/2 lemon
+- 30g (1/3 cup) grated parmesan
+- 2 Tbsp butter
+
+## Steps
+
+1. Pound chicken to even 3/4-inch thickness. Season both sides with 1 tsp of the salt, the pepper, and garlic powder.
+2. Heat oil in a large skillet over medium-high. Sear chicken 5-6 minutes per side until golden - pull at 160°F internal (carryover finishes it at 165°F). Rest on a plate, tented.
+3. Same skillet, medium heat: add butter and asparagus with the remaining 1/2 tsp salt. Cook 3-4 minutes, stirring, until bright green and just crisp-tender. Add garlic for the last 30 seconds.
+4. Push asparagus aside, pour in broth, and scrape up the browned bits. Simmer 2 minutes to reduce by half.
+5. Lower heat. Stir in cream, lemon zest, and parmesan; simmer gently 2 minutes until the sauce coats a spoon. Do not boil hard - cream plus lemon plus high heat curdles.
+6. Kill the heat, stir in the lemon juice, taste for salt.
+7. Return chicken and any resting juices to the pan, spoon sauce over, and serve - over rice, pasta, or as-is.
+
+## Notes
+
+- Thin asparagus cooks in 2 minutes, thick in 5 - judge by bend, not clock.
+- Lemon juice goes in off the heat; zest can simmer, juice breaks cream if boiled.
+- Got a family version of this? They're all cousins - the searing temps and the off-heat lemon rule carry over to any of them.
+
+## When it goes wrong
+
+- Curdled sauce → boiled after the lemon went in; keep it at a bare simmer and add juice off heat.
+- Army-green mushy asparagus → cooked too long or covered; hot pan, few minutes, uncovered.
+- Pale chicken, watery pan → crowded skillet; sear in two batches.
+- Bland → underseasoned chicken, not underseasoned sauce; season the meat itself, both sides.
+
+Source: rcpbx original
+Canonical: https://rcpbx.com/recipes/chicken-asparagus/
 
 ---
 
@@ -1754,7 +1803,7 @@ Serves: 4
 - High heat creates wok hei.
 - Don't stir constantly - let rice crisp.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/chicken-fried-rice/
 
 ---
@@ -1792,7 +1841,7 @@ Serves: 4
 - Use dry Marsala, not sweet cooking Marsala.
 - Pounding chicken ensures even cooking.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/chicken-marsala/
 
 ---
@@ -1921,7 +1970,7 @@ Serves: 6
 - Thighs have more flavor than breasts.
 - Puff pastry is easier than pie dough.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/chicken-pot-pie/
 
 ---
@@ -2000,7 +2049,7 @@ Serves: 4-6
 - Poaching keeps chicken moist.
 - Shredded has better texture than cubed.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/chicken-salad/
 
 ---
@@ -2042,7 +2091,7 @@ Serves: 4
 - Wok must be ripping hot.
 - Cook in batches to avoid steaming.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/chicken-stir-fry/
 
 ---
@@ -2080,7 +2129,7 @@ Makes: 3-4 quarts
 - More gelatin = richer body.
 - Freezes for 6 months.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/chicken-stock/
 
 ---
@@ -2117,7 +2166,7 @@ Serves: 4-6
 - Char adds taqueria flavor.
 - Double-stack corn tortillas.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/chicken-tacos/
 
 ---
@@ -2158,7 +2207,7 @@ Serves: 4-6
 - Yogurt marinade tenderizes.
 - Charring under broiler adds authentic flavor.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/chicken-tikka-masala/
 
 ---
@@ -2199,7 +2248,7 @@ Serves: 6
 - Cooking tortillas in soup adds body and flavor.
 - Crispy strips must be added right before serving.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/chicken-tortilla-soup/
 
 ---
@@ -2356,7 +2405,7 @@ Serves: 12
 - Hot coffee intensifies chocolate flavor.
 - Batter is very thin - that's correct.
 
-Source: Serious Eats (BraveTart tested)
+Source: Serious Eats
 Canonical: https://rcpbx.com/recipes/chocolate-cake/
 
 ---
@@ -2404,6 +2453,43 @@ Canonical: https://rcpbx.com/recipes/chocolate-chip-cookies/
 
 ---
 
+# Cinnamon Honey Butter
+
+The Texas Roadhouse butter. Illegal to serve rolls without it.
+
+Prep: 5 min · Cook: 0 min · Makes: about 1 cup
+
+## Ingredients
+
+- 225g (2 sticks) unsalted butter, fully softened (leave it out 2 hours - actually softened)
+- 1/4 cup (85g) honey
+- 1/4 cup (30g) powdered sugar
+- 1 tsp ground cinnamon
+- 1/4 tsp Diamond Crystal kosher salt
+
+## Steps
+
+1. Beat the softened butter with a hand mixer (or stand mixer, whisk attachment) for 1 minute until creamy.
+2. Add honey, powdered sugar, cinnamon, and salt. Beat 2-3 more minutes, scraping down once, until pale, fluffy, and visibly whipped - it should hold soft peaks like frosting.
+3. Serve at room temperature. Refrigerate leftovers up to 2 weeks; let it come back to room temp (or re-whip 30 seconds) before serving.
+
+## Notes
+
+- The whip is the recipe. Stirred-together ingredients taste the same but spread like cold spackle - the airiness is the Roadhouse texture.
+- Salted butter works: drop the added salt.
+- Also correct on: pancakes, cornbread, sweet potatoes, toast, a spoon.
+
+## When it goes wrong
+
+- Grainy → butter wasn't soft enough to emulsify; let it warm and re-whip.
+- Separated or greasy → over-whipped in a warm kitchen; chill 10 minutes and whip briefly.
+- Too sweet → that's the recipe; halve the powdered sugar next time and it's still right.
+
+Source: Texas Roadhouse copycat
+Canonical: https://rcpbx.com/recipes/cinnamon-honey-butter/
+
+---
+
 # Cinnamon Rolls
 
 Soft, gooey, cream cheese frosted
@@ -2433,7 +2519,7 @@ Serves: 12
 - Use dental floss to cut dough.
 - Don't overbake.
 
-Source: King Arthur Baking (King Arthur tested)
+Source: Adapted from King Arthur Baking
 Canonical: https://rcpbx.com/recipes/cinnamon-rolls/
 
 ---
@@ -2516,7 +2602,7 @@ Serves: 8
 - Salting cabbage first draws out moisture.
 - Letting it sit melds flavors.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/coleslaw/
 
 ---
@@ -2732,7 +2818,7 @@ Serves: 4
 - Handle gently to preserve lumps.
 - Chilling firms them up.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/crab-cakes/
 
 ---
@@ -2860,7 +2946,7 @@ Serves: 16
 - Dough should be slightly tacky.
 - Butter while hot so it soaks in.
 
-Source: King Arthur Baking (King Arthur tested)
+Source: Adapted from King Arthur Baking
 Canonical: https://rcpbx.com/recipes/dinner-rolls/
 
 ---
@@ -2942,7 +3028,7 @@ Serves: 4
 - Fresh eggs poach better.
 - Hollandaise breaks if too hot.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/eggs-benedict/
 
 ---
@@ -2980,7 +3066,7 @@ Serves: 4
 - Cold beer keeps batter light.
 - Soaking removes starch.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/fish-and-chips/
 
 ---
@@ -3019,7 +3105,7 @@ Serves: 4-6
 - Mahi or cod hold up best.
 - Don't overcook - fish should just flake.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/fish-tacos/
 
 ---
@@ -3060,7 +3146,7 @@ Serves: 6
 - Mix Swiss and Gruyère if budget is tight.
 - Red wine gives deeper color; white works too.
 
-Source: Tyler Florence / Food Network (1,000+ five-star reviews)
+Source: Adapted from Tyler Florence / Food Network
 Canonical: https://rcpbx.com/recipes/french-onion-soup/
 
 ---
@@ -3099,7 +3185,7 @@ Serves: 4
 - Day-old bread absorbs better.
 - Don't over-soak.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/french-toast/
 
 ---
@@ -3133,7 +3219,7 @@ Prep: 30 min · Serves: 4
 - Wire rack: Draining on paper towels traps steam and makes bottom soggy.
 - Storage: Best fresh. Reheat in 400°F oven on wire rack to re-crisp.
 
-Source: Adapted from Serious Eats Food Lab
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/fried-chicken/
 
 ---
@@ -3297,7 +3383,7 @@ Serves: 12-15
 - Spiral ham is already cooked - just heating and glazing.
 - Cut-side down keeps meat moist.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/glazed-ham/
 
 ---
@@ -3333,7 +3419,7 @@ Makes: 3 cups
 - Gradual addition prevents lumps.
 - Strain for silky texture.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/gravy/
 
 ---
@@ -3418,7 +3504,7 @@ Serves: 8-10
 - Fresh beans are so much better than canned.
 - Adding onions at end keeps them crispy.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/green-bean-casserole/
 
 ---
@@ -3500,7 +3586,7 @@ Makes: 2 cups
 - Lime juice prevents browning.
 - Salt brings out flavor - don't skimp.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/guacamole/
 
 ---
@@ -3533,7 +3619,7 @@ Serves: 4
 - Dry, dry, dry.
 - Don't touch them while cooking.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/hash-browns/
 
 ---
@@ -3606,7 +3692,7 @@ Makes: 1 loaf
 - Dutch oven creates steam for crusty crust.
 - Cool completely or crumb will be gummy.
 
-Source: King Arthur Baking (King Arthur tested)
+Source: Adapted from King Arthur Baking
 Canonical: https://rcpbx.com/recipes/homemade-bread/
 
 ---
@@ -3932,7 +4018,7 @@ Serves: 8
 - Pasta absorbs dressing - make it wetter than you think.
 - Tastes better next day.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/macaroni-salad/
 
 ---
@@ -4130,7 +4216,7 @@ Serves: 8-10
 - Add pasta near end so it doesn't get mushy.
 - Even better the next day.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/minestrone/
 
 ---
@@ -4240,7 +4326,7 @@ Serves: 4
 - Don't move the fish.
 - Medium-rare center (125°F) is ideal.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/pan-seared-salmon/
 
 ---
@@ -4276,7 +4362,7 @@ Serves: 2
 - Don't touch while searing.
 - Resting redistributes juices.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/pan-seared-steak/
 
 ---
@@ -4361,7 +4447,7 @@ Serves: 4
 - Cook each vegetable separately for best doneness.
 - Use whatever vegetables are in season.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/pasta-primavera/
 
 ---
@@ -4435,7 +4521,7 @@ Serves: 8
 - Ripe peaches are essential.
 - Don't spread dough - leave it chunky.
 
-Source: Serious Eats (Stella Parks tested)
+Source: Adapted from Serious Eats / Stella Parks
 Canonical: https://rcpbx.com/recipes/peach-cobbler/
 
 ---
@@ -4472,7 +4558,7 @@ Prep: 10 min · Cook: 10 min · Makes: 24 cookies
 - Gluten-free: These are naturally gluten-free as written.
 - Add-ins: Press a Hershey's Kiss into each cookie right after baking for peanut butter blossoms.
 
-Source: Adapted from Allrecipes
+Source: Adapted from AllRecipes
 Canonical: https://rcpbx.com/recipes/peanut-butter-cookies/
 
 ---
@@ -4588,7 +4674,7 @@ Serves: 4
 - American cheese melts perfectly.
 - Don't overcook - should be tender.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/philly-cheesesteak/
 
 ---
@@ -4624,7 +4710,7 @@ Makes: 2 crusts
 - Don't overwork the dough.
 - Visible butter pieces = flaky crust.
 
-Source: Serious Eats / Stella Parks (BraveTart tested)
+Source: Adapted from Serious Eats / Stella Parks
 Canonical: https://rcpbx.com/recipes/pie-crust/
 
 ---
@@ -4660,7 +4746,7 @@ Makes: 2 pizzas
 - Cold rise develops more flavor.
 - High heat is essential for crispy crust.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/pizza-dough/
 
 ---
@@ -4696,7 +4782,7 @@ Serves: 4
 - Thick-cut bone-in stays juicier.
 - Pork is safe at 145°F.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/pork-chops/
 
 ---
@@ -4734,7 +4820,7 @@ Serves: 4
 - Char siu is traditional.
 - Day-old rice is essential.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/pork-fried-rice/
 
 ---
@@ -4769,7 +4855,7 @@ Serves: 4-6
 - Tenderloins are lean - don't overcook.
 - Sugar helps browning.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/pork-tenderloin/
 
 ---
@@ -4809,7 +4895,7 @@ Serves: 6-8
 - Low and slow is essential.
 - Let meat rest before slicing.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/pot-roast/
 
 ---
@@ -4847,7 +4933,7 @@ Serves: 8
 - Dress potatoes while warm - absorbs more flavor.
 - Yukon Golds hold shape better.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/potato-salad/
 
 ---
@@ -4888,7 +4974,7 @@ Serves: 6-8
 - Don't skip frying potato skins - incredible texture.
 - Add sour cream off heat to prevent curdling.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/potato-soup/
 
 ---
@@ -4924,7 +5010,7 @@ Serves: 12
 - Creaming butter and sugar is the key to texture.
 - Don't open oven door for first 45 minutes.
 
-Source: King Arthur Baking (King Arthur tested)
+Source: Adapted from King Arthur Baking
 Canonical: https://rcpbx.com/recipes/pound-cake/
 
 ---
@@ -5010,7 +5096,7 @@ Serves: 10-12
 - Low and slow breaks down collagen.
 - Mix crispy bark into pulled meat.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/pulled-pork/
 
 ---
@@ -5051,7 +5137,7 @@ Serves: 8
 - Cooking pumpkin first intensifies flavor.
 - Center should wobble when done.
 
-Source: Serious Eats / Stella Parks (BraveTart tested)
+Source: Adapted from Serious Eats / Stella Parks
 Canonical: https://rcpbx.com/recipes/pumpkin-pie/
 
 ---
@@ -5089,7 +5175,7 @@ Serves: 6-8
 - Custard should jiggle like jello when done.
 - Don't overbake.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/quiche/
 
 ---
@@ -5199,7 +5285,7 @@ Serves: 4-6
 - Toasting adds nutty flavor.
 - Don't lift lid while cooking.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/rice-pilaf/
 
 ---
@@ -5269,7 +5355,7 @@ Serves: 4-6
 - Use two pans if needed.
 - High heat creates caramelization.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/roasted-vegetables/
 
 ---
@@ -5305,7 +5391,7 @@ Serves: 4
 - Canned salmon works perfectly.
 - Cornmeal gives authentic Southern texture.
 
-Source: AllRecipes (2,000+ reviews)
+Source: Adapted from AllRecipes
 Canonical: https://rcpbx.com/recipes/salmon-patties/
 
 ---
@@ -5396,7 +5482,7 @@ Makes: 2 cups
 - Seed jalapeños for less heat.
 - Salt draws out tomato juices.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/salsa/
 
 ---
@@ -5521,7 +5607,7 @@ Serves: 6-8
 - 'Shepherd's pie' uses lamb; 'cottage pie' uses beef.
 - Roughing up potatoes creates crispy peaks.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/shepherds-pie/
 
 ---
@@ -5560,7 +5646,7 @@ Serves: 6-8
 - Drain immediately when shrimp turn pink.
 - Old Bay is non-negotiable.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/shrimp-boil/
 
 ---
@@ -5642,7 +5728,7 @@ Serves: 6
 - Let simmer until thick.
 - Vinegar at end adds brightness.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/sloppy-joes/
 
 ---
@@ -5800,7 +5886,7 @@ Serves: 6-8
 - No need to soak split peas.
 - Soup thickens significantly as it cools - thin when reheating.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/split-pea-soup/
 
 ---
@@ -5877,7 +5963,7 @@ Serves: 10-12
 - Dried bread absorbs more liquid.
 - Fresh herbs make a huge difference.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/stuffing/
 
 ---
@@ -5917,7 +6003,7 @@ Makes: 24-36
 - Don't overbake - they firm as they cool.
 - Almond extract is the secret.
 
-Source: King Arthur Baking (King Arthur tested)
+Source: Adapted from King Arthur Baking
 Canonical: https://rcpbx.com/recipes/sugar-cookies/
 
 ---
@@ -6052,6 +6138,51 @@ Prep: 10 min · Cook: 20 min · Serves: 4
 
 Source: Adapted from Just One Cookbook
 Canonical: https://rcpbx.com/recipes/teriyaki-chicken/
+
+---
+
+# Texas Roadhouse Rolls
+
+The impossibly soft steakhouse rolls, at home, by the basket.
+
+Prep: 25 min (plus 1.5 hr rising) · Cook: 15 min · Makes: 24 rolls
+
+## Ingredients
+
+- 1 cup (240ml) whole milk, warmed to 105-110°F
+- 2 1/4 tsp (1 packet) active dry yeast
+- 3 Tbsp honey
+- 55g (4 Tbsp) unsalted butter, melted and cooled, plus more for brushing
+- 1 large egg
+- 480g (4 cups) all-purpose flour
+- 1 1/2 tsp Diamond Crystal kosher salt (3/4 tsp table salt)
+
+## Steps
+
+1. Stir warm milk, yeast, and 1 Tbsp of the honey in a large bowl. Let sit 5-10 minutes until foamy. No foam = dead yeast; start over rather than bake bricks.
+2. Whisk in remaining honey, melted butter, and the egg. Add flour and salt and mix into a shaggy dough.
+3. Knead 8-10 minutes by hand (or 5-6 in a stand mixer with the dough hook) until smooth and slightly tacky but not sticking to clean hands. Add flour 1 Tbsp at a time only if it's gluing itself to everything.
+4. Place in a greased bowl, cover, and rise in a warm spot until doubled, about 1 hour.
+5. Punch down. On a lightly floured surface, roll into a rectangle about 1/2 inch thick. Fold it in half like a book and gently roll to seal - this fold is what makes the signature tall, layered square.
+6. Cut into 24 squares with a sharp knife or bench scraper. Place on two parchment-lined sheet pans, 1 inch apart. Cover and rise 30-45 minutes until puffy.
+7. Bake at 350°F (175°C) for 12-15 minutes until deep golden on top. Rotate pans halfway.
+8. Brush immediately and generously with melted butter. Serve warm, with the cinnamon honey butter.
+
+## Notes
+
+- The fold-then-cut trick is the whole Texas Roadhouse look - skip it and you have good dinner rolls with the wrong soul.
+- Weigh the flour. 4 scooped cups can be 5 actual cups, and that's a dense roll.
+- Freeze baked rolls up to 3 months; refresh at 300°F for 8 minutes and butter again.
+
+## When it goes wrong
+
+- Dense, heavy rolls → too much flour or a cold rise; weigh it, and give the dough a warm spot.
+- Didn't rise → yeast was dead or the milk was hot enough to kill it; 105-110°F, foamy proof, no shortcuts.
+- Pale tops → underbaked or oven runs cool; look for deep golden, not blond.
+- Tough crumb → over-kneaded after adding too much flour; tacky is correct.
+
+Source: Texas Roadhouse copycat
+Canonical: https://rcpbx.com/recipes/texas-roadhouse-rolls/
 
 ---
 

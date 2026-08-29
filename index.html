@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>rcpbx — the recipe box | 161 Recipes That Actually Work</title>
+  <title>rcpbx — the recipe box | 164 Recipes That Actually Work</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
-  <meta name="description" content="161 tested recipes with no life stories, no ads, no popups. Just the recipe. Cook times, ingredients, clear steps. Chicken parmesan, beef stew, banana bread and more.">
+  <meta name="description" content="164 recipes with no life stories, no ads, no popups. Just the recipe. Cook times, ingredients, clear steps. Chicken parmesan, beef stew, banana bread and more.">
   
   <!-- SEO -->
   <link rel="canonical" href="https://rcpbx.com/">
@@ -17,7 +17,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rcpbx.com/">
   <meta property="og:title" content="rcpbx — Recipes That Actually Work">
-  <meta property="og:description" content="161 tested recipes. No life stories. No ads. No popups. Just cook.">
+  <meta property="og:description" content="164 recipes. No life stories. No ads. No popups. Just cook.">
   <meta property="og:site_name" content="rcpbx">
   <meta property="og:locale" content="en_US">
   <meta property="og:image" content="https://rcpbx.com/og-image.png">
@@ -27,7 +27,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="rcpbx — Recipes That Actually Work">
-  <meta name="twitter:description" content="161 tested recipes. No life stories. No ads. No popups. Just cook.">
+  <meta name="twitter:description" content="164 recipes. No life stories. No ads. No popups. Just cook.">
   <meta name="twitter:image" content="https://rcpbx.com/og-image.png">
   
   <!-- JSON-LD Structured Data -->
@@ -38,7 +38,7 @@
     "name": "rcpbx",
     "alternateName": "The Recipe Box",
     "url": "https://rcpbx.com",
-    "description": "161 tested recipes with no life stories, no ads. Just the recipe.",
+    "description": "164 recipes with no life stories, no ads. Just the recipe.",
     "potentialAction": {
       "@type": "SearchAction",
       "target": "https://rcpbx.com/?search={search_term_string}",
@@ -83,8 +83,8 @@
       --bg: #faf9f6;
       --bg-alt: #f0efeb;
       --text: #222;
-      --text-muted: #666;
-      --text-dim: #999;
+      --text-muted: #595959;
+      --text-dim: #707070;
       --border: #ddd;
       --accent: #16a34a;
       --accent-dim: rgba(22,163,74,0.1);
@@ -99,8 +99,8 @@
         --bg: #111;
         --bg-alt: #1a1a1a;
         --text: #e5e5e5;
-        --text-muted: #999;
-        --text-dim: #666;
+        --text-muted: #a3a3a3;
+        --text-dim: #8a8a8a;
         --border: #333;
         --accent: #22c55e;
         --accent-dim: rgba(34,197,94,0.15);
@@ -108,6 +108,10 @@
       }
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    .vh { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+    .skip-link { position: absolute; left: -9999px; top: 0; background: var(--accent); color: #fff; padding: 0.5rem 1rem; z-index: 999; font-family: var(--font-mono); }
+    .skip-link:focus { left: 0; }
+    a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     html { font-family: var(--font-sans); background: var(--bg); color: var(--text); }
     body { 
       min-height: 100dvh; 
@@ -562,6 +566,16 @@
       .header-link { font-size: 0.65rem; }
     }
     
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
+    /* Subscribe */
+    .subscribe { max-width: 640px; margin: 0 auto 1.5rem; border: 1px solid var(--border); border-radius: 6px; padding: 0.9rem 1rem; text-align: center; }
+    .subscribe-label { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); display: block; margin-bottom: 0.5rem; }
+    .subscribe-label span { color: var(--accent); }
+    .subscribe form { display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; }
+    .subscribe input[type=email] { font-family: var(--font-mono); font-size: 0.8rem; padding: 0.45rem 0.7rem;
+      border: 1px solid var(--border); border-radius: 4px; background: var(--bg); color: var(--text); min-width: 220px; }
+    .subscribe button { font-family: var(--font-mono); font-size: 0.75rem; background: var(--accent); color: #fff;
+      border: none; border-radius: 4px; padding: 0.45rem 0.9rem; cursor: pointer; }
     /* Easter egg flash */
     .flash { animation: flash 0.3s ease; }
     @keyframes flash {
@@ -674,6 +688,7 @@
   </style>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to search and recipes</a>
   <header>
     <div class="container">
       <a href="./" class="logo-container" tabindex="0">
@@ -690,17 +705,18 @@
   </header>
 
   <div class="main-grid">
-    <main>
+    <main id="main">
       <section class="hero">
         <h1>Recipes that work.</h1>
         <p>No life stories. No ads. Just cook.</p>
       </section>
 
       <div class="search-box">
-        <input type="text" id="search" placeholder="Search recipes..." autocomplete="off">
+        <input type="text" id="search" placeholder="Search recipes..." autocomplete="off" role="combobox" aria-label="Search recipes" aria-expanded="false" aria-controls="searchResults" aria-autocomplete="list">
       </div>
       <p class="chef-quote" id="chefQuote"></p>
-      <div class="search-results" id="searchResults"></div>
+      <div class="search-results" id="searchResults" role="listbox" aria-label="Search results"></div>
+      <div id="srStatus" role="status" aria-live="polite" class="vh"></div>
 
       <div class="hot-rail" id="hotRail"></div>
 
@@ -713,8 +729,16 @@
         <a href="random/">surprise me</a>
       </nav>
 
+      <div class="subscribe">
+        <span class="subscribe-label"><span>&gt;</span> the radar: one tested verdict, every friday. 60 seconds, no essay.</span>
+        <form action="https://buttondown.com/api/emails/embed-subscribe/rcpbx" method="post" target="_blank">
+          <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+          <button type="submit">subscribe</button>
+        </form>
+      </div>
+
       <div class="categories" id="categories">
-        <div class="categories-label"><span id="recipeCount">161</span> recipes across 10 categories</div>
+        <div class="categories-label"><span id="recipeCount">164</span> recipes across 10 categories</div>
         <a href="soup-recipes/" class="category">
           <span class="category-name">Soups & Stews</span>
           <span class="category-count">13 recipes</span>
@@ -725,7 +749,7 @@
         </a>
         <a href="chicken-recipes/" class="category">
           <span class="category-name">Chicken</span>
-          <span class="category-count">20 recipes</span>
+          <span class="category-count">21 recipes</span>
         </a>
         <a href="beef-recipes/" class="category">
           <span class="category-name">Beef</span>
@@ -745,7 +769,7 @@
         </a>
         <a href="side-dishes/" class="category">
           <span class="category-name">Sides</span>
-          <span class="category-count">24 recipes</span>
+          <span class="category-count">25 recipes</span>
         </a>
         <a href="dessert-recipes/" class="category">
           <span class="category-name">Baking & Desserts</span>
@@ -753,7 +777,7 @@
         </a>
         <a href="basic-recipes/" class="category">
           <span class="category-name">Basics</span>
-          <span class="category-count">18 recipes</span>
+          <span class="category-count">19 recipes</span>
         </a>
       </div>
 
@@ -817,7 +841,7 @@
     <nav class="footer-nav">
       <a href="15-minute-meals/">15-minute meals</a><span class="sep">·</span><a href="30-minute-meals/">30-minute meals</a><span class="sep">·</span><a href="under-1-hour/">under 1 hour</a><span class="sep">·</span><a href="no-cook/">no-cook</a><span class="sep">·</span><a href="grilled/">grilled</a><span class="sep">·</span><a href="baked/">baked</a><span class="sep">·</span><a href="easy-recipes/">easy</a><span class="sep">·</span><a href="healthy-recipes/">healthy</a><span class="sep">·</span><a href="weeknight/">weeknight dinners</a><span class="sep">·</span><a href="egg-recipes/">eggs</a><span class="sep">·</span><a href="vegetarian-recipes/">vegetarian</a><span class="sep">·</span>
       <a href="what-to-make-with-chicken-breast/">what to make with chicken breast</a><span class="sep">·</span><a href="what-to-make-with-ground-beef/">ground beef</a><span class="sep">·</span><a href="what-to-make-with-eggs/">eggs</a><span class="sep">·</span><a href="what-to-make-with-potatoes/">potatoes</a><span class="sep">·</span><a href="what-to-make-with-rice/">rice</a><span class="sep">·</span><a href="what-to-make-with-pasta/">pasta</a><span class="sep">·</span>
-      <a href="trends/">the radar</a><span class="sep">·</span><a href="box/">your box</a><span class="sep">·</span><a href="random/">random</a><span class="sep">·</span><a href="about/">about</a><span class="sep">·</span><a href="reference/">kitchen reference</a><span class="sep">·</span><a href="feed.xml">rss</a><span class="sep">·</span><a href="llms.txt">llms.txt</a>
+      <a href="trends/">the radar</a><span class="sep">·</span><a href="skips/">the skip file</a><span class="sep">·</span><a href="why/">how we test</a><span class="sep">·</span><a href="never/">what we refuse</a><span class="sep">·</span><a href="api/">open api</a><span class="sep">·</span><a href="box/">your box</a><span class="sep">·</span><a href="random/">random</a><span class="sep">·</span><a href="about/">about</a><span class="sep">·</span><a href="reference/">kitchen reference</a><span class="sep">·</span><a href="feed.xml">rss</a>
     </nav>
     <div class="footer-content">
       <p><span style="color:var(--accent);font-weight:500">rcpbx.com</span> · $0 VC · never acquired · no ads, ever</p>
@@ -850,11 +874,18 @@
         searchResults.classList.remove('active');
         searchInput.blur();
       }
+      if (document.activeElement === searchInput && (e.key === 'ArrowDown' || e.key === 'ArrowUp')) {
+        const opts = [...searchResults.querySelectorAll('a')];
+        if (!opts.length) return;
+        e.preventDefault();
+        let i = opts.findIndex(o => o.classList.contains('active'));
+        i = e.key === 'ArrowDown' ? Math.min(i + 1, opts.length - 1) : Math.max(i - 1, 0);
+        opts.forEach((o, j) => { o.classList.toggle('active', j === i); o.style.borderColor = j === i ? 'var(--accent)' : ''; });
+        searchInput.setAttribute('aria-activedescendant', opts[i].id);
+      }
       if (e.key === 'Enter' && document.activeElement === searchInput) {
-        const firstResult = searchResults.querySelector('a');
-        if (firstResult) {
-          window.location.href = firstResult.href;
-        }
+        const target = searchResults.querySelector('a.active') || searchResults.querySelector('a');
+        if (target) window.location.href = target.href;
       }
     });
 
@@ -908,20 +939,25 @@
           const meta = [r.cook ? 'cook ' + r.cook : '', r.serves ? 'serves ' + r.serves : '']
             .filter(Boolean).join(' · ');
           return `
-          <a href="recipes/${r.id}/">
+          <a href="recipes/${r.id}/" role="option" id="opt-${r.id}" tabindex="-1">
             <div class="result-title">${r.title}${r.verdict ? ' <span style="font-family:var(--font-mono);font-size:0.6rem;color:var(--accent)">[' + r.verdict + ']</span>' : ''}</div>
             <div class="result-tagline">${r.tagline || r.category || ''}${meta ? ' <span style="font-family:var(--font-mono);font-size:0.65rem;color:var(--text-dim)">' + meta + '</span>' : ''}</div>
           </a>
         `;}).join('');
       }
       searchResults.classList.add('active');
+      searchInput.setAttribute('aria-expanded', String(matches.length > 0));
+      document.getElementById('srStatus').textContent = matches.length ? matches.length + ' results' : 'No recipes found';
     });
-    
-    // Hide results on blur (with delay for click)
-    searchInput.addEventListener('blur', () => {
+
+    // Hide results when focus leaves the search area entirely
+    document.querySelector('.search-box').parentElement.addEventListener('focusout', (e) => {
       setTimeout(() => {
-        searchResults.classList.remove('active');
-      }, 200);
+        if (!document.activeElement.closest || (!document.activeElement.closest('.search-box') && !document.activeElement.closest('.search-results'))) {
+          searchResults.classList.remove('active');
+          searchInput.setAttribute('aria-expanded', 'false');
+        }
+      }, 10);
     });
     
     searchInput.addEventListener('focus', () => {

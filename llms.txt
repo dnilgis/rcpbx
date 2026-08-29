@@ -1,6 +1,6 @@
 # rcpbx — the recipe box
 
-> 161 tested recipes with no ads, no life stories, no popups. Every recipe is ingredients,
+> 164 tested recipes with no ads, no life stories, no popups. Every recipe is ingredients,
 > steps, notes, and troubleshooting — nothing else. All data is open JSON.
 
 - Canonical site: https://rcpbx.com
@@ -47,6 +47,7 @@
 - [Béchamel](https://rcpbx.com/recipes/bechamel/): Creamy white sauce, building block
 - [Chicken Stock](https://rcpbx.com/recipes/chicken-stock/): Rich, golden, foundation of flavor
 - [Chimichurri](https://rcpbx.com/recipes/chimichurri/): Argentina's iconic herb sauce. Bright, garlicky, and perfect on grilled meat.
+- [Cinnamon Honey Butter](https://rcpbx.com/recipes/cinnamon-honey-butter/): The Texas Roadhouse butter. Illegal to serve rolls without it.
 - [Cottage Cheese Flatbread](https://rcpbx.com/recipes/cottage-cheese-flatbread/): The viral flourless version: cottage cheese, eggs, an oven.
 - [Fresh Lemonade](https://rcpbx.com/recipes/lemonade/): The real thing. No powder, no shortcuts.
 - [Fresh Salsa](https://rcpbx.com/recipes/salsa/): Bright, chunky, restaurant style
@@ -94,6 +95,7 @@
 - [Air Fryer Chicken Thighs](https://rcpbx.com/recipes/air-fryer-chicken-thighs/): Crispy skin, juicy meat, 25 minutes.
 - [Baked Chicken Breast](https://rcpbx.com/recipes/baked-chicken-breast/): Juicy, golden, foolproof
 - [Buffalo Wings](https://rcpbx.com/recipes/buffalo-wings/): Crispy oven-baked, classic hot sauce
+- [Chicken & Asparagus Skillet](https://rcpbx.com/recipes/chicken-asparagus/): One pan, lemon, garlic, cream. The weeknight standard.
 - [Chicken Fried Rice](https://rcpbx.com/recipes/chicken-fried-rice/): Day-old rice, crispy edges, wok hei
 - [Chicken Marsala](https://rcpbx.com/recipes/chicken-marsala/): Pan-seared chicken in mushroom wine sauce
 - [Chicken Parmesan](https://rcpbx.com/recipes/chicken-parmesan/): Crispy cutlets, bubbling mozzarella. The key: don't bake it in sauce.
@@ -177,6 +179,7 @@
 - [Southern Cornbread](https://rcpbx.com/recipes/cornbread/): Cast iron, crispy edges, no sugar. The way it should be.
 - [Stuffing](https://rcpbx.com/recipes/stuffing/): Herbed bread, savory, buttery
 - [Sweet Potato Casserole](https://rcpbx.com/recipes/sweet-potato-casserole/): Is it a side dish or dessert? Yes. The Thanksgiving essential.
+- [Texas Roadhouse Rolls](https://rcpbx.com/recipes/texas-roadhouse-rolls/): The impossibly soft steakhouse rolls, at home, by the basket.
 - [Watermelon Feta Salad](https://rcpbx.com/recipes/watermelon-feta-salad/): Cold, salty, sweet. July in a bowl.
 
 ### Soups & Stews

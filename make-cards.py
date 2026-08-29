@@ -65,10 +65,17 @@ def recipe_card(e):
         for ln in wrap(d, tag, gf, W - 140)[:2]:
             d.text((70, y + 10), ln, font=gf, fill=MUT); y += gf.size + 12
     if e.get("verdict"):
-        vf = font(26, True)
-        vt = "[ %s ]" % e["verdict"]
-        vw = d.textlength(vt, font=vf)
-        d.text((70, y + 26), vt, font=vf, fill=ACC); y += 60
+        from PIL import Image as _I
+        vt = e["verdict"]
+        color = {"WORTH IT": ACC, "OVERHYPED": (245, 158, 11), "SKIP": (239, 68, 68)}.get(vt, ACC)
+        sf = font(54, True)
+        tmp = _I.new("RGBA", (700, 120), (0, 0, 0, 0))
+        td = ImageDraw.Draw(tmp)
+        tw = td.textlength(vt, font=sf)
+        td.rounded_rectangle([0, 0, tw + 56, 100], radius=10, outline=color, width=6)
+        td.text((28, 16), vt, font=sf, fill=color)
+        tmp = tmp.rotate(4, expand=True, resample=Image.BICUBIC)
+        img.paste(tmp, (W - tmp.width - 56, 44), tmp)
     # bottom meta bar
     bits = ["rcpbx.com"]
     if e.get("prep"): bits.append("prep " + str(e["prep"]))
@@ -76,7 +83,13 @@ def recipe_card(e):
     if e.get("makes"): bits.append("makes " + str(e["makes"]))
     elif e.get("serves"): bits.append("serves " + str(e["serves"]))
     mf = font(28)
-    d.text((70, H - 90), "  ·  ".join(bits), font=mf, fill=DIM)
+    line = "  ·  ".join(bits)
+    while d.textlength(line, font=mf) > W - 140 and mf.size > 20:
+        mf = font(mf.size - 2)
+    if d.textlength(line, font=mf) > W - 140:
+        while d.textlength(line + "…", font=mf) > W - 140: line = line[:-1]
+        line += "…"
+    d.text((70, H - 90), line, font=mf, fill=DIM)
     d.text((70, H - 140), "no life stories · no ads · just the recipe", font=font(24), fill=(60, 120, 80))
     return img
 
