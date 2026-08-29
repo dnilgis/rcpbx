@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>How we test | rcpbx</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
+  <meta name="description" content="The receipts behind the word 'tested': temps, math checks, failure modes, public changelogs, and honest provenance.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://rcpbx.com/why/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rcpbx.com/why/">
+  <meta property="og:title" content="How we test | rcpbx">
+  <meta property="og:description" content="The receipts behind the word 'tested': temps, math checks, failure modes, public changelogs, and honest provenance.">
+  <meta property="og:image" content="https://rcpbx.com/og-image.png">
+  <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://rcpbx.com/og-image.png">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2VNWY2BFX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-E2VNWY2BFX');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#faf9f6; --bg-alt:#f0efeb; --text:#222; --text-muted:#595959; --text-dim:#707070;
+      --border:#ddd; --accent:#15803d; --font-sans:'Inter',-apple-system,sans-serif; --font-mono:'JetBrains Mono',monospace; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#111; --bg-alt:#1a1a1a; --text:#e5e5e5; --text-muted:#a3a3a3;
+      --text-dim:#8a8a8a; --border:#333; --accent:#22c55e; } }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{font-family:var(--font-sans);background:var(--bg);color:var(--text);line-height:1.7}
+    .skip-link{position:absolute;left:-9999px;background:var(--accent);color:#fff;padding:.5rem 1rem;z-index:999;font-family:var(--font-mono)}
+    .skip-link:focus{left:0}
+    header{border-bottom:1px solid var(--border);padding:1rem 1.5rem}
+    .hi{max-width:680px;margin:0 auto;display:flex;justify-content:space-between;align-items:center}
+    .logo{font-family:var(--font-mono);font-size:1.25rem;font-weight:600;text-decoration:none;color:var(--text)}
+    .lp{color:var(--accent)}
+    .hl{font-family:var(--font-mono);font-size:.75rem;color:var(--text-muted);text-decoration:none;text-transform:uppercase;letter-spacing:.05em}
+    .hl:hover{color:var(--accent)}
+    main{max-width:680px;margin:0 auto;padding:2.5rem 1.5rem}
+    h1{font-size:1.8rem;font-weight:700;letter-spacing:-.02em;margin-bottom:.4rem}
+    h1::before{content:"> ";color:var(--accent);font-family:var(--font-mono)}
+    .sub{color:var(--text-muted);margin-bottom:2rem}
+    h2{font-family:var(--font-mono);font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin:2.25rem 0 .75rem}
+    h2::before{content:"> ";color:var(--accent)}
+    p{margin-bottom:1rem}
+    ul{margin:0 0 1rem 1.25rem}
+    li{margin-bottom:.5rem}
+    a{color:var(--accent)}
+    code,pre{font-family:var(--font-mono);font-size:.8rem;background:var(--bg-alt);border:1px solid var(--border);border-radius:4px}
+    code{padding:.1rem .35rem}
+    pre{padding:1rem;overflow-x:auto;margin-bottom:1rem}
+    .covenant li{list-style:none;position:relative;padding-left:1.5rem;margin-bottom:.8rem}
+    .covenant li::before{content:"✕";position:absolute;left:0;color:var(--accent);font-family:var(--font-mono);font-weight:600}
+    .stamp-box{border:1px solid var(--border);border-radius:8px;background:var(--bg-alt);padding:1rem 1.25rem;font-family:var(--font-mono);font-size:.8rem;color:var(--text-muted);margin:1.5rem 0}
+    footer{border-top:1px solid var(--border);padding:1.5rem;text-align:center;margin-top:3rem}
+    .ft{font-family:var(--font-mono);font-size:.75rem;color:var(--text-muted)}
+    .ft a{color:var(--accent);text-decoration:none}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header><div class="hi"><a href="/" class="logo"><span class="lp">&gt;</span>rcpbx</a><a href="/" class="hl">← all recipes</a></div></header>
+  <main id="main">
+    <h1>How we test</h1>
+    <p class="sub">The receipts behind the word "tested."</p>
+    <p><strong>The rule:</strong> nothing carries a <code>tested</code> badge unless it was cooked in this kitchen, measured with a scale and a probe thermometer, and logged with a date. Not "looks right." Not "the source is reputable." Cooked, here.</p>
+    <h2>What a test involves</h2>
+    <ul>
+      <li><strong>Doneness by temperature, not vibes.</strong> Every protein gets a pull temp in the steps — and when the internet's version is wrong, we say so (chicken thighs want 175–185°F, not the 165°F every blog copies; the collagen doesn't care about the safety chart).</li>
+      <li><strong>The math gets checked.</strong> The viral protein ice cream claimed 25g protein per serving; one scoop split two ways is 13g. Ours uses two scoops because arithmetic is not a garnish.</li>
+      <li><strong>Failure modes are documented.</strong> Every tested recipe carries a "When it goes wrong" section — because the difference between a recipe that reads well and one that works is what happens when your pan is too hot.</li>
+      <li><strong>Changes are logged.</strong> Each tested recipe carries a dated note of what was verified or changed. When we fix something, the fix is public.</li>
+    </ul>
+    <h2>Where the recipes come from — honestly</h2>
+    <p>This is a curated collection, not 164 acts of invention. Many recipes are adapted from sources we respect — Serious Eats, America's Test Kitchen, King Arthur, Marcella Hazan — and every one says so, on the page, by name. Adaptation is how cooking has always worked; pretending otherwise is how recipe blogs work.</p>
+    <p>The back-catalog is being retested to the rcpbx spec one dinner at a time. Until a recipe has been cooked <em>here</em>, it wears <code>retest scheduled</code> instead of a tested badge. We'd rather show you an honest queue than a dishonest trophy case.</p>
+    <h2>The Radar</h2>
+    <p>Every week we cook the internet's loudest viral recipe and file a verdict: <strong>WORTH IT</strong>, <strong>OVERHYPED</strong>, or <strong>SKIP</strong>. Verdicts are dated, permanent, and occasionally unflattering — the failures get buried in <a href="/skips/">the SKIP file</a> with a cause of death. The trend gets 15 seconds of fame; the verdict is forever.</p>
+    <div class="stamp-box">Found an error? That's a bug report, and we treat it like one: <a href="https://github.com/dnilgis/rcpbx/issues">open an issue</a> and it gets fixed, publicly, with a changelog line. That's the whole quality system. It works better than comment sections.</div>
+
+  </main>
+  <footer><p class="ft"><a href="/">rcpbx.com</a> · no life stories · no ads · <a href="/never/">what we refuse</a> · <a href="/why/">how we test</a></p></footer>
+</body>
+</html>

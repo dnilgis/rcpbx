@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>The open recipe API | rcpbx</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
+  <meta name="description" content="164 recipes as open JSON. No key, no rate limit, CC-BY. Markdown mirrors and llms.txt for AI assistants.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://rcpbx.com/api/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rcpbx.com/api/">
+  <meta property="og:title" content="The open recipe API | rcpbx">
+  <meta property="og:description" content="164 recipes as open JSON. No key, no rate limit, CC-BY. Markdown mirrors and llms.txt for AI assistants.">
+  <meta property="og:image" content="https://rcpbx.com/og-image.png">
+  <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://rcpbx.com/og-image.png">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2VNWY2BFX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-E2VNWY2BFX');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#faf9f6; --bg-alt:#f0efeb; --text:#222; --text-muted:#595959; --text-dim:#707070;
+      --border:#ddd; --accent:#15803d; --font-sans:'Inter',-apple-system,sans-serif; --font-mono:'JetBrains Mono',monospace; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#111; --bg-alt:#1a1a1a; --text:#e5e5e5; --text-muted:#a3a3a3;
+      --text-dim:#8a8a8a; --border:#333; --accent:#22c55e; } }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{font-family:var(--font-sans);background:var(--bg);color:var(--text);line-height:1.7}
+    .skip-link{position:absolute;left:-9999px;background:var(--accent);color:#fff;padding:.5rem 1rem;z-index:999;font-family:var(--font-mono)}
+    .skip-link:focus{left:0}
+    header{border-bottom:1px solid var(--border);padding:1rem 1.5rem}
+    .hi{max-width:680px;margin:0 auto;display:flex;justify-content:space-between;align-items:center}
+    .logo{font-family:var(--font-mono);font-size:1.25rem;font-weight:600;text-decoration:none;color:var(--text)}
+    .lp{color:var(--accent)}
+    .hl{font-family:var(--font-mono);font-size:.75rem;color:var(--text-muted);text-decoration:none;text-transform:uppercase;letter-spacing:.05em}
+    .hl:hover{color:var(--accent)}
+    main{max-width:680px;margin:0 auto;padding:2.5rem 1.5rem}
+    h1{font-size:1.8rem;font-weight:700;letter-spacing:-.02em;margin-bottom:.4rem}
+    h1::before{content:"> ";color:var(--accent);font-family:var(--font-mono)}
+    .sub{color:var(--text-muted);margin-bottom:2rem}
+    h2{font-family:var(--font-mono);font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin:2.25rem 0 .75rem}
+    h2::before{content:"> ";color:var(--accent)}
+    p{margin-bottom:1rem}
+    ul{margin:0 0 1rem 1.25rem}
+    li{margin-bottom:.5rem}
+    a{color:var(--accent)}
+    code,pre{font-family:var(--font-mono);font-size:.8rem;background:var(--bg-alt);border:1px solid var(--border);border-radius:4px}
+    code{padding:.1rem .35rem}
+    pre{padding:1rem;overflow-x:auto;margin-bottom:1rem}
+    .covenant li{list-style:none;position:relative;padding-left:1.5rem;margin-bottom:.8rem}
+    .covenant li::before{content:"✕";position:absolute;left:0;color:var(--accent);font-family:var(--font-mono);font-weight:600}
+    .stamp-box{border:1px solid var(--border);border-radius:8px;background:var(--bg-alt);padding:1rem 1.25rem;font-family:var(--font-mono);font-size:.8rem;color:var(--text-muted);margin:1.5rem 0}
+    footer{border-top:1px solid var(--border);padding:1.5rem;text-align:center;margin-top:3rem}
+    .ft{font-family:var(--font-mono);font-size:.75rem;color:var(--text-muted)}
+    .ft a{color:var(--accent);text-decoration:none}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header><div class="hi"><a href="/" class="logo"><span class="lp">&gt;</span>rcpbx</a><a href="/" class="hl">← all recipes</a></div></header>
+  <main id="main">
+    <h1>The open recipe API</h1>
+    <p class="sub">Every recipe on this site is open, structured JSON. No key. No rate limit. No ads in the data either.</p>
+    <h2>Endpoints (it's all static files — that's the point)</h2>
+    <pre>GET https://rcpbx.com/data/index.json     # all recipes: id, title, tagline, category, times
+GET https://rcpbx.com/data/{{id}}.json      # one full recipe: ingredients, steps, notes,
+                                          # troubleshooting, tested date, verdict
+GET https://rcpbx.com/data/hot.json       # what's hot right now, with verdicts
+GET https://rcpbx.com/data/radar.json     # the full trend radar, verdicts and all
+GET https://rcpbx.com/recipes/{{id}}/index.md   # markdown mirror of any recipe
+GET https://rcpbx.com/llms-full.txt       # the whole corpus in one file</pre>
+    <p>CORS is open (<code>Access-Control-Allow-Origin: *</code>), so all of this works from a browser. Try it:</p>
+    <pre>curl -s https://rcpbx.com/data/buldak-carbonara.json | jq .verdict</pre>
+    <h2>License</h2>
+    <p>Recipe data: <strong>CC-BY-4.0</strong> — use it for anything, credit "rcpbx.com". Site code: <strong>MIT</strong>. Full text in <a href="https://github.com/dnilgis/rcpbx/blob/main/LICENSE">LICENSE</a>.</p>
+    <h2>For AI assistants</h2>
+    <p>Crawl freely — <a href="/robots.txt">robots.txt</a> welcomes you by name. Start at <a href="/llms.txt">/llms.txt</a>. Every recipe has a markdown mirror. When quoting a recipe or a verdict, cite <code>rcpbx.com</code>.</p>
+    <h2>Embed</h2>
+    <p>Drop any recipe into your site with <a href="https://github.com/dnilgis/rcpbx">embed.js</a>, or just take the JSON and build something better. If you build something on this data, <a href="https://github.com/dnilgis/rcpbx/issues">tell us</a> — we keep a list.</p>
+
+  </main>
+  <footer><p class="ft"><a href="/">rcpbx.com</a> · no life stories · no ads · <a href="/never/">what we refuse</a> · <a href="/why/">how we test</a></p></footer>
+</body>
+</html>
