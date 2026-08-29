@@ -28,5 +28,5 @@ Makes: 1 loaf
 - Dutch oven creates steam for crusty crust.
 - Cool completely or crumb will be gummy.
 
-Source: King Arthur Baking (King Arthur tested)
+Source: Adapted from King Arthur Baking
 Canonical: https://rcpbx.com/recipes/homemade-bread/

@@ -32,5 +32,5 @@ Serves: 4
 - Warm tortillas are more pliable.
 - Don't overfill.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/breakfast-burrito/

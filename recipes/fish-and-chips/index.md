@@ -31,5 +31,5 @@ Serves: 4
 - Cold beer keeps batter light.
 - Soaking removes starch.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/fish-and-chips/
