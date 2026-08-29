@@ -29,5 +29,5 @@ Serves: 4-6
 - Gravy thickens as it cools.
 - Black pepper is essential.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/biscuits-and-gravy/

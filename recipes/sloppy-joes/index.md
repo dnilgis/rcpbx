@@ -34,5 +34,5 @@ Serves: 6
 - Let simmer until thick.
 - Vinegar at end adds brightness.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/sloppy-joes/

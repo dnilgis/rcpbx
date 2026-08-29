@@ -31,5 +31,5 @@ Serves: 4
 - Real Alfredo is just butter, Parmesan, pasta water - cream is American addition.
 - Take pot off heat before adding cheese to prevent clumping.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/chicken-alfredo/

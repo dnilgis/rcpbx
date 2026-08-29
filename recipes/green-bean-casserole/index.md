@@ -31,5 +31,5 @@ Serves: 8-10
 - Fresh beans are so much better than canned.
 - Adding onions at end keeps them crispy.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/green-bean-casserole/

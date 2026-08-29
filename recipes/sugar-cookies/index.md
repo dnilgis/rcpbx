@@ -33,5 +33,5 @@ Makes: 24-36
 - Don't overbake - they firm as they cool.
 - Almond extract is the secret.
 
-Source: King Arthur Baking (King Arthur tested)
+Source: Adapted from King Arthur Baking
 Canonical: https://rcpbx.com/recipes/sugar-cookies/

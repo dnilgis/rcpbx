@@ -32,5 +32,5 @@ Serves: 4-6
 - Browning before spices develops flavor.
 - Vinegar adds brightness.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/beef-tacos/

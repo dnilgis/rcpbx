@@ -32,5 +32,5 @@ Serves: 10-12
 - Dried bread absorbs more liquid.
 - Fresh herbs make a huge difference.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/stuffing/
