@@ -32,5 +32,5 @@ Serves: 6-8
 - Drain immediately when shrimp turn pink.
 - Old Bay is non-negotiable.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/shrimp-boil/

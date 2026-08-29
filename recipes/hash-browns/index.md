@@ -26,5 +26,5 @@ Serves: 4
 - Dry, dry, dry.
 - Don't touch them while cooking.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/hash-browns/

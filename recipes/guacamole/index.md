@@ -30,5 +30,5 @@ Makes: 2 cups
 - Lime juice prevents browning.
 - Salt brings out flavor - don't skimp.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/guacamole/

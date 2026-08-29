@@ -34,5 +34,5 @@ Serves: 4-6
 - Yogurt marinade tenderizes.
 - Charring under broiler adds authentic flavor.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/chicken-tikka-masala/

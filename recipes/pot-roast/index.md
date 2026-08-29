@@ -33,5 +33,5 @@ Serves: 6-8
 - Low and slow is essential.
 - Let meat rest before slicing.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/pot-roast/

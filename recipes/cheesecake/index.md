@@ -27,5 +27,5 @@ Serves: 12
 - Water bath prevents cracking.
 - Must chill overnight.
 
-Source: Serious Eats / Stella Parks (BraveTart tested)
+Source: Adapted from Serious Eats / Stella Parks
 Canonical: https://rcpbx.com/recipes/cheesecake/

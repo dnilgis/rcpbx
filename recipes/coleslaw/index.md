@@ -29,5 +29,5 @@ Serves: 8
 - Salting cabbage first draws out moisture.
 - Letting it sit melds flavors.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/coleslaw/

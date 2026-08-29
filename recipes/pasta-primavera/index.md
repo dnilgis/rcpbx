@@ -35,5 +35,5 @@ Serves: 4
 - Cook each vegetable separately for best doneness.
 - Use whatever vegetables are in season.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/pasta-primavera/

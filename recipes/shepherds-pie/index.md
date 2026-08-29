@@ -35,5 +35,5 @@ Serves: 6-8
 - 'Shepherd's pie' uses lamb; 'cottage pie' uses beef.
 - Roughing up potatoes creates crispy peaks.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/shepherds-pie/

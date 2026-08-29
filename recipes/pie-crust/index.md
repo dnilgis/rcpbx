@@ -29,5 +29,5 @@ Makes: 2 crusts
 - Don't overwork the dough.
 - Visible butter pieces = flaky crust.
 
-Source: Serious Eats / Stella Parks (BraveTart tested)
+Source: Adapted from Serious Eats / Stella Parks
 Canonical: https://rcpbx.com/recipes/pie-crust/

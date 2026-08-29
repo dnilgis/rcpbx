@@ -32,5 +32,5 @@ Serves: 4
 - Day-old bread absorbs better.
 - Don't over-soak.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/french-toast/

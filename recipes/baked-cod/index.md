@@ -30,5 +30,5 @@ Serves: 4
 - Cod's mild flavor pairs with bold toppings.
 - Don't overcook - should just flake.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/baked-cod/

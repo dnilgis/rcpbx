@@ -30,5 +30,5 @@ Serves: 4
 - Don't move the fish.
 - Medium-rare center (125°F) is ideal.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/pan-seared-salmon/

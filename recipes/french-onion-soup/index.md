@@ -34,5 +34,5 @@ Serves: 6
 - Mix Swiss and Gruyère if budget is tight.
 - Red wine gives deeper color; white works too.
 
-Source: Tyler Florence / Food Network (1,000+ five-star reviews)
+Source: Adapted from Tyler Florence / Food Network
 Canonical: https://rcpbx.com/recipes/french-onion-soup/

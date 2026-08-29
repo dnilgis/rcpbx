@@ -31,5 +31,5 @@ Serves: 6-8
 - Custard should jiggle like jello when done.
 - Don't overbake.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/quiche/

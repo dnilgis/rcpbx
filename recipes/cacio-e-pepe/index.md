@@ -26,5 +26,5 @@ Serves: 4
 - Pecorino is essential - don't substitute Parmesan.
 - Work fast and off heat to prevent clumping.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/cacio-e-pepe/

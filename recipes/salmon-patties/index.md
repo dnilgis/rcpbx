@@ -29,5 +29,5 @@ Serves: 4
 - Canned salmon works perfectly.
 - Cornmeal gives authentic Southern texture.
 
-Source: AllRecipes (2,000+ reviews)
+Source: Adapted from AllRecipes
 Canonical: https://rcpbx.com/recipes/salmon-patties/

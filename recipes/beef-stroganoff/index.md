@@ -34,5 +34,5 @@ Serves: 4
 - Don't overcook beef - should be medium rare.
 - Add sour cream off heat to prevent curdling.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/beef-stroganoff/

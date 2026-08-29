@@ -30,5 +30,5 @@ Serves: 4-6
 - Cast iron gets hot enough for proper char.
 - Don't marinate more than 2 hours.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/beef-fajitas/
