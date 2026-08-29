@@ -31,5 +31,5 @@ Makes: 2 cups
 - Thickens as it cools.
 - Add chipotle for smoky heat.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/bbq-sauce/

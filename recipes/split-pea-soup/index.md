@@ -32,5 +32,5 @@ Serves: 6-8
 - No need to soak split peas.
 - Soup thickens significantly as it cools - thin when reheating.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/split-pea-soup/

@@ -29,5 +29,5 @@ Serves: 2
 - Don't touch while searing.
 - Resting redistributes juices.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/pan-seared-steak/

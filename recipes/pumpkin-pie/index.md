@@ -34,5 +34,5 @@ Serves: 8
 - Cooking pumpkin first intensifies flavor.
 - Center should wobble when done.
 
-Source: Serious Eats / Stella Parks (BraveTart tested)
+Source: Adapted from Serious Eats / Stella Parks
 Canonical: https://rcpbx.com/recipes/pumpkin-pie/

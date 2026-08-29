@@ -33,5 +33,5 @@ Serves: 10-12
 - Low and slow breaks down collagen.
 - Mix crispy bark into pulled meat.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/pulled-pork/

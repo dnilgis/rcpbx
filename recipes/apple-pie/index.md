@@ -27,5 +27,5 @@ Serves: 8
 - Cold butter = flaky crust.
 - Must cool or filling will run.
 
-Source: Serious Eats / Stella Parks (BraveTart tested)
+Source: Adapted from Serious Eats / Stella Parks
 Canonical: https://rcpbx.com/recipes/apple-pie/

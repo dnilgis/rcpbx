@@ -24,5 +24,5 @@ Serves: 8
 - Ripe peaches are essential.
 - Don't spread dough - leave it chunky.
 
-Source: Serious Eats (Stella Parks tested)
+Source: Adapted from Serious Eats / Stella Parks
 Canonical: https://rcpbx.com/recipes/peach-cobbler/

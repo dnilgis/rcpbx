@@ -38,5 +38,5 @@ Prep: 15 min · Cook: 1 hr · Makes: 1 loaf
 - Freeze ripe bananas: Peel, freeze in bags. Thaw before using—they get extra soft and sweet.
 - Storage: Keeps 4 days wrapped at room temp. Freezes well for 3 months.
 
-Source: Adapted from King Arthur Flour (Recipe of the Year)
+Source: Adapted from King Arthur Baking
 Canonical: https://rcpbx.com/recipes/banana-bread/

@@ -30,5 +30,5 @@ Serves: 4
 - Don't skip overnight rest.
 - Frank's is classic; adjust heat with more/less sauce.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/buffalo-wings/

@@ -28,5 +28,5 @@ Serves: 12-15
 - Spiral ham is already cooked - just heating and glazing.
 - Cut-side down keeps meat moist.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/glazed-ham/

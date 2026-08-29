@@ -27,5 +27,5 @@ Prep: 30 min · Serves: 4
 - Wire rack: Draining on paper towels traps steam and makes bottom soggy.
 - Storage: Best fresh. Reheat in 400°F oven on wire rack to re-crisp.
 
-Source: Adapted from Serious Eats Food Lab
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/fried-chicken/

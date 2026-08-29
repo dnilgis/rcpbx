@@ -33,5 +33,5 @@ Makes: 12
 - Frozen blueberries work great.
 - Fill cups nearly full for big tops.
 
-Source: King Arthur Baking (King Arthur tested)
+Source: Adapted from King Arthur Baking
 Canonical: https://rcpbx.com/recipes/blueberry-muffins/

@@ -28,5 +28,5 @@ Makes: 2 cups
 - Seed jalapeños for less heat.
 - Salt draws out tomato juices.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/salsa/

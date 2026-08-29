@@ -31,5 +31,5 @@ Serves: 4
 - Char siu is traditional.
 - Day-old rice is essential.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/pork-fried-rice/

@@ -28,5 +28,5 @@ Serves: 4
 - Use thermometer - overcooked breast is dry.
 - Resting is crucial.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/baked-chicken-breast/

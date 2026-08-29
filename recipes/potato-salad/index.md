@@ -31,5 +31,5 @@ Serves: 8
 - Dress potatoes while warm - absorbs more flavor.
 - Yukon Golds hold shape better.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/potato-salad/
