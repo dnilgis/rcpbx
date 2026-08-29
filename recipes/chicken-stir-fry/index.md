@@ -35,5 +35,5 @@ Serves: 4
 - Wok must be ripping hot.
 - Cook in batches to avoid steaming.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/chicken-stir-fry/

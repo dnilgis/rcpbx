@@ -31,5 +31,5 @@ Makes: 3-4 quarts
 - More gelatin = richer body.
 - Freezes for 6 months.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/chicken-stock/

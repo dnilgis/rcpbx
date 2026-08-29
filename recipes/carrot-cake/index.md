@@ -26,5 +26,5 @@ Serves: 12
 - Oil keeps cake moist.
 - Toast walnuts for better flavor.
 
-Source: Serious Eats (Stella Parks tested)
+Source: Adapted from Serious Eats / Stella Parks
 Canonical: https://rcpbx.com/recipes/carrot-cake/

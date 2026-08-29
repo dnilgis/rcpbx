@@ -31,5 +31,5 @@ Serves: 4
 - Use dry Marsala, not sweet cooking Marsala.
 - Pounding chicken ensures even cooking.
 
-Source: Serious Eats (Rigorously tested)
+Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/chicken-marsala/

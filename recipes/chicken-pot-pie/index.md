@@ -33,5 +33,5 @@ Serves: 6
 - Thighs have more flavor than breasts.
 - Puff pastry is easier than pie dough.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/chicken-pot-pie/

@@ -27,5 +27,5 @@ Serves: 4
 - Oil and salt = crispy skin.
 - No foil - steams instead of bakes.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/baked-potato/

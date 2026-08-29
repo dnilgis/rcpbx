@@ -34,5 +34,5 @@ Serves: 6-8
 - Overcooking broccoli is actually the key here.
 - Don't boil after adding cheese or it separates.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/broccoli-cheddar-soup/

@@ -36,5 +36,5 @@ Serves: 8-10
 - Add pasta near end so it doesn't get mushy.
 - Even better the next day.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/minestrone/

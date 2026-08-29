@@ -34,5 +34,5 @@ Serves: 6-8
 - Don't skip browning the beef - builds the flavor base.
 - Add more broth when reheating - barley absorbs liquid.
 
-Source: America's Test Kitchen (ATK Lab-Tested)
+Source: Adapted from America's Test Kitchen
 Canonical: https://rcpbx.com/recipes/beef-barley-soup/
