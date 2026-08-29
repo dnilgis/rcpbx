@@ -2,7 +2,7 @@
   "id": "stuffing",
   "title": "Stuffing",
   "tagline": "Herbed bread, savory, buttery",
-  "description": "Stuffing - Rigorously tested",
+  "description": "Herbed bread, savory, buttery. Adapted from Serious Eats.",
   "category": "Sides",
   "categorySlug": "sides",
   "time": "1¼ hrs",
@@ -32,6 +32,6 @@
     "Dried bread absorbs more liquid.",
     "Fresh herbs make a huge difference."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/classic-bread-stuffing-recipe"
 }

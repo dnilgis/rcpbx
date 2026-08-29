@@ -2,7 +2,7 @@
   "id": "sloppy-joes",
   "title": "Sloppy Joes",
   "tagline": "Sweet, tangy, messy perfection",
-  "description": "Sloppy Joes - Rigorously tested",
+  "description": "Sweet, tangy, messy perfection. Adapted from Serious Eats.",
   "category": "Beef",
   "categorySlug": "beef",
   "time": "35 min",
@@ -34,6 +34,6 @@
     "Let simmer until thick.",
     "Vinegar at end adds brightness."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/sloppy-joes-recipe"
 }

@@ -2,7 +2,7 @@
   "id": "split-pea-soup",
   "title": "Split Pea Soup",
   "tagline": "Thick, smoky, and deeply satisfying",
-  "description": "Split Pea Soup - ATK Lab-Tested",
+  "description": "Thick, smoky, and deeply satisfying. Adapted from America's Test Kitchen.",
   "category": "Soups & Stews",
   "categorySlug": "soups-stews",
   "time": "1½ hrs",
@@ -32,6 +32,6 @@
     "No need to soak split peas.",
     "Soup thickens significantly as it cools - thin when reheating."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/1603-split-pea-and-ham-soup"
 }
