@@ -2,7 +2,7 @@
   "id": "shepherds-pie",
   "title": "Shepherd's Pie",
   "tagline": "Savory meat filling topped with mashed potatoes",
-  "description": "Shepherd's Pie - Rigorously tested",
+  "description": "Savory meat filling topped with mashed potatoes. Adapted from Serious Eats.",
   "category": "Beef",
   "categorySlug": "beef",
   "time": "1½ hrs",
@@ -35,6 +35,6 @@
     "'Shepherd's pie' uses lamb; 'cottage pie' uses beef.",
     "Roughing up potatoes creates crispy peaks."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/shepherds-pie-beef-recipe"
 }

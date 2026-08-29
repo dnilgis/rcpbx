@@ -2,7 +2,7 @@
   "id": "crab-cakes",
   "title": "Crab Cakes",
   "tagline": "Minimal filler, maximum crab",
-  "description": "Crab Cakes - ATK Lab-Tested",
+  "description": "Minimal filler, maximum crab. Adapted from America's Test Kitchen.",
   "category": "Seafood",
   "categorySlug": "seafood",
   "time": "45 min",
@@ -33,6 +33,6 @@
     "Handle gently to preserve lumps.",
     "Chilling firms them up."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/8476-maryland-crab-cakes"
 }

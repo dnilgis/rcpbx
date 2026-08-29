@@ -2,7 +2,7 @@
   "id": "gravy",
   "title": "Gravy",
   "tagline": "Silky, savory, essential for meat",
-  "description": "Gravy - Kenji López-Alt tested",
+  "description": "Silky, savory, essential for meat. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Basics",
   "categorySlug": "basics",
   "time": "30 min",
@@ -29,6 +29,6 @@
     "Gradual addition prevents lumps.",
     "Strain for silky texture."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/make-ahead-turkey-gravy-recipe"
 }

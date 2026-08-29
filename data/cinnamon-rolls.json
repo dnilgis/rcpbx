@@ -2,7 +2,7 @@
   "id": "cinnamon-rolls",
   "title": "Cinnamon Rolls",
   "tagline": "Soft, gooey, cream cheese frosted",
-  "description": "Cinnamon Rolls - King Arthur tested",
+  "description": "Soft, gooey, cream cheese frosted. Adapted from King Arthur Baking.",
   "category": "Breakfast",
   "categorySlug": "breakfast",
   "time": "3 hrs",
@@ -27,6 +27,6 @@
     "Use dental floss to cut dough.",
     "Don't overbake."
   ],
-  "source": "King Arthur Baking (King Arthur tested)",
+  "source": "Adapted from King Arthur Baking",
   "sourceUrl": "https://www.kingarthurbaking.com/recipes/cinnamon-rolls-recipe"
 }

@@ -2,7 +2,7 @@
   "id": "cacio-e-pepe",
   "title": "Cacio e Pepe",
   "tagline": "Three ingredients. Infinite technique.",
-  "description": "Cacio e Pepe - Kenji López-Alt tested",
+  "description": "Three ingredients. Infinite technique. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Pasta",
   "categorySlug": "pasta",
   "time": "20 min",
@@ -26,6 +26,6 @@
     "Pecorino is essential - don't substitute Parmesan.",
     "Work fast and off heat to prevent clumping."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/cacio-e-pepe-recipe"
 }

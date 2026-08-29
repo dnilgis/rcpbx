@@ -2,7 +2,7 @@
   "id": "shrimp-boil",
   "title": "Shrimp Boil",
   "tagline": "One-pot feast, dump on newspaper",
-  "description": "Shrimp Boil - Rigorously tested",
+  "description": "One-pot feast, dump on newspaper. Adapted from Serious Eats.",
   "category": "Seafood",
   "categorySlug": "seafood",
   "time": "45 min",
@@ -32,6 +32,6 @@
     "Drain immediately when shrimp turn pink.",
     "Old Bay is non-negotiable."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/shrimp-boil-recipe"
 }

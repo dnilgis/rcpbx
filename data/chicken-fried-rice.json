@@ -2,7 +2,7 @@
   "id": "chicken-fried-rice",
   "title": "Chicken Fried Rice",
   "tagline": "Day-old rice, crispy edges, wok hei",
-  "description": "Chicken Fried Rice - Kenji López-Alt tested",
+  "description": "Day-old rice, crispy edges, wok hei. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Chicken",
   "categorySlug": "chicken",
   "time": "30 min",
@@ -32,6 +32,6 @@
     "High heat creates wok hei.",
     "Don't stir constantly - let rice crisp."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/easy-vegetable-fried-rice-recipe"
 }

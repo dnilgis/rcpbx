@@ -2,7 +2,7 @@
   "id": "hash-browns",
   "title": "Hash Browns",
   "tagline": "Shredded, golden, shatteringly crispy",
-  "description": "Hash Browns - Kenji López-Alt tested",
+  "description": "Shredded, golden, shatteringly crispy. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Breakfast",
   "categorySlug": "breakfast",
   "time": "35 min",
@@ -26,6 +26,6 @@
     "Dry, dry, dry.",
     "Don't touch them while cooking."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/crispy-shredded-hash-browns-recipe"
 }

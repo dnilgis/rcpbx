@@ -2,7 +2,7 @@
   "id": "chicken-marsala",
   "title": "Chicken Marsala",
   "tagline": "Pan-seared chicken in mushroom wine sauce",
-  "description": "Chicken Marsala - Rigorously tested",
+  "description": "Pan-seared chicken in mushroom wine sauce. Adapted from Serious Eats.",
   "category": "Chicken",
   "categorySlug": "chicken",
   "time": "40 min",
@@ -31,6 +31,6 @@
     "Use dry Marsala, not sweet cooking Marsala.",
     "Pounding chicken ensures even cooking."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/chicken-marsala-mushroom-recipe"
 }

@@ -2,7 +2,7 @@
   "id": "pork-chops",
   "title": "Pan-Seared Pork Chops",
   "tagline": "Golden crust, juicy center, butter-basted",
-  "description": "Pan-Seared Pork Chops - Kenji López-Alt tested",
+  "description": "Golden crust, juicy center, butter-basted. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Pork",
   "categorySlug": "pork",
   "time": "25 min",
@@ -29,6 +29,6 @@
     "Thick-cut bone-in stays juicier.",
     "Pork is safe at 145°F."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/perfect-pan-seared-pork-chop-recipe"
 }

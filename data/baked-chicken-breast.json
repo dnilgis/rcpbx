@@ -2,7 +2,7 @@
   "id": "baked-chicken-breast",
   "title": "Baked Chicken Breast",
   "tagline": "Juicy, golden, foolproof",
-  "description": "Baked Chicken Breast - Kenji López-Alt tested",
+  "description": "Juicy, golden, foolproof. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Chicken",
   "categorySlug": "chicken",
   "time": "30 min",
@@ -28,6 +28,6 @@
     "Use thermometer - overcooked breast is dry.",
     "Resting is crucial."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/quick-and-easy-pan-roasted-chicken-breasts"
 }

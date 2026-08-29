@@ -2,7 +2,7 @@
   "id": "pasta-primavera",
   "title": "Pasta Primavera",
   "tagline": "Fresh vegetables in light cream sauce",
-  "description": "Pasta Primavera - Rigorously tested",
+  "description": "Fresh vegetables in light cream sauce. Adapted from Serious Eats.",
   "category": "Pasta",
   "categorySlug": "pasta",
   "time": "35 min",
@@ -35,6 +35,6 @@
     "Cook each vegetable separately for best doneness.",
     "Use whatever vegetables are in season."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/pasta-primavera-recipe"
 }

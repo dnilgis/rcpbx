@@ -2,7 +2,7 @@
   "id": "biscuits-and-gravy",
   "title": "Biscuits and Gravy",
   "tagline": "Creamy sausage gravy over warm biscuits",
-  "description": "Biscuits and Gravy - Rigorously tested",
+  "description": "Creamy sausage gravy over warm biscuits. Adapted from Serious Eats.",
   "category": "Pork",
   "categorySlug": "pork",
   "time": "30 min",
@@ -29,6 +29,6 @@
     "Gravy thickens as it cools.",
     "Black pepper is essential."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/sausage-gravy-recipe"
 }

@@ -2,7 +2,7 @@
   "id": "salsa",
   "title": "Fresh Salsa",
   "tagline": "Bright, chunky, restaurant style",
-  "description": "Fresh Salsa - Rigorously tested",
+  "description": "Bright, chunky, restaurant style. Adapted from Serious Eats.",
   "category": "Basics",
   "categorySlug": "basics",
   "time": "15 min",
@@ -28,6 +28,6 @@
     "Seed jalapeños for less heat.",
     "Salt draws out tomato juices."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/classic-pico-de-gallo-recipe"
 }

@@ -2,7 +2,7 @@
   "id": "breakfast-burrito",
   "title": "Breakfast Burrito",
   "tagline": "Eggs, meat, cheese, portable perfection",
-  "description": "Breakfast Burrito - Rigorously tested",
+  "description": "Eggs, meat, cheese, portable perfection. Adapted from Serious Eats.",
   "category": "Breakfast",
   "categorySlug": "breakfast",
   "time": "25 min",
@@ -32,6 +32,6 @@
     "Warm tortillas are more pliable.",
     "Don't overfill."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/breakfast-burrito-recipe"
 }

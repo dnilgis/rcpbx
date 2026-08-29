@@ -2,7 +2,7 @@
   "id": "macaroni-salad",
   "title": "Macaroni Salad",
   "tagline": "Creamy, tangy, picnic classic",
-  "description": "Macaroni Salad - Rigorously tested",
+  "description": "Creamy, tangy, picnic classic. Adapted from Serious Eats.",
   "category": "Sides",
   "categorySlug": "sides",
   "time": "30 min + chilling",
@@ -30,6 +30,6 @@
     "Pasta absorbs dressing - make it wetter than you think.",
     "Tastes better next day."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/macaroni-salad-recipe"
 }

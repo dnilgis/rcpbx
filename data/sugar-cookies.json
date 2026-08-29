@@ -2,7 +2,7 @@
   "id": "sugar-cookies",
   "title": "Sugar Cookies",
   "tagline": "Crisp edges, soft center, perfect for decorating",
-  "description": "Sugar Cookies - King Arthur tested",
+  "description": "Crisp edges, soft center, perfect for decorating. Adapted from King Arthur Baking.",
   "category": "Baking",
   "categorySlug": "baking-dessert",
   "time": "2 hrs + chilling",
@@ -33,6 +33,6 @@
     "Don't overbake - they firm as they cool.",
     "Almond extract is the secret."
   ],
-  "source": "King Arthur Baking (King Arthur tested)",
+  "source": "Adapted from King Arthur Baking",
   "sourceUrl": "https://www.kingarthurbaking.com/recipes/cutout-sugar-cookies-recipe"
 }

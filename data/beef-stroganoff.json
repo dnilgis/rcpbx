@@ -2,7 +2,7 @@
   "id": "beef-stroganoff",
   "title": "Beef Stroganoff",
   "tagline": "Seared beef in creamy mushroom sauce",
-  "description": "Beef Stroganoff - Rigorously tested",
+  "description": "Seared beef in creamy mushroom sauce. Adapted from Serious Eats.",
   "category": "Beef",
   "categorySlug": "beef",
   "time": "45 min",
@@ -34,6 +34,6 @@
     "Don't overcook beef - should be medium rare.",
     "Add sour cream off heat to prevent curdling."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/beef-stroganoff-recipe"
 }

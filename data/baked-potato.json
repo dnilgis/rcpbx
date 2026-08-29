@@ -2,7 +2,7 @@
   "id": "baked-potato",
   "title": "Baked Potato",
   "tagline": "Crispy skin, fluffy interior",
-  "description": "Baked Potato - Kenji López-Alt tested",
+  "description": "Crispy skin, fluffy interior. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Sides",
   "categorySlug": "sides",
   "time": "1¼ hrs",
@@ -27,6 +27,6 @@
     "Oil and salt = crispy skin.",
     "No foil - steams instead of bakes."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/perfect-baked-potato-recipe"
 }

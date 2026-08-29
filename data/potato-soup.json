@@ -2,7 +2,7 @@
   "id": "potato-soup",
   "title": "Loaded Baked Potato Soup",
   "tagline": "All the toppings, in soup form",
-  "description": "Loaded Baked Potato Soup - ATK Lab-Tested",
+  "description": "All the toppings, in soup form. Adapted from America's Test Kitchen.",
   "category": "Soups & Stews",
   "categorySlug": "soups-stews",
   "time": "1 hr",
@@ -34,6 +34,6 @@
     "Don't skip frying potato skins - incredible texture.",
     "Add sour cream off heat to prevent curdling."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/3237-loaded-baked-potato-soup"
 }

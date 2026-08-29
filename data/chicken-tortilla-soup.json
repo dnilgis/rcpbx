@@ -2,7 +2,7 @@
   "id": "chicken-tortilla-soup",
   "title": "Chicken Tortilla Soup",
   "tagline": "Smoky, spicy, with crispy tortilla strips",
-  "description": "Chicken Tortilla Soup - ATK Lab-Tested",
+  "description": "Smoky, spicy, with crispy tortilla strips. Adapted from America's Test Kitchen.",
   "category": "Soups & Stews",
   "categorySlug": "soups-stews",
   "time": "1 hr",
@@ -34,6 +34,6 @@
     "Cooking tortillas in soup adds body and flavor.",
     "Crispy strips must be added right before serving."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/1484-chicken-tortilla-soup"
 }

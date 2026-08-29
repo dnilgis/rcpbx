@@ -2,7 +2,7 @@
   "id": "roasted-vegetables",
   "title": "Roasted Vegetables",
   "tagline": "Caramelized, tender, versatile",
-  "description": "Roasted Vegetables - Kenji López-Alt tested",
+  "description": "Caramelized, tender, versatile. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Sides",
   "categorySlug": "sides",
   "time": "45 min",
@@ -27,6 +27,6 @@
     "Use two pans if needed.",
     "High heat creates caramelization."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/roasted-vegetables-recipe"
 }

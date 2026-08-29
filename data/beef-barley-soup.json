@@ -2,7 +2,7 @@
   "id": "beef-barley-soup",
   "title": "Beef Barley Soup",
   "tagline": "Hearty, beefy, cold-weather comfort",
-  "description": "Beef Barley Soup - ATK Lab-Tested",
+  "description": "Hearty, beefy, cold-weather comfort. Adapted from America's Test Kitchen.",
   "category": "Soups & Stews",
   "categorySlug": "soups-stews",
   "time": "2 hrs",
@@ -34,6 +34,6 @@
     "Don't skip browning the beef - builds the flavor base.",
     "Add more broth when reheating - barley absorbs liquid."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/1592-beef-barley-soup"
 }

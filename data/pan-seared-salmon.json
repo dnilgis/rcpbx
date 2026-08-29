@@ -2,7 +2,7 @@
   "id": "pan-seared-salmon",
   "title": "Pan-Seared Salmon",
   "tagline": "Crispy skin, perfectly cooked center",
-  "description": "Pan-Seared Salmon - Kenji López-Alt tested",
+  "description": "Crispy skin, perfectly cooked center. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Seafood",
   "categorySlug": "seafood",
   "time": "20 min",
@@ -30,6 +30,6 @@
     "Don't move the fish.",
     "Medium-rare center (125°F) is ideal."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/crispy-pan-seared-salmon-recipe"
 }

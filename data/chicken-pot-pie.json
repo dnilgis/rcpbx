@@ -2,7 +2,7 @@
   "id": "chicken-pot-pie",
   "title": "Chicken Pot Pie",
   "tagline": "Creamy filling under flaky pastry",
-  "description": "Chicken Pot Pie - ATK Lab-Tested",
+  "description": "Creamy filling under flaky pastry. Adapted from America's Test Kitchen.",
   "category": "Chicken",
   "categorySlug": "chicken",
   "time": "1½ hrs",
@@ -33,6 +33,6 @@
     "Thighs have more flavor than breasts.",
     "Puff pastry is easier than pie dough."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/8521-chicken-pot-pie"
 }

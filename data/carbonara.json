@@ -2,7 +2,7 @@
   "id": "carbonara",
   "title": "Spaghetti Carbonara",
   "tagline": "Silky egg sauce, crispy pork, no cream",
-  "description": "Spaghetti Carbonara - Kenji López-Alt tested",
+  "description": "Silky egg sauce, crispy pork, no cream. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Pasta",
   "categorySlug": "pasta",
   "time": "25 min",
@@ -30,6 +30,6 @@
     "Work fast - pasta must be hot.",
     "No cream in real carbonara - ever."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/spaghetti-carbonara-recipe"
 }

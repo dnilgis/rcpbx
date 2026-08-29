@@ -2,7 +2,7 @@
   "id": "coleslaw",
   "title": "Coleslaw",
   "tagline": "Creamy, tangy, classic BBQ side",
-  "description": "Coleslaw - Rigorously tested",
+  "description": "Creamy, tangy, classic BBQ side. Adapted from Serious Eats.",
   "category": "Sides",
   "categorySlug": "sides",
   "time": "15 min + chilling",
@@ -29,6 +29,6 @@
     "Salting cabbage first draws out moisture.",
     "Letting it sit melds flavors."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/classic-creamy-coleslaw-recipe"
 }

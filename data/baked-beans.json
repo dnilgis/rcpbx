@@ -2,7 +2,7 @@
   "id": "baked-beans",
   "title": "Baked Beans",
   "tagline": "Slow-cooked, smoky, sweet",
-  "description": "Baked Beans - ATK Lab-Tested",
+  "description": "Slow-cooked, smoky, sweet. Adapted from America's Test Kitchen.",
   "category": "Sides",
   "categorySlug": "sides",
   "time": "5-6 hrs",
@@ -31,6 +31,6 @@
     "Soaking ensures even cooking.",
     "Low and slow is essential."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/1569-boston-baked-beans"
 }

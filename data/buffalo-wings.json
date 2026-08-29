@@ -2,7 +2,7 @@
   "id": "buffalo-wings",
   "title": "Buffalo Wings",
   "tagline": "Crispy oven-baked, classic hot sauce",
-  "description": "Buffalo Wings - Kenji López-Alt tested",
+  "description": "Crispy oven-baked, classic hot sauce. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Chicken",
   "categorySlug": "chicken",
   "time": "1 hr + overnight",
@@ -30,6 +30,6 @@
     "Don't skip overnight rest.",
     "Frank's is classic; adjust heat with more/less sauce."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/the-best-buffalo-wings-oven-fried-recipe"
 }

@@ -2,7 +2,7 @@
   "id": "rice-pilaf",
   "title": "Rice Pilaf",
   "tagline": "Buttery, toasted, fluffy",
-  "description": "Rice Pilaf - ATK Lab-Tested",
+  "description": "Buttery, toasted, fluffy. Adapted from America's Test Kitchen.",
   "category": "Sides",
   "categorySlug": "sides",
   "time": "35 min",
@@ -28,6 +28,6 @@
     "Toasting adds nutty flavor.",
     "Don't lift lid while cooking."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/1564-rice-pilaf"
 }

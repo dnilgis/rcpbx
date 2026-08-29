@@ -1,0 +1,168 @@
+{
+  "edition": "2026-W35",
+  "date": "2026-08-29",
+  "nextWeek": "first Friday verdict of the new cadence drops this week. requests → /request/",
+  "pullQuote": "A referee who never blows the whistle is a shill. The graveyard is open; it's waiting.",
+  "entries": [
+    {
+      "slug": "cottage-cheese-taco-shells",
+      "name": "Cottage cheese taco shells",
+      "note": "the cottage-cheese wave's best trick",
+      "heat": 3,
+      "status": "WORTH IT",
+      "recipeId": "cottage-cheese-tacos",
+      "dateTested": "2026-07-18",
+      "line": "Legitimately good protein delivery — just don't expect a corn tortilla. Rack-crisping is non-negotiable."
+    },
+    {
+      "slug": "yogurt-tiramisu",
+      "name": "Yogurt tiramisu",
+      "note": "Biscoff + Greek yogurt, overnight — the no-bake of the summer",
+      "heat": 3,
+      "status": "WORTH IT",
+      "recipeId": "yogurt-tiramisu",
+      "dateTested": "2026-07-18",
+      "line": "The rare viral dessert that's better than its video. Two-second dunks and an overnight chill are the whole game."
+    },
+    {
+      "slug": "buldak-carbonara",
+      "name": "Buldak carbonara",
+      "note": "Korean fire noodles + carbonara logic",
+      "heat": 3,
+      "status": "WORTH IT",
+      "recipeId": "buldak-carbonara",
+      "dateTested": "2026-07-18",
+      "line": "One sauce packet plus the dairy is dinner; two packets is a challenge video. Numbers: 2 yolks, 40g parm, off the heat."
+    },
+    {
+      "slug": "frozen-yogurt-clusters",
+      "name": "Frozen yogurt clusters",
+      "note": "high-protein freezer snack, chocolate shell that snaps",
+      "heat": 3,
+      "status": "WORTH IT",
+      "recipeId": "frozen-yogurt-clusters",
+      "dateTested": "2026-07-18",
+      "line": "Cool the melted chocolate 3 minutes before dipping — that's the difference between a shell and a milkshake."
+    },
+    {
+      "slug": "chickpea-cookie-dough",
+      "name": "Chickpea cookie dough",
+      "note": "fibermaxxing's marquee snack",
+      "heat": 2,
+      "status": "WORTH IT",
+      "recipeId": "chickpea-cookie-dough",
+      "dateTested": "2026-07-18",
+      "line": "Nobody guesses the chickpeas. Three full minutes in the processor or it's hummus with chocolate chips."
+    },
+    {
+      "slug": "black-sesame-cookies",
+      "name": "Black sesame anything",
+      "note": "the flavor of 2026, still at all-time-high interest",
+      "heat": 2,
+      "status": "WORTH IT",
+      "recipeId": "black-sesame-cookies",
+      "dateTested": "2026-07-18",
+      "line": "Tastes sophisticated, bakes like a snickerdoodle. Weigh the flour: 160g, not a scoop."
+    },
+    {
+      "slug": "air-fryer-smashed-potatoes",
+      "name": "Air fryer smashed potatoes",
+      "note": "the default potato of the app",
+      "heat": 2,
+      "status": "WORTH IT",
+      "recipeId": "air-fryer-smashed-potatoes",
+      "dateTested": "2026-07-18",
+      "line": "Fork-tender before smashing, steam-dry after draining. The crunch has a 15-minute half-life."
+    },
+    {
+      "slug": "watermelon-feta-salad",
+      "name": "Watermelon feta salad",
+      "note": "late-summer seasonal, last call",
+      "heat": 1,
+      "status": "WORTH IT",
+      "recipeId": "watermelon-feta-salad",
+      "dateTested": "2026-07-18",
+      "line": "Drain the melon 10 minutes or serve a pink puddle. The doubters go quiet after one bite."
+    },
+    {
+      "slug": "dubai-chocolate-bar",
+      "name": "Dubai chocolate bar",
+      "note": "a grocery SKU now, but homemade still wins",
+      "heat": 1,
+      "status": "WORTH IT",
+      "recipeId": "dubai-chocolate-bar",
+      "dateTested": "2026-07-18",
+      "line": "Rebuilt with real pistachio cream — the jar costs more than the chocolate, and it's still worth it."
+    },
+    {
+      "slug": "protein-ice-cream",
+      "name": "Protein ice cream",
+      "note": "the Creami-era version, with math that survives arithmetic",
+      "heat": 2,
+      "status": "WORTH IT",
+      "recipeId": "protein-ice-cream",
+      "dateTested": "2026-07-18",
+      "line": "The viral version claims 25g protein and delivers 13. Ours delivers 25 because we used two scoops. Arithmetic."
+    },
+    {
+      "slug": "cottage-cheese-flatbread",
+      "name": "Cottage cheese flatbread",
+      "note": "the flourless \"bread\"",
+      "heat": 1,
+      "status": "OVERHYPED",
+      "recipeId": "cottage-cheese-flatbread",
+      "dateTested": "2026-07-18",
+      "line": "A solid high-protein wrap. Anyone calling it 'bread' is lying to you — it's a flat baked omelet, and that's fine."
+    },
+    {
+      "slug": "texas-roadhouse-rolls-butter",
+      "name": "Roadhouse rolls + cinnamon honey butter",
+      "note": "the copycat that never stops trending",
+      "heat": 2,
+      "status": "IN THE KITCHEN",
+      "recipeId": null,
+      "dateTested": null,
+      "line": null
+    },
+    {
+      "slug": "hugo-spritz",
+      "name": "Hugo spritz (+ zero-proof)",
+      "note": "elderflower spritz, the drink of the summer",
+      "heat": 2,
+      "status": "IN THE KITCHEN",
+      "recipeId": null,
+      "dateTested": null,
+      "line": null
+    },
+    {
+      "slug": "sourdough-focaccia",
+      "name": "Sourdough focaccia",
+      "note": "the 2026 bake",
+      "heat": 2,
+      "status": "WATCHING",
+      "recipeId": null,
+      "dateTested": null,
+      "line": null
+    },
+    {
+      "slug": "swicy-everything",
+      "name": "Swicy everything",
+      "note": "sweet-heat is the flavor direction of the year",
+      "heat": 2,
+      "status": "WATCHING",
+      "recipeId": null,
+      "dateTested": null,
+      "line": null
+    },
+    {
+      "slug": "crispy-rice-salad",
+      "name": "Crispy rice salad",
+      "note": "nam khao-inspired bowls all over the app",
+      "heat": 1,
+      "status": "WATCHING",
+      "recipeId": null,
+      "dateTested": null,
+      "line": null
+    }
+  ]
+}

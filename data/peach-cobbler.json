@@ -2,7 +2,7 @@
   "id": "peach-cobbler",
   "title": "Peach Cobbler",
   "tagline": "Juicy fruit, biscuit topping",
-  "description": "Peach Cobbler - Stella Parks tested",
+  "description": "Juicy fruit, biscuit topping. Adapted from Serious Eats / Stella Parks.",
   "category": "Baking",
   "categorySlug": "baking-dessert",
   "time": "1 hr",
@@ -24,6 +24,6 @@
     "Ripe peaches are essential.",
     "Don't spread dough - leave it chunky."
   ],
-  "source": "Serious Eats (Stella Parks tested)",
+  "source": "Adapted from Serious Eats / Stella Parks",
   "sourceUrl": "https://www.seriouseats.com/peach-cobbler-recipe"
 }

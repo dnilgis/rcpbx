@@ -2,7 +2,7 @@
   "id": "chicken-stir-fry",
   "title": "Chicken Stir Fry",
   "tagline": "Tender chicken, crisp vegetables, savory sauce",
-  "description": "Chicken Stir Fry - Kenji López-Alt tested",
+  "description": "Tender chicken, crisp vegetables, savory sauce. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Chicken",
   "categorySlug": "chicken",
   "time": "30 min",
@@ -35,6 +35,6 @@
     "Wok must be ripping hot.",
     "Cook in batches to avoid steaming."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/easy-stir-fried-chicken-breast-recipe"
 }

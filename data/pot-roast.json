@@ -2,7 +2,7 @@
   "id": "pot-roast",
   "title": "Pot Roast",
   "tagline": "Fork-tender beef, rich gravy",
-  "description": "Pot Roast - ATK Lab-Tested",
+  "description": "Fork-tender beef, rich gravy. Adapted from America's Test Kitchen.",
   "category": "Beef",
   "categorySlug": "beef",
   "time": "4 hrs",
@@ -33,6 +33,6 @@
     "Low and slow is essential.",
     "Let meat rest before slicing."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/5571-simple-pot-roast"
 }

@@ -2,7 +2,7 @@
   "id": "pumpkin-pie",
   "title": "Pumpkin Pie",
   "tagline": "Spiced, custardy, Thanksgiving essential",
-  "description": "Pumpkin Pie - BraveTart tested",
+  "description": "Spiced, custardy, Thanksgiving essential. Adapted from Serious Eats / Stella Parks.",
   "category": "Baking",
   "categorySlug": "baking-dessert",
   "time": "1½ hrs + chilling",
@@ -34,6 +34,6 @@
     "Cooking pumpkin first intensifies flavor.",
     "Center should wobble when done."
   ],
-  "source": "Serious Eats / Stella Parks (BraveTart tested)",
+  "source": "Adapted from Serious Eats / Stella Parks",
   "sourceUrl": "https://www.seriouseats.com/pumpkin-pie-recipe"
 }

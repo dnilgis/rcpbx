@@ -2,7 +2,7 @@
   "id": "bechamel",
   "title": "Béchamel",
   "tagline": "Creamy white sauce, building block",
-  "description": "Béchamel - Rigorously tested",
+  "description": "Creamy white sauce, building block. Adapted from Serious Eats.",
   "category": "Basics",
   "categorySlug": "basics",
   "time": "15 min",
@@ -27,6 +27,6 @@
     "Don't brown the flour - should stay white.",
     "Base for cheese sauce, gratins, lasagna."
   ],
-  "source": "Serious Eats (Rigorously tested)",
+  "source": "Adapted from Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/how-to-make-bechamel-white-sauce-recipe"
 }

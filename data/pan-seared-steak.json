@@ -2,7 +2,7 @@
   "id": "pan-seared-steak",
   "title": "Pan-Seared Steak",
   "tagline": "Restaurant-quality crust, butter-basted",
-  "description": "Pan-Seared Steak - Kenji López-Alt tested",
+  "description": "Restaurant-quality crust, butter-basted. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Beef",
   "categorySlug": "beef",
   "time": "20 min + resting",
@@ -29,6 +29,6 @@
     "Don't touch while searing.",
     "Resting redistributes juices."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/perfect-pan-seared-steak-recipe"
 }

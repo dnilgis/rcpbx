@@ -2,7 +2,7 @@
   "id": "baked-cod",
   "title": "Baked Cod",
   "tagline": "Lemon herb butter, panko topping",
-  "description": "Baked Cod - ATK Lab-Tested",
+  "description": "Lemon herb butter, panko topping. Adapted from America's Test Kitchen.",
   "category": "Seafood",
   "categorySlug": "seafood",
   "time": "25 min",
@@ -30,6 +30,6 @@
     "Cod's mild flavor pairs with bold toppings.",
     "Don't overcook - should just flake."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/8553-baked-cod-with-lemon-and-herbs"
 }

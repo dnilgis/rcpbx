@@ -2,7 +2,7 @@
   "id": "baby-back-ribs",
   "title": "Baby Back Ribs",
   "tagline": "Fall-off-the-bone tender, caramelized glaze",
-  "description": "Baby Back Ribs - Kenji López-Alt tested",
+  "description": "Fall-off-the-bone tender, caramelized glaze. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Pork",
   "categorySlug": "pork",
   "time": "4 hrs",
@@ -33,6 +33,6 @@
     "Foil wrap keeps them moist.",
     "Broiling gives caramelized finish."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/oven-baked-bbq-ribs-recipe"
 }

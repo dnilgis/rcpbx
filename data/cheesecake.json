@@ -2,7 +2,7 @@
   "id": "cheesecake",
   "title": "New York Cheesecake",
   "tagline": "Dense, creamy, classic",
-  "description": "New York Cheesecake - BraveTart tested",
+  "description": "Dense, creamy, classic. Adapted from Serious Eats / Stella Parks.",
   "category": "Baking",
   "categorySlug": "baking-dessert",
   "time": "1½ hrs + overnight",
@@ -27,6 +27,6 @@
     "Water bath prevents cracking.",
     "Must chill overnight."
   ],
-  "source": "Serious Eats / Stella Parks (BraveTart tested)",
+  "source": "Adapted from Serious Eats / Stella Parks",
   "sourceUrl": "https://www.seriouseats.com/new-york-cheesecake-recipe"
 }

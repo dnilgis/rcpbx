@@ -2,7 +2,7 @@
   "id": "blueberry-muffins",
   "title": "Blueberry Muffins",
   "tagline": "Tender, bursting with berries",
-  "description": "Blueberry Muffins - King Arthur tested",
+  "description": "Tender, bursting with berries. Adapted from King Arthur Baking.",
   "category": "Baking",
   "categorySlug": "baking-dessert",
   "time": "40 min",
@@ -33,6 +33,6 @@
     "Frozen blueberries work great.",
     "Fill cups nearly full for big tops."
   ],
-  "source": "King Arthur Baking (King Arthur tested)",
+  "source": "Adapted from King Arthur Baking",
   "sourceUrl": "https://www.kingarthurbaking.com/recipes/blueberry-muffins-recipe"
 }

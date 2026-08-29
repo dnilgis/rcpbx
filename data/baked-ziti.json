@@ -2,7 +2,7 @@
   "id": "baked-ziti",
   "title": "Baked Ziti",
   "tagline": "Saucy, cheesy, crowd-pleasing pasta bake",
-  "description": "Baked Ziti - Kenji López-Alt tested",
+  "description": "Saucy, cheesy, crowd-pleasing pasta bake. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Pasta",
   "categorySlug": "pasta",
   "time": "1¼ hrs",
@@ -32,6 +32,6 @@
     "Undercook pasta - it finishes in oven.",
     "Dollop ricotta for pockets of creaminess."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/baked-ziti-recipe"
 }

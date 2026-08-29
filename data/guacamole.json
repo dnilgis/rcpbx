@@ -2,7 +2,7 @@
   "id": "guacamole",
   "title": "Guacamole",
   "tagline": "Chunky, fresh, perfect every time",
-  "description": "Guacamole - Kenji López-Alt tested",
+  "description": "Chunky, fresh, perfect every time. Adapted from Serious Eats / Kenji López-Alt.",
   "category": "Basics",
   "categorySlug": "basics",
   "time": "10 min",
@@ -30,6 +30,6 @@
     "Lime juice prevents browning.",
     "Salt brings out flavor - don't skimp."
   ],
-  "source": "Serious Eats (Kenji López-Alt tested)",
+  "source": "Adapted from Serious Eats / Kenji López-Alt",
   "sourceUrl": "https://www.seriouseats.com/guacamole-recipe"
 }

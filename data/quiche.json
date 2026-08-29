@@ -2,7 +2,7 @@
   "id": "quiche",
   "title": "Quiche Lorraine",
   "tagline": "Bacon, cheese, custardy filling",
-  "description": "Quiche Lorraine - ATK Lab-Tested",
+  "description": "Bacon, cheese, custardy filling. Adapted from America's Test Kitchen.",
   "category": "Breakfast",
   "categorySlug": "breakfast",
   "time": "1½ hrs",
@@ -31,6 +31,6 @@
     "Custard should jiggle like jello when done.",
     "Don't overbake."
   ],
-  "source": "America's Test Kitchen (ATK Lab-Tested)",
+  "source": "Adapted from America's Test Kitchen",
   "sourceUrl": "https://www.americastestkitchen.com/recipes/8083-quiche-lorraine"
 }

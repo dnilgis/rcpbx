@@ -2,7 +2,7 @@
   "id": "chocolate-cake",
   "title": "Chocolate Cake",
   "tagline": "Rich, moist, deeply chocolatey",
-  "description": "Chocolate Cake - BraveTart tested",
+  "description": "Rich, moist, deeply chocolatey.",
   "category": "Baking",
   "categorySlug": "baking-dessert",
   "time": "1½ hrs",
@@ -25,6 +25,6 @@
     "Hot coffee intensifies chocolate flavor.",
     "Batter is very thin - that's correct."
   ],
-  "source": "Serious Eats (BraveTart tested)",
+  "source": "Serious Eats",
   "sourceUrl": "https://www.seriouseats.com/chocolate-cake-recipe"
 }
