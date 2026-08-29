@@ -33,5 +33,5 @@ Serves: 4
 - Foil wrap keeps them moist.
 - Broiling gives caramelized finish.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/baby-back-ribs/

@@ -32,5 +32,5 @@ Serves: 8-10
 - Undercook pasta - it finishes in oven.
 - Dollop ricotta for pockets of creaminess.
 
-Source: Serious Eats (Kenji López-Alt tested)
+Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/baked-ziti/

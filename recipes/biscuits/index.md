@@ -31,5 +31,5 @@ Serves: 8-10
 - Don't twist cutter - seals edges.
 - Biscuits touching rise higher.
 
-Source: Serious Eats / Stella Parks (BraveTart tested)
+Source: Adapted from Serious Eats / Stella Parks
 Canonical: https://rcpbx.com/recipes/biscuits/
