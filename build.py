@@ -73,6 +73,7 @@ QTY_PAREN = re.compile(r"\(([0-9]+(?:\.[0-9]+)?)\s*(g|kg|ml|L|oz|lb)\b")
 UFRAC = {"½": 0.5, "¼": 0.25, "¾": 0.75, "⅓": 1/3, "⅔": 2/3, "⅛": 0.125, "⅜": 0.375, "⅝": 0.625, "⅞": 0.875}
 QTY_UNI = re.compile(r"^(?:([0-9]+)\s?)?([½¼¾⅓⅔⅛⅜⅝⅞])(?=[\s-])")
 PAREN_ANY = re.compile(r"\(([0-9]+\s+[0-9]+/[0-9]+|[0-9]+/[0-9]+|[0-9]+(?:\.[0-9]+)?)(?=\s*(?:g|kg|ml|L|oz|lb|lbs|cups?|Tbsp|tbsp|tsp|sticks?|cloves?)\b)")
+SLASH_UNIT = re.compile(r"(/\s*)([0-9]+(?:\.[0-9]+)?)(?=\s*(?:g|kg|ml|L|oz|lb)\b)")
 OF_FRAC = re.compile(r"\b(of|juice of|zest of)\s+([0-9]+/[0-9]+|[0-9]+)\s+(?=[a-z])")
 
 def mark_qty(line):
@@ -87,7 +88,8 @@ def mark_qty(line):
 def mark_paren(text):
     """Scale numbers inside parentheses ("(3/4 tsp table salt)", "(180ml)")."""
     e = esc(text)
-    return PAREN_ANY.sub(lambda m: '(<span class="qty" data-base="%.4g">%s</span>' % (frac_to_float(m.group(1)), m.group(1)), e)
+    e = PAREN_ANY.sub(lambda m: '(<span class="qty" data-base="%.4g">%s</span>' % (frac_to_float(m.group(1)), m.group(1)), e)
+    return SLASH_UNIT.sub(lambda m: '%s<span class="qty" data-base="%s">%s</span>' % (m.group(1), m.group(2), m.group(2)), e)
 
 def mark_paren_lead(line):
     out = esc(line)
@@ -102,6 +104,7 @@ def mark_paren_lead(line):
             val = frac_to_float(m.group(1))
             out = ('<span class="qty" data-base="%.4g">%s</span>' % (val, esc(m.group(1)))) + esc(line[m.end():])
     out = PAREN_ANY.sub(lambda mm: '(<span class="qty" data-base="%.4g">%s</span>' % (frac_to_float(mm.group(1)), mm.group(1)), out)
+    out = SLASH_UNIT.sub(lambda mm: '%s<span class="qty" data-base="%s">%s</span>' % (mm.group(1), mm.group(2), mm.group(2)), out)
     out = OF_FRAC.sub(lambda mm: '%s <span class="qty" data-base="%.4g">%s</span> ' % (mm.group(1), frac_to_float(mm.group(2)), mm.group(2)), out)
     return out
 
