@@ -7,9 +7,10 @@ Generates recipe pages from data/*.json with:
   share / copy-link / email buttons, large-type toggle
   honest provenance ("Adapted from X · retest scheduled" until rcpbx-retested)
   QR print cards (13px type), per-recipe og cards, real sitemap lastmod dates
-Run order: build.py → generate-seo-pages.py → make-radar.py → make-cards.py → make-llms.py → make-feed.py
+Run order: build.py → generate-seo-pages.py → make-radar.py → make-cards.py → make-llms.py → make-feed.py → make-home.py → make-sitemap.py
 """
-import json, glob, os, re, html, random, datetime
+import json, glob, os, re, html, random, datetime, subprocess
+import rcpbx_time
 try:
     import segno
 except ImportError:
@@ -26,6 +27,37 @@ HUBS = {
 
 def esc(s): return html.escape(str(s), quote=True)
 
+def js_str(s):
+    """Text for inside a single-quoted JS string in an HTML <script> block."""
+    return (json.dumps(str(s), ensure_ascii=False)[1:-1]
+            .replace("'", "\\u0027").replace("<", "\\u003c"))
+
+def trim_words(s, n):
+    s = " ".join(str(s).split())
+    if len(s) <= n: return s
+    cut = s[:n - 1].rsplit(" ", 1)[0].rstrip(",;:-–—")
+    return cut + "…"
+
+def _git_dates():
+    """First and last commit date (YYYY-MM-DD) per data/<id>.json. Empty if git is unavailable."""
+    first, last = {}, {}
+    try:
+        out = subprocess.run(["git", "log", "--format=@%cs", "--name-only", "--", "data"],
+                             capture_output=True, text=True, timeout=60).stdout
+    except Exception:
+        return first, last
+    day = None
+    for line in out.splitlines():
+        if line.startswith("@"): day = line[1:]; continue
+        m = re.match(r"data/([a-z0-9-]+)\.json$", line.strip())
+        if m and day:
+            rid = m.group(1)
+            last.setdefault(rid, day)   # log is newest-first
+            first[rid] = day
+    return first, last
+
+FIRST_DATE, LAST_DATE = {}, {}
+
 def frac_to_float(tok):
     tok = tok.strip()
     if " " in tok and "/" in tok:
@@ -38,7 +70,26 @@ QTY_LEAD = re.compile(r"^([0-9]+\s+[0-9]+/[0-9]+|[0-9]+/[0-9]+|[0-9]+(?:\.[0-9]+
 QTY_RANGE = re.compile(r"^([0-9]+(?:\.[0-9]+)?)-([0-9]+(?:\.[0-9]+)?)(?=\s)")
 QTY_PAREN = re.compile(r"\(([0-9]+(?:\.[0-9]+)?)\s*(g|kg|ml|L|oz|lb)\b")
 
+UFRAC = {"½": 0.5, "¼": 0.25, "¾": 0.75, "⅓": 1/3, "⅔": 2/3, "⅛": 0.125, "⅜": 0.375, "⅝": 0.625, "⅞": 0.875}
+QTY_UNI = re.compile(r"^(?:([0-9]+)\s?)?([½¼¾⅓⅔⅛⅜⅝⅞])(?=[\s-])")
+PAREN_ANY = re.compile(r"\(([0-9]+\s+[0-9]+/[0-9]+|[0-9]+/[0-9]+|[0-9]+(?:\.[0-9]+)?)(?=\s*(?:g|kg|ml|L|oz|lb|lbs|cups?|Tbsp|tbsp|tsp|sticks?|cloves?)\b)")
+OF_FRAC = re.compile(r"\b(of|juice of|zest of)\s+([0-9]+/[0-9]+|[0-9]+)\s+(?=[a-z])")
+
 def mark_qty(line):
+    mu = QTY_UNI.match(line)
+    if mu:
+        val = (float(mu.group(1)) if mu.group(1) else 0) + UFRAC[mu.group(2)]
+        rest = line[mu.end():]
+        out = ('<span class="qty" data-base="%.4g">%s</span>' % (val, esc(mu.group(0)))) + mark_paren(rest)
+        return out
+    return mark_paren_lead(line)
+
+def mark_paren(text):
+    """Scale numbers inside parentheses ("(3/4 tsp table salt)", "(180ml)")."""
+    e = esc(text)
+    return PAREN_ANY.sub(lambda m: '(<span class="qty" data-base="%.4g">%s</span>' % (frac_to_float(m.group(1)), m.group(1)), e)
+
+def mark_paren_lead(line):
     out = esc(line)
     m = QTY_RANGE.match(line)
     if m:
@@ -50,7 +101,8 @@ def mark_qty(line):
         if m:
             val = frac_to_float(m.group(1))
             out = ('<span class="qty" data-base="%.4g">%s</span>' % (val, esc(m.group(1)))) + esc(line[m.end():])
-    out = QTY_PAREN.sub(lambda mm: '(<span class="qty" data-base="%s">%s</span>%s' % (mm.group(1), mm.group(1), mm.group(2)), out)
+    out = PAREN_ANY.sub(lambda mm: '(<span class="qty" data-base="%.4g">%s</span>' % (frac_to_float(mm.group(1)), mm.group(1)), out)
+    out = OF_FRAC.sub(lambda mm: '%s <span class="qty" data-base="%.4g">%s</span> ' % (mm.group(1), frac_to_float(mm.group(2)), mm.group(2)), out)
     return out
 
 TIMER = re.compile(r"\b([0-9]+)(?:[-–]([0-9]+))?\s*(more\s+)?min(?:ute)?s?\b")
@@ -69,7 +121,20 @@ def build_page(r, related, total):
     cat = r.get("category", ""); slug = r.get("categorySlug", "basics")
     hub_name, hub_url = HUBS.get(slug, (cat or "Recipes", "/"))
     desc = r.get("description", r.get("tagline", ""))
-    meta_desc = (desc[:152] + "…") if len(desc) > 155 else desc
+    tot_min = rcpbx_time.total_minutes(r)
+    act_min = rcpbx_time.active_minutes(r)
+    lead_bits = []
+    if tot_min: lead_bits.append(rcpbx_time.human(tot_min))
+    elif act_min: lead_bits.append(rcpbx_time.human(act_min) + " active")
+    if r.get("serves"): lead_bits.append("serves %s" % r["serves"])
+    elif r.get("makes"): lead_bits.append("makes %s" % r["makes"])
+    lead = (", ".join(lead_bits) + ". ") if lead_bits else ""
+    if lead_bits and re.search(r"(serves|makes)", lead, re.I):
+        desc_body = re.sub(r"\s*(Serves|Makes) [^.]*\.\s*$", "", desc)
+    else:
+        desc_body = desc
+    meta_desc = trim_words(lead + desc_body, 155)
+    page_title = title if re.search(r"\brecipe\b", title, re.I) else title + " Recipe"
     card = "%s/recipes/%s/card.png" % (SITE, rid)
     url = "%s/recipes/%s/" % (SITE, rid)
     serves = r.get("serves") or r.get("makes") or ""
@@ -86,14 +151,17 @@ def build_page(r, related, total):
         "recipeInstructions": [{"@type": "HowToStep", "text": s} for s in r.get("steps", [])],
         "url": url,
     }
-    if r.get("prep"):
-        pm = re.search(r"(\d+)", r["prep"]); cm = re.search(r"(\d+)", r.get("cook", "0") or "0")
-        if pm: schema["prepTime"] = "PT%sM" % pm.group(1)
-        if cm: schema["cookTime"] = "PT%sM" % cm.group(1)
-        if pm and cm: schema["totalTime"] = "PT%sM" % (int(pm.group(1)) + int(cm.group(1)))
-    if tested:
-        d = tested if len(tested) > 7 else tested + "-01"
-        schema["datePublished"] = d; schema["dateModified"] = d
+    pm, _, _ = rcpbx_time.parse(r.get("prep"))
+    cm, _, _ = rcpbx_time.parse(r.get("cook"))
+    if pm: schema["prepTime"] = rcpbx_time.iso(pm)
+    if cm: schema["cookTime"] = rcpbx_time.iso(cm)
+    if tot_min: schema["totalTime"] = rcpbx_time.iso(tot_min)
+    today = datetime.date.today().isoformat()
+    tdate = (tested if len(tested) > 7 else tested + "-01") if tested else None
+    pub = FIRST_DATE.get(rid) or (min(tdate, today) if tdate else today)
+    mod = max(x for x in (LAST_DATE.get(rid), tdate, pub) if x)
+    schema["datePublished"] = pub
+    schema["dateModified"] = mod
     crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE},
         {"@type": "ListItem", "position": 2, "name": hub_name, "item": SITE + hub_url},
@@ -102,6 +170,8 @@ def build_page(r, related, total):
     meta_items = []
     if r.get("prep"): meta_items.append('<span class="meta-item"><span class="meta-label">Prep:</span> %s</span>' % esc(r["prep"]))
     if r.get("cook"): meta_items.append('<span class="meta-item"><span class="meta-label">Cook:</span> %s</span>' % esc(r["cook"]))
+    if r.get("time") and not (r.get("prep") or r.get("cook")):
+        meta_items.append('<span class="meta-item"><span class="meta-label">Time:</span> %s</span>' % esc(r["time"]))
     if serves:
         meta_items.append(('<span class="meta-item"><span class="meta-label">%s:</span> <span id="servesVal">%s</span>'
             '<span class="scaler" role="group" aria-label="Scale servings">'
@@ -142,7 +212,9 @@ def build_page(r, related, total):
         vclass = {"WORTH IT": "v-worth", "SKIP": "v-skip", "OVERHYPED": "v-hype"}.get(vs, "v-worth")
         verdict_html = ('<div class="verdict %s"><span class="v-badge">%s</span><span class="v-note">%s</span></div>'
                         % (vclass, esc(vs), esc(verdict.get("note", ""))))
-    if tested:
+    if r.get("draft") and not tested:
+        tested_html = ('<p class="tested-line"><span class="tested-badge dim">kitchen draft</span> Not yet cooked to the rcpbx spec. Amounts may change after the first test. <a href="/why/">how we test</a></p>')
+    elif tested:
         note = esc(r.get("testedNote", ""))
         tested_html = ('<p class="tested-line"><span class="tested-badge">tested %s</span>%s</p>'
                        % (esc(tested), (" " + note) if note else ""))
@@ -151,6 +223,12 @@ def build_page(r, related, total):
                        % esc(source))
     else:
         tested_html = ""
+
+    su = r.get("sourceUrl", "")
+    if su.startswith("http"):
+        source_html = '%s · <a href="%s" rel="noopener">original</a>' % (esc(source), esc(su))
+    else:
+        source_html = esc(source)
 
     rel_html = "\n".join(
         '        <a href="/recipes/%s/"><span class="rel-title">%s</span><span class="rel-tag">%s</span></a>'
@@ -162,11 +240,15 @@ def build_page(r, related, total):
         qr_html = ('<div class="print-qr">%s<span class="print-qr-label">Scan with your phone\'s camera to reopen<br>this recipe with checkboxes and timers.</span></div>'
                    % (q.svg_inline(scale=2.4),))
 
-    mailto = "mailto:?subject=%s&body=%s" % (
-        esc(title + " — rcpbx"),
-        esc("%s %s %s" % (title, "—", r.get("tagline",""))) + "%0A%0A" + url + "%0A%0A" + "No ads, no life stories. Just the recipe.")
+    from urllib.parse import quote
+    mailto = esc("mailto:?subject=%s&body=%s" % (
+        quote(title + " — rcpbx"),
+        quote("%s — %s\n\n%s\n\nNo ads, no life stories. Just the recipe." % (title, r.get("tagline", ""), url))))
 
     page = (TEMPLATE
+        .replace("%%PAGE_TITLE%%", esc(page_title))
+        .replace("%%TITLE_JS%%", js_str(title))
+        .replace("%%TAGLINE_JS%%", js_str(r.get("tagline", "")))
         .replace("%%TITLE%%", esc(title))
         .replace("%%TAGLINE%%", esc(r.get("tagline", "")))
         .replace("%%META_DESC%%", esc(meta_desc))
@@ -184,7 +266,7 @@ def build_page(r, related, total):
         .replace("%%STEPS%%", steps_html)
         .replace("%%NOTES%%", notes_html)
         .replace("%%TROUBLE%%", ts_html)
-        .replace("%%SOURCE%%", esc(source))
+        .replace("%%SOURCE%%", source_html)
         .replace("%%RELATED%%", rel_html)
         .replace("%%QR%%", qr_html)
         .replace("%%MAILTO%%", mailto)
@@ -194,6 +276,8 @@ def build_page(r, related, total):
 def main():
     root = os.path.dirname(os.path.abspath(__file__)); os.chdir(root)
     files = [f for f in glob.glob("data/*.json") if os.path.basename(f) not in ("index.json", "hot.json", "radar.json")]
+    global FIRST_DATE, LAST_DATE
+    FIRST_DATE, LAST_DATE = _git_dates()
     recipes = {}
     for f in files:
         r = json.load(open(f)); recipes[r["id"]] = r
@@ -226,36 +310,7 @@ def main():
             f.write(build_page(r, related, total))
         built += 1
 
-    # sitemap with honest lastmod
-    try:
-        old = open("sitemap.xml").read() if os.path.exists("sitemap.xml") else ""
-        locs = re.findall(r"<(?:[a-z0-9]+:)?loc>(.*?)</(?:[a-z0-9]+:)?loc>", old)
-        want = (["%s/recipes/%s/" % (SITE, e["id"]) for e in idx]
-                + [SITE + p for p in ("/box/", "/basic-recipes/", "/skips/", "/why/", "/never/", "/api/")])
-        if os.path.exists("data/radar.json"):
-            want += ["%s/radar/%s/" % (SITE, e2["slug"]) for e2 in json.load(open("data/radar.json")).get("entries", []) if e2.get("dateTested")]
-        seen, out = set(), []
-        for u in locs + want:
-            u2 = u.rstrip("/") + "/"
-            if u2 not in seen: seen.add(u2); out.append(u2)
-        today = datetime.date.today().isoformat()
-        tested_by_id = {e["id"]: (e["tested"] + "-01" if len(e.get("tested","")) == 7 else e.get("tested")) for e in idx if e.get("tested")}
-        lines = ['<?xml version="1.0" encoding="UTF-8"?>',
-                 '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-        for u in out:
-            m = re.match(r"%s/recipes/([^/]+)/$" % re.escape(SITE), u)
-            if m:
-                lm = tested_by_id.get(m.group(1), "2026-07-12"); pri = "0.8"
-            elif u == SITE + "/":
-                lm = today; pri = "1.0"
-            else:
-                lm = today; pri = "0.6"
-            lines.append("  <url><loc>%s</loc><lastmod>%s</lastmod><priority>%s</priority></url>" % (u, lm, pri))
-        lines.append("</urlset>")
-        open("sitemap.xml", "w").write("\n".join(lines))
-        print("sitemap: %d urls (honest lastmod)" % len(out))
-    except Exception as ex:
-        print("sitemap skipped:", ex)
+    # sitemap.xml is written by make-sitemap.py (run last)
 
     print("built %d recipe pages · index.json enriched (%d recipes)" % (built, total))
 
@@ -264,7 +319,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>%%TITLE%% | rcpbx</title>
+  <title>%%PAGE_TITLE%% | rcpbx</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
   <meta name="description" content="%%META_DESC%%">
   <meta name="robots" content="index, follow">
@@ -345,7 +400,7 @@ TEMPLATE = r"""<!DOCTYPE html>
     .meta-item { display: flex; align-items: center; gap: 0.3rem; }
     .meta-label { font-weight: 500; color: var(--text); }
     .scaler { display: inline-flex; align-items: center; gap: 0.15rem; margin-left: 0.35rem; }
-    .scaler button { font-family: var(--font-mono); width: 1.6rem; height: 1.6rem; border: 1px solid var(--border);
+    .scaler button { font-family: var(--font-mono); width: 2.5rem; height: 2.5rem; border: 1px solid var(--border);
       background: var(--bg); color: var(--text); border-radius: 3px; cursor: pointer; font-size: 0.9rem; line-height: 1; }
     .scaler button:hover, .scaler button:focus-visible { border-color: var(--accent-text); color: var(--accent-text); }
     .scaler button:disabled { opacity: 0.35; cursor: default; }
@@ -417,6 +472,7 @@ TEMPLATE = r"""<!DOCTYPE html>
       color: var(--bg); border-radius: 4px; padding: 0.15rem 0.6rem; cursor: pointer; font-size: 0.75rem; }
     .print-qr { display: none; }
     @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
+    @media (pointer: coarse) { .t { display: inline-block; padding: 0.3rem 0.55rem; min-height: 2rem; } }
     @media print {
       @page { margin: 1.3cm; }
       html { font-size: 13px; background: #fff; color: #000; }
@@ -577,13 +633,13 @@ TEMPLATE = r"""<!DOCTYPE html>
     var servesEl = document.getElementById('servesVal');
     var baseServes = servesEl ? servesEl.textContent : '';
     var baseNum = parseFloat(baseServes);
-    var UF = {0.25:'¼',0.333:'⅓',0.5:'½',0.667:'⅔',0.75:'¾',0.125:'⅛'};
+    var UF = {0.25:'¼',0.333:'⅓',0.5:'½',0.667:'⅔',0.75:'¾',0.125:'⅛',0.375:'⅜',0.625:'⅝',0.875:'⅞'};
     function fmt(v){
       if (v >= 10) return String(Math.round(v));
       var whole = Math.floor(v + 1e-6), rem = v - whole, best = null, bd = 1;
-      [0.125,0.25,0.333,0.5,0.667,0.75].forEach(function(f){ var d = Math.abs(rem - f); if (d < bd) { bd = d; best = f; } });
+      [0.125,0.25,0.333,0.375,0.5,0.625,0.667,0.75,0.875].forEach(function(f){ var d = Math.abs(rem - f); if (d < bd) { bd = d; best = f; } });
       if (rem < 0.0625) return String(whole || Math.round(v * 100) / 100);
-      if (bd < 0.06) return (whole ? whole + ' ' : '') + UF[best];
+      if (bd < 0.02) return (whole ? whole + ' ' : '') + UF[best];
       return String(Math.round(v * 100) / 100);
     }
     var scUp = document.getElementById('scUp'), scDown = document.getElementById('scDown');
@@ -608,7 +664,7 @@ TEMPLATE = r"""<!DOCTYPE html>
       document.querySelectorAll('.qty').forEach(function(q){ q.dataset.orig = q.textContent; });
       scUp.addEventListener('click', function(){ var i = factors.indexOf(mult); if (i < factors.length - 1) { mult = factors[i + 1]; applyScale(); } });
       scDown.addEventListener('click', function(){ var i = factors.indexOf(mult); if (i > 0) { mult = factors[i - 1]; applyScale(); } });
-      scDown.disabled = true;
+      scDown.disabled = factors.indexOf(mult) === 0;
     }
 
     var bar = document.getElementById('timerbar'), tv = document.getElementById('timerVal'),
@@ -636,15 +692,15 @@ TEMPLATE = r"""<!DOCTYPE html>
     function tick(){
       var s = Math.max(0, Math.round((endAt - Date.now()) / 1000));
       tv.textContent = Math.floor(s / 60) + ':' + ('0' + s % 60).slice(-2);
-      document.title = tv.textContent + ' · %%TITLE%% | rcpbx';
+      document.title = tv.textContent + ' · %%TITLE_JS%% | rcpbx';
       if (s <= 0) {
         var mins = tl.textContent;
-        stopTimer(); beep(); document.title = '%%TITLE%% | rcpbx'; tv.textContent = 'done!';
+        stopTimer(); beep(); document.title = '%%TITLE_JS%% | rcpbx'; tv.textContent = 'done!';
         srAlert.textContent = 'Timer done: ' + mins + '.';
         bar.classList.add('show'); setTimeout(function(){ bar.classList.remove('show'); }, 5000);
       }
     }
-    document.getElementById('timerStop').addEventListener('click', function(){ stopTimer(); document.title = '%%TITLE%% | rcpbx'; say('Timer stopped.'); });
+    document.getElementById('timerStop').addEventListener('click', function(){ stopTimer(); document.title = '%%TITLE_JS%% | rcpbx'; say('Timer stopped.'); });
     document.querySelectorAll('.t').forEach(function(b){
       b.addEventListener('click', function(e){
         e.stopPropagation();
@@ -661,14 +717,16 @@ TEMPLATE = r"""<!DOCTYPE html>
       wakeBtn.hidden = false;
       var req = function(){ navigator.wakeLock.request('screen').then(function(l){
         lock = l; wakeBtn.classList.add('on'); wakeBtn.textContent = 'screen on ✓'; wakeBtn.setAttribute('aria-pressed', 'true');
-        l.addEventListener('release', function(){ wakeBtn.classList.remove('on'); wakeBtn.textContent = 'screen on'; wakeBtn.setAttribute('aria-pressed', 'false'); });
-      }).catch(function(){}); };
+        say('Screen will stay awake.');
+        l.addEventListener('release', function(){ if (lock === l) lock = null; wakeBtn.classList.remove('on'); wakeBtn.textContent = 'screen on'; wakeBtn.setAttribute('aria-pressed', 'false'); });
+      }).catch(function(){ say('This browser would not keep the screen on.'); }); };
+      var wanted = false;
       wakeBtn.addEventListener('click', function(){
-        if (lock) { lock.release(); lock = null; say('Screen can sleep again.'); }
-        else { req(); say('Screen will stay awake.'); }
+        if (lock) { wanted = false; lock.release(); lock = null; say('Screen can sleep again.'); }
+        else { wanted = true; req(); }
       });
       document.addEventListener('visibilitychange', function(){
-        if (lock !== null && document.visibilityState === 'visible') req();
+        if (wanted && !lock && document.visibilityState === 'visible') req();
       });
     }
 
@@ -691,11 +749,11 @@ TEMPLATE = r"""<!DOCTYPE html>
       navigator.clipboard.writeText('%%URL%%').then(function(){
         var t = btn.textContent; btn.textContent = 'copied ✓'; say('Link copied.');
         setTimeout(function(){ btn.textContent = t; }, 1500);
-      });
+      }).catch(function(){ btn.textContent = 'copy failed'; say('Copy failed. Long-press the address bar to copy the link.'); });
     }
     shareBtn.addEventListener('click', function(){
       if (navigator.share) {
-        navigator.share({ title: '%%TITLE%% | rcpbx', text: '%%TAGLINE%%', url: '%%URL%%' }).catch(function(){});
+        navigator.share({ title: '%%TITLE_JS%% | rcpbx', text: '%%TAGLINE_JS%%', url: '%%URL%%' }).catch(function(){});
       } else copyLink(shareBtn);
     });
     copyBtn.addEventListener('click', function(){ copyLink(copyBtn); });

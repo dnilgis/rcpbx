@@ -1,6 +1,6 @@
 # Penne alla Vodka
 
-Creamy tomato sauce with a kick. The vodka cooks off but the magic stays.
+Creamy tomato sauce with a kick, sharpened by vodka.
 
 Prep: 10 min · Cook: 25 min · Serves: 4
 
@@ -29,7 +29,7 @@ Prep: 10 min · Cook: 25 min · Serves: 4
 
 ## Notes
 
-- Why vodka: It releases flavor compounds in the tomatoes that aren't alcohol or water soluble. The alcohol cooks off.
+- Why vodka: it releases flavor compounds in the tomatoes that aren't water soluble. Some alcohol remains after simmering, so skip it for kids or anyone avoiding alcohol.
 - Flambé warning: Add vodka off heat to prevent flare-ups, then return to the burner.
 - San Marzano: These tomatoes are sweeter and less acidic. Worth seeking out.
 - Make it richer: Add 2 Tbsp butter at the end for extra silkiness.

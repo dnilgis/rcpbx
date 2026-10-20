@@ -22,7 +22,7 @@ Serves: 10-12
 
 1. Mix all spices for dry rub. Apply generously all over pork.
 2. Place fat-side up in roasting pan. Pour vinegar in bottom.
-3. Cover tightly with foil. Roast at 300°F for 8-10 hours, until 195-205°F and meat shreds easily.
+3. Cover tightly with foil. Roast at 250°F for 8-10 hours, until 195-205°F and the meat shreds easily. Start checking at hour 7.
 4. Rest 30 minutes.
 5. Shred meat, discarding fat and bone. Toss with pan juices and BBQ sauce.
 6. Serve on soft buns with coleslaw.

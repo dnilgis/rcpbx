@@ -1,4 +1,4 @@
-# rcpbx — full recipe corpus (164 of 164 recipes with full data in this build)
+# rcpbx — full recipe corpus (167 of 167 recipes with full data in this build)
 # License: free to quote with attribution to rcpbx.com
 
 # Spaghetti Aglio e Olio
@@ -268,7 +268,7 @@ Serves: 4
 2. Heat oil in oven-safe skillet over medium-high until smoking.
 3. Add chicken, sear without moving until golden, 4-5 minutes.
 4. Flip. Add butter, garlic, thyme.
-5. Transfer to 425°F oven. Roast until 160°F internal, 10-15 minutes.
+5. Transfer to 425°F oven. Roast until 160°F internal, 10-15 minutes; it climbs to 165°F during the rest.
 6. Rest 5 minutes. Spoon pan juices over chicken.
 
 ## Notes
@@ -783,7 +783,7 @@ Serves: 4
 2. Add remaining butter and mushrooms. Brown 8 minutes. Add onion, cook 5 minutes.
 3. Add garlic, 30 seconds. Add brandy, scrape up bits.
 4. Add broth, reduce by half, about 5 minutes.
-5. Reduce heat. Stir in sour cream and mustard.
+5. Remove from heat. Stir in sour cream and mustard.
 6. Return beef and juices. Heat through.
 7. Serve over egg noodles with parsley.
 
@@ -1115,7 +1115,7 @@ Serves: 4
 1. Cook bacon until crisp (or brown chorizo). Chop or crumble.
 2. Beat eggs with salt and pepper.
 3. Melt butter in nonstick skillet over medium-low.
-4. Add eggs. Stir constantly making soft curds. Remove slightly underdone.
+4. Add eggs. Stir constantly making soft curds. Cook until just set and still glossy, with no liquid egg left; they finish in the warm tortilla.
 5. Warm tortillas in dry skillet.
 6. Layer eggs, meat, cheese, avocado, salsa on each tortilla.
 7. Fold sides in, roll tightly.
@@ -1361,6 +1361,7 @@ _Tested 2026-07. One sauce packet plus the dairy is the correct default; the ful
 - The heat math: one packet with the dairy lands around 'very spicy but conversational.' Two packets is the full 2x challenge with a cream buffer.
 - Off the heat is the whole technique - carbonara logic applies whether it's guanciale or fire sauce.
 - The buldak 'carbonara' flavor pack is fine, but building it from original + real yolk and parmesan tastes dramatically better.
+- Food safety: the yolks are only warmed by residual heat. Use pasteurized eggs for anyone young, older, pregnant or immunocompromised.
 
 ## When it goes wrong
 
@@ -1402,7 +1403,7 @@ Prep: 10 min · Cook: 0 min · Makes: 3 cups (enough for 24 cupcakes or one 2-la
 - Sift the sugar: Sifting prevents lumps and makes smoother frosting.
 - Chocolate version: Add 1/2 cup unsweetened cocoa powder with the powdered sugar.
 - Cream cheese version: Replace half the butter with room temperature cream cheese.
-- Storage: Room temperature 2-3 days, refrigerated up to 1 week. Bring to room temp and re-whip before using.
+- Storage: plain buttercream keeps 2 days at room temperature, up to 1 week refrigerated. Cream cheese version: always refrigerate, and don't leave it out more than 2 hours. Bring to room temp and re-whip before using.
 
 Source: Adapted from Sally's Baking Addiction
 Canonical: https://rcpbx.com/recipes/buttercream-frosting/
@@ -1426,7 +1427,7 @@ Serves: 4
 
 1. Toast pepper in dry skillet until fragrant, 1 minute.
 2. Cook pasta in less water than usual (3 quarts) to concentrate starch. Reserve 2 cups pasta water.
-3. Add 1½ cups pasta water to bowl with Pecorino. Whisk to form paste.
+3. Add ⅓ cup hot pasta water to the bowl with the Pecorino. Whisk to a thick paste.
 4. Drain pasta when very al dente. Add to cheese mixture with pepper.
 5. Toss vigorously, adding pasta water until creamy.
 6. Serve immediately with more Pecorino and pepper.
@@ -1570,6 +1571,7 @@ Serves: 4
 - Key: take pan OFF heat before adding eggs.
 - Work fast - pasta must be hot.
 - No cream in real carbonara - ever.
+- Food safety: the yolks are only warmed by residual heat. Use pasteurized eggs for anyone young, older, pregnant or immunocompromised.
 
 Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/carbonara/
@@ -1755,7 +1757,6 @@ Prep: 10 min · Cook: 20 min · Serves: 4
 
 - Thin asparagus cooks in 2 minutes, thick in 5 - judge by bend, not clock.
 - Lemon juice goes in off the heat; zest can simmer, juice breaks cream if boiled.
-- Got a family version of this? They're all cousins - the searing temps and the off-heat lemon rule carry over to any of them.
 
 ## When it goes wrong
 
@@ -1953,16 +1954,16 @@ Serves: 6
 - 1 cup heavy cream
 - 1 cup frozen peas
 - 2 tbsp fresh thyme
-- 1 sheet puff pastry
+- 2 sheets puff pastry (1 box), thawed
 - 1 egg, beaten
 
 ## Steps
 
-1. Poach chicken in simmering water until cooked, 15-20 minutes. Shred.
+1. Poach chicken in simmering water until 175°F inside, 15-20 minutes. Shred.
 2. Melt butter, cook onion, carrots, celery until soft, 8 minutes.
 3. Add flour, cook 1 minute. Whisk in broth and cream.
 4. Simmer until thickened. Add chicken, peas, thyme. Season well.
-5. Transfer to 9x13 dish. Top with puff pastry, cut vents. Brush with egg.
+5. Transfer to 9x13 dish. Top with puff pastry, overlapping the seam by ½ inch and pressing it to seal. Cut vents. Brush with egg.
 6. Bake at 400°F until golden and bubbling, 25-30 minutes.
 
 ## Notes
@@ -1999,8 +2000,8 @@ Prep: 10 min · Cook: 10 min · Serves: 4
 
 1. Toss shredded chicken with chili powder, cumin, garlic powder, and salt.
 2. Heat a large skillet over medium heat. Add 1/2 Tbsp butter.
-3. Place a tortilla in the skillet. Add 1/2 cup cheese to half the tortilla.
-4. Top cheese with 1/4 of the chicken, peppers, and onion. Add more cheese on top.
+3. Place a tortilla in the skillet. Add ¼ cup cheese to half the tortilla.
+4. Top cheese with ¼ of the chicken, peppers and onion, then ¼ cup more cheese.
 5. Fold tortilla in half. Cook 2-3 minutes until bottom is golden.
 6. Flip carefully and cook 2-3 minutes more until both sides are crispy and cheese is melted.
 7. Repeat with remaining ingredients. Cut into triangles and serve with toppings.
@@ -2037,7 +2038,7 @@ Serves: 4-6
 
 ## Steps
 
-1. Cover chicken with salted water. Bring to boil, reduce to simmer. Cook until 160°F, 15-20 minutes.
+1. Cover chicken with salted water. Bring to boil, reduce to simmer. Cook until 165°F, 15-20 minutes.
 2. Cool 10 minutes, then shred or chop.
 3. Whisk mayo, lemon juice, mustard.
 4. Add chicken, celery, parsley, shallot. Toss.
@@ -2120,7 +2121,7 @@ Makes: 3-4 quarts
 3. Add vegetables, garlic, and aromatics.
 4. Simmer uncovered 4-6 hours, adding water as needed.
 5. Strain through fine-mesh strainer. Discard solids.
-6. Cool uncovered. Refrigerate.
+6. Cool it fast: set the pot in a sink of ice water, or divide into shallow containers, stirring, to under 70°F within 2 hours and under 40°F within 6. Refrigerate up to 4 days.
 7. Skim solidified fat before using.
 
 ## Notes
@@ -2179,7 +2180,8 @@ Serves: 4-6
 
 ## Ingredients
 
-- 2 lbs chicken thighs
+- 2 lbs boneless skinless chicken thighs, cut in 1½-inch chunks
+- 1½ tsp Diamond Crystal kosher salt (¾ tsp table salt), divided
 - 1 cup yogurt
 - 2 tbsp lemon juice
 - 2 tbsp garam masala, divided
@@ -2195,11 +2197,11 @@ Serves: 4-6
 
 ## Steps
 
-1. Mix yogurt, lemon juice, 1 tbsp garam masala, cumin, paprika. Marinate chicken 1-4 hours.
-2. Broil chicken until charred, 4-5 minutes per side.
+1. Mix yogurt, lemon juice, 1 tbsp garam masala, cumin, paprika and 1 tsp of the salt. Marinate chicken 1-4 hours.
+2. Broil chicken until charred and 165°F inside, 4-5 minutes per side.
 3. Cook onion in oil 8 minutes. Add garlic, ginger, remaining garam masala. Cook 1 minute.
 4. Add tomatoes, simmer 15 minutes. Stir in cream.
-5. Add chicken and juices. Simmer 10 minutes. Garnish with cilantro.
+5. Add chicken and juices. Simmer 10 minutes. Season with the remaining ½ tsp salt, to taste. Garnish with cilantro.
 6. Serve with basmati rice and naan.
 
 ## Notes
@@ -2255,7 +2257,7 @@ Canonical: https://rcpbx.com/recipes/chicken-tortilla-soup/
 
 # Chickpea Cookie Dough
 
-Edible cookie dough with 6g of fiber hiding in it.
+Edible cookie dough with a can of chickpeas hiding in it.
 
 Prep: 10 min · Cook: 0 min · Makes: about 1 1/2 cups (6 servings)
 
@@ -2284,7 +2286,7 @@ _Tested 2026-07. Three full minutes in the processor and a hard chill are what s
 
 ## Notes
 
-- The math: a can of chickpeas carries roughly 20g fiber and 20g protein across the batch - about 6g fiber per serving with the peanut butter.
+- A whole can of chickpeas goes in, so the batch carries real fiber and protein. Nobody tastes them.
 - This is dough, not dough-for-baking - no leavening, no egg; it stays dough.
 - Natural peanut butter (just peanuts and salt) keeps it scoopable; the sweetened kind makes it stiff and cloying.
 
@@ -2590,10 +2592,10 @@ Serves: 8
 
 ## Steps
 
-1. Toss cabbage and carrots.
+1. Toss cabbage and carrots with 1 tsp Diamond Crystal kosher salt. Drain in a colander 30 minutes, then press dry (don't rinse).
 2. Whisk mayo, sugar, vinegar, mustard, celery seed.
 3. Pour over cabbage. Toss to coat.
-4. Season with salt and pepper.
+4. Taste, then season with pepper and more salt if needed.
 5. Refrigerate at least 1 hour.
 6. Toss again before serving.
 
@@ -2622,7 +2624,7 @@ Prep: 5 min · Cook: 10 min · Serves: 6
 
 ## Steps
 
-1. BOILED: Bring a large pot of water to boil. Don't add salt—it toughens the corn. Add corn and cook 4-6 minutes until tender. Drain.
+1. BOILED: Bring a large pot of water to boil (salting it is optional). Add corn and cook 4-6 minutes until tender. Drain.
 2. GRILLED: Preheat grill to medium-high. Brush corn with oil. Grill 10-12 minutes, turning every few minutes, until charred in spots.
 3. ROASTED: Preheat oven to 400°F. Place corn directly on oven rack. Roast 20-25 minutes until tender.
 4. Serve immediately with butter, salt, and pepper.
@@ -2630,7 +2632,7 @@ Prep: 5 min · Cook: 10 min · Serves: 6
 ## Notes
 
 - Freshness: Fresh corn is best eaten within 1-2 days. The sugar converts to starch over time.
-- No salt in water: Salt toughens corn. Season after cooking.
+- Season after cooking: salt sticks best to the butter.
 - Test for doneness: Pierce a kernel with your fingernail—it should be tender and release milky juice.
 - Mexican street corn (elote): Coat grilled corn with mayo, cotija cheese, chili powder, and lime.
 - Cut off the cob: Stand ear upright in a bowl and slice down with a sharp knife.
@@ -2829,7 +2831,7 @@ The viral crunchy, garlicky, spicy cucumber situation.
 
 Prep: 15 min · Cook: 0 min · Serves: 4
 
-**Verdict: WORTH IT** — Five minutes of work for the best thing on the table - the 500M views are deserved.
+**Verdict: WORTH IT** — Five minutes of work for the best thing on the table - the hype is deserved.
 
 _Tested 2026-07. Verified the salt-and-drain step is non-negotiable - skipping it waters the dressing down in minutes._
 
@@ -3027,6 +3029,7 @@ Serves: 4
 - Blender hollandaise is foolproof.
 - Fresh eggs poach better.
 - Hollandaise breaks if too hot.
+- Food safety: blender hollandaise yolks are only warmed by the hot butter. Use pasteurized eggs for anyone young, older, pregnant or immunocompromised.
 
 Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/eggs-benedict/
@@ -3054,10 +3057,10 @@ Serves: 4
 
 1. Cut potatoes into ½-inch fries. Soak in cold water 1 hour.
 2. Heat oil to 325°F. Drain and dry potatoes. Fry 5 minutes until pale. Drain.
-3. Increase oil to 375°F. Fry potatoes again until golden, 3-5 minutes. Season.
+3. Increase oil to 375°F. Fry potatoes again until golden, 3-5 minutes. Season, then hold on a wire rack over a sheet pan in a 200°F oven.
 4. Whisk 1 cup flour, cornstarch, baking powder, 1 tsp salt. Whisk in beer.
 5. Cut fish into strips. Dredge in remaining flour.
-6. Dip in batter. Fry until golden, 4-5 minutes. Drain, season.
+6. Dip in batter. Fry until golden, 4-5 minutes. Drain on the rack, season, and keep in the oven until every batch is done.
 7. Serve with malt vinegar and tartar sauce.
 
 ## Notes
@@ -3132,7 +3135,7 @@ Serves: 6
 
 ## Steps
 
-1. Melt butter in Dutch oven over medium heat. Add onions and garlic, cook 25 minutes until caramelized, stirring occasionally.
+1. Melt butter in Dutch oven over medium heat. Add onions and cook 45-60 minutes until deep brown, stirring occasionally; add a splash of water if the bottom starts to scorch. Add the garlic for the last 2 minutes.
 2. Add bay leaves, thyme, and wine. Simmer until wine evaporates, about 5 minutes.
 3. Dust with flour, stir to coat. Cook 2 minutes on medium-low.
 4. Add broth, bring to simmer. Season with salt and pepper. Simmer 20-30 minutes.
@@ -3208,7 +3211,7 @@ Prep: 30 min · Serves: 4
 2. Mix dredge: Combine flour, cornstarch, paprika, garlic powder, cayenne, salt, and pepper in a wide bowl.
 3. Double dredge: Remove chicken from buttermilk (don't shake off excess). Coat in flour mixture. Dip back in buttermilk. Coat in flour again. Let sit on rack 10 minutes.
 4. Heat oil to 350°F in Dutch oven or deep skillet. Use a thermometer.
-5. Fry in batches (don't crowd): Dark meat 13-15 minutes, breasts 15-18 minutes. Flip halfway. Internal temp should reach 165°F.
+5. Fry in batches (don't crowd), flipping halfway: dark meat 13-15 minutes to 175°F or higher, breasts 15-18 minutes to 165°F.
 6. Drain on wire rack (not paper towels—they make it soggy). Season with pinch of salt immediately.
 
 ## Notes
@@ -3304,7 +3307,7 @@ Prep: 10 min · Cook: 12 min · Serves: 8
 - The bread: French baguette, Italian loaf, or ciabatta all work. Use day-old bread for extra crunch.
 - Garlic options: Roasted garlic for a milder, sweeter flavor. Raw for more punch.
 - Cheesy version: Add mozzarella on top for the last 3 minutes of baking.
-- Make ahead: Prepare garlic butter up to 1 week ahead. Refrigerate.
+- Make ahead: garlic butter keeps up to 4 days refrigerated, or 3 months frozen.
 - Freezer friendly: Spread butter on bread and freeze. Bake from frozen, adding a few minutes.
 
 Source: Adapted from RecipeTin Eats
@@ -3371,16 +3374,16 @@ Serves: 12-15
 ## Steps
 
 1. Place ham cut-side down in roasting pan.
-2. Cover tightly with foil. Bake at 250°F until 100°F internal, about 1.5-2 hours.
+2. Cover tightly with foil. Bake at 250°F until 120°F internal, about 2-2½ hours.
 3. Mix glaze ingredients.
 4. Remove foil. Increase oven to 350°F.
 5. Brush with half the glaze. Bake 15 minutes.
-6. Brush with remaining glaze. Bake until 120°F and caramelized, 15-20 minutes.
+6. Brush with remaining glaze. Bake until 140°F internal and caramelized, 20-30 minutes.
 7. Rest 15 minutes.
 
 ## Notes
 
-- Spiral ham is already cooked - just heating and glazing.
+- Spiral ham is already cooked: you are heating and glazing. Heat to 140°F if it was packaged fully cooked in a USDA-inspected plant (check the label), 165°F if not.
 - Cut-side down keeps meat moist.
 
 Source: Adapted from America's Test Kitchen
@@ -3643,11 +3646,11 @@ Prep: 5 min · Cook: 10 min · Makes: 1 cup
 
 1. Whisk egg yolks and lemon juice in a heatproof bowl until slightly thickened.
 2. Set bowl over a pot of barely simmering water (don't let bowl touch water).
-3. Whisk constantly until yolks are warm and slightly thickened, about 2 minutes.
+3. Whisk constantly 3-5 minutes until the yolks are thick, leave ribbons and reach 160°F. Lift the bowl off the steam if it starts to scramble.
 4. Remove from heat. Very slowly drizzle in hot melted butter, whisking constantly.
 5. Add butter drop by drop at first, then in a thin stream as sauce emulsifies.
 6. Whisk in cayenne and salt. Add warm water if too thick.
-7. Serve immediately or keep warm over barely simmering water up to 30 minutes.
+7. Serve immediately, or keep warm over barely simmering water up to 30 minutes.
 
 ## Notes
 
@@ -3656,6 +3659,7 @@ Prep: 5 min · Cook: 10 min · Makes: 1 cup
 - Broken sauce fix: Whisk a fresh yolk in a clean bowl, slowly whisk in the broken sauce.
 - Blender method: Blend yolks and lemon juice, then slowly stream in hot butter with blender running.
 - Don't hold too long: Best served immediately. It doesn't reheat well.
+- Food safety: for the blender method the yolks are only warmed by the butter. Use pasteurized eggs for anyone young, older, pregnant or immunocompromised.
 
 Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/hollandaise/
@@ -3724,7 +3728,7 @@ Prep: 10 min · Cook: 25 min · Serves: 4
 4. Reduce heat to medium. Add garlic and cook 30 seconds until fragrant.
 5. Whisk in honey, soy sauce, rice vinegar, and sriracha (if using). Bring to a simmer.
 6. Return chicken to the skillet, skin-side up. Spoon sauce over the chicken.
-7. Transfer to oven. Bake 15-18 minutes until chicken reaches 165°F, basting with sauce halfway through.
+7. Transfer to oven. Bake 15-18 minutes until the thighs reach 175°F (never under 165°F), basting with sauce halfway through.
 8. Let rest 5 minutes. Garnish with sesame seeds and green onions. Serve with rice.
 
 ## Notes
@@ -3765,13 +3769,60 @@ Prep: 5 min · Cook: 10 min · Makes: 1 cup
 ## Notes
 
 - Heat levels: Start with 2 Tbsp hot sauce and add more to taste. You can always add heat, can't take it away.
-- Fresno or serrano: For a fresher kick, slice 1-2 fresh chilis and simmer them in the honey instead of hot sauce.
+- Fresno or serrano: for a fresher kick, slice 1-2 fresh chilis and simmer them in the honey instead of hot sauce. Strain them out, refrigerate this version, and use within 2 weeks. Fresh chilis in honey are not safe at room temperature.
 - Best on: Pizza (especially pepperoni), fried chicken, biscuits, bacon, cheese boards, vanilla ice cream.
 - Vinegar: Adds depth and cuts the sweetness. Don't skip it.
 - No-cook version: Just whisk ingredients together without heating. Flavor won't meld as well but works in a pinch.
 
 Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/hot-honey/
+
+---
+
+# Jorgen's Curry Chicken & Asparagus Bake
+
+Smash it, curry it, cheese it, bake it. Over rice.
+
+Prep: 15 min · Cook: 20 min · Serves: 4
+
+## Ingredients
+
+- 2 large boneless skinless chicken breasts, about 1 1/2 lb (680g)
+- 1 Tbsp curry powder
+- 1 tsp Diamond Crystal kosher salt (1/2 tsp table salt), plus a pinch for the asparagus
+- 1/2 tsp garlic powder
+- 1/2 tsp black pepper
+- 2 Tbsp olive oil or melted butter, divided
+- 1 lb (450g) asparagus, woody ends snapped off
+- 1 1/2 cups (170g) shredded cheese (mozzarella, Monterey Jack or cheddar)
+- 1 cup (185g) long-grain white rice, uncooked
+- 2 cups (475ml) water, for the rice
+
+## Steps
+
+1. Heat the oven to 400°F (200°C). Grease a 9x13-inch baking dish with a little of the oil.
+2. Start the rice: bring rice, 2 cups water and a pinch of salt to a boil, cover, drop to low and cook 18 minutes. Off heat, leave covered until the chicken is done.
+3. Cut each breast in half crosswise. Put the pieces between two sheets of plastic wrap and smash with a meat mallet or heavy pan to an even 1/2 inch thick.
+4. Mix curry powder, salt, garlic powder and pepper. Rub the chicken with 1 Tbsp oil, then the spice mix, both sides.
+5. Toss asparagus in the dish with the remaining oil and a pinch of salt and spread it out. Lay the chicken on top in a single layer.
+6. Bake 15 minutes. Pull the dish, scatter cheese over the chicken, and bake 5 minutes more, until the cheese is melted and the thickest piece reads 165°F (74°C).
+7. Rest 5 minutes. Fluff the rice, then serve the chicken and asparagus over it with a spoonful of the pan juices.
+
+## Notes
+
+- Smashing is the point: even thickness means the thin end doesn't dry out before the thick end is done.
+- Curry powders differ a lot in heat. Madras is hot, most supermarket blends are mild. Taste yours before the rub.
+- Pencil-thin asparagus can go soft by the end; lay it around the chicken instead of under it, or add it at the cheese step.
+
+## When it goes wrong
+
+- Dry chicken → not smashed evenly, or baked past 165°F; pound to one thickness and use a thermometer.
+- Raw-tasting, gritty curry → powder sat dry on the meat; rub the oil on first so the spice blooms in the oven.
+- Watery dish → asparagus crowded under the chicken; spread it in one layer, or bake in a larger dish.
+- Cheese browned before the chicken was done → added too early; it goes on for the last 5 minutes only.
+
+Source: Jorgen's family recipe
+Canonical: https://rcpbx.com/recipes/jorgens-curry-chicken-asparagus/
 
 ---
 
@@ -4260,7 +4311,7 @@ Canonical: https://rcpbx.com/recipes/omelette/
 
 Prep tonight, grab and go tomorrow. Breakfast that makes itself.
 
-Prep: 5 min · Cook: 0 min (8 hours soak) · Serves: 1
+Prep: 5 min · Cook: 0 min (plus 4 hr soak) · Serves: 1
 
 ## Ingredients
 
@@ -4324,7 +4375,7 @@ Serves: 4
 
 - Dry skin = crispy skin.
 - Don't move the fish.
-- Medium-rare center (125°F) is ideal.
+- Medium-rare (125°F) is a preference; the USDA safe temperature is 145°F. Cook to 145°F for kids, pregnant, older or immunocompromised guests.
 
 Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/pan-seared-salmon/
@@ -4565,7 +4616,7 @@ Canonical: https://rcpbx.com/recipes/peanut-butter-cookies/
 
 # Penne alla Vodka
 
-Creamy tomato sauce with a kick. The vodka cooks off but the magic stays.
+Creamy tomato sauce with a kick, sharpened by vodka.
 
 Prep: 10 min · Cook: 25 min · Serves: 4
 
@@ -4594,7 +4645,7 @@ Prep: 10 min · Cook: 25 min · Serves: 4
 
 ## Notes
 
-- Why vodka: It releases flavor compounds in the tomatoes that aren't alcohol or water soluble. The alcohol cooks off.
+- Why vodka: it releases flavor compounds in the tomatoes that aren't water soluble. Some alcohol remains after simmering, so skip it for kids or anyone avoiding alcohol.
 - Flambé warning: Add vodka off heat to prevent flare-ups, then return to the burner.
 - San Marzano: These tomatoes are sweeter and less acidic. Worth seeking out.
 - Make it richer: Add 2 Tbsp butter at the end for extra silkiness.
@@ -4739,6 +4790,7 @@ Makes: 2 pizzas
 5. Punch down. Divide in half.
 6. Use immediately or refrigerate up to 3 days.
 7. Let cold dough come to room temp before shaping.
+8. To bake: set a pizza stone, steel or upside-down sheet pan on a rack and heat the oven to its hottest setting (500-550°F) for 45 minutes. Stretch a dough ball, top lightly, and bake 8-12 minutes until the crust is browned and the cheese bubbles.
 
 ## Notes
 
@@ -4920,7 +4972,7 @@ Serves: 8
 
 ## Steps
 
-1. Cover potatoes with salted water. Boil until fork-tender, 15-20 minutes.
+1. Cover potatoes with cold salted water. Boil until a paring knife slides in with little resistance, 25-35 minutes (halve any large ones).
 2. Drain. When cool enough, cut into ¾-inch cubes.
 3. Toss warm potatoes with vinegar and ½ tsp salt.
 4. Let cool to room temperature.
@@ -4932,6 +4984,7 @@ Serves: 8
 
 - Dress potatoes while warm - absorbs more flavor.
 - Yukon Golds hold shape better.
+- Refrigerate within 2 hours of mixing.
 
 Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/potato-salad/
@@ -5085,7 +5138,7 @@ Serves: 10-12
 
 1. Mix all spices for dry rub. Apply generously all over pork.
 2. Place fat-side up in roasting pan. Pour vinegar in bottom.
-3. Cover tightly with foil. Roast at 300°F for 8-10 hours, until 195-205°F and meat shreds easily.
+3. Cover tightly with foil. Roast at 250°F for 8-10 hours, until 195-205°F and the meat shreds easily. Start checking at hour 7.
 4. Rest 30 minutes.
 5. Shred meat, discarding fat and bone. Toss with pan juices and BBQ sauce.
 6. Serve on soft buns with coleslaw.
@@ -5309,8 +5362,8 @@ Prep: 5 min · Cook: 1 hr · Serves: 4
 3. Truss the legs: tie them together with kitchen twine. Tuck wing tips under the body.
 4. Season generously with salt and pepper from about 1 foot above the bird (for even coverage). Season inside the cavity too.
 5. Place chicken breast-side up in cast iron skillet or roasting pan. No rack needed.
-6. Roast 50-60 minutes. DO NOT BASTE. Do not open the oven door. Basting creates steam and prevents crispy skin.
-7. Chicken is done when thigh reaches 165°F (or when juices run clear when thigh is pierced).
+6. Roast 50-60 minutes. DO NOT BASTE. Keep the door shut until 45 minutes, then check the temperature quickly. Basting creates steam and prevents crispy skin.
+7. Chicken is done when the thickest part of the thigh reads at least 165°F (175°F is better for dark meat). Juice color is not a reliable test.
 8. Rest 15 minutes before carving. The juices need to redistribute.
 
 ## Notes
@@ -5323,6 +5376,67 @@ Prep: 5 min · Cook: 1 hr · Serves: 4
 
 Source: Thomas Keller's method from Bouchon
 Canonical: https://rcpbx.com/recipes/roast-chicken/
+
+---
+
+# Dry-Brined Roast Turkey
+
+Salt it two days early. Roast it upside down first. Done.
+
+Prep: 20 min (plus 2 days dry brine) · Cook: 1 hr 45 min (plus 30 min rest) · Serves: 10-12
+
+## Ingredients
+
+**Turkey:**
+- 1 whole turkey, about 10 lb (4.5-5 kg), fully thawed, not pre-brined
+**Dry brine:**
+- 2 1/2 Tbsp kosher salt (about 1 Tbsp per 4 lb of turkey)
+- 2 tsp dried thyme
+- 1 tsp paprika
+- 1 tsp garlic powder
+- 1/2 tsp black pepper
+**Roasting:**
+- 1 onion, halved
+- 2 heads garlic, halved crosswise
+- 1 bunch fresh herbs (sage, rosemary, thyme)
+- 10 Tbsp (150g) unsalted butter, melted, divided
+- 1 Tbsp finely chopped sage, rosemary and thyme
+- 3 cloves garlic, minced
+- 1 1/2 cups (355ml) dry white wine or water
+**Gravy:**
+- 5 Tbsp all-purpose flour
+- 4 cups (950ml) low-sodium chicken broth
+- Salt and pepper, to taste
+
+## Steps
+
+1. Two days ahead: pull the neck and giblets, pat the turkey dry inside and out. Mix the dry-brine spices and rub them over the outside, inside the cavity and under the breast skin, most of it on the breast. Wrap tightly or seal in a large bag and refrigerate breast-side down. Flip it breast-side up after 24 hours.
+2. Roasting day: unwrap, pat the skin dry, and let the turkey sit out 30 minutes. Heat the oven to 425°F (220°C).
+3. Put the halved onion and 2 of the garlic halves in a roasting pan and set a rack over them. Put the herb bunch, the remaining garlic halves and 3 Tbsp of the butter in the cavity.
+4. Set the turkey breast-side down on the rack, brush with some of the melted butter, and pour the wine or water into the pan. Roast 30 minutes.
+5. Flip the turkey breast-side up (paper towels in each hand), brush with butter, and lower the oven to 325°F (165°C). Roast 45 minutes.
+6. Stir the chopped herbs and minced garlic into the remaining butter and brush it all over. Roast about 30 minutes more, until the thickest part of the breast reads 165°F (74°C) and the thigh 175°F (80°C). Tent with foil if the skin browns too fast.
+7. Move the turkey to a board, tent loosely with foil, and rest 30 minutes.
+8. Gravy: set the roasting pan over medium-high heat, whisk the flour into the drippings and cook 2 minutes. Whisk in the broth, mash the onion and garlic into it, scrape up the browned bits, and simmer 3-5 minutes until thick. Strain, pressing on the solids, and season with salt and pepper.
+
+## Notes
+
+- Bigger or smaller bird: use 1 Tbsp kosher salt per 4 lb, and plan on about 12 minutes per pound of roasting. Trust the thermometer, not the clock.
+- Thaw in the fridge: about 1 day per 3-4 lb. A frozen 10 lb turkey needs about 3 days before the 2-day brine starts, so it goes in the fridge the Saturday before Thanksgiving.
+- Rub can go on a partly thawed turkey; it will keep thawing in the fridge.
+- Don't stuff the cavity with bread stuffing: the stuffing has to reach 165°F, and by then the breast is overcooked. Bake it in a dish instead.
+- Using fine table salt instead of kosher: take 1/4 tsp off for every tablespoon.
+
+## When it goes wrong
+
+- Dry breast → roasted past 165°F; start checking 20 minutes early and pull it on the number.
+- Soggy skin → skin was wet going in, or the bird was covered; pat dry, and leave it uncovered in the fridge the last 12 hours.
+- Too salty → used table salt at the kosher amount, or a pre-brined ('enhanced', 'kosher', 'self-basting') turkey; those need no brine at all.
+- Pink near the bone at temperature → normal in brined turkey; if the thigh reads 175°F it's done.
+- Lumpy gravy → broth went in all at once; whisk hard, or strain.
+
+Source: Adapted from RecipeTin Eats
+Canonical: https://rcpbx.com/recipes/roast-turkey/
 
 ---
 
@@ -5344,10 +5458,10 @@ Serves: 4-6
 
 1. Preheat oven to 425°F.
 2. Cut vegetables into similar sizes.
-3. Toss with oil, garlic, herbs, salt, pepper.
+3. Toss with oil, herbs, salt and pepper (garlic goes in later).
 4. Spread in single layer on baking sheet. Don't crowd.
 5. Roast 20 minutes. Stir.
-6. Continue roasting until browned and tender, 15-25 more minutes.
+6. Continue roasting until browned and tender, 15-25 more minutes, adding the garlic for the last 5 minutes.
 
 ## Notes
 
@@ -5599,12 +5713,12 @@ Serves: 6-8
 3. Cook vegetables in remaining butter until soft, 8 minutes.
 4. Add garlic and tomato paste, cook 1 minute.
 5. Return beef. Add broth, peas, Worcestershire, thyme. Simmer 10 minutes. Season.
-6. Spread mashed potatoes over filling. Rough up surface with fork.
+6. Transfer the filling to a 9x13 dish (or leave it in an oven-safe skillet). Spread mashed potatoes over the filling and rough up the surface with a fork.
 7. Broil until golden, 5-10 minutes.
 
 ## Notes
 
-- 'Shepherd's pie' uses lamb; 'cottage pie' uses beef.
+- Made with beef this is technically cottage pie; use ground lamb for a traditional shepherd's pie.
 - Roughing up potatoes creates crispy peaks.
 
 Source: Adapted from Serious Eats
@@ -5660,7 +5774,7 @@ Serves: 4
 ## Ingredients
 
 - 1½ lbs shell-on jumbo shrimp
-- 3 tbsp salt + 2 tbsp sugar (for brine)
+- 3 tbsp Diamond Crystal kosher salt (or 1½ tbsp table salt) + 2 tbsp sugar (for brine)
 - 2 tbsp olive oil
 - 1 cup dry white wine
 - 4 sprigs fresh thyme
@@ -5677,7 +5791,7 @@ Serves: 4
 2. Cook shells in 1 tbsp oil until spotty brown. Add wine and thyme, simmer 5 minutes. Strain, reserve liquid.
 3. Mix lemon juice and cornstarch.
 4. Cook garlic and pepper flakes in oil over medium-low until golden, 3-5 minutes.
-5. Add wine mixture, simmer. Add shrimp, cover, cook 5-7 minutes.
+5. Add wine mixture, simmer. Add shrimp, cover, and cook 3-4 minutes until just opaque.
 6. Transfer shrimp. Add lemon-cornstarch mixture, cook until thickened.
 7. Off heat, whisk in butter and parsley. Return shrimp, toss.
 
@@ -5710,6 +5824,7 @@ Serves: 6
 - 1 tbsp Worcestershire
 - 1 tbsp yellow mustard
 - 1 tsp chili powder
+- 1 tbsp apple cider vinegar
 - ½ cup water
 - Hamburger buns
 
@@ -5719,7 +5834,7 @@ Serves: 6
 2. Add beef, break into small pieces. Brown 8 minutes. Drain fat.
 3. Add garlic, 30 seconds.
 4. Stir in ketchup, sugar, Worcestershire, mustard, chili powder, water.
-5. Simmer until thick, 10-15 minutes. Season to taste.
+5. Simmer until thick, 10-15 minutes. Stir in the vinegar, then season to taste.
 6. Toast buns. Pile on the sloppy joe.
 
 ## Notes
@@ -5758,7 +5873,7 @@ Prep: 5 min · Cook: 10 min · Serves: 4
 5. Cook 2 minutes until edges are brown and crispy. Flip.
 6. Immediately add cheese slice. Cook 1 more minute.
 7. Stack 2 patties per burger.
-8. Toast buns in the beef fat on the same pan. Assemble and serve immediately.
+8. Butter the cut sides of the buns and toast them in the beef fat on the same pan until golden. Assemble and serve immediately.
 
 ## Notes
 
@@ -5891,6 +6006,63 @@ Canonical: https://rcpbx.com/recipes/split-pea-soup/
 
 ---
 
+# Stuffed Pepper Soup
+
+Every part of a stuffed pepper, none of the stuffing.
+
+Prep: 15 min · Cook: 40 min · Serves: 6
+
+## Ingredients
+
+- 1 Tbsp olive oil
+- 1 lb (450g) ground beef, 85/15
+- 1 large yellow onion, diced
+- 3 bell peppers (any mix of green, red, yellow), diced, about 3 cups
+- 1 1/2 tsp Diamond Crystal kosher salt (3/4 tsp table salt), divided, plus more to taste
+- 3 cloves garlic, minced
+- 2 Tbsp tomato paste
+- 1 tsp dried oregano
+- 1 tsp smoked paprika
+- 1/2 tsp black pepper
+- 1 can (14.5 oz / 411g) diced tomatoes, with juice
+- 1 can (15 oz / 425g) tomato sauce
+- 4 cups (950ml) beef broth
+- 1 Tbsp Worcestershire sauce
+- 1 tsp brown sugar
+- 3/4 cup (140g) long-grain white rice, uncooked
+- 1 1/2 cups (355ml) water, for the rice
+- 1 cup (100g) shredded cheddar or mozzarella, for topping
+- Chopped parsley, for topping
+
+## Steps
+
+1. Heat oil in a large Dutch oven over medium-high. Add beef and break it up; cook 6-8 minutes, without stirring constantly, until no pink remains and the bottom of the pot has browned bits. Spoon off all but about 1 Tbsp of fat.
+2. Add onion, peppers and 1 tsp of the salt. Cook 6-8 minutes, stirring now and then, until the onion is soft and the peppers have lost their raw crunch.
+3. Add garlic, tomato paste, oregano, paprika and pepper. Stir 1 minute until the paste darkens to brick red.
+4. Pour in diced tomatoes, tomato sauce, broth, Worcestershire and brown sugar. Scrape the bottom of the pot clean. Bring to a boil, then lower to a gentle simmer, partly covered, 20 minutes until the peppers are fully tender.
+5. While the soup simmers, cook the rice: bring rice, 1 1/2 cups water and the remaining 1/2 tsp salt to a boil in a small saucepan, cover, drop to low and cook 18 minutes. Off heat, leave covered 5 minutes, then fluff.
+6. Taste the soup and adjust salt. A splash of broth thins it if it got too thick.
+7. Spoon rice into bowls, ladle soup over, top with cheese and parsley.
+
+## Notes
+
+- Rice stays separate on purpose. Cooked in the pot, it keeps drinking broth in the fridge and day-two soup turns into a casserole.
+- Want it all in one pot anyway: stir the raw rice in at the start of the 20-minute simmer with 1 extra cup of broth, and simmer until the rice is tender. Eat it the same day.
+- Freezes well without the rice, up to 3 months. Cook fresh rice when you reheat.
+- Green peppers taste most like the classic stuffed pepper; red and yellow make it sweeter.
+
+## When it goes wrong
+
+- Tastes flat → under-salted or under-browned beef; salt to taste and let the beef really brown before the vegetables go in.
+- Too sharp or acidic → tomatoes vary; add brown sugar 1/2 tsp at a time.
+- Greasy surface → fat not drained after browning; skim with a wide spoon or lay a paper towel on the surface for a second.
+- Thick and stodgy leftovers → rice was stored in the soup; thin with broth when reheating, and store rice separately next time.
+
+Source: rcpbx kitchen draft (classic diner-style)
+Canonical: https://rcpbx.com/recipes/stuffed-pepper-soup/
+
+---
+
 # Stuffed Shells
 
 Ricotta-filled pasta in marinara
@@ -5944,7 +6116,7 @@ Serves: 10-12
 - 3 cloves garlic, minced
 - 1 tbsp fresh sage, chopped
 - 1 tbsp fresh thyme
-- 2 cups chicken broth
+- 3 cups chicken broth
 - 2 eggs, beaten
 - Salt and pepper
 
@@ -5956,7 +6128,7 @@ Serves: 10-12
 4. Add garlic, sage, thyme. Cook 1 minute. Season.
 5. Combine bread, vegetables, broth, eggs. Toss well.
 6. Transfer to dish. Cover with foil.
-7. Bake 30 minutes covered. Uncover, bake 20 more minutes until golden.
+7. Bake 30 minutes covered. Uncover, bake 20 more minutes until golden and the center reads 165°F.
 
 ## Notes
 
@@ -6057,7 +6229,7 @@ Canonical: https://rcpbx.com/recipes/swedish-meatballs/
 
 Is it a side dish or dessert? Yes. The Thanksgiving essential.
 
-Prep: 20 min · Cook: 45 min · Serves: 10
+Prep: 20 min · Cook: 1 hr 30 min · Serves: 10
 
 ## Ingredients
 
@@ -6484,7 +6656,7 @@ _Tested 2026-07. Two-second dunks and an overnight chill are the whole game - lo
 - Pinch of fine salt
 - 3/4 cup (180ml) strong brewed coffee or espresso, cooled
 - 1 tsp cocoa powder plus more for dusting
-- 28-32 Biscoff cookies (about 1 1/2 packs) or 18 ladyfingers
+- 28-32 Biscoff cookies (about one 8.8 oz pack) or 18 ladyfingers
 - Dark chocolate, for grating (optional)
 
 ## Steps

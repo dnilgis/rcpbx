@@ -13,7 +13,7 @@ Serves: 10-12
 - 3 cloves garlic, minced
 - 1 tbsp fresh sage, chopped
 - 1 tbsp fresh thyme
-- 2 cups chicken broth
+- 3 cups chicken broth
 - 2 eggs, beaten
 - Salt and pepper
 
@@ -25,7 +25,7 @@ Serves: 10-12
 4. Add garlic, sage, thyme. Cook 1 minute. Season.
 5. Combine bread, vegetables, broth, eggs. Toss well.
 6. Transfer to dish. Cover with foil.
-7. Bake 30 minutes covered. Uncover, bake 20 more minutes until golden.
+7. Bake 30 minutes covered. Uncover, bake 20 more minutes until golden and the center reads 165°F.
 
 ## Notes
 

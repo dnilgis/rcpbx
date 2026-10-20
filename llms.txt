@@ -1,6 +1,6 @@
 # rcpbx — the recipe box
 
-> 164 tested recipes with no ads, no life stories, no popups. Every recipe is ingredients,
+> 167 recipes (19 tested by rcpbx so far; every other page says plainly that it is adapted or untested) with no ads, no life stories, no popups. Every recipe is ingredients,
 > steps, notes, and troubleshooting — nothing else. All data is open JSON.
 
 - Canonical site: https://rcpbx.com
@@ -11,31 +11,29 @@
 
 ## Recipes by category
 
-### Baking
+### Baking & Desserts
 - [Apple Pie](https://rcpbx.com/recipes/apple-pie/): Flaky crust, spiced fruit filling
 - [Banana Bread](https://rcpbx.com/recipes/banana-bread/): Moist, tender, loaded with banana flavor. Use those overripe bananas.
+- [Black Sesame Cookies](https://rcpbx.com/recipes/black-sesame-cookies/): Chewy sugar cookies with the flavor of the year.
 - [Blueberry Muffins](https://rcpbx.com/recipes/blueberry-muffins/): Tender, bursting with berries
 - [Carrot Cake](https://rcpbx.com/recipes/carrot-cake/): Moist, spiced, cream cheese frosted
+- [Chickpea Cookie Dough](https://rcpbx.com/recipes/chickpea-cookie-dough/): Edible cookie dough with a can of chickpeas hiding in it.
 - [Chocolate Cake](https://rcpbx.com/recipes/chocolate-cake/): Rich, moist, deeply chocolatey
 - [Chocolate Chip Cookies](https://rcpbx.com/recipes/chocolate-chip-cookies/): Brown butter, toffee notes, crispy edges, chewy center.
-- [Fudgy Brownies](https://rcpbx.com/recipes/brownies/): Shiny crackly top, fudgy center, chewy edges.
-- [New York Cheesecake](https://rcpbx.com/recipes/cheesecake/): Dense, creamy, classic
-- [Peach Cobbler](https://rcpbx.com/recipes/peach-cobbler/): Juicy fruit, biscuit topping
-- [Pie Crust](https://rcpbx.com/recipes/pie-crust/): Flaky, buttery, foolproof
-- [Pound Cake](https://rcpbx.com/recipes/pound-cake/): Dense, buttery, versatile
-- [Pumpkin Pie](https://rcpbx.com/recipes/pumpkin-pie/): Spiced, custardy, Thanksgiving essential
-- [Sugar Cookies](https://rcpbx.com/recipes/sugar-cookies/): Crisp edges, soft center, perfect for decorating
-
-### Baking & Desserts
-- [Black Sesame Cookies](https://rcpbx.com/recipes/black-sesame-cookies/): Chewy sugar cookies with the flavor of the year.
-- [Chickpea Cookie Dough](https://rcpbx.com/recipes/chickpea-cookie-dough/): Edible cookie dough with 6g of fiber hiding in it.
 - [Dubai Chocolate Bar](https://rcpbx.com/recipes/dubai-chocolate-bar/): The viral pistachio-kunafa chocolate, made with the right filling.
 - [Frozen Yogurt Clusters](https://rcpbx.com/recipes/frozen-yogurt-clusters/): Chocolate-shelled frozen yogurt bites. The freezer snack of the summer.
+- [Fudgy Brownies](https://rcpbx.com/recipes/brownies/): Shiny crackly top, fudgy center, chewy edges.
 - [Lemon Bars](https://rcpbx.com/recipes/lemon-bars/): Buttery shortbread crust, tangy lemon filling, powdered sugar snow. Perfect.
+- [New York Cheesecake](https://rcpbx.com/recipes/cheesecake/): Dense, creamy, classic
+- [Peach Cobbler](https://rcpbx.com/recipes/peach-cobbler/): Juicy fruit, biscuit topping
 - [Peanut Butter Cookies](https://rcpbx.com/recipes/peanut-butter-cookies/): Three ingredients. No flour. Impossibly good.
+- [Pie Crust](https://rcpbx.com/recipes/pie-crust/): Flaky, buttery, foolproof
+- [Pound Cake](https://rcpbx.com/recipes/pound-cake/): Dense, buttery, versatile
 - [Protein Ice Cream](https://rcpbx.com/recipes/protein-ice-cream/): Creami-style pint with protein math that actually checks out.
+- [Pumpkin Pie](https://rcpbx.com/recipes/pumpkin-pie/): Spiced, custardy, Thanksgiving essential
 - [Rice Krispie Treats](https://rcpbx.com/recipes/rice-krispie-treats/): Three ingredients. Ten minutes. Pure nostalgic bliss.
 - [Snickerdoodles](https://rcpbx.com/recipes/snickerdoodles/): Soft, chewy, and rolled in cinnamon sugar. The cookie that hugs you back.
+- [Sugar Cookies](https://rcpbx.com/recipes/sugar-cookies/): Crisp edges, soft center, perfect for decorating
 - [Yogurt Tiramisu](https://rcpbx.com/recipes/yogurt-tiramisu/): The viral Biscoff-yogurt tiramisu. Zero mascarpone, zero regret.
 - [Zucchini Bread](https://rcpbx.com/recipes/zucchini-bread/): Moist, lightly spiced, and the best way to use summer's zucchini overflow.
 
@@ -106,8 +104,10 @@
 - [Chicken Tacos](https://rcpbx.com/recipes/chicken-tacos/): Simple spiced chicken, classic toppings
 - [Chicken Tikka Masala](https://rcpbx.com/recipes/chicken-tikka-masala/): Charred chicken in creamy tomato sauce
 - [Cottage Cheese Taco Shells](https://rcpbx.com/recipes/cottage-cheese-tacos/): The protein taco shell that ate TikTok this summer.
+- [Dry-Brined Roast Turkey](https://rcpbx.com/recipes/roast-turkey/): Salt it two days early. Roast it upside down first. Done.
 - [Grilled Chicken Breast](https://rcpbx.com/recipes/grilled-chicken/): Juicy, not dry. Finally.
 - [Honey Garlic Chicken](https://rcpbx.com/recipes/honey-garlic-chicken/): Sticky, sweet, savory. The sauce caramelizes into something magical.
+- [Jorgen's Curry Chicken & Asparagus Bake](https://rcpbx.com/recipes/jorgens-curry-chicken-asparagus/): Smash it, curry it, cheese it, bake it. Over rice.
 - [Lemon Chicken](https://rcpbx.com/recipes/lemon-chicken/): Bright, zesty, and weeknight easy. The pan sauce is the star.
 - [Marry Me Chicken](https://rcpbx.com/recipes/marry-me-chicken/): Creamy sun-dried tomato sauce so good it allegedly inspires proposals.
 - [Roast Chicken](https://rcpbx.com/recipes/roast-chicken/): The Thomas Keller method. Three ingredients. Perfect every time.
@@ -124,8 +124,7 @@
 - [Chicken Alfredo](https://rcpbx.com/recipes/chicken-alfredo/): Creamy, garlicky, comfort food perfection
 - [Lasagna](https://rcpbx.com/recipes/lasagna/): The crowd-pleaser. Beef and sausage, three cheeses, feeds an army.
 - [Pasta Primavera](https://rcpbx.com/recipes/pasta-primavera/): Fresh vegetables in light cream sauce
-- [Penne alla Vodka](https://rcpbx.com/recipes/penne-alla-vodka/): Creamy tomato sauce with a kick. The vodka cooks off but the magic stays.
-- [Shrimp Scampi](https://rcpbx.com/recipes/shrimp-scampi/): Garlicky, buttery, perfectly cooked shrimp
+- [Penne alla Vodka](https://rcpbx.com/recipes/penne-alla-vodka/): Creamy tomato sauce with a kick, sharpened by vodka.
 - [Spaghetti & Meatballs](https://rcpbx.com/recipes/spaghetti-and-meatballs/): Tender meatballs, quick marinara. Weeknight-friendly.
 - [Spaghetti Aglio e Olio](https://rcpbx.com/recipes/aglio-e-olio/): Five ingredients. Fifteen minutes. Italian perfection.
 - [Spaghetti Carbonara](https://rcpbx.com/recipes/carbonara/): Silky egg sauce, crispy pork, no cream
@@ -153,6 +152,7 @@
 - [Salmon Patties](https://rcpbx.com/recipes/salmon-patties/): Old-fashioned comfort, crispy outside
 - [Salmon Rice Bowl](https://rcpbx.com/recipes/salmon-rice-bowl/): The viral salmon bowl, seared fresh instead of microwaved.
 - [Shrimp Boil](https://rcpbx.com/recipes/shrimp-boil/): One-pot feast, dump on newspaper
+- [Shrimp Scampi](https://rcpbx.com/recipes/shrimp-scampi/): Garlicky, buttery, perfectly cooked shrimp
 - [Tuna Salad](https://rcpbx.com/recipes/tuna-salad/): Classic lunch, perfectly balanced. Not too dry, not too wet.
 
 ### Sides
@@ -194,5 +194,6 @@
 - [Minestrone](https://rcpbx.com/recipes/minestrone/): Hearty Italian vegetable soup
 - [New England Clam Chowder](https://rcpbx.com/recipes/clam-chowder/): Creamy, briny, and loaded with clams and potatoes. The real deal.
 - [Split Pea Soup](https://rcpbx.com/recipes/split-pea-soup/): Thick, smoky, and deeply satisfying
+- [Stuffed Pepper Soup](https://rcpbx.com/recipes/stuffed-pepper-soup/): Every part of a stuffed pepper, none of the stuffing.
 - [Tomato Soup](https://rcpbx.com/recipes/tomato-soup/): Velvety smooth, deeply tomatoey. Grilled cheese's best friend.
 - [White Chicken Chili](https://rcpbx.com/recipes/white-chicken-chili/): Creamy, warming, and lighter than red chili.

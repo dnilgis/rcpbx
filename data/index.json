@@ -36,7 +36,7 @@
     "id": "apple-pie",
     "title": "Apple Pie",
     "tagline": "Flaky crust, spiced fruit filling",
-    "category": "Baking",
+    "category": "Baking & Desserts",
     "categorySlug": "baking-dessert",
     "serves": "8"
   },
@@ -102,7 +102,7 @@
     "id": "banana-bread",
     "title": "Banana Bread",
     "tagline": "Moist, tender, loaded with banana flavor. Use those overripe bananas.",
-    "category": "Baking",
+    "category": "Baking & Desserts",
     "categorySlug": "baking-dessert",
     "prep": "15 min",
     "cook": "1 hr",
@@ -226,7 +226,7 @@
     "id": "blueberry-muffins",
     "title": "Blueberry Muffins",
     "tagline": "Tender, bursting with berries",
-    "category": "Baking",
+    "category": "Baking & Desserts",
     "categorySlug": "baking-dessert",
     "makes": "12"
   },
@@ -266,7 +266,7 @@
     "id": "brownies",
     "title": "Fudgy Brownies",
     "tagline": "Shiny crackly top, fudgy center, chewy edges.",
-    "category": "Baking",
+    "category": "Baking & Desserts",
     "categorySlug": "baking-dessert",
     "prep": "15 min",
     "cook": "25 min",
@@ -362,7 +362,7 @@
     "id": "carrot-cake",
     "title": "Carrot Cake",
     "tagline": "Moist, spiced, cream cheese frosted",
-    "category": "Baking",
+    "category": "Baking & Desserts",
     "categorySlug": "baking-dessert",
     "serves": "12"
   },
@@ -370,7 +370,7 @@
     "id": "cheesecake",
     "title": "New York Cheesecake",
     "tagline": "Dense, creamy, classic",
-    "category": "Baking",
+    "category": "Baking & Desserts",
     "categorySlug": "baking-dessert",
     "serves": "12"
   },
@@ -497,7 +497,7 @@
   {
     "id": "chickpea-cookie-dough",
     "title": "Chickpea Cookie Dough",
-    "tagline": "Edible cookie dough with 6g of fiber hiding in it.",
+    "tagline": "Edible cookie dough with a can of chickpeas hiding in it.",
     "category": "Baking & Desserts",
     "categorySlug": "baking-dessert",
     "prep": "10 min",
@@ -530,7 +530,7 @@
     "id": "chocolate-cake",
     "title": "Chocolate Cake",
     "tagline": "Rich, moist, deeply chocolatey",
-    "category": "Baking",
+    "category": "Baking & Desserts",
     "categorySlug": "baking-dessert",
     "serves": "12"
   },
@@ -538,7 +538,7 @@
     "id": "chocolate-chip-cookies",
     "title": "Chocolate Chip Cookies",
     "tagline": "Brown butter, toffee notes, crispy edges, chewy center.",
-    "category": "Baking",
+    "category": "Baking & Desserts",
     "categorySlug": "baking-dessert",
     "prep": "20 min",
     "cook": "12 min",
@@ -856,6 +856,16 @@
     "makes": "1 cup"
   },
   {
+    "id": "jorgens-curry-chicken-asparagus",
+    "title": "Jorgen's Curry Chicken & Asparagus Bake",
+    "tagline": "Smash it, curry it, cheese it, bake it. Over rice.",
+    "category": "Chicken",
+    "categorySlug": "chicken",
+    "prep": "15 min",
+    "cook": "20 min",
+    "serves": "4"
+  },
+  {
     "id": "lasagna",
     "title": "Lasagna",
     "tagline": "The crowd-pleaser. Beef and sausage, three cheeses, feeds an army.",
@@ -977,7 +987,7 @@
     "category": "Breakfast",
     "categorySlug": "breakfast",
     "prep": "5 min",
-    "cook": "0 min (8 hours soak)",
+    "cook": "0 min (plus 4 hr soak)",
     "serves": "1"
   },
   {
@@ -1027,7 +1037,7 @@
     "id": "peach-cobbler",
     "title": "Peach Cobbler",
     "tagline": "Juicy fruit, biscuit topping",
-    "category": "Baking",
+    "category": "Baking & Desserts",
     "categorySlug": "baking-dessert",
     "serves": "8"
   },
@@ -1044,7 +1054,7 @@
   {
     "id": "penne-alla-vodka",
     "title": "Penne alla Vodka",
-    "tagline": "Creamy tomato sauce with a kick. The vodka cooks off but the magic stays.",
+    "tagline": "Creamy tomato sauce with a kick, sharpened by vodka.",
     "category": "Pasta",
     "categorySlug": "pasta",
     "prep": "10 min",
@@ -1073,7 +1083,7 @@
     "id": "pie-crust",
     "title": "Pie Crust",
     "tagline": "Flaky, buttery, foolproof",
-    "category": "Baking",
+    "category": "Baking & Desserts",
     "categorySlug": "baking-dessert",
     "makes": "2 crusts"
   },
@@ -1137,7 +1147,7 @@
     "id": "pound-cake",
     "title": "Pound Cake",
     "tagline": "Dense, buttery, versatile",
-    "category": "Baking",
+    "category": "Baking & Desserts",
     "categorySlug": "baking-dessert",
     "serves": "12"
   },
@@ -1165,7 +1175,7 @@
     "id": "pumpkin-pie",
     "title": "Pumpkin Pie",
     "tagline": "Spiced, custardy, Thanksgiving essential",
-    "category": "Baking",
+    "category": "Baking & Desserts",
     "categorySlug": "baking-dessert",
     "serves": "8"
   },
@@ -1214,6 +1224,16 @@
     "prep": "5 min",
     "cook": "1 hr",
     "serves": "4"
+  },
+  {
+    "id": "roast-turkey",
+    "title": "Dry-Brined Roast Turkey",
+    "tagline": "Salt it two days early. Roast it upside down first. Done.",
+    "category": "Chicken",
+    "categorySlug": "chicken",
+    "prep": "20 min (plus 2 days dry brine)",
+    "cook": "1 hr 45 min (plus 30 min rest)",
+    "serves": "10-12"
   },
   {
     "id": "roasted-vegetables",
@@ -1291,8 +1311,8 @@
     "id": "shrimp-scampi",
     "title": "Shrimp Scampi",
     "tagline": "Garlicky, buttery, perfectly cooked shrimp",
-    "category": "Pasta",
-    "categorySlug": "pasta",
+    "category": "Seafood",
+    "categorySlug": "seafood",
     "serves": "4"
   },
   {
@@ -1342,6 +1362,16 @@
     "serves": "6-8"
   },
   {
+    "id": "stuffed-pepper-soup",
+    "title": "Stuffed Pepper Soup",
+    "tagline": "Every part of a stuffed pepper, none of the stuffing.",
+    "category": "Soups & Stews",
+    "categorySlug": "soups-stews",
+    "prep": "15 min",
+    "cook": "40 min",
+    "serves": "6"
+  },
+  {
     "id": "stuffed-shells",
     "title": "Stuffed Shells",
     "tagline": "Ricotta-filled pasta in marinara",
@@ -1361,7 +1391,7 @@
     "id": "sugar-cookies",
     "title": "Sugar Cookies",
     "tagline": "Crisp edges, soft center, perfect for decorating",
-    "category": "Baking",
+    "category": "Baking & Desserts",
     "categorySlug": "baking-dessert",
     "makes": "24-36"
   },
@@ -1382,7 +1412,7 @@
     "category": "Sides",
     "categorySlug": "sides",
     "prep": "20 min",
-    "cook": "45 min",
+    "cook": "1 hr 30 min",
     "serves": "10"
   },
   {

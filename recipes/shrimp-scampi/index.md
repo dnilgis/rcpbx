@@ -7,7 +7,7 @@ Serves: 4
 ## Ingredients
 
 - 1½ lbs shell-on jumbo shrimp
-- 3 tbsp salt + 2 tbsp sugar (for brine)
+- 3 tbsp Diamond Crystal kosher salt (or 1½ tbsp table salt) + 2 tbsp sugar (for brine)
 - 2 tbsp olive oil
 - 1 cup dry white wine
 - 4 sprigs fresh thyme
@@ -24,7 +24,7 @@ Serves: 4
 2. Cook shells in 1 tbsp oil until spotty brown. Add wine and thyme, simmer 5 minutes. Strain, reserve liquid.
 3. Mix lemon juice and cornstarch.
 4. Cook garlic and pepper flakes in oil over medium-low until golden, 3-5 minutes.
-5. Add wine mixture, simmer. Add shrimp, cover, cook 5-7 minutes.
+5. Add wine mixture, simmer. Add shrimp, cover, and cook 3-4 minutes until just opaque.
 6. Transfer shrimp. Add lemon-cornstarch mixture, cook until thickened.
 7. Off heat, whisk in butter and parsley. Return shrimp, toss.
 

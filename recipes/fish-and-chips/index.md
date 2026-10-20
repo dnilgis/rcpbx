@@ -19,10 +19,10 @@ Serves: 4
 
 1. Cut potatoes into ½-inch fries. Soak in cold water 1 hour.
 2. Heat oil to 325°F. Drain and dry potatoes. Fry 5 minutes until pale. Drain.
-3. Increase oil to 375°F. Fry potatoes again until golden, 3-5 minutes. Season.
+3. Increase oil to 375°F. Fry potatoes again until golden, 3-5 minutes. Season, then hold on a wire rack over a sheet pan in a 200°F oven.
 4. Whisk 1 cup flour, cornstarch, baking powder, 1 tsp salt. Whisk in beer.
 5. Cut fish into strips. Dredge in remaining flour.
-6. Dip in batter. Fry until golden, 4-5 minutes. Drain, season.
+6. Dip in batter. Fry until golden, 4-5 minutes. Drain on the rack, season, and keep in the oven until every batch is done.
 7. Serve with malt vinegar and tartar sauce.
 
 ## Notes

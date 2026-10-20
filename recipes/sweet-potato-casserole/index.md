@@ -2,7 +2,7 @@
 
 Is it a side dish or dessert? Yes. The Thanksgiving essential.
 
-Prep: 20 min · Cook: 45 min · Serves: 10
+Prep: 20 min · Cook: 1 hr 30 min · Serves: 10
 
 ## Ingredients
 

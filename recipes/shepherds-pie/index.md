@@ -27,12 +27,12 @@ Serves: 6-8
 3. Cook vegetables in remaining butter until soft, 8 minutes.
 4. Add garlic and tomato paste, cook 1 minute.
 5. Return beef. Add broth, peas, Worcestershire, thyme. Simmer 10 minutes. Season.
-6. Spread mashed potatoes over filling. Rough up surface with fork.
+6. Transfer the filling to a 9x13 dish (or leave it in an oven-safe skillet). Spread mashed potatoes over the filling and rough up the surface with a fork.
 7. Broil until golden, 5-10 minutes.
 
 ## Notes
 
-- 'Shepherd's pie' uses lamb; 'cottage pie' uses beef.
+- Made with beef this is technically cottage pie; use ground lamb for a traditional shepherd's pie.
 - Roughing up potatoes creates crispy peaks.
 
 Source: Adapted from Serious Eats

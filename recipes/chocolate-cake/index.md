@@ -25,5 +25,5 @@ Serves: 12
 - Hot coffee intensifies chocolate flavor.
 - Batter is very thin - that's correct.
 
-Source: Serious Eats (BraveTart tested)
+Source: Serious Eats
 Canonical: https://rcpbx.com/recipes/chocolate-cake/

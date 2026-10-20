@@ -23,7 +23,7 @@ Prep: 5 min · Cook: 10 min · Serves: 4
 5. Cook 2 minutes until edges are brown and crispy. Flip.
 6. Immediately add cheese slice. Cook 1 more minute.
 7. Stack 2 patties per burger.
-8. Toast buns in the beef fat on the same pan. Assemble and serve immediately.
+8. Butter the cut sides of the buns and toast them in the beef fat on the same pan until golden. Assemble and serve immediately.
 
 ## Notes
 

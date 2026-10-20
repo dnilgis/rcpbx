@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>rcpbx — the recipe box | 164 Recipes That Actually Work</title>
+  <title>rcpbx — the recipe box | 167 Recipes That Actually Work</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' font-family='monospace' fill='%2316a34a'>%3E</text></svg>">
-  <meta name="description" content="164 recipes with no life stories, no ads, no popups. Just the recipe. Cook times, ingredients, clear steps. Chicken parmesan, beef stew, banana bread and more.">
+  <meta name="description" content="167 recipes with no life stories, no ads, no popups. Just the recipe. Cook times, ingredients, clear steps. Chicken parmesan, beef stew, banana bread and more.">
   
   <!-- SEO -->
   <link rel="canonical" href="https://rcpbx.com/">
@@ -86,8 +86,8 @@
       --text-muted: #595959;
       --text-dim: #707070;
       --border: #ddd;
-      --accent: #16a34a;
-      --accent-dim: rgba(22,163,74,0.1);
+      --accent: #15803d;
+      --accent-dim: rgba(21,128,61,0.1);
       --card: #ffffff;
       --font-sans: 'Inter', -apple-system, sans-serif;
       --font-mono: 'JetBrains Mono', 'Courier New', monospace;
@@ -685,6 +685,15 @@
       transform: translateX(-50%) translateY(0);
       opacity: 1;
     }
+
+    .season { margin-top: -0.5rem; }
+    .az { margin: 2rem 0 1.5rem; }
+    .az h2 { font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.75rem; font-weight: 500; }
+    .az h3 { font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); margin: 0.9rem 0 0.3rem; font-weight: 600; }
+    .az ul { list-style: none; columns: 2 12rem; column-gap: 1.5rem; padding: 0; margin: 0; }
+    .az li { break-inside: avoid; padding: 0.2rem 0; font-size: 0.85rem; }
+    .az a { color: var(--text); text-decoration: none; display: inline-block; min-height: 28px; line-height: 28px; }
+    .az a:hover { color: var(--accent); text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -728,28 +737,37 @@
         <a href="weeknight/">weeknight</a>
         <a href="random/">surprise me</a>
       </nav>
+      <!-- SEASON:START -->
+      <nav class="tonight season" aria-label="In season">
+        <span class="t-label">&gt; in season:</span>
+        <a href="thanksgiving/">thanksgiving</a>
+        <a href="recipes/roast-turkey/">turkey</a>
+        <a href="soup-recipes/">soups</a>
+        <a href="recipes/stuffed-pepper-soup/">stuffed pepper soup</a>
+      </nav>
+      <!-- SEASON:END -->
 
       <div class="subscribe">
-        <span class="subscribe-label"><span>&gt;</span> the radar: one tested verdict, every friday. 60 seconds, no essay.</span>
+        <span class="subscribe-label"><span>&gt;</span> the radar: viral recipes, cooked and rated. One email per verdict, 60 seconds, no essay.</span>
         <form action="https://buttondown.com/api/emails/embed-subscribe/rcpbx" method="post" target="_blank">
           <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
           <button type="submit">subscribe</button>
         </form>
       </div>
 
-      <div class="categories" id="categories">
-        <div class="categories-label"><span id="recipeCount">164</span> recipes across 10 categories</div>
+      <div class="categories" id="categories"><!-- CATS:START -->
+        <div class="categories-label"><span id="recipeCount">167</span> recipes across 10 categories</div>
         <a href="soup-recipes/" class="category">
-          <span class="category-name">Soups & Stews</span>
-          <span class="category-count">13 recipes</span>
+          <span class="category-name">Soups &amp; Stews</span>
+          <span class="category-count">14 recipes</span>
         </a>
         <a href="pasta-recipes/" class="category">
           <span class="category-name">Pasta</span>
-          <span class="category-count">16 recipes</span>
+          <span class="category-count">15 recipes</span>
         </a>
         <a href="chicken-recipes/" class="category">
           <span class="category-name">Chicken</span>
-          <span class="category-count">21 recipes</span>
+          <span class="category-count">23 recipes</span>
         </a>
         <a href="beef-recipes/" class="category">
           <span class="category-name">Beef</span>
@@ -761,7 +779,7 @@
         </a>
         <a href="seafood-recipes/" class="category">
           <span class="category-name">Seafood</span>
-          <span class="category-count">11 recipes</span>
+          <span class="category-count">12 recipes</span>
         </a>
         <a href="breakfast-recipes/" class="category">
           <span class="category-name">Breakfast</span>
@@ -772,14 +790,253 @@
           <span class="category-count">25 recipes</span>
         </a>
         <a href="dessert-recipes/" class="category">
-          <span class="category-name">Baking & Desserts</span>
+          <span class="category-name">Baking &amp; Desserts</span>
           <span class="category-count">24 recipes</span>
         </a>
         <a href="basic-recipes/" class="category">
           <span class="category-name">Basics</span>
           <span class="category-count">19 recipes</span>
         </a>
-      </div>
+        <!-- CATS:END --></div>
+
+      <!-- AZ:START -->
+      <section class="az" aria-labelledby="azTitle">
+        <h2 id="azTitle">All 167 recipes, A–Z</h2>
+        <h3>A</h3>
+        <ul>
+          <li><a href="recipes/air-fryer-chicken-thighs/">Air Fryer Chicken Thighs</a></li>
+          <li><a href="recipes/air-fryer-smashed-potatoes/">Air Fryer Smashed Potatoes</a></li>
+          <li><a href="recipes/apple-pie/">Apple Pie</a></li>
+        </ul>
+        <h3>B</h3>
+        <ul>
+          <li><a href="recipes/baby-back-ribs/">Baby Back Ribs</a></li>
+          <li><a href="recipes/baked-beans/">Baked Beans</a></li>
+          <li><a href="recipes/baked-chicken-breast/">Baked Chicken Breast</a></li>
+          <li><a href="recipes/baked-cod/">Baked Cod</a></li>
+          <li><a href="recipes/baked-feta-pasta/">Baked Feta Pasta</a></li>
+          <li><a href="recipes/mac-and-cheese/">Baked Mac &amp; Cheese</a></li>
+          <li><a href="recipes/baked-potato/">Baked Potato</a></li>
+          <li><a href="recipes/baked-ziti/">Baked Ziti</a></li>
+          <li><a href="recipes/banana-bread/">Banana Bread</a></li>
+          <li><a href="recipes/bang-bang-shrimp/">Bang Bang Shrimp</a></li>
+          <li><a href="recipes/vinaigrette/">Basic Vinaigrette</a></li>
+          <li><a href="recipes/pesto/">Basil Pesto</a></li>
+          <li><a href="recipes/bbq-sauce/">BBQ Sauce</a></li>
+          <li><a href="recipes/beef-and-broccoli/">Beef and Broccoli</a></li>
+          <li><a href="recipes/beef-barley-soup/">Beef Barley Soup</a></li>
+          <li><a href="recipes/beef-fajitas/">Beef Fajitas</a></li>
+          <li><a href="recipes/beef-stew/">Beef Stew</a></li>
+          <li><a href="recipes/beef-stroganoff/">Beef Stroganoff</a></li>
+          <li><a href="recipes/birria-tacos/">Birria Tacos</a></li>
+          <li><a href="recipes/biscuits-and-gravy/">Biscuits and Gravy</a></li>
+          <li><a href="recipes/black-sesame-cookies/">Black Sesame Cookies</a></li>
+          <li><a href="recipes/blueberry-muffins/">Blueberry Muffins</a></li>
+          <li><a href="recipes/bolognese/">Bolognese Sauce</a></li>
+          <li><a href="recipes/breakfast-burrito/">Breakfast Burrito</a></li>
+          <li><a href="recipes/breakfast-casserole/">Breakfast Casserole</a></li>
+          <li><a href="recipes/broccoli-cheddar-soup/">Broccoli Cheddar Soup</a></li>
+          <li><a href="recipes/bruschetta/">Bruschetta</a></li>
+          <li><a href="recipes/buffalo-wings/">Buffalo Wings</a></li>
+          <li><a href="recipes/buldak-carbonara/">Buldak Carbonara</a></li>
+          <li><a href="recipes/buttercream-frosting/">Buttercream Frosting</a></li>
+          <li><a href="recipes/biscuits/">Buttermilk Biscuits</a></li>
+          <li><a href="recipes/pancakes/">Buttermilk Pancakes</a></li>
+          <li><a href="recipes/bechamel/">Béchamel</a></li>
+        </ul>
+        <h3>C</h3>
+        <ul>
+          <li><a href="recipes/cacio-e-pepe/">Cacio e Pepe</a></li>
+          <li><a href="recipes/caesar-salad/">Caesar Salad</a></li>
+          <li><a href="recipes/caprese-salad/">Caprese Salad</a></li>
+          <li><a href="recipes/carnitas/">Carnitas</a></li>
+          <li><a href="recipes/carrot-cake/">Carrot Cake</a></li>
+          <li><a href="recipes/chicken-asparagus/">Chicken &amp; Asparagus Skillet</a></li>
+          <li><a href="recipes/chicken-alfredo/">Chicken Alfredo</a></li>
+          <li><a href="recipes/chicken-fried-rice/">Chicken Fried Rice</a></li>
+          <li><a href="recipes/chicken-marsala/">Chicken Marsala</a></li>
+          <li><a href="recipes/chicken-noodle-soup/">Chicken Noodle Soup</a></li>
+          <li><a href="recipes/chicken-parmesan/">Chicken Parmesan</a></li>
+          <li><a href="recipes/chicken-pot-pie/">Chicken Pot Pie</a></li>
+          <li><a href="recipes/chicken-quesadilla/">Chicken Quesadilla</a></li>
+          <li><a href="recipes/chicken-salad/">Chicken Salad</a></li>
+          <li><a href="recipes/chicken-stir-fry/">Chicken Stir Fry</a></li>
+          <li><a href="recipes/chicken-stock/">Chicken Stock</a></li>
+          <li><a href="recipes/chicken-tacos/">Chicken Tacos</a></li>
+          <li><a href="recipes/chicken-tikka-masala/">Chicken Tikka Masala</a></li>
+          <li><a href="recipes/chicken-tortilla-soup/">Chicken Tortilla Soup</a></li>
+          <li><a href="recipes/chickpea-cookie-dough/">Chickpea Cookie Dough</a></li>
+          <li><a href="recipes/chili-by-george/">Chili by George</a></li>
+          <li><a href="recipes/chimichurri/">Chimichurri</a></li>
+          <li><a href="recipes/chocolate-cake/">Chocolate Cake</a></li>
+          <li><a href="recipes/chocolate-chip-cookies/">Chocolate Chip Cookies</a></li>
+          <li><a href="recipes/cinnamon-honey-butter/">Cinnamon Honey Butter</a></li>
+          <li><a href="recipes/cinnamon-rolls/">Cinnamon Rolls</a></li>
+          <li><a href="recipes/coleslaw/">Coleslaw</a></li>
+          <li><a href="recipes/corn-on-the-cob/">Corn on the Cob</a></li>
+          <li><a href="recipes/cottage-cheese-flatbread/">Cottage Cheese Flatbread</a></li>
+          <li><a href="recipes/cottage-cheese-tacos/">Cottage Cheese Taco Shells</a></li>
+          <li><a href="recipes/crab-cakes/">Crab Cakes</a></li>
+          <li><a href="recipes/waffles/">Crispy Waffles</a></li>
+        </ul>
+        <h3>D</h3>
+        <ul>
+          <li><a href="recipes/deviled-eggs/">Deviled Eggs</a></li>
+          <li><a href="recipes/dinner-rolls/">Dinner Rolls</a></li>
+          <li><a href="recipes/roast-turkey/">Dry-Brined Roast Turkey</a></li>
+          <li><a href="recipes/dubai-chocolate-bar/">Dubai Chocolate Bar</a></li>
+        </ul>
+        <h3>E</h3>
+        <ul>
+          <li><a href="recipes/eggs-benedict/">Eggs Benedict</a></li>
+        </ul>
+        <h3>F</h3>
+        <ul>
+          <li><a href="recipes/fish-and-chips/">Fish and Chips</a></li>
+          <li><a href="recipes/fish-tacos/">Fish Tacos</a></li>
+          <li><a href="recipes/omelette/">French Omelette</a></li>
+          <li><a href="recipes/french-onion-soup/">French Onion Soup</a></li>
+          <li><a href="recipes/french-toast/">French Toast</a></li>
+          <li><a href="recipes/lemonade/">Fresh Lemonade</a></li>
+          <li><a href="recipes/salsa/">Fresh Salsa</a></li>
+          <li><a href="recipes/frozen-yogurt-clusters/">Frozen Yogurt Clusters</a></li>
+          <li><a href="recipes/brownies/">Fudgy Brownies</a></li>
+        </ul>
+        <h3>G</h3>
+        <ul>
+          <li><a href="recipes/garlic-bread/">Garlic Bread</a></li>
+          <li><a href="recipes/garlic-butter-shrimp/">Garlic Butter Shrimp</a></li>
+          <li><a href="recipes/glazed-ham/">Glazed Ham</a></li>
+          <li><a href="recipes/gravy/">Gravy</a></li>
+          <li><a href="recipes/greek-salad/">Greek Salad</a></li>
+          <li><a href="recipes/green-bean-casserole/">Green Bean Casserole</a></li>
+          <li><a href="recipes/grilled-chicken/">Grilled Chicken Breast</a></li>
+          <li><a href="recipes/beef-tacos/">Ground Beef Tacos</a></li>
+          <li><a href="recipes/guacamole/">Guacamole</a></li>
+        </ul>
+        <h3>H</h3>
+        <ul>
+          <li><a href="recipes/hash-browns/">Hash Browns</a></li>
+          <li><a href="recipes/hollandaise/">Hollandaise Sauce</a></li>
+          <li><a href="recipes/homemade-bread/">Homemade Bread</a></li>
+          <li><a href="recipes/honey-garlic-chicken/">Honey Garlic Chicken</a></li>
+          <li><a href="recipes/hot-honey/">Hot Honey</a></li>
+        </ul>
+        <h3>I</h3>
+        <ul>
+          <li><a href="recipes/pasta-salad/">Italian Pasta Salad</a></li>
+        </ul>
+        <h3>J</h3>
+        <ul>
+          <li><a href="recipes/jorgens-curry-chicken-asparagus/">Jorgen&#x27;s Curry Chicken &amp; Asparagus Bake</a></li>
+        </ul>
+        <h3>L</h3>
+        <ul>
+          <li><a href="recipes/lasagna/">Lasagna</a></li>
+          <li><a href="recipes/lemon-bars/">Lemon Bars</a></li>
+          <li><a href="recipes/lemon-chicken/">Lemon Chicken</a></li>
+          <li><a href="recipes/potato-soup/">Loaded Baked Potato Soup</a></li>
+        </ul>
+        <h3>M</h3>
+        <ul>
+          <li><a href="recipes/macaroni-salad/">Macaroni Salad</a></li>
+          <li><a href="recipes/marinara-sauce/">Marinara Sauce</a></li>
+          <li><a href="recipes/marry-me-chicken/">Marry Me Chicken</a></li>
+          <li><a href="recipes/mashed-potatoes/">Mashed Potatoes</a></li>
+          <li><a href="recipes/meatloaf/">Meatloaf</a></li>
+          <li><a href="recipes/minestrone/">Minestrone</a></li>
+        </ul>
+        <h3>N</h3>
+        <ul>
+          <li><a href="recipes/clam-chowder/">New England Clam Chowder</a></li>
+          <li><a href="recipes/cheesecake/">New York Cheesecake</a></li>
+        </ul>
+        <h3>O</h3>
+        <ul>
+          <li><a href="recipes/overnight-oats/">Overnight Oats</a></li>
+        </ul>
+        <h3>P</h3>
+        <ul>
+          <li><a href="recipes/pork-chops/">Pan-Seared Pork Chops</a></li>
+          <li><a href="recipes/pan-seared-salmon/">Pan-Seared Salmon</a></li>
+          <li><a href="recipes/pan-seared-steak/">Pan-Seared Steak</a></li>
+          <li><a href="recipes/pasta-primavera/">Pasta Primavera</a></li>
+          <li><a href="recipes/peach-cobbler/">Peach Cobbler</a></li>
+          <li><a href="recipes/peanut-butter-cookies/">Peanut Butter Cookies</a></li>
+          <li><a href="recipes/penne-alla-vodka/">Penne alla Vodka</a></li>
+          <li><a href="recipes/philly-cheesesteak/">Philly Cheesesteak</a></li>
+          <li><a href="recipes/pie-crust/">Pie Crust</a></li>
+          <li><a href="recipes/pizza-dough/">Pizza Dough</a></li>
+          <li><a href="recipes/pork-fried-rice/">Pork Fried Rice</a></li>
+          <li><a href="recipes/pot-roast/">Pot Roast</a></li>
+          <li><a href="recipes/potato-salad/">Potato Salad</a></li>
+          <li><a href="recipes/pound-cake/">Pound Cake</a></li>
+          <li><a href="recipes/protein-ice-cream/">Protein Ice Cream</a></li>
+          <li><a href="recipes/pulled-pork/">Pulled Pork</a></li>
+          <li><a href="recipes/pumpkin-pie/">Pumpkin Pie</a></li>
+        </ul>
+        <h3>Q</h3>
+        <ul>
+          <li><a href="recipes/quiche/">Quiche Lorraine</a></li>
+        </ul>
+        <h3>R</h3>
+        <ul>
+          <li><a href="recipes/ranch-dressing/">Ranch Dressing</a></li>
+          <li><a href="recipes/rice-krispie-treats/">Rice Krispie Treats</a></li>
+          <li><a href="recipes/rice-pilaf/">Rice Pilaf</a></li>
+          <li><a href="recipes/roast-chicken/">Roast Chicken</a></li>
+          <li><a href="recipes/pork-tenderloin/">Roasted Pork Tenderloin</a></li>
+          <li><a href="recipes/roasted-vegetables/">Roasted Vegetables</a></li>
+        </ul>
+        <h3>S</h3>
+        <ul>
+          <li><a href="recipes/salmon-patties/">Salmon Patties</a></li>
+          <li><a href="recipes/salmon-rice-bowl/">Salmon Rice Bowl</a></li>
+          <li><a href="recipes/scrambled-eggs/">Scrambled Eggs</a></li>
+          <li><a href="recipes/shakshuka/">Shakshuka</a></li>
+          <li><a href="recipes/shepherds-pie/">Shepherd&#x27;s Pie</a></li>
+          <li><a href="recipes/shrimp-boil/">Shrimp Boil</a></li>
+          <li><a href="recipes/shrimp-scampi/">Shrimp Scampi</a></li>
+          <li><a href="recipes/sloppy-joes/">Sloppy Joes</a></li>
+          <li><a href="recipes/smash-burgers/">Smash Burgers</a></li>
+          <li><a href="recipes/cucumber-salad/">Smashed Cucumber Salad</a></li>
+          <li><a href="recipes/snickerdoodles/">Snickerdoodles</a></li>
+          <li><a href="recipes/cornbread/">Southern Cornbread</a></li>
+          <li><a href="recipes/fried-chicken/">Southern Fried Chicken</a></li>
+          <li><a href="recipes/spaghetti-and-meatballs/">Spaghetti &amp; Meatballs</a></li>
+          <li><a href="recipes/aglio-e-olio/">Spaghetti Aglio e Olio</a></li>
+          <li><a href="recipes/carbonara/">Spaghetti Carbonara</a></li>
+          <li><a href="recipes/split-pea-soup/">Split Pea Soup</a></li>
+          <li><a href="recipes/stuffed-pepper-soup/">Stuffed Pepper Soup</a></li>
+          <li><a href="recipes/stuffed-shells/">Stuffed Shells</a></li>
+          <li><a href="recipes/stuffing/">Stuffing</a></li>
+          <li><a href="recipes/sugar-cookies/">Sugar Cookies</a></li>
+          <li><a href="recipes/swedish-meatballs/">Swedish Meatballs</a></li>
+          <li><a href="recipes/sweet-potato-casserole/">Sweet Potato Casserole</a></li>
+        </ul>
+        <h3>T</h3>
+        <ul>
+          <li><a href="recipes/teriyaki-chicken/">Teriyaki Chicken</a></li>
+          <li><a href="recipes/texas-roadhouse-rolls/">Texas Roadhouse Rolls</a></li>
+          <li><a href="recipes/tomato-soup/">Tomato Soup</a></li>
+          <li><a href="recipes/tuna-noodle-casserole/">Tuna Noodle Casserole</a></li>
+          <li><a href="recipes/tuna-salad/">Tuna Salad</a></li>
+        </ul>
+        <h3>W</h3>
+        <ul>
+          <li><a href="recipes/watermelon-feta-salad/">Watermelon Feta Salad</a></li>
+          <li><a href="recipes/white-chicken-chili/">White Chicken Chili</a></li>
+        </ul>
+        <h3>Y</h3>
+        <ul>
+          <li><a href="recipes/yogurt-tiramisu/">Yogurt Tiramisu</a></li>
+        </ul>
+        <h3>Z</h3>
+        <ul>
+          <li><a href="recipes/zucchini-bread/">Zucchini Bread</a></li>
+        </ul>
+      </section>
+      <!-- AZ:END -->
 
       <div class="contribute-box">
         <p><strong>Got a recipe that works?</strong> Share it with the box.</p>
@@ -839,7 +1096,7 @@
 
   <footer>
     <nav class="footer-nav">
-      <a href="15-minute-meals/">15-minute meals</a><span class="sep">·</span><a href="30-minute-meals/">30-minute meals</a><span class="sep">·</span><a href="under-1-hour/">under 1 hour</a><span class="sep">·</span><a href="no-cook/">no-cook</a><span class="sep">·</span><a href="grilled/">grilled</a><span class="sep">·</span><a href="baked/">baked</a><span class="sep">·</span><a href="easy-recipes/">easy</a><span class="sep">·</span><a href="healthy-recipes/">healthy</a><span class="sep">·</span><a href="weeknight/">weeknight dinners</a><span class="sep">·</span><a href="egg-recipes/">eggs</a><span class="sep">·</span><a href="vegetarian-recipes/">vegetarian</a><span class="sep">·</span>
+      <a href="15-minute-meals/">15-minute meals</a><span class="sep">·</span><a href="30-minute-meals/">30-minute meals</a><span class="sep">·</span><a href="under-1-hour/">under 1 hour</a><span class="sep">·</span><a href="no-cook/">no-cook</a><span class="sep">·</span><a href="grilled/">grilled</a><span class="sep">·</span><a href="baked/">baked</a><span class="sep">·</span><a href="easy-recipes/">easy</a><span class="sep">·</span><a href="healthy-recipes/">healthy</a><span class="sep">·</span><a href="weeknight/">weeknight dinners</a><span class="sep">·</span><a href="egg-recipes/">egg dishes</a><span class="sep">·</span><a href="vegetarian-recipes/">vegetarian</a><span class="sep">·</span><a href="thanksgiving/">thanksgiving</a><span class="sep">·</span><a href="christmas/">christmas</a><span class="sep">·</span>
       <a href="what-to-make-with-chicken-breast/">what to make with chicken breast</a><span class="sep">·</span><a href="what-to-make-with-ground-beef/">ground beef</a><span class="sep">·</span><a href="what-to-make-with-eggs/">eggs</a><span class="sep">·</span><a href="what-to-make-with-potatoes/">potatoes</a><span class="sep">·</span><a href="what-to-make-with-rice/">rice</a><span class="sep">·</span><a href="what-to-make-with-pasta/">pasta</a><span class="sep">·</span>
       <a href="trends/">the radar</a><span class="sep">·</span><a href="skips/">the skip file</a><span class="sep">·</span><a href="why/">how we test</a><span class="sep">·</span><a href="never/">what we refuse</a><span class="sep">·</span><a href="api/">open api</a><span class="sep">·</span><a href="box/">your box</a><span class="sep">·</span><a href="random/">random</a><span class="sep">·</span><a href="about/">about</a><span class="sep">·</span><a href="reference/">kitchen reference</a><span class="sep">·</span><a href="feed.xml">rss</a>
     </nav>
@@ -860,11 +1117,16 @@
     let recipeIndex = [];
     fetch('data/index.json')
       .then(r => r.json())
-      .then(data => { recipeIndex = data; })
+      .then(data => {
+        recipeIndex = data;
+        const q = new URLSearchParams(location.search).get('search');
+        if (q) { searchInput.value = q; searchInput.dispatchEvent(new Event('input')); searchInput.focus(); }
+      })
       .catch(() => {});
     
     document.addEventListener('keydown', (e) => {
-      if (e.key === '/' && document.activeElement !== searchInput) {
+      var tag = (e.target && e.target.tagName) || '';
+      if (e.key === '/' && !/^(INPUT|TEXTAREA|SELECT)$/.test(tag) && !(e.target && e.target.isContentEditable)) {
         e.preventDefault();
         searchInput.focus();
       }

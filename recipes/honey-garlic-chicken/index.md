@@ -25,7 +25,7 @@ Prep: 10 min · Cook: 25 min · Serves: 4
 4. Reduce heat to medium. Add garlic and cook 30 seconds until fragrant.
 5. Whisk in honey, soy sauce, rice vinegar, and sriracha (if using). Bring to a simmer.
 6. Return chicken to the skillet, skin-side up. Spoon sauce over the chicken.
-7. Transfer to oven. Bake 15-18 minutes until chicken reaches 165°F, basting with sauce halfway through.
+7. Transfer to oven. Bake 15-18 minutes until the thighs reach 175°F (never under 165°F), basting with sauce halfway through.
 8. Let rest 5 minutes. Garnish with sesame seeds and green onions. Serve with rice.
 
 ## Notes

@@ -17,10 +17,10 @@ Serves: 8
 
 ## Steps
 
-1. Toss cabbage and carrots.
+1. Toss cabbage and carrots with 1 tsp Diamond Crystal kosher salt. Drain in a colander 30 minutes, then press dry (don't rinse).
 2. Whisk mayo, sugar, vinegar, mustard, celery seed.
 3. Pour over cabbage. Toss to coat.
-4. Season with salt and pepper.
+4. Taste, then season with pepper and more salt if needed.
 5. Refrigerate at least 1 hour.
 6. Toss again before serving.
 

@@ -22,8 +22,8 @@ Prep: 10 min · Cook: 10 min · Serves: 4
 
 1. Toss shredded chicken with chili powder, cumin, garlic powder, and salt.
 2. Heat a large skillet over medium heat. Add 1/2 Tbsp butter.
-3. Place a tortilla in the skillet. Add 1/2 cup cheese to half the tortilla.
-4. Top cheese with 1/4 of the chicken, peppers, and onion. Add more cheese on top.
+3. Place a tortilla in the skillet. Add ¼ cup cheese to half the tortilla.
+4. Top cheese with ¼ of the chicken, peppers and onion, then ¼ cup more cheese.
 5. Fold tortilla in half. Cook 2-3 minutes until bottom is golden.
 6. Flip carefully and cook 2-3 minutes more until both sides are crispy and cheese is melted.
 7. Repeat with remaining ingredients. Cut into triangles and serve with toppings.

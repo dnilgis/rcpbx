@@ -33,7 +33,6 @@ Prep: 10 min · Cook: 20 min · Serves: 4
 
 - Thin asparagus cooks in 2 minutes, thick in 5 - judge by bend, not clock.
 - Lemon juice goes in off the heat; zest can simmer, juice breaks cream if boiled.
-- Got a family version of this? They're all cousins - the searing temps and the off-heat lemon rule carry over to any of them.
 
 ## When it goes wrong
 

@@ -18,7 +18,7 @@ Serves: 8
 
 ## Steps
 
-1. Cover potatoes with salted water. Boil until fork-tender, 15-20 minutes.
+1. Cover potatoes with cold salted water. Boil until a paring knife slides in with little resistance, 25-35 minutes (halve any large ones).
 2. Drain. When cool enough, cut into ¾-inch cubes.
 3. Toss warm potatoes with vinegar and ½ tsp salt.
 4. Let cool to room temperature.
@@ -30,6 +30,7 @@ Serves: 8
 
 - Dress potatoes while warm - absorbs more flavor.
 - Yukon Golds hold shape better.
+- Refrigerate within 2 hours of mixing.
 
 Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/potato-salad/

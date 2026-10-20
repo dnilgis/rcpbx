@@ -20,7 +20,7 @@ Serves: 4
 1. Cook bacon until crisp (or brown chorizo). Chop or crumble.
 2. Beat eggs with salt and pepper.
 3. Melt butter in nonstick skillet over medium-low.
-4. Add eggs. Stir constantly making soft curds. Remove slightly underdone.
+4. Add eggs. Stir constantly making soft curds. Cook until just set and still glossy, with no liquid egg left; they finish in the warm tortilla.
 5. Warm tortillas in dry skillet.
 6. Layer eggs, meat, cheese, avocado, salsa on each tortilla.
 7. Fold sides in, roll tightly.

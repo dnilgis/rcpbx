@@ -15,7 +15,7 @@ Serves: 4
 
 1. Toast pepper in dry skillet until fragrant, 1 minute.
 2. Cook pasta in less water than usual (3 quarts) to concentrate starch. Reserve 2 cups pasta water.
-3. Add 1½ cups pasta water to bowl with Pecorino. Whisk to form paste.
+3. Add ⅓ cup hot pasta water to the bowl with the Pecorino. Whisk to a thick paste.
 4. Drain pasta when very al dente. Add to cheese mixture with pepper.
 5. Toss vigorously, adding pasta water until creamy.
 6. Serve immediately with more Pecorino and pepper.

@@ -22,6 +22,7 @@ Makes: 2 pizzas
 5. Punch down. Divide in half.
 6. Use immediately or refrigerate up to 3 days.
 7. Let cold dough come to room temp before shaping.
+8. To bake: set a pizza stone, steel or upside-down sheet pan on a rack and heat the oven to its hottest setting (500-550°F) for 45 minutes. Stretch a dough ball, top lightly, and bake 8-12 minutes until the crust is browned and the cheese bubbles.
 
 ## Notes
 

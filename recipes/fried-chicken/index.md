@@ -16,7 +16,7 @@ Prep: 30 min · Serves: 4
 2. Mix dredge: Combine flour, cornstarch, paprika, garlic powder, cayenne, salt, and pepper in a wide bowl.
 3. Double dredge: Remove chicken from buttermilk (don't shake off excess). Coat in flour mixture. Dip back in buttermilk. Coat in flour again. Let sit on rack 10 minutes.
 4. Heat oil to 350°F in Dutch oven or deep skillet. Use a thermometer.
-5. Fry in batches (don't crowd): Dark meat 13-15 minutes, breasts 15-18 minutes. Flip halfway. Internal temp should reach 165°F.
+5. Fry in batches (don't crowd), flipping halfway: dark meat 13-15 minutes to 175°F or higher, breasts 15-18 minutes to 165°F.
 6. Drain on wire rack (not paper towels—they make it soggy). Season with pinch of salt immediately.
 
 ## Notes

@@ -28,7 +28,7 @@ Serves: 4
 
 - Dry skin = crispy skin.
 - Don't move the fish.
-- Medium-rare center (125°F) is ideal.
+- Medium-rare (125°F) is a preference; the USDA safe temperature is 145°F. Cook to 145°F for kids, pregnant, older or immunocompromised guests.
 
 Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/pan-seared-salmon/

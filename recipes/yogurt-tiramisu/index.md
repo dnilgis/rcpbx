@@ -16,7 +16,7 @@ _Tested 2026-07. Two-second dunks and an overnight chill are the whole game - lo
 - Pinch of fine salt
 - 3/4 cup (180ml) strong brewed coffee or espresso, cooled
 - 1 tsp cocoa powder plus more for dusting
-- 28-32 Biscoff cookies (about 1 1/2 packs) or 18 ladyfingers
+- 28-32 Biscoff cookies (about one 8.8 oz pack) or 18 ladyfingers
 - Dark chocolate, for grating (optional)
 
 ## Steps

@@ -6,7 +6,8 @@ Serves: 4-6
 
 ## Ingredients
 
-- 2 lbs chicken thighs
+- 2 lbs boneless skinless chicken thighs, cut in 1½-inch chunks
+- 1½ tsp Diamond Crystal kosher salt (¾ tsp table salt), divided
 - 1 cup yogurt
 - 2 tbsp lemon juice
 - 2 tbsp garam masala, divided
@@ -22,11 +23,11 @@ Serves: 4-6
 
 ## Steps
 
-1. Mix yogurt, lemon juice, 1 tbsp garam masala, cumin, paprika. Marinate chicken 1-4 hours.
-2. Broil chicken until charred, 4-5 minutes per side.
+1. Mix yogurt, lemon juice, 1 tbsp garam masala, cumin, paprika and 1 tsp of the salt. Marinate chicken 1-4 hours.
+2. Broil chicken until charred and 165°F inside, 4-5 minutes per side.
 3. Cook onion in oil 8 minutes. Add garlic, ginger, remaining garam masala. Cook 1 minute.
 4. Add tomatoes, simmer 15 minutes. Stir in cream.
-5. Add chicken and juices. Simmer 10 minutes. Garnish with cilantro.
+5. Add chicken and juices. Simmer 10 minutes. Season with the remaining ½ tsp salt, to taste. Garnish with cilantro.
 6. Serve with basmati rice and naan.
 
 ## Notes

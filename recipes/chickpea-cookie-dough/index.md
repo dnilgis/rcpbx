@@ -1,6 +1,6 @@
 # Chickpea Cookie Dough
 
-Edible cookie dough with 6g of fiber hiding in it.
+Edible cookie dough with a can of chickpeas hiding in it.
 
 Prep: 10 min · Cook: 0 min · Makes: about 1 1/2 cups (6 servings)
 
@@ -29,7 +29,7 @@ _Tested 2026-07. Three full minutes in the processor and a hard chill are what s
 
 ## Notes
 
-- The math: a can of chickpeas carries roughly 20g fiber and 20g protein across the batch - about 6g fiber per serving with the peanut butter.
+- A whole can of chickpeas goes in, so the batch carries real fiber and protein. Nobody tastes them.
 - This is dough, not dough-for-baking - no leavening, no egg; it stays dough.
 - Natural peanut butter (just peanuts and salt) keeps it scoopable; the sweetened kind makes it stiff and cloying.
 

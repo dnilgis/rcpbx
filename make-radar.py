@@ -11,6 +11,15 @@ import json, os, html, re
 from pathlib import Path
 
 SITE = "https://rcpbx.com"
+def cadence(date_s):
+    """Say 'updates weekly' only while it is true."""
+    import datetime as _dt
+    try:
+        age = (_dt.date.today() - _dt.date.fromisoformat(date_s[:10])).days
+    except Exception:
+        return "new editions when a test is cooked"
+    return "updates weekly" if age <= 14 else "next edition when the next test is cooked"
+
 def esc(s): return html.escape(str(s), quote=True)
 
 CSS = """
@@ -160,7 +169,7 @@ def board_html(r, frozen=False):
     return f"""    <h1>The Radar</h1>
     <p class="sub">Every viral recipe is a claim. We cook it and file the verdict. The trend gets 15 seconds of fame; the verdict is forever.</p>
     {frozen_note}
-    <p class="edition">edition <span>{esc(r["edition"])}</span> · {esc(r["date"])} · updates weekly</p>
+    <p class="edition">edition <span>{esc(r["edition"])}</span> · {esc(r["date"])} · {cadence(r["date"])}</p>
     <p class="scoreline">{year} scoreboard: <b>{len(tested)}</b> tested · <b>{worth}</b> worth it · <b>{hype}</b> overhyped · <b>{skips}</b> killed → <a href="/skips/" style="color:var(--red);text-decoration:none">the skip file</a></p>
     <div class="legend">
       <span><span style="color:var(--accent)">WORTH IT</span> — tested, published, deserved the hype</span>
@@ -248,8 +257,8 @@ def main():
     r = json.load(open("data/radar.json"))
     ed = r["edition"].lower()
     Path("trends").mkdir(exist_ok=True)
-    live = shell("The Radar — viral recipes, tested weekly | rcpbx",
-                 "Every viral recipe on the internet, cooked in a real kitchen and given a verdict — WORTH IT, OVERHYPED, or SKIP. Updated weekly.",
+    live = shell("The Radar: Viral Recipes, Cooked and Rated | rcpbx",
+                 "Every viral recipe on the internet, cooked in a real kitchen and given a dated verdict: WORTH IT, OVERHYPED, or SKIP.",
                  f"{SITE}/trends/", board_html(r, frozen=False))
     Path("trends/index.html").write_text(live)
     Path(f"trends/{ed}").mkdir(exist_ok=True)

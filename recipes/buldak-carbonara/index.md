@@ -34,6 +34,7 @@ _Tested 2026-07. One sauce packet plus the dairy is the correct default; the ful
 - The heat math: one packet with the dairy lands around 'very spicy but conversational.' Two packets is the full 2x challenge with a cream buffer.
 - Off the heat is the whole technique - carbonara logic applies whether it's guanciale or fire sauce.
 - The buldak 'carbonara' flavor pack is fine, but building it from original + real yolk and parmesan tastes dramatically better.
+- Food safety: the yolks are only warmed by residual heat. Use pasteurized eggs for anyone young, older, pregnant or immunocompromised.
 
 ## When it goes wrong
 

@@ -64,7 +64,7 @@ def main():
     cats = {}
     for e in idx: cats.setdefault(e.get("category","Other"), []).append(e)
     out = ["# rcpbx — the recipe box", "",
-           "> %d tested recipes with no ads, no life stories, no popups. Every recipe is ingredients," % len(idx),
+           "> %d recipes (%d tested by rcpbx so far; every other page says plainly that it is adapted or untested) with no ads, no life stories, no popups. Every recipe is ingredients," % (len(idx), sum(1 for e in idx if e.get("tested"))),
            "> steps, notes, and troubleshooting — nothing else. All data is open JSON.", "",
            "- Canonical site: %s" % SITE,
            "- Every recipe page has a markdown mirror at /recipes/{id}/index.md",

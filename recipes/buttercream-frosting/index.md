@@ -26,7 +26,7 @@ Prep: 10 min · Cook: 0 min · Makes: 3 cups (enough for 24 cupcakes or one 2-la
 - Sift the sugar: Sifting prevents lumps and makes smoother frosting.
 - Chocolate version: Add 1/2 cup unsweetened cocoa powder with the powdered sugar.
 - Cream cheese version: Replace half the butter with room temperature cream cheese.
-- Storage: Room temperature 2-3 days, refrigerated up to 1 week. Bring to room temp and re-whip before using.
+- Storage: plain buttercream keeps 2 days at room temperature, up to 1 week refrigerated. Cream cheese version: always refrigerate, and don't leave it out more than 2 hours. Bring to room temp and re-whip before using.
 
 Source: Adapted from Sally's Baking Addiction
 Canonical: https://rcpbx.com/recipes/buttercream-frosting/

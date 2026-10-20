@@ -17,7 +17,7 @@ Serves: 4-6
 
 ## Steps
 
-1. Cover chicken with salted water. Bring to boil, reduce to simmer. Cook until 160°F, 15-20 minutes.
+1. Cover chicken with salted water. Bring to boil, reduce to simmer. Cook until 165°F, 15-20 minutes.
 2. Cool 10 minutes, then shred or chop.
 3. Whisk mayo, lemon juice, mustard.
 4. Add chicken, celery, parsley, shallot. Toss.

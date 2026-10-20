@@ -20,7 +20,7 @@ Serves: 6
 
 ## Steps
 
-1. Melt butter in Dutch oven over medium heat. Add onions and garlic, cook 25 minutes until caramelized, stirring occasionally.
+1. Melt butter in Dutch oven over medium heat. Add onions and cook 45-60 minutes until deep brown, stirring occasionally; add a splash of water if the bottom starts to scorch. Add the garlic for the last 2 minutes.
 2. Add bay leaves, thyme, and wine. Simmer until wine evaporates, about 5 minutes.
 3. Dust with flour, stir to coat. Cook 2 minutes on medium-low.
 4. Add broth, bring to simmer. Season with salt and pepper. Simmer 20-30 minutes.

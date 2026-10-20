@@ -19,7 +19,7 @@ Serves: 4
 2. Heat oil in oven-safe skillet over medium-high until smoking.
 3. Add chicken, sear without moving until golden, 4-5 minutes.
 4. Flip. Add butter, garlic, thyme.
-5. Transfer to 425°F oven. Roast until 160°F internal, 10-15 minutes.
+5. Transfer to 425°F oven. Roast until 160°F internal, 10-15 minutes; it climbs to 165°F during the rest.
 6. Rest 5 minutes. Spoon pan juices over chicken.
 
 ## Notes

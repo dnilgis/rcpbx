@@ -4,7 +4,7 @@ The viral crunchy, garlicky, spicy cucumber situation.
 
 Prep: 15 min · Cook: 0 min · Serves: 4
 
-**Verdict: WORTH IT** — Five minutes of work for the best thing on the table - the 500M views are deserved.
+**Verdict: WORTH IT** — Five minutes of work for the best thing on the table - the hype is deserved.
 
 _Tested 2026-07. Verified the salt-and-drain step is non-negotiable - skipping it waters the dressing down in minutes._
 

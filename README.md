@@ -1,6 +1,6 @@
 # >rcpbx — the recipe box
 
-**[rcpbx.com](https://rcpbx.com)** · 164 recipes · no ads, no life stories, no popups, no accounts. Just the recipe.
+**[rcpbx.com](https://rcpbx.com)** · 167 recipes · no ads, no life stories, no popups, no accounts. Just the recipe.
 
 Every viral recipe is a claim. **[We cook it and file the verdict.](https://rcpbx.com/trends/)** WORTH IT / OVERHYPED / SKIP — dated, permanent, and occasionally unflattering. The failures get buried in [the SKIP file](https://rcpbx.com/skips/).
 
@@ -11,7 +11,7 @@ Recipe websites have become unbearable: 2,000 words about someone's grandmother,
 ## The open recipe API (no key, no rate limit, CORS open)
 
 ```bash
-curl -s https://rcpbx.com/data/index.json | jq length          # 164
+curl -s https://rcpbx.com/data/index.json | jq length          # 167
 curl -s https://rcpbx.com/data/buldak-carbonara.json | jq .verdict
 curl -s https://rcpbx.com/recipes/caesar-salad/index.md        # markdown mirror
 ```

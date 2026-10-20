@@ -29,6 +29,7 @@ Serves: 4
 - Key: take pan OFF heat before adding eggs.
 - Work fast - pasta must be hot.
 - No cream in real carbonara - ever.
+- Food safety: the yolks are only warmed by residual heat. Use pasteurized eggs for anyone young, older, pregnant or immunocompromised.
 
 Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/carbonara/

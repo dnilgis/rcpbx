@@ -26,6 +26,7 @@ Serves: 4
 - Blender hollandaise is foolproof.
 - Fresh eggs poach better.
 - Hollandaise breaks if too hot.
+- Food safety: blender hollandaise yolks are only warmed by the hot butter. Use pasteurized eggs for anyone young, older, pregnant or immunocompromised.
 
 Source: Adapted from Serious Eats / Kenji López-Alt
 Canonical: https://rcpbx.com/recipes/eggs-benedict/

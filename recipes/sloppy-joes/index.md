@@ -16,6 +16,7 @@ Serves: 6
 - 1 tbsp Worcestershire
 - 1 tbsp yellow mustard
 - 1 tsp chili powder
+- 1 tbsp apple cider vinegar
 - ½ cup water
 - Hamburger buns
 
@@ -25,7 +26,7 @@ Serves: 6
 2. Add beef, break into small pieces. Brown 8 minutes. Drain fat.
 3. Add garlic, 30 seconds.
 4. Stir in ketchup, sugar, Worcestershire, mustard, chili powder, water.
-5. Simmer until thick, 10-15 minutes. Season to taste.
+5. Simmer until thick, 10-15 minutes. Stir in the vinegar, then season to taste.
 6. Toast buns. Pile on the sloppy joe.
 
 ## Notes

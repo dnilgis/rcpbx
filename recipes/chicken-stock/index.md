@@ -22,7 +22,7 @@ Makes: 3-4 quarts
 3. Add vegetables, garlic, and aromatics.
 4. Simmer uncovered 4-6 hours, adding water as needed.
 5. Strain through fine-mesh strainer. Discard solids.
-6. Cool uncovered. Refrigerate.
+6. Cool it fast: set the pot in a sink of ice water, or divide into shallow containers, stirring, to under 70°F within 2 hours and under 40°F within 6. Refrigerate up to 4 days.
 7. Skim solidified fat before using.
 
 ## Notes

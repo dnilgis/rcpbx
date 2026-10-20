@@ -2,7 +2,7 @@
 
 Prep tonight, grab and go tomorrow. Breakfast that makes itself.
 
-Prep: 5 min · Cook: 0 min (8 hours soak) · Serves: 1
+Prep: 5 min · Cook: 0 min (plus 4 hr soak) · Serves: 1
 
 ## Ingredients
 

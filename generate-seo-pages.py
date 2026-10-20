@@ -11,6 +11,7 @@ Fixes from the panel review:
 Run AFTER build.py (build.py enriches data/index.json with times).
 """
 import json, os, re, html
+import rcpbx_time
 from pathlib import Path
 
 SITE = "https://rcpbx.com"
@@ -31,19 +32,18 @@ CAT_HUBS = {
 def esc(s): return html.escape(str(s), quote=True)
 
 def mins(entry):
-    total = 0
-    for f in ("prep","cook"):
-        t = str(entry.get(f,"") or "")
-        m = re.search(r"(\d+)\s*(?:min)", t)
-        h = re.search(r"(\d+)\s*(?:hour|hr)", t)
-        if m: total += int(m.group(1))
-        if h: total += int(h.group(1)) * 60
-    return total if total > 0 else None  # None = unknown, NOT 30
+    """Start-to-plate minutes, or None when unknown or open-ended (overnight, chilling)."""
+    return rcpbx_time.total_minutes(entry)
+
+def trim_words(t, n):
+    t = " ".join(str(t).split())
+    if len(t) <= n: return t
+    return t[:n - 1].rsplit(" ", 1)[0].rstrip(",;:-–—") + "…"
 
 def card(e):
     meta_bits = []
     m = mins(e)
-    if m: meta_bits.append("%d min" % m)
+    if m: meta_bits.append(rcpbx_time.human(m))
     if e.get("makes"): meta_bits.append("makes %s" % e["makes"])
     elif e.get("serves"): meta_bits.append("serves %s" % e["serves"])
     meta = " · ".join(meta_bits)
@@ -113,6 +113,9 @@ PAGE = """<!DOCTYPE html>
     .breadcrumb a:hover { color: var(--accent); }
     h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
     .intro { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.75rem; max-width: 62ch; }
+    .plan { margin: -1rem 0 1.75rem 1.25rem; max-width: 62ch; font-size: 0.92rem; color: var(--text); }
+    .plan li { margin-bottom: 0.5rem; }
+    .plan a, .intro a { color: var(--accent); }
     .count-line { font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-dim); margin-bottom: 1rem; }
     .count-line span { color: var(--accent); }
     .recipe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.75rem; }
@@ -160,8 +163,11 @@ PAGE = """<!DOCTYPE html>
 ALSO_LINKS = [
     ("/15-minute-meals/","15-minute meals"), ("/30-minute-meals/","30-minute meals"),
     ("/weeknight/","weeknight dinners"), ("/no-cook/","no-cook"), ("/easy-recipes/","easy"),
-    ("/chicken-recipes/","chicken"), ("/pasta-recipes/","pasta"), ("/dessert-recipes/","desserts"),
+    ("/chicken-recipes/","chicken"), ("/pasta-recipes/","pasta"), ("/soup-recipes/","soups"),
+    ("/dessert-recipes/","desserts"), ("/thanksgiving/","thanksgiving"), ("/christmas/","christmas"),
 ]
+
+THIN = 6  # fewer recipes than this: page stays up for people, noindex for search
 
 def write_page(slug, h1, meta_title, desc, intro, entries, crumb=None):
     if not entries:
@@ -171,13 +177,15 @@ def write_page(slug, h1, meta_title, desc, intro, entries, crumb=None):
     also = " · ".join('<a href="%s">%s</a>' % (u, t) for u, t in ALSO_LINKS if u != "/%s/" % slug)
     schema = {
         "@context": "https://schema.org", "@type": "CollectionPage",
-        "name": h1, "description": desc[:155], "url": "%s/%s/" % (SITE, slug),
+        "name": h1, "description": trim_words(desc, 155), "url": "%s/%s/" % (SITE, slug),
         "mainEntity": {"@type": "ItemList", "numberOfItems": len(entries),
             "itemListElement": [{"@type": "ListItem", "position": i+1, "name": e["title"],
                 "url": "%s/recipes/%s/" % (SITE, e["id"])} for i, e in enumerate(entries)]},
     }
     page = (PAGE.replace("%%META_TITLE%%", esc(meta_title))
-        .replace("%%DESC%%", esc(desc[:155]))
+        .replace("%%DESC%%", esc(trim_words(desc, 155)))
+        .replace('<meta name="robots" content="index, follow">',
+                 '<meta name="robots" content="%s">' % ("noindex, follow" if len(entries) < THIN else "index, follow"))
         .replace("%%URL%%", "%s/%s/" % (SITE, slug))
         .replace("%%SCHEMA%%", json.dumps(schema, ensure_ascii=False))
         .replace("%%CRUMB%%", esc(crumb or h1.lower()))
@@ -218,7 +226,7 @@ def main():
         intro = ("Every %s recipe on rcpbx — %d of them, one canonical version per dish, "
                  "stripped to ingredients and steps.%s No ads, no life stories, no popups."
                  % (disp.lower(), len(entries), tr))
-        write_page(slug, h1, h1,
+        write_page(slug, h1, "%d %s (No Ads, No Life Stories)" % (len(entries), h1),
                    "%d %s recipes with no ads and no life stories. Ingredients, steps, done." % (len(entries), disp.lower()),
                    intro, entries, crumb=disp.lower())
 
@@ -226,11 +234,13 @@ def main():
     mains = [e for e in idx if e.get("categorySlug") in MAIN_CATS and mins(e)]
     for slug, h1, cap, blurb in [
         ("15-minute-meals", "15-Minute Meals", 15, "Real dinners on the table in a quarter hour — mains only, nothing that's secretly a condiment."),
-        ("30-minute-meals", "30-Minute Meals", 30, "Weeknight-speed mains: everything here is a full dinner with a verified prep+cook time of 30 minutes or less."),
+        ("30-minute-meals", "30-Minute Meals", 30, "Weeknight-speed mains: everything here is a full dinner with a stated prep+cook time of 30 minutes or less."),
         ("under-1-hour", "Dinners Under 1 Hour", 60, "Mains that go from fridge to table inside an hour, timed for real, not rounded down."),
+        ("weeknight", "Weeknight Dinners", 45, "Full dinners for a work night: 45 minutes or less from start to plate, mains only."),
     ]:
         entries = [e for e in mains if mins(e) <= cap]
-        write_page(slug, h1, h1, blurb, blurb + " Only recipes with verified times make this list.", entries)
+        write_page(slug, h1, "%s: %d Dinners, Timed for Real" % (h1, len(entries)), blurb,
+                   blurb + " Only recipes with a stated prep and cook time make this list.", entries)
 
     print("Method pages:")
     for slug, h1, blurb, pat in [
@@ -244,11 +254,19 @@ def main():
             entries = [e for e in idx if full.get(e["id"]) and re.search(pat, text_of(e))]
         write_page(slug, h1, h1, blurb, blurb, entries)
 
+    EGG = re.compile(r"\beggs?\b(?! noodles)|\begg (?:yolks?|whites?)\b")
+    def egg_count(r):
+        n = 0
+        for i in r.get("ingredients", []):
+            il = i.lower()
+            if EGG.search(il) and "eggplant" not in il:
+                m = re.match(r"\s*(\d+)", il); n += int(m.group(1)) if m else 1
+        return n
     print("Ingredient pages:")
     for slug, h1, kws, blurb in [
         ("what-to-make-with-chicken-breast", "What to Make with Chicken Breast", ["chicken breast"], "Got chicken breasts and no plan? These are the tested answers — every one a full recipe, not a listicle."),
         ("what-to-make-with-ground-beef", "What to Make with Ground Beef", ["ground beef"], "A pound of ground beef becomes any of these — tested recipes with real times, no scrolling past someone's childhood."),
-        ("what-to-make-with-eggs", "What to Make with Eggs", ["egg"], "Eggs in the fridge, dinner (or breakfast) on the table. Each link is straight to ingredients and steps."),
+        ("what-to-make-with-eggs", "What to Make with Eggs", ["egg"], "Recipes that use three or more eggs, so a full carton turns into dinner, breakfast or dessert. Each link goes straight to ingredients and steps."),
         ("what-to-make-with-potatoes", "What to Make with Potatoes", ["potato"], "Every direction a potato can go — crispy, mashed, roasted, soup — in tested, no-fluff form."),
         ("what-to-make-with-rice", "What to Make with Rice", ["rice"], "Cooked rice or a bag in the pantry: these recipes turn it into dinner."),
         ("what-to-make-with-pasta", "What to Make with Pasta", ["pasta", "spaghetti", "noodle"], "A box of pasta and one of these pages is a complete plan. Tested, timed, no ads."),
@@ -258,28 +276,31 @@ def main():
             r = full.get(e["id"])
             if not r: continue  # ingredient matching needs the full recipe
             ing = " ".join(r.get("ingredients", [])).lower()
-            if any(k in ing for k in kws): entries.append(e)
-        write_page(slug, h1, h1, blurb, blurb, entries)
+            if kws == ["egg"]:
+                if egg_count(r) >= 3: entries.append(e)
+            elif any(re.search(r"\b" + re.escape(k), ing) for k in kws): entries.append(e)
+        write_page(slug, h1, "%s: %d Recipes" % (h1, len(entries)), blurb, blurb, entries)
 
     print("Diet/skill pages:")
-    MEAT = ["chicken","beef","pork","bacon","sausage","salmon","shrimp","fish","anchov","tuna","turkey","lamb","prosciutto","pancetta","ham","gelatin"]
+    MEAT = re.compile(r"\b(chicken|beef|steak|chuck|brisket|pork|ribs?|bacon|sausage|chorizo|pepperoni|salami|"
+                      r"ham|prosciutto|pancetta|veal|lamb|turkey|duck|salmon|shrimp|prawns?|fish|cod|halibut|"
+                      r"tilapia|anchov\w*|tuna|crab|clams?|lobster|scallops?|oysters?|mussels?|gelatin|lard|"
+                      r"worcestershire|bone)s?\b")
     veg = []
     for e in idx:
         r = full.get(e["id"])
         if not r: continue
         ing = " ".join(r.get("ingredients", [])).lower()
-        if not any(m in ing for m in MEAT): veg.append(e)
+        if not MEAT.search(ing): veg.append(e)
     write_page("vegetarian-recipes", "Vegetarian Recipes", "Vegetarian Recipes",
         "Meat-free recipes checked at the ingredient level, not the vibes level.",
         "Every recipe here is meat-free at the ingredient list level — checked against what's actually in it, not the title.", veg)
 
-    egg_entries = []
-    for e in idx:
-        r = full.get(e["id"])
-        if r and any("egg" in i.lower() for i in r.get("ingredients", [])): egg_entries.append(e)
-    write_page("egg-recipes", "Egg Recipes", "Egg Recipes",
-        "Recipes where eggs do the heavy lifting — breakfast and beyond.",
-        "Everything on this page leans on eggs — from breakfast obvious to dinners you didn't expect.", egg_entries)
+    STAR = re.compile(r"\b(eggs?|omelette|frittata|quiche|benedict|shakshuka|deviled)\b", re.I)
+    egg_entries = [e for e in idx if full.get(e["id"]) and egg_count(full[e["id"]]) and STAR.search(e["title"])]
+    write_page("egg-recipes", "Egg Recipes", "Egg Recipes: %d Dishes Where the Egg Is the Point" % len(egg_entries),
+        "Recipes where the egg is the dish, not a binder: scrambled, deviled, benedict, shakshuka and more.",
+        "Every recipe here is an egg dish first. For recipes that just use up a carton, see <a href=\"/what-to-make-with-eggs/\">what to make with eggs</a>.", egg_entries)
 
     easy = []
     for e in idx:
@@ -301,6 +322,30 @@ def main():
     write_page("healthy-recipes", "Healthy Recipes", "Healthy Recipes",
         "Lighter mains and sides under 45 minutes — defined by ingredients, not marketing.",
         "Lighter recipes chosen by what's actually in them — lean proteins, vegetables, no cream-and-sugar bombs — all under 45 minutes.", healthy)
+
+    print("Holiday pages:")
+    by_id = {e["id"]: e for e in idx}
+    year = __import__("datetime").date.today().year
+    tg = [by_id[i] for i in ("roast-turkey", "gravy", "stuffing", "mashed-potatoes", "green-bean-casserole",
+          "sweet-potato-casserole", "roasted-vegetables", "dinner-rolls", "texas-roadhouse-rolls",
+          "cinnamon-honey-butter", "pumpkin-pie", "apple-pie", "pie-crust") if i in by_id]
+    tg_intro = ("The whole dinner, one recipe per dish, no ads. The plan, worked backwards from the recipes on this page:"
+        "</p>\n      <ol class=\"plan\">"
+        "<li><strong>Saturday before:</strong> frozen turkey into the fridge. It thaws about 1 day per 3-4 lb, so a 10 lb bird needs 3 days.</li>"
+        "<li><strong>Tuesday:</strong> <a href=\"/recipes/roast-turkey/\">dry-brine the turkey</a>. It needs 2 days in the fridge.</li>"
+        "<li><strong>Wednesday:</strong> <a href=\"/recipes/pie-crust/\">pie crust</a> and <a href=\"/recipes/pumpkin-pie/\">pumpkin pie</a>; both need chilling time. Dry the bread for <a href=\"/recipes/stuffing/\">stuffing</a>.</li>"
+        "<li><strong>Thursday, about 3 hours before dinner:</strong> turkey out of the fridge for 30 minutes, then about 1 hr 45 min in the oven for a 10 lb bird, then a 30-minute rest. The rest is when the stuffing and casseroles get the oven.</li>"
+        "<li><strong>Last 30 minutes:</strong> <a href=\"/recipes/gravy/\">gravy</a> from the drippings. <a href=\"/recipes/mashed-potatoes/\">Mashed potatoes</a> hold up to 2 hours on warm in a slow cooker.</li>"
+        "</ol>\n      <p class=\"intro\">Every recipe below links straight to ingredients and steps.")
+    write_page("thanksgiving", "Thanksgiving Recipes", "Thanksgiving Recipes %d: Turkey, Sides, Pies and a Plan" % year,
+        "A complete Thanksgiving dinner with no ads: dry-brined turkey, gravy, stuffing, mashed potatoes, casseroles, rolls and pie, plus a day-by-day plan.",
+        tg_intro, tg, crumb="thanksgiving")
+    xm = [by_id[i] for i in ("glazed-ham", "mashed-potatoes", "green-bean-casserole", "gravy", "dinner-rolls",
+          "breakfast-casserole", "cinnamon-rolls", "french-toast", "sugar-cookies", "snickerdoodles",
+          "chocolate-chip-cookies", "peanut-butter-cookies", "brownies") if i in by_id]
+    write_page("christmas", "Christmas Recipes", "Christmas Recipes %d: Ham, Sides, Breakfast and Cookies" % year,
+        "Christmas dinner, Christmas morning and the cookie tray, with no ads: glazed ham, sides, cinnamon rolls, breakfast casserole and cookies.",
+        "Christmas dinner, Christmas morning and the cookie tray. Glazed ham is the centerpiece.", xm, crumb="christmas")
 
     print("\nDone. Run 'python3 build.py' FIRST when you add recipes (it enriches index.json with times).")
 

@@ -17,8 +17,8 @@ Prep: 5 min · Cook: 1 hr · Serves: 4
 3. Truss the legs: tie them together with kitchen twine. Tuck wing tips under the body.
 4. Season generously with salt and pepper from about 1 foot above the bird (for even coverage). Season inside the cavity too.
 5. Place chicken breast-side up in cast iron skillet or roasting pan. No rack needed.
-6. Roast 50-60 minutes. DO NOT BASTE. Do not open the oven door. Basting creates steam and prevents crispy skin.
-7. Chicken is done when thigh reaches 165°F (or when juices run clear when thigh is pierced).
+6. Roast 50-60 minutes. DO NOT BASTE. Keep the door shut until 45 minutes, then check the temperature quickly. Basting creates steam and prevents crispy skin.
+7. Chicken is done when the thickest part of the thigh reads at least 165°F (175°F is better for dark meat). Juice color is not a reliable test.
 8. Rest 15 minutes before carving. The juices need to redistribute.
 
 ## Notes

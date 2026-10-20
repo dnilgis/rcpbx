@@ -29,7 +29,7 @@ Prep: 10 min · Cook: 12 min · Serves: 8
 - The bread: French baguette, Italian loaf, or ciabatta all work. Use day-old bread for extra crunch.
 - Garlic options: Roasted garlic for a milder, sweeter flavor. Raw for more punch.
 - Cheesy version: Add mozzarella on top for the last 3 minutes of baking.
-- Make ahead: Prepare garlic butter up to 1 week ahead. Refrigerate.
+- Make ahead: garlic butter keeps up to 4 days refrigerated, or 3 months frozen.
 - Freezer friendly: Spread butter on bread and freeze. Bake from frozen, adding a few minutes.
 
 Source: Adapted from RecipeTin Eats

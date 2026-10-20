@@ -16,10 +16,10 @@ Serves: 4-6
 
 1. Preheat oven to 425°F.
 2. Cut vegetables into similar sizes.
-3. Toss with oil, garlic, herbs, salt, pepper.
+3. Toss with oil, herbs, salt and pepper (garlic goes in later).
 4. Spread in single layer on baking sheet. Don't crowd.
 5. Roast 20 minutes. Stir.
-6. Continue roasting until browned and tender, 15-25 more minutes.
+6. Continue roasting until browned and tender, 15-25 more minutes, adding the garlic for the last 5 minutes.
 
 ## Notes
 

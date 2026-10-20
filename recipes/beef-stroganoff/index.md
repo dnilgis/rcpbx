@@ -25,7 +25,7 @@ Serves: 4
 2. Add remaining butter and mushrooms. Brown 8 minutes. Add onion, cook 5 minutes.
 3. Add garlic, 30 seconds. Add brandy, scrape up bits.
 4. Add broth, reduce by half, about 5 minutes.
-5. Reduce heat. Stir in sour cream and mustard.
+5. Remove from heat. Stir in sour cream and mustard.
 6. Return beef and juices. Heat through.
 7. Serve over egg noodles with parsley.
 
