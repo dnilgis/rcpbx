@@ -1,0 +1,47 @@
+# Grandma Jane's Cornbread, Sausage & Pear Stuffing
+
+Cornbread, sausage and pear. Enough for a 15-pound bird.
+
+Prep: 30 min · Cook: 1 hr 30 min · Makes: 15 cups
+
+## Ingredients
+
+- 2 packages cornbread mix, 10 oz each, baked according to package directions, cooled and cut in 1-inch pieces
+- 1 package sweet Italian-style turkey sausage links, 16 oz, removed from casings
+- 1/4 cup butter
+- 1 3/4 cups chopped onions
+- 1 1/2 cups chopped celery
+- 1 lb ripe pears, peeled, cored and cut in 1-inch chunks (3 cups)
+- 1/2 cup chopped fresh parsley
+- 1 tsp dried thyme
+- 1 tsp dried sage leaves
+- 1 tsp salt
+- 1/2 tsp pepper
+- 1/3 cup chicken broth
+
+## Steps
+
+1. Heat the oven to 350°F (175°C).
+2. Spread the cornbread pieces on a cookie sheet and bake 20 minutes, stirring twice, until lightly browned. Cool to room temperature.
+3. Meanwhile, in a large deep skillet, cook the sausage over medium-high heat, breaking up chunks, until browned with no pink left. Lift it out with a slotted spoon into a large bowl. Pour off the grease, leaving a thin film in the pan.
+4. Melt the butter with the drippings over medium heat. Add the onion and celery and cook 5-7 minutes, until crisp-tender.
+5. Add the cornbread, pears, parsley, thyme, sage, salt and pepper to the sausage. Toss gently to mix.
+6. Add the onion and celery, sprinkle with the broth, and toss to mix well.
+7. Spoon into a buttered casserole and cover with foil. Bake 30 minutes covered, then uncover and bake about 15 minutes more, until the top is crisp and the center reads 165°F (74°C).
+
+## Notes
+
+- The family card ends at "spoon into casserole" with no bake time. The bake in the last step is the rcpbx stuffing method (350°F, covered then uncovered, to 165°F in the center).
+- If you stuff the turkey instead, pack it loosely and check the stuffing itself with a thermometer: it must reach 165°F in the center, which often means the breast overcooks. Baking it in the dish is the safer route.
+- 1/3 cup broth makes a crumbly, dry-style stuffing. If you like it moist, add more broth a splash at a time before it goes in the oven.
+- Use ripe but firm pears. Soft ones turn to mush in the toss.
+- Turkey sausage gives off little fat. If the pan is dry after browning, the butter alone is enough.
+
+## When it goes wrong
+
+- Soggy, pasty stuffing → cornbread not toasted dry, or tossed too hard; toast the full 20 minutes and fold gently.
+- Dry and crumbly → normal with 1/3 cup broth; add broth before baking, or bake covered longer.
+- Pears fell apart → too ripe; use firm-ripe pears and add them in the last toss.
+
+Source: Adapted from Grandma Jane's recipe card
+Canonical: https://rcpbx.com/recipes/cornbread-sausage-pear-stuffing/

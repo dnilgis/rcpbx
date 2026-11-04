@@ -1,0 +1,39 @@
+{
+  "id": "irish-bread",
+  "title": "Irish Bread",
+  "tagline": "Graham flour, buttermilk, an X on top. No yeast, no waiting.",
+  "description": "A family-card Irish soda bread made with graham flour and buttermilk: mix, knead briefly on a floured cloth, cut an X and bake 45 minutes. One round loaf, no yeast.",
+  "category": "Basics",
+  "categorySlug": "basics",
+  "prep": "10 min",
+  "cook": "45 min",
+  "makes": "1 round loaf",
+  "ingredients": [
+    "2 cups graham flour",
+    "1 cup white flour, plus a lot more for the cloth",
+    "1 tsp baking soda",
+    "1 tsp salt",
+    "2 cups buttermilk, shaken"
+  ],
+  "steps": [
+    "Heat the oven to 375°F (190°C). Grease a round baking pan.",
+    "Thoroughly mix the graham flour, white flour, baking soda and salt.",
+    "Add the buttermilk and mix until all the batter is wet.",
+    "Flour a pastry cloth with a lot of flour. Turn the dough onto it and sprinkle more flour over the top. Knead just until it holds together, then place it in the pan.",
+    "Cut an X on top with a knife.",
+    "Bake 45 minutes, until browned and the bottom sounds hollow when tapped."
+  ],
+  "notes": [
+    "The dough is wet and sticky. That's why the card says a lot of flour on the cloth. Use it, and knead only a few turns.",
+    "Graham flour is coarse whole-wheat flour. Plain whole-wheat flour works if you can't find it.",
+    "Soda bread starts rising the moment the buttermilk hits the soda. Get it in the oven right away.",
+    "Best the day it's made. Toast it after that."
+  ],
+  "troubleshooting": [
+    "Dense, tough loaf → kneaded too long; a few turns only.",
+    "Flat and spread out → dough too wet for the pan, or sat too long before baking; flour the outside well and bake immediately.",
+    "Soapy or metallic taste → soda not mixed through; whisk the dry ingredients thoroughly first."
+  ],
+  "source": "Adapted from a family recipe card",
+  "sourceUrl": ""
+}

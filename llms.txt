@@ -1,6 +1,6 @@
 # rcpbx — the recipe box
 
-> 167 recipes (19 tested by rcpbx so far; every other page says plainly that it is adapted or untested) with no ads, no life stories, no popups. Every recipe is ingredients,
+> 172 recipes (19 tested by rcpbx so far; every other page says plainly that it is adapted or untested) with no ads, no life stories, no popups. Every recipe is ingredients,
 > steps, notes, and troubleshooting — nothing else. All data is open JSON.
 
 - Canonical site: https://rcpbx.com
@@ -54,6 +54,7 @@
 - [Hollandaise Sauce](https://rcpbx.com/recipes/hollandaise/): The silky, lemony butter sauce that makes eggs Benedict legendary.
 - [Homemade Bread](https://rcpbx.com/recipes/homemade-bread/): Crusty outside, soft inside
 - [Hot Honey](https://rcpbx.com/recipes/hot-honey/): Sweet heat that goes on everything. The condiment that defined 2025.
+- [Irish Bread](https://rcpbx.com/recipes/irish-bread/): Graham flour, buttermilk, an X on top. No yeast, no waiting.
 - [Marinara Sauce](https://rcpbx.com/recipes/marinara-sauce/): Marcella Hazan's legendary 3-ingredient sauce. Simplicity perfected.
 - [Pizza Dough](https://rcpbx.com/recipes/pizza-dough/): Chewy, crispy, restaurant quality
 - [Ranch Dressing](https://rcpbx.com/recipes/ranch-dressing/): Homemade ranch destroys bottled. Creamy, herby, and ready in 5 minutes.
@@ -161,18 +162,21 @@
 - [Baked Potato](https://rcpbx.com/recipes/baked-potato/): Crispy skin, fluffy interior
 - [Bruschetta](https://rcpbx.com/recipes/bruschetta/): Grilled bread. Fresh tomatoes. Peak summer on toast.
 - [Caesar Salad](https://rcpbx.com/recipes/caesar-salad/): Homemade dressing, real anchovies, no compromises.
+- [Caesar Salad a la Paul Corbin](https://rcpbx.com/recipes/caesar-salad-paul-corbin/): The card admits it's a little vague. Anchovies, a coddled egg, no bottle.
 - [Caprese Salad](https://rcpbx.com/recipes/caprese-salad/): Tomato, mozzarella, basil. The holy trinity.
 - [Coleslaw](https://rcpbx.com/recipes/coleslaw/): Creamy, tangy, classic BBQ side
 - [Corn on the Cob](https://rcpbx.com/recipes/corn-on-the-cob/): Summer in a bite. Three ways: boiled, grilled, or roasted.
 - [Deviled Eggs](https://rcpbx.com/recipes/deviled-eggs/): The party appetizer that disappears first. Every. Single. Time.
 - [Dinner Rolls](https://rcpbx.com/recipes/dinner-rolls/): Soft, buttery, pull-apart
 - [Garlic Bread](https://rcpbx.com/recipes/garlic-bread/): Buttery, garlicky, and crispy on the outside. The perfect side for pasta night.
+- [Grandma Jane's Cornbread, Sausage & Pear Stuffing](https://rcpbx.com/recipes/cornbread-sausage-pear-stuffing/): Cornbread, sausage and pear. Enough for a 15-pound bird.
 - [Greek Salad](https://rcpbx.com/recipes/greek-salad/): Horiatiki - the real deal, no lettuce required.
 - [Green Bean Casserole](https://rcpbx.com/recipes/green-bean-casserole/): Creamy, crunchy, holiday favorite
 - [Italian Pasta Salad](https://rcpbx.com/recipes/pasta-salad/): The potluck MVP. Better the next day.
 - [Macaroni Salad](https://rcpbx.com/recipes/macaroni-salad/): Creamy, tangy, picnic classic
 - [Mashed Potatoes](https://rcpbx.com/recipes/mashed-potatoes/): Creamy, buttery, never gluey. One crucial tip makes the difference.
 - [Potato Salad](https://rcpbx.com/recipes/potato-salad/): Creamy, classic American style
+- [Really Good Pasta Salad](https://rcpbx.com/recipes/really-good-pasta-salad/): Fettuccine, broccoli, mozzarella, pine nuts. Double the dressing if it sits overnight.
 - [Rice Pilaf](https://rcpbx.com/recipes/rice-pilaf/): Buttery, toasted, fluffy
 - [Roasted Vegetables](https://rcpbx.com/recipes/roasted-vegetables/): Caramelized, tender, versatile
 - [Smashed Cucumber Salad](https://rcpbx.com/recipes/cucumber-salad/): The viral crunchy, garlicky, spicy cucumber situation.
@@ -190,6 +194,7 @@
 - [Chicken Tortilla Soup](https://rcpbx.com/recipes/chicken-tortilla-soup/): Smoky, spicy, with crispy tortilla strips
 - [Chili by George](https://rcpbx.com/recipes/chili-by-george/): Reliable weeknight chili. Stovetop or slow cooker.
 - [French Onion Soup](https://rcpbx.com/recipes/french-onion-soup/): Rich caramelized onions, beefy broth, bubbly Gruyère
+- [Jake's Oyster Stew](https://rcpbx.com/recipes/jakes-oyster-stew/): Oysters, butter, milk. Edges curl, then it's done.
 - [Loaded Baked Potato Soup](https://rcpbx.com/recipes/potato-soup/): All the toppings, in soup form
 - [Minestrone](https://rcpbx.com/recipes/minestrone/): Hearty Italian vegetable soup
 - [New England Clam Chowder](https://rcpbx.com/recipes/clam-chowder/): Creamy, briny, and loaded with clams and potatoes. The real deal.

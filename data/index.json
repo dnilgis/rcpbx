@@ -332,6 +332,15 @@
     "tested": "2026-07"
   },
   {
+    "id": "caesar-salad-paul-corbin",
+    "title": "Caesar Salad a la Paul Corbin",
+    "tagline": "The card admits it's a little vague. Anchovies, a coddled egg, no bottle.",
+    "category": "Sides",
+    "categorySlug": "sides",
+    "prep": "15 min",
+    "serves": "4"
+  },
+  {
     "id": "caprese-salad",
     "title": "Caprese Salad",
     "tagline": "Tomato, mozzarella, basil. The holy trinity.",
@@ -601,6 +610,16 @@
     "serves": "8"
   },
   {
+    "id": "cornbread-sausage-pear-stuffing",
+    "title": "Grandma Jane's Cornbread, Sausage & Pear Stuffing",
+    "tagline": "Cornbread, sausage and pear. Enough for a 15-pound bird.",
+    "category": "Sides",
+    "categorySlug": "sides",
+    "prep": "30 min",
+    "cook": "1 hr 30 min",
+    "makes": "15 cups"
+  },
+  {
     "id": "cottage-cheese-flatbread",
     "title": "Cottage Cheese Flatbread",
     "tagline": "The viral flourless version: cottage cheese, eggs, an oven.",
@@ -854,6 +873,26 @@
     "prep": "5 min",
     "cook": "10 min",
     "makes": "1 cup"
+  },
+  {
+    "id": "irish-bread",
+    "title": "Irish Bread",
+    "tagline": "Graham flour, buttermilk, an X on top. No yeast, no waiting.",
+    "category": "Basics",
+    "categorySlug": "basics",
+    "prep": "10 min",
+    "cook": "45 min",
+    "makes": "1 round loaf"
+  },
+  {
+    "id": "jakes-oyster-stew",
+    "title": "Jake's Oyster Stew",
+    "tagline": "Oysters, butter, milk. Edges curl, then it's done.",
+    "category": "Soups & Stews",
+    "categorySlug": "soups-stews",
+    "prep": "5 min",
+    "cook": "15 min",
+    "makes": "about 2 1/2 quarts"
   },
   {
     "id": "jorgens-curry-chicken-asparagus",
@@ -1196,6 +1235,16 @@
     "prep": "10 min",
     "cook": "0 min",
     "makes": "1.5 cups"
+  },
+  {
+    "id": "really-good-pasta-salad",
+    "title": "Really Good Pasta Salad",
+    "tagline": "Fettuccine, broccoli, mozzarella, pine nuts. Double the dressing if it sits overnight.",
+    "category": "Sides",
+    "categorySlug": "sides",
+    "prep": "20 min",
+    "cook": "15 min",
+    "serves": "4"
   },
   {
     "id": "rice-krispie-treats",

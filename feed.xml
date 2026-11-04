@@ -6,7 +6,42 @@
     <description>Recipes that work. No life stories. No ads. Viral recipes cooked and given a verdict.</description>
     <language>en-us</language>
     <atom:link href="https://rcpbx.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 20 Oct 2026 14:45:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 18:47:36 +0000</lastBuildDate>
+    <item>
+      <title>Jake&#x27;s Oyster Stew</title>
+      <link>https://rcpbx.com/recipes/jakes-oyster-stew/</link>
+      <guid>https://rcpbx.com/recipes/jakes-oyster-stew/</guid>
+      <description>Oysters, butter, milk. Edges curl, then it&#x27;s done.</description>
+      <pubDate>Wed, 04 Nov 2026 18:47:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Irish Bread</title>
+      <link>https://rcpbx.com/recipes/irish-bread/</link>
+      <guid>https://rcpbx.com/recipes/irish-bread/</guid>
+      <description>Graham flour, buttermilk, an X on top. No yeast, no waiting.</description>
+      <pubDate>Wed, 04 Nov 2026 18:47:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Caesar Salad a la Paul Corbin</title>
+      <link>https://rcpbx.com/recipes/caesar-salad-paul-corbin/</link>
+      <guid>https://rcpbx.com/recipes/caesar-salad-paul-corbin/</guid>
+      <description>The card admits it&#x27;s a little vague. Anchovies, a coddled egg, no bottle.</description>
+      <pubDate>Wed, 04 Nov 2026 18:47:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Really Good Pasta Salad</title>
+      <link>https://rcpbx.com/recipes/really-good-pasta-salad/</link>
+      <guid>https://rcpbx.com/recipes/really-good-pasta-salad/</guid>
+      <description>Fettuccine, broccoli, mozzarella, pine nuts. Double the dressing if it sits overnight.</description>
+      <pubDate>Wed, 04 Nov 2026 18:47:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grandma Jane&#x27;s Cornbread, Sausage &amp; Pear Stuffing</title>
+      <link>https://rcpbx.com/recipes/cornbread-sausage-pear-stuffing/</link>
+      <guid>https://rcpbx.com/recipes/cornbread-sausage-pear-stuffing/</guid>
+      <description>Cornbread, sausage and pear. Enough for a 15-pound bird.</description>
+      <pubDate>Wed, 04 Nov 2026 18:47:36 +0000</pubDate>
+    </item>
     <item>
       <title>Stuffed Pepper Soup</title>
       <link>https://rcpbx.com/recipes/stuffed-pepper-soup/</link>
@@ -181,41 +216,6 @@
       <guid>https://rcpbx.com/recipes/air-fryer-chicken-thighs/</guid>
       <description>Crispy skin, juicy meat, 25 minutes.</description>
       <pubDate>Sat, 11 Jul 2026 22:42:55 -0500</pubDate>
-    </item>
-    <item>
-      <title>Zucchini Bread</title>
-      <link>https://rcpbx.com/recipes/zucchini-bread/</link>
-      <guid>https://rcpbx.com/recipes/zucchini-bread/</guid>
-      <description>Moist, lightly spiced, and the best way to use summer&#x27;s zucchini overflow.</description>
-      <pubDate>Sat, 11 Jul 2026 22:12:58 -0500</pubDate>
-    </item>
-    <item>
-      <title>Teriyaki Chicken</title>
-      <link>https://rcpbx.com/recipes/teriyaki-chicken/</link>
-      <guid>https://rcpbx.com/recipes/teriyaki-chicken/</guid>
-      <description>Homemade teriyaki sauce beats bottled every time. Sweet, salty, and glossy.</description>
-      <pubDate>Sat, 11 Jul 2026 22:12:58 -0500</pubDate>
-    </item>
-    <item>
-      <title>Sweet Potato Casserole</title>
-      <link>https://rcpbx.com/recipes/sweet-potato-casserole/</link>
-      <guid>https://rcpbx.com/recipes/sweet-potato-casserole/</guid>
-      <description>Is it a side dish or dessert? Yes. The Thanksgiving essential.</description>
-      <pubDate>Sat, 11 Jul 2026 22:12:58 -0500</pubDate>
-    </item>
-    <item>
-      <title>Snickerdoodles</title>
-      <link>https://rcpbx.com/recipes/snickerdoodles/</link>
-      <guid>https://rcpbx.com/recipes/snickerdoodles/</guid>
-      <description>Soft, chewy, and rolled in cinnamon sugar. The cookie that hugs you back.</description>
-      <pubDate>Sat, 11 Jul 2026 22:12:58 -0500</pubDate>
-    </item>
-    <item>
-      <title>Shakshuka</title>
-      <link>https://rcpbx.com/recipes/shakshuka/</link>
-      <guid>https://rcpbx.com/recipes/shakshuka/</guid>
-      <description>Eggs poached in spiced tomato sauce. One skillet, all the flavor.</description>
-      <pubDate>Sat, 11 Jul 2026 22:12:18 -0500</pubDate>
     </item>
   </channel>
 </rss>

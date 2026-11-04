@@ -1,4 +1,4 @@
-# rcpbx — full recipe corpus (167 of 167 recipes with full data in this build)
+# rcpbx — full recipe corpus (172 of 172 recipes with full data in this build)
 # License: free to quote with attribution to rcpbx.com
 
 # Spaghetti Aglio e Olio
@@ -1495,6 +1495,51 @@ Canonical: https://rcpbx.com/recipes/caesar-salad/
 
 ---
 
+# Caesar Salad a la Paul Corbin
+
+The card admits it's a little vague. Anchovies, a coddled egg, no bottle.
+
+Prep: 15 min · Serves: 4
+
+## Ingredients
+
+- 1 can anchovies
+- 1 clove garlic
+- 2 Tbsp olive oil
+- 2 Tbsp Mazola (corn) oil
+- 2 Tbsp lemon juice
+- 1 coddled egg
+- 2 bunches romaine lettuce, washed and dried
+- Parmesan cheese, freshly grated
+- Croutons
+
+## Steps
+
+1. Coddle the egg: lower it, in the shell, into boiling water for 1 minute, then run it under cold water.
+2. In the salad bowl, mash the anchovies and garlic to a fine texture.
+3. Add both oils and the lemon juice and stir with a wooden spoon. Crack in the coddled egg and stir until creamy.
+4. Add the romaine and sprinkle with Parmesan.
+5. Mix gently and add the croutons.
+
+## Notes
+
+- The card lists olive oil and Mazola oil but only mentions olive oil in the steps. Both go in.
+- The card doesn't say how to coddle. One minute in boiling water is the standard method: the white just starts to set, the yolk stays raw.
+- A coddled egg is mostly raw. For kids, pregnancy, older people or anyone with a weak immune system, use a pasteurized egg.
+- The romaine has to be completely dry or the dressing slides off.
+- A whole can of anchovies is a lot. That's the point of this one.
+
+## When it goes wrong
+
+- Thin, watery dressing → wet lettuce; spin or towel it dry.
+- Gritty anchovy bits → not mashed enough; mash to a paste before the oil goes in.
+- Soggy croutons → added too early; they go on last, right before serving.
+
+Source: Adapted from a family recipe card (a la Paul Corbin)
+Canonical: https://rcpbx.com/recipes/caesar-salad-paul-corbin/
+
+---
+
 # Caprese Salad
 
 Tomato, mozzarella, basil. The holy trinity.
@@ -2683,6 +2728,56 @@ Canonical: https://rcpbx.com/recipes/cornbread/
 
 ---
 
+# Grandma Jane's Cornbread, Sausage & Pear Stuffing
+
+Cornbread, sausage and pear. Enough for a 15-pound bird.
+
+Prep: 30 min · Cook: 1 hr 30 min · Makes: 15 cups
+
+## Ingredients
+
+- 2 packages cornbread mix, 10 oz each, baked according to package directions, cooled and cut in 1-inch pieces
+- 1 package sweet Italian-style turkey sausage links, 16 oz, removed from casings
+- 1/4 cup butter
+- 1 3/4 cups chopped onions
+- 1 1/2 cups chopped celery
+- 1 lb ripe pears, peeled, cored and cut in 1-inch chunks (3 cups)
+- 1/2 cup chopped fresh parsley
+- 1 tsp dried thyme
+- 1 tsp dried sage leaves
+- 1 tsp salt
+- 1/2 tsp pepper
+- 1/3 cup chicken broth
+
+## Steps
+
+1. Heat the oven to 350°F (175°C).
+2. Spread the cornbread pieces on a cookie sheet and bake 20 minutes, stirring twice, until lightly browned. Cool to room temperature.
+3. Meanwhile, in a large deep skillet, cook the sausage over medium-high heat, breaking up chunks, until browned with no pink left. Lift it out with a slotted spoon into a large bowl. Pour off the grease, leaving a thin film in the pan.
+4. Melt the butter with the drippings over medium heat. Add the onion and celery and cook 5-7 minutes, until crisp-tender.
+5. Add the cornbread, pears, parsley, thyme, sage, salt and pepper to the sausage. Toss gently to mix.
+6. Add the onion and celery, sprinkle with the broth, and toss to mix well.
+7. Spoon into a buttered casserole and cover with foil. Bake 30 minutes covered, then uncover and bake about 15 minutes more, until the top is crisp and the center reads 165°F (74°C).
+
+## Notes
+
+- The family card ends at "spoon into casserole" with no bake time. The bake in the last step is the rcpbx stuffing method (350°F, covered then uncovered, to 165°F in the center).
+- If you stuff the turkey instead, pack it loosely and check the stuffing itself with a thermometer: it must reach 165°F in the center, which often means the breast overcooks. Baking it in the dish is the safer route.
+- 1/3 cup broth makes a crumbly, dry-style stuffing. If you like it moist, add more broth a splash at a time before it goes in the oven.
+- Use ripe but firm pears. Soft ones turn to mush in the toss.
+- Turkey sausage gives off little fat. If the pan is dry after browning, the butter alone is enough.
+
+## When it goes wrong
+
+- Soggy, pasty stuffing → cornbread not toasted dry, or tossed too hard; toast the full 20 minutes and fold gently.
+- Dry and crumbly → normal with 1/3 cup broth; add broth before baking, or bake covered longer.
+- Pears fell apart → too ripe; use firm-ripe pears and add them in the last toss.
+
+Source: Adapted from Grandma Jane's recipe card
+Canonical: https://rcpbx.com/recipes/cornbread-sausage-pear-stuffing/
+
+---
+
 # Cottage Cheese Flatbread
 
 The viral flourless version: cottage cheese, eggs, an oven.
@@ -3776,6 +3871,89 @@ Prep: 5 min · Cook: 10 min · Makes: 1 cup
 
 Source: Adapted from Serious Eats
 Canonical: https://rcpbx.com/recipes/hot-honey/
+
+---
+
+# Irish Bread
+
+Graham flour, buttermilk, an X on top. No yeast, no waiting.
+
+Prep: 10 min · Cook: 45 min · Makes: 1 round loaf
+
+## Ingredients
+
+- 2 cups graham flour
+- 1 cup white flour, plus a lot more for the cloth
+- 1 tsp baking soda
+- 1 tsp salt
+- 2 cups buttermilk, shaken
+
+## Steps
+
+1. Heat the oven to 375°F (190°C). Grease a round baking pan.
+2. Thoroughly mix the graham flour, white flour, baking soda and salt.
+3. Add the buttermilk and mix until all the batter is wet.
+4. Flour a pastry cloth with a lot of flour. Turn the dough onto it and sprinkle more flour over the top. Knead just until it holds together, then place it in the pan.
+5. Cut an X on top with a knife.
+6. Bake 45 minutes, until browned and the bottom sounds hollow when tapped.
+
+## Notes
+
+- The dough is wet and sticky. That's why the card says a lot of flour on the cloth. Use it, and knead only a few turns.
+- Graham flour is coarse whole-wheat flour. Plain whole-wheat flour works if you can't find it.
+- Soda bread starts rising the moment the buttermilk hits the soda. Get it in the oven right away.
+- Best the day it's made. Toast it after that.
+
+## When it goes wrong
+
+- Dense, tough loaf → kneaded too long; a few turns only.
+- Flat and spread out → dough too wet for the pan, or sat too long before baking; flour the outside well and bake immediately.
+- Soapy or metallic taste → soda not mixed through; whisk the dry ingredients thoroughly first.
+
+Source: Adapted from a family recipe card
+Canonical: https://rcpbx.com/recipes/irish-bread/
+
+---
+
+# Jake's Oyster Stew
+
+Oysters, butter, milk. Edges curl, then it's done.
+
+Prep: 5 min · Cook: 15 min · Makes: about 2 1/2 quarts
+
+## Ingredients
+
+- 4 Tbsp flour
+- 3 tsp salt
+- 2 tsp Worcestershire sauce
+- 4 Tbsp water
+- 1 pint shucked oysters, drained and washed
+- 1/2 cup butter
+- 2 quarts milk
+- Celery salt, to taste
+
+## Steps
+
+1. In a soup kettle, blend the flour, salt, Worcestershire and 4 Tbsp water into a smooth paste.
+2. Add the oysters and butter. Simmer over very low heat 3-4 minutes, stirring gently, until the edges of the oysters curl.
+3. Add the milk and heat, stirring, until steaming hot. Keep it below a boil.
+4. Add celery salt to taste. Serve hot.
+
+## Notes
+
+- Curled edges are the doneness signal. Past that, oysters go rubbery fast, so get the milk in right away.
+- Don't let the milk boil. It can scorch on the bottom or break, and the oysters toughen.
+- The card drains and washes the oysters. If you want a stronger oyster flavor, strain the liquor and add it with the milk.
+- 3 tsp salt is the card's amount for 2 quarts of milk. Start with 2 and taste before the celery salt goes in if your butter is salted.
+
+## When it goes wrong
+
+- Rubbery oysters → cooked too long before the milk; pull at the first curl.
+- Grainy or split stew → milk boiled; keep it at a steam, not a bubble.
+- Lumps of flour → paste not smooth before the oysters went in; whisk the flour and water first.
+
+Source: Adapted from Jake's recipe card
+Canonical: https://rcpbx.com/recipes/jakes-oyster-stew/
 
 ---
 
@@ -5271,6 +5449,52 @@ Prep: 10 min · Cook: 0 min · Makes: 1.5 cups
 
 Source: Adapted from The Pioneer Woman
 Canonical: https://rcpbx.com/recipes/ranch-dressing/
+
+---
+
+# Really Good Pasta Salad
+
+Fettuccine, broccoli, mozzarella, pine nuts. Double the dressing if it sits overnight.
+
+Prep: 20 min · Cook: 15 min · Serves: 4
+
+## Ingredients
+
+- 1 lb fettuccine
+- 1 large red pepper, seeded and finely chopped
+- 2 cups fresh broccoli florets, separated
+- 1 lb fresh mozzarella, coarsely chopped
+- 1/2 cup pine nuts, toasted
+**The vinaigrette:**
+- 3 Tbsp Dijon mustard
+- 3 Tbsp freshly squeezed lemon juice
+- 4 large cloves garlic, minced
+- 1/2 cup olive oil
+- Salt and freshly ground pepper, to taste
+
+## Steps
+
+1. Make the vinaigrette: combine the mustard, lemon juice and garlic in a bowl. Add the oil slowly, in a steady stream, whisking constantly. Season with salt and pepper.
+2. Lightly blanch the red pepper and broccoli in separate batches of boiling water. Drain and rinse under cold running water. The vegetables should stay crisp.
+3. Cook the pasta in 6 to 8 quarts of boiling salted water, 1-2 minutes for fresh fettuccine or to package time for dried. Drain well in a colander.
+4. To serve now: toss the pasta with the vegetables, cheese, pine nuts and vinaigrette.
+5. To serve tomorrow: make a double batch of vinaigrette. Toss the pasta with the vegetables and half the vinaigrette, cover and refrigerate. Right before serving, toss with the rest of the vinaigrette, then the cheese and pine nuts.
+
+## Notes
+
+- The card says the pasta drinks up the dressing overnight. That's why the make-ahead version doubles the vinaigrette and holds half back.
+- The card's 1-2 minute cook time is for fresh fettuccine. Dried fettuccine takes much longer; follow the package.
+- Toast pine nuts in a dry skillet over medium-low, shaking often. They go from golden to burnt in seconds.
+- Long fettuccine is hard to serve in a salad. Break it in half before cooking if you like.
+
+## When it goes wrong
+
+- Dry, bland next-day salad → pasta absorbed the dressing; add the held-back vinaigrette right before serving.
+- Vinaigrette separated → oil added too fast; whisk in a spoon of mustard and drizzle again.
+- Soft, grey broccoli → blanched too long; a quick dip, then cold water.
+
+Source: Adapted from a family recipe card
+Canonical: https://rcpbx.com/recipes/really-good-pasta-salad/
 
 ---
 
